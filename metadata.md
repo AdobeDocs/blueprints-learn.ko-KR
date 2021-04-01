@@ -1,5 +1,5 @@
 ---
-cloud: experience-platform
+cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
 type: 자습서
@@ -7,10 +7,10 @@ mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/blueprints-learn.ko-KR
 index: true
 translation-type: tm+mt
-source-git-commit: e40357fa0335f07100772c73654097c1fab771a1
+source-git-commit: 643ffe3730e0aa6cb9c859154a4f2c725cb1099d
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 57%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
