@@ -1,11 +1,11 @@
 ---
 title: 프로파일 데이터 활용 청사진을 위한 맞춤형 데이터 과학
 description: 이 블루프린트는 Adobe Experience Platform의 데이터 과학 작업 영역에서 Experience Platform 내의 데이터를 사용하여 모델을 트레이닝, 배포 및 점수로 지정하여 데이터를 통해 머신 러닝 인사이트를 제공하는 방법을 보여줍니다.
-solution: Experience Platform, Data Collection
+solution: Experience Platform,Data Collection
 kt: 7203
-exl-id: f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
+exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
+source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
