@@ -4,7 +4,7 @@ description: Digital Experience Blueprint는 전략을 해결하고 설정된 �
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
+source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 �
 * **[고객 활동 허브 블루프린트](/help/blueprints/audience-activation/customer-activity.md)**
 
    *에이전트 지원 지원 및 영업에 대한 컨텍스트를 제공합니다.*
-* **[엔터프라이즈 데이터 탐색 및 보고 블루프린트](/help/blueprints/data-exploration/overview.md)**
+* **[엔터프라이즈 데이터 탐색 및 보고 블루프린트](/help/blueprints/data-insights/overview.md)**
 
    *데이터 레이크에서 데이터를 탐색적 쿼리와 분석합니다.*
 * **[Customer Journey Analytics 블루프린트](/help/blueprints/customer-journey-analytics/overview.md)**
