@@ -3,15 +3,14 @@ title: 온라인/오프라인 웹 개인화 시나리오
 description: 이메일 및 기타 알려진 익명의 채널 개인화와 웹 개인화를 동기화할 수 있습니다.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9b6c220a515c5abae22b58fe33558d7d2fed375d
+source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
-
-
 
 # 온라인/오프라인 웹 개인화 시나리오
 
@@ -36,10 +35,10 @@ ht-degree: 0%
 
 ## 가드레일
 
-* 스트리밍 또는 일괄 평가 방법을 통해 Experience Platform에서 Audience Manager으로 공유되는 세그먼트는 세그먼트 구현 후 몇 분 이내에 공유됩니다. AEP 세그먼트 멤버십이 AAM 프로필에서 구현되기 시작하는 데 약 4시간의 AEP와 AAM 간에 초기 세그먼트 구성 동기화가 있습니다. AAM 프로파일에 포함되면 Adobe Target을 통해 동일한 페이지 개인화를 위해 AEP 세그먼트 멤버십을 사용할 수 있습니다.
-* AEP와 AAM 간에 4시간 세그먼트 구성 동기화 내에서 발생하는 세그먼트 재할당의 경우 이러한 세그먼트 재정의가 후속 배치 세그먼트 작업에서 &quot;기존&quot; 세그먼트로 AAM에 실현됩니다.
-* AEP에서 일괄 세그먼트 공유 - 하루에 한 번 또는 API를 통해 수동으로 시작 이러한 세그먼트 멤버십이 실현되면 몇 분 내에 AAM에 공유되고 Target에서 동일/다음 페이지 개인화를 위해 사용할 수 있습니다.
-* 스트리밍 세그먼테이션은 ~ p95 5분 이내에 실현됩니다. 이러한 세그먼트 조정이 발생하면 몇 분 내에 AAM에 공유되고 Target에서 동일한/다음 페이지 개인화에 사용할 수 있습니다.
+* 스트리밍 또는 일괄 평가 방법을 통해 Experience Platform에서 Audience Manager으로 공유되는 세그먼트는 세그먼트 구현 후 몇 분 이내에 공유됩니다. Experience Platform 세그먼트 멤버십이 Audience Manager 프로필에서 구현되기 시작하는 데 약 4시간의 Audience Manager과 Experience Platform 간에 초기 세그먼트 구성 동기화가 있습니다. Audience Manager 프로파일에 포함되면 Adobe Target을 통해 동일한 페이지 개인화를 위해 Experience Platform 세그먼트 멤버십을 사용할 수 있습니다.
+* Experience Platform과 Audience Manager 간 4시간 세그먼트 구성 동기화 내에서 발생하는 세그먼트 합성의 경우 이러한 세그먼트 합산이 후속 배치 세그먼트 작업 시 &quot;기존&quot; 세그먼트로 Audience Manager으로 실현됩니다.
+* Experience Platform에서 일괄 세그먼트 공유 - 하루에 한 번 또는 API를 통해 수동으로 시작 이러한 세그먼트 멤버십이 실현되면 몇 분 내에 Audience Manager에 공유되고 Target에서 동일한/다음 페이지 개인화를 위해 사용할 수 있습니다.
+* 약 5분 내에 스트리밍 세그먼테이션이 실현됩니다. 이러한 세그먼트 조정이 발생하면 몇 분 내에 Audience Manager에 공유되고 Target에서 동일한/다음 페이지 개인화에 사용할 수 있습니다.
 * 기본적으로 세그먼트 공유 서비스는 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있도록 허용합니다. 고객에게 Audience Manager 라이선스가 있는 경우 Adobe Analytics 및 Adobe Target 또는 Audience Manager과 Adobe Target 간에 공유할 수 있는 대상 수에 제한이 없습니다.
 
 ## 구현 전제 조건
@@ -102,5 +101,3 @@ ht-degree: 0%
 * [Journey Orchestration 서비스 및 모바일 메시징 제공업체를 통해 Adobe Experience Platform을 사용하여 실시간으로 모바일 메시지를 개인화할 수 있는 방법](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
 * [초 단위 세그먼테이션:Adobe Experience Platform의 실시간 고객 프로파일 실현](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [최적의 온라인 경험 구축:쿼리 서비스로 통합 프로파일 강화](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
-
