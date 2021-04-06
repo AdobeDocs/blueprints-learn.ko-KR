@@ -2,14 +2,14 @@
 title: 디지털 경험 청사진
 description: Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 문제를 해결하기 위한 반복적인 구현입니다. 신속한 비즈니스 달성 시간을 단축하고 신속한 성공 전략을 제공합니다.
 solution: Experience Platform
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 37ef1ea91b3cf83e9ab444fa0f907d4115d0fd24
+source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # 디지털 경험 청사진
 
@@ -19,7 +19,7 @@ Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 �
 
 ## 새로운 기능
 
-* **[고객 활동 허브 블루프린트](/help/blueprints/customer-activity-hub/overview.md)**
+* **[고객 활동 허브 블루프린트](/help/blueprints/audience-activation/customer-activity.md)**
 
    *에이전트 지원 지원 및 영업에 대한 컨텍스트를 제공합니다.*
 * **[엔터프라이즈 데이터 탐색 및 보고 블루프린트](/help/blueprints/data-exploration/overview.md)**
