@@ -5,9 +5,9 @@ user-guide-description: Blueprint는 기존 비즈니스 문제를 해결하고 
 product: adobe experience platform
 role: 건축가, 개발자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 4f952331b25ce0b0941d110976d2a0eda061c4b3
+source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 2%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform 및 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform 데이터 흐름](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Audience Activation{#audience-activation}
++ 프로필 및 Audience Activation{#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
    + [익명의 Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [온라인/오프라인 Audience Activation](/help/blueprints/audience-activation/online-offline.md)
-+ 고객 활동 허브{#customer-activity-hub}
-   + [개요](/help/blueprints/customer-activity-hub/overview.md)
+   + [엔터프라이즈 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [고객 활동 허브](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
    + [디지털 행동 데이터 통합](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
