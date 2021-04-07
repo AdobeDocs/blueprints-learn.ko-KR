@@ -1,25 +1,26 @@
 ---
-title: 웹 및 모바일 개인화 블루프린트
+title: 웹 및 모바일 개인화
 description: 실시간 고객 프로파일을 통해 개인화된 웹 및 모바일 컨텐츠를 전달할 수 있습니다.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
+exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-# 웹 및 모바일 개인화 블루프린트
+# 웹 및 모바일 개인화
 
 
-웹 및 모바일 개인화 블루프린트는 고객 경험을 개인화하고 최적화하기 위해 여러 애플리케이션에서 고객 세분화를 사용하는 기능을 해결합니다. 고객 행동, 인구 통계, 충성도 수준 및 이전 거래를 통해 레이아웃, 클릭유도문안 및 컨텐츠를 개인화할 수 있습니다.
+웹 및 모바일 개인화는 고객 경험을 개인화하고 최적화하기 위해 여러 애플리케이션에서 고객 세분화를 사용하는 기능을 해결합니다. 고객 행동, 인구 통계, 충성도 수준 및 이전 거래를 통해 레이아웃, 클릭유도문안 및 컨텐츠를 개인화할 수 있습니다.
 
-## 시나리오
+## 청사진
 
-| 시나리오 | 설명 | Experience Cloud 애플리케이션 |
+| 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
 | **[행동 개인화](behavioral.md)** | <ul><li>온라인 행동 및 고객 데이터를 기반으로 개인화</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
 | **[온라인/오프라인 웹 개인화](online-offline.md)** | <ul><li>오프라인 속성 및 이벤트(거래, 예약, CRM 및 로열티 데이터)를 사용하여 개인화할 수 있습니다.</li><li>웹, 이메일 및 기타 알려진 채널에서 개인화를 동기화할 수 있습니다.</li></ul> | <ul><li>실시간 고객 데이터 플랫폼</li><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
@@ -40,4 +41,3 @@ ht-degree: 0%
 * [초 단위 세그먼테이션:Adobe Experience Platform의 실시간 고객 프로파일 실현](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [분석 작업량 및 실시간 고객 프로파일 — 단일 목적을 갖는 동일 뇌의 두 측면](https://medium.com/adobetech/analytical-workloads-and-real-time-customer-profile-two-sides-of-the-same-brain-with-a-cdfac85ce8c1)
 * [최적의 온라인 경험 구축:쿼리 서비스로 통합 프로파일 강화](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
