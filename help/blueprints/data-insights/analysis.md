@@ -1,21 +1,21 @@
 ---
-title: 엔터프라이즈 데이터 탐색 및 보고 블루프린트
+title: 데이터 분석 및 인텔리전스 블루프린트
 description: 이 블루프린트는 Adobe Experience Platform 내에서 데이터 호수에 있는 데이터의 탐구적 쿼리 및 분석을 수행할 수 있는 기능을 보여줍니다.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# 엔터프라이즈 데이터 탐색 및 보고 블루프린트
+# 데이터 분석 및 인텔리전스 블루프린트
 
-엔터프라이즈 데이터 탐색 및 보고는 Adobe Experience Platform 내에서 데이터 호수에 있는 데이터에 대한 탐구적 쿼리 및 분석을 수행하는 기능으로 구성됩니다.
+Data Analysis and Intelligence는 Adobe Experience Platform 내에서 데이터 호수에 있는 데이터의 탐구적 쿼리와 분석을 수행하는 기능으로 구성됩니다.
 
 Experience Platform 쿼리 서비스를 사용하면 데이터에 대해 SQL 쿼리를 수행할 수 있습니다. 데이터 과학 작업 공간을 사용하면 데이터에 대한 데이터 탐색, 데이터 과학 및 머신 러닝 워크로드를 수행할 수 있습니다.
 
