@@ -1,26 +1,26 @@
 ---
-title: 프로필 및 Audience Activation 블루프린트
-description: 실시간 고객 데이터 플랫폼을 통해 고객이 활성화한 크로스채널 광고를 제공할 수 ​ 있습니다.
+title: 대상 및 프로필 활성화
+description: 실시간 고객 데이터 플랫폼을 사용하면 고객 중심의 고객 경험을 제공할 수 ​ 있습니다.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 
-# 프로필 및 Audience Activation 블루프린트
+# 대상 및 Audience Activation
 
-프로필 및 고객 우선 활성화는 데이터 기반의 마케팅 세계에서 성공을 위한 열쇠입니다. 그러나 많은 브랜드 기업은 여전히 채널에 맞는 최초의 활성화를 위해 주력하고 있으며, 이는 고객에게 일관되지 않은 접근성과 개인화를 제공합니다. 채널 최초 접근 방식을 통해 각 채널은 개인화 노력이 해당 채널에서 브랜드와 상호 작용하는 고객만을 타깃팅하는 분산된 채널로 작동합니다. 이러한 접근 방식은 고객이 다양한 접점에서 브랜드와 상호 작용하는 현실을 반영하지 않습니다. 고객 중심의 활성화를 통해 여러 채널에서 고객과의 상호 작용을 연결하여 모든 채널에서 활성화할 수 있는 중앙 집중화된 고객을 제공할 수 있습니다.
+프로필 및 고객 우선 활성화는 데이터 기반의 마케팅 세계에서 성공을 위한 열쇠입니다. 그러나 많은 브랜드 기업은 여전히 채널에 맞는 최초의 활성화를 위해 주력하고 있으며, 이는 고객에게 일관되지 않은 접근성과 개인화를 제공합니다. 채널 최초 접근 방식을 통해 각 채널은 개인화 노력이 해당 채널에서 브랜드와 상호 작용하는 고객만을 타깃팅하는 분산된 채널로 작동합니다. 이러한 접근 방식은 고객이 다양한 접점에서 브랜드와 상호 작용하는 현실을 반영하지 않습니다. 프로필 및 고객 우선 활성화를 통해 브랜드 기업은 다양한 채널에서 고객 상호 작용을 연결하여 모든 채널에서 활성화할 수 있는 중앙 집중화된 프로파일과 고객을 제공할 수 있습니다.
 
-## 시나리오
+## 청사진
 
-| 시나리오 | 설명 | Experience Cloud 애플리케이션 |
+| 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
 | **[익명의 웹 및 광고 Audience Activation](anonymous.md)** | <ul><li>익명의 고객 데이터와 행동 고객 데이터를 웹 및 광고 채널 전반에서 Target 고객</li><li>제3자 고객 데이터와 통합하여 개인화를 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[온라인/오프라인 + PII 프로필 및 Audience Activation](online-offline.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상과 같은 알려진 프로필 기반 대상으로 활성화합니다. </li><li>온라인 타깃팅 및 개인화를 위해 오프라인 주문, 거래, CRM 또는 로열티 데이터와 같은 오프라인 속성 및 이벤트를 온라인 행동과 함께 사용할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> 실시간 고객 데이터 플랫폼</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
