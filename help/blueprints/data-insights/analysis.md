@@ -4,9 +4,9 @@ description: 이 블루프린트는 Adobe Experience Platform 내에서 데이�
 solution: Experience Platform
 kt: 7207
 thumbnail: null
-exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
+exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
