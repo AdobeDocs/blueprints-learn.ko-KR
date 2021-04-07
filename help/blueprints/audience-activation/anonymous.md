@@ -1,19 +1,19 @@
 ---
-title: 익명의 Audience Activation
+title: 익명의 Audience Activation 블루프린트
 description: 익명의 Audience Activation.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
+exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-
-# 익명 Audience Activation 시나리오
+# 익명의 Audience Activation 블루프린트
 
 익명의 고객 데이터와 행동 고객 데이터를 기반으로 웹 및 광고 채널 전반에서 고객을 타깃팅할 수 있습니다. 다양한 디바이스에서 개인화되고 일관된 실시간 고객 경험을 제공할 수 있습니다.
 
@@ -46,18 +46,3 @@ ht-degree: 0%
 * [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Target과 Audience Manager 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Audience Manager을 통한 분석 세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
