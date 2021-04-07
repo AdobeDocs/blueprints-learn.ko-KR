@@ -1,18 +1,18 @@
 ---
-title: 일괄 메시징 및 Adobe Experience Platform 시나리오
+title: 일괄 메시징 및 Adobe Experience Platform 블루프린트
 description: 고객 프로필 및 세분화를 위한 중앙 허브로 Adobe Experience Platform을 사용하여 예약 및 일괄 메시징 캠페인을 실행합니다.
 solution: Experience Platform, Campaign
 kt: 7196
+exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
-
-# 일괄 메시징 및 Adobe Experience Platform 시나리오
+# 일괄 메시징 및 Adobe Experience Platform 블루프린트
 
 고객 프로필 및 세분화를 위한 중앙 허브로 Adobe Experience Platform을 사용하여 예약 및 일괄 메시징 캠페인을 실행합니다.
 
