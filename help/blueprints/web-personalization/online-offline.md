@@ -1,18 +1,18 @@
 ---
-title: 온라인/오프라인 웹 개인화 시나리오
+title: 온라인/오프라인 웹 개인화 블루프린트
 description: 이메일 및 기타 알려진 익명의 채널 개인화와 웹 개인화를 동기화할 수 있습니다.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 0%
 
 ---
 
-# 온라인/오프라인 웹 개인화 시나리오
+# 온라인/오프라인 웹 개인화 블루프린트
 
 이메일 및 기타 알려진 익명의 채널 개인화와 웹 개인화를 동기화할 수 있습니다.
 
