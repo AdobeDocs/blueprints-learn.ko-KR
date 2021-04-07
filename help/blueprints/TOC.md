@@ -3,11 +3,11 @@ user-guide-title: 디지털 경험 청사진
 breadcrumb-title: '청사진 '
 user-guide-description: Blueprint는 기존 비즈니스 문제를 해결하고 아키텍처 다이어그램, 기술 고려 사항 및 관련 문서 링크를 포함하는 반복 가능한 구현입니다.
 product: adobe experience platform
-role: 건축가, 개발자, 비즈니스 전문가
+role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,11 @@ ht-degree: 2%
    + [통화 감소](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 데이터 수집 및 준비{#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
+   + [데이터 수집 및 Experience Platform 준비](/help/blueprints/data-ingestion/ingestion.md)
    + [서버측 엔터프라이즈 데이터 수집](/help/blueprints/data-ingestion/server-side-collection.md)
-+ 데이터 분석 및 사용자 지정 데이터 과학{#data-exploration}
++ 데이터 분석, 인텔리전스 및 AI/ML{#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)
+   + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
    + [프로파일 향상을 위한 맞춤형 데이터 과학](/help/blueprints/data-insights/data-science.md)
 + 다중 채널 메시지 오케스트레이션{#multi-channel-message-orchestration}
    + [개요](/help/blueprints/multi-channel-message-orchestration/overview.md)
