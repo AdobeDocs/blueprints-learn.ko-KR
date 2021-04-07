@@ -1,18 +1,18 @@
 ---
-title: 행동 웹 개인화 시나리오
+title: 행동 웹 개인화 블루프린트
 description: 온라인 행동 및 고객 데이터를 기반으로 개인화
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
+exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
-
-# 행동 웹 개인화 시나리오
+# 행동 웹 개인화 블루프린트
 
 온라인 행동 및 고객 데이터를 기반으로 개인화
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. [사람 및 대상 공유 서비스에 대한 프로비저닝 요청(공유 대상)](https://www.adobe.com/go/audiences)
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) 또는 [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 및 [에서 세그먼트를 작성하고 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)(Audience Manager 또는 Adobe Analytics을 사용하는 경우)에 공유할 대상 구성
-1. Adobe Target에서 대상을 사용할 수 있게 되면 Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)이 있는 [타깃팅 경험에 사용할 수 있습니다.
+1. 대상을 Adobe Target에서 사용할 수 있게 되면 Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)이 있는 [타깃팅 경험에 사용할 수 있습니다.
 
 
 ## 구현 데이터 흐름 다이어그램
