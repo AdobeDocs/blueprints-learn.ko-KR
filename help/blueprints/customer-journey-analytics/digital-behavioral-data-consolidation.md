@@ -1,18 +1,18 @@
 ---
-title: 디지털 행동 데이터 통합 시나리오
+title: 디지털 행동 데이터 통합 청사진
 description: 고객 여정에서 고객과의 인터랙션을 분석하고 인사이트를 추출할 수 있습니다.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
+exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
-
-# 디지털 행동 데이터 통합 시나리오
+# 디지털 행동 데이터 통합 청사진
 
 다양한 웹, 모바일 및 오프라인 속성의 데이터를 통합하여 다양한 채널에서 고객 행동을 한 번에 파악할 수 있습니다.
 
@@ -82,7 +82,3 @@ Customer Journey Analytics으로 처리하기 전에 데이터를 플랫폼에 �
 * [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [Customer Journey Analytics 자습서](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
-
-
-
-
