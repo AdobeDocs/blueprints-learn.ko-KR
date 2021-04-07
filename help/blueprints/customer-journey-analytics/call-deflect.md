@@ -1,18 +1,18 @@
 ---
-title: 호출 처짐 분석 시나리오
+title: 호출 처짐 분석 블루프린트
 description: 콜센터에 연락하기 전에 고객 행동을 분석합니다.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
+exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-
-# 통화 감소 여정 분석 시나리오
+# 통화 감소 여정 분석 블루프린트
 
 콜센터에 연락하기 전에 데스크탑 및 모바일에서 고객의 행동을 분석합니다. 고객이 고객 지원에 연락하기 전에 완료하려는 작업, 고객이 보는 컨텐츠 및 검색어를 파악하여 고객 여정을 향상시킬 수 있는 기회를 식별합니다. 고객이 전화를 하지 않고도 문제를 해결할 수 있도록 개선할 수 있는 컨텐츠 및 셀프 서비스 툴을 확인할 수 있습니다.
 
