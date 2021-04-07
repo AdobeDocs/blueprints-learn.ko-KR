@@ -1,18 +1,18 @@
 ---
-title: 온라인/오프라인 Audience Activation 시나리오
+title: 온라인/오프라인 Audience Activation 블루프린트
 description: 온라인/오프라인 Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
+exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
-
-# 온라인/오프라인 Audience Activation 시나리오
+# 온라인/오프라인 Audience Activation 블루프린트
 
 온라인 타깃팅 및 개인화를 위한 온라인 행동과 함께 오프라인 주문, 거래, CRM 또는 로열티 데이터와 같은 오프라인 속성 및 이벤트를 사용합니다.
 
