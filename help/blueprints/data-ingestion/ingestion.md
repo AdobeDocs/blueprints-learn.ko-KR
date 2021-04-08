@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 데이터 준비 및 통합 청사진에는 데이터를 준비하고 Adobe Experience Platform으로 인제스트할 수 있는 모든 방법이 포함되어 있습니다.
 
-데이터 준비에는 XDM(Experience Data Model) 스키마에 대한 매핑 소스 데이터가 포함됩니다. 날짜 서식, 필드 분할/연결/변환, 레코드 참여/병합/다시 키잉 등 데이터 변형의 수행도 포함됩니다. 데이터 준비를 통해 고객 데이터를 통합하여 고객 프로파일 취합/데이터 과학/활성화를 위한 보고 또는 데이터 준비 등 종합적/필터링된 분석을 제공할 수 있습니다.
+데이터 준비에는 소스 데이터를 XDM(Experience Data Model) 스키마에 대한 매핑이 포함됩니다. 날짜 서식, 필드 분할/연결/변환, 레코드 참여/병합/다시 키잉 등 데이터 변형의 수행도 포함됩니다. 데이터 준비를 통해 고객 데이터를 통합하여 고객 프로파일 취합/데이터 과학/활성화를 위한 보고 또는 데이터 준비 등 종합적/필터링된 분석을 제공할 수 있습니다.
 
 ## 아키텍처
 
