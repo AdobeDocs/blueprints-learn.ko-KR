@@ -6,18 +6,18 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
 # 데이터 수집 및 준비
 
-데이터 수집 및 준비에는 데이터를 준비하고 Adobe Experience Platform으로 인제스트할 수 있는 모든 방법이 포함됩니다. 서버 측 전달을 위해 Adobe Experience Platform의 Edge Network에 데이터를 수집할 수 있을 뿐만 아니라 엔터프라이즈 대상으로 전송할 수 있습니다.
+데이터 수집 및 준비에는 데이터를 준비하고 Adobe Experience Platform으로 인제스트할 수 있는 모든 방법이 포함됩니다. Adobe Experience Platform의 에지 네트워크에 데이터를 수집하고 사이드 포워딩을 통해 엔터프라이즈 대상으로 후속 데이터를 전달하는 기능 외에도
 
-데이터 준비에는 XDM(Experience Data Model) 스키마에 대한 매핑 소스 데이터가 포함됩니다. 날짜 서식, 필드 분할/연결/변환, 레코드 참여/병합/다시 키잉 등 데이터 변형의 수행도 포함됩니다. 데이터 준비를 통해 고객 데이터를 통합하여 고객 프로파일 취합/데이터 과학/활성화를 위한 보고 또는 데이터 준비 등 종합적/필터링된 분석을 제공할 수 있습니다.
+데이터 준비에는 소스 데이터를 XDM(Experience Data Model) 스키마에 대한 매핑이 포함됩니다. 날짜 서식, 필드 분할/연결/변환, 레코드 참여/병합/다시 키잉 등 데이터 변형의 수행도 포함됩니다. 데이터 준비를 통해 고객 데이터를 통합하여 고객 프로파일 취합/데이터 과학/활성화를 위한 보고 또는 데이터 준비 등 종합적/필터링된 분석을 제공할 수 있습니다.
 
 ## 청사진
 
