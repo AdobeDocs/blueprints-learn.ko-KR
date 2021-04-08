@@ -1,21 +1,21 @@
 ---
-title: 엔터프라이즈 대상 블루프린트 프로파일 및 Audience Activation
-description: 기업 대상에 대한 프로필 및 Audience Activation
-solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
-kt: 7086
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+title: 엔터프라이즈 대상 블루프린트에 대한 고객 및 프로필 활성화
+description: 엔터프라이즈 대상 고객 및 프로필 활성화
+solution: Experience Platform,Real-time Customer Data Platform
+kt: 7475
+exl-id: null
 translation-type: tm+mt
-source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 
-# 엔터프라이즈 대상 블루프린트 프로파일 및 Audience Activation
+# 엔터프라이즈 대상 블루프린트에 대한 고객 및 프로필 활성화
 
-기업 데이터 저장소에 대한 프로필 변경 사항을 복제 및 업데이트하여 활성화 및 보고 사용 사례를 제공합니다.
+기업 데이터 저장소에 대한 프로필 및 대상 변경 사항을 복제 및 업데이트하여 활성화 및 보고 사용 사례를 제공합니다.
 
 실시간 고객 데이터 플랫폼에서 엔터프라이즈 시스템 및 애플리케이션에 대한 고객 행동에 대한 알림을 통해 고객에게 판매 또는 지원 조치를 시작할 수 있습니다.
 
@@ -79,10 +79,12 @@ ht-degree: 0%
 
 ## 관련 설명서
 
+* [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [엔터프라이즈 클라우드 스토리지 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [HTTP 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [실시간 고객 데이터 플랫폼 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [프로필 및 세그멘테이션 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [세분화 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## 관련 비디오 및 Tutorials
 
