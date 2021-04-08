@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,21 @@ ht-degree: 0%
 * 약 5분 내에 스트리밍 세그먼테이션이 실현됩니다. 이러한 세그먼트 조정이 발생하면 몇 분 내에 Audience Manager에 공유되고 Target에서 동일한/다음 페이지 개인화에 사용할 수 있습니다.
 * 기본적으로 세그먼트 공유 서비스는 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있도록 허용합니다. 고객에게 Audience Manager 라이선스가 있는 경우 Adobe Analytics 및 Adobe Target 또는 Audience Manager과 Adobe Target 간에 공유할 수 있는 대상 수에 제한이 없습니다.
 
+## 구현 패턴
+
+웹/모바일 개인화 청사진은 아래에 설명된 다음 접근 방식을 통해 구현할 수 있습니다.
+
+1. 플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 사용.
+1. 기존의 애플리케이션별 SDK 사용(예: AppMeasurement.js)
+
+### 1. 플랫폼 웹/모바일 SDK 및 Edge 방식
+
+<img src="assets/websdkflow.svg" alt="플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 접근 방식을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+
+### 2. 애플리케이션별 SDK 방식
+
+<img src="assets/appsdkflow.png" alt="애플리케이션별 SDK 접근 방식의 참조 아키텍처" style="border:1px solid #4a4a4a" />
+
 ## 구현 전제 조건
 
 | 애플리케이션/서비스 | 필수 라이브러리 | 참고 사항 |
@@ -64,18 +79,6 @@ ht-degree: 0%
    >
    >각 응용 프로그램은 Experience Cloud ID를 사용하고 동일한 Experience Cloud 조직에 속해 있어야 응용 프로그램 간에 대상 공유를 허용할 수 있습니다.
 1. [Experience Platform과 Adobe Target 간 대상 공유를 위한 프로비저닝 요청(공유 대상)](https://www.adobe.com/go/audiences)
-
-## 구현 데이터 흐름 다이어그램
-
-웹/모바일 개인화 블루프린트는 기존의 애플리케이션별 SDK(예: AppMeasurement.js)를 사용하거나 플랫폼 웹 SDK/Mobile SDK 및 Edge 네트워크를 사용하여 구현할 수 있습니다.
-
-### 플랫폼 웹/모바일 SDK 및 Edge 방식
-
-<img src="assets/websdkflow.svg" alt="플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 접근 방식을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
-
-### 애플리케이션별 SDK 접근 방식
-
-<img src="assets/appsdkflow.png" alt="애플리케이션별 SDK 접근 방식의 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 관련 설명서
 
