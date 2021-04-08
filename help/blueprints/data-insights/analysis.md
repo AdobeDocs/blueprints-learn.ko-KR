@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Experience Platform 쿼리 서비스를 사용하면 데이터에 대해 SQL 쿼
 ## 애플리케이션
 
 * Adobe Experience Platform
-
-## 시나리오
-
-| 시나리오 | 설명 | Experience Cloud 애플리케이션/서비스 |
-|---|---|---|
-| **데이터 탐색 - 데이터의 원시 쿼리** | <ul><li>대화형 쿼리 사용자 인터페이스 또는 연결된 SQL 클라이언트를 사용하여 데이터 레이크에서 SQL 쿼리를 작성하고 수행합니다. 또한 데이터 과학 작업 공간을 사용하여 Experience Platform의 원시 데이터를 쿼리하고 통찰력을 얻을 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **엔터프라이즈 대시보드** | <ul><li>Business Intelligence 툴을 Experience Platform에 연결하여 대시보드 및 보고 사용 사례용 데이터를 시각화할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## 아키텍처
 
