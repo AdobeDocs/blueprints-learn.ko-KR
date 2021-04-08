@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ ht-degree: 0%
 
 기본적으로 세그먼트 공유 서비스를 사용하면 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있습니다. 대상 공유에 Audience Manager이 사용되는 경우 공유할 수 있는 대상 수에 제한이 없습니다. 
 
+## 구현 패턴
+
+웹/모바일 개인화 청사진은 아래에 설명된 다음 접근 방식을 통해 구현할 수 있습니다.
+
+1. 플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 사용.
+1. 기존의 애플리케이션별 SDK 사용(예: AppMeasurement.js)
+
+### 1. 플랫폼 웹/모바일 SDK 및 Edge 방식
+
+<img src="assets/websdkflow.svg" alt="플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 접근 방식을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+
+### 2. 애플리케이션별 SDK 방식
+
+<img src="assets/appsdkflow.png" alt="애플리케이션별 SDK 접근 방식의 참조 아키텍처" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## 구현 전제 조건
 
 | 애플리케이션/서비스 | 필수 라이브러리 | 참고 사항 |
@@ -64,22 +82,7 @@ ht-degree: 0%
 
 1. [사람 및 대상 공유 서비스에 대한 프로비저닝 요청(공유 대상)](https://www.adobe.com/go/audiences)
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) 또는 [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 및 [에서 세그먼트를 작성하고 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)(Audience Manager 또는 Adobe Analytics을 사용하는 경우)에 공유할 대상 구성
-1. 대상을 Adobe Target에서 사용할 수 있게 되면 Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)이 있는 [타깃팅 경험에 사용할 수 있습니다.
-
-
-## 구현 데이터 흐름 다이어그램
-
-웹/모바일 개인화 블루프린트는 플랫폼 웹 SDK 또는 모바일 SDK 및 Edge 네트워크를 사용하거나 기존의 애플리케이션별 SDK(예: AppMeasurement.js)를 사용하여 구현할 수 있습니다.
-
-### 플랫폼 웹/모바일 SDK 및 에지 네트워크 접근 방식
-
-<img src="assets/websdkflow.svg" alt="플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 접근 방식을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
-
-
-### 애플리케이션별 SDK 접근 방식
-
-<img src="assets/appsdkflow.png" alt="애플리케이션별 SDK 접근 방식의 참조 아키텍처" style="border:1px solid #4a4a4a" />
-
+1. Adobe Target에서 대상을 사용할 수 있게 되면 Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)이 있는 [타깃팅 경험에 사용할 수 있습니다.
 
 ## 관련 설명서
 
