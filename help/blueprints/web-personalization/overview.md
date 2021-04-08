@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -14,7 +14,6 @@ ht-degree: 0%
 ---
 
 # 웹 및 모바일 개인화
-
 
 웹 및 모바일 개인화는 고객 경험을 개인화하고 최적화하기 위해 여러 애플리케이션에서 고객 세분화를 사용하는 기능을 해결합니다. 고객 행동, 인구 통계, 충성도 수준 및 이전 거래를 통해 레이아웃, 클릭유도문안 및 컨텐츠를 개인화할 수 있습니다.
 
