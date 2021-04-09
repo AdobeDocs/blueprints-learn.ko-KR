@@ -5,9 +5,9 @@ user-guide-description: Blueprint는 기존 비즈니스 문제를 해결하고 
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
    + [통화 감소](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 데이터 수집 및 준비{#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
-   + [데이터 수집 및 Experience Platform 준비](/help/blueprints/data-ingestion/ingestion.md)
+   + [데이터 준비 및 통합](/help/blueprints/data-ingestion/ingestion.md)
    + [서버측 엔터프라이즈 데이터 수집](/help/blueprints/data-ingestion/server-side-collection.md)
 + 데이터 분석, 인텔리전스 및 AI/ML{#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 2%
    + [트리거된 메시지 및 Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + 웹 및 모바일 개인화{#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동 웹 개인화](/help/blueprints/web-personalization/behavioral.md)
-   + [온라인/오프라인 웹 개인화](/help/blueprints/web-personalization/online-offline.md)
+   + [행동 개인화](/help/blueprints/web-personalization/behavioral.md)
+   + [온라인/오프라인 개인화](/help/blueprints/web-personalization/online-offline.md)
 
