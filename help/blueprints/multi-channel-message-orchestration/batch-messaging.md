@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 캠페인은 모든 활성 프로필에 대한 진실 소스입니다. 즉, 프로필은 Campaign에 있어야 하며 새 프로필은 Experience Platform 세그먼트를 기반으로 만들지 않아야 합니다.
 * Experience Platform의 세그먼트 회원 실현은 일괄 처리(하루 1회)와 스트리밍(약 5분) 모두에 걸쳐 지연됩니다.
 
-**실시간 고객 데이터 플랫폼 세그먼트를 캠페인에 공유:**
+**[!UICONTROL 실시간 고객 데이터 플랫폼 세그먼트] 를 캠페인에 공유:**
 
 * 20개 세그먼트 제한 권장 사항
 * 정품 인증은 24시간 단위로 제한됩니다
