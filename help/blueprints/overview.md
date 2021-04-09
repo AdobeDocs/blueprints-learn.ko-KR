@@ -4,9 +4,9 @@ description: Digital Experience Blueprint는 전략을 해결하고 설정된 �
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 3c139ed925fc7999ea3b7e6eb21bf68ae9ff23cb
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -34,23 +34,22 @@ Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 �
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><img alt="'웹 개인화' 블루프린트에 대한 축소판 이미지" src="web-personalization/assets/personalization.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><strong>웹/모바일 개인화 블루프린트</strong></a></div>
-    <p><em>개인화된 웹 및 모바일 컨텐츠 전달</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="트리거된 메시지 및 Adobe Experience Platform 블루프린트에 대한 축소판 이미지" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>트리거된 메시지 및 Adobe Experience Platform 블루프린트</strong></a></div>
+    <p><em>Adobe Experience Platform을 중앙 허브로 사용하여 메시지와 경험을 트리거할 수 있습니다.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><img alt="'Audience Activation' 블루프린트에 대한 축소판 이미지" src="audience-activation/assets/aam.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><strong>Audience Activation 블루프린트</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="온라인/오프라인 Audience Activation 블루프린트에 대한 축소판 이미지" src="audience-activation/assets/onoff.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>온라인/오프라인 Audience Activation 블루프린트</strong></a></div>
     <p><em>고객이 활성화한 크로스채널 광고 전달</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html"><img alt="'멀티채널 오케스트레이션 블루프린트'의 축소판 이미지" src="multi-channel-message-orchestration/assets/aepbatch.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html"><strong>멀티채널 오케스트레이션 블루프린트</strong></a></div>
-    <p><em>다양한 화면에서 개인화된 적시에 고객 경험을 제공할 수 있습니다.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="디지털 행동 데이터 통합 블루프린트의 축소판 이미지" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>웹/모바일 개인화 블루프린트</strong></a></div>
+    <p><em>다양한 채널에서 고객 행동을 한 번에 파악할 수 있습니다.</em></p>
   </td>
 </tr>
 </table>
-
 
 ## 블로그 게시물
 
