@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,9 @@ ht-degree: 0%
 | 데이터 준비 방법 | 설명 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL 데이터 과학 작업 공간]  - 데이터 준비 | 모델 기반의 변형, 스크립트 변형<br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
->[!NOTE]
->
->| 외부 ETL 도구([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] 등) | ETL 툴에서 복잡한 변형을 수행하고 표준 Experience Platform 소스 API 또는 커넥터를 사용하여 결과 데이터를 인제스트합니다.                                                                                                                                                               |
-
-| [!UICONTROL 쿼리 서비스] - 데이터 준비                                  | 데이터를 새 데이터 세트에 연결, 분할, 병합, 변형, 쿼리 및 필터링합니다. 테이블을 선택(CTAS) <br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)로 만들기 사용                                                                       |
-| XDM 매퍼 및 데이터 준비 함수(스트리밍 및 일괄 처리)     | Experience Platform 수집 중 CSV 또는 JSON 형식의 소스 특성을 XDM 특성에 매핑합니다.<br>데이터 수집 시 계산 함수즉, 데이터 서식, 분할, 연결 등이 있습니다.<br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| 외부 ETL 도구([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] 등) | ETL 도구에서 복잡한 변형을 수행하고 표준 Experience Platform [!UICONTROL 흐름 서비스] API 또는 소스 커넥터를 사용하여 결과 데이터를 인제스트합니다. |
+| [!UICONTROL 쿼리 서비스]  - 데이터 준비 | 데이터를 새 데이터 세트에 연결, 분할, 병합, 변형, 쿼리 및 필터링합니다. 테이블을 선택(CTAS) <br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)로 만들기 사용 |
+| XDM 매퍼 및 데이터 준비 함수(스트리밍 및 일괄 처리) | Experience Platform 수집 중에 CSV 또는 JSON 형식의 소스 특성을 XDM 특성에 매핑합니다.<br>데이터 수집 시 계산 함수즉, 데이터 서식, 분할, 연결 등이 있습니다.<br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## 관련 블로그 게시물
 
