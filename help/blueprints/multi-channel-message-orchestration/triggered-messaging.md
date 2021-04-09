@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 * 현재 Offer decisioning을 지원하지 않음
 * Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)에 대한 [프로필 및 데이터 통합 지침을 참조하십시오.
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 * 처리량에서 14tps(시간당 50k)만 지원할 수 있습니다.
 * 세그먼트 멤버십으로 시작된 여정은 지원되지 않습니다.
@@ -69,7 +69,7 @@ ht-degree: 1%
 #### 스키마/데이터 집합
 
 1. 고객이 제공한 데이터를 기반으로 Experience Platform에서 개별 프로필, 경험 이벤트 및 다중 엔터티 스키마를 구성합니다.
-1. 다음에 대한 캠페인 스키마 만들기:broadLog, trackingLog, 비제공 주소 및 프로필 환경 설정(선택 사항).
+1. 다음 항목에 대한 Adobe Campaign 스키마 만들기:broadLog, trackingLog, 비제공 주소 및 프로필 환경 설정(선택 사항).
 1. 거버넌스를 위해 데이터 세트에 데이터 사용 레이블을 추가합니다.
 1. 대상에 대한 거버넌스를 적용할 정책을 만듭니다.
 
@@ -79,16 +79,16 @@ ht-degree: 1%
 1. 스키마에 ID를 추가합니다.
 1. 프로필에 대한 스키마 및 데이터 세트를 활성화합니다.
 1. [!UICONTROL 실시간 고객 프로필](선택 사항)의 다른 보기에 대한 병합 규칙을 설정합니다.
-1. 캠페인 사용을 위한 세그먼트를 만듭니다.
+1. Adobe Campaign 사용을 위한 세그먼트를 만듭니다.
 
 #### 소스/대상
 
 1. 스트리밍 API 및 소스 커넥터를 사용하여 데이터를 Experience Platform에 인제스트합니다.
-1. [!DNL Azure] Blob 저장소 대상을 캠페인과 함께 사용하도록 구성합니다.
+1. Adobe Campaign에서 사용할 [!DNL Azure] Blob 저장소 대상을 구성합니다.
 
 #### 모바일 앱 배포
 
-1. Campaign Standard용 Campaign Classic 또는 Experience Platform SDK용 캠페인 SDK를 구현합니다. Experience Platform Launch이 있는 경우 Campaign Classic/표준 확장을 Experience Platform SDK와 함께 사용하는 것이 좋습니다.
+1. Adobe Campaign Classic용 Adobe Campaign SDK 또는 Adobe Campaign Standard용 Experience Platform SDK 구현 Experience Platform Launch이 있는 경우 Experience Platform SDK와 함께 Adobe Campaign Classic 또는 Adobe Campaign Standard 확장을 사용하는 것이 좋습니다.
 
 
 ### Journey Orchestration
@@ -97,7 +97,7 @@ ht-degree: 1%
 1. 외부 데이터 소스를 구성합니다.
 1. 사용자 지정 작업을 구성합니다.
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 1. 적절한 개인화 설정으로 메시징 템플릿을 구성합니다.
 1. 트랜잭션 메시지 로그를 내보내는 내보내기 워크플로우를 구성합니다. 권장 사항은 4시간마다 실행되어야 합니다.
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard 설명서](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Adobe Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Adobe Campaign Standard 설명서](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
 * [Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
