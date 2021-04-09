@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Adobe Experience Platform을 중앙 허브 스트리밍 데이터, 고객 프로
 1. 고객별 네임스페이스를 만듭니다.
 1. 스키마에 ID를 추가합니다.
 1. 프로필에 대한 스키마 및 데이터 세트를 활성화합니다.
-1. 실시간 고객 프로필 보기(선택 사항)를 다르게 보려면 병합 규칙을 설정합니다.
+1. [!UICONTROL 실시간 고객 프로필](선택 사항)의 다른 보기에 대한 병합 규칙을 설정합니다.
 1. 캠페인 사용을 위한 세그먼트를 만듭니다.
 
 #### 소스/대상
