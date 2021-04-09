@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ ht-degree: 0%
 
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
-| **[데이터 준비 및 Experience Platform 통합](ingestion.md)** | <ul><li>데이터 준비 및 통합 청사진에는 데이터를 준비하고 Adobe Experience Platform으로 인제스트할 수 있는 모든 방법이 포함되어 있습니다.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[서버 측 전달 - Enterprise Collection](server-side-collection.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상과 같은 알려진 프로필 기반 대상으로 활성화합니다. </li><li>온라인 타깃팅 및 개인화를 위해 오프라인 주문, 거래, CRM 또는 로열티 데이터와 같은 오프라인 속성 및 이벤트를 온라인 행동과 함께 사용할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
+| **[데이터 준비 및 수집](ingestion.md)** | <ul><li>데이터 준비 및 통합 청사진에는 데이터를 준비하고 Adobe Experience Platform으로 인제스트할 수 있는 모든 방법이 포함되어 있습니다.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[서버측 엔터프라이즈 데이터 수집](server-side-collection.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상과 같은 알려진 프로필 기반 대상으로 활성화합니다. </li><li>온라인 타깃팅 및 개인화를 위해 오프라인 주문, 거래, CRM 또는 로열티 데이터와 같은 오프라인 속성 및 이벤트를 온라인 행동과 함께 사용할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
