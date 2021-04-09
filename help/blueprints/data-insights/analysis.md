@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Experience Platform [!UICONTROL 쿼리 서비스]에서는 데이터에 대해 S
 
 또한 Experience Platform을 사용하면 타사 SQL 클라이언트, 인터페이스 및 Business Intelligence(BI) 도구에 연결하여 [!DNL PostgreSQL] 프로토콜을 사용하여 Experience Platform 내의 데이터에 직접 연결하고 액세스 및 쿼리할 수 있습니다.
 
-시나리오 세부 정보에 명시된 대로 쿼리 시간 초과 및 쿼리 결과에 포함된 데이터의 양에 대해 특정 단락이 적용됩니다.
+블루프린트 세부 정보에 설명된 대로 쿼리 시간 초과와 쿼리 결과에 포함된 데이터의 양에 대해 특정 단속이 적용됩니다.
 
 ## 사용 사례
 
