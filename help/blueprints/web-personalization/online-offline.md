@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -45,12 +45,12 @@ ht-degree: 0%
 
 웹/모바일 개인화 청사진은 아래에 설명된 다음 접근 방식을 통해 구현할 수 있습니다.
 
-1. 플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 사용.
+1. [!UICONTROL 플랫폼 웹 SDK] 또는 [!UICONTROL 플랫폼 모바일 SDK] 및 [!UICONTROL 에지 네트워크] 사용
 1. 기존의 애플리케이션별 SDK 사용(예: AppMeasurement.js)
 
 ### 1. 플랫폼 웹/모바일 SDK 및 Edge 방식
 
-<img src="assets/websdkflow.svg" alt="플랫폼 웹 SDK/모바일 SDK 및 Edge 네트워크 접근 방식을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK] 및 [!UICONTROL Edge Network] 접근 방식에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ### 2. 애플리케이션별 SDK 방식
 
@@ -60,10 +60,10 @@ ht-degree: 0%
 
 | 애플리케이션/서비스 | 필수 라이브러리 | 참고 사항 |
 |---|---|---|
-| Adobe Target | 플랫폼 웹 SDK*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js가 더 이상 개발되지 않으므로 at.js가 선호됩니다. |
-| Adobe Audience Manager(선택 사항) | 플랫폼 웹 SDK* 또는 dil.js 5.0+ |  |
-| Adobe Analytics(선택 사항) | 플랫폼 웹 SDK* 또는 AppMeasurement.js 1.6.4+ | Adobe Analytics 추적은 RDC(지역 데이터 수집)를 사용해야 합니다. |
-| Experience Cloud ID 서비스 | 플랫폼 웹 SDK* 또는 VisitorAPI.js 2.0+ | (권장) Experience Platform Launch을 사용하여 ID 서비스를 배포하여 응용 프로그램 호출 전에 ID가 설정되었는지 확인합니다 |
+| Adobe Target | [!UICONTROL 플랫폼 웹 SDK]*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js가 더 이상 개발되지 않으므로 at.js가 선호됩니다. |
+| Adobe Audience Manager(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 dil.js 5.0+ |  |
+| Adobe Analytics(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ | Adobe Analytics 추적은 RDC(지역 데이터 수집)를 사용해야 합니다. |
+| Experience Cloud ID 서비스 | [!UICONTROL 플랫폼 웹 SDK]* 또는 VisitorAPI.js 2.0+ | (권장) Experience Platform Launch을 사용하여 ID 서비스를 배포하여 응용 프로그램 호출 전에 ID가 설정되었는지 확인합니다 |
 | Experience Platform Mobile SDK(선택 사항) | iOS 및 Android™의 경우 4.11 이상 |  |
 | Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 Experience Cloud 응용 프로그램에 대해 아직 지원되지 않는 다양한 사용 사례가 있습니다](https://github.com/adobe/alloy/projects/5)[ |  |
 
