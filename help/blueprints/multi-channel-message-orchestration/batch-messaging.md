@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 ## 가드레일
 
-* 캠페인 단일 조직 단위 배포만 지원
-* 캠페인은 모든 활성 프로필에 대한 진실 소스입니다. 즉, 프로필은 Campaign에 있어야 하며 새 프로필은 Experience Platform 세그먼트를 기반으로 만들지 않아야 합니다.
+* Adobe Campaign 단일 조직 구성 단위 배포만 지원
+* Adobe Campaign은 모든 활성 프로파일에 대한 진실의 소스입니다. 즉, Adobe Campaign에 프로파일이 있어야 하며 Experience Platform 세그먼트를 기반으로 새 프로파일을 만들 수 없습니다.
 * Experience Platform의 세그먼트 회원 실현은 일괄 처리(하루 1회)와 스트리밍(약 5분) 모두에 걸쳐 지연됩니다.
 
-**[!UICONTROL 실시간 고객 데이터 플랫폼 세그먼트] 를 캠페인에 공유:**
+**[!UICONTROL Adobe Campaign에 대한 실시간 고객 데이터 플랫폼 ] 세그먼트 공유:**
 
 * 20개 세그먼트 제한 권장 사항
 * 정품 인증은 24시간 단위로 제한됩니다
@@ -50,7 +50,7 @@ ht-degree: 0%
 * &quot;실현된&quot; 세그먼트 멤버십이 있는 모든 프로필의 세그먼트당 하나의 파일 또는 세그먼트 멤버십이 &quot;실현됨&quot; 및 &quot;종료한&quot; 프로필 모두에 속성으로 추가된 경우
 * 증분 또는 전체 세그먼트 내보내기가 지원됩니다.
 * 파일 암호화는 지원되지 않습니다.
-* 최대 4시간마다 캠페인 내보내기 워크플로우 실행
+* 4시간마다 Adobe Campaign 내보내기 워크플로우 실행
 * Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)에 대한 [프로필 및 데이터 통합 지침을 참조하십시오.
 
 ## 구현 단계
@@ -60,7 +60,7 @@ ht-degree: 0%
 #### 스키마/데이터 집합
 
 1. 고객이 제공한 데이터를 기반으로 Experience Platform에서 개별 프로필, 경험 이벤트 및 다중 엔터티 스키마를 구성합니다.
-1. broadLog, trackingLog, 배달할 수 없는 주소 및 프로필 환경 설정에 대한 캠페인 스키마를 만듭니다(선택 사항).
+1. 광범위한 로그, trackingLog, 배달할 수 없는 주소 및 프로필 환경 설정에 대한 Adobe Campaign 스키마를 만듭니다(선택 사항).
 1. 거버넌스를 위해 데이터 세트에 데이터 사용 레이블을 추가합니다.
 1. 대상에 대한 거버넌스를 적용하는 정책을 만듭니다.
 
@@ -70,34 +70,34 @@ ht-degree: 0%
 1. 스키마에 ID를 추가합니다.
 1. 프로필에 대한 스키마 및 데이터 세트를 활성화합니다.
 1. [!UICONTROL 실시간 고객 프로필](선택 사항)의 다른 보기에 대한 병합 규칙을 설정합니다.
-1. 캠페인 사용을 위한 세그먼트를 만듭니다.
+1. Adobe Campaign 사용을 위한 세그먼트를 만듭니다.
 
 #### 소스/대상
 
 1. 스트리밍 API 및 소스 커넥터를 사용하여 데이터를 Experience Platform에 인제스트합니다.
-1. [!DNL Azure] Blob 저장소 대상을 캠페인과 함께 사용하도록 구성합니다.
+1. Adobe Campaign에서 사용할 [!DNL Azure] Blob 저장소 대상을 구성합니다.
 
 #### 모바일 앱 배포
 
-1. Campaign Standard용 Campaign Classic 또는 Experience Platform SDK용 캠페인 SDK를 구현합니다. Experience Platform Launch이 있는 경우 Campaign Classic/표준 확장을 Experience Platform SDK와 함께 사용하는 것이 좋습니다.
+1. Adobe Campaign Classic용 Adobe Campaign SDK 또는 Adobe Campaign Standard용 Experience Platform SDK 구현 Experience Platform Launch이 있는 경우 Experience Platform SDK와 함께 Adobe Campaign Classic 또는 Adobe Campaign Standard 확장을 사용하는 것이 좋습니다.
 
-#### Campaign
+#### Adobe Campaign
 
 1. 프로필, 조회 데이터 및 관련 전달 개인화 데이터에 대한 스키마를 구성합니다.
 
 >[!IMPORTANT]
 >
->이 시점에서 프로필 및 이벤트 데이터의 Experience Platform 내에 있는 데이터 모델을 파악하여 Campaign에서 어떤 데이터가 필요한지 아는 것이 중요합니다.
+>이때 프로필 및 이벤트 데이터의 Experience Platform 내에 있는 데이터 모델을 이해하여 Adobe Campaign에서 어떤 데이터가 필요한지 파악하는 것이 중요합니다.
 
 #### 워크플로우 가져오기
 
-1. 간소화된 프로필 데이터를 Campaign sFTP에 로드하고 인제스트합니다.
-1. 캠페인 FTP에 오케스트레이션 및 메시징 개인화 데이터를 로드하고 인제스트합니다.
+1. Adobe Campaign sFTP에 간소화된 프로필 데이터를 로드하고 인제스트합니다.
+1. Adobe Campaign sFTP에서 오케스트레이션 및 메시징 개인화 데이터를 로드하고 인제스트할 수 있습니다.
 1. 워크플로우를 통해 [!DNL Azure] blob의 Experience Platform 세그먼트를 인제스트합니다.
 
 #### 내보내기 워크플로우
 
-1. 4시간마다 워크플로우(broadLog, trackingLog, 배달할 수 없는 주소)를 통해 캠페인 로그를 Experience Platform으로 다시 보냅니다.
+1. 4시간마다 워크플로우(broadLog, trackingLog, 배달할 수 없는 주소)를 통해 Adobe Campaign 로그를 Experience Platform으로 다시 보냅니다.
 1. 4시간마다 컨설팅 방식의 워크플로우를 통해 프로파일 환경 설정을 Experience Platform으로 다시 보낼 수 있습니다(선택 사항).
 
 
