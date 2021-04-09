@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,7 @@ Customer Journey Analytics은 다양한 상호 작용 채널 및 소스의 고�
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
 | **[디지털 행동 데이터 통합](digital-behavioral-data-consolidation.md)** | <ul><li>다양한 웹, 모바일 및 오프라인 속성의 데이터를 통합하여 다양한 채널에서 고객 행동을 한 번에 파악할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics(선택 사항)</li></ul> |
-| **[콜 센터 전환](call-deflect.md)** | <ul><li>콜 센터 데이터를 웹, 모바일 및 기타 상호 작용 데이터와 함께 가져오면 에이전트 지원 호출에서 가장 많이 나타나는 행동을 결정합니다.</li><li>이러한 통찰력을 사용하여 최적화된 셀프 서비스 컨텐츠 및 툴을 통해 고객 경험을 최적화하고 에이전트 지원 인터랙션의 경로를 줄일 수 있습니다.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[통화 감소 여정 분석](call-deflect.md)** | <ul><li>콜 센터 데이터를 웹, 모바일 및 기타 상호 작용 데이터와 함께 가져오면 에이전트 지원 호출에서 가장 많이 나타나는 행동을 결정합니다.</li><li>이러한 통찰력을 사용하여 최적화된 셀프 서비스 컨텐츠 및 툴을 통해 고객 경험을 최적화하고 에이전트 지원 인터랙션의 경로를 줄일 수 있습니다.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## 관련 블로그 게시물
 
