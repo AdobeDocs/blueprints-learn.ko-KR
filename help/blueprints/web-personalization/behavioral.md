@@ -5,7 +5,7 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 아키텍처
 
-<img src="assets/personalization.svg" alt="행동 웹 개인화 시나리오에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization.svg" alt="행동 웹 개인화 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 
 ## 가드레일
