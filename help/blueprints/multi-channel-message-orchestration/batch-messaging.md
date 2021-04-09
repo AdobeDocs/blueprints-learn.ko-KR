@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 아키텍처
 
-<img src="assets/aepbatch.svg" alt="배치 메시징 및 Adobe Experience Platform 시나리오에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="배치 메시징 및 Adobe Experience Platform Blueprint에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 가드레일
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 1. 고객별 네임스페이스를 만듭니다.
 1. 스키마에 ID를 추가합니다.
 1. 프로필에 대한 스키마 및 데이터 세트를 활성화합니다.
-1. 실시간 고객 프로필 보기(선택 사항)를 다르게 보려면 병합 규칙을 설정합니다.
+1. [!UICONTROL 실시간 고객 프로필](선택 사항)의 다른 보기에 대한 병합 규칙을 설정합니다.
 1. 캠페인 사용을 위한 세그먼트를 만듭니다.
 
 #### 소스/대상
