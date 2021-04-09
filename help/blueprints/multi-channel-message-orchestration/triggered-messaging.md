@@ -1,20 +1,20 @@
 ---
 title: 트리거된 메시지 및 Adobe Experience Platform 블루프린트
-description: Adobe Experience Platform을 중앙 허브 스트리밍 데이터, 고객 프로파일 및 세그먼테이션으로 사용하여 트리거된 메시지와 경험을 실행할 수 있습니다.
+description: 스트리밍 데이터, 고객 프로파일 및 세분화의 중앙 허브로 Adobe Experience Platform을 사용하여 트리거된 메시지와 경험을 실행할 수 있습니다.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
 
 # 트리거된 메시지 및 Adobe Experience Platform 블루프린트
 
-Adobe Experience Platform을 중앙 허브 스트리밍 데이터, 고객 프로파일 및 세그먼테이션으로 사용하여 트리거된 메시지와 경험을 실행할 수 있습니다.
+스트리밍 데이터, 고객 프로파일 및 세분화의 중앙 허브로 Adobe Experience Platform을 사용하여 트리거된 메시지와 경험을 실행할 수 있습니다.
 
 ## 사용 사례
 
@@ -25,7 +25,7 @@ Adobe Experience Platform을 중앙 허브 스트리밍 데이터, 고객 프로
 
 ## 아키텍처
 
-<img src="assets/triggered.svg" alt="트리거된 메시징 및 Adobe Experience Platform 시나리오에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="트리거 메시징 및 Adobe Experience Platform 블루프린트에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 통합 패턴
 
