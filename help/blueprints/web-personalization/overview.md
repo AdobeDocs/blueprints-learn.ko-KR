@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
-| **[행동 개인화](behavioral.md)** | <ul><li>온라인 행동 및 고객 데이터를 기반으로 개인화</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
-| **[온라인/오프라인 웹 개인화](online-offline.md)** | <ul><li>오프라인 속성 및 이벤트(거래, 예약, CRM 및 로열티 데이터)를 사용하여 개인화할 수 있습니다.</li><li>웹, 이메일 및 기타 알려진 채널에서 개인화를 동기화할 수 있습니다.</li></ul> | <ul><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
+| **[행동 웹/모바일 개인화](behavioral.md)** | <ul><li>온라인 행동 및 고객 데이터를 기반으로 개인화</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
+| **[온라인/오프라인 웹/모바일 개인화](online-offline.md)** | <ul><li>오프라인 속성 및 이벤트(거래, 예약, CRM 및 로열티 데이터)를 사용하여 개인화할 수 있습니다.</li><li>웹, 이메일 및 기타 알려진 채널에서 개인화를 동기화할 수 있습니다.</li></ul> | <ul><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
 
 ## 관련 블로그 게시물
 
