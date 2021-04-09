@@ -4,9 +4,9 @@ description: Digital Experience Blueprint는 전략을 해결하고 설정된 �
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 3c139ed925fc7999ea3b7e6eb21bf68ae9ff23cb
+source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,8 @@ Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 �
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="디지털 행동 데이터 통합 블루프린트의 축소판 이미지" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>웹/모바일 개인화 블루프린트</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>디지털 행동 데이터 통합 청사진 
+</strong></a></div>
     <p><em>다양한 채널에서 고객 행동을 한 번에 파악할 수 있습니다.</em></p>
   </td>
 </tr>
