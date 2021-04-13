@@ -4,18 +4,16 @@ description: Digital Experience Blueprint는 전략을 해결하고 설정된 �
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
+source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
 # 디지털 경험 청사진
 
-Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 문제를 해결하기 위한 반복적인 구현입니다. Blueprint를 사용하면 단기간에 효과를 높일 수 있고 신속하게 성과를 달성할 수 있습니다.
-
-각 블루프린트는 Adobe 고객에게 높은 가치의 비즈니스 문제, 아키텍처, 구현 단계, 기술 고려 사항 및 관련 설명서로 연결되는 링크를 설명하는 일련의 결함을 제공합니다.
+Digital Experience Blueprint는 전략을 해결하고 수립한 비즈니스 문제를 신속하게 해결할 수 있는 반복 가능한 구현입니다. 각 블루프린트는 높은 가치의 비즈니스 문제, 아키텍처, 구현 단계, 기술 고려 사항 및 관련 설명서에 대한 링크를 설명하는 일련의 가공물을 제공합니다.
 
 ## 새로운 기능
 
