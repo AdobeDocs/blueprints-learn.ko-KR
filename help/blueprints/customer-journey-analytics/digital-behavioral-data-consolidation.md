@@ -1,18 +1,18 @@
 ---
-title: 디지털 행동 데이터 통합 청사진
+title: 크로스 채널 여정 분석
 description: 고객 여정에서 고객과의 인터랙션을 분석하고 인사이트를 추출할 수 있습니다.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
-# 디지털 행동 데이터 통합 청사진
+# 크로스 채널 여정 분석 블루프린트
 
 다양한 웹, 모바일 및 오프라인 속성의 데이터를 통합하여 다양한 채널에서 고객 행동을 한 번에 파악할 수 있습니다.
 
