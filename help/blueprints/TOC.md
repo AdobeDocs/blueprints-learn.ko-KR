@@ -5,10 +5,10 @@ user-guide-description: Blueprint는 기존 비즈니스 문제를 해결하고 
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
    + [고객 활동 허브](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
-   + [디지털 행동 데이터 통합](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+   + [크로스 채널 여정 분석](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [통화 감소](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 데이터 수집 및 준비{#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
