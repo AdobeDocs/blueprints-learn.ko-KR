@@ -5,18 +5,16 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # 엔터프라이즈 대상 블루프린트에 대한 고객 및 프로필 활성화
 
-기업 데이터 저장소에 대한 프로필 및 대상 변경 사항을 복제 및 업데이트하여 활성화 및 보고 사용 사례를 제공합니다.<!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-기업 시스템 및 애플리케이션에 대한 [!UICONTROL 실시간 고객 데이터 플랫폼]의 고객 행동에 대한 알림을 통해 고객에게 판매 또는 지원 조치를 시작합니다.<!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+[!UICONTROL 실시간 고객 데이터 플랫폼]에서 엔터프라이즈 데이터 저장소 및 애플리케이션으로 스트리밍하거나 일괄적으로 프로필 및 대상 변경 사항과 이벤트를 공유할 수 있습니다. 이러한 프로필 및 대상 이벤트를 사용하여 중단된 응용 프로그램 프로세스나 웨비나 등록을 팔로우하는 것과 같은 고객에 대한 판매 또는 지원 작업을 시작하거나 [!UICONTROL 실시간 고객 데이터 플랫폼]에서 최신 고객 속성 및 인텔리전스로 기업 애플리케이션을 업데이트할 수 있습니다.
 
 ## 사용 사례
 
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 ## 구현 단계
 
-1. 인제스트할 데이터에 대한 스키마를 만듭니다.<!-- Cross-references to these topics would be helpful -->
+1. 인제스트할 데이터에 대한 스키마를 만듭니다.
 1. 수집할 데이터를 위한 데이터 세트를 만듭니다.
 1. 스키마의 올바른 ID 및 ID 네임스페이스를 구성하여 인제스트된 데이터가 통합 프로파일로 연결될 수 있도록 합니다.
 1. 프로필 처리를 위해 스키마 및 데이터 세트를 활성화합니다.
