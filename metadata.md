@@ -2,7 +2,7 @@
 cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
-type: 자습서
+type: Tutorial
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/blueprints-learn.ko-KR
 index: true
