@@ -1,5 +1,5 @@
 ---
-title: 웹 및 모바일 개인화
+title: '웹 및 모바일 개인화 '
 description: '[!UICONTROL 실시간 고객 프로필]을 사용하여 개인화된 웹 및 모바일 컨텐츠를 제공할 수 있습니다.'
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -9,18 +9,18 @@ translation-type: tm+mt
 source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
 # 웹 및 모바일 개인화
 
-웹 및 모바일 개인화는 고객 경험을 개인화하고 최적화하기 위해 여러 애플리케이션에서 고객 세분화를 사용하는 기능을 해결합니다. 고객 행동, 인구 통계, 충성도 수준 및 이전 거래를 통해 레이아웃, 클릭유도문안 및 컨텐츠를 개인화할 수 있습니다.
+웹 및 모바일 개인화는 고객 경험을 개인화하고 최적화하기 위해 여러 애플리케이션에서 고객 세분화를 사용하는 기능을 해결합니다. 고객의 행동, 인적 특성, 충성도 수준 및 이전 거래 기록을 활용하여 레이아웃, 콜 투 액션 및 콘텐츠를 개인화할 수 있습니다.
 
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
-| **[행동 웹/모바일 개인화](behavioral.md)** | <ul><li>온라인 행동 및 고객 데이터를 기반으로 개인화</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
-| **[온라인/오프라인 웹/모바일 개인화](online-offline.md)** | <ul><li>오프라인 속성 및 이벤트(거래, 예약, CRM 및 로열티 데이터)를 사용하여 개인화할 수 있습니다.</li><li>웹, 이메일 및 기타 알려진 채널에서 개인화를 동기화할 수 있습니다.</li></ul> | <ul><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
+| **[행동 웹/모바일 개인화](behavioral.md)** | <ul><li>온라인 행동과 대상자 데이터를 기반으로 개인화 구현</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
+| **[온라인/오프라인 웹/모바일 개인화](online-offline.md)** | <ul><li>오프라인 특성 및 이벤트(거래, 예약, CRM 및 충성도 데이터)를 개인화에 활용합니다.</li><li>웹, 이메일 및 다른 알려진 채널에 걸쳐 개인화를 동기화합니다.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
 
 ## 관련 블로그 게시물
 
