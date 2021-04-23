@@ -1,6 +1,6 @@
 ---
 title: 온라인/오프라인 웹 개인화 블루프린트
-description: 이메일 및 기타 알려진 익명의 채널 개인화와 웹 개인화를 동기화할 수 있습니다.
+description: 웹 개인화를 이메일 및 기타 알려지거나 알려지지 않은 채널 개인화와 동기화합니다.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
@@ -8,26 +8,26 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
 # 온라인/오프라인 웹/모바일 개인화 블루프린트
 
-이메일 및 기타 알려진 익명의 채널 개인화와 웹 개인화를 동기화할 수 있습니다.
+웹 개인화를 이메일 및 기타 알려지거나 알려지지 않은 채널 개인화와 동기화합니다.
 
 ## 사용 사례
 
 * 랜딩 페이지 최적화
-* 행동 및 오프라인 프로필 타깃팅
-* 거래, 충성도 및 CRM 데이터와 같은 오프라인 통찰력 외에도 이전 제품/컨텐츠 뷰, 제품/컨텐츠 친화성, 환경 특성, 제3자 고객 데이터 및 인구 통계학적 정보를 기반으로 개인화
+* 행동 및 오프라인 프로필 타겟팅
+* 이전 제품/콘텐츠 조회, 제품/콘텐츠 관련성, 환경 요인, 서드파티 대상자 데이터 및 인적 특성과 더불어 거래, 충성도 및 CRM 데이터 등 오프라인 인사이트와 모델에서 도출한 인사이트를 기반으로 한 개인화
 
 ## 애플리케이션
 
-* [!UICONTROL 실시간 고객 데이터 플랫폼]
+* [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager(선택 사항):제3자 대상 데이터, 공동 작업 기반 장치 그래프, Adobe Analytics에서 플랫폼 세그먼트를 표시하는 기능, 플랫폼에서 Adobe Analytics 세그먼트를 표시하는 기능 추가
-* Adobe Analytics(선택 사항):Adobe Analytics 데이터에서 내역 행동 데이터와 세분화된 세그먼트를 기반으로 세그먼트를 작성하는 기능을 추가합니다.
+* Adobe Audience Manager(선택 사항): 서드파티 대상자 데이터, co-op 기반 디바이스 그래프, Platform 세그먼트를 Adobe Analytics로 표면화하는 기능 및 Adobe Analytics 세그먼트를 Platform에서 표면화하는 기능 제공
+* Adobe Analytics(선택 사항): 과거 행동 데이터 및 Adobe Analytics 데이터의 세밀한 세분화를 기반으로 세그먼트를 작성하는 기능 제공
 
 ## 아키텍처
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ## 가드레일
 
-* 스트리밍 또는 일괄 평가 방법을 통해 Experience Platform에서 Audience Manager으로 공유되는 세그먼트는 세그먼트 구현 후 몇 분 이내에 공유됩니다. Experience Platform 세그먼트 멤버십이 Audience Manager 프로필에서 구현되기 시작하는 데 약 4시간의 Audience Manager과 Experience Platform 간에 초기 세그먼트 구성 동기화가 있습니다. Audience Manager 프로파일에 포함되면 Adobe Target을 통해 동일한 페이지 개인화를 위해 Experience Platform 세그먼트 멤버십을 사용할 수 있습니다.
+* Experience Platform에서 Audience Manager로 공유한 세그먼트는 스트리밍과 일괄 처리 평가 방법 중 어떤 방식을 사용하든 세그먼트 실현 몇 분 이내에 공유됩니다. Experience Platform 세그먼트 멤버십이 Audience Manager 프로필에서 구현되기 시작하는 데 약 4시간의 Audience Manager과 Experience Platform 간에 초기 세그먼트 구성 동기화가 있습니다. Audience Manager 프로파일에 포함되면 Adobe Target을 통해 동일한 페이지 개인화를 위해 Experience Platform 세그먼트 멤버십을 사용할 수 있습니다.
 * Experience Platform과 Audience Manager 간 4시간 세그먼트 구성 동기화 내에서 발생하는 세그먼트 합성의 경우 이러한 세그먼트 합산이 후속 배치 세그먼트 작업 시 &quot;기존&quot; 세그먼트로 Audience Manager으로 실현됩니다.
 * Experience Platform에서 일괄 세그먼트 공유 - 하루에 한 번 또는 API를 통해 수동으로 시작 이러한 세그먼트 멤버십이 실현되면 몇 분 내에 Audience Manager에 공유되고 Target에서 동일한/다음 페이지 개인화를 위해 사용할 수 있습니다.
 * 약 5분 내에 스트리밍 세그먼테이션이 실현됩니다. 이러한 세그먼트 조정이 발생하면 몇 분 내에 Audience Manager에 공유되고 Target에서 동일한/다음 페이지 개인화에 사용할 수 있습니다.
-* 기본적으로 세그먼트 공유 서비스는 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있도록 허용합니다. 고객에게 Audience Manager 라이선스가 있는 경우 Adobe Analytics 및 Adobe Target 또는 Audience Manager과 Adobe Target 간에 공유할 수 있는 대상 수에 제한이 없습니다.
+* 기본적으로 세그먼트 공유 서비스를 통해 각 Adobe Analytics 보고서 세트 당 75명의 대상자를 공유할 수 있습니다. 고객이 Audience Manager 라이센스를 가지고 있는 경우 Adobe Analytics와 Adobe Target 간 또는 Audience Manager와 Adobe Target 간에 공유할 수 있는 대상자의 수에는 제한이 없습니다.
 
 ## 구현 패턴
 
@@ -54,43 +54,43 @@ ht-degree: 0%
 
 ### 2. 애플리케이션별 SDK 방식
 
-<img src="assets/appsdkflow.png" alt="애플리케이션별 SDK 접근 방식의 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/appsdkflow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
-## 구현 전제 조건
+## 구현 필요 조건
 
-| 애플리케이션/서비스 | 필수 라이브러리 | 참고 사항 |
+| 애플리케이션/서비스 | 필요한 라이브러리 | 참고 사항 |
 |---|---|---|
-| Adobe Target | [!UICONTROL 플랫폼 웹 SDK]*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js가 더 이상 개발되지 않으므로 at.js가 선호됩니다. |
+| Adobe Target | [!UICONTROL 플랫폼 웹 SDK]*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js는 더 이상 개발되지 않으므로 at.js 사용을 추천합니다. |
 | Adobe Audience Manager(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 dil.js 5.0+ |  |
-| Adobe Analytics(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ | Adobe Analytics 추적은 RDC(지역 데이터 수집)를 사용해야 합니다. |
-| Experience Cloud ID 서비스 | [!UICONTROL 플랫폼 웹 SDK]* 또는 VisitorAPI.js 2.0+ | (권장) Experience Platform Launch을 사용하여 ID 서비스를 배포하여 응용 프로그램 호출 전에 ID가 설정되었는지 확인합니다 |
-| Experience Platform Mobile SDK(선택 사항) | iOS 및 Android™의 경우 4.11 이상 |  |
-| Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 Experience Cloud 응용 프로그램에 대해 아직 지원되지 않는 다양한 사용 사례가 있습니다](https://github.com/adobe/alloy/projects/5)[ |  |
+| Adobe Analytics(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ | Adobe Analytics 추적에는 RDC(지역 단위 데이터 수집)를 사용해야 합니다. |
+| Experience Cloud ID 서비스 | [!UICONTROL 플랫폼 웹 SDK]* 또는 VisitorAPI.js 2.0+ | (추천)ID 서비스 배포에 Experience Platform Launch를 사용하여 반드시 애플리케이션 호출 발생 이전에 ID가 설정되도록 합니다. |
+| Experience Platform 모바일 SDK(선택 사항) | iOS 및 Android™용 4.11 이상 |  |
+| Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 [아직 Experience Cloud 애플리케이션에서 지원하지 않는 다양한 사용 사례](https://github.com/adobe/alloy/projects/5)가 있습니다. |  |
 
 
 ## 구현 단계
 
-1. [웹 또는 모바일 ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) 애플리케이션용 Adobe 타깃팅 구현
-1. [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)  구현(선택 사항)
-1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)   구현(선택 사항)
-1. [Experience Platform 및  [!UICONTROL 실시간 고객 프로파일 구현]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) 또는 [Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 구현
+1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
+1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)(선택 사항)
+1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)(선택 사항)
+1. [[!UICONTROL Experience Platform 및 Real-time Customer Profile 구현]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
+1. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko) 또는 [Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 구현
    >[!NOTE]
    >
-   >각 응용 프로그램은 Experience Cloud ID를 사용하고 동일한 Experience Cloud 조직에 속해 있어야 응용 프로그램 간에 대상 공유를 허용할 수 있습니다.
-1. [Experience Platform과 Adobe Target 간 대상 공유를 위한 프로비저닝 요청(공유 대상)](https://www.adobe.com/go/audiences)
+   >애플리케이션 간에 대상자를 공유하려면 각 애플리케이션이 Experience Cloud ID를 사용해야 하며 동일한 Experience Cloud 조직의 일부여야 합니다.
+1. [Experience Platform과 Adobe Target 간 대상자 공유를 위한 제공 요청(공유 대상자)](https://www.adobe.com/go/audiences)
 
 ## 관련 설명서
 
-* [Audience Manager 및 기타 Experience Cloud 솔루션과 Experience Platform 세그먼트 공유](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
-* [Experience Platform 세그멘테이션 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
-* [스트리밍 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Experience Platform 세그먼트 빌더 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
-* [Audience Manager 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [Adobe Audience Manager을 통한 Adobe Analytics 세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko)
+* [Experience Platform 세분화 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)
+* [세분화 스트리밍](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
+* [Experience Platform 세분화 작성기 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)
+* [Audience Manager 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
+* [Adobe Audience Manager을 통한 Adobe Analytics 세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
 * [Experience Platform 웹 SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-* [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html)
-* [Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/home.html)
+* [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
+* [Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko)
 
 ## 관련 블로그 게시물
 
