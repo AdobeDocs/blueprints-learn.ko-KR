@@ -1,7 +1,7 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
@@ -10,8 +10,20 @@ ht-degree: 100%
 
 © Copyright 2020 Adobe. All rights reserved.
 
-본 소프트웨어 및 관련 문서 파일(&quot;소프트웨어&quot;)의 사본을 받는 사람에게 무료로 제공되는 이 소프트웨어의 사용, 복사, 수정, 병합, 게시, 배포, 재사용 및/또는 소프트웨어 사본 판매 권한을 제한 없이 소프트웨어를 관리하고, 이 소프트웨어를 제공한 사람에게 다음 조건을 적용하여 그러한 권한을 부여할 수 있습니다.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-상기의 저작권 통지 및 이 권한 통지는 소프트웨어의 모든 사본 또는 상당 부분에 포함시켜야 합니다.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-이 소프트웨어는 상품성, 특정 목적 적합성 및 비침해성에 대한 보증을 포함하여 명시적이든 묵시적이든 어떤 종류의 보증도 없이 &quot;있는 그대로&quot; 제공됩니다. 어떠한 경우에도 저작자 또는 저작권 보유자는 계약 행동에서든, 불법 행위 등에서든 본 소프트웨어 또는 소프트웨어의 사용 또는 기타 취급으로부터 또는 관련하여 발생하는 클레임, 손해 또는 기타 책임에 대해 책임을 지지 않습니다.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
