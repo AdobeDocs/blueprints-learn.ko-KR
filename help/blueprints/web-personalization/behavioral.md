@@ -1,6 +1,6 @@
 ---
 title: 행동 웹 개인화 블루프린트
-description: 온라인 행동 및 고객 데이터를 기반으로 개인화
+description: 온라인 행동과 대상자 데이터를 기반으로 개인화를 구현합니다.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
@@ -8,19 +8,19 @@ translation-type: tm+mt
 source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 # 행동 웹/모바일 개인화 블루프린트
 
-온라인 행동 및 고객 데이터를 기반으로 개인화
+온라인 행동과 대상자 데이터를 기반으로 개인화를 구현합니다.
 
 ## 사용 사례
 
 * 랜딩 페이지 최적화
-* 행동 타깃팅
-* 이전 제품/컨텐츠 보기, 제품/컨텐츠 선호도, 환경 특성, 제3자 고객 데이터 및 인구 통계학적 정보를 기반으로 개인화
+* 행동 타겟팅
+* 이전 제품/콘텐츠 조회, 제품/콘텐츠 관련성, 환경 요인, 서드파티 대상자 데이터 및 인적 특성 기반 개인화
 
 ## 애플리케이션
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 가드레일
 
-기본적으로 세그먼트 공유 서비스를 사용하면 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있습니다. 대상 공유에 Audience Manager이 사용되는 경우 공유할 수 있는 대상 수에 제한이 없습니다. 
+기본적으로 세그먼트 공유 서비스를 통해 각 Adobe Analytics 보고서 세트 당 75명의 대상자를 공유할 수 있습니다. 대상자 공유에 Audience Manager를 사용하는 경우에는 공유할 수 있는 대상자 수에 제한이 없습니다.  
 
 ## 구현 패턴
 
@@ -50,44 +50,44 @@ ht-degree: 0%
 
 ### 2. 애플리케이션별 SDK 방식
 
-<img src="assets/appsdkflow.png" alt="애플리케이션별 SDK 접근 방식의 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/appsdkflow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 
 
 
-## 구현 전제 조건
+## 구현 필요 조건
 
-| 애플리케이션/서비스 | 필수 라이브러리 | 참고 사항 |
+| 애플리케이션/서비스 | 필요한 라이브러리 | 참고 사항 |
 |---|---|---|
-| Adobe Target | [!UICONTROL 플랫폼 웹 SDK]*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js가 더 이상 개발되지 않으므로 at.js가 선호됩니다. |
+| Adobe Target | [!UICONTROL 플랫폼 웹 SDK]*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js는 더 이상 개발되지 않으므로 at.js 사용을 추천합니다. |
 | Adobe Audience Manager(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 dil.js 5.0+ |  |
 | Adobe Analytics(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ |  |
 | Experience Cloud ID 서비스 | [!UICONTROL 플랫폼 웹 SDK]* 또는 VisitorAPI.js 2.0+ |  |
-| Experience Platform Mobile SDK(선택 사항) | iOS 및 Android™의 경우 4.11 이상 |  |
-| Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 Experience Cloud 응용 프로그램에 대해 아직 지원되지 않는 다양한 사용 사례가 있습니다](https://github.com/adobe/alloy/projects/5)[ |  |
+| Experience Platform 모바일 SDK(선택 사항) | iOS 및 Android™용 4.11 이상 |  |
+| Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 [아직 Experience Cloud 애플리케이션에서 지원하지 않는 다양한 사용 사례](https://github.com/adobe/alloy/projects/5)가 있습니다. |  |
 
 ## 구현 단계
 
-1. [웹 또는 모바일 ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) 애플리케이션에 대한 Adobe 타게팅을 구현합니다.
+1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
 
    Audience Manager 또는 Adobe Analytics을 사용하는 경우:
 
-1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
-1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
-1. [Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)
+1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)
+1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)
+1. [Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko)
 
    >[!NOTE]
    >
-   >각 응용 프로그램은 Experience Cloud ID를 사용하고 동일한 Experience Cloud 조직에 속해 있어야 응용 프로그램 간에 대상 공유를 허용할 수 있습니다.
+   >애플리케이션 간에 대상자를 공유하려면 각 애플리케이션이 Experience Cloud ID를 사용해야 하며 동일한 Experience Cloud 조직의 일부여야 합니다.
 
-1. [사람 및 대상 공유 서비스에 대한 프로비저닝 요청(공유 대상)](https://www.adobe.com/go/audiences)
-1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) 또는 [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 및 [에서 세그먼트를 작성하고 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)(Audience Manager 또는 Adobe Analytics을 사용하는 경우)에 공유할 대상 구성
-1. Adobe Target에서 대상을 사용할 수 있게 되면 Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)이 있는 [타깃팅 경험에 사용할 수 있습니다.
+1. [사람 및 대상자 공유 서비스(공유 대상자) 제공 요청](https://www.adobe.com/go/audiences)
+1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko) 또는 [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ko)에서 세그먼트를 작성하고 [해당 대상자를 Experience Cloud에 공유하도록 구성](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)(Audience Manager 또는 Adobe Analytics 사용 시)합니다.
+1. 대상자가 Adobe Target에서 사용 가능해지면 이를 [Adobe Target을 통한 경험 타겟팅](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=ko)에 사용할 수 있습니다.
 
 ## 관련 설명서
 
-* [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [Adobe Target과 Audience Manager 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
+* [Audience Manager와 Adobe Target 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ko)
 * [Adobe Audience Manager을 통한 Adobe Analytics 세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
