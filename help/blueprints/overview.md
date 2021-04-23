@@ -1,17 +1,17 @@
 ---
-title: 디지털 경험 청사진
-description: Digital Experience Blueprint는 전략을 해결하고 설정된 비즈니스 문제를 해결하기 위한 반복적인 구현입니다. 신속한 비즈니스 달성 시간을 단축하고 신속한 성공 전략을 제공합니다.
+title: 디지털 경험 블루프린트
+description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 0%
+ht-degree: 37%
 
 ---
 
-# 디지털 경험 청사진
+# 디지털 경험 블루프린트
 
 Digital Experience Blueprint는 전략을 해결하고 수립한 비즈니스 문제를 신속하게 해결할 수 있는 반복 가능한 구현입니다. 각 블루프린트는 높은 가치의 비즈니스 문제, 아키텍처, 구현 단계, 기술 고려 사항 및 관련 설명서에 대한 링크를 설명하는 일련의 가공물을 제공합니다.
 
@@ -22,12 +22,12 @@ Digital Experience Blueprint는 전략을 해결하고 수립한 비즈니스 �
    *모든 시스템에서 고객 프로파일을 최신 상태로 유지하여 세일즈 및 지원 팀을 강화합니다&#x200B;.*
 * **[고객 활동 허브 블루프린트](/help/blueprints/audience-activation/customer-activity.md)**
 
-   *에이전트 지원 지원 및 영업에 대한 컨텍스트를 제공합니다.*
+   *직원이 관여하는 지원 및 영업의 맥락을 제공합니다.*
 * **[데이터 분석 및 인텔리전스 블루프린트](/help/blueprints/data-insights/analysis.md)**
 
-   *데이터 레이크에서 데이터를 탐색적 쿼리와 분석합니다.*
+   *데이터 레이크에 있는 데이터에 탐색 쿼리 및 분석을 수행합니다.*
 
-## 주요 청사진
+## 추천 블루프린트
 
 <table style="table-layout:fixed">
 <tr>
@@ -39,7 +39,7 @@ Digital Experience Blueprint는 전략을 해결하고 수립한 비즈니스 �
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="온라인/오프라인 Audience Activation 블루프린트에 대한 축소판 이미지" src="audience-activation/assets/onoff.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>온라인/오프라인 Audience Activation</strong></a></div>
-    <p><em>고객이 활성화한 크로스채널 광고 전달</em></p>
+    <p><em>대상자에 의해 활성화되는 크로스채널 광고를 게재합니다.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="디지털 행동 데이터 통합 블루프린트의 축소판 이미지" src="customer-journey-analytics/assets/CJA.svg" /></a>
