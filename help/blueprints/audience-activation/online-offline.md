@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 81%
+source-wordcount: '990'
+ht-degree: 35%
 
 ---
 
@@ -36,13 +36,27 @@ ht-degree: 81%
 ## 가드레일
 
 * [프로필 및 세분화 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
-* 세그먼트 일괄 처리 작업은 기존에 정한 예약 일정에 따라 하루 한 번 실행됩니다. 그 다음에는 예약한 대상 게재에 앞서 세그먼트 내보내기 작업이 실행됩니다. 참고: 세그먼트 일괄 처리 작업과 대상 게재 작업은 별도로 실행됩니다. 세그먼트 일괄 처리 작업과 내보내기 작업의 속도는 평가하는 프로필의 수와 규모 및 세그먼트의 수에 따라 달라집니다.
-* 세그먼트 스트리밍 작업은 프로필에 도착할 데이터를 스트리밍하는 몇 분 안에 평가되며, 즉시 프로필에 세그먼트 멤버십을 쓰고 구독할 애플리케이션에 이벤트를 보냅니다.
-* 세그먼트 멤버십 스트리밍이 스트리밍 대상에서 즉각 실행되며, 대상의 수집 패턴에 따라 단일 세그먼트 멤버십 이벤트 또는 여러 프로필 이벤트의 소규모 일괄 처리 단위로 게재됩니다. 예약된 세그먼트 일괄 처리를 통해 게재하여 스트리밍 시 평가하는 모든 세그먼트에 대해, 예약한 대상이 게재에 앞서 프로필로부터 세그먼트 내보내기 작업을 시작합니다.
-* Audience Manager에 실시간 고객 데이터 플랫폼] 세그먼트 멤버십을 공유하는 경우 세그먼트 스트리밍에 대해 몇 분 내에, 일괄 세그먼테이션에 대한 일괄 세그먼트 평가가 완료되면 몇 분 내에 발생합니다.[!UICONTROL 
-* Experience Platform에서 Audience Manager로 공유한 세그먼트는 스트리밍과 일괄 처리 평가 방법 중 어떤 방식을 사용하든 세그먼트 실현 몇 분 이내에 공유됩니다. 세그먼트가 처음 만들어지면 Experience Platform과 Audience Manager 간에 초기 세그먼트 구성 동기화가 있으며 약 4시간 후 Experience Platform 세그먼트 멤버십이 Audience Manager 프로필에서 구현될 수 있습니다. Experience Platform과 Audience Manager 대상자 구성 전이나 대상자 메타데이터를 Experience Platform에서 Audience Manager로 동기화하기 전에 실현된 대상자 멤버십의 경우 &quot;기존&quot; 세그먼트 멤버십이 공유되는 후속 세그먼트 작업 전까지는 실현되지 않습니다.
-* 세그먼트 일괄 처리 작업에서 시작된 대상 일괄 처리 또는 스트리밍 작업에서는 프로필 특성 업데이트와 세그먼트 멤버십을 공유할 수 있습니다.
-* 스트리밍 대상에 대한 세분화 스트리밍 작업은 세그먼트 멤버십 업데이트만 공유합니다.
+
+### 세그먼트 평가 및 활성화 보장
+
+| 세그멘테이션 유형 | 빈도 | 처리량 | 지연(세그먼트 평가) | 지연(세그먼트 활성화) | 활성화 페이로드 |
+|-|-|-|-|-||
+| 가장자리 세그멘테이션 | Edge 세그멘테이션은 현재 베타 버전으로 제공되고 있으며 Adobe Target 및 Adobe Journey Optimizer을 통해 실시간으로 동일한 페이지 의사 결정을 위해 Experience Platform 에지 네트워크에서 유효한 실시간 세그멘테이션을 평가할 수 있습니다. |  | ~100ms | Adobe Target의 개인화, 에지 프로필의 프로필 조회 및 쿠키 기반 대상을 통한 활성화를 위해 즉시 사용할 수 있습니다. | 에지 사이트에서 프로필 조회 및 쿠키 기반 대상에 대한 대상 멤버십을 사용할 수 있습니다.<br>대상 멤버십 및 프로필 속성은 Adobe Target 및 Journey Optimizer에서 사용할 수 있습니다.  |
+| 스트리밍 세그멘테이션 | 새로운 스트리밍 이벤트 또는 레코드를 실시간 고객 프로파일에 인제스트할 때마다 세그먼트 정의가 유효한 스트리밍 세그먼트입니다. <br>스트리밍 세그먼트  [기준에 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko) 대한 지침은 세그멘테이션 설명서를 참조하십시오. | 초당 최대 1,500개의 이벤트.  | ~ p95 &lt;5분 | 스트리밍 대상:스트리밍 대상 멤버십은 약 10분 이내에 활성화되거나 대상의 요구 사항에 따라 마이크로 일괄적으로 활성화됩니다.<br>예약된 대상:스트리밍 대상 멤버십은 예약된 대상 배달 시간에 따라 일괄 활성화됩니다. | 스트리밍 대상:대상 멤버십 변경 사항, ID 값 및 프로필 속성.<br>예약된 대상:대상 멤버십 변경 사항, ID 값 및 프로필 속성. |
+| 증분 세그먼테이션 | 마지막 증분 또는 일괄 세그먼트 평가 이후 실시간 고객 프로필로 인제스트한 새 데이터에 대해 시간당 한 번. |  |  | 스트리밍 대상:증분 대상 멤버십은 약 10분 이내에 활성화되거나 대상의 요구 사항에 따라 미시적 일괄 처리됩니다.<br>예약된 대상:예약된 대상 배달 시간에 따라 증분 대상 멤버십이 일괄적으로 활성화됩니다. | 스트리밍 대상:대상 멤버십 변경 및 ID 값만 가능합니다.<br>예약된 대상:대상 멤버십 변경 사항, ID 값 및 프로필 속성. |
+| 일괄 세그먼테이션 | 미리 결정된 시스템 세트 일정을 기준으로 하루에 한 번 또는 API를 통해 수동으로 시작한 애드혹. |  | 최대 10TB의 프로필 스토어 크기에 대해 작업당 약 1시간, 10TB에서 100TB까지의 프로필 스토어 크기에 대해 작업당 2시간. 일괄 세그먼트 작업 성능은 평가 중인 세그먼트 수 프로필, 프로필 크기 및 수에 따라 달라집니다. | 스트리밍 대상:배치 대상 멤버십은 대상의 요구 사항에 따라 세그먼테이션 평가가 약 10일 이내에 활성화되거나 미시적 일괄 처리됩니다.<br>예약된 대상:예약된 대상 배달 시간에 따라 일괄 대상 멤버십이 활성화됩니다. | 스트리밍 대상:대상 멤버십 변경 및 ID 값만 가능합니다.<br>예약된 대상:대상 멤버십 변경 사항, ID 값 및 프로필 속성. |
+
+### 애플리케이션 간 대상 공유를 위한 보장
+
+| 고객 애플리케이션 통합 | 빈도 | 처리량/볼륨 | 지연(세그먼트 평가) | 지연(세그먼트 활성화) |
+|-|-|-|-||
+| 실시간 고객 데이터 플랫폼-Audience Manager | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가리기 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가리기 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가리기 테이블을 참조하십시오. | 세그먼트 평가가 완료된 후 몇 분 이내에<br>실시간 고객 데이터 플랫폼과 Audience Manager 간의 초기 고객 구성 동기화는 약 4시간이 소요됩니다.<br>4시간 동안 실현된 모든 고객 멤버십은 후속 배치 세그먼테이션 작업의 Audience Manager에 &quot;기존&quot; 대상 멤버십으로 기록됩니다. |
+| Adobe Analytics에서 Audience Manager으로 |  | 기본적으로 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있습니다. Audience Manager 라이선스를 사용하는 경우 Adobe Analytics 및 Adobe Target 또는 Adobe Audience Manager과 Adobe Target 간에 공유할 수 있는 대상 수에 제한이 없습니다. |  |  |
+| Adobe Analytics에서 실시간 고객 데이터 플랫폼으로 | 현재 사용할 수 없음 | 현재 사용할 수 없음 | 현재 사용할 수 없음 | 현재 사용할 수 없음 |
+
+
+
+
 
 ## 구현 단계
 
@@ -64,7 +78,7 @@ ht-degree: 81%
 
 * [Real-time Customer Data Platform 제품 설명 ](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform.html)
 * [프로필 및 세그멘테이션 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [세분화 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
+* [세분화 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko)
 
 ## 관련 비디오 및 튜토리얼
