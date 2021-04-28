@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 24b6ffe3021389d33e84688a8f1a90711ca4b772
+source-git-commit: db083e30d8add029e99cade25d561a26da78338e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1040'
+ht-degree: 34%
 
 ---
 
@@ -51,8 +51,10 @@ ht-degree: 0%
 | 고객 애플리케이션 통합 | 빈도 | 처리량/볼륨 | 지연(세그먼트 평가) | 지연(세그먼트 활성화) |
 |---|---|---|---|---|
 | 실시간 고객 데이터 플랫폼 - Audience Manager | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가설 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가설 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가설 테이블을 참조하십시오. | 세그먼트 평가가 완료된 후 몇 분 이내에<br>실시간 고객 데이터 플랫폼과 Audience Manager 간의 초기 고객 구성 동기화는 약 4시간이 소요됩니다.<br>4시간 동안 실현된 모든 고객 멤버십은 후속 배치 세그먼테이션 작업의 Audience Manager에 &quot;기존&quot; 대상 멤버십으로 기록됩니다. |
-| Adobe Analytics에서 Audience Manager으로 |  | 기본적으로 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있습니다. Audience Manager 라이선스를 사용하는 경우 Adobe Analytics 및 Adobe Target 또는 Adobe Audience Manager과 Adobe Target 간에 공유할 수 있는 대상 수에 제한이 없습니다. |  |  |
+| 실시간 고객 데이터 플랫폼 - Ad Cloud | 실시간 고객 데이터 플랫폼에서 Adobe Advertising Cloud으로 대상을 공유하려면 Audience Manager이 필요합니다. 실시간 고객 데이터 플랫폼 공유를 Audience Manager에 적용하는 것과 동일한 보장 사항이 Advertising Cloud에 실시간 고객 데이터 플랫폼 고객을 통합하도록 적용됩니다. | - | - | - |
 | 실시간 고객 데이터 플랫폼에 대한 Adobe Analytics | 현재 사용할 수 없음 | 현재 사용할 수 없음 | 현재 사용할 수 없음 | 현재 사용할 수 없음 |
+| Adobe Analytics에서 Audience Manager으로 | - | 기본적으로 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있습니다. Audience Manager 라이선스를 사용하는 경우 Adobe Analytics 및 Adobe Target 또는 Adobe Audience Manager과 Adobe Target 간에 공유할 수 있는 대상 수에 제한이 없습니다. | - | - |
+
 
 
 
