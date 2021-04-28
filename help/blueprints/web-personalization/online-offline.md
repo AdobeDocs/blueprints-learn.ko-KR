@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
+source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 48%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,20 +38,20 @@ ht-degree: 48%
 ### 세그먼트 평가 및 활성화 보장
 
 | 세그멘테이션 유형 | 빈도 | 처리량 | 지연(세그먼트 평가) | 지연(세그먼트 활성화) |
-|-|-|-|-||
-| 가장자리 세그멘테이션 | Edge 세그멘테이션은 현재 베타 버전으로 제공되고 있으며 Adobe Target 및 Adobe Journey Optimizer을 통해 실시간으로 동일한 페이지 의사 결정을 위해 Experience Platform 에지 네트워크에서 유효한 실시간 세그멘테이션을 평가할 수 있습니다. |  | ~100ms | Adobe Target의 개인화, 에지 프로필의 프로필 조회 및 쿠키 기반 대상을 통한 활성화를 위해 즉시 사용할 수 있습니다. |
-| 스트리밍 세그멘테이션 | 새로운 스트리밍 이벤트 또는 레코드를 실시간 고객 프로파일에 인제스트할 때마다 세그먼트 정의가 유효한 스트리밍 세그먼트입니다. <br>스트리밍 세그먼트  [기준에 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko) 대한 지침은 세그멘테이션 설명서를 참조하십시오. | 초당 최대 1,500개의 이벤트.  | ~ p95 &lt;5분 | 이러한 세그먼트 합산이 발생하면 몇 분 내에 Audience Manager 및 고객 공유 서비스에 공유되고 Adobe Target에서 동일한/다음 페이지 개인화에 사용할 수 있습니다. |
-| 증분 세그먼테이션 | 마지막 증분 또는 일괄 세그먼트 평가 이후 실시간 고객 프로필로 인제스트한 새 데이터에 대해 시간당 한 번. |  |  | 이러한 세그먼트 멤버십이 실현되면 Audience Manager 및 고객 공유 서비스에 몇 분 내에 공유되고 Adobe Target에서 동일한/다음 페이지 개인화를 위해 사용할 수 있습니다. |
-| 일괄 세그먼테이션 | 미리 결정된 시스템 세트 일정을 기준으로 하루에 한 번 또는 API를 통해 수동으로 시작한 애드혹. |  | 최대 10TB의 프로필 스토어 크기에 대해 작업당 약 1시간, 10TB에서 100TB까지의 프로필 스토어 크기에 대해 작업당 2시간. 일괄 세그먼트 작업 성능은 평가 중인 세그먼트 수 프로필, 프로필 크기 및 수에 따라 달라집니다. | 이러한 세그먼트 멤버십이 실현되면 Audience Manager 및 고객 공유 서비스에 몇 분 내에 공유되고 Adobe Target에서 동일한/다음 페이지 개인화를 위해 사용할 수 있습니다. |
+|---|---|---|---|---|
+| 가장자리 세그멘테이션 | 에지 세그먼테이션은 현재 베타 버전으로 제공되고 있으며, Adobe Target 및 Adobe Journey Optimizer을 통해 실시간으로 동일한 페이지 의사 결정을 위해 Experience Platform 에지 네트워크에서 유효한 실시간 세그먼테이션을 평가할 수 있습니다. |  | ~100ms | Adobe Target의 개인화, 에지 프로필의 프로필 조회 및 쿠키 기반 대상을 통한 활성화를 위해 즉시 사용할 수 있습니다. |
+| 세분화 스트리밍 | 새로운 스트리밍 이벤트 또는 레코드를 실시간 고객 프로파일로 인제스트할 때마다 세그먼트 정의가 유효한 스트리밍 세그먼트입니다. <br>스트리밍 세그먼트  [기준에 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko) 대한 지침은 세그멘테이션 설명서를 참조하십시오. | 초당 최대 1,500개의 이벤트. | ~ p95 &lt;5분 | 이러한 세그먼트 조정이 발생하면 몇 분 내에 Audience Manager 및 고객 공유 서비스에 공유되고 Adobe Target에서 동일한/다음 페이지 개인화에 사용할 수 있습니다. |
+| 증분 세그먼테이션 | 마지막 증분 또는 일괄 세그먼트 평가 이후 실시간 고객 프로필로 인제스트된 새 데이터에 대해 시간당 한 번. |  |  | 이러한 세그먼트 멤버십이 실현되면 몇 분 내에 Audience Manager 및 고객 공유 서비스에 공유되고 Adobe Target에서 동일한/다음 페이지 개인화를 위해 사용할 수 있습니다. |
+| 일괄 세그먼테이션 | 미리 결정된 시스템 세트 일정을 기준으로 하루에 한 번 또는 API를 통해 수동으로 시작한 애드혹. |  | 최대 10TB의 프로파일 저장소 크기에 대해 작업당 약 1시간, 10TB에서 100TB까지의 프로파일 저장소 크기에 대해 작업당 2시간. 일괄 세그먼트 작업 성능은 평가 중인 세그먼트 수 프로필, 프로필 크기 및 수에 따라 달라집니다. | 이러한 세그먼트 멤버십이 실현되면 몇 분 내에 Audience Manager 및 고객 공유 서비스에 공유되고 Adobe Target에서 동일한/다음 페이지 개인화를 위해 사용할 수 있습니다. |
 
 ### 애플리케이션 간 공유를 위한 보장
 
 
-| 고객 공유 통합 패턴 | 세부 사항 | 빈도 | 처리량 | 지연(세그먼트 평가) | 지연(세그먼트 활성화) |
-|-|-|-|-|-||
-| 실시간 고객 데이터 플랫폼-Audience Manager |  | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가리기 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가리기 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가리기 테이블을 참조하십시오. | 세그먼트 평가가 완료된 후 몇 분 이내에<br>실시간 고객 데이터 플랫폼과 Audience Manager 간의 초기 고객 구성 동기화는 약 4시간이 소요됩니다.<br>4시간 동안 실현된 모든 고객 멤버십은 후속 배치 세그먼테이션 작업의 Audience Manager에 &quot;기존&quot; 대상 멤버십으로 기록됩니다. |
+| 대상 공유 통합 패턴 | 세부 정보 | 빈도 | 처리량 | 지연(세그먼트 평가) | 지연(세그먼트 활성화) |
+|---|---|---|---|---|---|
+| 실시간 고객 데이터 플랫폼 - Audience Manager |  | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가설 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가설 테이블을 참조하십시오. | 세그멘테이션 유형에 따라 - 위의 세그멘테이션 가설 테이블을 참조하십시오. | 세그먼트 평가가 완료된 후 몇 분 이내에<br>실시간 고객 데이터 플랫폼과 Audience Manager 간의 초기 고객 구성 동기화는 약 4시간이 소요됩니다.<br>4시간 동안 실현된 모든 고객 멤버십은 후속 배치 세그먼테이션 작업의 Audience Manager에 &quot;기존&quot; 대상 멤버십으로 기록됩니다. |
 | Adobe Analytics에서 Audience Manager으로 | 기본적으로 각 Adobe Analytics 보고서 세트에 대해 최대 75명의 대상을 공유할 수 있습니다. Audience Manager 라이선스를 사용하는 경우 Adobe Analytics 및 Adobe Target 또는 Adobe Audience Manager과 Adobe Target 간에 공유할 수 있는 대상 수에 제한이 없습니다. |  |  |  |  |
-| Adobe Analytics에서 실시간 고객 데이터 플랫폼으로 | 현재 사용할 수 없습니다. |  |  |  |  |
+| 실시간 고객 데이터 플랫폼에 대한 Adobe Analytics | 현재 사용할 수 없습니다. |  |  |  |  |
 
 ## 구현 패턴
 
