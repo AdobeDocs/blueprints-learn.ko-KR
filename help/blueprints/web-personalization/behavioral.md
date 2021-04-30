@@ -5,7 +5,7 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
+source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 78%
@@ -30,7 +30,7 @@ ht-degree: 78%
 
 ## 아키텍처
 
-<img src="assets/personalization.svg" alt="행동 웹 개인화 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="행동 웹 개인화 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 
 ## 가드레일
@@ -46,14 +46,11 @@ ht-degree: 78%
 
 ### 1. 플랫폼 웹/모바일 SDK 및 Edge 방식
 
-<img src="assets/websdkflow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK] 및 [!UICONTROL Edge Network] 접근 방식에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK] 및 [!UICONTROL Edge Network] 접근 방식에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ### 2. 애플리케이션별 SDK 방식
 
-<img src="assets/appsdkflow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="border:1px solid #4a4a4a" />
-
-
-
+<img src="assets/app_sdk_flow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 구현 필요 조건
 
