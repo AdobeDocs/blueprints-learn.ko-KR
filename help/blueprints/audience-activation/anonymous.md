@@ -6,7 +6,7 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 87%
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 ## 아키텍처
 
-<img src="assets/aam.svg" alt="익명의 Audience Activation 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="익명의 Audience Activation 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 구현 단계
 
