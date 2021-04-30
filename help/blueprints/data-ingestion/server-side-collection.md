@@ -1,37 +1,37 @@
 ---
 title: 서버측 엔터프라이즈 데이터 수집 블루프린트
-description: Experience Platform SDK에서 대상으로 수집한 데이터 스트림
+description: Experience Platform SDK를 통해 대상으로 스트리밍 수집한 데이터
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 서버측 엔터프라이즈 데이터 수집 블루프린트
 
-서버측 엔터프라이즈 데이터 수집 블루프린트는 Adobe Experience Platform 웹 및 모바일 SDK로 수집한 데이터를 Experience Platform 에지 네트워크에서 원하는 대상으로 전송하는 방법을 보여줍니다. Experience Platform Launch에 구성된 이벤트 및 규칙에 따라 SDK에서 수집된 모든 원시 데이터 또는 특정 데이터를 전송할 수 있습니다.
+서버측 엔터프라이즈 데이터 수집 블루프린트에서는 Adobe Experience Platform 웹 및 모바일 SDK로 수집한 데이터를 Experience Platform Edge Network에서 원하는 대상으로 전달하는 방법을 설명합니다. SDK에서 수집한 원 데이터 전체를 전달하거나 Experience Platform Launch에서 구성한 바에 따라 이벤트 및 규칙을 기반으로 특정 데이터를 전달할 수 있습니다.
 
 ## 사용 사례
 
-* 단일 컬렉션 태그를 사용하여 웹 또는 모바일에서 데이터를 수집하고 클라이언트 브라우저 및 앱에서 코드 가중치를 줄입니다. 데이터 수집의 단일 원본에 대해 수집한 데이터를 다양한 끝점에 전파합니다.
-* 수집된 데이터에 대해 인사이트와 애플리케이션을 구축하기 위해 수집된 데이터를 파트너 애플리케이션 또는 데이터 스토리지 위치로 전송할 수 있습니다.
+* 웹 또는 모바일에서 단일 수집 태그를 사용하여 데이터를 수집함으로써 클라이언트 브라우저 및 앱에 대한 코드 권한 요구를 줄입니다. 단일 데이터 수집 소스에서 수집한 데이터를 다양한 종점으로 전파합니다.
+* 수집한 데이터와 비교하여 인사이트 및 애플리케이션을 구축할 수 있도록 수집한 데이터를 파트너 애플리케이션 또는 데이터 저장 위치로 전달합니다.
 
 ## 애플리케이션
 
-* Adobe Experience Platform Collection
+* Adobe Experience Platform 수집
 
 ## 아키텍처
 
-<img src="assets/entcollect.svg" alt="엔터프라이즈 데이터 수집을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="엔터프라이즈 데이터 수집을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 관련 설명서
 
-[Experience Platform Launch 서버 측 설명서](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+[Experience Platform Launch 서버측 설명서](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=ko#server-side-info)
 
 ## 관련 블로그 게시물
 
