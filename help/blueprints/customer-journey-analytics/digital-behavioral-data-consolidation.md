@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '518'
 ht-degree: 98%
 
 ---
@@ -35,13 +35,6 @@ ht-degree: 98%
 ## 아키텍처
 
 <img src="assets/CJA.svg" alt="Customer Journey Analytics 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
-
-## 가드레일
-
-Customer Journey Analytics로 데이터 수집:
-
-* 데이터 레이크로 수집: API 시간 당 최대 7GB, 소스 커넥터 시간 당 최대 200GB, 레이크로 스트리밍 최대 15분, Adobe Analytics 소스 커넥터에서 레이크로 최대 45분.
-* 데이터가 데이터 레이크에 게시된 후 이를 Customer Journey Analytics로 처리하는 데 최대 90분까지 걸릴 수 있습니다.
 
 ## 구현 단계
 
