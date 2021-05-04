@@ -6,10 +6,10 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 44%
+source-wordcount: '291'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,8 @@ Experience Platform [!UICONTROL 쿼리 서비스]에서는 데이터에 대해 S
 
 ## 가드레일
 
-* 인터랙티브 쿼리의 경우 시간 제한 10분
-* UI에 반환하는 기록은 100개로 제한
-* SQL 커넥터를 통해 반환하는 기록은 50,000개로 제한
+우수 사례 및 보증에 대한 자세한 내용은 쿼리 서비스 제품 설명서를 참조하십시오.
+[쿼리 서비스 지침](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
 
 ## 구현 단계
 
