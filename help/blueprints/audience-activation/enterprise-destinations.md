@@ -5,7 +5,7 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 39%
@@ -27,6 +27,7 @@ ht-degree: 39%
 ## 아키텍처
 
 <img src="assets/enterprise_destination_activation.svg" alt="기업 활성화 시나리오를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+
 
 ## 가드레일
 
