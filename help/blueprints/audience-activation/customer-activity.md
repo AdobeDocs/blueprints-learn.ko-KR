@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 90%
+source-wordcount: '419'
+ht-degree: 72%
 
 ---
 
@@ -42,7 +42,15 @@ ht-degree: 90%
 1. 데이터 세트 및 스키마를 구성합니다.
 1. [!UICONTROL 실시간 고객 프로필] 구성:[!UICONTROL 실시간 고객 프로필]에 대한 스키마 및 데이터 집합을 구성하고 병합 정책 및 ID를 설정합니다.
 1. Platform으로 데이터를 수집하여 [!UICONTROL Real-time Customer Profile]로 처리합니다.
-1. 항목 API를 사용하여 프로필 속성을 확인합니다. 기록 항목 또는 경험 이벤트 항목에서 가져올 수 있습니다.
+
+
+1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 를 인제스트할 구성 요소를 만듭니다.
+1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 를 인제스트할 데이터세트를 만듭니다.
+1. [수집한 데이터를 통합 프로필로 결합할 수 있도록 스키마에 올바른 ID와 ID 네임스페이스를 구성합니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
+1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [데이터를 Platform으로 수집합니다](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [병합 정책 설정](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)
+1. [엔티티 API를 사용하여 레코드 엔티티 또는 경험 이벤트 엔티티에서 프로필 속성](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html)을 찾습니다.
 
 ## 관련 설명서
 
