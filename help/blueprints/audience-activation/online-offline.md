@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 74%
@@ -34,6 +34,7 @@ ht-degree: 74%
 ### 대상이 포함된 온라인/오프라인 Audience Activation
 
 <img src="assets/online_offline_activation.svg" alt="온라인/오프라인 Audience Activation 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<br>
 
 ### Experience Cloud 응용 프로그램을 사용한 온라인/오프라인 Audience Activation
 
