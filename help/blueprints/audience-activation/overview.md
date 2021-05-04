@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 16%
@@ -29,11 +29,13 @@ ht-degree: 16%
 
 ## 고객 및 프로필 활성화 청사진 보호
 
+* [프로필 및 세분화 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+
 ### Guardrail 다이어그램
 
 <img src="assets/activation_guardrails.svg" alt="대상 및 프로필 활성화 청사진을 위한 보장 다이어그램" style="border:1px solid #4a4a4a" />
 
-* [프로필 및 세분화 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+
 
 ### 세그먼트 평가 및 활성화 보장
 
