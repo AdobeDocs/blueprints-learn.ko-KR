@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 69%
+source-wordcount: '543'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 69%
 오프라인 주문, 거래, CRM 또는 충성도 데이터 등 오프라인 특성 및 이벤트와 온라인 행동을 함께 사용하여 온라인 타겟팅과 개인화를 수행합니다.
 
 대상자를 이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상으로 활성화합니다.
+
+온라인/오프라인 Audience Activation 블루프린트는 [대상 및 프로필 활성화와 Experience Cloud 응용 프로그램 블루프린트](platform-and-applications.md)에 가깝게 정렬됩니다. 추가 세부 사항은 [대상 및 Experience Cloud 응용 프로그램 블루프린트](platform-and-applications.md)의 프로필 활성화에서 제공됩니다.   Experience Platform과 Experience Cloud 애플리케이션 간의 통합에만 해당됩니다.
 
 ## 사용 사례
 
@@ -42,7 +44,7 @@ ht-degree: 69%
 
 ## 가드레일
 
-대상 및 프로필 활성화 개요 페이지에 나와 있는 지침을 참조하십시오. [LINK](overview.md)
+[대상 및 프로필 활성화 개요 페이지에 나와 있는 지침을 참조하십시오.](overview.md)
 
 ## 구현 단계
 
