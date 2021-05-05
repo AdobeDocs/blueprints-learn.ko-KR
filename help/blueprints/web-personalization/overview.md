@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 66%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 66%
 
 ## 웹 및 모바일 개인화를 위한 보장
 
-대상 및 프로필 활성화와 관련된 지침을 보려면 대상 및 프로필 정품 인증 블루프린트 섹션 - [LINK](../audience-activation/overview.md) 아래의 지침을 참조하십시오.
+[대상 및 프로필 활성화와 관련된 지침을 보려면 대상 및 프로필 활성화 블루프린트 섹션에 있는 지침을 참조하십시오.](../audience-activation/overview.md)
 
 ### 온라인/오프라인 개인화 보증 다이어그램
 
