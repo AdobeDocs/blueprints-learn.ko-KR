@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
+source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 33%
 
 Experience Platform에서 프로파일과 대상을 관리하고 Experience Cloud 애플리케이션과 공유할 수 있습니다. Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 구축 및 공유하고 Experience Cloud 애플리케이션과 공유할 수 있습니다.
 
-Experience Cloud 응용 프로그램과의 활성화는 [온라인/오프라인 Audience Activation 블루프린트](online-offline.md)에 가깝게 정렬됩니다. Experience Platform과 Experience Cloud 응용 프로그램 간의 통합에 대한 자세한 내용이 이 블루프린트에 제공됩니다.
+Experience Cloud 응용 프로그램과의 활성화는 [온라인/오프라인 Audience Activation 블루프린트](online-offline.md)에 가깝게 정렬됩니다. Experience Platform과 Experience Cloud 응용 프로그램 간의 통합에 대한 자세한 내용이 이 블루프린트에서 제공됩니다.
 
 ## 사용 사례
 
-* Experience Cloud 기반의 고객 인터랙션 채널에서 개인화 및 타깃팅
-* Experience Cloud 응용 프로그램과 대상 및 프로필 데이터를 Experience Platform과 공유하는 행위
+* Experience Cloud 기반의 고객 인터랙션 채널을 통해 개인화하고 타겟팅할 수 있습니다.
+* Experience Platform 및 Experience Cloud 애플리케이션 간에 대상 및 프로필 데이터를 공유합니다.
 
 ## 애플리케이션
 
@@ -29,9 +29,9 @@ Experience Cloud 응용 프로그램과의 활성화는 [온라인/오프라인 
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform 활성화
 * Experience Cloud 애플리케이션
-   * Audience Manager
-   * Target
-   * Campaign
+   * Adobe Audience Manager
+   * Adobe Target
+   * Adobe Campaign
    * Journey Optimizer
 
 ## 아키텍처
