@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 98%
+source-wordcount: '548'
+ht-degree: 92%
 
 ---
 
@@ -38,8 +38,10 @@ ht-degree: 98%
 
 ## 구현 단계
 
-1. 데이터 세트 및 스키마를 구성합니다.
-1. 데이터를 Platform으로 수집합니다.
+1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 를 인제스트할 구성 요소를 만듭니다.
+1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 를 인제스트할 데이터세트를 만듭니다.
+1. [데이터를 Experience Platform으로 수집합니다.
+](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 데이터를 Customer Journey Analytics로 처리하려면 먼저 Platform으로 수집해야 합니다.
 1. 크로스채널 이벤트 데이터 세트를 통합 분석하여 공통 네임스페이스 ID를 가지거나 Customer Journey Analytics의 필드 기반 결합 기능을 통해 재입력되도록 합니다.  
 
