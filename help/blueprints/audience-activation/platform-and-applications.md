@@ -1,18 +1,18 @@
 ---
-title: Experience Cloud 애플리케이션을 사용한 고객 및 프로필 활성화
-description: Experience Cloud 애플리케이션을 사용한 고객 및 프로필 활성화
+title: Experience Cloud 애플리케이션 블루프린트를 사용한 고객 및 프로필 활성화
+description: Experience Platform에서 프로파일과 대상을 관리하고 Experience Cloud 애플리케이션과 공유할 수 있습니다.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '289'
+ht-degree: 33%
 
 ---
 
-# Experience Cloud 애플리케이션을 사용한 고객 및 프로필 활성화
+# Experience Cloud 애플리케이션 블루프린트를 사용한 고객 및 프로필 활성화
 
 Experience Platform에서 프로파일과 대상을 관리하고 Experience Cloud 애플리케이션과 공유할 수 있습니다. Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 구축 및 공유하고 Experience Cloud 애플리케이션과 공유할 수 있습니다.
 
@@ -36,16 +36,15 @@ Experience Cloud 응용 프로그램과의 활성화는 [온라인/오프라인 
 
 ## 아키텍처
 
-[Experience Cloud 애플리케이션과의 Experience Platform 통합과 관련된 추가 아키텍처 다이어그램은 Experience Platform 및 애플리케이션 아키텍처 섹션을 참조하십시오.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
-
 ### Experience Cloud 애플리케이션을 사용한 고객 및 프로필 활성화
 
 <img src="assets/activation+apps.svg" alt="Experience Cloud 애플리케이션을 통한 대상 및 프로파일 활성화를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
-<br>
+
+Experience Platform 및 Experience Cloud 응용 프로그램과의 통합과 관련된 추가 아키텍처 다이어그램은 [Adobe Experience Platform &amp; 응용 프로그램 다이어그램](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)을 참조하십시오.
 
 ## 가드레일
 
-[대상 및 프로필 활성화 개요 페이지에 나와 있는 지침을 참조하십시오.](overview.md)
+대상 및 프로필 활성화 개요 페이지의 [지침을 참조하십시오](overview.md)
 
 ## 관련 설명서
 
