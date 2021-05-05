@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 59%
+source-wordcount: '639'
+ht-degree: 51%
 
 ---
 
@@ -59,22 +59,23 @@ Adobe Experience Platform을 고객 프로필 및 세분화의 중심 허브로 
 
 #### 스키마 / 데이터 세트
 
-1. 고객 제공 데이터를 기반으로 Experience Platform에서 개인 프로필, 경험 이벤트 및 다중 항목 스키마를 구성합니다.
+1. [고객 제공 데이터를 기반으로 Experience Platform에서 개인 프로필, 경험 이벤트 및 다중 항목 스키마를 구성합니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
 1. 광범위한 로그, trackingLog, 배달할 수 없는 주소 및 프로필 환경 설정에 대한 Adobe Campaign 스키마를 만듭니다(선택 사항).
-1. 관리를 위해 데이터 세트에 데이터 사용량 레이블을 추가합니다.
-1. 대상 관리 정책을 만듭니다.
+1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 를 인제스트할 수 있도록 Experience Platform에서 데이터를 만듭니다.
+1. [거버넌스를 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) 위해 Experience Platform에 데이터 사용 레이블을 추가합니다.
+1. [대상 관리 정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
 
 #### 프로필 / ID
 
-1. 고객용 네임스페이스를 만듭니다.
-1. 스키마에 ID를 추가합니다.
-1. 프로필에 대해 스키마와 데이터 세트를 활성화합니다.
-1. [!UICONTROL 실시간 고객 프로필](선택 사항)의 다른 보기에 대한 병합 규칙을 설정합니다.
+1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) 의  [!UICONTROL 보기] (선택 사항)를 다르게 보려면 병합 정책을 설정합니다.
 1. Adobe Campaign 사용을 위한 세그먼트를 만듭니다.
 
 #### 소스 / 대상
 
-1. 스트리밍 API 및 소스 커넥터를 사용하여 Experience Platform으로 데이터를 수집해 옵니다.
+1. [스트리밍 API 및 소스 커넥터를 사용하여 Experience Platform으로 데이터를 수집해 옵니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. Adobe Campaign에서 사용할 [!DNL Azure] Blob 저장소 대상을 구성합니다.
 
 #### 모바일 앱 배포
