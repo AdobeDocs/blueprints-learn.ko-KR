@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
+source-git-commit: d81329f6e90a0bdc0b76a41e4045b8e1aa5f89cd
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 34%
+source-wordcount: '264'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 Experience Platform에서 프로파일과 대상을 관리하고 Experience Cloud 애플리케이션과 공유할 수 있습니다. Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 구축 및 공유하고 Experience Cloud 애플리케이션과 공유할 수 있습니다.
 
-Experience Cloud 응용 프로그램과의 활성화는 [온라인/오프라인 Audience Activation 블루프린트](online-offline.md)에 가깝게 정렬됩니다. Experience Platform과 Experience Cloud 응용 프로그램 간의 통합에 대한 자세한 내용이 이 블루프린트에서 제공됩니다.
+Experience Cloud 응용 프로그램과의 활성화는 [온라인/오프라인 Audience Activation 블루프린트](online-offline.md)에 가깝게 정렬됩니다.
 
 ## 사용 사례
 
@@ -35,8 +35,6 @@ Experience Cloud 응용 프로그램과의 활성화는 [온라인/오프라인 
    * Journey Optimizer
 
 ## 아키텍처
-
-### Experience Cloud 애플리케이션을 사용한 고객 및 프로필 활성화
 
 <img src="assets/activation+apps.svg" alt="Experience Cloud 애플리케이션을 통한 대상 및 프로파일 활성화를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
