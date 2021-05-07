@@ -9,11 +9,11 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# 익명의 Audience Activation 블루프린트
+# 익명 Audience Activation 블루프린트
 
 고객의 익명 행동 데이터를 기반으로 웹 및 광고 채널에 걸쳐 대상자를 타겟팅할 수 있습니다. 이를 통해 전 디바이스에 걸쳐 개인화되고 일관적인 실시간 고객 경험을 제공할 수 있습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 ## 아키텍처
 
-<img src="assets/anonymous_activation.svg" alt="익명의 Audience Activation 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="익명 Audience Activation 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 구현 단계
 
@@ -43,6 +43,6 @@ ht-degree: 87%
 ## 관련 설명서
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=ko)
-* [[!UICONTROL Experience Cloud 대상]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
+* [Experience Cloud [!UICONTROL 대상]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
 * [Audience Manager와 Target 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ko)
-* [Audience Manager을 통한 Adobe Analytics 세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
+* [Adobe Analytics 세그먼트를 Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
