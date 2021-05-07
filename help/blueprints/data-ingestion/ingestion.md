@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 데이터 준비 및 수집 블루프린트는 데이터를 준비하고 Adobe Experience Platform으로 수집하는 방법을 모두 포함합니다.
 
-데이터 준비에는 소스 데이터를 XDM(Experience Data Model) 스키마에 대한 매핑이 포함됩니다. 또한 데이터에 날짜 포맷 정리, 필드 분할/연결/전환 및 기록 연결/병합/재입력 등의 변환을 수행합니다. 데이터 준비를 통해 고객 데이터를 단일화하면 종합적이고 필터링된 분석 제공에 도움이 됩니다. 보고 시에나 고객 프로필 집합/데이터 과학/활성화 등을 위해 데이터를 준비할 때 유용합니다.
+데이터를 준비할 때는 소스 데이터를 XDM(Experience Data Model) 스키마로 매핑하게 됩니다. 또한 데이터에 날짜 포맷 정리, 필드 분할/연결/전환 및 기록 연결/병합/재입력 등의 변환을 수행합니다. 데이터 준비를 통해 고객 데이터를 단일화하면 종합적이고 필터링된 분석 제공에 도움이 됩니다. 보고 시에나 고객 프로필 집합/데이터 과학/활성화 등을 위해 데이터를 준비할 때 유용합니다.
 
 ## 아키텍처
 
@@ -40,10 +40,10 @@ ht-degree: 84%
 
 | 데이터 준비 방법 | 설명 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL 데이터 과학 작업 공간]  - 데이터 준비 | 모델 기반 변환, 스크립트 변환.<br>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ko) |
-| 외부 ETL 도구([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] 등) | ETL 도구에서 복잡한 변형을 수행하고 표준 Experience Platform [!UICONTROL 흐름 서비스] API 또는 소스 커넥터를 사용하여 결과 데이터를 인제스트합니다. |
-| [!UICONTROL 쿼리 서비스]  - 데이터 준비 | 데이터를 새 데이터 세트에 연결, 분할, 병합, 변형, 쿼리 및 필터링합니다. 테이블을 선택(CTAS) <br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko#sql)로 만들기 사용 |
-| XDM 매퍼 및 데이터 준비 함수(스트리밍 및 일괄 처리) | Experience Platform 수집 중에 CSV 또는 JSON 형식의 소스 특성을 XDM 특성에 매핑합니다.<br>수집하는 데이터의 함수 계산(데이터 형식 지정, 분할, 연결 등)<br>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) |
+| [!UICONTROL Data Science Workspace] - 데이터 준비 | 모델 기반 변환, 스크립트 변환.<br>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ko) |
+| 외부 ETL 도구([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] 등) | ETL 도구에서 복잡한 변환을 수행하고 표준 Experience Platform [!UICONTROL 플로우 서비스] API 또는 소스 커넥터를 사용하여 결과 데이터를 수집합니다. |
+| [!UICONTROL 쿼리 서비스] - 데이터 준비 | 데이터를 새 데이터 세트와 연결, 분할, 병합, 변환, 쿼리 및 필터링합니다. CTAS(Create Table as Selec) 사용 <br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko#sql) |
+| XDM 매핑 및 데이터 준비 함수(스트리밍 및 일괄 처리) | Experience Platform 수집 시 CSV 또는 JSON 포맷의 소스 특성을 XDM 특성에 매핑합니다.<br>수집하는 데이터의 함수 계산(데이터 형식 지정, 분할, 연결 등)<br>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) |
 
 ## 관련 블로그 게시물
 
