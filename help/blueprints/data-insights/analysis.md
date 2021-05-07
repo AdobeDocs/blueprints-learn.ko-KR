@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 31%
+ht-degree: 85%
 
 ---
 
 # 데이터 분석 및 인텔리전스 블루프린트
 
-Data Analysis and Intelligence는 Adobe Experience Platform 내에서 데이터 호수에 있는 데이터의 탐구적 쿼리와 분석을 수행하는 기능으로 구성됩니다.
+데이터 분석 및 인텔리전스는 Adobe Experience Platform 내에서 데이터 레이크에 존재하는 데이터에 대해 탐색 쿼리와 분석을 수행하는 기능으로 구성되어 있습니다.
 
-Experience Platform [!UICONTROL 쿼리 서비스]에서는 데이터에 대해 SQL 쿼리를 수행할 수 있습니다. [!UICONTROL Data Science ] Workspaces를 사용하면 데이터에 대한 데이터 분석, 데이터 과학 및 머신 러닝 워크로드를 수행할 수 있습니다.
+Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대해 SQL 쿼리를 수행할 수 있습니다. [!UICONTROL Data Science Workspace]에서는 데이터 탐색, 데이터 과학 및 데이터에 대한 머신 러닝 워크로드를 수행할 수 있습니다.
 
-또한 Experience Platform을 사용하면 타사 SQL 클라이언트, 인터페이스 및 Business Intelligence(BI) 도구에 연결하여 [!DNL PostgreSQL] 프로토콜을 사용하여 Experience Platform 내의 데이터에 직접 연결하고 액세스 및 쿼리할 수 있습니다.
+또한 Experience Platform은 서드파티 SQL 클라이언트, 인터페이스 및 BI(Business Intelligence) 도구에 연결할 수 있으므로 [!DNL PostgreSQL] 프로토콜을 사용하여 Experience Platform 내에서 데이터에 직접 연결, 액세스 및 쿼리할 수 있습니다.
 
-블루프린트 세부 정보에 설명된 대로 쿼리 시간 초과와 쿼리 결과에 포함된 데이터의 양에 대해 특정 단속이 적용됩니다.
+블루프린트 세부 정보에서 확인할 수 있는 바와 같이, 쿼리 타임아웃 및 쿼리 결과에 포함되는 데이터에 양에 대해 특정 가드레일이 적용됩니다.
 
 ## 사용 사례
 
@@ -31,7 +31,7 @@ Experience Platform [!UICONTROL 쿼리 서비스]에서는 데이터에 대해 S
 
 ## 애플리케이션
 
-* Adobe Experience Platform
+* Adobe Experience Platform  
 
 ## 아키텍처
 
@@ -44,13 +44,13 @@ Experience Platform [!UICONTROL 쿼리 서비스]에서는 데이터에 대해 S
 
 ## 구현 단계
 
-1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 를 인제스트할 구성 요소를 만듭니다.
-1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 를 인제스트할 데이터세트를 만듭니다.
+1. [수집할 데이터를 위한 스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [수집할 데이터를 위한 데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [데이터를 Experience Platform으로 수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. 원시 액세스 및 쿼리를 위해 [!UICONTROL 쿼리 서비스] 및 [!UICONTROL 데이터 과학 작업 공간]에 데이터를 사용할 수 있는지 확인합니다.
+1. [!UICONTROL 쿼리 서비스] 및 [!UICONTROL Data Science Workspace]에서 데이터에 원시 액세스 및 쿼리가 가능한지 확인합니다.
 1. 시각화, 데이터 쿼리 및 탐색을 위해 Business Intelligence 도구 및 SQL 클라이언트를 [!UICONTROL 쿼리 서비스]에 연결합니다.
 
 ## 관련 설명서
 
 * [Adobe Experience Platform Intelligence 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [쿼리 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)
+* [[!UICONTROL 쿼리 서비스] 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)
