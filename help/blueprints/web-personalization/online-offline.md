@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 80%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 80%
 
 ## 아키텍처
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="온라인/오프라인 웹 개인화 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization_with_apps.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 가드레일
 
@@ -39,16 +39,16 @@ ht-degree: 80%
 
 ## 구현 패턴
 
-웹/모바일 개인화 청사진은 아래에 설명된 다음 접근 방식을 통해 구현할 수 있습니다.
+웹/모바일 개인화 블루프린트는 다음과 같은 방법을 통해 구현할 수 있습니다(아래에서 설명).
 
-1. [!UICONTROL 플랫폼 웹 SDK] 또는 [!UICONTROL 플랫폼 모바일 SDK] 및 [!UICONTROL 에지 네트워크] 사용
-1. 기존의 애플리케이션별 SDK 사용(예: AppMeasurement.js)
+1. [!UICONTROL Platform 웹 SDK] 또는 [!UICONTROL Platform 모바일 SDK]와 [!UICONTROL Edge Network] 사용
+1. 기존 애플리케이션별 SDK 사용(예: AppMeasurement.js)
 
-### 1. 플랫폼 웹/모바일 SDK 및 Edge 방식
+### 1. Platform 웹/모바일 SDK와 Edge를 사용하는 방법
 
-<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK] 및 [!UICONTROL Edge Network] 접근 방식에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK]와 [!UICONTROL Edge Network]를 사용하는 방법에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
-### 2. 애플리케이션별 SDK 방식
+### 2. 특정 애플리케이션용 SDK를 사용하는 방법
 
 <img src="assets/app_sdk_flow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
@@ -56,10 +56,10 @@ ht-degree: 80%
 
 | 애플리케이션/서비스 | 필요한 라이브러리 | 참고 사항 |
 |---|---|---|
-| Adobe Target | [!UICONTROL 플랫폼 웹 SDK]*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js는 더 이상 개발되지 않으므로 at.js 사용을 추천합니다. |
-| Adobe Audience Manager(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 dil.js 5.0+ |  |
-| Adobe Analytics(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ | Adobe Analytics 추적에는 RDC(지역 단위 데이터 수집)를 사용해야 합니다. |
-| Experience Cloud ID 서비스 | [!UICONTROL 플랫폼 웹 SDK]* 또는 VisitorAPI.js 2.0+ | (추천)ID 서비스 배포에 Experience Platform Launch를 사용하여 반드시 애플리케이션 호출 발생 이전에 ID가 설정되도록 합니다. |
+| Adobe Target | [!UICONTROL Platform 웹 SDK]* at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js는 더 이상 개발되지 않으므로 at.js 사용을 추천합니다. |
+| Adobe Audience Manager(선택 사항) | [!UICONTROL Platform 웹 SDK]* 또는 dil.js 5.0+ |  |
+| Adobe Analytics(선택 사항) | [!UICONTROL Platform 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ | Adobe Analytics 추적에는 RDC(지역 단위 데이터 수집)를 사용해야 합니다. |
+| Experience Cloud ID 서비스 | [!UICONTROL Platform 웹 SDK]* 또는 VisitorAPI.js 2.0+ | (추천)ID 서비스 배포에 Experience Platform Launch를 사용하여 반드시 애플리케이션 호출 발생 이전에 ID가 설정되도록 합니다. |
 | Experience Platform 모바일 SDK(선택 사항) | iOS 및 Android™용 4.11 이상 |  |
 | Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 [아직 Experience Cloud 애플리케이션에서 지원하지 않는 다양한 사용 사례](https://github.com/adobe/alloy/projects/5)가 있습니다. |  |
 
@@ -69,7 +69,7 @@ ht-degree: 80%
 1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
 1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)(선택 사항)
 1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)(선택 사항)
-1. [[!UICONTROL Experience Platform 및 Real-time Customer Profile 구현]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
+1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile] 구현](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
 1. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko) 또는 [Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 구현
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 80%
 * [세분화 스트리밍](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
 * [Experience Platform 세분화 작성기 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)
 * [Audience Manager 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
-* [Adobe Audience Manager을 통한 Adobe Analytics 세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
+* [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
 * [Experience Platform 웹 SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
 * [Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko)
