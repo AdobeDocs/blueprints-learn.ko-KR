@@ -1,6 +1,6 @@
 ---
-title: 트리거된 메시지 및 Adobe Experience Platform 블루프린트
-description: Adobe Experience Platform을 스트리밍 데이터의 중앙 허브, 고객 프로필 및 세분화로 사용하여 트리거된 메시지 및 경험을 실행하십시오.
+title: 트리거 메시지와 Adobe Experience Platform 블루프린트
+description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 69%
+ht-degree: 82%
 
 ---
 
-# 트리거된 메시지 및 Adobe Experience Platform 블루프린트
+# 트리거 메시지와 Adobe Experience Platform 블루프린트
 
-Adobe Experience Platform을 스트리밍 데이터의 중앙 허브, 고객 프로필 및 세분화로 사용하여 트리거된 메시지 및 경험을 실행하십시오.
+Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 
 ## 사용 사례
 
@@ -25,7 +25,7 @@ Adobe Experience Platform을 스트리밍 데이터의 중앙 허브, 고객 프
 
 ## 아키텍처
 
-<img src="assets/triggered.svg" alt="트리거 메시징 및 Adobe Experience Platform 블루프린트에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="트리거 메시지와 Adobe Experience Platform 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 통합 패턴
 
@@ -69,7 +69,7 @@ Adobe Experience Platform을 스트리밍 데이터의 중앙 허브, 고객 프
 #### 스키마/데이터 세트
 
 1. [고객 제공 데이터를 기반으로 Experience Platform에서 개인 프로필, 경험 이벤트 및 다중 항목 스키마를 구성합니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. 광범위한 로그, trackingLog, 배달할 수 없는 주소 및 프로필 환경 설정에 대한 Adobe Campaign 스키마를 만듭니다(선택 사항).
+1. broadLog, trackingLog, 게재 불가 주소 및 프로필 환경 설정에 대하여 Adobe Campaign 스키마를 만듭니다(선택 사항).
 1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 를 인제스트할 수 있도록 Experience Platform에서 데이터를 만듭니다.
 1. [거버넌스를 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) 위해 Experience Platform에 데이터 사용 레이블을 추가합니다.
 1. [대상 관리 정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
@@ -80,7 +80,7 @@ Adobe Experience Platform을 스트리밍 데이터의 중앙 허브, 고객 프
 1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [프로필에 대한 스키마 및 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) 의  [!UICONTROL 보기] (선택 사항)를 다르게 보려면 병합 정책을 설정합니다.
-1. Adobe Campaign 사용을 위한 세그먼트를 만듭니다.
+1. Adobe Campaign에서 사용하기 위한 세그먼트를 만듭니다.
 
 #### 소스/대상
 
@@ -88,7 +88,7 @@ Adobe Experience Platform을 스트리밍 데이터의 중앙 허브, 고객 프
 
 #### 모바일 앱 배포
 
-1. Adobe Campaign Classic용 Adobe Campaign SDK 또는 Adobe Campaign Standard용 Experience Platform SDK 구현 Experience Platform Launch이 있는 경우 Experience Platform SDK와 함께 Adobe Campaign Classic 또는 Adobe Campaign Standard 확장을 사용하는 것이 좋습니다.
+1. Adobe Campaign Classic의 경우 Adobe Campaign SDK, Adobe Campaign Standard의 경우 Experience Platform SDK를 구현합니다. Experience Platform Launch가 있는 경우 Experience Platform SDK의 Adobe Campaign Classic 또는 Adobe Campaign Standard 확장을 사용하는 것을 추천합니다.
 
 
 ### Journey Orchestration
