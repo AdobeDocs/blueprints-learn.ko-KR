@@ -1,5 +1,5 @@
 ---
-title: 행동 웹 개인화 블루프린트
+title: 행동 기반 웹 개인화 블루프린트
 description: 온라인 행동과 대상자 데이터를 기반으로 개인화를 구현합니다.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# 행동 웹/모바일 개인화 블루프린트
+# 행동 기반 웹/모바일 개인화 블루프린트
 
 온라인 행동과 대상자 데이터를 기반으로 개인화를 구현합니다.
 
@@ -30,7 +30,7 @@ ht-degree: 78%
 
 ## 아키텍처
 
-<img src="assets/behavioral_personalization.svg" alt="행동 웹 개인화 청사진을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="행동 기반 웹 개인화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 
 ## 가드레일
@@ -39,16 +39,16 @@ ht-degree: 78%
 
 ## 구현 패턴
 
-웹/모바일 개인화 청사진은 아래에 설명된 다음 접근 방식을 통해 구현할 수 있습니다.
+웹/모바일 개인화 블루프린트는 다음과 같은 방법을 통해 구현할 수 있습니다(아래에서 설명).
 
-1. [!UICONTROL 플랫폼 웹 SDK] 또는 [!UICONTROL 플랫폼 모바일 SDK] 및 [!UICONTROL 에지 네트워크] 사용
-1. 기존의 애플리케이션별 SDK 사용(예: AppMeasurement.js)
+1. [!UICONTROL Platform 웹 SDK] 또는 [!UICONTROL Platform 모바일 SDK]와 [!UICONTROL Edge Network] 사용
+1. 기존 애플리케이션별 SDK 사용(예: AppMeasurement.js)
 
-### 1. 플랫폼 웹/모바일 SDK 및 Edge 방식
+### 1. Platform 웹/모바일 SDK와 Edge를 사용하는 방법
 
-<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK] 및 [!UICONTROL Edge Network] 접근 방식에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK]와 [!UICONTROL Edge Network]를 사용하는 방법에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
-### 2. 애플리케이션별 SDK 방식
+### 2. 특정 애플리케이션용 SDK를 사용하는 방법
 
 <img src="assets/app_sdk_flow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
@@ -56,10 +56,10 @@ ht-degree: 78%
 
 | 애플리케이션/서비스 | 필요한 라이브러리 | 참고 사항 |
 |---|---|---|
-| Adobe Target | [!UICONTROL 플랫폼 웹 SDK]*, at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js는 더 이상 개발되지 않으므로 at.js 사용을 추천합니다. |
-| Adobe Audience Manager(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 dil.js 5.0+ |  |
-| Adobe Analytics(선택 사항) | [!UICONTROL 플랫폼 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud ID 서비스 | [!UICONTROL 플랫폼 웹 SDK]* 또는 VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL Platform 웹 SDK]* at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js는 더 이상 개발되지 않으므로 at.js 사용을 추천합니다. |
+| Adobe Audience Manager(선택 사항) | [!UICONTROL Platform 웹 SDK]* 또는 dil.js 5.0+ |  |
+| Adobe Analytics(선택 사항) | [!UICONTROL Platform 웹 SDK]* 또는 AppMeasurement.js 1.6.4+ |  |
+| Experience Cloud ID 서비스 | [!UICONTROL Platform 웹 SDK]* 또는 VisitorAPI.js 2.0+ |  |
 | Experience Platform 모바일 SDK(선택 사항) | iOS 및 Android™용 4.11 이상 |  |
 | Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 [아직 Experience Cloud 애플리케이션에서 지원하지 않는 다양한 사용 사례](https://github.com/adobe/alloy/projects/5)가 있습니다. |  |
 
@@ -67,7 +67,7 @@ ht-degree: 78%
 
 1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
 
-   Audience Manager 또는 Adobe Analytics을 사용하는 경우:
+   Audience Manager 또는 Adobe Analytics 사용 시:
 
 1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)
 1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)
@@ -85,7 +85,7 @@ ht-degree: 78%
 
 * [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
 * [Audience Manager와 Adobe Target 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ko)
-* [Adobe Audience Manager을 통한 Adobe Analytics 세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## 관련 블로그 게시물
