@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 63%
+ht-degree: 95%
 
 ---
 
 # 사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트
 
-프로파일 데이터 연계 청사진을 위한 사용자 정의 데이터 과학은 기계 학습 통찰력을 제공하기 위해 Adobe Experience Platform의 데이터를 [!UICONTROL 데이터 과학 작업 공간]에서 교육, 배포 및 점수 모델을 사용하여 사용하는 방법을 보여줍니다. 이러한 모델은 [!UICONTROL 실시간 고객 프로필]에 대해 활성화된 데이터 세트에 직접 출력하여 고객 프로파일을 추가로 강화할 수 있습니다. 이러한 인사이트를 개인화에 활용할 수 있습니다. 머신 러닝 인사이트의 예로는 라이프타임 가치 점수, 제품 및 카테고리 관련성, 전환율 또는 이탈률 등이 있습니다.
+사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트에서는 [!UICONTROL Data Science Workspace]에서 Adobe Experience Platform 내의 데이터를 사용하여 모델을 교육, 배포 및 평가하여 머신 러닝 인사이트를 얻는 방법을 살펴봅니다. 이 모델에서 바로 [!UICONTROL Real-time Customer Profile]에 사용할 수 있는 데이터 세트를 만들어 고객 프로필을 더욱 강화할 수 있습니다. 이렇게 얻은 인사이트는 개인화에 활용할 수 있습니다. 머신 러닝 인사이트의 예로는 생애 가치 평가, 제품 및 카테고리 관심도, 전환 경향 또는 이탈 경향 등이 있습니다.
 
 ## 사용 사례
 
 * Experience Platform의 고객 데이터에서 인사이트를 찾아내고 패턴을 발견합니다. 이 데이터로 모델을 훈련 및 사용합니다.
-* 보다 세분화된 개인화 및 최적화된 여정을 위해 모델 기반의 통찰력과 특성을 갖춘 [!UICONTROL 실시간 고객 프로필]을 보강합니다.
+* 모델 기반 인사이트와 특성으로 [!UICONTROL Real-time Customer Profile]을 강화하여 개인화를 개선하고 여정을 최적화합니다.
 * 모델을 훈련 및 사용하여 고객 생애 가치, 전환 또는 이탈 경향, 제품과 콘텐츠 관련성 및 참여도 점수를 확인합니다.
 
 ## 아키텍처
@@ -28,21 +28,21 @@ ht-degree: 63%
 
 ## 구현 단계
 
-1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 를 인제스트할 구성 요소를 만듭니다.
-1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 를 인제스트할 데이터세트를 만듭니다.
+1. [수집할 데이터를 위한 스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [수집할 데이터를 위한 데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [데이터를 Experience Platform으로 수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. DSW 노트북을 만듭니다.
 1. 언어를 선택합니다. Python 및 PySpark가 지원됩니다.
 1. 노트북 내에 모델을 작성합니다.
 1. 모델을 훈련합니다.
 1. 모델을 사용하여 타겟 데이터에 대해 예측을 생성합니다.
-1. 모델 결과를 [!UICONTROL 실시간 고객 프로필]으로 푸시하는 경우 프로필에 대한 모델 결과 데이터 집합을 활성화합니다.
+1. 모델의 결과를 [!UICONTROL Real-time Customer Profile]로 보내려는 경우 모델 결과 데이터 세트를 프로필에 사용하도록 설정합니다.
 
 ## 관련 설명서
 
 * [Adobe Experience Platform Intelligence 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Data Science Workspace 설명서](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ko)
-* [Data Science Workspace 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=ko)
+* [[!UICONTROL Data Science Workspace] 설명서](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ko)
+* [[!UICONTROL Data Science Workspace] 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=ko)
 
 ## 관련 블로그 게시물
 
