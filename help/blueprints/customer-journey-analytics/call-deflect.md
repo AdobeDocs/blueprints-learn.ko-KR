@@ -1,5 +1,5 @@
 ---
-title: 호출 처짐 분석 블루프린트
+title: 통화 전환 분석 블루프린트
 description: 고객이 콜센터에 연락하기 전에 어떤 행동을 보이는지 분석합니다.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
-# 통화 감소 여정 분석 블루프린트
+# 통화 전환 여정 분석 블루프린트
 
 고객이 콜센터에 연락하기 전에 어떤 행동을 보이는지 데스크탑과 모바일 채널에 걸쳐 분석합니다. 고객이 고객 지원 센터에 연락하기 전 달성하려 하는 행동, 보는 콘텐츠 및 검색하는 단어를 이해하여 고객 여정을 개선할 방안을 찾아봅니다. 고객이 문의할 필요 없이 문제를 해결할 수 있도록 개선할 여지가 있는 콘텐츠와 셀프 서비스 도구를 확인합니다.
 
@@ -36,8 +36,8 @@ ht-degree: 93%
 
 ## 구현 단계
 
-1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 를 인제스트할 구성 요소를 만듭니다.
-1. [데이터](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 를 인제스트할 데이터세트를 만듭니다.
+1. [수집할 데이터를 위한 스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [수집할 데이터를 위한 데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [데이터를 Experience Platform으로 수집합니다.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 데이터를 Customer Journey Analytics로 수집하려면 먼저 Platform으로 수집해야 합니다.
