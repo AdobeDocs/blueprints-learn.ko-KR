@@ -6,10 +6,10 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 | 수집 방법 | 설명 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 웹/모바일 SDK | 대기 시간:<ul><li>실시간 - Edge Network와 동일한 페이지 수집</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</ul>사용자 가이드: <ul><li>[웹 SDK](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[모바일 SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)</li></ul> |
+| 웹/모바일 SDK | 대기 시간:<ul><li>실시간 - Edge Network와 동일한 페이지 수집</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</ul>사용자 가이드: <ul><li>[웹 SDK](https://experienceleague.adobe.com/docs/web-sdk.html)</li><li>[모바일 SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)</li></ul> |
 | 스트리밍 소스 | 대기 시간:<ul><li>실시간 - Edge Network와 동일한 페이지 수집</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li></ul>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#connectors) |
 | 스트리밍 API | 대기 시간:<ul><li>실시간 - Edge Network와 동일한 페이지 수집</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li><li>7GB/시간</li></ul>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko#what-can-you-do-with-streaming-ingestion%3F) |
 | ETL 도구 사용 | ETL 도구를 사용하여 엔터프라이즈 데이터를 Experience Platform으로 수집하기 전에 수정 및 변환합니다.<br><br>대기 시간:<ul><li>시간은 외부 ETL 도구의 예약 설정에 따라 달라지며, 수집에 사용하는 방법을 기반으로 표준 수집 가드레일이 적용됩니다.</li></ul> |
