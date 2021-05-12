@@ -4,11 +4,10 @@ description: 온라인/오프라인 Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-translation-type: tm+mt
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 74%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
@@ -37,10 +36,6 @@ ht-degree: 74%
 
 <img src="assets/online_offline_activation.svg" alt="온라인/오프라인 Audience Activation 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 <br>
-
-### Experience Cloud 응용 프로그램을 사용한 온라인/오프라인 Audience Activation
-
-<img src="assets/activation+apps.svg" alt="Experience Cloud 애플리케이션을 통한 온라인/오프라인 Audience Activation 블루프린트에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 가드레일
 
