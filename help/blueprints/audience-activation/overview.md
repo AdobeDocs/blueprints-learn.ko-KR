@@ -5,11 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-translation-type: tm+mt
-source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
+source-git-commit: fb0ed8245f2be9b9260afbc3b749fde0eae58b5c
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 91%
+source-wordcount: '941'
+ht-degree: 66%
 
 ---
 
@@ -28,6 +27,17 @@ ht-degree: 91%
 | **[Experience Cloud 애플리케이션을 사용한 고객 및 프로필 활성화](platform-and-applications.md)** | </ul><li>Experience Platform에서 프로파일과 대상을 관리하고 Experience Cloud 애플리케이션과 공유할 수 있습니다.</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 구축 및 공유하고 Experience Cloud 애플리케이션과 공유할 수 있습니다</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Experience Platform 활성화</li><li>Experience Cloud 애플리케이션</li></ul> |
 | **[고객 활동 허브](customer-activity.md)** | <ul><li>지원 및 영업 경험 등 직원이 관여하는 상호 작용에 대해 보다 자세한 고객의 맥락을 제공합니다. Experience Platform에서 프로필 확인 기능을 사용하면 담당자가 소비자에 대해 실시간 고객 프로필에 저장된 최근 구매, 캠페인 상호 작용, 성향, 대상자 멤버십 및 기타 속성과 인사이트 등 더 많은 맥락을 확인할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
+## 실시간 고객 프로파일 아키텍처
+
+아래 그림에서는 Experience Platform의 실시간 고객 프로필의 핵심 구성 요소에 대해 설명합니다.
+
+첫 번째 데이터 소스가 Experience Platform으로 수집됩니다. 데이터 소스가 프로필 처리를 위해 구성된 경우 실시간 고객 프로필로 피드됩니다. 각 데이터 소스 및 각 데이터 소스에 대해 구성된 각 기본 ID 레코드에 대해 단일 프로필 조각 또는 문서가 만들어집니다. 또한 데이터가 프로필에 수집되면 ID 서비스에서도 처리됩니다. 스키마에 둘 이상의 ID가 표시되어 있고 레코드에 해당 값이 채워진 데이터 소스의 모든 레코드는 ID 서비스 내 ID 관계로 처리됩니다.
+
+ID가 하나만 있는 레코드는 ID 서비스에 의해 처리되지 않으므로 이러한 레코드에 그래프를 추가로 채울 ID 링크가 없습니다. ID 서비스는 기본 ID와 보조 ID를 구분하지 않습니다. 이것은 단지 ID들 간에 ID 관계를 처리하는 것이다.
+
+프로필 조각 병합은 ID 그래프가 관련된 다양한 소스 프로필 조각에 대한 관계를 제공할 때 발생합니다. 병합 정책에 따라 조각에서 사용할 소스 조각과 ID 그래프가 결정됩니다. 프로필이 액세스 중일 때마다 프로파일 단편의 병합이 발생하여 프로필의 최신 결합 보기를 보장합니다. 거버넌스 및 정책 규칙을 통해 지정된 세그먼트 및 속성만 지정된 대상에 활성화할 수 있습니다.
+
+<img src="assets/profile_architecture.jpg" alt="실시간 고객 프로파일을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 
 ## 고객 및 프로필 활성화 청사진 보호
