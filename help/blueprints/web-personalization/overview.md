@@ -5,11 +5,11 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 87%
 | **[행동 기반의 웹/모바일 개인화](behavioral.md)** | <ul><li>온라인 행동과 대상자 데이터를 기반으로 개인화 구현</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
 | **[온라인/오프라인 웹/모바일 개인화](online-offline.md)** | <ul><li>오프라인 특성 및 이벤트(거래, 예약, CRM 및 충성도 데이터)를 개인화에 활용합니다.</li><li>웹, 이메일 및 다른 알려진 채널에 걸쳐 개인화를 동기화합니다.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
 
-## 웹 및 모바일 개인화를 위한 보장
+## 웹 및 모바일 개인화 가드레일
 
-[대상 및 프로필 활성화와 관련된 지침을 보려면 대상 및 프로필 활성화 블루프린트 섹션에 있는 지침을 참조하십시오.](../audience-activation/overview.md)
+[대상자 및 프로필 활성화 관련 가드레일에 대해서는 대상자 및 프로필 활성화 블루프린트 섹션의 가드레일을 참조하세요.](../audience-activation/overview.md)
 
-### 온라인/오프라인 개인화 보증 다이어그램
+### 온라인/오프라인 개인화 가드레일 다이어그램
 
 <img src="assets/personalization_guardrails.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
