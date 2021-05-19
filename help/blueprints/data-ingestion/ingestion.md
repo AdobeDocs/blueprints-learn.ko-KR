@@ -5,7 +5,6 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-translation-type: tm+mt
 source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
 workflow-type: tm+mt
 source-wordcount: '600'
