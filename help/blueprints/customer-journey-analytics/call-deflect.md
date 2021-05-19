@@ -4,11 +4,11 @@ description: 고객이 콜센터에 연락하기 전에 어떤 행동을 보이�
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,9 @@ ht-degree: 97%
 
 ## 구현 단계
 
-1. [수집할 데이터를 위한 스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [수집할 데이터를 위한 데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [데이터를 Experience Platform으로 수집합니다.
-](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=ko)
+1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
+1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
 데이터를 Customer Journey Analytics로 수집하려면 먼저 Platform으로 수집해야 합니다.
 1. 크로스채널 이벤트 데이터 세트를 분석합니다.
 통합 분석하는 데이터 세트는 공통 네임스페이스 ID를 가지거나 Customer Journey Analytics의 필드 기반 결합 기능을 통해 재입력되어야 합니다.  
