@@ -4,11 +4,11 @@ description: 고객 여정 전반에 걸친 고객 상호 작용을 분석하여
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,10 +38,9 @@ ht-degree: 96%
 
 ## 구현 단계
 
-1. [수집할 데이터를 위한 스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [수집할 데이터를 위한 데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [데이터를 Experience Platform으로 수집합니다.
-](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=ko)
+1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
+1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
 데이터를 Customer Journey Analytics로 처리하려면 먼저 Platform으로 수집해야 합니다.
 1. 크로스채널 이벤트 데이터 세트를 통합 분석하여 공통 네임스페이스 ID를 가지거나 Customer Journey Analytics의 필드 기반 결합 기능을 통해 재입력되도록 합니다.  
 
