@@ -4,11 +4,11 @@ description: 이 블루프린트에서는 Adobe Experience Platform의 Data Scie
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 95%
 
 ## 구현 단계
 
-1. [수집할 데이터를 위한 스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [수집할 데이터를 위한 데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [데이터를 Experience Platform으로 수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=ko)
+1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
+1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
 1. DSW 노트북을 만듭니다.
 1. 언어를 선택합니다. Python 및 PySpark가 지원됩니다.
 1. 노트북 내에 모델을 작성합니다.
