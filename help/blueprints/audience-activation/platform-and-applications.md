@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Experience Cloud 애플리케이션에서의 활성화는 [온라인/오프라�
 
 ## 아키텍처
 
-[Experience Cloud 애플리케이션과의 Experience Platform 통합과 관련된 추가 아키텍처 다이어그램은 Experience Platform 및 애플리케이션 아키텍처 섹션을 참조하십시오.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ko)
+[Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 아키텍처 다이어그램을 더 확인하려면 Experience Platform과 애플리케이션 아키텍처 섹션을 참조하세요.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ko)
 
 ### Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화
 
