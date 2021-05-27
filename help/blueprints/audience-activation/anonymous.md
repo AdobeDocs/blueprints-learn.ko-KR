@@ -1,18 +1,18 @@
 ---
-title: 익명 Audience Activation 블루프린트
-description: 익명 Audience Activation.
+title: 익명 대상자 활성화 블루프린트
+description: 익명 대상자 활성화.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 익명 Audience Activation 블루프린트
+# 익명 대상자 활성화 블루프린트
 
 고객의 익명 행동 데이터를 기반으로 웹 및 광고 채널에 걸쳐 대상자를 타겟팅할 수 있습니다. 이를 통해 전 디바이스에 걸쳐 개인화되고 일관적인 실시간 고객 경험을 제공할 수 있습니다.
 
@@ -27,13 +27,13 @@ ht-degree: 93%
 
 ## 아키텍처
 
-<img src="assets/anonymous_activation.svg" alt="익명 Audience Activation 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="익명 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 ## 구현 단계
 
 <!-- These steps should link to help. -->
 
-1. [Audience Manager를 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)합니다.
+1. [Audience Manager를 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko#implementation-integration-guides)합니다.
 1. Audience Manager로 데이터를 수집합니다.
 1. 세그먼트 정의에서 사용할 신호 및 특질을 구성합니다.
 1. Audience Manager에서 세그먼트를 만듭니다.
