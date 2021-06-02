@@ -4,25 +4,24 @@ breadcrumb-title: '블루프린트 '
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-translation-type: ht
-source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 98%
 
 ---
 
 # 디지털 경험 블루프린트 {#architecture}
 
 + [개요](/help/blueprints/overview.md)
-+ 아키텍처 개요 다이어그램 {#architecture-overview}
++ 아키텍처 개요{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
-   + [Experience Platform 및 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
+   + [Experience Platform과 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform 데이터 흐름](/help/blueprints/experience-platform/platform-data-flow.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-   + [온라인/오프라인 Audience Activation](/help/blueprints/audience-activation/online-offline.md)
+   + [익명 Audience Activation  ](/help/blueprints/audience-activation/anonymous.md)
+   + [온라인/오프라인 대상자 활성화](/help/blueprints/audience-activation/online-offline.md)
    + [엔터프라이즈 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud 애플리케이션을 사용한 활성화](/help/blueprints/audience-activation/platform-and-applications.md)
    + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
