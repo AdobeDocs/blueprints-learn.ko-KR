@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
+source-git-commit: 6c4b72159d4ba2a171215678e4e4842956d82745
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 11%
@@ -18,13 +18,13 @@ ht-degree: 11%
 
 이 아키텍처 다이어그램은 Adobe Experience Platform과 Adobe Experience Cloud 애플리케이션 및 애플리케이션 서비스 간의 관계를 보여 줍니다.
 
-<img src="assets/aep+apps_vertical.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a" />
+<img src="assets/aep+apps_vertical.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:80%;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
 ## Adobe Experience Platform과 애플리케이션 상세 아키텍처 다이어그램
 
-<img src="assets/aep+apps_horizontal.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a" />
+<img src="assets/aep+apps_horizontal.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:80%;" />
 
 ## Adobe Experience Platform 및 Experience Cloud 애플리케이션 통합
 
