@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 54%
+source-wordcount: '190'
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,5 @@ ht-degree: 54%
 
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
-| **일괄 처리와 트랜잭션 메시지** | <ul><li>예약 및 일괄 처리 아웃바운드 캠페인 작성 및 실행</li><li>트랜잭션 메시지 게재</li></ul> | <ul><li>Adobe Campaign Classic과 Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[일괄 처리 메시지와 Adobe Experience Platform](batch-messaging.md)** | <ul><li>Adobe Experience Platform을 고객 프로필 및 세분화의 중심 허브로 사용하여 예약 및 일괄 처리 메시지 캠페인 실행</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services 또는 Campaign Standard</li><li>지원하는 서드파티 메시지 공급자</li></ul> |
-| **[트리거 메시지와 Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Adobe Experience Platform을 데이터, 고객 프로필 및 세분화 스트리밍의 중심 허브로 사용하고 Journey Orchestration으로 여정 오케스트레이션 및 메시지 게재를 스트리밍하여 트리거 및 스트리밍 메시지를 실행합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign 또는 다른 메시지 게재용 서드파티 애플리케이션</li></ul> |
+| **[Adobe Campaign](batch-messaging.md)** | <ul><li>Adobe Experience Platform을 고객 프로필 및 세분화의 중심 허브로 사용하여 예약 및 일괄 처리 메시지 캠페인 실행</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services 또는 Campaign Standard</li><li>지원하는 서드파티 메시지 공급자</li></ul> |
+| **[Journey Optimizer](journey-optimizer.md)** | <ul><li>Adobe Experience Platform을 데이터, 고객 프로필 및 세분화 스트리밍의 중심 허브로 사용하고 Journey Orchestration으로 여정 오케스트레이션 및 메시지 게재를 스트리밍하여 트리거 및 스트리밍 메시지를 실행합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Optimizer</li></ul> |
