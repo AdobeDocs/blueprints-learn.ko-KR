@@ -4,8 +4,8 @@ breadcrumb-title: '블루프린트 '
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
-workflow-type: ht
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -37,10 +37,10 @@ ht-degree: 100%
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
-+ 멀티채널 메시지 오케스트레이션 {#multi-channel-message-orchestration}
-   + [개요](/help/blueprints/multi-channel-message-orchestration/overview.md)
-   + [일괄 메시지 처리와 Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
-   + [트리거 메시지와 Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ 멀티채널 메시지 오케스트레이션 {#customer-journeys}
+   + [개요](/help/blueprints/customer-journeys/overview.md)
+   + [일괄 메시지 처리와 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [트리거 메시지와 Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
    + [행동을 통한 개인화](/help/blueprints/web-personalization/behavioral.md)
