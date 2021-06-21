@@ -3,11 +3,10 @@ title: 디지털 경험 블루프린트
 description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-translation-type: ht
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
-workflow-type: ht
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,18 +31,18 @@ ht-degree: 100%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=ko"><img alt="트리거 메시지와 Experience Platform 블루프린트의 썸네일 이미지" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=ko"><strong>트리거 메시지와 Experience Platform</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><img alt="트리거 메시지와 Experience Platform 블루프린트의 썸네일 이미지" src="customer-journeys/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><strong>트리거 메시지와 Experience Platform</strong></a></div>
     <p><em>[!UICONTROL Platform]을 중앙 허브로 사용하여 메시지와 경험을 트리거합니다.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko"><img alt="온라인/오프라인 Audience Activation 블루프린트의 썸네일 이미지" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko"><strong>온라인/오프라인 Audience Activation</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>온라인/오프라인 Audience Activation</strong></a></div>
     <p><em>대상자에 의해 활성화되는 크로스채널 광고를 게재합니다.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=ko"><img alt="디지털 행동 데이터 통합 블루프린트의 썸네일 이미지" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=ko"><strong>디지털 행동 데이터 통합</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>디지털 행동 데이터 통합</strong></a></div>
     <p><em>다양한 채널에서의 고객 행동에 대해 통합된 단일 관점에서 분석할 수 있습니다.</em></p>
   </td>
 </tr>
