@@ -5,9 +5,8 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-translation-type: ht
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
-workflow-type: ht
+source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -34,7 +33,7 @@ Customer Journey Analytics를 통해 브랜드가 다양한 소통 채널 및 �
 
 ### 가드레일 다이어그램
 
-<img src="assets/cja_guardrails.svg" alt="Customer Journey Analytics 블루프린트에 대한 가드레일 다이어그램" style="border:1px solid #4a4a4a" />
+<img src="assets/cja_guardrails.png" alt="Customer Journey Analytics 블루프린트에 대한 가드레일 다이어그램" style="border:1px solid #4a4a4a" />
 
 
 ## 관련 블로그 게시물
