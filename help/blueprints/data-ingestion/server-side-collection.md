@@ -3,10 +3,9 @@ title: 서버측 엔터프라이즈 데이터 수집 블루프린트
 description: Experience Platform SDK를 통해 대상으로 스트리밍 수집한 데이터
 solution: Experience Platform,Data Collection
 kt: 7202
-exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
-translation-type: ht
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
-workflow-type: ht
+exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
+source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
