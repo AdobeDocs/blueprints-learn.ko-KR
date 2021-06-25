@@ -4,10 +4,9 @@ description: 이 블루프린트는 Adobe Experience Platform 내에서 데이�
 solution: Experience Platform
 kt: 7207
 thumbnail: null
-exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
-translation-type: ht
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: ht
+exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
+source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대�
 
 ## 애플리케이션
 
-* Adobe Experience Platform  
+* Adobe Experience Platform   
 
 ## 아키텍처
 
