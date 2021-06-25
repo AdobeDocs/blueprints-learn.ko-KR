@@ -5,9 +5,8 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-translation-type: ht
 source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
