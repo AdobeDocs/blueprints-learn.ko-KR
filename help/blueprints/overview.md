@@ -36,8 +36,8 @@ ht-degree: 94%
     <p><em>[!UICONTROL Platform]을 중앙 허브로 사용하여 메시지와 경험을 트리거합니다.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko"><img alt="온라인/오프라인 Audience Activation 블루프린트의 썸네일 이미지" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>온라인/오프라인 Audience Activation</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko"><img alt="온라인/오프라인 대상자 활성화 블루프린트의 썸네일 이미지" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>온라인/오프라인 대상자 활성화</strong></a></div>
     <p><em>대상자에 의해 활성화되는 크로스채널 광고를 게재합니다.</em></p>
   </td>
   <td>
