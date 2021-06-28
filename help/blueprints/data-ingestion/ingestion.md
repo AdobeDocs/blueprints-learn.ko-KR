@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 100%
 ## 아키텍처
 
 <img src="assets/data_ingestion.png" alt="데이터 준비 및 수집 블루프린트의 참조 아키텍처" style="border:1px solid #4a4a4a" />
+
+## 데이터 수집 가드 레일
+
+아래 다이어그램은 Adobe Experience Platform에 데이터를 수집하기 위한 평균 성능 보호 기능 및 지연을 보여줍니다.
+
+<img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="90%" />
 
 ## 데이터 수집 방법
 
