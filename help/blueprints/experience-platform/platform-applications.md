@@ -8,7 +8,7 @@ exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 97%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">일괄 메시지 처리</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=ko">일괄 메시지 처리</a>
           </li>
         </ul>
       </td>
@@ -162,7 +162,7 @@ ht-degree: 97%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=en">Customer Journey Analytics</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ko">Customer Journey Analytics</a>
           </li>
         </ul>
       </td>
