@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
@@ -31,13 +31,13 @@ ht-degree: 100%
 
 아래 그림에서는 Experience Platform의 Real-time Customer Profile의 핵심 구성 요소를 개략적으로 확인할 수 있습니다.
 
+<img src="assets/profile_architecture.jpg" alt="Real-time Customer Profile을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" width="90%"/>
+
 첫 번째 데이터 소스가 Experience Platform으로 수집됩니다. 데이터 소스가 프로필용으로 구성된 경우 이를 처리하면 Real-time Customer Profile로 피드됩니다. 각 데이터 소스용으로 구성된 각 기본 ID 레코드에 대해 하나의 프로필 조각 또는 문서가 만들어집니다. 또한 프로필에 수집한 데이터는 ID 서비스에서도 처리합니다. 스키마에 둘 이상의 ID가 표시되어 있고 이에 해당하는 값이 레코드에 입력된 데이터 소스의 모든 레코드는 ID 서비스 내에서 ID 관계로 처리합니다.
 
 ID가 하나만 있는 레코드는 그래프를 추가로 채울 ID 링크가 없으므로 ID 서비스에서 처리하지 않습니다. 참고: ID 서비스는 기본 ID와 보조 ID를 구분하지 않습니다. 단순히 여러 ID에 걸친 ID 관계를 처리합니다.
 
 ID 그래프가 관련된 다양한 소스 프로필 조각에 대해 ID 관계를 제공할 때 프로필 조각 병합이 발생합니다. 병합 정책에 따라 조각을 병합할 때 사용할 소스 조각과 ID 그래프가 결정됩니다. 프로필이 액세스 중일 때마다 프로필 조각 병합이 발생하여 프로필을 최신 상태로 종합하여 볼 수 있습니다. 거버넌스 및 정책 규칙을 통해 권한이 있는 세그먼트 및 속성만 지정된 대상에 대해 활성화할 수 있습니다.
-
-<img src="assets/profile_architecture.jpg" alt="Real-time Customer Profile을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 
 
 ## 대상자 및 프로필 활성화 블루프린트 가드레일
