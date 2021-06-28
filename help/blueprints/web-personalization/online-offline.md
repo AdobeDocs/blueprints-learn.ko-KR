@@ -4,10 +4,10 @@ description: 웹 개인화를 이메일 및 기타 알려지거나 알려지지 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ### 1. Platform 웹/모바일 SDK와 Edge를 사용하는 방법
 
-<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK]와 [!UICONTROL Edge Network]를 사용하는 방법에 대한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+[Experience Platform 웹 및 모바일 SDK 블루프린트 를 참조하십시오](../data-ingestion/websdk.md)
 
 ### 2. 특정 애플리케이션용 SDK를 사용하는 방법
 
