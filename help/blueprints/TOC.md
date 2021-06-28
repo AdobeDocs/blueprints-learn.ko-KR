@@ -20,7 +20,7 @@ ht-degree: 98%
    + [Experience Platform 데이터 흐름](/help/blueprints/experience-platform/platform-data-flow.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 Audience Activation  ](/help/blueprints/audience-activation/anonymous.md)
+   + [익명 대상자 활성화](/help/blueprints/audience-activation/anonymous.md)
    + [온라인/오프라인 대상자 활성화](/help/blueprints/audience-activation/online-offline.md)
    + [엔터프라이즈 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud 애플리케이션을 사용한 활성화](/help/blueprints/audience-activation/platform-and-applications.md)
