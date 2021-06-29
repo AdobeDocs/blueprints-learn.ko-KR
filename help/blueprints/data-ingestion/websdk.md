@@ -1,18 +1,18 @@
 ---
-title: 데이터 준비 및 수집 블루프린트
+title: 웹/모바일 SDK 데이터 수집 블루프린트
 description: 이 블루프린트는 Experience Platform Web 및 Mobile SDK를 통한 아키텍처 및 수집을 보여줍니다
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Experience Platform WebSDK 데이터 수집
+# Experience Platform 웹/모바일 SDK 데이터 수집
 
 아래 아키텍처 다이어그램은 Experience Platform WebSDK를 활용하는 통합 경로 및 데이터 수집을 보여줍니다.
 
@@ -20,4 +20,4 @@ ht-degree: 7%
 
 ## 참조 설명서
 
-[Experience Platform WebSDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Experience Platform 웹/모바일 SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
