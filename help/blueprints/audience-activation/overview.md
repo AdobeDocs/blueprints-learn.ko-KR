@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,11 @@ ID가 하나만 있는 레코드는 그래프를 추가로 채울 ID 링크가 �
 
 ID 그래프가 관련된 다양한 소스 프로필 조각에 대해 ID 관계를 제공할 때 프로필 조각 병합이 발생합니다. 병합 정책에 따라 조각을 병합할 때 사용할 소스 조각과 ID 그래프가 결정됩니다. 프로필이 액세스 중일 때마다 프로필 조각 병합이 발생하여 프로필을 최신 상태로 종합하여 볼 수 있습니다. 거버넌스 및 정책 규칙을 통해 권한이 있는 세그먼트 및 속성만 지정된 대상에 대해 활성화할 수 있습니다.
 
+## 세그먼테이션 및 대상 개요
+
+아래 그림에서는 다양한 세그멘테이션 방법과 다양한 프로필 및 대상 활성화 패턴을 설명합니다.
+
+<img src="assets/segmentation_destination_overview.png" alt="Real-time Customer Profile을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## 대상자 및 프로필 활성화 블루프린트 가드레일
 
