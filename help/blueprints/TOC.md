@@ -3,8 +3,8 @@ user-guide-title: 디지털 경험 블루프린트
 breadcrumb-title: '블루프린트 '
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
-role: Architect, Developer, Business Practitioner
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+role: Architect, Developer, User
+source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 95%
