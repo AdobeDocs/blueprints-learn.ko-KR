@@ -4,10 +4,10 @@ description: 웹 개인화를 이메일 및 기타 알려지거나 알려지지 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
+source-git-commit: 176f4950ffb5b21005b6ad8cfbb993186086442b
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 98%
+source-wordcount: '731'
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,11 @@ ht-degree: 98%
 
 ## 구현 필요 조건
 
+ID 사전 요구 사항
+
+* Adobe Experience Platform에서 Adobe Target으로 대상을 공유하려면 ECID를 ID로 사용해야 합니다.
+* Audience Manager이 ECID와 대체 ID가 모두 Audience Manager에 수집되는 한 ECID로 대체 ID를 확인할 수 있으므로 Audience Manager을 통해 Experience Platform 대상을 Adobe Target에 공유하는 데 대체 ID를 사용할 수 있습니다. Audience Manager 및 Target은 ECID를 통해 대상 멤버십을 해결하므로 Adobe Target에 대한 최종 대상을 공유하려면 ECID가 계속 필요합니다.
+
 | 애플리케이션/서비스 | 필요한 라이브러리 | 참고 사항 |
 |---|---|---|
 | Adobe Target | [!UICONTROL Platform 웹 SDK]* at.js 0.9.1+ 또는 mbox.js 61+ | mbox.js는 더 이상 개발되지 않으므로 at.js 사용을 추천합니다. |
@@ -61,6 +66,8 @@ ht-degree: 98%
 | Experience Cloud ID 서비스 | [!UICONTROL Platform 웹 SDK]* 또는 VisitorAPI.js 2.0+ | (추천)ID 서비스 배포에 Experience Platform Launch를 사용하여 반드시 애플리케이션 호출 발생 이전에 ID가 설정되도록 합니다. |
 | Experience Platform 모바일 SDK(선택 사항) | iOS 및 Android™용 4.11 이상 |  |
 | Experience Platform 웹 SDK | 1.0, 현재 Experience Platform SDK 버전에는 [아직 Experience Cloud 애플리케이션에서 지원하지 않는 다양한 사용 사례](https://github.com/adobe/alloy/projects/5)가 있습니다. |  |
+
+
 
 
 ## 구현 단계
