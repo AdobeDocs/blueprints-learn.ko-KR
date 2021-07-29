@@ -6,8 +6,8 @@ product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
    + [크로스 채널 여정 분석](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [통화 전환](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ 고객 여정{#customer-journeys}
++ 고객 여정 {#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + [일괄 메시지 처리와 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
@@ -37,7 +37,7 @@ ht-degree: 93%
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [서버측 엔터프라이즈 데이터 수집 ](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience Platform WebSDK](/help/blueprints/data-ingestion/websdk.md)
+   + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
 + 데이터 분석, 인텔리전스 및 AI/ML {#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
