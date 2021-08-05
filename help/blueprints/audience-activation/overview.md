@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
 | **[익명 대상자 활성화](anonymous.md)** | <ul><li>고객의 익명 행동 데이터를 기반으로 웹 및 광고 채널에 걸쳐 대상자를 타겟팅합니다.</li><li>서드파티 대상자 데이터와 통합하여 개인화를 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[온라인/오프라인 대상자 활성화](online-offline.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상에 대해 활성화합니다. </li><li>오프라인 주문, 거래, CRM 또는 충성도 데이터 등 오프라인 특성 및 이벤트와 온라인 행동을 함께 사용하여 온라인 타겟팅과 개인화를 수행합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
-| **[엔터프라이즈 대상에 대한 대상자 및 프로필 활성화](enterprise-destinations.md)** | <ul><li>프로필 및 대상자의 변경 사항을 엔터프라이즈 데이터 저장소에 복제 및 업데이트하여 활성화에 사용하고 사용 사례를 보고합니다. </li></ul><ul><li>[!UICONTROL Real-time Customer Data Platform]에서 엔터프라이즈 시스템 및 애플리케이션에 고객 행동에 대한 알림을 보내 영업 또는 지원 동작을 시작합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
-| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul> |
+| **[온라인 및 오프라인 데이터를 사용한 활성화](online-offline.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상에 대해 활성화합니다. </li><li>오프라인 주문, 거래, CRM 또는 충성도 데이터 등 오프라인 특성 및 이벤트와 온라인 행동을 함께 사용하여 온라인 타겟팅과 개인화를 수행합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
+| **[파일 및 엔터프라이즈 스트리밍 대상에 대한 활성화](enterprise-destinations.md)** | <ul><li>프로필 및 대상자의 변경 사항을 엔터프라이즈 데이터 저장소에 복제 및 업데이트하여 활성화에 사용하고 사용 사례를 보고합니다. </li></ul><ul><li>[!UICONTROL Real-time Customer Data Platform]에서 엔터프라이즈 시스템 및 애플리케이션에 고객 행동에 대한 알림을 보내 영업 또는 지원 동작을 시작합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
+| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Experience Platform 활성화</li><li>Experience Cloud 애플리케이션</li></ul> |
 | **[고객 활동 허브](customer-activity.md)** | <ul><li>지원 및 영업 경험 등 직원이 관여하는 상호 작용에 대해 보다 자세한 고객의 맥락을 제공합니다. Experience Platform에서 프로필 확인 기능을 사용하면 담당자가 소비자에 대해 실시간 고객 프로필에 저장된 최근 구매, 캠페인 상호 작용, 성향, 대상자 멤버십 및 기타 속성과 인사이트 등 더 많은 맥락을 확인할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Real-time Customer Profile 아키텍처
