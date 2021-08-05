@@ -4,10 +4,10 @@ description: 온라인/오프라인 대상자 활성화.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
+source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 91%
+source-wordcount: '527'
+ht-degree: 92%
 
 ---
 
