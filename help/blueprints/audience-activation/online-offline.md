@@ -1,23 +1,23 @@
 ---
-title: 온라인/오프라인 대상자 활성화 블루프린트
+title: 온라인 및 오프라인 데이터 블루프린트를 사용한 활성화
 description: 온라인/오프라인 대상자 활성화.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 91%
 
 ---
 
-# 온라인/오프라인 대상자 활성화 블루프린트
+# 온라인 및 오프라인 데이터 블루프린트를 사용한 활성화
 
 오프라인 주문, 거래, CRM 또는 충성도 데이터 등 오프라인 특성 및 이벤트와 온라인 행동을 함께 사용하여 온라인 타겟팅과 개인화를 수행합니다.
 
 대상자를 이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상으로 활성화합니다.
 
-온라인/오프라인 대상자 활성화 블루프린트는[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화 블루프린트](platform-and-applications.md)와 아주 유사합니다. [Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화 블루프린트](platform-and-applications.md)에서 Experience Platform와 Experience Cloud 애플리케이션 간 통합에 대하여 더 자세하게 설명합니다.
+온라인 및 오프라인 데이터 블루프린트와의 활성화는 [대상 및 프로필 활성화와 Experience Cloud 애플리케이션 블루프린트](platform-and-applications.md)에 거의 일치합니다. [Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화 블루프린트](platform-and-applications.md)에서 Experience Platform와 Experience Cloud 애플리케이션 간 통합에 대하여 더 자세하게 설명합니다.
 
 ## 사용 사례
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 ## 아키텍처
 
-### 대상에 대한 온라인/오프라인 대상자 활성화
+### 대상을 사용하여 온라인 및 오프라인 데이터로 활성화
 
-<img src="assets/online_offline_activation.svg" alt="온라인/오프라인 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="온라인/오프라인 Audience Activation 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
 <br>
 
 ## 가드레일
