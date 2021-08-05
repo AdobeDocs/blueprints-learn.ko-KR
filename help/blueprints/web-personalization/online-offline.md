@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '734'
+ht-degree: 100%
 
 ---
 
@@ -53,10 +53,10 @@ ht-degree: 0%
 
 ## 구현 필요 조건
 
-ID 사전 요구 사항
+ID 필요 조건
 
-* Adobe Experience Platform에서 Adobe Target으로 대상을 공유하려면 ECID를 ID로 사용해야 합니다.
-* Audience Manager이 ECID와 대체 ID가 모두 Audience Manager에 수집되는 한 ECID로 대체 ID를 확인할 수 있으므로 Audience Manager을 통해 Experience Platform 대상을 Adobe Target에 공유하는 데 대체 ID를 사용할 수 있습니다. Audience Manager 및 Target은 ECID를 통해 대상 멤버십을 해결하므로 Adobe Target에 대한 최종 대상을 공유하려면 ECID가 계속 필요합니다.
+* Adobe Experience Platform에서 Adobe Target으로 대상자를 공유하려면 ECID를 ID로 사용해야 합니다.
+* 대체 ID를 사용하여 Experience Platform 대상자를 Audience Manager를 통해 Adobe Target으로 공유할 수 있습니다. ECID와 대체 ID 모두 Audience Manager로 수집되기만 하면 Audience Manager가 대체 ID를 ECID에 배정 처리할 수 있기 때문입니다. Audience Manager와 Target은 ECID를 통해 대상자의 멤버십을 처리하므로, Adobe Target에 대상자를 최종 공유할 때까지 계속 ECID가 필요합니다.
 
 | 애플리케이션/서비스 | 필요한 라이브러리 | 참고 사항 |
 |---|---|---|
@@ -90,7 +90,7 @@ ID 사전 요구 사항
 * [Experience Platform 세분화 작성기 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)
 * [Audience Manager 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
 * [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
-* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
 * [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
 * [Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko)
 
