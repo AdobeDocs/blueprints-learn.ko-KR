@@ -5,9 +5,9 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: a13f31837a507711bb27f2fcc0d49c44ffe0a8d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
    + [개요](/help/blueprints/audience-activation/overview.md)
    + [익명 대상자 활성화](/help/blueprints/audience-activation/anonymous.md)
    + [온라인 및 오프라인 데이터를 사용한 활성화](/help/blueprints/audience-activation/online-offline.md)
-   + [파일 및 엔터프라이즈 스트리밍 대상에 대한 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [파일 및 엔터프라이즈 스트리밍 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud 애플리케이션을 사용한 활성화](/help/blueprints/audience-activation/platform-and-applications.md)
    + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
