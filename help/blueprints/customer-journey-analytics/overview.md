@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,9 @@ Customer Journey Analytics를 통해 브랜드가 다양한 소통 채널 및 �
 많이 쓰이는 분석은 다음과 같습니다.
 
 * 최대/최소 전환 경로
+* 채널 참여 및 전환
 * 가장 많이 본 콘텐츠
-* 범주 및 제품
+* 상위 카테고리 및 제품
 * 전환과 참여 증가로 이어진 캠페인
 * 도구 사용량 분석으로 셀프 서비스 경험 최적화
 
