@@ -8,7 +8,7 @@ exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics를 통해 브랜드가 다양한 소통 채널 및 �
 * 최대/최소 전환 경로
 * 채널 참여 및 전환
 * 가장 많이 본 콘텐츠
-* 상위 카테고리 및 제품
+* 많이 본 카테고리와 제품
 * 전환과 참여 증가로 이어진 캠페인
 * 도구 사용량 분석으로 셀프 서비스 경험 최적화
 
