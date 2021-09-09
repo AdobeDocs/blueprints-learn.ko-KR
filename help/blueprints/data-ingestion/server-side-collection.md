@@ -4,16 +4,16 @@ description: Experience Platform SDK를 통해 대상으로 스트리밍 수집�
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 서버측 엔터프라이즈 데이터 수집 블루프린트
 
-서버측 엔터프라이즈 데이터 수집 블루프린트에서는 Adobe Experience Platform 웹 및 모바일 SDK로 수집한 데이터를 Experience Platform Edge Network에서 원하는 대상으로 전달하는 방법을 설명합니다. SDK에서 수집한 원 데이터 전체를 전달하거나 Experience Platform Launch에서 구성한 바에 따라 이벤트 및 규칙을 기반으로 특정 데이터를 전달할 수 있습니다.
+서버측 엔터프라이즈 데이터 수집 블루프린트에서는 Adobe Experience Platform 웹 및 모바일 SDK로 수집한 데이터를 Experience Platform Edge Network에서 원하는 대상으로 전달하는 방법을 설명합니다. 태그 속성(이전 Launch)에 구성된 대로 이벤트 및 규칙을 기반으로 SDK에서 수집된 모든 원시 데이터 또는 특정 데이터를 전달할 수 있습니다.
 
 ## 사용 사례
 
@@ -30,8 +30,8 @@ ht-degree: 100%
 
 ## 관련 설명서
 
-[Experience Platform Launch 서버측 설명서](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=ko#server-side-info)
-[Experience Platform Launch 서버측 비디오 ](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ko)
+* [이벤트 전달 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [이벤트 전달 비디오](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ko)
 
 ## 관련 블로그 게시물
 

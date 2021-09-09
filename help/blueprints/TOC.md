@@ -4,10 +4,10 @@ breadcrumb-title: '블루프린트 '
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 7c958db2f2bb9cac4d15420d824de0f9722a8135
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

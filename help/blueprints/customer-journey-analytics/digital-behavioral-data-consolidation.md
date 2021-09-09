@@ -4,10 +4,10 @@ description: 고객 여정 전반에 걸친 고객 상호 작용을 분석하여
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
-source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,10 +37,10 @@ ht-degree: 100%
 
 ## 구현 단계
 
-1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=ko)
+1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
-1. 데이터를 Experience Platform으로 수집합니다.
-데이터를 Customer Journey Analytics로 처리하려면 먼저 Platform으로 수집해야 합니다. 데이터 수집 및 데이터 소스 유형에 대한 자세한 내용은 다음 설명서를 참조하십시오. [Analytics Data 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko)를 포함하는 [데이터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko) 소스 [데이터 수집 자습서](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
+1. [데이터를 Experience Platform으로 수집합니다](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko).
+데이터를 Customer Journey Analytics로 처리하려면 먼저 Platform으로 수집해야 합니다. 데이터 수집 및 데이터 소스 유형에 대한 자세한 내용은 다음 설명서를 참조하십시오. [Analytics Data 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko)를 포함하는 [데이터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko) 소스 [데이터 수집 자습서](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. 크로스채널 이벤트 데이터 세트를 통합 분석하여 공통 네임스페이스 ID를 가지거나 Customer Journey Analytics의 필드 기반 결합 기능을 통해 재입력되도록 합니다. Customer Journey Analytics의 ID 결합에 대한 자세한 내용은 크로스 채널 분석 설명서를 참조하십시오. [ID 결합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko)
 
    >[!NOTE]
