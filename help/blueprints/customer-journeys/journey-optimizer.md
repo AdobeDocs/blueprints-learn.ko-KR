@@ -4,10 +4,10 @@ description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
+source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -105,6 +105,6 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 ## 관련 설명서
 
 * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
-* [Journey Optimizer 설명서](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=ko)
+* [Journey Optimizer 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/launch.html?lang=ko)
 * [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)
