@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
+source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,15 +27,12 @@ Customer Journey Analytics를 통해 브랜드가 다양한 소통 채널 및 �
 
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
-| **[크로스 채널 여정 분석](digital-behavioral-data-consolidation.md)** | <ul><li>다양한 웹, 모바일 및 오프라인 속성에서 수집한 데이터를 통합하여 전 채널에 걸친 고객 행동을 통합된 단일 관점으로 분석합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics(선택 사항)</li></ul> |
-| **[통화 전환 여정 분석](call-deflect.md)** | <ul><li>콜센터 데이터를 웹, 모바일 및 다른 상호작용 데이터와 함께 분석하여 어떤 행동이 가장 콜센터 문의로 이어질 확률이 높은지를 확인합니다.</li><li>이 인사이트를 활용하여 고객 경험을 최적화할 수 있으며, 셀프 서비스 콘텐츠 및 도구를 최적화하여 콜센터 문의로 이어지는 경로를 줄일 수 있습니다.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[크로스 채널 여정 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)** | <ul><li>다양한 웹, 모바일 및 오프라인 속성에서 수집한 데이터를 통합하여 전 채널에 걸친 고객 행동을 통합된 단일 관점으로 분석합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics(선택 사항)</li></ul> |
+| **[통화 전환 여정 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>콜센터 데이터를 웹, 모바일 및 다른 상호작용 데이터와 함께 분석하여 어떤 행동이 가장 콜센터 문의로 이어질 확률이 높은지를 확인합니다.</li><li>이 인사이트를 활용하여 고객 경험을 최적화할 수 있으며, 셀프 서비스 콘텐츠 및 도구를 최적화하여 콜센터 문의로 이어지는 경로를 줄일 수 있습니다.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Customer Journey Analytics 블루프린트에 대한 가드레일
+## Customer Journey Analytics 블루프린트에 대한 보호 다이어그램
 
-### 가드레일 다이어그램
-
-<img src="assets/cja_guardrails.png" alt="Customer Journey Analytics 블루프린트에 대한 가드레일 다이어그램" style="border:1px solid #4a4a4a" />
-
+![가드레일 다이어그램](assets/cja_guardrails.png)
 
 ## 관련 블로그 게시물
 

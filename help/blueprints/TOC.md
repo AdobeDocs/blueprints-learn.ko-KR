@@ -4,7 +4,7 @@ breadcrumb-title: '블루프린트 '
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -28,8 +28,6 @@ ht-degree: 0%
    + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
-   + [크로스 채널 여정 분석](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
-   + [통화 전환](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 고객 여정 {#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + [일괄 메시지 처리와 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
