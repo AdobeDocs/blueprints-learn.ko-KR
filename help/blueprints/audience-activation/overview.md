@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: cbeb90f9ed89e91bab45dcb1dbb30f59c5910bbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 92%
 |---|---|---|
 | **[익명 대상자 활성화](anonymous.md)** | <ul><li>고객의 익명 행동 데이터를 기반으로 웹 및 광고 채널에 걸쳐 대상자를 타겟팅합니다.</li><li>서드파티 대상자 데이터와 통합하여 개인화를 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[온라인 및 오프라인 데이터를 사용한 활성화](online-offline.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상에 대해 활성화합니다. </li><li>오프라인 주문, 거래, CRM 또는 충성도 데이터 등 오프라인 특성 및 이벤트와 온라인 행동을 함께 사용하여 온라인 타겟팅과 개인화를 수행합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
-| **[파일 및 엔터프라이즈 스트리밍 대상 활성화](enterprise-destinations.md)** | <ul><li>엔터프라이즈 시스템 및 애플리케이션에서 실시간 고객 프로필을 활성화 및 액세스하여 풍부한 컨텍스트 내 고객 경험을 제공합니다. </li></ul><ul><li>실시간 고객 프로필의 인사이트와 이벤트를 활용하여 영업 또는 지원 경험을 시작할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
-| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 실시간 고객 데이터 플랫폼]</li><li>Experience Platform 활성화</li><li>Experience Cloud 애플리케이션</li></ul> |
+| **[파일 및 엔터프라이즈 스트리밍 대상 활성화](enterprise-destinations.md)** | <ul><li>엔터프라이즈 시스템 및 애플리케이션에서 실시간 고객 프로필을 활성화하고 액세스하여 풍부한 컨텍스트 내 고객 경험을 제공합니다. </li></ul><ul><li>실시간 고객 프로필의 인사이트와 이벤트를 활용하여 영업이나 지원 경험을 시작할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
+| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul> |
 | **[고객 활동 허브](customer-activity.md)** | <ul><li>지원 및 영업 경험 등 직원이 관여하는 상호 작용에 대해 보다 자세한 고객의 맥락을 제공합니다. Experience Platform에서 프로필 확인 기능을 사용하면 담당자가 소비자에 대해 실시간 고객 프로필에 저장된 최근 구매, 캠페인 상호 작용, 성향, 대상자 멤버십 및 기타 속성과 인사이트 등 더 많은 맥락을 확인할 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Real-time Customer Profile 아키텍처
@@ -53,11 +53,11 @@ ID 그래프가 관련된 다양한 소스 프로필 조각에 대해 ID 관계�
 ### 특성 및 ID 활성화
 
 * [!UICONTROL The Real-time Customer Data Platform]은 활성화하도록 선택한 회원 또는 세그먼트인 프로필에 대해 발생하는 특성 및 ID 변경뿐 아니라 대상자 멤버십도 활성화할 수 있습니다. 특성 또는 ID를 활성화하는 것이 목표인 경우 특성 및 ID 업데이트가 전송되는 모든 프로필을 포함하는 글로벌 세그먼트를 정의해야 합니다. 이 시점에서 세그먼트 및 원하는 특성을 선택하여 대상 구성의 일부로 활성화할 수 있습니다.
-* 참고: 대상 일괄 처리는 특성에만 적용되는 변경 이벤트 활성화를 지원하지 않습니다. 활성화를 위해 선택한 속성과 함께 전체 또는 증분 대상 멤버십을 전송할 수 있습니다.
+* 참고: 대상 일괄 처리는 특성에만 적용되는 변경 이벤트 활성화를 지원하지 않습니다. 활성화를 위해 선택한 속성과 함께 전체나 증분 대상 멤버십을 전송할 수 있습니다.
 
 ### 대상 스트리밍에 대한 세그먼트 일괄 처리 활성화
 
-* 대상 스트리밍에 대한 세그먼트 일괄 처리 활성화가 지원됩니다. 배치 세그먼트 작업의 대상 멤버십에 대한 프로필이 자격을 얻으므로 스트리밍 활성화를 통해 해당 실현을 활성화할 수 있습니다.
+* 대상 스트리밍에 대한 세그먼트 일괄 처리 활성화가 지원됩니다. 프로필이 일괄 처리 세그먼트 작업의 대상 멤버십의 자격이 있어 스트리밍 활성화를 통해 해당 실현을 활성화할 수 있습니다.
 
 ### 대상 일괄 처리에 대한 세그먼트 스트리밍 활성화
 
