@@ -6,8 +6,8 @@ kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 
 ## 가드레일
 
-* Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)에 대한 보호 기능에 대한 자세한 내용은 링크를 참조하십시오
+* Journey Optimizer 가드레일에 대한 자세한 내용은 다음 링크를 참조하십시오: [링크](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ko)
 * 세그먼트 일괄 처리: 인증 사용자의 일별 볼륨을 이해해야 하며, 대상 시스템이 각 여정 및 모든 여정의 발생 처리량을 처리할 수 있어야 합니다.
 * 세그먼트 스트리밍: 프로필 인증 첫 발생을 각 여정 및 모든 여정에 대한 일별 스트리밍 인증 볼륨과 함께 처리할 수 있어야 합니다.
 * 프로필 업데이트 활동: Real-Time Customer Profile은 여정 내에서 기본적으로 업데이트할 수 있습니다.  프로필 스토어로 업데이트를 처리하는 데 최대 1분 정도 소요될 수 있습니다.
