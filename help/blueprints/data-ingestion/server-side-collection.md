@@ -4,8 +4,8 @@ description: Experience Platform SDK를 통해 대상으로 스트리밍 수집�
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## 아키텍처
 
-<img src="assets/enterprise_collection.svg" alt="엔터프라이즈 데이터 수집을 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="엔터프라이즈 데이터 수집을 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 관련 설명서
 

@@ -4,7 +4,7 @@ description: Experience Platform의 프로필 및 대상자를 관리하고 Expe
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Experience Cloud 애플리케이션에서의 활성화는 [온라인/오프라�
 
 ## 애플리케이션
 
-* Adobe Experience Platform   
+* Adobe Experience Platform     
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 애플리케이션
@@ -39,7 +39,7 @@ Experience Cloud 애플리케이션에서의 활성화는 [온라인/오프라�
 
 ### Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화의 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화의 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## 가드레일

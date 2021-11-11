@@ -5,8 +5,8 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: fd4ca13589f988605bfd7a3bdf64c43cd9acad68
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## 아키텍처
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization_with_apps.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 가드레일
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ### 2. 특정 애플리케이션용 SDK를 사용하는 방법
 
-<img src="assets/app_sdk_flow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 구현 필요 조건
 
@@ -91,7 +91,7 @@ ID 필요 조건
 * [Experience Platform 세분화 작성기 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)
 * [Audience Manager 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
 * [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
-* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
+* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
 

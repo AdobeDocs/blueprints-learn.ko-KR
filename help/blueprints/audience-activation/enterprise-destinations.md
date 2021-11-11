@@ -4,8 +4,8 @@ description: 엔터프라이즈 대상에 대한 고객 및 프로필 활성화
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## 아키텍처
 
-<img src="assets/enterprise_destination_activation.svg" alt="엔터프라이즈 활성화 시나리오를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="엔터프라이즈 활성화 시나리오를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 
 ## 가드레일
@@ -56,4 +56,4 @@ ht-degree: 100%
 
 * [[!UICONTROL Real-time Customer Data Platform] 개요 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
 * [[!UICONTROL Real-time Customer Data Platform] 데모](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ko)
-* [세그먼트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ko)
+* [세그먼트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

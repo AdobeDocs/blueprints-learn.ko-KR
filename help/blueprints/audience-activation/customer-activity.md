@@ -4,8 +4,8 @@ description: 직원이 관여하는 지원 및 영업의 맥락을 제공하는 
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## 아키텍처
 
-<img src="assets/customer_activity_hub.svg" alt="고객 활동 허브 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/customer_activity_hub.svg" alt="고객 활동 허브 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 가드레일
 
@@ -49,5 +49,5 @@ ht-degree: 100%
 
 * [Adobe Experience Platform Activation 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform0.html)
 * [[!UICONTROL Real-time Customer Profile] 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
-* [프로필 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+* [프로필 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [프로필 확인 API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)

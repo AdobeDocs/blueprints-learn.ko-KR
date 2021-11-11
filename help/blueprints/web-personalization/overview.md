@@ -5,8 +5,8 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ### 온라인/오프라인 개인화 가드레일 다이어그램
 
-<img src="assets/personalization_guardrails.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 관련 블로그 게시물
 

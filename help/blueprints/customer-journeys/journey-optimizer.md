@@ -4,8 +4,8 @@ description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 
 ## 아키텍처
 
-<img src="assets/journey-optimizer.png" alt="트리거 메시지와 Adobe Experience Platform 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/journey-optimizer.png" alt="트리거 메시지와 Adobe Experience Platform 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 통합 패턴
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 #### 프로필/ID
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
+1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 1. [!UICONTROL Real-time Customer Profile]의 서로 다른 보기에 대한 [병합 규칙](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko)을 만듭니다(선택 사항).
 1. 캠페인 사용량에 대한 세그먼트를 만듭니다.

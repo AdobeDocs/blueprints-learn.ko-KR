@@ -4,8 +4,8 @@ description: Real-time Customer Data Platform을 통해 계정 기반 대상자 
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 exl-id: null
-source-git-commit: d811d82418d477372caa9e5b0b67af197275d459
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 아키텍처
 
-<img src="assets/b2b-activation.svg" alt="B2B 활성화 블루프린트를 위한 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="B2B 활성화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## 가드레일
@@ -93,7 +93,7 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 ## 관련 설명서
 
-* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
+* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
 * [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)

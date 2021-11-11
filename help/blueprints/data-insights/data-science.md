@@ -4,8 +4,8 @@ description: 이 블루프린트에서는 Adobe Experience Platform의 Data Scie
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 아키텍처
 
-<img src="assets/data_science.svg" alt="사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트용 참조 아키텍처" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트용 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 구현 단계
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 1. 언어를 선택합니다. Python 및 PySpark가 지원됩니다.
 1. 노트북 내에 [모델을 작성](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=ko)합니다.
 1. [모델을 훈련합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=ko).
-1. [모델을 사용](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=ko)하여 타겟 데이터에 대해 예측을 생성합니다.
+1. [모델을 사용](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)하여 타겟 데이터에 대해 예측을 생성합니다.
 1. [[!UICONTROL Real-time Customer Profile]로 모델의 결과를 보내는 경우 모델 결과 데이터 세트를 프로필에 사용하도록 설정합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=ko).
 
 ## 관련 설명서
