@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
 ht-degree: 100%
 
