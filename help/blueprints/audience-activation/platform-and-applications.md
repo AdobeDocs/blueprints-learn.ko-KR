@@ -4,7 +4,7 @@ description: Experience Platform의 프로필 및 대상자를 관리하고 Expe
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
