@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
 ht-degree: 100%
 
