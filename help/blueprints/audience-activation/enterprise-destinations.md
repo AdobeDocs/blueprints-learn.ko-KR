@@ -3,9 +3,9 @@ title: 파일 및 엔터프라이즈 스트리밍 대상 블루프린트의 대�
 description: 엔터프라이즈 대상에 대한 고객 및 프로필 활성화
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
+exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+source-git-commit: dd01bd48f2bb5a250ead4b4b28b6228c0cbd2517
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -56,4 +56,4 @@ ht-degree: 100%
 
 * [[!UICONTROL Real-time Customer Data Platform] 개요 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
 * [[!UICONTROL Real-time Customer Data Platform] 데모](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ko)
-* [세그먼트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ko)
+* [세그먼트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
