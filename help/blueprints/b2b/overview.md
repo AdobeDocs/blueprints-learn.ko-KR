@@ -4,9 +4,8 @@ description: Real-time Customer Data Platform을 통해 계정 기반 대상자 
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 thumbnail: null
-exl-id: null
-source-git-commit: d811d82418d477372caa9e5b0b67af197275d459
-workflow-type: ht
+source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 

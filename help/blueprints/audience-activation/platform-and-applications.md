@@ -3,9 +3,8 @@ title: Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 
 description: Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
-exl-id: null
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
+source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
