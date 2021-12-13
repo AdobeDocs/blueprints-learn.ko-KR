@@ -2,9 +2,8 @@
 title: B2B 분석
 description: Customer Journey Analytics을 사용한 B2B 계정 수준 분석 ​ 수행.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics
-kt: 9311
-exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 7a26fa761cce509c15678a341e2ed3a8542330d6
+kt: 9481
+source-git-commit: 279ebdb24b3f9ae5bfd9e3358bbcec1eb48cb4ec
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
