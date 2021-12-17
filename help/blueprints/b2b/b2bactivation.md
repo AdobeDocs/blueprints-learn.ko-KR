@@ -3,8 +3,7 @@ title: B2B 활성화
 description: Real-time Customer Data Platform을 통해 계정 기반 대상자 및 프로필 중심적 고객 경험을 제공합니다.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 7a26fa761cce509c15678a341e2ed3a8542330d6
+source-git-commit: 733394239c4f8f647291a7dfe198b741cb21ed36
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%

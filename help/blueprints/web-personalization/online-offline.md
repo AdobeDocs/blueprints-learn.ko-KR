@@ -5,10 +5,10 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '738'
-ht-degree: 100%
+source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 67%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 * 랜딩 페이지 최적화
 * 행동 및 오프라인 프로필 타겟팅
 * 이전 제품/콘텐츠 조회, 제품/콘텐츠 관련성, 환경 요인, 서드파티 대상자 데이터 및 인적 특성과 더불어 거래, 충성도 및 CRM 데이터 등 오프라인 인사이트와 모델에서 도출한 인사이트를 기반으로 한 개인화
+* Adobe Target을 사용하여 웹 사이트 및 모바일 앱에서 Real-time Customer Data Platform에 정의된 대상을 공유 및 타깃팅합니다.
 
 ## 애플리케이션
 
@@ -28,6 +29,46 @@ ht-degree: 100%
 * Adobe Target
 * Adobe Audience Manager(선택 사항): 서드파티 대상자 데이터, co-op 기반 디바이스 그래프, Platform 세그먼트를 Adobe Analytics로 표면화하는 기능 및 Adobe Analytics 세그먼트를 Platform에서 표면화하는 기능 제공
 * Adobe Analytics(선택 사항): 과거 행동 데이터 및 Adobe Analytics 데이터의 세밀한 세분화를 기반으로 세그먼트를 작성하는 기능 제공
+
+## 통합 패턴
+
+<table class="tg" style="undefined;table-layout: fixed; width: 790px">
+<colgroup>
+<col style="width: 20px">
+<col style="width: 276px">
+<col style="width: 229px">
+<col style="width: 265px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-y6fn">#</th>
+    <th class="tg-f7v4">통합 패턴</th>
+    <th class="tg-y6fn">기능</th>
+    <th class="tg-f7v4">전제 조건</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상 공유 서비스 접근 방식을 통해 Target 및 Audience Manager에 대한 RTCDP 스트리밍 및 배치 대상 공유</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Audience Sharing 서비스를 통해 RTCDP에서 Target 및 Audience Manager으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 실시간으로 평가된 대상에서는 통합 패턴 3에 요약된 WebSDK 및 실시간 대상 평가가 필요합니다.</span></td>
+    <td class="tg-73oq">- 대상 공유 서비스를 통한 대상 프로젝션을 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이 필요합니다.<br>- Target이 작업을 수행할 수 있도록 에지에 공유하려면 ID를 ECID로 확인해야 합니다. AAM에는 일치시킬 승인된 ID의 별도의 목록이 있습니다<br>- 이 통합에는 WebSDK 배포가 필요하지 않습니다.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2개</td>
+    <td class="tg-73oq">Edge 접근 방식을 통해 Target에 RTCDP 스트리밍 및 배치 대상 공유</td>
+    <td class="tg-0lax">- Edge 네트워크를 통해 RTCDP에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 실시간으로 평가된 대상에서는 통합 패턴 3에 요약된 WebSDK 및 실시간 대상 평가가 필요합니다.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상을 RTCDP 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이 필요합니다.<br>WebSDK는 필요하지 않습니다. WebSDk 및 AT.js가 지원됩니다. <br>- AT.js를 사용하는 경우 ECID에 대한 프로필 조회만 지원됩니다. <br>- Edge에서 사용자 지정 ID 네임스페이스 조회의 경우 WebSDK 배포가 필요하며 ID 맵에서 각 ID를 ID로 설정해야 합니다.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3</td>
+    <td class="tg-73oq">WebSDK를 사용하여 Edge 네트워크를 통해 Target에 공유되는 Edge에서 RTCDP 실시간 세그먼트 평가를 제공합니다.</td>
+    <td class="tg-0lax">- Edge에서 동일하거나 다음 페이지 개인화에 대해 실시간으로 대상 평가</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상을 RTCDP 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이 필요합니다.<br>- WebSDK를 구현해야 합니다.<br>- API를 통해 지원됩니다.</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## 아키텍처
 
@@ -78,10 +119,11 @@ ID 필요 조건
 1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)(선택 사항)
 1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile] 구현](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
 1. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko) 또는 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 구현
+1. [Experience Platform과 Adobe Target 간 대상자 공유를 위한 제공 요청(공유 대상자)](https://www.adobe.com/go/audiences)
    >[!NOTE]
    >
-   >애플리케이션 간에 대상자를 공유하려면 각 애플리케이션이 Experience Cloud ID를 사용해야 하며 동일한 Experience Cloud 조직의 일부여야 합니다.
-1. [Experience Platform과 Adobe Target 간 대상자 공유를 위한 제공 요청(공유 대상자)](https://www.adobe.com/go/audiences)
+   >RTCDP와 Adobe Target 간에 대상 공유 서비스를 사용하는 경우 Experience Cloud ID를 사용하여 대상을 공유하고 동일한 Experience Cloud 조직에 속해 있어야 합니다. ECID 이외의 ID를 지원하려면 WebSDK 및 Experience Edge 네트워크를 사용해야 합니다.
+
 
 ## 관련 설명서
 
@@ -91,7 +133,7 @@ ID 필요 조건
 * [Experience Platform 세분화 작성기 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)
 * [Audience Manager 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
 * [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
-* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
+* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
 
