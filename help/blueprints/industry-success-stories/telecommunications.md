@@ -3,7 +3,7 @@ title: 통신 업계 - 트리거된 메시지용 Journey Optimizer
 description: 고객은 장기 충성도를 위해 효율적인 고객 온보딩과 동시에 실시간으로 맞춤 거래를 제공할 수 있습니다.
 solution: Experience Platform, Journey Optimizer
 kt: 9486
-source-git-commit: 7a81ea5d71355323a784e12207542fb7dd6b286b
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 12%
@@ -25,18 +25,19 @@ ht-degree: 12%
 
 ## 전달된 비즈니스 가치
 
-| 목표 | 전술 | 로드되지 않은 값 |
+| 목표 | 전술 | 값 잠금 해제됨 |
 |---|---|---|
-| **더 높은 캠페인 전환율 유도&#x200B;**<br></br>**연간 계정 매출 증대**</ul> | <ul><li>라인 추가에 관심이 있지만 아직 전환되지 않은 사용자를 위해 거의 실시간으로 새 세그먼트를 만듭니다.</li><li>전환되지 않은 고객을 대상으로 관심 없는 전환자를 위한 두 번째 터치포인트를 사용하여 후속 조치를 수행하십시오. </li><li>테스트 전략을 사용하여 여정 성능을 측정하고 이메일을 통한 전환을 최적화합니다.</li></ul> | <ul><li><strong>고품질 관련 경험:</strong> 이때 여정 오케스트레이션이 적용되면 고객이 보다 연관성 있는 메시지를 경험하여 이메일 목록 이탈을 줄일 수 있습니다.</li><li><strong>규모에 맞게 Journey Orchestration:</strong>개인화된 시간별 여정을 만들어 전환율과 총 매출을 높일 수 있습니다.</li></ul> |
+| **더 높은 캠페인 전환율 유도&#x200B;**<br></br>**연간 계정 매출 증대**</ul> | <ul><li>라인 추가에 관심이 있지만 아직 전환되지 않은 사용자를 위해 거의 실시간으로 새 세그먼트를 만듭니다.</li><li>전환되지 않은 고객을 위해 관심 있는 비변환자를 위한 두 번째 터치포인트를 사용하여 후속 조치를 수행하십시오. </li><li>테스트 전략을 사용하여 여정 성능을 측정하고 이메일을 통한 전환을 최적화합니다.</li></ul> | <ul><li><strong>고품질 관련 경험:</strong> 이때 여정 오케스트레이션이 적용되면 고객이 보다 연관성 있는 메시지를 경험하여 이메일 목록 이탈을 줄일 수 있습니다.</li><li><strong>규모에 맞게 Journey Orchestration:</strong>개인화된 시간별 여정을 만들어 전환율과 총 매출을 높일 수 있습니다.</li></ul> |
 
-## 주요 블루프린트: Experience Cloud 애플리케이션을 사용한 고객 및 활성화
+## 기본 블루프린트: Experience Cloud 애플리케이션을 사용한 고객 및 활성화
 
-<strong>설명</strong>
+### 설명
+
 <ul><li>Adobe Experience Platform을 데이터, 고객 프로필 및 세분화 스트리밍의 중심 허브로 사용하고 Journey Orchestration으로 여정 오케스트레이션 및 메시지 게재를 스트리밍하여 트리거 및 스트리밍 메시지를 실행합니다.</li></ul>
 
-<strong>Experience Cloud 애플리케이션</strong>
-<ul><li>Adobe Journey Optimizer</li></ul> 
-<br>
+### Experience Cloud 애플리케이션
+
+<ul><li>Adobe Journey Optimizer</li></ul>
 
 ### 블루프린트 아키텍처
 
