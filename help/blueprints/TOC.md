@@ -4,10 +4,10 @@ breadcrumb-title: '블루프린트 '
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 18c5ac6e01636d4d3b0ea0eb2edb92c949c870c5
+source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 94%
+source-wordcount: '142'
+ht-degree: 92%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 94%
 
 + [개요](/help/blueprints/overview.md)
 + [모든 사용 사례 보기](/help/blueprints/use-cases.md)
++ 모든 업계 성공 사례 보기{#industry-success-stories}
+   + [개요](/help/blueprints/industry-success-stories/overview.md)
+   + [의류](/help/blueprints/industry-success-stories/apparel.md)
+   + [소매](/help/blueprints/industry-success-stories/retail.md)
+   + [통신](/help/blueprints/industry-success-stories/telecommunications.md)
+   + [여행 및 숙박](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + 아키텍처 개요 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform과 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
@@ -26,10 +32,9 @@ ht-degree: 94%
    + [파일 및 엔터프라이즈 스트리밍 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud 애플리케이션을 사용한 활성화](/help/blueprints/audience-activation/platform-and-applications.md)
    + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
-+ B2B 분석 및 활성화{#b2b-activation}
++ B2B 활성화 및 마케팅 {#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
-   + [B2B 분석](/help/blueprints/b2b/b2banalysis.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
 + 고객 여정 {#customer-journeys}
