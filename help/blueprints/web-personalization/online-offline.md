@@ -5,9 +5,9 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+source-git-commit: 0de426911553ae3b7907d7d08b25a07a11b34c0f
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1078'
 ht-degree: 67%
 
 ---
@@ -71,6 +71,12 @@ ht-degree: 67%
 
 
 ## 아키텍처
+
+개요 아키텍처
+
+<img src="assets/RTCDP+Target.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+
+자세한 아키텍처
 
 <img src="assets/online_offline_personalization_with_apps.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
