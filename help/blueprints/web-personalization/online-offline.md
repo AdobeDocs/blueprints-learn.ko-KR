@@ -7,8 +7,8 @@ kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 070c78ee3cf32e70af90c6cbcdd77d5258a32fb7
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 63%
 * 랜딩 페이지 최적화
 * 행동 및 오프라인 프로필 타겟팅
 * 이전 제품/콘텐츠 조회, 제품/콘텐츠 관련성, 환경 요인, 서드파티 대상자 데이터 및 인적 특성과 더불어 거래, 충성도 및 CRM 데이터 등 오프라인 인사이트와 모델에서 도출한 인사이트를 기반으로 한 개인화
-* Adobe Target을 사용하여 웹 사이트 및 모바일 앱에서 Real-time Customer Data Platform에 정의된 대상을 공유 및 타깃팅합니다.
+* Real-time Customer Data Platform에서 정의한 대상자를 Adobe Target을 사용하여 웹사이트 및 모바일 앱에서 공유 및 타겟팅합니다.
 
 ## 애플리케이션
 
@@ -44,27 +44,27 @@ ht-degree: 63%
     <th class="tg-y6fn">#</th>
     <th class="tg-f7v4">통합 패턴</th>
     <th class="tg-y6fn">기능</th>
-    <th class="tg-f7v4">전제 조건</th>
+    <th class="tg-f7v4">필요 조건</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상 공유 서비스 접근 방식을 통해 Target 및 Audience Manager에 대한 RTCDP 스트리밍 및 배치 대상 공유</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Audience Sharing 서비스를 통해 RTCDP에서 Target 및 Audience Manager으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 실시간으로 평가된 대상에서는 통합 패턴 3에 요약된 WebSDK 및 실시간 대상 평가가 필요합니다.</span></td>
-    <td class="tg-73oq">- 대상 공유 서비스를 통한 대상 프로젝션을 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이 필요합니다.<br>- Target이 작업을 수행할 수 있도록 에지에 공유하려면 ID를 ECID로 확인해야 합니다. AAM에는 일치시킬 승인된 ID의 별도의 목록이 있습니다<br>- 이 통합에는 WebSDK 배포가 필요하지 않습니다.</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상자 공유 서비스 접근을 통해 RTCDP 스트리밍 및 일괄 처리 대상자를 Target과 Audience Manager로 공유하기</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> - 대상자 공유 서비스 접근을 통해 RTCDP의 스트리밍 및 일괄 처리 대상자를 Target과 Audience Manager로 공유합니다. 대상자를 실시간으로 평가하려면 통합 패턴 3에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
+    <td class="tg-73oq"> - 대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- Target이 작업을 제대로 수행할 수 있도록 공유하려면 신원을 ECID로 식별해야 합니다. AAM에는 승인 신원의 목록이 별도로 있어 매치할 수 있습니다.<br>- 이 통합에는 WebSDK 배포가 필요하지 않습니다.</td>
   </tr>
   <tr>
-    <td class="tg-0lax">2개</td>
-    <td class="tg-73oq">Edge 접근 방식을 통해 Target에 RTCDP 스트리밍 및 배치 대상 공유</td>
-    <td class="tg-0lax">- Edge 네트워크를 통해 RTCDP에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 실시간으로 평가된 대상에서는 통합 패턴 3에 요약된 WebSDK 및 실시간 대상 평가가 필요합니다.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상을 RTCDP 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이 필요합니다.<br>WebSDK는 필요하지 않습니다. WebSDk 및 AT.js가 지원됩니다. <br>- AT.js를 사용하는 경우 ECID에 대한 프로필 조회만 지원됩니다. <br>- Edge에서 사용자 지정 ID 네임스페이스 조회의 경우 WebSDK 배포가 필요하며 ID 맵에서 각 ID를 ID로 설정해야 합니다.</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-73oq">Edge 접근을 통해 RTCDP 스트리밍 및 일괄 처리 대상자를 Target으로 공유하기</td>
+    <td class="tg-0lax"> - Edge Network를 통해 RTCDP의 스트리밍 및 일괄 처리 대상자를 Target으로 공유합니다. 대상자를 실시간으로 평가하려면 통합 패턴 3에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상은 RTCDP 대상 내에 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>WebSDK는 필요하지 않습니다. WebSDK 및 AT.js를 지원합니다. <br>- AT.js를 사용하는 경우 ECID 기준 프로필 조회만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq">WebSDK를 사용하여 Edge 네트워크를 통해 Target에 공유되는 Edge에서 RTCDP 실시간 세그먼트 평가를 제공합니다.</td>
-    <td class="tg-0lax">- Edge에서 동일하거나 다음 페이지 개인화에 대해 실시간으로 대상 평가</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상을 RTCDP 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이 필요합니다.<br>- WebSDK를 구현해야 합니다.<br>- API를 통해 지원됩니다.</td>
+    <td class="tg-73oq">WebSDK를 사용하여 Edge 환경에서의 RTCDP 실시간 세그먼트 평가를 Edge Network를 통해 Target에 공유합니다.</td>
+    <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상은 RTCDP 대상 내에 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- WebSDK를 구현해야 합니다.<br>- API를 통해서도 지원합니다.</td>
   </tr>
 </tbody>
 </table>
@@ -132,7 +132,7 @@ ID 필요 조건
 1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) 또는 대상 공유 접근 방식 [Experience Platform과 Adobe Target(공유 대상) 간 대상 공유에 대한 프로비저닝 요청](https://www.adobe.com/go/audiences) Experience Platform에서 Target으로 대상을 공유하려면 다음을 수행하십시오.
    >[!NOTE]
    >
-   >RTCDP와 Adobe Target 간에 대상 공유 서비스를 사용하는 경우 Experience Cloud ID를 사용하여 대상을 공유하고 동일한 Experience Cloud 조직에 속해 있어야 합니다. ECID 이외의 ID를 지원하려면 WebSDK 및 Experience Edge 네트워크를 사용해야 합니다.
+   >RTCDP와 Adobe Target 간에 대상자 공유 서비스를 사용하는 경우 Experience Cloud ID를 사용하여 대상자를 공유해야 하며, 대상자가 동일한 Experience Cloud 조직에 속해 있어야 합니다. ECID 이외의 신원을 지원하려면 WebSDK와 Experience Edge Network를 사용해야 합니다.
 
 
 ## 관련 설명서
