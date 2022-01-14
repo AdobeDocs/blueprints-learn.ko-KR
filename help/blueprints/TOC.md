@@ -5,9 +5,9 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 92%
 
 + [개요](/help/blueprints/overview.md)
 + [모든 사용 사례 보기](/help/blueprints/use-cases.md)
-+ 모든 업계 성공 사례 보기{#industry-success-stories}
++ 모든 업계 성공 사례 보기 {#industry-success-stories}
    + [개요](/help/blueprints/industry-success-stories/overview.md)
    + [의류](/help/blueprints/industry-success-stories/apparel.md)
    + [소매](/help/blueprints/industry-success-stories/retail.md)
    + [통신](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [여행 및 숙박](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [여행 및 서비스](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + 아키텍처 개요 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform과 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
