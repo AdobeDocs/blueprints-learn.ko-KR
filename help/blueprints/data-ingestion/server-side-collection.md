@@ -4,10 +4,10 @@ description: Experience Platform SDK를 통해 대상으로 스트리밍 수집�
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
 
 * [이벤트 전달 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ko)
 * [이벤트 전달 비디오](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ko)
+* [이벤트 전달 단원](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html) 웹 SDK 자습서
 
 ## 관련 블로그 게시물
 
