@@ -2,8 +2,8 @@
 title: Digital Experience Blueprint 사용 사례
 description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: c80967fc9463996b4a3892dd5d0e76270d9247d1
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
 

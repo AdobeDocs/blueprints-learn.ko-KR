@@ -3,8 +3,7 @@ title: B2B 분석 및 활성화
 description: Real-time Customer Data Platform을 통해 계정을 기반으로 대상자 및 프로필 중심의 고객 경험을 제공합니다.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: 9d0766cba6562066e5d8d7dc5c8983ab6fb1824b
+source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 95%

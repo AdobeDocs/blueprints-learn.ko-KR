@@ -5,10 +5,10 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 98%
 
 ---
 
@@ -58,13 +58,13 @@ ht-degree: 100%
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Edge 접근을 통해 RTCDP 스트리밍 및 일괄 처리 대상자를 Target으로 공유하기</td>
     <td class="tg-0lax"> - Edge Network를 통해 RTCDP의 스트리밍 및 일괄 처리 대상자를 Target으로 공유합니다. 대상자를 실시간으로 평가하려면 통합 패턴 3에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상은 RTCDP 대상 내에 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>WebSDK는 필요하지 않습니다. WebSDK 및 AT.js를 지원합니다. <br>- AT.js를 사용하는 경우 ECID 기준 프로필 조회만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</td>
+    <td class="tg-73oq">- Target 대상을 RTCDP 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>WebSDK는 필요하지 않습니다. WebSDK 및 AT.js를 지원합니다. <br>- AT.js를 사용하는 경우 ECID 기준 프로필 조회만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq">WebSDK를 사용하여 Edge 환경에서의 RTCDP 실시간 세그먼트 평가를 Edge Network를 통해 Target에 공유합니다.</td>
     <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 현재 베타 버전</span><br>- Target 대상은 RTCDP 대상 내에 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- WebSDK를 구현해야 합니다.<br>- API를 통해서도 지원합니다.</td>
+    <td class="tg-73oq">- Target 대상을 RTCDP 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- WebSDK를 구현해야 합니다.<br>- API를 통해서도 지원합니다.</td>
   </tr>
 </tbody>
 </table>
@@ -79,6 +79,11 @@ ht-degree: 100%
 프로세스 플로우 아키텍처
 
 <img src="assets/RTCDP+Target_flow.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+
+<img src="assets/RTCDP+Target_sequence.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+
 
 아키텍처 상세
 

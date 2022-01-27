@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 

@@ -5,8 +5,8 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 5cade6cb611e40d528834448d5cf5cb4316b6e4f
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
