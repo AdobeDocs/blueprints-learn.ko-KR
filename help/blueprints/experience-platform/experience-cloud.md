@@ -6,15 +6,15 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: ad3e1a7a6a870785653394472db186c535dd814c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Cloud 아키텍처 다이어그램
 
-아래 아키텍처 다이어그램은 Adobe Experience Platform이 Adobe Experience Cloud 애플리케이션에 연결되고 통합되어 데이터, 컨텐츠 및 경험 전달에서 규모에 맞게 개인화를 구현하는 방법을 보여줍니다.
+Adobe Experience Platform이 Adobe Experience Cloud 애플리케이션에 연결 및 통합되어 데이터, 컨텐츠, 경험 전달에서 규모에 맞게 개인화를 구현하는 방법을 아래 아키텍처 다이어그램을 통해 확인해 보세요.
 
 <img src="assets/pers_at_scale.png" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>
