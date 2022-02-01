@@ -8,7 +8,7 @@ exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,4 +21,4 @@ ht-degree: 82%
 ## 참조 설명서
 
 * [Experience Platform 웹/모바일 SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
-* [웹 SDK를 사용하여 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
+* [웹 SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=ko)
