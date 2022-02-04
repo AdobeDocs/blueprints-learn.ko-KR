@@ -3,9 +3,9 @@ title: Journey Optimizer - 트리거 메시지와 Adobe Experience Platform 블�
 description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+source-git-commit: 2ead62f94e761cd9453be284a9fde3c5803879eb
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 42%
 
 ---
@@ -38,6 +38,13 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
 | [타사 메시징](3rd-party-messaging.md) | Adobe Journey Optimizer을 타사 메시징 시스템과 함께 사용하여 개인화된 커뮤니케이션을 오케스트레이션 및 전송하는 방법을 보여줍니다 | 고객이 브랜드 또는 회사와 상호 작용할 때 고객에게 개인화된 커뮤니케이션을 즉시 제공<br><br>고려 사항:<br><ul><li>타사 시스템은 인증을 위해 베어러 토큰을 지원해야 합니다</li><li>다중 임차인 아키텍처로 인해 정적 IP를 지원하지 않음</li><li>초당 API 호출과 관련하여 타사 시스템에 대한 아키텍처 제한 사항을 알고 있어야 합니다.  고객이 Journey Optimizer에서 제공하는 볼륨을 지원하기 위해 타사 공급업체로부터 추가 볼륨을 구입해야 할 필요가 있을 수 있습니다</li><li>메시지 또는 페이로드의 Offer decisioning을 지원하지 않습니다</li></ul> |
+
+<br>
+
+## 통합 패턴
+
+| 통합 | 설명 | 기능 |
+| :-- | :--- | :--- |
 | [Journey Optimizer과 Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer을 사용하여 실시간 고객 프로필을 활용하여 1:1 경험을 조정하고 기본 Adobe Campaign 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여줍니다 | Journey Optimizer의 실시간 고객 프로필 및 기능을 활용하여 현재 경험을 조정하고 Adobe Campaign의 기본 실시간 메시징 기능을 활용하여 마지막 마일 커뮤니케이션을 수행합니다<br><br>고려 사항:<br><ul><li>Campaign 애플리케이션은 v7 빌드 21.1 또는 v8에 있어야 합니다.</li><li>메시징 처리량</li><ul><li>Campaign v7 - 시간당 최대 5만 개</li><li>Campaign v8 - 시간당 최대 1M</li><li>Campaign Standard - 시간당 최대 50k</li></ul><li>조절이 수행되지 않으므로 사용 사례에서 Enterprise Architect의 기술 검증이 필요합니다</li><li>Campaign에서 보낸 메시지에 Offer decisioning을 활용하는 데 대한 지원이 없습니다</li></ul> |
 
 <br>

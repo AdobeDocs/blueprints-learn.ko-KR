@@ -4,10 +4,10 @@ breadcrumb-title: '블루프린트 '
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 90%
+source-wordcount: '161'
+ht-degree: 91%
 
 ---
 
@@ -39,13 +39,15 @@ ht-degree: 90%
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
 + 고객 여정 {#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
-   + [Campaign 관리 Cloud Services](/help/blueprints/customer-journeys/campaign.md)
-   + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-   + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-   + [Real-Time CDP을 사용한 캠페인](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-   + [Journey Optimizer을 사용한 캠페인](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-   + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-   + [타사 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Journey Optimizer{#journey-optimizer}
+      + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+      + [Journey Optimizer과 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [타사 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Campaign v8{#campaign-v8}
+      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + Campaign v7{#campaign-v7}
+      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+      + [Real-Time CDP과 Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + 데이터 수집 및 준비 {#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
