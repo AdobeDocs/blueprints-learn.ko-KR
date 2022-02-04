@@ -3,7 +3,8 @@ title: Journey Optimizer - 타사 메시징 블루프린트
 description: Adobe Journey Optimizer을 타사 메시징 시스템과 함께 사용하여 개인화된 커뮤니케이션을 오케스트레이션 및 전송하는 방법을 보여줍니다.
 solution: Experience Platform, Journey Optimizer
 hidefromtoc: true
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+exl-id: 57e4d90a-61c9-444d-9bc5-40c7e58b4d21
+source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 35%

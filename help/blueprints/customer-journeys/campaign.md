@@ -4,7 +4,8 @@ description: 기존 캠페인 애플리케이션
 solution: Campaign v8, Campaign Classic v7, Campaign Standard
 kt: null
 thumbnail: null
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+exl-id: b797b7f6-71f6-486e-a9aa-713bb761704c
+source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 3%

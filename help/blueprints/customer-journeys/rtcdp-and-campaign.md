@@ -3,7 +3,8 @@ title: Real-Time CDP 블루프린트를 사용한 캠페인
 description: Adobe Campaign에서 Adobe Experience Platform 및 그 실시간 고객 프로필 및 중앙 집중식 세그멘테이션 도구를 사용하여 개인화된 대화를 제공하는 방법을 소개합니다.
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 hidefromtoc: true
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+exl-id: 5bff46c5-00e9-4e0d-a222-d15767159a97
+source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 58%

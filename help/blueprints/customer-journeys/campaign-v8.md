@@ -3,7 +3,8 @@ title: Campaign v8 블루프린트
 description: Adobe Campaign v8은 이메일 및 DM과 같은 기존 마케팅 채널을 위해 만들어진 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 조정하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정에 핵심 포커스를 둔 풍부한 멀티 터치 마케팅 프로그램을 제공합니다.  또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 IT 시스템의 모든 포함 페이로드를 기반으로 사전 정의된 메시지를 전송할 수 있도록 해주는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
 solution: Campaign v8
 hidefromtoc: true
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+exl-id: f754d099-6842-4759-8e27-6a06d5d8c2e9
+source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 3%
