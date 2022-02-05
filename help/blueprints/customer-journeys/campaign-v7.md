@@ -2,9 +2,10 @@
 title: Campaign v7 블루프린트
 description: Adobe Campaign v7는 이메일 및 DM과 같은 기존 마케팅 채널을 위한 캠페인 도구입니다. 완벽한 캠페인을 제작 및 조정하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정에 핵심 포커스를 둔 풍부한 멀티 터치 마케팅 프로그램을 제공합니다.  또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 IT 시스템의 모든 포함 페이로드를 기반으로 사전 정의된 메시지를 전송할 수 있도록 해주는 실시간 메시징 서버와 나란히 제공됩니다.
 solution: Campaign Classic v7
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -35,7 +36,7 @@ Adobe Campaign v7는 이메일 및 DM과 같은 기존 마케팅 채널을 위�
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
 | [Journey Optimizer과 Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer을 사용하여 실시간 고객 프로필을 활용하여 1:1 경험을 조정하고 기본 Adobe Campaign 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여줍니다 | Journey Optimizer의 실시간 고객 프로필 및 기능을 활용하여 현재 경험을 조정하고 Adobe Campaign의 기본 실시간 메시징 기능을 활용하여 마지막 마일 커뮤니케이션을 수행합니다<br><br>고려 사항:<br><ul><li>실시간 메시지 서버를 통해 시간당 최대 5만 개의 메시지를 전송할 수 있습니다<li>Pre-Sales Enterprise Architect에서 기술 검토를 위해 Journey Optimizer에서 제한이 수행되지 않습니다.</li><li>offer decisioning은 Campaign v7 실시간 메시징 서버에 대한 페이로드에서 지원되지 않습니다</li></ul> |
-| [Real-Time CDP과 Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform의 Real-Time CDP 및 중앙 집중식 세그멘테이션 도구를 Adobe Campaign과 사용하여 개인화된 대화를 제공하는 방법을 소개합니다 | <ul><li>Adobe Campaign의 대상 공유는 기본적으로 생성된 대상을 통해 Experience Platform v8과 공유합니다</li><li>고객 대화의 게재 및 상호 작용 데이터를 Experience Platform으로 다시 수집하여 실시간 고객 프로필을 향상시키고 메시징 캠페인에 대한 크로스 채널 보고를 제공할 수 있는 기본 지원</li></ul> |
+| [Real-Time CDP과 Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform의 Real-Time CDP 및 중앙 집중식 세그멘테이션 도구를 Adobe Campaign과 사용하여 개인화된 대화를 제공하는 방법을 소개합니다 | <ul><li>클라우드 스토리지 파일 교환 및 Adobe Campaign 수집 워크플로우를 사용하여 Real-Time CDP에서 Adobe Campaign으로 대상 공유 </li><li>고객 대화의 전달 및 상호 작용 데이터를 Adobe Campaign에서 실시간 CDP로 쉽게 공유하여 실시간 고객 프로필을 향상시키고 메시징 캠페인에 대한 크로스 채널 보고를 제공합니다</li></ul> |
 
 <br>
 
@@ -88,9 +89,7 @@ Adobe Campaign v7는 이메일 및 DM과 같은 기존 마케팅 채널을 위�
 ### 실시간 메시징 서버 크기 조정
 
 * 시간당 최대 5만 개의 메시지를 전송할 수 있습니다
-* 기본적으로 하나의 (1) 실시간 메시징 서버만 제공됩니다. 이는 서버와의 통신이 24시간 후에 만료되는 세션 토큰을 통해 수행되도록 하기 위한 것입니다
-* 선택적으로 최대 8개의 실시간 메시징 서버를 배포할 수 있지만 인증은 사용자/전달만 지원합니다
-* 가능하면 세션 토큰 기반 인증을 활용하기 위해 항상 하나의 실시간 메시징 서버를 사용하는 것이 좋습니다
+* 기본적으로 두 개의 실시간 메시징 서버가 제공됩니다. 최대 8개의 실시간 메시징 서버를 확장할 수 있습니다.
 
 ### SMS 구성
 
