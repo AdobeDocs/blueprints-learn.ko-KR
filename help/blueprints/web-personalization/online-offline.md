@@ -5,9 +5,9 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: d639a2c76290588f92e443f645e95864caac442a
+source-git-commit: 91db73c9fb14d461ee62444199c3d053bd094639
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1146'
 ht-degree: 68%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 68%
 
 ## 아키텍처
 
-아키텍처 개요
+아키텍처 상세
 
 <img src="assets/RTCDP+Target.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
-프로세스 플로우 아키텍처
+시퀀스 다이어그램
 
 <img src="assets/RTCDP+Target_flow.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
@@ -85,7 +85,7 @@ ht-degree: 68%
 <img src="assets/RTCDP+Target_sequence.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 
-아키텍처 상세
+아키텍처 개요
 
 <img src="assets/personalization_with_apps.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a"/>
 
@@ -115,7 +115,7 @@ ID 필요 조건
 1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)(선택 사항)
 1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)(선택 사항)
 1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile] 구현](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
-1. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko) 또는 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 구현 Experience Platform Web SDK는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다. Mobile SDK 및 API를 통한 실시간 세그멘테이션 지원은 현재 사용할 수 없습니다.
+1. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko) 또는 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 구현. Experience Platform Web SDK는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다. Mobile SDK 및 API를 통한 실시간 세그멘테이션 지원은 현재 사용할 수 없습니다.
 1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko) 또는 대상 공유 접근 방식으로는 [Experience Platform과 Adobe Target 간 대상 공유에 대한 프로비저닝 요청(공유 대상)](https://www.adobe.com/go/audiences)을 통해 Experience Platform에서 Target으로 대상을 공유할 수 있습니다.
 
 ## 관련 설명서
