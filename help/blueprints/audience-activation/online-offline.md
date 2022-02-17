@@ -4,10 +4,10 @@ description: 온라인/오프라인 대상자 활성화.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
+source-git-commit: 53ef83cbaa9dde0793e379c0044f449cfca078ab
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 대상자를 이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상으로 활성화합니다.
 
-온라인/오프라인 데이터 활성화 블루프린트는[Experience Cloud 애플리케이션 블루프린트를 사용한 대상자 및 프로필 활성화](platform-and-applications.md)와 아주 유사합니다. [Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화 블루프린트](platform-and-applications.md)에서 Experience Platform와 Experience Cloud 애플리케이션 간 통합에 대하여 더 자세하게 설명합니다.
+[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화 블루프린트](platform-and-applications.md)에서 Experience Platform와 Experience Cloud 애플리케이션 간 통합에 대하여 더 자세하게 설명합니다.
 
 ## 사용 사례
 
