@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a61fa9d1c6a77e9eb32ff363f724de92fbac8585
+source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 83%
+source-wordcount: '177'
+ht-degree: 80%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 83%
    + [온라인 및 오프라인 데이터로 활성화](/help/blueprints/audience-activation/online-offline.md)
    + 소셜 및 광고 채널에 대한 활성화{#audience-activation}
       + [facebook 사용자 지정 대상에 활성화](/help/blueprints/audience-activation/destinations/facebook.md)
+      + [Google Customer Match 활성화](/help/blueprints/audience-activation/destinations/gcm.md)
    + [파일 및 엔터프라이즈 스트리밍 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud 애플리케이션을 사용한 활성화](/help/blueprints/audience-activation/platform-and-applications.md)
    + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
