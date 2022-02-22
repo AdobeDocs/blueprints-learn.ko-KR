@@ -6,8 +6,8 @@ kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 53ef83cbaa9dde0793e379c0044f449cfca078ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '743'
+ht-degree: 79%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 애플리케이션
 
-* Adobe Experience Platform     
+* Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
 
 ## 아키텍처
