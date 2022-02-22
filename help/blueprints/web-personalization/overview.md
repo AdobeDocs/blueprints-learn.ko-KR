@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
