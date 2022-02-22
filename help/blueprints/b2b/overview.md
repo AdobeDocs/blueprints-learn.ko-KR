@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 source-git-commit: fcfd45ce954e9a273561ab6fd824aa16fd0fe1e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
