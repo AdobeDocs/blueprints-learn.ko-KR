@@ -3,13 +3,13 @@ title: facebook 사용자 지정 대상에 활성화
 description: facebook 사용자 지정 대상에 대한 활성화.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
-
 
 # facebook 사용자 지정 대상에 활성화
 
@@ -19,7 +19,9 @@ ht-degree: 3%
 
 * 소셜 및 광고 대상의 알려진 대상자 타겟팅
 * 온라인 및 오프라인 특성을 활용한 온라인 개인화
-애플리케이션
+
+## 애플리케이션
+
 * Real-time Customer Data Platform   
 
 ## 아키텍처
@@ -32,7 +34,7 @@ ht-degree: 3%
    * 이메일, SHA256 해시(사용 가능한 경우)와 같은 기본 네임스페이스 를 사용하십시오.
    * Facebook에는 지원되는 ID 목록이 있습니다. facebook 사용자 지정 대상으로 활성화하려면 활성화된 ID 중 하나가 프로필에 있어야 합니다.
    * 현재 Facebook에서는 다음 ID를 지원합니다. GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-   * 자세한 내용은 [Facebook 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * 자세한 내용은 [Facebook 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * 적용 가능한 ID에 기본 네임스페이스를 사용할 수 없는 사용자 지정 네임스페이스를 만듭니다.
 1. 프로필 데이터 소스 스키마 및 데이터 세트를 구성합니다.
    * 모든 프로필 레코드 원본 데이터에 대해 프로필 레코드 스키마를 만듭니다.
@@ -67,7 +69,7 @@ ht-degree: 3%
    * 주어진 세그먼트에 대한 세그먼트 결과 수를 검토합니다.
    * 세그먼트에 포함해야 하는 프로필을 조사하여 세그먼트 멤버십이 프로필의 세그먼트 멤버십 부분에 포함되어 있는지 확인합니다.
 1. 대상 구성에서 대상에 대한 대상의 전달을 구성합니다.
-   * 자세한 내용은 [Facebook 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) facebook 대상 구성에 대한 자세한 내용은
+   * 자세한 내용은 [Facebook 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) facebook 대상 구성에 대한 자세한 내용은
    * 대상을 구성할 때 대상에 활성화할 대상을 선택합니다.
    * 대상 데이터 플로우에서 대상을 대상으로 배달할 예약된 시작 날짜를 결정합니다.
    * 각 대상에는 전송될 필수 및 선택적 속성이 있습니다.
@@ -88,4 +90,4 @@ ht-degree: 3%
 
 ## 관련 설명서
 
-facebook 사용자 지정 대상에 활성화 - [대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+facebook 사용자 지정 대상에 활성화 - [대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
