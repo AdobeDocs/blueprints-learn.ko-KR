@@ -7,7 +7,7 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 <!-- These steps should link to help. -->
 
-1. [Audience Manager를 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko#implementation-integration-guides)합니다.
+1. [Audience Manager를 구현합니다.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko#implementation-integration-guides)
 1. Audience Manager로 데이터를 수집합니다.
 1. 세그먼트 정의에서 사용할 신호 및 특질을 구성합니다.
 1. Audience Manager에서 세그먼트를 만듭니다.
