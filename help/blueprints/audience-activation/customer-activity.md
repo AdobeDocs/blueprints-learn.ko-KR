@@ -1,11 +1,11 @@
 ---
 title: 고객 활동 허브 블루프린트
-description: 직원이 관여하는 지원 및 영업의 맥락을 제공하는 [!UICONTROL Real-time Customer Profile] 확인 블루프린트입니다.
+description: '"[!UICONTROL 직원이 관여하는 지원 및 영업의 맥락을 제공하는 Real-time Customer Profile 확인 블루프린트입니다."]'
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
+source-git-commit: 062701f2ee8d7b2a97db2ee8e75a4d0f42b59b53
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -49,5 +49,5 @@ ht-degree: 100%
 
 * [Adobe Experience Platform Activation 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform0.html)
 * [[!UICONTROL Real-time Customer Profile] 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
-* [프로필 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+* [프로필 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [프로필 확인 API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
