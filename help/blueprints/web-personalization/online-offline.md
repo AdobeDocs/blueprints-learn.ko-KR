@@ -5,10 +5,10 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 91db73c9fb14d461ee62444199c3d053bd094639
+source-git-commit: 106f0f8c68cd77cc187f03d406b24baf1032feba
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 70%
+source-wordcount: '1172'
+ht-degree: 68%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 70%
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상 공유 서비스 접근 방식을 통해 Target 및 Audience Manager에 대한 Real-time Customer Data Platform 스트리밍 및 배치 대상 공유</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상 공유 서비스를 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 스트리밍 및 일괄 처리 대상을 공유할 수 있습니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상 공유 서비스를 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 스트리밍 및 일괄 처리 대상을 공유할 수 있습니다. 이 통합 패턴은 Audience Manager의 타사 데이터 및 대상에서 추가 보강이 필요한 경우 활용할 수 있습니다. 그렇지 않으면 통합 패턴 1과 2가 선호됩니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
     <td class="tg-73oq"> - 대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- Target이 작업을 제대로 수행할 수 있도록 공유하려면 신원을 ECID로 식별해야 합니다.<br>- 이 통합에서는 WebSDK 배포가 필요하지 않습니다.</td>
   </tr>
 </tbody>
