@@ -5,10 +5,10 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 106f0f8c68cd77cc187f03d406b24baf1032feba
+source-git-commit: 8d01529c611b2dabeeb6b11a227e7c3a9f132774
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 68%
+source-wordcount: '1452'
+ht-degree: 50%
 
 ---
 
@@ -50,19 +50,19 @@ ht-degree: 68%
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-<td class="tg-73oq">Target에 공유된 Edge의 Real-time Customer Data Platform 실시간 세그먼트 평가</td>
-    <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.</td>
-    <td class="tg-73oq">- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- WebSDK를 구현해야 합니다.<br>- 모바일 SDK 및 API 기반 구현을 현재 사용할 수 없습니다</td> 
+<td class="tg-73oq">Real-time Customer Data Platform에서 Target으로 공유된 에지에 대한 실시간 세그먼트 평가</td>
+    <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.<br>- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다.</td>
+    <td class="tg-73oq">- Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 데이터 스트림을 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- WebSDK를 구현해야 합니다.<br>- 모바일 SDK 및 API 기반 구현을 현재 사용할 수 없습니다</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-73oq">Edge 접근 방식을 통해 Target에 Real-time Customer Data Platform 스트리밍 및 배치 대상 공유</td>
+    <td class="tg-73oq">Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상 공유</td>
     <td class="tg-0lax">- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</td>
-    <td class="tg-73oq">- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>WebSDK는 필요하지 않습니다. <br>- AT.js를 사용하는 경우 ECID 기준 프로필 조회만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하려면 WebSDK 배포가 필요하며 ID 맵에서 각 ID를 ID로 설정해야 합니다.</td>
+    <td class="tg-73oq">- 데이터 스트림은 Experience Edge에 구성해야 합니다. 데이터 스트림 ID는 Target 대상 구성에 제공되지만, AT.js 구현 접근 방식을 사용하는 경우 현재 스트리밍 및 배치 대상을 개인화하거나 공유하기 위해 이 데이터 스트림을 구현할 필요는 없지만 Edge Network에 구성해야 합니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- 통합 패턴 1에 설명된 대로 실시간 에지 세그먼트 평가를 활성화하려면 WebSDK가 Target에 스트리밍 및 배치 대상을 공유하는 데 필요하지 않습니다. <br>- AT.js를 사용하는 경우 ECID 네임스페이스에 대한 프로필 통합만 지원됩니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하려면 WebSDK 배포가 필요하며 ID 맵에서 각 ID를 ID로 설정해야 합니다.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상 공유 서비스 접근 방식을 통해 Target 및 Audience Manager에 대한 Real-time Customer Data Platform 스트리밍 및 배치 대상 공유</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상 공유 서비스 접근 방식을 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager에 대한 스트리밍 및 배치 대상 공유</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상 공유 서비스를 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 스트리밍 및 일괄 처리 대상을 공유할 수 있습니다. 이 통합 패턴은 Audience Manager의 타사 데이터 및 대상에서 추가 보강이 필요한 경우 활용할 수 있습니다. 그렇지 않으면 통합 패턴 1과 2가 선호됩니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
     <td class="tg-73oq"> - 대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- Target이 작업을 제대로 수행할 수 있도록 공유하려면 신원을 ECID로 식별해야 합니다.<br>- 이 통합에서는 WebSDK 배포가 필요하지 않습니다.</td>
   </tr>
@@ -70,13 +70,14 @@ ht-degree: 68%
 </table>
 
 
-## 아키텍처
+## 통합 패턴 1을 위한 아키텍처
 
-아키텍처 상세
+
+통합 패턴 1을 위한 상세 아키텍처
 
 <img src="assets/RTCDP+Target.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
-시퀀스 다이어그램
+통합 패턴 1용 시퀀스 다이어그램
 
 <img src="assets/RTCDP+Target_flow.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
@@ -84,22 +85,42 @@ ht-degree: 68%
 
 <img src="assets/RTCDP+Target_sequence.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
-
-아키텍처 개요
+통합 패턴 1을 위한 개요 아키텍처
 
 <img src="assets/personalization_with_apps.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a"/>
+
+
+## 통합 패턴 1에 대한 구현
+
+에지에서 실시간 세그먼테이션을 위해 [!UICONTROL Platform 웹 SDK] 및 [!UICONTROL 에지 네트워크] 를 구현해야 합니다. [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오.](../data-ingestion/websdk.md)
+
+### 통합 패턴 1을 위한 구현 단계
+
+1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
+1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile] 구현](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
+1. 구현 [웹 SDK Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko). Experience Platform Web SDK는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다. Mobile SDK 및 API를 통한 실시간 세그멘테이션 지원은 현재 사용할 수 없습니다.
+1. [에지 데이터 스트림으로 에지 네트워크 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
+1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
+
+## 통합 패턴 2 및 3에 대한 구현
+
+기존 애플리케이션별 SDK 사용(예: AT.js 및 AppMeasurement.js)
+<img src="assets/app_sdk_flow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+
+### 통합 패턴 2 및 3을 위한 구현 단계
+
+1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html)
+1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)(선택 사항)
+1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)(선택 사항)
+1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile] 구현](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
+1. 구현 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko)
+1. [Experience Platform과 Adobe Target(공유 대상) 간 대상 공유에 대한 프로비저닝 요청](https://www.adobe.com/go/audiences) Experience Platform에서 Target으로 대상을 공유하려면 다음을 수행하십시오.
+1. (선택 사항) [에지 데이터 스트림으로 에지 네트워크 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) (Audience Manager 대상 또는 데이터에 의해 대상을 Audience Manager에 공유하거나 보강할 필요가 없는 통합 패턴 2에만 필요합니다.)
+1. (선택 사항) [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) 대상 공유 서비스 및 Audience Manager을 통해 Real-time Customer Data Platform에서 Edge에 바로 스트리밍 및 배치 대상을 공유할 수 있습니다.
 
 ## 가드레일
 
 [웹 및 모바일 개인화 블루프린트 개요 페이지의 가드레일을 참조하세요.](overview.md)
-
-## 구현 패턴
-
-웹/모바일 개인화 블루프린트는 다음과 같은 방법을 통해 구현할 수 있습니다(아래에서 설명).
-
-1. [!UICONTROL Platform 웹 SDK] 또는 [!UICONTROL Platform 모바일 SDK]와 [!UICONTROL Edge Network] 사용 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오.](../data-ingestion/websdk.md)
-1. 기존 애플리케이션별 SDK 사용(예: AppMeasurement.js)
-<img src="assets/app_sdk_flow.png" alt="특정 애플리케이션용 SDK를 사용할 때의 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 구현 시 고려 사항
 
@@ -108,15 +129,6 @@ ID 필요 조건
 * 모든 기본 ID는 Edge 네트워크 및 WebSDK와 함께 위에 요약된 통합 패턴 1을 활용할 때 활용할 수 있습니다. 첫 번째 로그인 개인화를 사용하려면 개인화 요청 세트 기본 ID가 Real-time Customer Data Platform에서 프로필의 기본 ID와 일치해야 합니다. 익명 장치와 알려진 고객 간의 ID 결합은 허브에서 처리되고 그 후에 에지로 투영됩니다. 따라서 기본 ID가 장치 식별자로 설정된 경우 익명 및 알려진 프로필이 통합되는 후속 세션이 있을 때까지 알려진 고객 데이터가 적용되지 않습니다.
 * Adobe Experience Platform에서 Adobe Target으로 대상을 공유하려면 위의 통합 패턴 3에 설명된 대로 대상 공유 서비스를 사용할 때 ECID를 ID로 사용해야 합니다.
 * Audience Manager을 통해 대체 ID를 사용하여 Experience Platform 대상을 Adobe Target에 공유할 수도 있습니다. Experience Platform에서 Audience Manager를 활성화 가능한 지원되는 네임스페이스는 다음과 같습니다: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Audience Manager와 Target은 ECID를 통해 대상자의 멤버십을 처리하므로, Adobe Target에 대상자를 최종 공유할 때까지 계속 ECID가 필요합니다.
-
-## 구현 단계
-
-1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
-1. [Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)(선택 사항)
-1. [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ko)(선택 사항)
-1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile] 구현](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
-1. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko) 또는 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 구현 . Experience Platform Web SDK는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다. Mobile SDK 및 API를 통한 실시간 세그멘테이션 지원은 현재 사용할 수 없습니다.
-1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko) 또는 대상 공유 접근 방식으로는 [Experience Platform과 Adobe Target 간 대상 공유에 대한 프로비저닝 요청(공유 대상)](https://www.adobe.com/go/audiences)을 통해 Experience Platform에서 Target으로 대상을 공유할 수 있습니다.
 
 ## 관련 설명서
 
@@ -127,8 +139,9 @@ ID 필요 조건
 * [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
 * [Experience Platform 세분화 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)
+* [실시간 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html)
 * [세분화 스트리밍](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
-* [Experience Platform 세분화 작성기 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)
+* [Experience Platform 세분화 작성기 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
 * [Audience Manager 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
 * [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
