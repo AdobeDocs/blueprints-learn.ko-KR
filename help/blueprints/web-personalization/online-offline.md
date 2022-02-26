@@ -5,9 +5,9 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8d01529c611b2dabeeb6b11a227e7c3a9f132774
+source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 50%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 50%
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Real-time Customer Data Platform에서 Target으로 공유된 에지에 대한 실시간 세그먼트 평가</td>
-    <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.<br>- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다.</td>
+    <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.<br>- 또한 스트리밍이나 배치에서 평가되는 모든 세그먼트는 에지 네트워크에 투영되어 에지 세그먼트 평가 및 개인화에 포함됩니다.</td>
     <td class="tg-73oq">- Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 데이터 스트림을 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- WebSDK를 구현해야 합니다.<br>- 모바일 SDK 및 API 기반 구현을 현재 사용할 수 없습니다</td> 
   </tr>
   <tr>
