@@ -5,9 +5,9 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
+source-git-commit: 4d02197b437c167a90cbadf16b0b19fc733a9f65
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 50%
 
 ---
@@ -51,19 +51,19 @@ ht-degree: 50%
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Real-time Customer Data Platform에서 Target으로 공유된 에지에 대한 실시간 세그먼트 평가</td>
-    <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.<br>- 또한 스트리밍이나 배치에서 평가되는 모든 세그먼트는 에지 네트워크에 투영되어 에지 세그먼트 평가 및 개인화에 포함됩니다.</td>
+    <td class="tg-0lax"> - 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.<br>- 또한 스트리밍 또는 일괄 방식으로 평가된 모든 세그먼트는 에지 네트워크에 투영되어 에지 세그먼트 평가 및 개인화에 포함됩니다.</td>
     <td class="tg-73oq">- Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 데이터 스트림을 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- WebSDK를 구현해야 합니다.<br>- 모바일 SDK 및 API 기반 구현을 현재 사용할 수 없습니다</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상 공유</td>
-    <td class="tg-0lax">- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</td>
-    <td class="tg-73oq">- 데이터 스트림은 Experience Edge에 구성해야 합니다. 데이터 스트림 ID는 Target 대상 구성에 제공되지만, AT.js 구현 접근 방식을 사용하는 경우 현재 스트리밍 및 배치 대상을 개인화하거나 공유하기 위해 이 데이터 스트림을 구현할 필요는 없지만 Edge Network에 구성해야 합니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- 통합 패턴 1에 설명된 대로 실시간 에지 세그먼트 평가를 활성화하려면 WebSDK가 Target에 스트리밍 및 배치 대상을 공유하는 데 필요하지 않습니다. <br>- AT.js를 사용하는 경우 ECID 네임스페이스에 대한 프로필 통합만 지원됩니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하려면 WebSDK 배포가 필요하며 ID 맵에서 각 ID를 ID로 설정해야 합니다.</td>
+    <td class="tg-0lax">- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.<br>- 이 통합은 일반적으로 통합 1단계에서 설명한 대로 스트리밍 및 배치 대상을 실시간 구동하는 Edge Collection 및 WebSDK로 마이그레이션하는 대신 기존 SDK를 사용하여 스트리밍 및 배치 대상을 공유하는 데 사용됩니다.</td>
+    <td class="tg-73oq">- 데이터 스트림은 Experience Edge에 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- 통합 패턴 1에 설명된 대로 실시간 에지 세그먼트 평가를 활성화하려면 WebSDK가 Target에 스트리밍 및 배치 대상을 공유하는 데 필요하지 않습니다. <br>- AT.js를 사용하는 경우 ECID 네임스페이스에 대한 프로필 통합만 지원됩니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하려면 WebSDK 배포가 필요하며 ID 맵에서 각 ID를 ID로 설정해야 합니다.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상 공유 서비스 접근 방식을 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager에 대한 스트리밍 및 배치 대상 공유</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상 공유 서비스를 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 스트리밍 및 일괄 처리 대상을 공유할 수 있습니다. 이 통합 패턴은 Audience Manager의 타사 데이터 및 대상에서 추가 보강이 필요한 경우 활용할 수 있습니다. 그렇지 않으면 통합 패턴 1과 2가 선호됩니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상 공유 서비스를 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 스트리밍 및 일괄 처리 대상을 공유할 수 있습니다.<br> -이 통합 패턴은 Audience Manager의 타사 데이터 및 대상의 추가 보강이 필요한 경우 활용할 수 있습니다. 그렇지 않으면 통합 패턴 1과 2가 선호됩니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
     <td class="tg-73oq"> - 대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- Target이 작업을 제대로 수행할 수 있도록 공유하려면 신원을 ECID로 식별해야 합니다.<br>- 이 통합에서는 WebSDK 배포가 필요하지 않습니다.</td>
   </tr>
 </tbody>
