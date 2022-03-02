@@ -4,10 +4,10 @@ description: Experience Platform의 프로필 및 대상자를 관리하고 Expe
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 0f0cd7487c67066b3d1d7ec162fadc634b50627b
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다. Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.
 
-Experience Cloud 애플리케이션에서의 활성화는 [온라인/오프라인 대상자 활성화 블루프린트](online-offline.md)의 내용과 아주 유사합니다.
+Experience Cloud 응용 프로그램을 통한 활성화는 [알려진 고객 활성화 블루프린트](known.md).
 
 ## 사용 사례
 
@@ -24,7 +24,7 @@ Experience Cloud 애플리케이션에서의 활성화는 [온라인/오프라�
 
 ## 애플리케이션
 
-* Adobe Experience Platform     
+* Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 애플리케이션

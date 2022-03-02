@@ -2,10 +2,10 @@
 title: Digital Experience Blueprint 사용 사례
 description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: 3afcc2c293242a3b68ee4e4603ab686f6b309232
+source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 98%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
  <tr>
   <td>소셜 및 광고 대상의 알려진 대상자 타겟팅</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">알려진 고객 활성화</a></td>
  </tr>
  <tr>
   <td>온라인 및 오프라인 특성을 활용한 온라인 개인화</td>
@@ -43,12 +43,12 @@ ht-degree: 98%
  <tr>
   <td>클라우드 스토리지 대상에 대한 프로필 및 대상자 활성화 또는 대상 스트리밍을 통한 엔터프라이즈 추적, 저장, 분석 및 고객 데이터와 인사이트 활성화.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=ko">엔터프라이즈 대상 활성화</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">엔터프라이즈 대상 활성화</a></td>
  </tr>
  <tr>
   <td>Experience Cloud를 기반으로 하는 고객 상호 작용 채널 전체에 걸친 개인화 및 타겟팅을 수행합니다.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Cloud 애플리케이션을 사용한 활성화</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Cloud 애플리케이션을 사용한 활성화</a></td>
  </tr>
  <tr>
   <td>Experience Platform과 Experience Cloud 애플리케이션 간에 대상자 및 프로필 데이터를 공유합니다.</td>
@@ -56,7 +56,7 @@ ht-degree: 98%
  <tr>
   <td>지원 및 영업 경험 등 직원이 관여하는 상호 작용에 대해 보다 자세한 고객의 맥락을 제공합니다. Experience Platform에서 프로필 확인 기능을 사용하면 담당자가 소비자에 대해 실시간 고객 프로필에 저장된 최근 구매, 캠페인 상호 작용, 성향, 대상자 멤버십 및 기타 속성과 인사이트 등 더 많은 맥락을 확인할 수 있습니다.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=ko">고객 활동 허브 </a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">고객 활동 허브 </a></td>
  </tr>
  <tr>
   <td>데스크탑과 모바일에 걸친 고객 상호 작용을 분석하여 고객 행동을 이해하고 디지털 고객 경험을 최적화하기 위한 인사이트를 얻습니다.</td>
