@@ -5,23 +5,21 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 45ea828a969ea87187c8c4891dd2322d9e9ab478
+source-git-commit: 0dda473e727ee367f6fa9ad78c9201d18bc064b9
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 45%
+source-wordcount: '1531'
+ht-degree: 40%
 
 ---
 
 
 # 온라인 및 오프라인 데이터를 사용한 웹/모바일 개인화
 
-웹 개인화를 이메일 및 기타 알려지거나 알려지지 않은 채널 개인화와 동기화합니다.
-
 ## 사용 사례
 
+* 온라인 및 오프라인 데이터 및 알려진 프로필을 사용한 온라인 개인화
 * 랜딩 페이지 최적화
-* 행동 및 오프라인 프로필 타겟팅
-* 이전 제품/콘텐츠 조회, 제품/콘텐츠 관련성, 환경 요인, 서드파티 대상자 데이터 및 인적 특성과 더불어 거래, 충성도 및 CRM 데이터 등 오프라인 인사이트와 모델에서 도출한 인사이트를 기반으로 한 개인화
+* 트랜잭션, 충성도 및 CRM 데이터와 같은 오프라인 데이터 및 모델링된 통찰력 외에 이전 제품/컨텐츠 보기, 제품/컨텐츠 선호도, 환경 속성 및 인구 통계를 기반으로 개인화
 * Real-time Customer Data Platform에서 정의한 대상자를 Adobe Target을 사용하여 웹사이트 및 모바일 앱에서 공유 및 타겟팅합니다.
 
 ## 애플리케이션
@@ -87,7 +85,7 @@ ht-degree: 45%
 ### 사용 사례 시나리오 1에 대한 구현 단계는 사용 사례 시나리오 2도 지원합니다.
 
 1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
-1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile] 구현](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko)
+1. [Experience Platform 및 구현 [!UICONTROL 실시간 고객 프로필]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko) 대상자를 구성하여 Edge에 활성화 [병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy) 를 Edge에서 활성화하여 공유할 수 있습니다.
 1. 구현 [웹 SDK Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko). Experience Platform Web SDK는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다. Mobile SDK 및 API를 통한 실시간 세그멘테이션 지원은 현재 사용할 수 없습니다.
 1. [에지 데이터 스트림으로 에지 네트워크 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
@@ -167,6 +165,7 @@ ID 필요 조건
 * [실시간 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html)
 * [세분화 스트리밍](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
 * [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
+* [병합 정책 구성](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
 
 ### 튜토리얼
 
@@ -174,6 +173,7 @@ ID 필요 조건
 
 ### 관련 블로그 게시물
 
+* [Adobe이 Adobe Target 및 Real-time Customer Data Platform을 사용하여 동일한 페이지 고급 개인화 를 발표합니다.](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
