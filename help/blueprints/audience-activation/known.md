@@ -4,10 +4,10 @@ description: 온라인/오프라인 대상자 활성화.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 76%
 
 ## 가드레일
 
-[대상자 및 프로필 활성화 개요 페이지의 가드레일 설명을 참조하세요.](overview.md)
+[대상자 및 프로필 활성화 개요 페이지의 가드레일 설명을 참조하세요](overview.md).
 
 ## 구현 단계
 

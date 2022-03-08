@@ -2,10 +2,10 @@
 title: 디지털 경험 블루프린트
 description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 85%
     <p><em>중앙 허브로 [!UICONTROL Platform]을 사용하여 메시지를 전송하고 고객 경험에 실시간으로 영향을 줍니다.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><img alt="알려진 고객 활성화 블루프린트에 대한 축소판 이미지" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><strong>온라인/오프라인 대상자 활성화</strong></a></div>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="알려진 고객 활성화 블루프린트에 대한 축소판 이미지" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>온라인/오프라인 대상자 활성화</strong></a></div>
     <p><em>대상자에 의해 활성화되는 크로스채널 광고를 게재합니다.</em></p>
   </td>
   <td>
