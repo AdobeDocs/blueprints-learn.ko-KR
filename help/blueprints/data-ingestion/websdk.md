@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
-workflow-type: ht
-source-wordcount: '88'
-ht-degree: 100%
+source-git-commit: 992528c2dcde4a0ace0b67cb6c84de4844693304
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,4 +21,5 @@ ht-degree: 100%
 ## 참조 설명서
 
 * [Experience Platform 웹/모바일 SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
-* [웹 SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=ko)
+* [웹 SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko)
+* [모바일 앱에서 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
