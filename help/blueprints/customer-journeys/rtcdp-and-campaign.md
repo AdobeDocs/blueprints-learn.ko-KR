@@ -1,17 +1,18 @@
 ---
-title: Real-Time CDP과 Adobe Campaign 블루프린트
-description: Adobe Campaign에서 Adobe Experience Platform 및 그 실시간 고객 프로필 및 중앙 집중식 세그멘테이션 도구를 사용하여 개인화된 대화를 제공하는 방법을 소개합니다.
+title: Adobe Campaign 통합 패턴이 있는 Real-Time CDP
+description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
+source-git-commit: e158cb7c14970a9deb035fde50c9c070b0760203
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 58%
+source-wordcount: '767'
+ht-degree: 95%
 
 ---
 
-# Real-Time CDP과 Adobe Campaign 블루프린트
+# Adobe Campaign 통합 패턴이 있는 Real-Time CDP
 
-Adobe Campaign에서 Adobe Experience Platform 및 그 실시간 고객 프로필 및 중앙 집중식 세그멘테이션 도구를 사용하여 개인화된 대화를 제공하는 방법을 소개합니다.
+Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 
 <br>
 
@@ -24,13 +25,13 @@ Adobe Campaign에서 Adobe Experience Platform 및 그 실시간 고객 프로�
 
 ## 아키텍처
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="일괄 처리 메시지와 Adobe Experience Platform 블루프린트를 위한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="배치 메시징 및 Adobe Experience Platform 통합 패턴을 위한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
 ## 필요 조건
 
-* Experience Platform 및 Campaign은 동일한 IMS 조직에 프로비저닝되어 사용자 액세스를 위해 Adobe Admin Console을 활용하는 것이 좋습니다. 또한 고객이 마케팅 UI 내에서 솔루션 전환기를 활용할 수 있습니다
+* Experience Platform 및 Campaign을 동일한 IMS 조직에서 프로비저닝하고 사용자 액세스를 위해 Adobe Admin Console을 활용하는 것이 좋습니다. 이렇게 하면 고객이 마케팅 UI 내에서 솔루션 전환기를 활용할 수 있습니다.
 
 <br>
 
@@ -38,19 +39,19 @@ Adobe Campaign에서 Adobe Experience Platform 및 그 실시간 고객 프로�
 
 ### Adobe Campaign
 
-* Adobe Campaign 단일 조직 단위 배포만 지원합니다
+* Adobe Campaign 단일 조직 유닛 배포만 지원
 * Adobe Campaign이 전체 활성 프로필에 대한 단일 정보 저장소입니다. 따라서 프로필이 Adobe Campaign 내에 존재해야 하며 Experience Platform 기반으로 새로운 프로필을 만들면 안 됩니다.
 * Campaign 내보내기 워크플로우는 4시간에 한 번 이하로 실행
-* Adobe Campaign broadLog, trackingLogs 및 비제공 주소를 위한 XDM 스키마 및 데이터 세트는 즉시 사용할 수 없으며 설계 및 구축되어야 합니다
+* Adobe Campaign broadLog, trackingLogs, 게재 불가 주소에 대한 XDM 스키마 및 데이터 세트는 기본 제공되지 않으며 설계 및 작성해야 합니다.
 
 ### Experience Platform CDP 세그먼트 공유
 
-* 20개 세그먼트 제한 권장 사항
-* 활성화는 24시간 간격으로 제한됩니다
+* 최대 20 세그먼트 제한 추천
+* 활성화는 매 24시간으로 제한
 * 통합 스키마 속성만 활성화할 수 있습니다(배열/맵/경험 이벤트 미지원)
-* 세그먼트당 20개 이하의 속성에 대한 권장 사항
+* 세그먼트 당 최대 속성 20개 제한 추천
 * 세그먼트 당 한 파일(&quot;실현&quot; 세그먼트 멤버십을 가진 전체 프로필, 또는 파일에 세그먼트 멤버십을 속성으로 추가한 경우 &quot;실현&quot; 및 &quot;탈퇴&quot; 프로필 모두)
-* 증분 및 전체 세그먼트 내보내기가 지원됩니다
+* 증분 및 전체 세그먼트 가져오기 지원
 * 파일 암호화 미지원
 
 <br>
@@ -102,18 +103,19 @@ Adobe Campaign에서 Adobe Experience Platform 및 그 실시간 고객 프로�
 
 ### 모바일 푸시 구성
 
-* 푸시 알림에 대해 모바일 장치와 통합하기 위해 지원되는 두 가지 방법:
+* 모바일 디바이스와 통합하여 푸시 알림을 보내는 방법으로는 두 가지를 지원합니다.
    * Experience Platform Mobile SDK
    * Campaign Mobile SDK
-* Experience Platform Mobile SDK 경로:
-   * Experience Platform Mobile SDK와의 통합을 설정하기 위해 Adobe 태그 및 Campaign Classic 확장 활용
-   * Adobe 태그 및 데이터 수집에 대한 실무 지식 필요
-   * SDK를 배포하고 FCM(Android) 및 APNS(iOS)과 통합하여 푸시 토큰을 가져오고, 푸시 알림을 수신하고, 푸시 상호 작용을 처리하도록 앱을 구성하려면 Android 및 iOS 모두에서 푸시 알림과 함께 모바일 개발 경험이 필요합니다
+* Experience Platform Mobile SDK 방법:
+   * Adobe 태그와 Campaign Classic 확장을 활용하여 Experience Platform Mobile SDK와의 통합을 설정합니다.
+   * Adobe 태그 및 데이터 수집에 대한 실무 지식이 필요합니다.
+   * Android와 iOS 모두에서 푸시 알림 모바일 개발 경험이 필요합니다. SDK를 배포하고, FCM(Android) 및 APNS(iOS)와 통합하여 푸시 토큰을 가져오고, 앱이 푸시 알림을 수신하고 푸시 상호 작용을 처리하도록 구성할 수 있어야 합니다.
 * Campaign Mobile SDK
-   * 다음 내용을 따르십시오 [Campaign SDK 설명서](Campaign Mobile SDK 여기에 설명된 배포 설명서를 따르십시오.)
+   * [Campaign SDK 설명서] 를 따르세요(Campaign Mobile SDK의 경우
+여기에서 설명하는 배포 설명서를 따르세요).
 
    >[!IMPORTANT]
-   >Campaign SDK를 배포하고 다른 Experience Cloud 애플리케이션과 작업하는 경우, 사용자는 데이터 수집을 위해 Campaign Mobile SDK를 사용해야 합니다. 이렇게 하면 장치에서 중복 클라이언트 측 호출이 만들어집니다.
+   >Campaign SDK를 배포하고 다른 Experience Cloud 애플리케이션으로 작업하는 경우, 데이터 수집을 위해 Experience Platform Mobile SDK를 사용해야 합니다. 이렇게 하면 디바이스에 중복 클라이언트 측 호출이 만들어집니다.
 
 ## 관련 설명서
 
