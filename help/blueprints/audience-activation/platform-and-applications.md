@@ -4,10 +4,10 @@ description: Experience Platform의 프로필 및 대상자를 관리하고 Expe
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Experience Cloud 응용 프로그램을 통한 활성화는 [알려진 고객 �
 
 ## 아키텍처
 
-[Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 아키텍처 다이어그램을 더 확인하려면 Experience Platform과 애플리케이션 아키텍처 섹션을 참조하세요.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ko)
+자세한 내용은 [Experience Platform 및 응용 프로그램 아키텍처 섹션](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ko) Experience Cloud 애플리케이션과의 Experience Platform 통합과 관련된 추가 아키텍처 다이어그램에 대해 설명합니다.
 
 ### Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화
 
