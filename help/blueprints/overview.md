@@ -4,8 +4,8 @@ description: 디지털 경험 블루프린트는 전략을 다루고 기존 비�
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ko"><img alt="트리거 메시지와 Experience Platform 블루프린트의 썸네일 이미지" src="customer-journeys/assets/ajo-architecture.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>크로스 채널 오케스트레이션</strong></a></div>
-    <p><em>중앙 허브로 [!UICONTROL Platform]을 사용하여 메시지를 전송하고 고객 경험에 실시간으로 영향을 줍니다.</em></p>
+    <p><em>[!UICONTROL Platform]을 중앙 허브로 사용하여 메시지를 보내고 고객 경험에 실시간으로 영향을 줍니다.</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="알려진 고객 활성화 블루프린트에 대한 축소판 이미지" src="audience-activation/assets/online_offline_activation.svg" /></a>

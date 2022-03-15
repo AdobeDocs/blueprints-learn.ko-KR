@@ -8,7 +8,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 0dda473e727ee367f6fa9ad78c9201d18bc064b9
 workflow-type: tm+mt
 source-wordcount: '1531'
-ht-degree: 40%
+ht-degree: 53%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 40%
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (선택 사항): 타사 대상 데이터, 공동 작업 기반 장치 그래프, Adobe Analytics에서 Real-time Customer Data Platform 대상을 표시하는 기능 및 Real-time Customer Data Platform에서 Adobe Analytics 대상을 표시하는 기능을 추가합니다
+* Adobe Audience Manager(선택 사항): 서드파티 대상자 데이터, co-op 기반 디바이스 그래프, Real-time Customer Data Platform 대상자를 Adobe Analytics로 표면화하는 기능, Adobe Analytics 대상자를 Real-time Customer Data Platform으로 표면화하는 기능 추가
 * Adobe Analytics(선택 사항): 과거 행동 데이터 및 Adobe Analytics 데이터의 세밀한 세분화를 기반으로 세그먼트를 작성하는 기능 제공
 
 ## 사용 사례 시나리오
@@ -56,13 +56,13 @@ ht-degree: 40%
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상 공유</td>
-    <td class="tg-0lax">- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.<br>- 이 통합은 일반적으로 통합 1단계에서 설명한 대로 스트리밍 및 배치 대상을 실시간 구동하는 Edge Collection 및 WebSDK로 마이그레이션하는 대신 기존 SDK를 사용하여 스트리밍 및 배치 대상을 공유하는 데 사용됩니다.</td>
-    <td class="tg-73oq">- 아래에 설명된 구현 패턴 1 또는 2.<br>- 통합 패턴 1에 설명된 대로 실시간 에지 세그먼트 평가를 활성화하려면 필요한 경우 스트리밍 및 배치 대상을 Target에 공유하는 데 웹/모바일 SDK가 필요하지 않습니다. <br>- AT.js를 사용하는 경우 ECID 네임스페이스에 대한 프로필 통합만 지원됩니다. <br>- Edge에서 사용자 지정 ID 네임스페이스를 조회하려면 WebSDK 배포가 필요하며 ID 맵에서 각 ID를 ID로 설정해야 합니다.<br>- 데이터 스트림은 Experience Edge에 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</td>
+    <td class="tg-0lax">- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상자를 공유합니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.<br>- 이 통합은 일반적으로 통합 1단계에서 설명한 대로 스트리밍 및 배치 대상을 실시간 구동하는 Edge Collection 및 WebSDK로 마이그레이션하는 대신 기존 SDK를 사용하여 스트리밍 및 배치 대상을 공유하는 데 사용됩니다.</td>
+    <td class="tg-73oq">- 아래에 설명된 구현 패턴 1 또는 2.<br>- 통합 패턴 1에 설명된 대로 실시간 에지 세그먼트 평가를 활성화하려면 필요한 경우 스트리밍 및 배치 대상을 Target에 공유하는 데 웹/모바일 SDK가 필요하지 않습니다. <br>- AT.js를 사용하는 경우 ECID 네임스페이스에 대한 프로필 통합만 지원됩니다. <br>- Edge에서 사용자 정의 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.<br>- 데이터 스트림은 Experience Edge에 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">대상 공유 서비스 접근 방식을 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager에 대한 스트리밍 및 배치 대상 공유</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상 공유 서비스를 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 스트리밍 및 일괄 처리 대상을 공유할 수 있습니다.<br> -이 통합 패턴은 Audience Manager의 타사 데이터 및 대상의 추가 보강이 필요한 경우 활용할 수 있습니다. 그렇지 않으면 통합 패턴 1과 2가 선호됩니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상자 공유 서비스를 통해 Real-time Customer Data Platform의 스트리밍 및 일괄 처리 대상자를 Target과 Audience Manager로 공유합니다.<br> -이 통합 패턴은 Audience Manager의 타사 데이터 및 대상의 추가 보강이 필요한 경우 활용할 수 있습니다. 그렇지 않으면 통합 패턴 1과 2가 선호됩니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
     <td class="tg-73oq">- 아래에 설명된 구현 패턴 1 또는 2.<br>- 이 통합에는 웹/모바일 SDK 배포가 필요하지 않습니다.<br> - 대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- Target이 작업을 제대로 수행할 수 있도록 공유하려면 신원을 ECID로 식별해야 합니다.</td>
   </tr>
 </tbody>
@@ -86,7 +86,7 @@ ht-degree: 40%
 
 1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
 1. [Experience Platform 및 구현 [!UICONTROL 실시간 고객 프로필]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko) 대상자를 구성하여 Edge에 활성화 [병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy) 를 Edge에서 활성화하여 공유할 수 있습니다.
-1. 구현 [웹 SDK Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko). Experience Platform Web SDK는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다. Mobile SDK 및 API를 통한 실시간 세그멘테이션 지원은 현재 사용할 수 없습니다.
+1. 구현 [웹 SDK Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko). Experience Platform Web SDK는 실시간 Edge 세분화에 필요하지만, Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상을 공유하는 데에는 필요하지 않습니다. 현재 Mobile SDK 및 API를 통한 실시간 세분화는 지원하지 않습니다.
 1. [에지 데이터 스트림으로 에지 네트워크 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
 
@@ -141,7 +141,7 @@ ht-degree: 40%
 
 ID 필요 조건
 
-* 모든 기본 ID는 Edge 네트워크 및 WebSDK와 함께 위에 요약된 구현 패턴 1을 활용할 때 활용할 수 있습니다. 첫 번째 로그인 개인화를 사용하려면 개인화 요청 세트 기본 ID가 Real-time Customer Data Platform에서 프로필의 기본 ID와 일치해야 합니다. 익명 장치와 알려진 고객 간의 ID 결합은 허브에서 처리되고 그 후에 에지로 투영됩니다.
+* 모든 기본 ID는 Edge 네트워크 및 WebSDK와 함께 위에 요약된 구현 패턴 1을 활용할 때 활용할 수 있습니다. 로그인을 처음 개인화할 때에는 개인화 요청에서 설정한 기본 ID가 Real-time Customer Data Platform 프로필의 기본 ID와 일치해야 합니다. 허브에서 익명 디바이스와 알려진 고객의 신원 연결을 진행한 뒤 Edge로 투영합니다.
 * Adobe Experience Platform의 대상을 Adobe Target에 공유하려면 위의 사용 사례 시나리오 3에 요약된 대로 대상 공유 서비스를 사용할 때 ECID를 ID로 사용해야 합니다.
 * Audience Manager을 통해 대체 ID를 사용하여 Experience Platform 대상을 Adobe Target에 공유할 수도 있습니다. Experience Platform에서 Audience Manager를 활성화 가능한 지원되는 네임스페이스는 다음과 같습니다: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Audience Manager와 Target은 ECID를 통해 대상자의 멤버십을 처리하므로, Adobe Target에 대상자를 최종 공유할 때까지 계속 ECID가 필요합니다.
 

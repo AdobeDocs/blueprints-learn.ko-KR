@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 82%
    + [익명 대상자 활성화](/help/blueprints/audience-activation/anonymous.md)
    + 알려진 고객 활성화{#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
-      + 소셜 및 광고 채널에 대한 활성화{#audience-activation}
-         + [facebook 사용자 지정 대상에 활성화](/help/blueprints/audience-activation/destinations/facebook.md)
+      + 소셜 및 광고 채널에 대한 활성화 {#audience-activation}
+         + [Facebook 맞춤 타겟 활성화](/help/blueprints/audience-activation/destinations/facebook.md)
          + [Google Customer Match 활성화](/help/blueprints/audience-activation/destinations/gcm.md)
       + [파일 및 엔터프라이즈 스트리밍 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
@@ -45,15 +45,15 @@ ht-degree: 82%
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
 + 고객 여정 {#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
-   + Journey Optimizer{#journey-optimizer}
+   + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + [Journey Optimizer과 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [타사 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign v8{#campaign-v8}
+      + [Journey Optimizer와 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [서드파티 메시지](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-   + Campaign v7{#campaign-v7}
+   + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP과 Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP와 Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + 데이터 수집 및 준비 {#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
