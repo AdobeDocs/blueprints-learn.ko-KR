@@ -3,13 +3,13 @@ title: 여행 및 서비스 업계 - 온라인 및 오프라인 데이터를 사
 description: 다양한 채널에서의 고객 행동에 대해 통합된 단일 관점을 적용한 실시간 의사 결정.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # 여행 및 서비스 업계 비즈니스 과제
 
@@ -42,8 +42,4 @@ ht-degree: 100%
 
 ### 블루프린트 아키텍처
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="다양한 채널에서의 고객 행동에 대해 통합된 단일 관점을 적용하여 실시간 의사 결정을 내리는 여행 및 서비스 비즈니스의 썸네일 이미지." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
-
-
-
-
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="다양한 채널에서의 고객 행동에 대해 통합된 단일 관점을 적용하여 실시간 의사 결정을 내리는 여행 및 서비스 비즈니스의 썸네일 이미지." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
