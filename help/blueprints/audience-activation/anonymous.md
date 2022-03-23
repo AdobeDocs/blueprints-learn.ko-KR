@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
+source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 40%
+source-wordcount: '397'
+ht-degree: 41%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 40%
 
 ## 애플리케이션
 
+* Audience Manager
+* Real-time Customer Data Platform   
+
 Audience Manager과 Real-time Customer Data Platform을 모두 활용하여 온사이트 및 광고 대상을 위한 익명의 Audience Activation을 강화할 수 있습니다. Real-time Customer Data Platform은 Analytics Mobile Apps 또는 Analytics Premium에서 카탈로그로 지정된 익명 장치 식별자가 있는 광고 대상의 하위 집합만 지원합니다 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
 Microsoft Bing, Google DV360 및 TradeDesk는 익명 장치 기반 타깃팅을 위해 지원되는 기본 Real-time Customer Data Platform 광고 대상입니다. 이 외에도 Real-time Customer Data Platform은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) 및 [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
@@ -34,9 +37,9 @@ Microsoft Bing, Google DV360 및 TradeDesk는 익명 장치 기반 타깃팅을 
 
 <img src="assets/anonymous_activation.svg" alt="익명 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
-## 구현 단계
+<br>
 
-<!-- These steps should link to help. -->
+## 구현 단계
 
 1. [Audience Manager를 구현합니다.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko#implementation-integration-guides)
 1. Audience Manager로 데이터를 수집합니다.
