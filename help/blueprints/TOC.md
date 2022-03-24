@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
    + [익명 대상자 활성화](/help/blueprints/audience-activation/anonymous.md)
-   + 알려진 고객 활성화{#known-customer-audience-activation}
+   + 알려진 고객 활성화 {#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
       + 소셜 및 광고 채널에 대한 활성화 {#audience-activation}
          + [Facebook 맞춤 타겟 활성화](/help/blueprints/audience-activation/destinations/facebook.md)
