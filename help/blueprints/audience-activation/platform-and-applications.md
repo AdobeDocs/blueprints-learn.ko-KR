@@ -7,7 +7,7 @@ exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 79%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다. Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.
 
-Experience Cloud 응용 프로그램을 통한 활성화는 [알려진 고객 활성화 블루프린트](known.md).
+Experience Cloud 애플리케이션에서의 활성화는 [알려진 고객 활성화 블루프린트](known.md)의 내용과 아주 유사합니다.
 
 ## 사용 사례
 
@@ -35,7 +35,7 @@ Experience Cloud 응용 프로그램을 통한 활성화는 [알려진 고객 �
 
 ## 아키텍처
 
-자세한 내용은 [Experience Platform 및 응용 프로그램 아키텍처 섹션](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ko) Experience Cloud 애플리케이션과의 Experience Platform 통합과 관련된 추가 아키텍처 다이어그램에 대해 설명합니다.
+Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 아키텍처 다이어그램을 더 확인하려면 [Experience Platform과 애플리케이션 아키텍처 섹션](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ko)을 참조하세요.
 
 ### Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화
 
@@ -62,13 +62,13 @@ Experience Cloud 응용 프로그램을 통한 활성화는 [알려진 고객 �
 
 * Experience Platform의 대상자는 필요한 대상 ID가 [!UICONTROL Real-time Customer Profile]에 포함된 경우 또는 [!UICONTROL Real-time Customer Profile]의 ID가 Audience Manager에서 필요 대상 ID와 연결된 경우에 Audience Manager 대상을 통해 공유할 수 있습니다.
 
-### Real-time Customer Data Platform에서 Target으로 대상 공유
+### Real-time Customer Data Platform에서 Target으로 대상 공유하기
 
-* 자세한 내용은 [온라인 및 오프라인 데이터 블루프린트가 있는 웹/Mobile Personalization](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) Real-time Customer Data Platform에서 Target으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
+* [웹/모바일 개인화와 온라인 및 오프라인 데이터 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=ko)에서 Real-time Customer Data Platform에서 Target으로 프로필 및 대상자 공유하는 방법에 대한 자세한 내용을 확인할 수 있습니다.
 
 ### Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 대상 공유
 
-* 자세한 내용은 [고객 여정 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
+* [고객 여정 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=ko)에서 프로필 및 대상자를 Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 공유하는 방법에 대해 자세히 살펴볼 수 있습니다.
 
 ## 관련 설명서
 
