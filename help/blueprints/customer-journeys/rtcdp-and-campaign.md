@@ -4,9 +4,9 @@ description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 �
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: e158cb7c14970a9deb035fde50c9c070b0760203
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 
 ## 아키텍처
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="배치 메시징 및 Adobe Experience Platform 통합 패턴을 위한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="일괄 처리 메시지와 Adobe Experience Platform 통합 패턴를 위한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -71,7 +71,7 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 #### 프로필 / ID
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 1. [!UICONTROL Real-time Customer Profile]의 서로 다른 보기에 대한 [병합 규칙](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko)을 만듭니다(선택 사항).
 1. Adobe Campaign에서 사용하기 위한 세그먼트를 만듭니다.
