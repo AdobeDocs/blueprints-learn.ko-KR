@@ -6,15 +6,15 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # 웹 및 모바일 개인화
 
-웹 및 모바일 개인화는 여러 애플리케이션에서 프로필 및 대상 세그멘테이션을 사용하여 고객 경험을 개인화하고 최적화하는 기능을 해결합니다. 고객 행동, 인구 통계, 충성도 수준 및 이전 트랜잭션을 활용하여 레이아웃, 클릭유도문안 및 컨텐츠를 개인화할 수 있습니다.
+웹 및 모바일 개인화에서는 여러 애플리케이션에서 프로필과 대상자 세분화를 사용하여 고객 경험을 개인화 및 최적화하는 방법을 다룹니다. 고객 행동, 인구 통계, 충성도 수준, 거래 내역 등을 활용하여 레이아웃, 클릭 유도, 컨텐츠 등을 개인화할 수 있습니다.
 
 <br>
 
@@ -27,7 +27,7 @@ ht-degree: 72%
 
 ## 웹 및 모바일 개인화 가드레일
 
-[대상 및 프로필 활성화와 관련된 보호 기능은 프로필 및 세그멘테이션 보호 기능 설명서를 참조하십시오.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+[대상자 및 프로필 활성화와 관련된 가드레일은 프로필 및 세그멘테이션 가드레일 설명서를 참조하세요.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 
 <br>
 
