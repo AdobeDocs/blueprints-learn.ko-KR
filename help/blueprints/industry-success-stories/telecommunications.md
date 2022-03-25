@@ -1,15 +1,15 @@
 ---
 title: 통신 업계 - Journey Optimizer를 통한 트리거 메시지
 description: 고객에게 실시간으로 맞춤형 딜을 제공하는 한편 장기적 충성도를 확보하기 위한 효율적 고객 온보딩을 진행합니다.
-solution: Experience Platform, Journey Optimizer
+solution: Journey Optimizer
 kt: 9486
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
+source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # 통신 업계 비즈니스 과제
 
@@ -42,8 +42,3 @@ ht-degree: 100%
 ### 블루프린트 아키텍처
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ko"><img alt="실시간으로 맞춤형 딜을 제공하는 한편 장기적 충성도를 확보하기 위한 효율적 고객 온보딩을 진행하는 통신 비즈니스의 썸네일 이미지." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
-
-
-
-
-
