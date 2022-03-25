@@ -1,12 +1,12 @@
 ---
 title: '웹 및 모바일 개인화 '
 description: '[!UICONTROL Real-time Customer Profile]을 통해 개인화된 웹 및 모바일 콘텐츠를 게재합니다.'
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
-workflow-type: ht
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
 

@@ -1,15 +1,15 @@
 ---
 title: 의류 업계 - Experience Cloud 애플리케이션을 통한 활성화
 description: 실시간 마케팅, 크로스 채널 활성화, 크로스 채널 분석을 위해 여러 블루프린트를 사용했습니다.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 의류 업계 비즈니스 과제
 
@@ -47,7 +47,3 @@ ht-degree: 100%
 ### 블루프린트 아키텍처
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="Audience Activation, Customer Journey Analytics, 고객 여정 블루프린트를 사용하는 의류 비즈니스의 썸네일 이미지" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-

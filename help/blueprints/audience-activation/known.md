@@ -1,10 +1,10 @@
 ---
 title: 알려진 고객 활성화
 description: 온라인/오프라인 대상자 활성화.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 82%
@@ -29,7 +29,7 @@ ht-degree: 82%
 
 * Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
-* Audience Manager People Based destinations can also be leveraged for people based activation to Facebook, LinkedIn, and Google Customer Match.
+* Audience Manager 사용자 기반 대상은 Facebook, LinkedIn 및 Google Customer Match에 대한 사용자 기반 활성화를 위해 활용할 수도 있습니다.
 
 ## 아키텍처
 
@@ -38,7 +38,7 @@ ht-degree: 82%
 <img src="assets/known_activation.svg" alt="알려진 고객 활성화 블루프린트에 대한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
-### Known Customer Activation via Audience Manager People Based Destinations
+### 사용자 기반 대상을 통한 알려진 고객 활성화
 
 <img src="assets/AAM_PBD.svg" alt="알려진 고객 활성화 블루프린트에 대한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 <br>
@@ -47,7 +47,7 @@ ht-degree: 82%
 
 [대상자 및 프로필 활성화 개요 페이지의 가드레일 설명을 참조하세요](overview.md).
 
-## Implementation Steps for Real-time Customer Data Platform
+## Real-time Customer Data Platform 구현 단계
 
 1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
@@ -64,7 +64,7 @@ ht-degree: 82%
 
 * [Experience Cloud 애플리케이션 블루프린트를 사용한 대상자 및 프로필 활성화](platform-and-applications.md) 페이지에서 Real-time Customer Data Platform에서 Audience Manager, Analytics, Target, Campaign, Journey Optimizer으로 대상을 공유하는 방법에 대해 자세히 살펴볼 수 있습니다.
 
-## Implementation Steps for Audience Manager People Based Destinations
+## 사용자 기반 대상 Audience Manager 구현 단계
 
 * Audience Manager 구현에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko).
 

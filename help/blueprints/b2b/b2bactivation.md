@@ -1,13 +1,13 @@
 ---
 title: B2B 활성화
 description: Real-time Customer Data Platform을 통해 계정 기반 대상자 및 프로필 중심적 고객 경험을 제공합니다.
-solution: Experience Platform, Real-time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: fcfd45ce954e9a273561ab6fd824aa16fd0fe1e9
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,7 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 ## 관련 설명서
 
-* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
+* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
 * [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)
