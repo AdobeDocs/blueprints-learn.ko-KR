@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
+source-git-commit: 4a46b7a4c278107c806d3ddd14591c7abe1a13d3
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 41%
+source-wordcount: '380'
+ht-degree: 34%
 
 ---
 
@@ -39,15 +39,13 @@ Microsoft Bing, Google DV360 및 TradeDesk는 익명 장치 기반 타깃팅을 
 
 <br>
 
-## 구현 단계
+## Audience Manager 구현 단계
 
-1. [Audience Manager를 구현합니다.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko#implementation-integration-guides)
-1. Audience Manager로 데이터를 수집합니다.
-1. 세그먼트 정의에서 사용할 신호 및 특질을 구성합니다.
-1. Audience Manager에서 세그먼트를 만듭니다.
-1. Audience Manager에서 대상자를 공유할 대상을 구성합니다.
+* Audience Manager 구현에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko).
 
-Real-time Customer Data Platform의 구현 단계는 다음을 참조하십시오. [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+## Real-time Customer Data Platform 구현 단계
+
+* Real-time Customer Data Platform의 구현 단계는 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## 관련 설명서
 
