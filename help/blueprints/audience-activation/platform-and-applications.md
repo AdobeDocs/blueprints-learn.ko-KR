@@ -6,8 +6,8 @@ kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '741'
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ### Real-time Customer Data Platform에서 Audience Manager로 대상 공유하기
 
-* 자세한 내용은 다음 설명서를 참조하십시오. [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko).
+* 자세한 내용은 다음 설명서를 참조하세요. [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko).
 
 * 세그먼트 평가가 일괄 처리인지 스트리밍인지에 관계없이 세그먼트 평가가 완료되고 실시간 고객 프로필에 작성되는 즉시 RT-CDP의 대상 멤버십이 스트리밍 방식으로 Audience Manager에 공유됩니다. 자격이 있는 프로필에 관련 프로필 장치에 대한 지역 라우팅 정보가 포함되어 있는 경우 RTCDP의 대상 멤버십이 연결된 Audience Manager Edge에서 스트리밍 방식으로 검증됩니다. 타임스탬프 기준 최근 14일 내 프로필에 지역 라우팅 정보가 적용된 경우 Audience Manager Edge에서 스트리밍 방식으로 평가합니다. RTCDP의 프로필에 지역 라우팅 정보가 없거나 지역 라우팅 정보가 14일보다 전에 적용된 경우, 해당 프로필 멤버십을 Audience Manager 허브 위치로 다시 보내어 배치 기반 평가 및 활성화 처리를 합니다. Edge 활성화를 사용할 수 있는 프로필은 RTCDP에서 세그먼트 자격 몇 분 내에 활성화됩니다. Edge 활성화를 사용할 수 없는 프로필은 Audience Manager 허브를 통해 자격을 얻어야 하며, 여기에는 12~24시간 정도의 처리 시간이 걸릴 수 있습니다.
 
 * 어느 Edge에 Audience Manager 프로필을 저장할지에 대한 지역 라우팅 정보는 Audience Manager, 방문자 ID 서비스, Analytics, Launch에서, 또는 Web SDK에서 직접 Experience Platform에 [데이터 캡처 지역 정보] XDM 필드 그룹을 사용하여 별도의 프로필 기록 클래스 데이터 세트로 수집할 수 있습니다.
 
-* Experience Platform에서 Audience Manager으로 대상을 공유하는 활성화 시나리오의 경우 다음 ID가 자동으로 공유됩니다. ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID. 현재 사용자 지정 네임스페이스는 공유되지 않습니다.
+* Experience Platform에서 Audience Manager로 대상자를 공유하는 활성화 시나리오의 경우 자동으로 공유되는 ID에는 ECID, IDFA, GAID, 해시 이메일 주소(EMAIL_LC_SHA256), AdCloud ID가 있습니다. 현재 사용자 지정 네임스페이스는 공유되지 않습니다.
 
 * Experience Platform의 대상자는 필요한 대상 ID가 [!UICONTROL Real-time Customer Profile]에 포함된 경우 또는 [!UICONTROL Real-time Customer Profile]의 ID가 Audience Manager에서 필요 대상 ID와 연결된 경우에 Audience Manager 대상을 통해 공유할 수 있습니다.
 

@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,18 +29,18 @@ ht-degree: 82%
 
 * Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
-* Audience Manager 사용자 기반 대상은 Facebook, LinkedIn 및 Google Customer Match에 대한 사용자 기반 활성화를 위해 활용할 수도 있습니다.
+* Audience Manager 사람 기반 대상을 활용하면 Facebook, LinkedIn, Google Customer Match에 대해 사람을 기반으로 활성화할 수도 있습니다.
 
 ## 아키텍처
 
 ### Real-time Customer Data Platform을 통한 알려진 고객 활성화
 
-<img src="assets/known_activation.svg" alt="알려진 고객 활성화 블루프린트에 대한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="알려진 고객 활성화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
-### 사용자 기반 대상을 통한 알려진 고객 활성화
+### Audience Manager 사람 기반 대상을 통한 알려진 고객 활성화
 
-<img src="assets/AAM_PBD.svg" alt="알려진 고객 활성화 블루프린트에 대한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="알려진 고객 활성화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## 가드레일
@@ -64,11 +64,11 @@ ht-degree: 82%
 
 * [Experience Cloud 애플리케이션 블루프린트를 사용한 대상자 및 프로필 활성화](platform-and-applications.md) 페이지에서 Real-time Customer Data Platform에서 Audience Manager, Analytics, Target, Campaign, Journey Optimizer으로 대상을 공유하는 방법에 대해 자세히 살펴볼 수 있습니다.
 
-## 사용자 기반 대상 Audience Manager 구현 단계
+## Audience Manager 사람 기반 대상 구현 단계
 
-* Audience Manager 구현에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko).
+* Audience Manager 구현에 대한 자세한 내용은 다음 [설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)를 참조하세요.
 
-* Audience Manager에서 사용자 기반 대상 구현에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
+* Audience Manager의 사람 기반 대상 구현에 대한 자세한 내용은 다음 [설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=ko)를 참조하세요.
 
 ## 관련 설명서
 
