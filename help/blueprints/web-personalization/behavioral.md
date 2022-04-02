@@ -5,9 +5,9 @@ landing-page-description: 온라인 행동과 대상자 데이터를 기반으�
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '612'
 ht-degree: 96%
 
 ---
@@ -38,17 +38,8 @@ ht-degree: 96%
 
 웹/모바일 개인화 블루프린트는 다음과 같은 방법을 통해 구현할 수 있습니다(아래에서 설명).
 
-1. [!UICONTROL Platform 웹 SDK] 또는 [!UICONTROL Platform 모바일 SDK]와 [!UICONTROL Edge Network] 사용
-1. 기존 애플리케이션별 SDK 사용(예: AppMeasurement.js)
-
-### 1. Platform 웹/모바일 SDK와 Edge를 사용하는 방법
-
-[Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오.](../data-ingestion/websdk.md)
-
-### 2. 특정 애플리케이션용 SDK를 사용하는 방법
-
-[애플리케이션별 SDK 블루프린트 를 참조하십시오](../data-ingestion/appsdk.md)
-
+1. [!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK]와 [!UICONTROL Edge 네트워크] 사용 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오.](../data-ingestion/websdk.md)
+1. 기존 애플리케이션별 SDK 사용(예: AppMeasurement.js). [애플리케이션별 SDK 블루프린트 를 참조하십시오](../data-ingestion/appsdk.md)
 
 ## 구현 단계
 
