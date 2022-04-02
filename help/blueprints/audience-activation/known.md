@@ -4,9 +4,9 @@ description: 온라인/오프라인 대상자 활성화.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 100%
 
 ## 애플리케이션
 
-* Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
 * Audience Manager 사람 기반 대상을 활용하면 Facebook, LinkedIn, Google Customer Match에 대해 사람을 기반으로 활성화할 수도 있습니다.
 

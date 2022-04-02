@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 100%
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [서버측 엔터프라이즈 데이터 수집 ](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
+   + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 데이터 분석, 인텔리전스 및 AI/ML {#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
@@ -66,4 +67,4 @@ ht-degree: 100%
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
    + [행동을 통한 개인화](/help/blueprints/web-personalization/behavioral.md)
-   + [온라인 및 오프라인 데이터를 사용한 개인화](/help/blueprints/web-personalization/online-offline.md)
+   + [알려진 고객 Personalization](/help/blueprints/web-personalization/known-personalization.md)
