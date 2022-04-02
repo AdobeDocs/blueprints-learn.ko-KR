@@ -5,10 +5,10 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 817ec1be3d4754ca3fb4fc9767ca79e516b6ab47
+source-git-commit: b050017505b8d77fcf507e4dec147b66c561779a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1233'
+ht-degree: 77%
 
 ---
 
@@ -29,44 +29,13 @@ ht-degree: 0%
 * Adobe Audience Manager (선택 사항): 타사 대상 데이터, 공동 작업 기반 장치 그래프 추가
 * Adobe Analytics(선택 사항): 과거 행동 데이터 및 Adobe Analytics 데이터의 세밀한 세분화를 기반으로 세그먼트를 작성하는 기능 제공
 
-## 사용 사례 시나리오
+## 통합 패턴
 
-<table class="tg" style="undefined;table-layout: fixed; width: 790px">
-<colgroup>
-<col style="width: 20px">
-<col style="width: 276px">
-<col style="width: 229px">
-<col style="width: 265px">
-</colgroup>
-<thead>
-  <tr>
-    <th class="tg-y6fn">#</th>
-    <th class="tg-f7v4">사용 사례 시나리오</th>
-    <th class="tg-y6fn">기능</th>
-    <th class="tg-f7v4">필요 조건</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">1</td>
-<td class="tg-73oq">Real-time Customer Data Platform에서 Target으로 공유된 데이터를 에지에서 실시간으로 세그먼트 평가</td>
-    <td class="tg-0lax">- 대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.<br>- 또 스트리밍 또는 일괄 방식으로 평가된 모든 세그먼트는 에지 네트워크에 투영되어 에지 세그먼트 평가 및 개인화에 포함됩니다.</td>
-    <td class="tg-73oq">- 구현 패턴 1은 아래에 설명되어 있습니다.<br>- 웹/모바일 SDK를 구현해야 합니다.<br>- 현재 실시간 세그멘테이션에 대한 Mobile SDK 기반 지원을 사용할 수 없습니다<br>- Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 데이터 스트림을 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</td> 
-  </tr>
-  <tr>
-    <td class="tg-0lax">2</td>
-    <td class="tg-73oq">Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상자 공유</td>
-    <td class="tg-0lax">- Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상자를 공유합니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.<br>- 이 통합은 일반적으로 통합 패턴 1에서 설명한 대로 스트리밍 및 일괄 처리 대상자를 실시간으로 구동하는 Edge Collection 및 WebSDK로 마이그레이션하는 대신 기존 SDK를 사용하여 스트리밍 및 일괄 처리 대상자를 공유하는 데 사용됩니다.</td>
-    <td class="tg-73oq">- 아래는 패턴 1 또는 2의 구현 패턴을 설명합니다.<br>- 통합 패턴 1에 설명된 대로, 웹/모바일 SDK는 스트리밍 및 일괄 처리 대상자를 Target에 공유할 때 필요하지 않지만 실시간 에지 세그먼트 평가를 활성화할 때 필요합니다. <br>- AT.js를 사용하는 경우 ECID ID 네임스페이스에 대한 프로필 통합만 지원합니다. <br>- Edge에서 사용자 정의 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.<br>- 데이터 스트림은 Experience Edge에서 구성해야 합니다. 데이터 스트림 ID가 Target 대상 구성에 제공됩니다.<br>- Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">3</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">- 대상자 공유 서비스를 통해 Real-time Customer Data Platform에서 Target과 Audience Manager로 스트리밍 및 일괄 처리 대상자 공유</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- 대상자 공유 서비스를 통해 Real-time Customer Data Platform의 스트리밍 및 일괄 처리 대상자를 Target과 Audience Manager로 공유합니다.<br>- 이 통합 패턴은 Audience Manager의 타사 데이터 및 대상자의 추가 보강이 필요한 경우 활용할 수 있습니다. 그렇지 않으면 통합 패턴 1과 2를 활용하는 것이 좋습니다. 대상자를 실시간으로 평가하려면 통합 패턴 1에서 설명하는 실시간 대상자 평가와 WebSDK가 필요합니다.</span></td>
-    <td class="tg-73oq">- 아래는 패턴 1 또는 2의 구현 패턴을 설명합니다.<br>- 이 통합에는 웹/모바일 SDK 배포가 필요하지 않습니다.<br>- 대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.<br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.<br>- Target이 작업을 제대로 수행할 수 있도록 공유하려면 신원을 ECID로 식별해야 합니다.</td>
-  </tr>
-</tbody>
-</table>
+| # | 통합 패턴 | 기능 | 필요 조건 |
+|---|---|---|---|
+| 1 | Real-time Customer Data Platform에서 Target으로 공유된 데이터를 에지에서 실시간으로 세그먼트 평가 | <ul><li>대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.</li><li>또 스트리밍 또는 일괄 방식으로 평가된 모든 세그먼트는 에지 네트워크에 투영되어 에지 세그먼트 평가 및 개인화에 포함됩니다.</li></ul> | <ul><li>웹/모바일 SDK를 구현해야 합니다.</li><li>데이터 스트림은 Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 구성해야 합니다</li><li>Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li></ul> |
+| 2 | Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상자 공유 | <ul><li>Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유할 수 있습니다. 실시간으로 평가되는 대상은 WebSDK 및 Edge 네트워크 구현이 필요합니다.</li></ul> | <ul><li>실시간 에지 세그먼트 평가를 사용하려면 스트리밍 및 배치 대상을 Target에 공유하는 데 웹/Mobile SDK가 필요하지 않지만</li><li>AT.js를 사용하는 경우 ECID 네임스페이스에 대한 프로필 통합만 지원됩니다.</li><li>Edge에서 사용자 정의 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</li><li>Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li></ul> |
+| 3 | - 대상자 공유 서비스를 통해 Real-time Customer Data Platform에서 Target과 Audience Manager로 스트리밍 및 일괄 처리 대상자 공유 | <ul><li>이 통합 패턴은 Audience Manager의 타사 데이터 및 대상에서 추가 보강이 필요한 경우 활용할 수 있습니다.</li></ul> | <ul><li>실시간 에지 세그먼트 평가를 사용하려면 스트리밍 및 배치 대상을 Target에 공유하는 데 웹/Mobile SDK가 필요하지 않지만</li><li>AT.js를 사용하는 경우 ECID 네임스페이스에 대한 프로필 통합만 지원됩니다.</li><li>Edge에서 사용자 정의 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</li><li>대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.</li><li>Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li></ul> |
 
 ## Adobe Target에 대한 실시간, 스트리밍 및 배치 대상 공유
 
