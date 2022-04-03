@@ -4,10 +4,10 @@ description: Real-time Customer Data Platform을 통해 계정 기반 대상자 
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '821'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 아키텍처
 
-<img src="assets/b2b-activation.svg" alt="B2B 활성화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="B2B 활성화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## 가드레일
