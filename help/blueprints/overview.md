@@ -2,9 +2,9 @@
 title: 디지털 경험 블루프린트
 description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
-workflow-type: ht
-source-wordcount: '255'
+source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 100%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ko"><img alt="트리거 메시지와 Experience Platform 블루프린트의 썸네일 이미지" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ko"><strong>크로스 채널 오케스트레이션</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>크로스 채널 오케스트레이션</strong></a></div>
     <p><em>[!UICONTROL Platform]을 중앙 허브로 사용하여 메시지를 보내고 고객 경험에 실시간으로 영향을 줍니다.</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="알려진 고객 활성화 블루프린트에 대한 썸네일 이미지" src="audience-activation/assets/known_activation.svg" /></a>
-    <div><a href="/help/blueprints/audience-activation/known.md"><strong>온라인/오프라인 대상자 활성화</strong></a></div>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>알려진 고객 활성화</strong></a></div>
     <p><em>대상자에 의해 활성화되는 크로스채널 광고를 게재합니다.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ko"><img alt="디지털 행동 데이터 통합 블루프린트의 썸네일 이미지" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ko"><strong>크로스 채널 여정 분석</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>크로스 채널 여정 분석</strong></a></div>
     <p><em>다양한 채널에서의 고객 행동에 대해 통합된 단일 관점에서 분석할 수 있습니다.</em></p>
   </td>
 </tr>
