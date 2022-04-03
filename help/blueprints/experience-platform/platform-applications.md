@@ -5,8 +5,8 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 이 아키텍처 다이어그램은 Adobe Experience Platform과 Adobe Experience Cloud 애플리케이션 및 애플리케이션 서비스 간의 관계를 보여 줍니다.
 
-<img src="assets/aep+apps_vertical.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:80%;" />
+<img src="assets/aep+apps_vertical.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
 ## Adobe Experience Platform과 애플리케이션 상세 아키텍처 다이어그램
 
-<img src="assets/aep+apps_horizontal.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:80%;" />
+<img src="assets/aep+apps_horizontal.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%;" />
 
 ## Adobe Experience Platform과 Experience Cloud 애플리케이션 통합
 
@@ -100,13 +100,13 @@ ht-degree: 100%
       <td>
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=ko">익명 대상자 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">익명 대상자 활성화</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a>
           </li>
         </ul>
       </td>
@@ -146,7 +146,7 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=ko">일괄 메시지 처리</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">일괄 메시지 처리</a>
           </li>
         </ul>
       </td>
@@ -178,7 +178,7 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a>
           </li>
         </ul>
       </td>
@@ -244,10 +244,10 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a>
           </li>
         </ul>
       </td>
@@ -268,10 +268,10 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a>
           </li>
         </ul>
       </td>

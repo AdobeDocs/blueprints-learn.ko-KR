@@ -4,10 +4,10 @@ description: 이 블루프린트는 애플리케이션별 SDK를 통한 아키�
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 아래 아키텍처 다이어그램은 구현을 위해 애플리케이션별 SDK를 활용하는 통합 경로 및 데이터 수집을 보여줍니다.
 
-<img src="assets/app_sdk_flow.png" alt="애플리케이션별 SDK를 사용한 구현을 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="애플리케이션별 SDK를 사용한 구현을 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 참조 설명서
 

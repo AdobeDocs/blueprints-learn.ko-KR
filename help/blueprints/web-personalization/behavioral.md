@@ -5,7 +5,7 @@ landing-page-description: 온라인 행동과 대상자 데이터를 기반으�
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 96%
@@ -31,7 +31,7 @@ ht-degree: 96%
 
 ## 아키텍처
 
-<img src="assets/behavioral_personalization.svg" alt="행동 기반 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="행동 기반 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 
 ## 구현 패턴

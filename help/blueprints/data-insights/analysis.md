@@ -5,8 +5,8 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -30,11 +30,11 @@ Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대�
 
 ## 애플리케이션
 
-* Adobe Experience Platform     
+* Adobe Experience Platform 
 
 ## 아키텍처
 
-<img src="assets/data_exploration.svg" alt="엔터프라이즈 데이터 탐색 및 보고 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="엔터프라이즈 데이터 탐색 및 보고 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 가드레일
 

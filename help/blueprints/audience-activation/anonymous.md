@@ -6,7 +6,7 @@ solution: Audience Manager, Experience Platform
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 95%
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 ## 아키텍처
 
-<img src="assets/anonymous_activation.svg" alt="익명 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="익명 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 <br>
 
