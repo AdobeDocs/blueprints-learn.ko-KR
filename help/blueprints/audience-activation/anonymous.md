@@ -2,20 +2,20 @@
 title: 익명 대상자 활성화 블루프린트
 description: 고객의 익명 행동 데이터를 기반으로 여러 웹과 광고 채널에 걸쳐 대상자를 타겟팅하는 방법을 알아봅니다. 이를 통해 전 디바이스에 걸쳐 개인화되고 일관적인 실시간 고객 경험을 제공할 수 있습니다.
 landing-page-description: 고객의 익명 행동 데이터를 기반으로 여러 웹과 광고 채널에 걸쳐 대상자를 타겟팅하는 방법을 알아봅니다.
-solution: Audience Manager, Experience Platform
+solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
 # 익명 대상자 활성화 블루프린트
 
-익명 대상자 활성화는 익명의 디바이스 및 행동 데이터를 기반으로 웹, 모바일, 광고 채널 전반에 걸쳐 대상자를 타겟팅하고 대상자에 맞추어 개인화하는 기능입니다.
+익명의 대상 활성화는 익명의 장치 및 행동 데이터를 기반으로 웹, 모바일 및 광고 채널을 통해 대상을 타겟팅하고 개인화하는 기능입니다.
 
 ## 사용 사례
 
