@@ -2,13 +2,13 @@
 title: 행동 기반 웹 개인화 블루프린트
 description: 온라인 행동 및 대상자 데이터를 기반으로 콘텐츠를 개인화하는 방법을 알아봅니다.
 landing-page-description: 온라인 행동과 대상자 데이터를 기반으로 개인화하는 방법을 배웁니다.
-solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 16b022263e622c07528329e71f479c63628f6ee0
+source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
