@@ -9,7 +9,7 @@ exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 88%
 
 ## Real-time Customer Data Platform 구현 단계
 
-* Real-time Customer Data Platform의 구현 단계는 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html)를 참조하세요.
 
 ## 관련 설명서
 
