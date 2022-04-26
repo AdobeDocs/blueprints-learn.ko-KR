@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
@@ -67,4 +67,4 @@ ht-degree: 0%
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
    + [행동을 통한 개인화](/help/blueprints/web-personalization/behavioral.md)
-   + [알려진 고객 Personalization](/help/blueprints/web-personalization/known-personalization.md)
+   + [알려진 고객 개인화](/help/blueprints/web-personalization/known-personalization.md)
