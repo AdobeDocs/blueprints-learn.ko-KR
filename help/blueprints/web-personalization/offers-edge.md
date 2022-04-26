@@ -1,11 +1,12 @@
 ---
-title: Offer Decisioning
+title: offer decisioning을 사용한 웹/모바일 개인화
 description: 키오스크 및 에이전트 지원 경험을 포함한 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: fe2681bce2882d43ae24f185a0bd22e952978466
+exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 0%
 
 ---
 

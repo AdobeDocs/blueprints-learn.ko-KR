@@ -2,9 +2,10 @@
 title: Offer Decisioning
 description: 키오스크 및 에이전트 지원 경험을 포함한 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 39%
 
 ---
@@ -71,12 +72,14 @@ Adobe Experience Platform
 ## 구현 패턴
 
 * 웹 사이트 및 모바일 애플리케이션에서 배포하기 위해 Web 또는 Mobile SDK를 사용하여 SDK가 배포된 Offer decisioning을 구현합니다.
+   * [웹/모바일 SDK 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=ko)
    * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 또는
 
-* API 서버 간 서버 기반 구현의 경우 서버 간 직접 Offer decisioning 구현을 위해 Edge Network Server API를 사용하십시오. [링크](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* API 서버 간 서버 기반 구현의 경우 서버 간 직접 Offer decisioning 구현을 위해 Edge Network Server API를 사용하십시오.
+   * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 

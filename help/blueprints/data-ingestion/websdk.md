@@ -5,7 +5,7 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: acef1c8122285cfecdae633ca004ddbf3a0cf719
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 36%
@@ -36,7 +36,7 @@ WebSDK에서 지원되는 응용 프로그램 기능에 대한 자세한 개요�
 
 Experience Edge, Experience Platform 서비스 및 응용 프로그램의 시퀀스 다이어그램
 
-<img src="assets/web_sdk_sequence.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 참조 설명서
 
