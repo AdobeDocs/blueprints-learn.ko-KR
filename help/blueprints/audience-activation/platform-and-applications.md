@@ -24,7 +24,7 @@ Experience Cloud 애플리케이션에서의 활성화는 [알려진 고객 활�
 
 ## 애플리케이션
 
-* Adobe Experience Platform 
+* Adobe Experience Platform  
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 애플리케이션

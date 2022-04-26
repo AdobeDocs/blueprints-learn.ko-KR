@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 애플리케이션
 
-* Adobe Experience Platform  Activation
+* Adobe Experience Platform   Activation
 
 ## 아키텍처
 
