@@ -5,9 +5,9 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fb981a16bc02190731a7c1dac8cc6bd5f0667304
+source-git-commit: 96d4e0c62b85070e1650adf637519098d227c53d
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 97%
 
 ---
@@ -70,3 +70,4 @@ ht-degree: 97%
    + [개요](/help/blueprints/web-personalization/overview.md)
    + [행동을 통한 개인화](/help/blueprints/web-personalization/behavioral.md)
    + [알려진 고객 개인화](/help/blueprints/web-personalization/known-personalization.md)
+   + [Offer Decisioning](/help/blueprints/web-personalization/offers-edge.md)
