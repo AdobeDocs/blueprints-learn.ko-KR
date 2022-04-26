@@ -4,9 +4,9 @@ description: Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 �
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1193'
+ht-degree: 100%
 
 ---
 
