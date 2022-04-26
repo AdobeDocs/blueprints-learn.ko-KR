@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 ## 관련 설명서
 
-* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
 * [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)
