@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 94%
+source-wordcount: '192'
+ht-degree: 91%
 
 ---
 
@@ -61,8 +61,9 @@ ht-degree: 94%
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [서버측 엔터프라이즈 데이터 수집 ](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
-   + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
+   + 배포{#deployment}
+      + [Experience Platform 웹 SDK 및 Edge Network](/help/blueprints/data-ingestion/websdk.md)
+      + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 데이터 분석, 인텔리전스 및 AI/ML {#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)

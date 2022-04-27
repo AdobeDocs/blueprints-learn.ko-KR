@@ -1,14 +1,14 @@
 ---
-title: 웹/모바일 SDK 데이터 수집 블루프린트
-description: 이 블루프린트는 Experience Platform Web 및 Mobile SDK를 통한 아키텍처와 수집을 보여줍니다.
-solution: Data Collection
+title: 웹/모바일 SDK, Edge 네트워크 배포 블루프린트
+description: 이 블루프린트는 Experience Platform Web and Mobile SDK 및 Edge 네트워크를 통한 아키텍처 및 수집을 보여줍니다
+solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 33%
+source-wordcount: '241'
+ht-degree: 24%
 
 ---
 
