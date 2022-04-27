@@ -5,19 +5,20 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
+source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 36%
+source-wordcount: '237'
+ht-degree: 33%
 
 ---
 
 
 # 개요
 
-웹 및 Mobile SDK에 대한 개요 및 세부 정보는 다음을 참조하십시오.
+웹 및 모바일 SDK 및 Edge Network Server API에 대한 개요 및 세부 정보는 다음을 참조하십시오.
 * [WebSDK 개요](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)
 * [MobileSDK 개요](https://aep-sdks.gitbook.io/docs/)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 WebSDK에서 지원되는 응용 프로그램 기능에 대한 자세한 개요를 보려면 다음 설명서를 참조하십시오.
 * [WebSDK 애플리케이션 기능 지원](https://github.com/orgs/adobe/projects/18/views/1)
@@ -28,7 +29,7 @@ WebSDK에서 지원되는 응용 프로그램 기능에 대한 자세한 개요�
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Target 분석](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-## 웹/모바일 SDK 배포 Experience Platform
+## Experience Platform 웹/모바일 SDK 또는 Edge Network Server API 배포
 
 아래 아키텍처 다이어그램은 Experience Platform 웹 SDK를 활용하는 배포 및 데이터 수집을 보여줍니다.
 
