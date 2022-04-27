@@ -2,10 +2,11 @@
 title: 허브에서 offer decisioning
 description: 키오스크, 에이전트 지원 경험, 이메일 및 기타 아웃바운드 게재를 비롯한 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
+exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
+source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 35%
+source-wordcount: '797'
+ht-degree: 33%
 
 ---
 
@@ -27,6 +28,7 @@ Edge의 의사 결정 관리에 대한 자세한 내용은 [최상의 의사 결
 
 * 키오스크 및 스토어 경험에서 개인화된 오퍼입니다.
 * 콜 센터나 영업 상호 작용 등 에이전트 지원 경험을 통해 개인화된 오퍼입니다.
+* 이메일, SMS 또는 기타 아웃바운드 상호 작용에 포함된 오퍼.
 * 크로스 채널 여정 실행 - Adobe Journey Optimizer을 통해 웹, 모바일, 이메일 및 기타 상호 작용 채널 간에 일관성을 제공합니다.
 
 <br>
@@ -72,10 +74,10 @@ Adobe Experience Platform
 
 ## 구현 패턴
 
-* Adobe Journey Optimizer과 직접 통합을 통해 이메일, SMS 및 아웃바운드 채널로 구현됩니다.
-* 다른 채널 경험의 경우 는 [의사 결정 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* 직접 통합을 통해 이메일, SMS 및 아웃바운드 채널로 구현됨 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
+* 서버 API 기반 Offer decisioning 구현의 경우 [의사 결정 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* 오퍼를 대량으로 메시지 게재 애플리케이션에 전달하는 배치 기반 의사 결정을 구현하는 경우 [Batch Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
 * Edge 기반 실시간 경험의 경우, [Edge 블루프린트의 offer decisioning](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
-
 <br>
 
 ## 구현 단계
