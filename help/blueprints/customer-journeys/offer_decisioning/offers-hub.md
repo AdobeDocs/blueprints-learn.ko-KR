@@ -3,10 +3,10 @@ title: 허브에서 offer decisioning
 description: 키오스크, 에이전트 지원 경험, 이메일 및 기타 아웃바운드 게재를 비롯한 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 33%
+source-wordcount: '820'
+ht-degree: 32%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비�
 
 Edge의 의사 결정 관리에 대한 자세한 내용은 [최상의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) 블루프린트.
 
-의사 결정 관리에 대한 자세한 내용은 제품 설명서 HERE (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 을 참조하십시오.
+의사 결정 관리에 대한 자세한 내용은 제품 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## 사용 사례
 
@@ -57,7 +57,8 @@ Adobe Experience Platform
 
 ## 가드레일
 
-[Journey Optimizer 가드레일 제품 링크](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Journey Optimizer 보호에 대해서는 다음을 참조하십시오 [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* offer decisioning 보증에 대해서는 다음을 참조하십시오 [offer decisioning 제품 설명](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### 데이터 수집 가드 레일
@@ -108,5 +109,5 @@ Adobe Experience Platform
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Adobe Journey Optimizer 의사 결정 관리](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Adobe Offer decisioning 제품 설명](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
