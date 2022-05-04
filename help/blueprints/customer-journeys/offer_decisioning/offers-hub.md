@@ -3,7 +3,7 @@ title: 허브에서 offer decisioning
 description: 키오스크, 에이전트 지원 경험, 이메일 및 기타 아웃바운드 게재를 비롯한 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
+source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 32%
@@ -57,8 +57,8 @@ Adobe Experience Platform
 
 ## 가드레일
 
-* Journey Optimizer 보호에 대해서는 다음을 참조하십시오 [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-* offer decisioning 보증에 대해서는 다음을 참조하십시오 [offer decisioning 제품 설명](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Journey Optimizer 보호 기능의 경우 다음을 참조하십시오 [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
+* offer decisioning 보호 기능은 다음을 참조하십시오 [offer decisioning 제품 설명](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### 데이터 수집 가드 레일
