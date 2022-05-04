@@ -3,10 +3,10 @@ title: 에지 offer decisioning
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bfc8133f0a48cb35dd62e74e92eeb041e93be5c7
+source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,6 @@ Adobe Experience Platform
 
 * API 서버 간 서버 기반 구현의 경우 서버 간 직접 Offer decisioning 구현을 위해 Edge Network Service API를 사용하십시오.
    * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [의사 결정 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
