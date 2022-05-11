@@ -3,16 +3,20 @@ title: 허브에서 offer decisioning
 description: 키오스크, 에이전트 지원 경험, 이메일 및 기타 아웃바운드 게재를 비롯한 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 32%
+source-wordcount: '904'
+ht-degree: 28%
 
 ---
 
 # Journey Optimizer - 허브의 Offer decisioning
 
+의사 결정 관리에 대한 자세한 내용은 제품 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 및 Offer decisioning 개요 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+
 Adobe 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트는 애플리케이션의 사용 사례 및 기술 기능을 간략하게 설명하고 Offer decisioning을 구성하는 다양한 아키텍처 구성 요소 및 고려 사항을 자세히 설명합니다.
+
+Journey Optimizer은 모든 터치 포인트를 적시에 걸쳐 고객에게 최상의 오퍼와 경험을 전달하는 데 사용됩니다. offer decisioning을 사용하면 마케팅 오퍼의 중앙 라이브러리와 Adobe Experience Platform에서 만든 풍부한 실시간 프로필에 규칙과 제한을 적용하여 고객에게 적시에 적절한 오퍼를 제공하는 의사 결정 엔진을 통해 개인화를 쉽게 수행할 수 있습니다.
 
 의사 결정 관리를 두 가지 방법 중 하나로 배포할 수 있습니다. 첫 번째 단계는 중앙 데이터 센터 아키텍처인 Adobe Experience Platform 허브를 통해 입니다. &quot;허브&quot; 접근 방식에서는 오퍼가 실행, 개인화 및 500ms 이상의 지연으로 전달됩니다. 따라서 허브 아키텍처는 초 미만의 지연을 요구하지 않는 고객 경험에 가장 적합합니다. 예를 들면 콜센터 또는 개인 상호 작용과 같이 키오스크 또는 에이전트 지원 경험에 대해 제공되는 오퍼 결정 등이 있습니다. 이메일 및 아웃바운드 캠페인에 삽입되는 오퍼도 허브 접근 방식으로 제공됩니다.
 
@@ -20,11 +24,9 @@ Adobe 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비�
 
 이 블루프린트는 허브에서 의사 결정 관리의 세부 사항을 다룹니다.
 
-Edge의 의사 결정 관리에 대한 자세한 내용은 [최상의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) 블루프린트.
+Edge의 의사 결정 관리에 대한 자세한 내용은 [최상의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html) 블루프린트.
 
-의사 결정 관리에 대한 자세한 내용은 제품 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-
-## 사용 사례
+## 허브의 의사 결정 관리에 사용 사례
 
 * 키오스크 및 스토어 경험에서 개인화된 오퍼입니다.
 * 콜 센터나 영업 상호 작용 등 에이전트 지원 경험을 통해 개인화된 오퍼입니다.

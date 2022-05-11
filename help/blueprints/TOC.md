@@ -5,9 +5,9 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 91%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 91%
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + Offer Decisioning{#offer-decisioning}
+         + [개요](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
          + [에지 offer decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
          + [허브에서 offer decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer와 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)

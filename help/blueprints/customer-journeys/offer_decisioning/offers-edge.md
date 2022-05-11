@@ -3,14 +3,16 @@ title: 에지 offer decisioning
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '772'
+ht-degree: 34%
 
 ---
 
 # Journey Optimizer - Offer decisioning
+
+의사 결정 관리에 대한 자세한 내용은 제품 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 및 Offer decisioning 개요 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
 Adobe 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트는 애플리케이션의 사용 사례 및 기술 기능을 간략하게 설명하고 Offer decisioning을 구성하는 다양한 아키텍처 구성 요소 및 고려 사항을 자세히 설명합니다.
 
@@ -20,14 +22,11 @@ Adobe 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비�
 
 이 블루프린트는 Edge에서 의사 결정 관리의 세부 사항을 다룹니다.
 
-허브에서 의사 결정 관리에 대한 자세한 내용은 [허브의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) 블루프린트.
+허브에서 의사 결정 관리에 대한 자세한 내용은 [허브의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) 블루프린트.
 
-의사 결정 관리에 대한 자세한 내용은 제품 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+## 에지에서 의사 결정 관리에 사용 사례
 
-## 사용 사례
-
-* 웹 또는 모바일을 통한 온라인 개인화.
-* 인바운드 offer decisioning 및 오퍼 포지션.
+* 웹 또는 모바일 인바운드 경험을 통한 온라인 개인화.
 * 크로스 채널 여정 실행 - Adobe Journey Optimizer을 통해 웹, 모바일, 이메일 및 기타 상호 작용 채널 간에 일관성을 제공합니다.
 
 <br>
