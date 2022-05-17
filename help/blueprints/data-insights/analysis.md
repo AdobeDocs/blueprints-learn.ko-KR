@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 82%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 데이터 분석 및 인텔리전스는 Adobe Experience Platform 내에서 데이터 레이크에 존재하는 데이터에 대해 탐색 쿼리와 분석을 수행하는 기능으로 구성되어 있습니다.
 
-Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대해 SQL 쿼리를 수행할 수 있습니다. [!UICONTROL Data Science Workspace]에서는 데이터 탐색, 데이터 과학 및 데이터에 대한 머신 러닝 워크로드를 수행할 수 있습니다.
+Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대해 SQL 쿼리를 수행할 수 있습니다.
 
-또한 Experience Platform은 서드파티 SQL 클라이언트, 인터페이스 및 BI(Business Intelligence) 도구에 연결할 수 있으므로 [!DNL PostgreSQL] 프로토콜을 사용하여 Experience Platform 내에서 데이터에 직접 연결, 액세스 및 쿼리할 수 있습니다.
+Experience Platform을 사용하면 타사 SQL 클라이언트, 인터페이스 및 Business Intelligence(BI) 도구와의 연결을 통해 Experience Platform 내에서 [!DNL PostgreSQL] 프로토콜.
 
-블루프린트 세부 정보에서 확인할 수 있는 바와 같이, 쿼리 타임아웃 및 쿼리 결과에 포함되는 데이터에 양에 대해 특정 가드레일이 적용됩니다.
+아래 보호 기능 섹션에 설명된 대로 쿼리 시간 제한 및 쿼리 결과에 포함된 데이터 양에 대해 특정 보호 기능이 적용됩니다.
 
 ## 사용 사례
 
@@ -30,7 +30,7 @@ Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대�
 
 ## 애플리케이션
 
-* Adobe Experience Platform 
+* Adobe Experience Platform  
 
 ## 아키텍처
 

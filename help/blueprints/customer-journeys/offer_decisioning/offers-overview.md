@@ -2,9 +2,10 @@
 title: offer decisioning 개요
 description: 고객 여정 간에 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+exl-id: f6271802-faab-4ffc-92d6-4c4d7d423ed4
+source-git-commit: 8842b8637a30151577a93653c16b4d37e2cf7c27
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -24,7 +25,7 @@ Journey Optimizer은 모든 터치 포인트를 적시에 걸쳐 고객에게 �
 
 <img src="../assets/offers_overview.png" alt="Offer Decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
-의사 결정 관리를 두 가지 방법 중 하나로 배포할 수 있습니다.
+의사 결정 관리는 에지 또는 허브를 통해 두 가지 방법 중 하나로 배포할 수 있습니다. 이러한 각 방법에는 아래에서 참조되는 각 청사진에 설명된 대로 서비스를 운영하기 위한 특정 인터페이스 및 프로토콜 세트가 있습니다. 자세한 내용은 결정 관리 설명서에서 확인할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
 ## 허브의 의사 결정 관리
 

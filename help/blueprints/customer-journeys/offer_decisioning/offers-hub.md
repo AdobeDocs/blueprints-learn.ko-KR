@@ -3,10 +3,10 @@ title: 허브에서 offer decisioning
 description: 키오스크, 에이전트 지원 경험, 이메일 및 기타 아웃바운드 게재를 비롯한 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 28%
+source-wordcount: '881'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,8 @@ Edge의 의사 결정 관리에 대한 자세한 내용은 [최상의 의사 결
 
 * 키오스크 및 스토어 경험에서 개인화된 오퍼입니다.
 * 콜 센터나 영업 상호 작용 등 에이전트 지원 경험을 통해 개인화된 오퍼입니다.
-* 이메일, SMS 또는 기타 아웃바운드 상호 작용에 포함된 오퍼.
+* 이메일, SMS, 모바일 푸시 알림 또는 기타 아웃바운드 상호 작용에 포함된 오퍼.
+* 전달을 위해 외부 ESP 및 메시징 시스템에 오퍼를 제공합니다.
 * 크로스 채널 여정 실행 - Adobe Journey Optimizer을 통해 웹, 모바일, 이메일 및 기타 상호 작용 채널 간에 일관성을 제공합니다.
 
 <br>
@@ -40,12 +41,6 @@ Edge의 의사 결정 관리에 대한 자세한 내용은 [최상의 의사 결
 <img src="../assets/offers_hub.svg" alt="Edge 블루프린트에서 참조 아키텍처 Offer decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
-
-## 통합 패턴
-
-| 통합 | 설명 |
-| :-- | :--- |
-| [Adobe Target으로 offer decisioning](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | offer decisioning은 Adobe Target과 통합될 수 있으므로 오퍼를 Target 경험으로 테스트 및 전달할 수 있습니다. |
 
 ## 필요 조건
 
