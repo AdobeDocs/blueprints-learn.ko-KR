@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 91%
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning{#offer-decisioning}
+      + Offer Decisioning {#offer-decisioning}
          + [개요](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [에지 offer decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [허브에서 offer decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+         + [Edge의 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [허브의 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer와 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [서드파티 메시지](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -62,8 +62,8 @@ ht-degree: 91%
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [서버측 엔터프라이즈 데이터 수집 ](/help/blueprints/data-ingestion/server-side-collection.md)
-   + 배포{#deployment}
-      + [Experience Platform 웹 SDK 및 Edge Network](/help/blueprints/data-ingestion/websdk.md)
+   + 배포 {#deployment}
+      + [Experience Platform Web SDK와 Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 데이터 분석, 인텔리전스 및 AI/ML {#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)

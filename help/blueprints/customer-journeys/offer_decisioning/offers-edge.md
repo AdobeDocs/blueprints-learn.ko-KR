@@ -1,39 +1,39 @@
 ---
-title: 에지 offer decisioning
+title: Edge의 Offer Decisioning
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 34%
+ht-degree: 93%
 
 ---
 
-# Journey Optimizer - Offer decisioning
+# Journey Optimizer - Edge의 Offer Decisioning
 
-의사 결정 관리에 대한 자세한 내용은 제품 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 및 Offer decisioning 개요 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+의사 결정 관리에 대한 자세한 내용은 제품 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko) 및 Offer decisioning 개요 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
-Adobe 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트는 애플리케이션의 사용 사례 및 기술 기능을 간략하게 설명하고 Offer decisioning을 구성하는 다양한 아키텍처 구성 요소 및 고려 사항을 자세히 설명합니다.
+Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트에서는 애플리케이션의 사용 사례 및 기술적 기능을 간략하게 설명하고 Offer Decisioning의 다양한 아키텍처 구성 요소와 고려할 사항을 자세히 설명합니다.
 
-의사 결정 관리를 두 가지 방법 중 하나로 배포할 수 있습니다. 첫 번째 단계는 단일 데이터 센터 아키텍처인 Adobe Experience Platform 허브를 통해 입니다. &quot;hub&quot; 접근 방식에서는 두 번째 지연 시 오퍼가 실행, 개인화 및 전달됩니다. 따라서 허브 아키텍처는 초 미만의 지연을 요구하지 않는 고객 경험에 가장 적합합니다. 예를 들면 콜센터 또는 개인 상호 작용과 같은 키오스크 또는 에이전트 지원 경험에 대해 제공되는 오퍼 결정 등이 있습니다.
+의사 결정 관리는 두 가지 방법 중 하나로 배포할 수 있습니다. 첫 번째 방법은 단일 데이터 센터 아키텍처인 Adobe Experience Platform 허브를 통해 배포하는 것입니다. [허브] 접근 방식에서는 오퍼를 실행, 개인화하여 초 단위의 지연 시간을 두고 게재합니다 따라서 허브 아키텍처는 지연 시간이 초 미만 단위일 필요가 없는 고객 경험에 가장 적합합니다. 예를 들면 콜센터 또는 대면 상호 작용 등의 상담원 지원 경험이나 키오스크에서 제공하는 오퍼 의사 결정이 있습니다.
 
-두 번째 방법은 Experience Edge Network를 통한 것입니다. Experience Edge Network는 빠른 초 및 밀리초 경험을 제공하기 위해 지리적으로 분산된 인프라입니다. 최종 소비자 경험은 지연을 최소화하기 위해 지리적 위치에 가장 가까운 에지 인프라에 의해 실행됩니다. Edge의 의사 결정 관리는 실시간 고객 경험을 제공하도록 설계되었습니다. 여기에는 웹 또는 모바일 인바운드 개인화 요청과 같은 경험이 포함됩니다.
+두 번째 방법은 Experience Edge Network를 통한 것입니다. Experience Edge Network는 1초 미만, 밀리초 단위의 빠른 경험을 제공하기 위해 지리적 위치를 전 세계에 분산시킨 인프라입니다. 지연을 최소화하기 위하여 최종 소비자 경험은 소비자의 지리적 위치에서 가장 가까운 Edge 인프라에 의해 실행됩니다. Edge의 의사 결정 관리는 실시간 고객 경험을 제공하기 위해 설계되었습니다. 여기에는 웹 또는 모바일 인바운드 개인화 요청 등의 경험이 포함됩니다.
 
-이 블루프린트는 Edge에서 의사 결정 관리의 세부 사항을 다룹니다.
+이 블루프린트는 Edge에서의 의사 결정 관리에 대해 구체적인 정보를 다룹니다.
 
-허브에서 의사 결정 관리에 대한 자세한 내용은 [허브의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) 블루프린트.
+허브의 의사 결정 관리에 대한 자세한 내용은 [허브의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) 블루프린트를 참조하세요.
 
 ## 에지에서 의사 결정 관리에 사용 사례
 
 * 웹 또는 모바일 인바운드 경험을 통한 온라인 개인화.
-* 크로스 채널 여정 실행 - Adobe Journey Optimizer을 통해 웹, 모바일, 이메일 및 기타 상호 작용 채널 간에 일관성을 제공합니다.
+* 크로스 채널 여정 실행 - Adobe Journey Optimizer를 통한 웹, 모바일, 이메일, 기타 상호 작용 채널 간 오퍼 일관성.
 
 <br>
 
 ## 아키텍처
 
-<img src="../assets/offers_edge.svg" alt="Edge 블루프린트에서 참조 아키텍처 Offer decisioning" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="참조 아키텍처: Edge의 Offer Decisioning 블루프린트" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -41,7 +41,7 @@ Adobe 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비�
 
 | 통합 | 설명 |
 | :-- | :--- |
-| [Adobe Target으로 offer decisioning](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | offer decisioning은 Adobe Target과 통합될 수 있으므로 오퍼를 Target 경험으로 테스트 및 전달할 수 있습니다. |
+| [Offer Decisioning과 Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=ko) | Offer Decisioning을 Adobe Target과 통합하여 오퍼를 테스트하고 Target 경험으로 게재할 수 있습니다. |
 
 ## 필요 조건
 
@@ -55,10 +55,10 @@ Adobe Experience Platform
 
 ## 가드레일
 
-* Journey Optimizer 보호 기능의 경우 다음을 참조하십시오 [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
-* offer decisioning 보호 기능은 다음을 참조하십시오 [offer decisioning 제품 설명](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Journey Optimizer의 가드레일에 대해서는 다음의 [Journey Optimizer 가드레일](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=ko)을 참조하세요.
+* Offer Decisioning의 가드레일에 대해서는 다음의 [Offer Decisioning 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html)을 참조하세요.
 
-### 데이터 수집 가드 레일
+### 데이터 수집 가드레일
 
 <img src="../assets/aep-data-ingestion-details-latency.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
@@ -72,15 +72,15 @@ Adobe Experience Platform
 
 ## 구현 패턴
 
-* 웹 사이트 및 모바일 애플리케이션에서 배포하기 위해 Web 또는 Mobile SDK를 사용하여 SDK가 배포된 Offer decisioning을 구현합니다.
-   * [웹/모바일 SDK 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=ko)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
+* 웹사이트 및 모바일 애플리케이션에서 배포하려는 경우 Web 또는 Mobile SDK를 사용하여 SDK를 배포할 곳에 Offer Decisioning을 구현합니다.
+   * [Web/Mobile SDK 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=ko)
+   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ko)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 또는
 
-* API 서버 간 서버 기반 구현의 경우 서버 간 직접 Offer decisioning 구현을 위해 Edge Network Service API를 사용하십시오.
-   * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* API 서버 간 기반 구현의 경우 Edge Network Service API를 사용하여 서버 간에 직접 Offer Decisioning을 구현합니다.
+   * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=ko)
 
 <br>
 
@@ -109,8 +109,8 @@ Adobe Experience Platform
 
 ## 관련 설명서
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
 * [Adobe Journey Optimizer 의사 결정 관리](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe Offer decisioning 제품 설명](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [ Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Offer Decisioning 제품 설명](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
