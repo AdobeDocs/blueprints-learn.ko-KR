@@ -6,9 +6,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 9d9daf96b9ad36d3f384f486e156a79e679494d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1269'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 94%
 
 | 통합 패턴 | 기능 | 필요 조건 |
 |---|---|---|
-| Real-time Customer Data Platform에서 Target으로 공유된 데이터를 Edge에서 실시간으로 세그먼트 평가 | <ul><li>대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.</li><li>또 스트리밍 또는 일괄 방식으로 평가된 모든 세그먼트는 Edge Network에 투영되어 에지 세그먼트 평가 및 개인화에 포함됩니다.</li></ul> | <ul><li>웹/모바일 SDK를 구현하거나 Edge Network Server API를 구현해야 합니다</li><li>데이터 스트림은 Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 구성해야 합니다.</li><li>Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li></ul> |
+| Real-time Customer Data Platform에서 Target으로 공유된 데이터를 Edge에서 실시간으로 세그먼트 평가 | <ul><li>대상자를 실시간으로 평가하여 Edge의 현재 또는 다음 페이지 개인화에 사용합니다.</li><li>또 스트리밍 또는 일괄 방식으로 평가된 모든 세그먼트는 Edge Network에 투영되어 에지 세그먼트 평가 및 개인화에 포함됩니다.</li></ul> | <ul><li>Web/Mobile SDK 또는 Edge Network Server API를 구현해야 합니다.</li><li>데이터 스트림은 Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 구성해야 합니다.</li><li>Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li></ul> |
 | Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상자 공유 | <ul><li>Edge Network를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상자를 공유합니다. 대상자를 실시간으로 평가하려면 WebSDK 및 Edge Network 구현이 필요합니다.</li></ul> | <ul><li>스트리밍 및 일괄 처리 대상자를 Target에 공유할 때는 Web/Mobile SDK가 필요하지 않지만, 실시간 Edge 세그먼트 평가를 활성화할 때는 필요합니다.</li><li>AT.js를 사용하는 경우 ECID 신원 네임스페이스에 대한 프로필 통합만 지원합니다.</li><li>Edge에서 사용자 정의 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</li><li>Target 대상은 Real-time Customer Data Platform 대상에서 구성해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li></ul> |
-| - 대상자 공유 서비스를 통해 Real-time Customer Data Platform에서 Target과 Audience Manager로 스트리밍 및 일괄 처리 대상자 공유 | <ul><li>이 통합 패턴은 Audience Manager의 서드파티 데이터 및 대상자를 사용한 추가 보강이 필요한 경우 활용할 수 있습니다.</li></ul> | <ul><li>스트리밍 및 일괄 처리 대상자를 Target에 공유할 때는 Web/Mobile SDK가 필요하지 않지만, 실시간 Edge 세그먼트 평가를 활성화할 때는 필요합니다.</li><li>AT.js를 사용하는 경우 ECID 신원 네임스페이스에 대한 프로필 통합만 지원합니다.</li><li>Edge에서 사용자 정의 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</li><li>대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li><li>prod sandbox의 대상만 대상 공유 핵심 서비스를 지원합니다.</li></ul> |
+| 대상자 공유 서비스를 통해 Real-time Customer Data Platform에서 Target과 Audience Manager로 스트리밍 및 일괄 처리 대상자 공유 | <ul><li>이 통합 패턴은 Audience Manager의 서드파티 데이터 및 대상자를 사용한 추가 보강이 필요한 경우 활용할 수 있습니다.</li></ul> | <ul><li>스트리밍 및 일괄 처리 대상자를 Target에 공유할 때는 Web/Mobile SDK가 필요하지 않지만, 실시간 Edge 세그먼트 평가를 활성화할 때는 필요합니다.</li><li>AT.js를 사용하는 경우 ECID 신원 네임스페이스에 대한 프로필 통합만 지원합니다.</li><li>Edge에서 사용자 정의 ID 네임스페이스를 조회하는 경우 WebSDK 배포가 필요하며 각 신원을 신원 맵 내 신원으로 설정해야 합니다.</li><li>대상자 공유 서비스를 통한 대상자 프로젝션은 반드시 프로비저닝해야 합니다.</li><li>Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다.</li><li>프로덕션 샌드박스에서 가져온 대상자만이 대상자 공유 핵심 서비스를 지원합니다.</li></ul> |
 
 ## Adobe Target으로 실시간, 스트리밍, 일괄 처리 대상자 공유
 
@@ -55,11 +55,11 @@ ht-degree: 94%
 
 알려진 고객 개인화는 몇 가지 구현 방법을 통해 지원됩니다.
 
-### 구현 패턴 1 - 웹/모바일 SDK 또는 Edge 네트워크 API를 사용한 Edge 네트워크(권장 방법)
+### 구현 패턴 1 - Edge Network와 Web/Mobile SDK 또는 Edge Network API(권장 방법)
 
 * Web/Mobile SDK에서 Edge Network를 사용합니다. 실시간 Edge 세분화를 사용하려면 Web/Mobile SDK 또는 Edge API 구현 방법이 필요합니다.
-* [Experience Platform Web 및 Mobile SDK 블루프린트를 참조하세요.](../data-ingestion/websdk.md) 를 사용하도록 선택할 수 있습니다.
-* [Edge Network Server API 를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) Edge Profile이 있는 Adobe Target의 API 기반 구현에 대해 설명합니다.
+* [Experience Platform Web 및 Mobile SDK 블루프린트를 참조하세요.](../data-ingestion/websdk.md)  SDK 기반 구현에 대해 설명하고 있습니다.
+* Edge Profile을 사용하는 Adobe Target의 API 기반 구현에 대해서는 [Edge Network Server API를 참조하세요](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko).
 
 ### 구현 패턴 2 - 애플리케이션별 SDK
 
@@ -93,14 +93,14 @@ ID 필요 조건
 
 ### SDK 설명서
 
-* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
 * [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
 
 ### 연결 설명서
 
-* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
-* [Edge Datastream 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
+* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
+* [Edge Datastream 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
 * [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko)
 
 ### 세분화 설명서
@@ -109,7 +109,7 @@ ID 필요 조건
 * [실시간 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ko)
 * [세분화 스트리밍](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
 * [Adobe Analytics 세그먼트를 Adobe Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
-* [병합 정책 구성](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
+* [병합 정책 구성](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#create-a-merge-policy)
 
 ### 튜토리얼
 
