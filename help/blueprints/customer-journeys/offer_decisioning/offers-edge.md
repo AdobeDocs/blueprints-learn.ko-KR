@@ -3,10 +3,10 @@ title: Edge의 Offer Decisioning
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 93%
+source-wordcount: '847'
+ht-degree: 85%
 
 ---
 
@@ -57,6 +57,10 @@ Adobe Experience Platform
 
 * Journey Optimizer의 가드레일에 대해서는 다음의 [Journey Optimizer 가드레일](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=ko)을 참조하세요.
 * Offer Decisioning의 가드레일에 대해서는 다음의 [Offer Decisioning 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html)을 참조하세요.
+* 초당 요청 수 = 5000입니다.
+* 응답 지연 시간이 250ms 미만입니다.
+* Edge 실시간 프로필에 대한 액세스. 에지 예상 대상 및 프로필 속성만 프로필에서 사용할 수 있습니다.
+* 처음 경험에서 개인화가 필요한 경우 전체 프로필을 사용할 수 있으므로 허브가 이상적입니다. Edge 프로필은 처음 Edge 경험을 위해 허브에서 동기화되어야 합니다. 따라서 Edge의 첫 번째 경험에는 이전에 업로드된 프로필 데이터가 허브에 포함되지 않습니다.
 
 ### 데이터 수집 가드레일
 
