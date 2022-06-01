@@ -3,10 +3,10 @@ title: Journey Optimizer와 Adobe Campaign 블루프린트
 description: Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 메시지를 보내는 방법을 설명합니다. Campaign의 실시간 메시지 서버를 활용합니다.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
-source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
-workflow-type: ht
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
    * 세그먼트 스트리밍(5분 미만의 인증)
 * 세그먼트 일괄 처리: 인증 사용자의 일별 볼륨을 이해해야 하며, 대상 시스템이 각 여정 및 모든 여정의 발생 처리량을 처리할 수 있어야 합니다.
 * 세그먼트 스트리밍: 프로필 인증 첫 발생을 각 여정 및 모든 여정에 대한 일별 스트리밍 인증 볼륨과 함께 처리할 수 있어야 합니다.
-* Offer Decisioning은 지원하지 않습니다.
+* 의 의사 결정 관리가 지원되지 않음
 * 비즈니스 이벤트는 지원하지 않습니다.
 * 서드파티 시스템으로의 아웃바운드 통합
    * 멀티 테넌트 인프라를 사용하므로 단일 고정 IP를 지원하지 않습니다(모든 데이터 센터의 IP를 허용 목록에 추가해야 함).
@@ -76,7 +76,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 * AC(v7)는 이벤트 시작 여정만 지원합니다.
    * 세그먼트 또는 세그먼트 멤버십에서 시작한 여정은 지원하지 않습니다.
    * [대상자 읽기] 및 [비즈니스] 이벤트 기반 여정은 실행 인스턴스로 보낼 수 있는 데이터 양으로 인해 지원하지 않습니다.
-* AC(v7), AC(v8) 모두 메시지에 대해 Offer Decisioning을 지원하지 않습니다.
+* AC(v7) 또는 AC(v8)는 모두 메시지 의사 결정 관리를 지원하지 않습니다
 * Campaign에 대한 아웃바운드 API 호출에 대해 스로틀링을 지원하지 않습니다.
 * 트랜잭션 메시지 로그는 AEP에 기본적으로 동기화되지 않습니다. 동기화하려면 컨설팅이 필요합니다. 로그는 최대 4시간마다 내보내는 것을 추천합니다.
 
@@ -108,7 +108,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 #### 프로필/ID
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
+1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 1. [!UICONTROL Real-time Customer Profile]의 서로 다른 보기에 대한 [병합 규칙](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko)을 만듭니다(선택 사항).
 1. Journey에서 사용할 세그먼트를 만듭니다.

@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f39c916d4b13d17eb3705c7adf01353929ff7956
+source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 96%
+ht-degree: 89%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 96%
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning {#offer-decisioning}
-         + [개요](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [Edge의 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [허브의 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+      + 의사 결정 관리{#decision-management}
+         + [개요](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
+         + [최상의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [허브의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer와 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [서드파티 메시지](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -74,4 +74,4 @@ ht-degree: 96%
    + [개요](/help/blueprints/web-personalization/overview.md)
    + [행동을 통한 개인화](/help/blueprints/web-personalization/behavioral.md)
    + [알려진 고객 개인화](/help/blueprints/web-personalization/known-personalization.md)
-   + [Offer Decisioning](/help/blueprints/web-personalization/offers-edge.md)
+   + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)
