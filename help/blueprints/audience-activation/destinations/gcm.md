@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
 source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
    * 주어진 세그먼트에 대한 세그먼트 결과 수를 검토합니다.
    * 세그먼트에 포함해야 하는 프로필을 살펴보며 세그먼트 멤버십이 프로필의 세그먼트 멤버십 부분에 들어가 있는지 확인합니다.
 1. [대상] 구성에서 대상에 대한 대상자 게재를 구성합니다.
-   * Google Customer Match 대상 구성에 대한 자세한 내용은 [Google Customer Match 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)를 참조하세요.
+   * Google Customer Match 대상 구성에 대한 자세한 내용은 [Google Customer Match 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=ko)를 참조하세요.
    * 대상을 구성할 때 해당 대상에 대해 활성화할 대상자를 선택합니다.
    * 대상 데이터 흐름에서 대상자를 대상에 게재할 예약 시작 일자를 결정합니다.
    * 각 대상에는 필수적으로 보내야 하는 속성과 보낼 여부를 선택할 수 있는 속성이 있습니다.
@@ -91,4 +91,4 @@ ht-degree: 100%
 
 ## 관련 설명서
 
-Google Customer Match 활성화 - [대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
+Google Customer Match 활성화 - [대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=ko)
