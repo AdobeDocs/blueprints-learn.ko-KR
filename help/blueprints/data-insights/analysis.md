@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 82%
 
 Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대해 SQL 쿼리를 수행할 수 있습니다.
 
-Experience Platform을 사용하면 타사 SQL 클라이언트, 인터페이스 및 Business Intelligence(BI) 도구와의 연결을 통해 Experience Platform 내에서 [!DNL PostgreSQL] 프로토콜.
+Experience Platform은 서드파티 SQL 클라이언트, 인터페이스, BI(Business Intelligence) 도구에 연결할 수 있으므로 [!DNL PostgreSQL] 프로토콜을 사용하여 Experience Platform 내에서 데이터에 직접 연결, 액세스, 쿼리할 수 있습니다.
 
-아래 보호 기능 섹션에 설명된 대로 쿼리 시간 제한 및 쿼리 결과에 포함된 데이터 양에 대해 특정 보호 기능이 적용됩니다.
+아래 가드레일 섹션 정보에서 확인할 수 있는 바와 같이, 쿼리 타임아웃 및 쿼리 결과에 포함되는 데이터의 양에는 특정 가드레일이 적용됩니다.
 
 ## 사용 사례
 
