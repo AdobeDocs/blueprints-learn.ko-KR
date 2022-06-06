@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 89%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + 의사 결정 관리{#decision-management}
          + [개요](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
-         + [최상의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [Edge의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [허브의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer와 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [서드파티 메시지](/help/blueprints/customer-journeys/3rd-party-messaging.md)
