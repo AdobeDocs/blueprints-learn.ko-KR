@@ -5,15 +5,15 @@ solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # 이벤트 전달 블루프린트
 
-이벤트 전달 블루프린트는 Adobe Experience Platform Web 및 Mobile SDK로 수집한 데이터를 Experience Platform Edge 네트워크에서 원하는 대상으로 전달하는 방법을 보여줍니다. SDK에서 수집한 원 데이터 전체를 전달하거나 태그 속성(이전 Launch)에서 구성한 바에 따라 이벤트 및 규칙을 기반으로 특정 데이터를 전달할 수 있습니다.
+이벤트 전달 블루프린트에서는 Adobe Experience Platform Web 및 Mobile SDK로 수집한 데이터를 Experience Platform Edge Network에서 원하는 대상으로 전달하는 방법을 설명합니다. SDK에서 수집한 원 데이터 전체를 전달하거나 태그 속성(이전 Launch)에서 구성한 바에 따라 이벤트 및 규칙을 기반으로 특정 데이터를 전달할 수 있습니다.
 
 ## 사용 사례
 
