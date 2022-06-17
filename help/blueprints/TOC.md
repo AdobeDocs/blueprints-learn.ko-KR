@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + 의사 결정 관리{#decision-management}
+      + 의사 결정 관리 {#decision-management}
          + [개요](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Edge의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [허브의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
