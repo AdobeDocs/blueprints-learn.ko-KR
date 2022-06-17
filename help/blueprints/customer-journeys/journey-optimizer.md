@@ -4,9 +4,9 @@ description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로�
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [서드파티 메시지](3rd-party-messaging.md) | Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다. | 고객이 브랜드나 회사와 상호 작용할 때 1:1로 즉각적인 개인화 커뮤니케이션을 제공합니다.<br><br>고려 사항:<br><ul><li>인증을 위해 서드파티 시스템이 베어러 토큰을 지원해야 합니다.</li><li>멀티테넌트 아키텍처로 인해 고정 IP를 지원하지 않습니다.</li><li>서드파티 시스템의 아키텍처에 따른 초당 API 호출 제한을 알고 있어야 합니다.  Journey Optimizer에서 보내는 데이터의 양을 지원하기 위해 고객이 서드파티 공급업체로부터 추가 용량을 구매해야 할 수도 있습니다.</li><li>메시지 또는 페이로드에서 의사 결정 관리를 지원하지 않음</li></ul> |
+| [서드파티 메시지](3rd-party-messaging.md) | Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다. | 고객이 브랜드나 회사와 상호 작용할 때 1:1로 즉각적인 개인화 커뮤니케이션을 제공합니다.<br><br>고려 사항:<br><ul><li>인증을 위해 서드파티 시스템이 베어러 토큰을 지원해야 합니다.</li><li>멀티테넌트 아키텍처로 인해 고정 IP를 지원하지 않습니다.</li><li>서드파티 시스템의 아키텍처에 따른 초당 API 호출 제한을 알고 있어야 합니다.  Journey Optimizer에서 보내는 데이터의 양을 지원하기 위해 고객이 서드파티 공급업체로부터 추가 용량을 구매해야 할 수도 있습니다.</li><li>메시지나 페이로드에 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
 <br>
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 
 | 통합 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [Journey Optimizer와 Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer를 통해 [실시간 고객 프로필]을 활용하여 1:1 경험을 오케스트레이션하고 Adobe Campaign의 기본 제공 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다. | [실시간 고객 프로필]과 Journey Optimizer의 기능을 활용하여 실시간 경험을 오케스트레이션하는 한편 Adobe Campaign의 기본 제공 실시간 메시지 기능을 사용하여 라스트 마일 커뮤니케이션을 수행합니다.<br><br>고려 사항:<br><ul><li>Campaign 애플리케이션이 v7 빌드 21.1 이후 또는 v8 버전이어야 합니다.</li><li>메시지 처리량</li><ul><li>Campaign v7 - 시간당 최대 5만</li><li>Campaign v8 - 시간당 최대 100만</li><li>Campaign Standard - 시간당 최대 5만</li></ul><li>스로틀링을 수행하지 않으므로 사용 사례에 대해 기업 아키텍트의 기술 점검을 받아야 합니다.</li><li>Campaign에서 보낸 메시지에 의사 결정 관리 사용에 대한 지원이 없습니다</li></ul> |
+| [Journey Optimizer와 Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer를 통해 [실시간 고객 프로필]을 활용하여 1:1 경험을 오케스트레이션하고 Adobe Campaign의 기본 제공 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다. | [실시간 고객 프로필]과 Journey Optimizer의 기능을 활용하여 실시간 경험을 오케스트레이션하는 한편 Adobe Campaign의 기본 제공 실시간 메시지 기능을 사용하여 라스트 마일 커뮤니케이션을 수행합니다.<br><br>고려 사항:<br><ul><li>Campaign 애플리케이션이 v7 빌드 21.1 이후 또는 v8 버전이어야 합니다.</li><li>메시지 처리량</li><ul><li>Campaign v7 - 시간당 최대 5만</li><li>Campaign v8 - 시간당 최대 100만</li><li>Campaign Standard - 시간당 최대 5만</li></ul><li>스로틀링을 수행하지 않으므로 사용 사례에 대해 기업 아키텍트의 기술 점검을 받아야 합니다.</li><li>Campaign에서 보내는 메시지에 대한 의사 결정 관리 활용은 지원하지 않습니다.</li></ul> |
 
 <br>
 
@@ -78,7 +78,7 @@ Adobe Experience Platform
 
 * 세그먼트 일괄 처리: 인증 사용자의 일별 볼륨을 이해해야 하며, 대상 시스템이 각 여정 및 모든 여정의 발생 처리량을 처리할 수 있어야 합니다.
 * 세그먼트 스트리밍: 프로필 인증 첫 발생을 각 여정 및 모든 여정에 대한 일별 스트리밍 인증 볼륨과 함께 처리할 수 있어야 합니다.
-* 기본적으로 메시지에서만 의사 결정 관리를 지원합니다(사용자 지정 작업 없음)
+* 메시지에만 의사 결정 관리를 기본 지원합니다(사용자 정의 작업 불가).
 * 지원 메시지 유형:
    * 이메일
    * 푸시(FCM/APNS)
@@ -89,7 +89,7 @@ Adobe Experience Platform
    * 사용자/암호 또는 인증 토큰을 통한 인증
 * 다양한 샌드박스 간에 Adobe Experience Platform 또는 Journey Optimizer의 개별 구성 요소를 패키징하여 이동할 수 없습니다. 새로운 환경에서는 다시 구현해야 합니다.
 
-### 데이터 수집 가드 레일
+### 데이터 수집 가드레일
 
 <img src="assets/aep-data-ingestion-details-latency.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:80%; border:1px solid #4a4a4a" />
 
@@ -115,7 +115,7 @@ Adobe Experience Platform
 #### 프로필/ID
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 1. [!UICONTROL Real-time Customer Profile]의 서로 다른 보기에 대한 [병합 규칙](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko)을 만듭니다(선택 사항).
 1. Journey에서 사용할 세그먼트를 만듭니다.
@@ -136,7 +136,7 @@ Adobe Experience Platform
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. ID   Edge 네트워크의 경우
+1. ID    Edge 네트워크의 경우
 1. Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
 1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)를 참조하세요.
