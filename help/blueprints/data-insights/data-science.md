@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -31,23 +31,23 @@ ht-degree: 64%
 1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
 1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
 
-실시간 고객 프로필에 수집할 모델 결과를 알려면 데이터를 수집하기 전에 다음을 수행해야 합니다.
+모델의 결과를 실시간 고객 프로필에 수집하려면 데이터를 수집하기 전에 다음 작업을 수행해야 합니다.
 
 1. 수집한 데이터를 통합 프로필로 결합할 수 있도록 스키마에 [올바른 ID와 ID 네임스페이스를 구성합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 
 ## 구현 시 고려 사항
 
-* 대부분의 경우 모델 결과를 경험 이벤트가 아니라 프로필 속성으로 수집해야 합니다. 모델 결과는 단순 속성 문자열일 수 있습니다. 수집할 모델 결과가 여러 개 있는 경우 배열이나 맵 유형 필드를 사용하는 것이 좋습니다.
-* 통합 프로필 속성 데이터의 일별 내보내기인 일별 프로필 스냅샷 데이터 세트를 활용하여 프로필 속성 데이터에 대한 모델을 교육할 수 있습니다. 프로필 스냅샷 데이터 세트 설명서에 액세스할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
-* Experience Platform에서 데이터를 추출하기 위해 다음 방법을 사용할 수 있습니다
+* 대부분의 경우 모델 결과는 경험 이벤트가 아니라 프로필 속성으로 수집해야 합니다. 모델 결과는 단순한 속성 문자열일 수 있습니다. 수집할 모델 결과가 여러 개 있는 경우 배열이나 맵 유형 필드를 사용하면 좋습니다.
+* 통합 프로필 속성 데이터를 일 단위로 내보낸 일별 프로필 스냅샷 데이터 세트를 활용하여 프로필 속성 데이터에 대한 모델을 교육할 수 있습니다. 프로필 스냅샷 데이터 세트 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=ko#profile-attribute-datasets)에서 확인할 수 있습니다.
+* Experience Platform에서 데이터를 추출하려면 다음 방법 중 하나를 사용할 수 있습니다.
    * 데이터 액세스 SDK
-      * 데이터는 원시 파일 양식에 있습니다
-      * 프로필 경험 이벤트 데이터는 통합 해제된 원시 상태로 유지됩니다.
+      * 데이터는 원시 파일 형태
+      * 프로필 경험 이벤트 데이터는 통합되지 않은 원시 상태로 유지됩니다.
    * RTCDP 대상
-      * 프로필 속성 및 세그먼트 멤버십만 세그먼트화할 수 있습니다.
+      * 프로필 속성 및 세그먼트 멤버십만 내보낼 수 있습니다.
    * 쿼리 서비스
-      * 많은 양의 원시 데이터에 액세스하면 10분 제한 시 쿼리가 시간 초과될 수 있습니다. 데이터를 점진적으로 쿼리하는 것이 좋습니다.
+      * 대량의 원시 데이터에 액세스하면 쿼리가 10분 제한을 초과하여 타임아웃 처리될 수 있습니다. 따라서 데이터를 점점 증가하는 방식으로 쿼리하는 것이 좋습니다.
 
 
 ## 관련 설명서
