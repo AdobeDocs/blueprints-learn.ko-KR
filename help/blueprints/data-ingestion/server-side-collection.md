@@ -5,7 +5,7 @@ solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
