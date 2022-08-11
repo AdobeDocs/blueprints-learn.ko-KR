@@ -2,10 +2,10 @@
 title: 디지털 경험 블루프린트 업계 성공 사례
 description: 디지털 경험 블루프린트 성공 사례에서는 다양한 업계에서 Adobe Experience Platform 기반 Adobe Experience Cloud의 비즈니스 가치를 어떻게 실현해 나가는지 소개합니다.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 1bea087acd18e4cfe931984731c90d8a0148d363
+source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 78%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 0%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="Audience Activation, Customer Journey Analytics, 고객 여정 블루프린트를 사용하는 의류 업체의 썸네일 이미지" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="Audience Activation, Customer Journey Analytics, 고객 여정 블루프린트를 사용하는 의류 업체의 썸네일 이미지" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ko"><img alt="온라인/오프라인 데이터를 통한 활성화 및 Journey Optimizer 블루프린트를 사용하는 소매 업체의 썸네일 이미지" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="온라인/오프라인 데이터를 통한 활성화 및 Journey Optimizer 블루프린트를 사용하는 소매 업체의 썸네일 이미지" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="Journey Optimizer 블루프린트 썸네일 이미지" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="Journey Optimizer 블루프린트 썸네일 이미지" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko"><img alt="온라인/오프라인 데이터 블루프린트 활성화 썸네일 이미지" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="온라인/오프라인 데이터 블루프린트 활성화 썸네일 이미지" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
