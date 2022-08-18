@@ -4,16 +4,20 @@ description: Customer Journey Analytics의 고객 여정에서 데이터 및 고
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 0d188a41b6c90bc838eaf4b1d0d1f31b3596e7ca
+source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Real-time Customer Data Platform으로 Customer Journey Analytics
 
 고객 타깃팅 및 개인화를 위해 Customer Journey Analytics(CJA)에서 식별된 대상을 Adobe Experience Platform의 실시간 고객 프로필에 만들고 게시합니다. Customer Journey Analytics의 세분화된 필터링 및 계산된 필드에서 내역 데이터 또는 보다 세분화된 대상을 사용하여 대상을 만드는 데 이상적입니다.
+
+## Customer Journey Analytics 대상 게시 안내서
+
+Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상 게시에 대한 구현 및 구성에 대한 지침은 다음 설명서를 참조하십시오. [사용자 가이드](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Customer Journey Analytics 블루프린트의 아키텍처
 
@@ -22,10 +26,6 @@ ht-degree: 32%
 ## Customer Journey Analytics 블루프린트의 가드레일 다이어그램
 
 ![가드레일 다이어그램](assets/cja_guardrails.svg)
-
-## Customer Journey Analytics 대상 게시 안내서
-
-Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상 게시에 대한 구현 및 구성에 대한 지침은 다음 설명서를 참조하십시오. [사용자 가이드](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## 관련 블로그 게시물
 
