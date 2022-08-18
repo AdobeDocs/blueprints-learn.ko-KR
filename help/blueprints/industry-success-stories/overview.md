@@ -5,7 +5,7 @@ exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 78%
 <tr>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>의류 업계</strong></a></div>
-    <p><em>실시간 마케팅, 크로스 채널 활성화, 크로스 채널 분석.</em></p>
+    <p><em>실시간 마케팅, 크로스 채널 활성화, Cross-Channel Analytics.</em></p>
   </td>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>소매 업계</strong></a></div>
