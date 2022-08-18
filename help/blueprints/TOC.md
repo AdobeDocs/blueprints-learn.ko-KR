@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
+source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
+   + [RTCDP에 CJA 대상 공유](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
 + 고객 여정 {#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
