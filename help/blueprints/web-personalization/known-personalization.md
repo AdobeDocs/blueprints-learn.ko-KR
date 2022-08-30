@@ -5,10 +5,10 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
+source-git-commit: 590096ff0f2f96871fd03623fc167d215d55cdb8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1379'
+ht-degree: 78%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 0%
 
 * Web/Mobile SDK에서 Edge Network를 사용합니다. 실시간 Edge 세분화를 사용하려면 Web/Mobile SDK 또는 Edge API 구현 방법이 필요합니다.
 * [Experience Platform Web 및 Mobile SDK 블루프린트를 참조하세요.](../data-ingestion/websdk.md)  SDK 기반 구현에 대해 설명하고 있습니다.
+* Mobile SDK에서 사용하는 경우 [Adobe Journey Optimizer - 의사 결정 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) 를 Mobile SDK에 설치해야 합니다.
 * Edge Profile을 사용하는 Adobe Target의 API 기반 구현에 대해서는 [Edge Network Server API를 참조하세요](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko).
 
 ### 구현 패턴 2 - 애플리케이션별 SDK
@@ -71,7 +72,7 @@ ht-degree: 0%
 
 1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
 1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile 구현]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko) Edge에서 사용 가능한 활성 [병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#create-a-merge-policy)을 구현하여 생성한 대상자가 활성화되도록 합니다.
-1. 구현 [웹 SDK Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 또는 Experience Platform Mobile SDK를 참조하십시오. Experience Platform Web/Mobile SDK 또는 EDGE API는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다.
+1. 구현 [웹 SDK Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 또는 [Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/) 올바른 확장(Target 또는 Adobe Journey Optimizer - Decisioning)이 설치되어 있습니다. Experience Platform Web/Mobile SDK 또는 EDGE API는 실시간 Edge 세그멘테이션을 위해 필요하지만 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상을 공유하는 데에는 필요하지 않습니다.
 1. [Edge Datastream으로 Edge Network 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
 1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
 1. (선택 사항)[Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko).
