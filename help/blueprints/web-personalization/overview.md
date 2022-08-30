@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
 | **[행동 기반의 웹/모바일 개인화](behavioral.md)** | <ul><li>온라인 행동과 대상자 데이터를 기반으로 개인화 구현</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(선택 사항)*</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
-| **[알려진 고객 데이터를 사용한 웹/모바일 개인화](known-personalization.md)** | <ul><li>고객 프로필을 완료하고 세분화를 개선하여 개인화된 경험을 제공합니다.</li><li>오프라인 특성 및 이벤트(거래, 예약, CRM 및 충성도 데이터)를 개인화에 활용합니다.</li><li>웹, 이메일 및 다른 알려진 채널에 걸쳐 개인화를 동기화합니다.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
+| **[알려진 고객 데이터를 사용한 웹/모바일 개인화](known-personalization.md)** | <ul><li>고객 프로필을 완료하고 세분화를 개선하여 개인화된 경험을 제공합니다.</li><li>오프라인 특성 및 이벤트(거래, 예약, CRM 및 충성도 데이터)를 개인화에 활용합니다.</li><li>웹, 이메일 및 다른 알려진 채널에 걸쳐 개인화를 동기화합니다.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics 또는 Customer Journey Analytics *(선택 사항)*</li><li>Adobe Audience Manager *(선택 사항)*</li></ul> |
 
 <br>
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ### 알려진 고객 개인화 가드레일 다이어그램
 
-<img src="assets/personalization_guardrails.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 관련 블로그 게시물
 
