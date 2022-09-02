@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Platform은 서드파티 SQL 클라이언트, 인터페이스, BI(Bus
 * 수집한 데이터에 행과 열로 액세스하여 탐색 및 유효성 검사
 * Business Intelligence 도구를 통한 데이터 대시보드화 및 시각화
 
-쿼리 서비스에 대한 추가 일반 사용 사례는 여기에 요약되어 있습니다 [쿼리 서비스 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
+쿼리 서비스에 대한 일반적 사용 사례를 [쿼리 서비스 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=ko)에서 추가로 확인하실 수 있습니다.
 
 ## 애플리케이션
 
@@ -39,15 +39,15 @@ Experience Platform은 서드파티 SQL 클라이언트, 인터페이스, BI(Bus
 ## 가드레일
 
 모범 사례 및 가드레일에 대한 자세한 설명은 Query Service 제품 설명서를 참조하세요.
-[Query Service 안내](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
+[Query Service 안내](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
 
 ## 구현 단계
 
 1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
 1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
-1. 데이터를 사용할 수 있는지 확인합니다. [[!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=ko).
-1. [시각화, 데이터 쿼리 및 탐색을 위해 Business Intelligence 도구 및 SQL 클라이언트를 [!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html)에 연결합니다.
+1. 데이터를 [[!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=ko)에서 사용할 수 있는지 확인합니다.
+1. [시각화, 데이터 쿼리 및 탐색을 위해 Business Intelligence 도구 및 SQL 클라이언트를 [!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=ko)에 연결합니다.
 
 ## 관련 설명서
 
