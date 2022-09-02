@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    + [Experience Platform 데이터 흐름](/help/blueprints/experience-platform/platform-data-flow.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 대상자 활성화](/help/blueprints/audience-activation/anonymous.md)
-   + 알려진 고객 활성화 {#known-customer-audience-activation}
+   + [익명 대상자 활성화 (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + 알려진 고객 활성화(RTCDP) {#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
       + 소셜 및 광고 채널에 대한 활성화 {#audience-activation}
          + [Facebook 맞춤 타겟 활성화](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 100%
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동을 통한 개인화](/help/blueprints/web-personalization/behavioral.md)
-   + [알려진 고객 개인화](/help/blueprints/web-personalization/known-personalization.md)
+   + [행동을 통한 개인화 - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)
