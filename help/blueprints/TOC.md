@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 95%
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
-   + [RTCDP에 CJA 대상 공유](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
-   + [CJA 및 Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
+   + [CJA 대상자를 RTCDP에 공유](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
+   + [CJA와 Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + 고객 여정 {#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
