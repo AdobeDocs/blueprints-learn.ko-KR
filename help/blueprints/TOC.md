@@ -1,14 +1,14 @@
 ---
 user-guide-title: 디지털 경험 블루프린트
-breadcrumb-title: '블루프린트 '
+breadcrumb-title: 블루프린트
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+source-git-commit: 4aced09f12b47c0af25af7aaa97085a607d749b3
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 95%
+source-wordcount: '206'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 + [개요](/help/blueprints/overview.md)
 + [모든 사용 사례 보기](/help/blueprints/use-cases.md)
-+ 모든 업계 성공 사례 보기 {#industry-success-stories}
++ 수직 산업 청사진{#vertical-blueprints}
    + [개요](/help/blueprints/industry-success-stories/overview.md)
    + [의류](/help/blueprints/industry-success-stories/apparel.md)
    + [소매](/help/blueprints/industry-success-stories/retail.md)
