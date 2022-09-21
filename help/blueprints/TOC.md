@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 833524d20fe69a08a299035020e29d2d877b797d
+source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,9 @@ ht-degree: 93%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform과 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform 데이터 흐름](/help/blueprints/experience-platform/platform-data-flow.md)
+   + 배포 모델{#deployment}
+      + [Experience Platform Web SDK와 Edge Network](/help/blueprints/data-ingestion/websdk.md)
+      + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
    + [익명 대상자 활성화 (AAM)](/help/blueprints/audience-activation/anonymous.md)
@@ -61,14 +64,11 @@ ht-degree: 93%
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP와 Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-+ 데이터 수집 및 준비 {#data-ingestion}
++ 데이터 수집 및 데이터 내보내기{#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [이벤트 전달](/help/blueprints/data-ingestion/server-side-collection.md)
    + [다중 샌드박스 데이터 수집](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
-   + 배포 {#deployment}
-      + [Experience Platform Web SDK와 Edge Network](/help/blueprints/data-ingestion/websdk.md)
-      + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 데이터 분석, 인텔리전스 및 AI/ML {#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
