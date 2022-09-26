@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 90%
       + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 대상자 활성화 (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [익명 대상자 활성화  (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 알려진 고객 활성화(RTCDP) {#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
       + 소셜 및 광고 채널에 대한 활성화 {#audience-activation}
@@ -75,6 +75,6 @@ ht-degree: 90%
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동을 통한 개인화 - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [행동을 통한 개인화  - Target](/help/blueprints/web-personalization/behavioral.md)
    + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)
