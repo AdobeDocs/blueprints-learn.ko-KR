@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 4c66e906b9faf4bd9b1ee75fcf263b8a35d3b782
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -94,9 +94,9 @@ ht-degree: 68%
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">익명 대상자 활성화</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=ko">익명 대상자 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
 </ul>
 </td>
 </tr>
@@ -109,7 +109,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터는 Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통해 Real-time Customer Data Platform을 통해 대상을 만들고 분석하기 위해 데이터 소스로 Experience Platform에 수집할 수 있습니다.</li>
+<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터를 Experience Platform으로 보내면 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics와 Experience Platform Query Service를 통해 분석할 데이터 소스로 활용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -127,12 +127,12 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터는 Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통해 Real-time Customer Data Platform을 통해 대상을 만들고 분석하기 위해 데이터 소스로 Experience Platform에 수집할 수 있습니다.</li>
+<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터를 Experience Platform으로 보내면 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics와 Experience Platform Query Service를 통해 분석할 데이터 소스로 활용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">일괄 메시지 처리</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=ko">일괄 메시지 처리</a></li>
 </ul>
 </td>
 </tr>
@@ -145,7 +145,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>고객 여정 분석에서 대상을 작성하고 대상 결과를 Real-time Customer Data Platform에 공유합니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en">CJA Audience Publishing</a></li>
+<li>Customer Journey Analtyics에서 대상자를 작성하고 그 결과로 나온 대상자를 Real-time Customer Data Platform에 공유합니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko">CJA 대상자 게시</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -168,7 +168,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a></li>
 </ul>
 </td>
 </tr>
@@ -181,7 +181,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Journey Optimizer에서 생성한 상호 작용 및 캠페인 데이터는 Real-time Customer Data Platform을 통한 대상 작성 및 Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통한 분석에 추가로 사용하기 위해 Experience Platform에 수집됩니다.</li>
+<li>Journey Optimizer에서 만든 상호 작용 및 캠페인 데이터를 Experience Platform으로 수집하여 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics와 Experience Platform Query Service를 통해 분석할 데이터 소스로 활용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -199,7 +199,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Magento 네이티브 데이터는 Magento 소스 커넥터를 통해 Experience Platform에 전송할 수 있습니다. </li>
+<li>Magento 네이티브 데이터는 Magento 소스 커넥터를 통해 Experience Platform으로 보낼 수 있습니다. </li>
 </ul>
 </td>
 <td colspan="1">현재 통합 없음</td>
@@ -213,7 +213,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Marketo에서 생성한 상호 작용 및 캠페인 데이터와 함께 Marketo 계정, 연락처 및 기회 데이터는 B2B-CDP를 통해 대상을 만들고 Customer Journey Analytics 및 Experience Platform Query Service를 통해 분석을 통해 Experience Platform에 수집됩니다. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko">Marketo Engage 커넥터</a></li>
+<li>Marketo 계정, 연락처 및 기회 데이터는 Marketo에서 만든 상호 작용 및 캠페인 데이터와 함께 Experience Platform으로 수집되어 B2B-CDP를 통한 대상자 구축과 Customer Journey Analytics, Experience Platform Query Service를 통한 분석에 사용됩니다. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko">Marketo Engage 커넥터</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -232,13 +232,13 @@ ht-degree: 68%
 <td colspan="1">
 <ul>
 <li>대상자 및 프로필 지표는 Experience Platform 데이터 레이크로 전송되어 프로필 인사이트 보고 대시보드의 기반으로 활용됩니다.</li>
-<li>데이터 레이크의 대상 및 프로필 데이터를 사용하여 Query Service 및 Customer Journey Analytics을 통해 추가 통찰력을 얻을 수 있습니다.</li>
+<li>데이터 레이크의 대상자 및 프로필 데이터는 Query Service 및 Customer Journey Analytics를 통해 더 많은 인사이트를 얻는 데 사용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
 </ul>
 </td>
 </tr>
@@ -246,18 +246,18 @@ ht-degree: 68%
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에 정의된 대상 및 프로필 속성은 Target에 공유되고 Target이 제공하는 개인화 및 타깃팅 경험에서 사용할 수 있습니다.</li>
+<li>Real-time Customer Data Platform에서 정의한 대상자 및 프로필 속성을 Target에 공유하여 Target에서 제공하는 개인화 및 타겟팅 경험에 사용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Target 경험 및 상호 작용에 대해 수집된 데이터는 Experience Platform Web/Mobile SDK를 통해 Experience Platform에 수집할 수 있습니다. 이 데이터는 Real-time Customer Data Platform을 통해 대상을 만들고, Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통해 분석에 사용할 수 있습니다.</li>
+<li>Target 경험 및 상호 작용에 대해 수집한 데이터는 Experience Platform Web/Mobile SDK를 통해 Experience Platform으로 수집할 수 있습니다. 이 데이터는 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics, Experience Platform Query Service를 통해 분석하는 데 사용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">온라인/오프라인 대상자 활성화</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ko">온라인/오프라인 대상자 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
 </ul>
 </td>
 </tr>
