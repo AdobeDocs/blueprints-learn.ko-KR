@@ -4,10 +4,10 @@ description: Experience Platform의 프로필 및 대상자를 관리하고 Expe
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 094591020413933932356cb8c393bf569bcfca50
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ### Real-time Customer Data Platform에서 Target으로 대상 공유하기
 
-* [웹/모바일 개인화와 온라인 및 오프라인 데이터 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=ko)에서 Real-time Customer Data Platform에서 Target으로 프로필 및 대상자 공유하는 방법에 대한 자세한 내용을 확인할 수 있습니다.
+* 자세한 내용은 [알려진 고객 개인화 - Target 및 RTCDP 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) Real-time Customer Data Platform에서 Target으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
 
 ### Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 대상 공유
 

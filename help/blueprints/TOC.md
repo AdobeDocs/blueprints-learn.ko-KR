@@ -5,9 +5,9 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
+source-git-commit: 84eb7427077a068c3fe3b2cfc4856e115427f4ca
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 94%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 94%
 # 디지털 경험 블루프린트 {#architecture}
 
 + [개요](/help/blueprints/overview.md)
-+ [모든 사용 사례 보기](/help/blueprints/use-cases.md)
 + 수직 산업 청사진{#vertical-blueprints}
-   + [개요](/help/blueprints/industry-success-stories/overview.md)
-   + [의류](/help/blueprints/industry-success-stories/apparel.md)
-   + [소매](/help/blueprints/industry-success-stories/retail.md)
-   + [통신](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [여행 및 서비스](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [개요](/help/blueprints/vertical-blueprints/overview.md)
+   + [의류](/help/blueprints/vertical-blueprints/apparel.md)
+   + [소매](/help/blueprints/vertical-blueprints/retail.md)
+   + [통신](/help/blueprints/vertical-blueprints/telecommunications.md)
+   + [여행 및 서비스](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + 아키텍처 개요 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform과 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
