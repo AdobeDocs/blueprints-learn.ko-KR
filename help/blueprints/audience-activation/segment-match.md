@@ -2,16 +2,16 @@
 title: 세그먼트 일치
 description: 알아보기 [!UICONTROL 세그먼트 일치] Adobe Experience Platform(AEP)용. [!UICONTROL 세그먼트 일치] 는 보안, 제어 및 개인 정보 보호 방식으로 공통 업계 식별자를 기반으로 세그먼트 데이터를 교환할 수 있도록 해주는 데이터 공동 작업 서비스입니다.
 solution: Experience Platform
-source-git-commit: a4ae1eaa864f85144b8bdfbff23b4389847c8cfa
+source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
 
 # 세그먼트 일치
 
-브랜드의 핵심은 고객과의 직접적인 관계에서 수집한 데이터를 바탕으로 고객과 교류하는 것이다. 마케터는 향상된 거버넌스, 권한 및 기본 설정 관리 시스템을 사용하여 주요 파트너와 함께 자사 인증 대상을 더 향상시킬 수 있습니다.
+세그먼트 일치 기능을 사용하면 파트너 브랜드가 각 Experience Platform 환경에서 대상을 공유할 수 있습니다. 브랜드의 핵심은 고객과의 직접적인 관계에서 수집한 데이터를 바탕으로 고객과 교류하는 것이다. 마케터는 향상된 거버넌스, 권한 및 기본 설정 관리 시스템을 사용하여 주요 파트너와 함께 자사 인증 대상을 더 향상시킬 수 있습니다.
 
 [!UICONTROL 세그먼트 일치] 는 AEP(Experience Platform) 고객(이하 &quot;라고 함)을 허용하는 데이터 공동 작업 서비스입니다 _파트너_)을 사용하여 보안, 제어 및 개인 정보 보호 방식으로 일반적인 업계 식별자를 기반으로 세그먼트 데이터를 교환합니다.
 
