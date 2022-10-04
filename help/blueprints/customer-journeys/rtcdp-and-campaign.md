@@ -1,12 +1,12 @@
 ---
-title: Adobe Campaign 통합 패턴이 있는 Real-Time CDP
+title: Adobe Campaign v7 통합 패턴이 있는 Real-Time CDP
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
+source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 98%
 
 ---
 
