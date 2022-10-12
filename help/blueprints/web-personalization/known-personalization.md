@@ -5,10 +5,10 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: e16ceb50b58fd317232694194ec8c63d0884821d
+source-git-commit: ad83e4e71f82d12b8aa2f3ef98a9614deb666a4c
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 99%
 
 아키텍처
 
-<img src="assets/RTCDP+Target.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 시퀀스 세부 사항
 
-<img src="assets/RTCDP+Target_flow.png" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target_flow.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 아키텍처 개요
 
