@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 # 디지털 경험 블루프린트 {#architecture}
 
 + [개요](/help/blueprints/overview.md)
-+ 수직 산업 청사진{#vertical-blueprints}
++ 세로형 산업 블루프린트 {#vertical-blueprints}
    + [개요](/help/blueprints/vertical-blueprints/overview.md)
    + [의류](/help/blueprints/vertical-blueprints/apparel.md)
    + [소매](/help/blueprints/vertical-blueprints/retail.md)
@@ -31,7 +31,7 @@ ht-degree: 0%
       + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 대상자 활성화  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [익명 대상자 활성화   (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 알려진 고객 활성화(RTCDP) {#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
       + 소셜 및 광고 채널에 대한 활성화 {#audience-activation}
@@ -39,7 +39,7 @@ ht-degree: 0%
          + [Google Customer Match 활성화](/help/blueprints/audience-activation/destinations/gcm.md)
       + [파일 및 엔터프라이즈 스트리밍 대상 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
-      + [세그먼트 일치](/help/blueprints/audience-activation/segment-match.md)
+      + [Segment Match](/help/blueprints/audience-activation/segment-match.md)
    + [Experience Cloud 애플리케이션을 사용한 활성화](/help/blueprints/audience-activation/platform-and-applications.md)
 + B2B 활성화 및 마케팅 {#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
@@ -69,7 +69,7 @@ ht-degree: 0%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP와 Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer과 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ 데이터 수집 및 데이터 내보내기{#data-ingestion}
++ 데이터 수집 및 데이터 내보내기 {#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [이벤트 전달](/help/blueprints/data-ingestion/server-side-collection.md)
@@ -80,6 +80,6 @@ ht-degree: 0%
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동을 통한 개인화  - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [행동을 통한 개인화   - Target](/help/blueprints/web-personalization/behavioral.md)
    + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)

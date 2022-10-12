@@ -8,7 +8,7 @@ exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 95%
 
 데이터 기반 마케팅의 세계에서는 대상자와 프로필을 중심으로 활성화해야 성공할 수 있습니다. 그러나 많은 브랜드가 여전히 일관되지 않은 도달 및 개인화 전략으로 채널 중심 활성화에 노력을 기울입니다.
 
-채널 중심 접근 방법에서는 각 채널이 서로 소통하지 않는 사일로 역할을 하므로 개인화 노력 시 해당 채널에서 브랜드와 상호 작용하는 고객만을 타겟팅하게 됩니다. 이 접근 방식은 고객이 다양한 터치포인트에서 브랜드와 상호 작용하는 현실을 반영하지 않습니다. 대상자 및 프로필 중심 활성화를 채택하면 브랜드가 여러 채널에 걸쳐 고객 상호 작용을 연결함으로써 중심화된 프로필 대상자 경험을 게재하여 전 채널에서 활성화할 수 있습니다.
+채널 중심 접근 방법에서는 각 채널이 서로 소통하지 않는 사일로 역할을 하므로 개인화 노력 시 해당 채널에서 브랜드와 상호 작용하는 고객만을 타겟팅하게 됩니다. 이 접근은 고객이 여러 다양한 접점을 통해 브랜드와 상호 작용하는 현실을 반영하지 않습니다. 대상자 및 프로필 중심 활성화를 채택하면 브랜드가 여러 채널에 걸쳐 고객 상호 작용을 연결함으로써 중심화된 프로필 대상자 경험을 게재하여 전 채널에서 활성화할 수 있습니다.
 
 | 블루프린트 | 설명 | Experience Cloud 애플리케이션 |
 |---|---|---|
 | **[익명 대상자 활성화](anonymous.md)** | <ul><li>고객의 익명 행동 데이터를 기반으로 웹 및 광고 채널에 걸쳐 대상자를 타겟팅합니다.</li><li>서드파티 대상자 데이터와 통합하여 개인화를 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[알려진 고객 활성화](known.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상에 대해 활성화합니다. </li><li>오프라인 주문, 거래, CRM 또는 충성도 데이터 등 오프라인 특성 및 이벤트와 온라인 행동을 함께 사용하여 온라인 타겟팅과 개인화를 수행합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
-| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul> |
-| **[세그먼트 일치](segment-match.md)** | <ul><li>마케터는 향상된 거버넌스, 권한 및 기본 설정 관리 시스템을 사용하여 주요 파트너와 함께 자사 인증 대상을 더 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform   </li></ul> |
+| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다.</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul> |
+| **[Segment Match](segment-match.md)** | <ul><li>거버넌스, 권한, 환경 설정 관리 시스템이 좋아지면 마케터가 주요 파트너에 대해 퍼스트파티 인증된 대상자의 정밀도를 더욱 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform   </li></ul> |
 
 ## Real-time Customer Profile 아키텍처
 
