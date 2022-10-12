@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey 
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ### 설명
 
-<ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul>
+<ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다.</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul>
 
 ### Experience Cloud 애플리케이션
 
