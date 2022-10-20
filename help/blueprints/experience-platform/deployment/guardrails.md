@@ -3,10 +3,10 @@ title: Experience Platform 및 응용 프로그램 보호 기능
 description: 경고는 Adobe Experience Platform 및 애플리케이션 내의 구성 요소 및 서비스에 대한 성능 기대치와 영향을 정의합니다
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 4de3d70cc3218ec79a49daa0511d2ad779d49508
+source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 24%
+source-wordcount: '288'
+ht-degree: 31%
 
 ---
 
@@ -30,7 +30,23 @@ ht-degree: 24%
 
 [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
+<br>
 
+## 종료 지연
+
+### 데이터 수집
+
+아래 다이어그램은 Adobe Experience Platform에 데이터를 수집할 때의 평균 성능 가드레일과 지연 시간을 보여줍니다.
+
+<img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Journey Optimizer
+
+<img src="../assets/activation-latency.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" />
+
+<br>
 
 ## 제품 설명
 
