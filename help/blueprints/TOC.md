@@ -5,9 +5,9 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 84%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 84%
 + 세로형 산업 블루프린트 {#vertical-blueprints}
    + [개요](/help/blueprints/vertical-blueprints/overview.md)
    + [의류](/help/blueprints/vertical-blueprints/apparel.md)
+   + [의료](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [소매](/help/blueprints/vertical-blueprints/retail.md)
    + [통신](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [여행 및 서비스](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -26,9 +27,10 @@ ht-degree: 84%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform과 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform 데이터 흐름](/help/blueprints/experience-platform/platform-data-flow.md)
-   + 배포 패턴{#deployment}
+   + 배포 {#deployment}
       + [Experience Platform Web SDK와 Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [애플리케이션 SDK](/help/blueprints/data-ingestion/appsdk.md)
+      + [가드레일](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
    + [익명 대상자 활성화   (AAM)](/help/blueprints/audience-activation/anonymous.md)
