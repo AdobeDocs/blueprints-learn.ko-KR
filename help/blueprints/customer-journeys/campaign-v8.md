@@ -4,9 +4,9 @@ description: Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 �
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 * 캠페인 시작 및 재실행
 * DM 광고, 브로셔, 매거진 캠페인
 * 단순 트랜잭션 메시지(예: 암호 재설정, 이메일 영수증, 주문 확인 등)
-* 분석 및 프로필 작성을 위해 Adobe Experience Platform에 Campaign 데이터 통합
-* Campaign에 Real-time Customer Data Platform 대상 공유.
+* 분석 및 프로필 작성을 위해 Campaign 데이터를 Adobe Experience Platform에 통합하기
+* Campaign에 Real-time Customer Data Platform 대상자를 공유합니다.
 
 <br>
 
