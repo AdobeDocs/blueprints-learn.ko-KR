@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 �
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 
 ### Campaign 통합
 
-특정 버전의 Adobe Campaign 및 Adobe Journey Optimizer와의 통합에 대한 지침은 각 Adobe Campaign 버전에 대한 해당 안내서를 참조하십시오.
+사용하시는 Adobe Campaign 버전과 Adobe Journey Optimizer와의 통합에 대한 지침은 각 Adobe Campaign 버전별로 해당하는 안내서를 참조하세요.
 
-* [Adobe Journey Optimizer 및 Campaign v7](ajo-and-campaign-v7.md)
-* [Adobe Journey Optimizer 및 Campaign v8](ajo-and-campaign-v8.md)
+* [Adobe Journey Optimizer와 Campaign v7](ajo-and-campaign-v7.md)
+* [Adobe Journey Optimizer와 Campaign v8](ajo-and-campaign-v8.md)
