@@ -3,10 +3,10 @@ title: Experience Platform 및 응용 프로그램 보호 기능
 description: 경고는 Adobe Experience Platform 및 애플리케이션 내의 구성 요소 및 서비스에 대한 성능 기대치와 영향을 정의합니다
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '297'
+ht-degree: 30%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 31%
 [ID 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 
 [쿼리 서비스 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+
+[대상 활성화 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
 [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
