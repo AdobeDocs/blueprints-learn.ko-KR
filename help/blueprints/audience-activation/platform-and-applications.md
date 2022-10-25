@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 094591020413933932356cb8c393bf569bcfca50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ### Real-time Customer Data Platform에서 Target으로 대상 공유하기
 
-* 자세한 내용은 [알려진 고객 개인화 - Target 및 RTCDP 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) Real-time Customer Data Platform에서 Target으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
+* [알려진 고객 개인화 - Target 및 RTCDP 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ko)에서 Real-time Customer Data Platform의 프로필 및 대상자를 Target으로 공유하는 방법에 대한 자세한 내용을 확인할 수 있습니다.
 
 ### Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 대상 공유
 
