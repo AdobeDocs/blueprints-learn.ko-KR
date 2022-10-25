@@ -1,15 +1,15 @@
 ---
-title: Journey Optimizer과 Adobe Campaign v7 블루프린트
+title: Journey Optimizer와 Adobe Campaign v7 블루프린트
 description: Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 메시지를 보내는 방법을 설명합니다. Campaign의 실시간 메시지 서버를 활용합니다.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1128'
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer와 Adobe Campaign v7
+# Journey Optimizer와 Adobe Campaign  v7
 
 Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 메시지를 보내는 방법을 설명합니다. Campaign의 실시간 메시지 서버를 활용합니다.
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 
 <br>
 
-### 캠페인(v7)
+### Campaign(v7)
 
 * [메시지 센터]의 실행 인스턴스는 Adobe Managed Cloud Services에서 호스팅해야 합니다.
 * v7 빌드 21.1 이후 또는 v8 버전이어야 합니다.
@@ -77,7 +77,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
    * [대상자 읽기] 및 [비즈니스] 이벤트 기반 여정은 실행 인스턴스로 보낼 수 있는 데이터 양으로 인해 지원하지 않습니다.
 * AC(v7), AC(v8) 모두 메시지에 대해 의사 결정 관리를 지원하지 않습니다.
 * Campaign에 대한 아웃바운드 API 호출에 대해 스로틀링을 지원하지 않습니다.
-* Campaign v8.4를 사용하면 Experience Platform에서 Adobe Campaign Managed Services 소스 커넥터를 활용하여 Campaign의 게재 및 추적 이벤트를 Experience Platform에 동기화할 수 있습니다. 자세한 내용은 소스 커넥터 설명서 를 참조하십시오. [링크](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Campaign v8.4를 사용하면 Experience Platform에서 Adobe Campaign Managed Services 소스 커넥터를 활용하여 Campaign의 게재 및 추적 이벤트를 Experience Platform에 동기화할 수 있습니다. 자세한 내용은 소스 커넥터 설명서를 참조하세요. [링크](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)
 
 <br>
 
@@ -96,7 +96,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 #### 프로필/ID
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 1. [!UICONTROL Real-time Customer Profile]의 서로 다른 보기에 대한 [병합 규칙](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko)을 만듭니다(선택 사항).
 1. Journey에서 사용할 세그먼트를 만듭니다.
@@ -114,8 +114,8 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 ### Campaign v7
 
 * 적절한 개인화 컨텍스트를 사용하여 메시지 템플릿을 구성해야 합니다.
-* Campaign standard의 경우 - 트랜잭션 메시지 로그를 Experience Platform으로 다시 내보내도록 내보내기 워크플로우를 구성해야 합니다. 최대 4시간마다 실행되는 것이 좋습니다.
-* Campaign v8.4에서는 Experience Platform에서 Adobe Campaign Managed Services 소스 커넥터를 활용하여 Campaign의 게재 및 추적 이벤트를 Experience Platform에 동기화할 수 있습니다. 자세한 내용은 소스 커넥터 설명서 를 참조하십시오. [링크](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Campaign Standard의 경우 - 내보내기 워크플로우가 트랜잭션 메시지 로그를 Experience Platform으로 다시 내보내도록 구성해야 합니다. 최대 4시간마다 내보내는 것을 추천합니다.
+* Campaign v8.4의 경우 Experience Platform에서 Adobe Campaign Managed Services 소스 커넥터를 활용하여 Campaign의 게재 및 추적 이벤트를 Experience Platform에 동기화할 수 있습니다. 자세한 내용은 소스 커넥터 설명서를 참조하세요. [링크](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)
 
 ### 모바일 푸시 구성(선택 사항)
 
@@ -123,7 +123,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * ID    Edge 네트워크의 경우
+   * ID      Edge 네트워크의 경우
    * Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
 1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)를 참조하세요.
