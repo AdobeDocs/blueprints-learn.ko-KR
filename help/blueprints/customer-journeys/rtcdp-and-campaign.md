@@ -1,12 +1,12 @@
 ---
-title: Adobe Campaign v7 및 Campaign Standard 통합 패턴이 있는 Real-Time CDP
+title: Real-Time CDP와 Adobe Campaign v7 및 Campaign Standard 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -78,8 +78,8 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 
 #### 소스 / 대상
 
-1. [Experience Platform 및 Campaign Standard 소스 및 설명](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
-1. [Experience Platform 및 Campaign v7 소스 및 디자인](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Experience Platform과 Campaign Standard 소스 및 대상](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko)
+1. [Experience Platform과 Campaign v7 소스 및 대상](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ko)
 1. 스트리밍 API 및 소스 커넥터를 사용하여 [Experience Platform으로 데이터를 수집해 옵니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
 1. Adobe Campaign에서 사용할 [!DNL Azure] Blob 스토리지 대상을 구성합니다.
 

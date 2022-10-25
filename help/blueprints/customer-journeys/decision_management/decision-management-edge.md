@@ -6,13 +6,13 @@ exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer - Edge의 의사 결정 관리
 
-의사 결정 관리에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)에 있는 제품 설명서와 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)에 있는 의사 결정 관리 개요를 참조하세요.
+의사 결정 관리에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)에 있는 제품 설명서와 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ko)에 있는 의사 결정 관리 개요를 참조하세요.
 
 Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트에서는 애플리케이션의 사용 사례 및 기술적 기능을 간략하게 훑어보고 의사 결정 관리의 다양한 아키텍처 구성 요소와 고려할 사항을 자세히 설명합니다.
 
@@ -22,7 +22,7 @@ Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 
 
 이 블루프린트는 Edge에서의 의사 결정 관리에 대해 구체적인 정보를 다룹니다.
 
-허브의 의사 결정 관리에 대한 자세한 내용은 [허브의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en) 블루프린트를 참조하세요.
+허브의 의사 결정 관리에 대한 자세한 내용은 [허브의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=ko) 블루프린트를 참조하세요.
 
 ## Edge의 의사 결정 관리 사용 사례
 
@@ -77,7 +77,7 @@ Adobe Experience Platform
 ## 구현 패턴
 
 * 웹사이트 및 모바일 애플리케이션에 배포하려는 경우 Web 또는 Mobile SDK를 사용하여 SDK를 배포할 곳에 의사 결정 관리를 구현합니다.
-   * [Web/Mobile SDK 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
+   * [Web/Mobile SDK 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=ko)
    * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ko)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
