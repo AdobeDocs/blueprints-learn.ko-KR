@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
+source-git-commit: e7a640580038c547cf983956ed155099aa14b159
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 99%
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 99%
 + 세로형 산업 블루프린트 {#vertical-blueprints}
    + [개요](/help/blueprints/vertical-blueprints/overview.md)
    + [의류](/help/blueprints/vertical-blueprints/apparel.md)
-   + [의료](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [소매](/help/blueprints/vertical-blueprints/retail.md)
    + [통신](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [여행 및 서비스](/help/blueprints/vertical-blueprints/travel-hospitality.md)
