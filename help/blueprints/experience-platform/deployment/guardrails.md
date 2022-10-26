@@ -3,10 +3,10 @@ title: Experience Platform 및 응용 프로그램 보호 기능
 description: 경고는 Adobe Experience Platform 및 애플리케이션 내의 구성 요소 및 서비스에 대한 성능 기대치와 영향을 정의합니다
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: f618f3be083e15ebd0a00fcb242bd2ca07798272
+source-git-commit: a6b0e80c58ae3968b58a607765a45ed846428c71
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 25%
 
 <br>
 
-## 종료 지연
+## 종료 지연 다이어그램
 
 ### 데이터 수집
 
@@ -45,6 +45,12 @@ ht-degree: 25%
 ### 세그먼테이션
 
 <img src="../assets/segmentation_guardrails.svg" alt="Experience Platform 세분화 보호 기능" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Real-time Customer Data Platform 및 Adobe Target
+
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP 및 Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
