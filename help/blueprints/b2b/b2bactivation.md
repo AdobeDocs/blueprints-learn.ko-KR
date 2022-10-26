@@ -4,10 +4,10 @@ description: Real-time Customer Data Platform을 통해 계정 기반 대상자 
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,10 @@ ht-degree: 100%
 
 ## 가드레일
 
-Marketo Engage 관련 가드 레일 및 구현 단계는 Marketo Engage이 소스 및/또는 대상으로 사용되는 경우에만 관련이 있습니다.
+* Marketo Engage 관련 가드 레일 및 구현 단계는 Marketo Engage이 소스 및/또는 대상으로 사용되는 경우에만 관련이 있습니다.
+
+* 종료 대기 시간을 위한 추가 세부 정보 및 보호 기능은 [배포 가드 레일 문서](../experience-platform/deployment/guardrails.md)
+
 
 ### 다중 인스턴스 및 IMS 조직 지원:
 
@@ -55,7 +58,7 @@ Marketo Engage 관련 가드 레일 및 구현 단계는 Marketo Engage이 소�
 
 #### Experience Platform 프로필 및 세분화 가드 레일:
 
-* Experience Platform에 대한 프로필 및 세분화 가드 레일 살펴보기 - [프로필 및 세분화 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+* Experience Platform - [프로필 및 세그먼테이션 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * 계정, 리드, 기회를 포함하는 B2B 세그먼트는 다중 엔터티 관계를 사용하므로 세그먼트 평가가 일괄 처리됩니다. 스트리밍 세분화는 사용자 및 이벤트로 제한된 세그먼트에 대해 지원됩니다.
 
 #### Experience Platform - Marketo Engage 소스 커넥터:
@@ -74,7 +77,7 @@ Marketo Engage 관련 가드 레일 및 구현 단계는 Marketo Engage이 소�
 
 #### 대상 가드 레일
 
-* 대상에 대한 특정 지침은 대상 설명서를 참조하십시오. [대상 지침](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko)
+* 대상에 대한 특정 지침은 대상 설명서를 참조하십시오. [대상 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
 ## 구현 단계
@@ -93,7 +96,7 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 ## 관련 설명서
 
-* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
+* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
 * [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)

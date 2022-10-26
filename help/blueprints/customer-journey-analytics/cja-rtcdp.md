@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 3d2fbd7b6e94b6f56a72e0956709557c21b4c419
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,9 @@ Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상�
 
 ## Customer Journey Analytics 블루프린트의 가드레일 다이어그램
 
-![가드레일 다이어그램](assets/cja_guardrails.svg)
+* 자세한 보호 기능 및 종료 대기 시간은 [배포 가드 레일 문서](../experience-platform/deployment/guardrails.md)
+
+![가드레일 다이어그램](../experience-platform/assets/CJA_guardrails.svg)
 
 ## 관련 블로그 게시물
 
