@@ -3,7 +3,7 @@ title: 허브의 의사 결정 관리
 description: 키오스크, 상담원 지원 경험, 이메일, 기타 아웃바운드 게재 등 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
+source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 100%
@@ -69,7 +69,7 @@ Adobe Experience Platform
 
 ### 활성화 가드레일
 
-<img src="../../experience-platform/assets/activation-latency.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
