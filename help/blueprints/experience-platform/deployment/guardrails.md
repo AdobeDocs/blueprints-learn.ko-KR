@@ -3,7 +3,7 @@ title: Experience Platform 및 응용 프로그램 보호 기능
 description: 경고는 Adobe Experience Platform 및 애플리케이션 내의 구성 요소 및 서비스에 대한 성능 기대치와 영향을 정의합니다
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
+source-git-commit: e22c01fb768eed22d71748fd1e5bd8d3bc25068c
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 30%
