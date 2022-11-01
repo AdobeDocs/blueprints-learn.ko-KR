@@ -4,10 +4,10 @@ description: 이 블루프린트는 데이터 과학 기반 인사이트를 Expe
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 ## 아키텍처
 
 <img src="assets/data_science.svg" alt="사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트용 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+
+## 가드레일
+
+* 데이터 과학 결과를 Experience Platform으로 수집하는 데 대한 자세한 보호 및 종료 지연의 경우 실시간 고객 프로필은 [배포 가드 레일 문서](../experience-platform/deployment/guardrails.md).
 
 ## 구현 단계
 
