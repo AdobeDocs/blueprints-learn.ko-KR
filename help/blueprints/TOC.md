@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f087e4d4312c7e8e33130a699b43909914252035
+source-git-commit: 0dfe87cbffa265ee47873a91259a73dbc6c9dc76
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 96%
+source-wordcount: '251'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 96%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP와 Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer와 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ 데이터 수집, 수집, 액세스 및 내보내기{#data-ingestion}
++ 데이터 수집, 액세스 및 내보내기{#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [데이터 액세스 및 내보내기](/help/blueprints/data-ingestion/egress.md)
