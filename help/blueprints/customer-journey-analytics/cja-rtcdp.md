@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 44%
 
 ---
 
@@ -29,6 +29,18 @@ Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상�
 * 자세한 보호 기능 및 종료 대기 시간은 [배포 가드 레일 문서](../experience-platform/deployment/guardrails.md)
 
 ![가드레일 다이어그램](../experience-platform/assets/CJA_guardrails.svg)
+
+## FAQ
+
+* CJA가 보낸 RTCDP에 해당 프로필이 존재하지 않거나, 새 프로필을 만들거나, 이미 있는 프로필에만 CJA에서 대상을 기록합니까? 예. 새 프로필이 만들어집니다. 따라서 RTCDP 구현이 알려진 고객만을 대상으로 하는 경우 CJA 대상 규칙을 작성하여 알려진 ID가 있는 프로필만 필터링해야 합니다. 원하지 않는 경우 익명 프로필에서 RTCDP 프로필 카운트가 증가하지 않도록 합니다.
+
+* CJA는 대상 데이터를 파이프라인 이벤트나 데이터 레이크로도 이동하는 플랫 파일로 전송합니까? CJA 대상은 파이프라인을 통해 RTCDP 프로필 서비스로 스트리밍되지만 데이터 레이크에도 데이터 세트로 저장됩니다.
+
+* CJA는 어떤 ID를 전송합니까? CJA는 CJA 구성 중에 &quot;개인 ID&quot;로 구성된 ID를 전송합니다.
+
+* 기본 ID로 설정되는 것은 무엇입니까? CJA를 기본 &quot;개인&quot; ID로 설정할 때 사용자가 선택한 모든 ID입니다.
+
+* ID 서비스는 CJA 메시지도 처리합니까? 즉, CJA가 대상 공유를 통해 프로필 ID 그래프에 ID를 추가할 수 있습니까? 아니요. ID 서비스는 CJA 메시지를 처리하지 않습니다.
 
 ## 관련 블로그 게시물
 
