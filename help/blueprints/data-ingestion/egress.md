@@ -3,10 +3,11 @@ title: 데이터 액세스 및 내보내기 블루프린트
 description: 이 블루프린트는 Adobe Experience Platform 및 애플리케이션에서 데이터를 액세스 및 내보낼 수 있는 모든 방법을 제공하고 개괄적으로 설명합니다.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1513'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +51,7 @@ ht-degree: 4%
 
 * 실시간 고객 프로필 [가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 적용합니다.
 * 한 번에 단일 프로필 조회를 위해 설계되었습니다. 분석 또는 데이터 과학을 사용하기 위해 전체 프로필 모집단의 벌크 프로필 액세스 또는 다운로드에 사용되지 않습니다.
-* 프로필 조회 응답 시간은 프로필 보호 기능에 반영됩니다. 지연 시간이 짧은 요구 사항 - 예를 들어 동일한 페이지 개인화 요구 사항에 대해서는 지연 시간이 짧은 프로필 액세스를 위해 Edge Profile 또는 Customer Personalization 대상을 활용해야 합니다. [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* 프로필 조회 응답 시간은 프로필 보호 기능에 반영됩니다. 실시간 낮은 지연 요구 사항 - 예를 들어 동일한 페이지 개인화 요구 사항에 대해서는 -에서 로의 Edge Profile 을 활용해야 합니다. [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko) 또는 [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) 인 브라우저 및 인앱 개인화에 대한 실시간 프로필 액세스.
 
 ### 데이터 액세스 API {#data-access-api}
 
@@ -129,7 +130,7 @@ Experience Platform Query Service 고객은 Experience Platform 내에서 데이
 
 #### 사용 사례
 
-* 엔터프라이즈 데이터 저장소, 분석 도구, 이메일 시스템 또는 지원 시스템에 대한 대상 멤버십을 비롯한 프로필 속성 정보를 활성화합니다.
+* 내부 엔터프라이즈 데이터 저장소, 분석 도구, 이메일 시스템 또는 지원 시스템에 대한 대상 멤버십을 비롯한 프로필 속성 정보를 활성화합니다.
 * 외부 광고 벤더에 프로필 대상 멤버십을 활성화하여 프로필을 타겟팅하고 개인화합니다.
 
 #### 고려 사항
@@ -150,17 +151,7 @@ Journey Optimizer 고객은 여정 캔버스에서 사용자 지정 작업을 �
 
 #### 고려 사항
 
-* 지원되는 처리량에 대한 보호 기능 [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) 및 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 적용합니다.
+* 지원되는 처리량에 대한 보호 기능 [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko) 및 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 적용합니다.
 * 사용자 지정 작업은 여정의 각 이벤트 또는 프로필에 대해 하나씩 스트리밍으로 수행할 수 있습니다. 파일 형태로 대량 작업 또는 벌크 데이터 송신 또는 고객 여정 간에 집계된 요청을 수행할 수 없습니다.
 * 활성화 페이로드에 포함할 수 있는 실시간 고객 프로필 속성 및 경험 이벤트에 대한 스트리밍 액세스.
 * 이벤트 데이터를 필터링하고, 이벤트를 외부 대상으로 보내기 전에 적용된 간단한 매핑 변형을 수행할 수 있습니다.
-
-
-
-
-
-
-
-
-
-
