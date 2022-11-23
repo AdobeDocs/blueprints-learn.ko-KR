@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '568'
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 ## 가드레일
 
-[대상자 및 프로필 활성화 개요 페이지의 가드레일 설명을 참조하세요](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=en#guardrails-for-audience-and-profile-activation-blueprints).
+[대상자 및 프로필 활성화 개요 페이지의 가드레일 설명을 참조하세요](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=ko#guardrails-for-audience-and-profile-activation-blueprints).
 
 ## Real-time Customer Data Platform 구현 단계
 
-1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
+1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ko)
 1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
 1. 수집한 데이터를 통합 프로필로 결합할 수 있도록 스키마에 [올바른 ID와 ID 네임스페이스를 구성합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 * [[!UICONTROL Real-time Customer Data Platform] 개요 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
 * [[!UICONTROL Real-time Customer Data Platform] 데모](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ko)
-* [세그먼트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [세그먼트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ko)
