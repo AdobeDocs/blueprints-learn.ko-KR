@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 122e317b34c7704dc80da11d08b9a8ff955dfa8c
-workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 88%
 <td>Analytics</td>
 <td>
 <ul>
-<li>웹/Mobile SDK를 통해 수집된 데이터는 Adobe Analytics에 전달할 수 있습니다.</li>
+<li>Web/Mobile SDK를 통해 수집한 데이터를 Adobe Analytics에 전송할 수 있습니다.</li>
 </ul>
 </td>
 <td>
@@ -89,13 +89,13 @@ ht-degree: 88%
 </td>
 <td>
 <ul>
-<li>Audience Manager의 대상 멤버십과 함께 수집 및 평가된 데이터는 Experience Platform 데이터 레이크 및 프로필 스토어에 공유할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko">Audience Manager 소스 커넥터</a></li>
+<li>수집 및 평가한 데이터는 Audience Manager에서 가져온 대상자 멤버십과 함께 Experience Platform 데이터 레이크 및 프로필 저장소에 공유할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko">Audience Manager 소스 커넥터</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">익명 대상자 활성화</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">알려진 고객 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=ko">익명 대상자 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko">알려진 고객 활성화</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
 </ul>
 </td>
@@ -141,7 +141,7 @@ ht-degree: 88%
 <td colspan="1">
 <ul>
 <li>수집하여 Experience Platform 데이터 레이크로 가져온 데이터는 Customer Journey Analytics로 처리할 수 있습니다. </li>
-<li>Real-time Customer Data Platform의 프로필 및 대상 데이터를 CJA에 수집할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP와 CJA 통합</a>.
+<li>Real-time Customer Data Platform의 프로필 및 대상 데이터를 CJA로 수집할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ko">RTCDP와 CJA 통합</a>.
 </li>
 </ul>
 </ul>
@@ -197,12 +197,12 @@ ht-degree: 88%
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에 내장된 프로필 및 대상은 Adobe Commerce에서 개인화할 수 있습니다. </li>
+<li>Real-time Customer Data Platform에서 작성한 프로필 및 대상자를 Adobe Commerce 내 개인화에 사용 가능하도록 만들 수 있습니다. </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Adobe Commerce과 관련된 데이터는 Adobe Commerce 소스 커넥터를 통해 Experience Platform에 전송할 수 있습니다. </li>
+<li>Adobe Commerce 네이티브 데이터는 Adobe Commerce 소스 커넥터를 통해 Experience Platform으로 보낼 수 있습니다. </li>
 </ul>
 </td>
 <td colspan="1">현재 통합 없음</td>
@@ -221,7 +221,7 @@ ht-degree: 88%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en">B2B 활성화 블루프린트</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ko">B2B 활성화 블루프린트</a></li>
 </ul>
 </td>
 </tr>
@@ -240,8 +240,8 @@ ht-degree: 88%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">알려진 고객 활성화</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko">알려진 고객 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
 </ul>
 </td>
 </tr>
@@ -259,8 +259,8 @@ ht-degree: 88%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">알려진 고객 활성화</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko">알려진 고객 활성화</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko">Experience Platform과 애플리케이션을 사용한 활성화</a></li>
 </ul>
 </td>
 </tr>
