@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '837'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * Marketo Engage 관련 가드 레일 및 구현 단계는 Marketo Engage이 소스 및/또는 대상으로 사용되는 경우에만 관련이 있습니다.
 
-* 종료 대기 시간을 위한 추가 세부 정보 및 보호 기능은 [배포 가드 레일 문서](../experience-platform/deployment/guardrails.md)
+* 엔드 투 엔드 지연 시간에 대한 자세한 정보와 가드레일에 대해서는 [배포 가드레일 문서](../experience-platform/deployment/guardrails.md)를 참조하세요.
 
 
 ### 다중 인스턴스 및 IMS 조직 지원:
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 #### Experience Platform 프로필 및 세분화 가드 레일:
 
-* Experience Platform - [프로필 및 세그먼테이션 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+* Experience Platform에 대한 프로필 및 세분화 가드레일 살펴보기 - [프로필 및 세분화 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * 계정, 리드, 기회를 포함하는 B2B 세그먼트는 다중 엔터티 관계를 사용하므로 세그먼트 평가가 일괄 처리됩니다. 스트리밍 세분화는 사용자 및 이벤트로 제한된 세그먼트에 대해 지원됩니다.
 
 #### Experience Platform - Marketo Engage 소스 커넥터:
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 #### 대상 가드 레일
 
-* 대상에 대한 특정 지침은 대상 설명서를 참조하십시오. [대상 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
+* 대상에 대한 특정 지침은 대상 설명서를 참조하십시오. [대상 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=ko)
 
 
 ## 구현 단계
@@ -90,13 +90,14 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 블루프린트의 주요 고려 사항 및 구성에 대한 지침입니다.
 
-* Marketo과 CRM 통합 및 비통합: 구현에서 Marketo Engage을 소스로 사용하고 Marketo Engage이 CRM에 연결되어 있는 경우 Experience Platform의 Marketo 소스 커넥터를 사용하여 CRM 데이터를 Experience Platform에 수집합니다. 추가 테이블을 수집해야 하는 경우 Experience Platform 소스 커넥터를 사용합니다. 구현에서 Marketo Engage을 소스로 사용하지 않는 경우 CRM 소스 Experience Platform 커넥터를 사용하여 CRM 소스를 AEP에 직접 연결합니다.
+* Marketo과 CRM 통합 및 비통합:
+구현에서 Marketo Engage을 소스로 사용하고 Marketo Engage이 CRM에 연결되어 있는 경우 Experience Platform의 Marketo 소스 커넥터를 사용하여 CRM 데이터를 Experience Platform에 수집합니다. 추가 테이블을 수집해야 하는 경우 Experience Platform 소스 커넥터를 사용합니다. 구현에서 Marketo Engage을 소스로 사용하지 않는 경우 CRM 소스 Experience Platform 커넥터를 사용하여 CRM 소스를 AEP에 직접 연결합니다.
 * Real-time Customer Data Platform B2B 에디션에서만 리드 시작 및 양성은 권장되지 않습니다. 이 사용 사례에는 Marketo Engage와 같은 리드 육성 도구을 사용하는 것이 좋습니다.
 * 대상자를 활성화를 위한 Marketo Engage으로 푸시하는 AEP용 Marketo Engage 대상 커넥터는 이메일 주소 및 ECID만 푸시합니다. 연락처가 아직 존재하지 않는 경우 새 리드를 만들지 않으므로 프로필 및 리드 데이터를 Marketo Engage에 수집해야 합니다.
 
 ## 관련 설명서
 
-* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
 * [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)
