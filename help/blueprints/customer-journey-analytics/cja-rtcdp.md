@@ -8,7 +8,7 @@ exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 44%
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상�
 
 ## Customer Journey Analytics 블루프린트의 가드레일 다이어그램
 
-* 자세한 보호 기능 및 종료 대기 시간은 [배포 가드 레일 문서](../experience-platform/deployment/guardrails.md)
+* 자세한 가드레일 및 엔드 투 엔드 지연 시간에 대해서는 [배포 가드레일 문서](../experience-platform/deployment/guardrails.md)를 참조하세요.
 
 ![가드레일 다이어그램](../experience-platform/assets/CJA_guardrails.svg)
 
