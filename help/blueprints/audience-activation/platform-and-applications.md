@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 68%
 
 Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다. Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.
 
-Experience Cloud 응용 프로그램에 대한 활성화는 [알려진 고객 활성화 블루프린트](known.md).
+Experience Cloud 애플리케이션에서의 활성화는 [알려진 고객 활성화 블루프린트](known.md)의 내용과 유사합니다.
 
 ## 사용 사례
 
 * Experience Cloud를 기반으로 하는 고객 상호 작용 채널 전체에 걸친 개인화 및 타겟팅을 수행합니다.
 * Experience Platform과 Experience Cloud 애플리케이션 간에 대상자 및 프로필 데이터를 공유합니다.
-* 온라인 행동 데이터 및 데이터 과학 모델을 포함한 다중 채널 데이터에서 풍부한 통찰력을 작성하여 Experience Platform에서 실시간 고객 프로필을 보강한 다음 Experience Cloud 애플리케이션과 공유할 수 있습니다.
+* 온라인 행동 데이터 및 데이터 과학 모델을 포함한 다중 채널 데이터에서 풍부한 인사이트를 끌어내어 Experience Platform의 실시간 고객 프로필을 보강한 다음 이를 Experience Cloud 애플리케이션에 공유할 수 있습니다.
 
 ## 애플리케이션
 
@@ -48,7 +48,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ## 가드레일
 
-[대상자 및 프로필 활성화 개요 페이지의 가드레일](overview.md)을 참조하세요. 그리고 [배포 가드 레일](../experience-platform/deployment/guardrails.md) 페이지.
+[대상자 및 프로필 활성화 개요 페이지의 가드레일](overview.md)을 참조하세요.  또한 [배포 가드레일](../experience-platform/deployment/guardrails.md) 페이지도 참조하실 수 있습니다.
 
 ## 구현 시 고려 사항
 
@@ -59,9 +59,9 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 * 자세한 내용은 다음 설명서를 참조하세요. [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko).
 
 * 세그먼트 평가가 일괄 처리인지 스트리밍인지에 관계없이 세그먼트 평가가 완료되고 실시간 고객 프로필에 작성되는 즉시 RT-CDP의 대상 멤버십이 스트리밍 방식으로 Audience Manager에 공유됩니다.
-* 자격이 있는 프로필에 관련 프로필 장치에 대한 지역 라우팅 정보가 포함되어 있는 경우 RTCDP의 대상 멤버십이 연결된 Audience Manager Edge에서 스트리밍 방식으로 검증됩니다. 지난 14일 동안 타임스탬프가 있는 프로필에 지역 라우팅 정보가 적용된 경우 스트리밍의 Audience Manager 에지에서 평가됩니다. RTCDP의 프로필에 지역 라우팅 정보가 포함되어 있지 않거나 지역 라우팅 정보가 14일 이상 오래된 경우 RTCDP 대상 멤버십이 배치 기반 평가 및 활성화를 위해 Audience Manager 허브 위치로 전송됩니다.
-* 지역 라우팅 정보를 사용하면 이러한 프로필은 Edge 활성화를 사용할 수 있으며 RTCDP에서 세그먼트 자격을 몇 분 내에 활성화할 수 있으며, Edge 활성화를 사용할 수 없는 프로필은 Audience Manager 허브에서 자격을 얻을 수 있으며, 처리를 위한 12~24시간 기간을 가질 수 있습니다.
-* 어느 Edge에 Audience Manager 프로필을 저장할지에 대한 지역 라우팅 정보는 Audience Manager, 방문자 ID 서비스, Analytics, Launch에서, 또는 Web SDK에서 직접 Experience Platform에 [데이터 캡처 지역 정보] XDM 필드 그룹을 사용하여 별도의 프로필 기록 클래스 데이터 세트로 수집할 수 있습니다. 자세한 내용은 지역 정보 가져오기 문서를 참조하십시오 [링크](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=en).
+* 자격이 있는 프로필에 관련 프로필 장치에 대한 지역 라우팅 정보가 포함되어 있는 경우 RTCDP의 대상 멤버십이 연결된 Audience Manager Edge에서 스트리밍 방식으로 검증됩니다. 타임스탬프 기준 최근 14일 내 프로필에 지역 라우팅 정보가 적용된 경우 Audience Manager Edge에서 스트리밍 방식으로 평가합니다. RTCDP의 프로필에 지역 라우팅 정보가 없거나 지역 라우팅 정보가 14일보다 전에 적용된 경우, 해당 RTCDP 대상자 멤버십을 Audience Manager 허브 위치로 다시 보내어 배치 기반 평가 및 활성화 처리를 합니다.
+* 지역 라우팅 정보가 있으면 이 프로필은 Edge 활성화를 사용할 수 있으며 RTCDP에서 몇 분 내로 세그먼트 인증 후 활성화됩니다. Edge 활성화를 사용할 수 없는 프로필은 Audience Manager 허브를 통해 자격을 얻어야 하며, 여기에는 12~24시간 정도의 처리 시간이 걸릴 수 있습니다.
+* 어느 Edge에 Audience Manager 프로필을 저장할지에 대한 지역 라우팅 정보는 Audience Manager, 방문자 ID 서비스, Analytics, Launch에서, 또는 Web SDK에서 직접 Experience Platform에 [데이터 캡처 지역 정보] XDM 필드 그룹을 사용하여 별도의 프로필 기록 클래스 데이터 세트로 수집할 수 있습니다. 자세한 내용은 [링크](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=ko)의 지역 정보 가져오기 문서를 참조하세요.
 * Experience Platform에서 Audience Manager로 대상자를 공유하는 활성화 시나리오의 경우 자동으로 공유되는 ID에는 ECID, IDFA, GAID, 해시 이메일 주소(EMAIL_LC_SHA256), AdCloud ID가 있습니다. 현재 사용자 지정 네임스페이스는 공유되지 않습니다.
 * Experience Platform의 대상자는 필요한 대상 ID가 [!UICONTROL Real-time Customer Profile]에 포함된 경우 또는 [!UICONTROL Real-time Customer Profile]의 ID가 Audience Manager에서 필요 대상 ID와 연결된 경우에 Audience Manager 대상을 통해 공유할 수 있습니다.
 
@@ -71,15 +71,15 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ### Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 대상 공유
 
-* [고객 여정 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en)에서 프로필 및 대상자를 Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 공유하는 방법에 대해 자세히 살펴볼 수 있습니다.
+* [고객 여정 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ko)에서 프로필 및 대상자를 Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 공유하는 방법에 대해 자세히 살펴볼 수 있습니다.
 
-### Real-time Customer Data Platform에서 Marketo Engage으로 대상 공유
+### Real-time Customer Data Platform에서 Marketo Engage로 대상자 공유하기
 
-* 자세한 내용은 [B2B 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en) Real-time Customer Data Platform에서 Marketo Engage으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
+* Real-time Customer Data Platform에서 Marketo Engage로 프로필 및 대상자를 공유하는 자세한 방법은 [B2B 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ko)를 참조하세요.
 
-### Real-time Customer Data Platform에서 Customer Journey Analytics으로 대상 공유
+### Real-time Customer Data Platform에서 Customer Journey Analytics로 대상자 공유하기
 
-* 자세한 내용은 [Customer Journey Analytics과 공유되는 RTCDP 대상](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en) Real-time Customer Data Platform 대상을 Customer Journey Analytics에 공유하는 방법에 대한 자세한 내용은 을 참조하십시오.
+* Real-time Customer Data Platform 대상자를 Customer Journey Analytics로 공유하는 자세한 방법은 [RTCDP 대상자를 Customer Journey Analytics에 공유하기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ko)를 참조하세요.
 
 ## 관련 설명서
 
