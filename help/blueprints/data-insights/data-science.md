@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 92%
 
 ## 가드레일
 
-* 데이터 과학 결과를 Experience Platform으로 수집하는 데 대한 자세한 보호 및 종료 지연의 경우 실시간 고객 프로필은 [배포 가드 레일 문서](../experience-platform/deployment/guardrails.md).
+* 데이터 과학 결과를 Experience Platform 및 실시간 고객 프로필로 수집할 때의 자세한 가드레일 및 엔드 투 엔드 지연 시간은 [배포 가드레일 문서](../experience-platform/deployment/guardrails.md)에서 언급하는 데이터 수집 가드레일 및 지연 시간 다이어그램을 참조하세요.
 
 ## 구현 단계
 
-1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
+1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ko)
 1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
 1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
 
