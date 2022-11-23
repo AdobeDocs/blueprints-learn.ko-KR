@@ -4,9 +4,9 @@ description: Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 �
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도�
 
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [Real-Time CDP와 Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform의 Real-Time CDP와 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다. | <ul><li>클라우드 스토리지 파일 교환 및 Adobe Campaign 수집 워크플로우를 사용하여 Real-Time CDP에서 Adobe Campaign으로 프로필 및 대상자 공유 </li><li>고객 대화의 게재 및 상호 작용 데이터를 Adobe Campaign에서 다시 Real-Time CDP로 간단히 공유하여 [실시간 고객 프로필]을 개선하고 메시지 캠페인에 대해 크로스 채널 보고를 제공합니다.</li></ul> |
+| [Real-Time CDP와 Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform의 Real-Time CDP와 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다. | <ul><li>클라우드 스토리지 파일 교환과 Adobe Campaign 수집 워크플로우를 사용하여 Real-Time CDP에서 Adobe Campaign으로 프로필 및 대상자를 공유합니다. </li><li>고객 대화의 게재 및 상호 작용 데이터를 Adobe Campaign에서 다시 Real-Time CDP로 간단히 공유하여 [실시간 고객 프로필]을 개선하고 메시지 캠페인에 대해 크로스 채널 보고를 제공합니다.</li></ul> |
 | [Journey Optimizer와 Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer를 통해 [실시간 고객 프로필]을 활용하여 1:1 경험을 오케스트레이션하고 Adobe Campaign의 기본 제공 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다. | [실시간 고객 프로필]과 Journey Optimizer의 기능을 활용하여 실시간 경험을 오케스트레이션하는 한편 Adobe Campaign의 기본 제공 실시간 메시지 기능을 사용하여 라스트 마일 커뮤니케이션을 수행합니다.<br><br>고려 사항:<br><ul><li>[실시간 메시지] 서버를 통해 시간당 최대 5만 개의 메시지를 전송할 수 있습니다.<li>Journey Optimizer에서는 스로틀링을 수행하지 않으므로 영업 전 단계 기업 아키텍트가 기술 점검을 수행해야 합니다.</li><li>Campaign v7 실시간 메시지 서버로 가는 페이로드에서는 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
 <br>
