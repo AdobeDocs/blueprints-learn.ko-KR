@@ -5,9 +5,9 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 
 * Real-time Customer Profile [가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)이 적용됩니다.
 * 한 번에 한 개의 프로필을 검색하는 용도로 설계되었습니다. 분석 또는 데이터 과학 용도의 대규모 프로필 액세스 또는 전체 프로필 모집단의 다운로드에 사용하지 않습니다.
-* 프로필 검색 응답 시간은 프로필 가드레일을 지킵니다. 실시간 낮은 지연 요구 사항 - 예를 들어 동일한 페이지 개인화 요구 사항에 대해서는 -에서 로의 Edge Profile 을 활용해야 합니다. [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko) 또는 [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=ko) 인 브라우저 및 인앱 개인화에 대한 실시간 프로필 액세스.
+* 프로필 검색 응답 시간은 프로필 가드레일을 지킵니다. 실시간 처리, 낮은 지연 시간이 필요한 경우(예: 동일 페이지 개인화가 필요한 경우) 브라우저 내 및 앱 내 개인화에 필요한 실시간 프로필 액세스를 위해 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko) 또는 [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=ko)로 Edge 프로필을 활용해야 합니다.
 
 ### 데이터 액세스 API {#data-access-api}
 
@@ -130,7 +130,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 
 #### 사용 사례
 
-* 내부 엔터프라이즈 데이터 저장소, 분석 도구, 이메일 시스템 또는 지원 시스템에 대한 대상 멤버십을 비롯한 프로필 속성 정보를 활성화합니다.
+* 내부 기업 데이터 저장소, 분석 도구, 이메일 시스템 또는 지원 시스템에 대해 대상자 멤버십 등 프로필 속성 정보를 활성화합니다.
 * 외부 광고 벤더에 대해 프로필 대상자 멤버십을 활성화하여 프로필에 보이는 콘텐츠를 타겟팅하고 개인화합니다.
 
 #### 고려할 사항
@@ -151,7 +151,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 
 #### 고려할 사항
 
-* [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko)에서 지원하는 처리량 및 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)에서 지원하는 보강에 대한 가드레일이 적용됩니다.
+* [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko)에서 지원하는 처리량 및 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)에서 지원하는 보강에 대한 가드레일이 적용됩니다.
 * 사용자 정의 작업은 여정의 이벤트 또는 프로필 각각에 대해 하나씩 스트리밍으로 수행할 수 있습니다. 고객 여정 간 파일 또는 종합 요청 형태의 대량 작업 또는 대량 데이터 전송은 수행할 수 없습니다.
 * 활성화 페이로드에 포함할 수 있는 실시간 고객 프로필 속성 및 경험 이벤트에는 스트리밍 액세스가 적용됩니다.
 * 이벤트를 외부 대상으로 보내기 전에 이벤트 데이터를 필터링하고 간단한 매핑 변형을 적용할 수 있습니다.
