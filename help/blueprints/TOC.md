@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 94%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 100%
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
++ Marketo 및 Workfront으로 캠페인 공급망 최적화{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+   + [개요](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
+   + [고객 성공 사례](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
+   + [가져오기 및 만들기](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
    + [행동을 통한 개인화      - Target](/help/blueprints/web-personalization/behavioral.md)
