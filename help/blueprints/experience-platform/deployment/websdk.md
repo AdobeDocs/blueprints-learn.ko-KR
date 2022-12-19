@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Web 및 Mobile SDK와 Edge Network Server API에 대한 개요 및 세부 정보는 다음을 참조하세요.
 * [WebSDK 개요](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)
-* [MobileSDK 개요](https://aep-sdks.gitbook.io/docs/)
+* [MobileSDK 개요](https://developer.adobe.com/client-sdks/documentation/)
 * [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 
 WebSDK에서 지원되는 애플리케이션 기능에 대한 자세한 개요는 다음 설명서를 참조하세요.
