@@ -2,7 +2,7 @@
 description: Marketo 및 Workfront을 사용하여 캠페인 공급망 최적화
 title: 가져오기 및 만들기
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Workfront 및 Marketo Engage을 사용하면 시스템 간 연결을 통해 [Wor
 
 >[!TIP]
 >
->마케팅 캠페인 작업을 구성하는 데 사용되는 Workfront의 다양한 개체 유형과 Marketo Engage 프로그램에 매핑되는 방법에 대해 자세히 알아보려면 [Marketo 및 Workfront 개요](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}.
+>마케팅 캠페인 작업을 구성하는 데 사용되는 Workfront의 다양한 개체 유형과 Marketo Engage 프로그램에 매핑되는 방법에 대해 자세히 알아보려면 [Marketo 및 Workfront 개요](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
 
 ## 자동화를 위한 Campaign 개발 프로세스 준비 {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Workfront 요청에서 새 Marketo Engage 프로그램 만들기를 자동화할
 
 * [Adobe Workfront 모듈](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
 
-* [Marketo 및 Workfront 개요](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}
+* [Marketo 및 Workfront 개요](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
