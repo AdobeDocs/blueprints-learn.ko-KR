@@ -5,8 +5,8 @@ landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
-workflow-type: ht
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
+workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 ### 구현 패턴 1 - Edge Network와 Web/Mobile SDK 또는 Edge Network API(권장 방법)
 
 * Web/Mobile SDK에서 Edge Network를 사용합니다. 실시간 Edge 세분화를 사용하려면 Web/Mobile SDK 또는 Edge API 구현 방법이 필요합니다.
-* [Experience Platform Web 및 Mobile SDK 블루프린트를 참조하세요.](../data-ingestion/websdk.md)       SDK 기반 구현에 대해 설명하고 있습니다.
+* [Experience Platform Web 및 Mobile SDK 블루프린트를 참조하세요.](../experience-platform/deployment/websdk.md)       SDK 기반 구현에 대해 설명하고 있습니다.
 * Mobile SDK에서 사용하려면 [Adobe Journey Optimizer - Decisioning 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)을 Mobile SDK에 설치해야 합니다.
 * Edge Profile을 사용하는 Adobe Target의 API 기반 구현에 대해서는 [Edge Network Server API를 참조하세요](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko).
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 일괄 처리 대상자를 공유하는 작업을 지원합니다.
 
-[애플리케이션별 SDK 블루프린트 참조](../data-ingestion/appsdk.md)
+[애플리케이션별 SDK 블루프린트 참조](../experience-platform/deployment/appsdk.md)
 
 ### 구현 단계
 

@@ -2,7 +2,7 @@
 description: 개요 - Marketo 및 Workfront으로 Campaign 공급망 최적화
 title: 개요
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 0%
@@ -147,7 +147,7 @@ Workfront에서 캠페인 개발 프로세스를 매핑할 때 Marketo Engage에
 
 ### Workfront Fusion, Workfront 및 Marketo Engage 통합 시작하기 {#getting-started-with-workfront-fusion}
 
-* [가져오기 및 만들기](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md){target=&quot;_blank&quot;} - Marketo Engage 및 Workfront을 사용한 Campaign 개발 자동화
+* [가져오기 및 만들기](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} - Marketo Engage 및 Workfront을 사용한 Campaign 개발 자동화
 
 * 증명 및 승인(준비 중)
 
