@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 95%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 0%
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
    + Marketo 및 Workfront을 사용한 캠페인 공급망{#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [개요](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [고객 성공 사례](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
       + [가져오기 및 만들기](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
+      + [고객 성공 사례](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA 대상자를 RTCDP에 공유](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
