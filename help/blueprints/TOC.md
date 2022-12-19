@@ -5,7 +5,7 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -45,6 +45,10 @@ ht-degree: 0%
 + B2B 활성화 및 마케팅 {#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
+   + Marketo 및 Workfront을 사용한 캠페인 공급망{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+      + [개요](/help/blueprints/b2b/campaign-supply-chain/overview.md)
+      + [고객 성공 사례](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+      + [가져오기 및 만들기](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA 대상자를 RTCDP에 공유](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -79,10 +83,6 @@ ht-degree: 0%
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
-+ Marketo 및 Workfront으로 캠페인 공급망 최적화{#optimize-campaign-supply-chain-with-marketo-and-workfront}
-   + [개요](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
-   + [고객 성공 사례](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
-   + [가져오기 및 만들기](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
    + [행동을 통한 개인화      - Target](/help/blueprints/web-personalization/behavioral.md)
