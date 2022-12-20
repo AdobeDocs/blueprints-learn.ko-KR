@@ -6,8 +6,8 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
-workflow-type: tm+mt
-source-wordcount: '1625'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
