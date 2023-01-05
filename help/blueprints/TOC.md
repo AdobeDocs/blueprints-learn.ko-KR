@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
       + [가드레일](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 대상자 활성화      (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [익명 대상자 활성화       (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 알려진 고객 활성화(RTCDP) {#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
       + 소셜 및 광고 채널에 대한 활성화 {#audience-activation}
@@ -45,7 +45,7 @@ ht-degree: 95%
 + B2B 활성화 및 마케팅 {#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
-   + Marketo 및 Workfront을 사용한 캠페인 공급망{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+   + Marketo와 Workfront를 사용하는 캠페인 공급망 {#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [개요](/help/blueprints/b2b/campaign-supply-chain/overview.md)
       + [가져오기 및 만들기](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
       + [고객 성공 사례](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
@@ -72,7 +72,7 @@ ht-degree: 95%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP와 Adobe Campaign    v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP와 Adobe Campaign     v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer와 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 데이터 수집, 액세스, 내보내기 {#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
@@ -85,6 +85,6 @@ ht-degree: 95%
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동을 통한 개인화      - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [행동을 통한 개인화       - Target](/help/blueprints/web-personalization/behavioral.md)
    + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)
