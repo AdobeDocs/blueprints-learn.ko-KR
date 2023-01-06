@@ -1,8 +1,8 @@
 ---
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 # 문서 참여
@@ -15,13 +15,13 @@ Adobe는 설명서 팀 외부 Adobe 직원의 참여뿐 아니라 커뮤니티�
 
 ## Adobe 콘텐츠 참여 정보
 
-[Adobe 설명서 참여자 안내서](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하세요.
+[Adobe 설명서 참여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하세요.
 
 참여 방법은 참여자가 누구인지, 참여하여 변경하려는 내용이 무엇인지에 따라 달라집니다.
 
 ### 문서를 소규모로 변경하려는 경우
 
-개인적인 선의로 문서를 작은 규모로 업데이트하려는 경우 참여할 문서에서 **편집** 링크를 클릭하여 해당 문서의 GitHub 소스로 이동합니다. 그 다음 GitHub UI를 사용하여 업데이트하면 됩니다. 자세한 내용은 일반 [Adobe 설명서 참여자 안내서](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하세요.
+개인적인 선의로 문서를 작은 규모로 업데이트하려는 경우 참여할 문서에서 **편집** 링크를 클릭하여 해당 문서의 GitHub 소스로 이동합니다. 그 다음 GitHub UI를 사용하여 업데이트하면 됩니다. 자세한 내용은 일반 [Adobe 설명서 참여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하세요.
 
 이 저장소의 설명서 및 코드 예제에 대하여 제출하는 소규모 정정이나 추가 설명에는 Adobe 사용 약관이 적용됩니다.
 
@@ -43,7 +43,7 @@ Adobe Experience Cloud 솔루션 제품 팀의 기술 작성자, 프로그램 �
 
 커뮤니티 참여자는 GitHub UI를 사용하여 기본적인 편집을 하거나 Repo 찍어오기로 대규모 변경을 제출할 수 있습니다.
 
-자세한 내용은 [Adobe 설명서 참여자 안내서](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하세요.
+자세한 내용은 [Adobe 설명서 참여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하세요.
 
 ## 마크다운으로 토픽의 포맷을 지정하는 방법
 
