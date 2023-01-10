@@ -6,7 +6,7 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
 

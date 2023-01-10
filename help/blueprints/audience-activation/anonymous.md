@@ -31,7 +31,7 @@ ht-degree: 100%
 
 온사이트 및 광고 대상에 대한 익명 대상자 활성화에는 Audience Manager와 Real-time Customer Data Platform 모두 활용할 수 있습니다. 단, Real-time Customer Data Platform의 경우 광고 대상 중 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ko)에서 설명하는 익명 디바이스 식별자가 있는 일부만 지원합니다.
 
- 익명 디바이스 기반 타겟팅을 지원하는 기본 Real-time Customer Data Platform 광고 대상에는 Microsoft Bing, Google DV360, TradeDesk가 있습니다. 이 외에도 Real-time Customer Data Platform은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en)에서 언급하고 [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko)에서 설명하는 수많은 알려진 고객 기반 대상을 지원합니다.
+ 익명 디바이스 기반 타겟팅을 지원하는 기본 Real-time Customer Data Platform 광고 대상에는 Microsoft Bing, Google DV360, TradeDesk가 있습니다. 이 외에도 Real-time Customer Data Platform은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ko)에서 언급하고 [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko)에서 설명하는 수많은 알려진 고객 기반 대상을 지원합니다.
 
 ## 아키텍처
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## Real-time Customer Data Platform 구현 단계
 
-* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html)를 참조하세요.
+* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko)를 참조하세요.
 
 ## 관련 설명서
 
@@ -53,5 +53,5 @@ ht-degree: 100%
 * [Experience Cloud [!UICONTROL 대상]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
 * [Audience Manager와 Target 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ko)
 * [Adobe Analytics 세그먼트를 Audience Manager를 통해 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)
-* [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko).
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)
