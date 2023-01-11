@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # 참여
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## 참여자 안내서
 
-[참여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하세요.
+[참여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하세요.
 
 ## 질문이 있으신가요?
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 ## 코드 검토
 
-모든 제출물은 가져오기 요청 방식으로 이루어져야 하며 프로젝트 커미터가 검토해야 합니다. 가져오기 요청을 보내는 방법에 대한 자세한 내용은 [GitHub의 가져오기 요청 설명서](https://help.github.com/kr/articles/about-pull-requests/)를 참조하세요.
+모든 제출물은 가져오기 요청 방식으로 이루어져야 하며 프로젝트 커미터가 검토해야 합니다. 가져오기 요청을 보내는 방법에 대한 자세한 내용은 [GitHub의 가져오기 요청 설명서](https://docs.github.com/ko/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)를 참조하세요.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
