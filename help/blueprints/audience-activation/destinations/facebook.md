@@ -4,10 +4,10 @@ description: Facebook 맞춤 타겟을 활성화합니다.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

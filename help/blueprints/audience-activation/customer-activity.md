@@ -1,19 +1,19 @@
 ---
 title: 고객 활동 허브 블루프린트
-description: '"직원이 관여하는 지원 및 영업의 맥락을 제공하는 [!UICONTROL Real-time Customer Profile] 확인 블루프린트입니다."'
+description: "직원이 관여하는 지원 및 영업의 맥락을 제공하는 [!UICONTROL Real-time Customer Profile] 확인 블루프린트입니다."
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 고객 활동 허브 블루프린트
 
-고객 활동 허브 블루프린트에서는 외부 애플리케이션에서 Adobe Experience Platform의 [!UICONTROL Real-time Customer Profile]에 액세스하는 방법을 보여 줍니다.
+Customer Activity Hub 블루프린트는 외부 애플리케이션이 Adobe Experience Platform에 액세스하는 방법을 보여줍니다 [!UICONTROL 실시간 고객 프로필].
 
 외부 애플리케이션에서는 API GET 요청을 통해 프로필에 액세스할 수 있습니다. 이렇게 하면 해당 프로필 내에 저장된 속성, 이벤트, 세그먼트 멤버십 및 모델 기반 특성을 해당 Adobe 외부 애플리케이션에서 사용할 수 있습니다.
 

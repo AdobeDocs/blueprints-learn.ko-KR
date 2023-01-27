@@ -3,14 +3,14 @@ title: 의사 결정 관리를 통한 웹/모바일 개인화
 description: 키오스크, 상담원 지원 경험 등 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
-source-git-commit: 53237df8202aa68599c183572376b529be53fe42
-workflow-type: ht
-source-wordcount: '74'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 98%
 
 ---
 
-# Journey Optimizer - Edge의 의사 결정 관리
+# Journey Optimizer - Edge의 의사 결정 관리 블루프린트
 
 Adobe Journey Optimizer 의사 결정 관리를 사용하여 오퍼를 개인화하고 웹사이트, 모바일 앱, 키오스크 등 인바운드 채널과 기타 고객 터치포인트 전반에 걸쳐 게재할 수 있습니다.
 

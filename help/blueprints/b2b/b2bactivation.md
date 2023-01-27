@@ -1,17 +1,17 @@
 ---
-title: B2B 활성화
+title: B2B 대상 및 프로필 활성화 블루프린트
 description: Real-time Customer Data Platform을 통해 계정 기반 대상자 및 프로필 중심적 고객 경험을 제공합니다.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 98%
 
 ---
 
-# B2B 대상자 및 프로필 활성화
+# B2B 대상자 및 프로필 활성화 블루프린트
 
 개별 고객과 연결된 계정, 기회 및 리드 정보를 사용하여 실행 가능한 B2B 프로필을 만들어 여러 채널에서의 개인화 및 타겟팅을 개선합니다.
 

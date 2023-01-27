@@ -1,17 +1,17 @@
 ---
-title: B2B 분석 및 활성화
+title: B2B 분석 및 활성화 블루프린트
 description: Real-time Customer Data Platform을 통해 계정을 기반으로 대상자 및 프로필 중심의 고객 경험을 제공합니다.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: bd0a93ef2efa702b4d4f3eb20d126ee22fb113af
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 97%
 
 ---
 
-# B2B 분석 및 활성화
+# B2B Analytics 및 활성화 블루프린트
 
 데이터 기반 마케팅의 세계에서는 B2B 대상자와 프로필을 중심으로 활성화해야 성공할 수 있습니다. 그러나 많은 브랜드가 여전히 일관되지 않은 도달 및 개인화 전략으로 채널 중심 활성화에 노력을 기울입니다.
 

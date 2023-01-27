@@ -4,10 +4,10 @@ description: 고객에게 실시간으로 맞춤형 딜을 제공하는 한편 �
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 100%
 
 이와 같은 제한을 해결해 기존 7일의 대기 기간 이전에 회선을 추가해 사용자에게 보다 시의적절한 후속 조치를 해야 했습니다.
 
-## Adobe의 접근 방식
+## Adobe 접근 방식
 
 * 새 회선을 추가하도록 전환하지 못한 사용자를 식별하는 Adobe Analytics 데이터를 Adobe Journey Optimizer에서 사용할 수 있는 데이터 소스로 포함했습니다.
-* Adobe Journey Optimizer에서는 고객이 사용자 정의된 &quot;포기&quot; 메시지를 받을 시간에 대한 규칙을 사용하여 고객이 자신의 계정에 새로운 회선을 추가함으로써 전환을 이루도록 합니다.
+* Adobe Journey Optimizer은 고객이 계정에 새 줄을 추가하여 전환하도록 유도하기 위해 고안된 사용자 지정된 &quot;포기&quot; 메시지를 받을 때까지의 규칙을 사용합니다.
 
 
-## 제공한 비즈니스 가치
+## 제공되는 비즈니스 가치
 
 | 목표 | 전략 | 발견한 가치 |
 |---|---|---|
 | **보다 높은 캠페인 전환율 유도&#x200B;**<br></br>**연간 계정 매출 증대**</ul> | <ul><li>회선 추가에 관심을 보였지만 아직 전환되지 않은 사용자에 대한 새 세그먼트를 거의 실시간으로 만듭니다.</li><li>비전환 고객에 대한 후속 조치를 진행하여 관심이 있는 비전환자를 위한 두 번째 접점을 제공합니다. </li><li>테스트 전략을 통해 여정의 수행을 측정하고 이메일을 통한 전환을 최적화합니다.</li></ul> | <ul><li><strong>높은 품질, 관련성 높은 경험:</strong> 적절한 여정 오케스트레이션을 통해 고객에게 보다 관련성 높은 메시지 경험을 제공하여 이메일 목록 이탈을 줄일 수 있습니다.</li><li><strong>규모에 맞는 Journey Orchestration:</strong> 개인화되고 시의적절한 여정을 만들어 전환율과 총 매출을 높일 수 있습니다.</li></ul> |
 
-## 기본 블루프린트: Experience Cloud 애플리케이션을 사용한 대상자 및 활성화
+## 기본 블루프린트: Experience Cloud 애플리케이션을 사용한 고객 및 활성화
 
 ### 설명
 

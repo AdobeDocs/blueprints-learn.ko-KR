@@ -1,18 +1,18 @@
 ---
-title: 애플리케이션별 SDK 배포
+title: 애플리케이션별 SDK 배포 아키텍처 다이어그램
 description: 이 블루프린트는 애플리케이션별 SDK를 사용하는 아키텍처 및 수집을 보여줍니다.
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
-workflow-type: ht
-source-wordcount: '89'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 86%
 
 ---
 
-# 애플리케이션별 SDK 배포
+# 애플리케이션별 SDK 배포 아키텍처 다이어그램
 
 아래 아키텍처 다이어그램은 구현을 위해 애플리케이션별 SDK를 활용하는 통합 경로 및 데이터 수집을 보여줍니다.
 

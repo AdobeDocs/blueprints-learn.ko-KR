@@ -4,27 +4,27 @@ description: 다양한 채널에서의 고객 행동에 대해 통합된 단일 
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# 여행 및 서비스 업계 비즈니스 과제
+# 여행 및 숙박 업계 비즈니스 과제
 
 미국에 있는 카지노 및 엔터테인먼트 회사에서는 데이터 활용 능력을 혁신하여 개인화된 실시간 연결을 만들고자 했습니다.  COVID-19 대유행으로 고객들이 여행 및 서비스 비즈니스와 상호 작용하는 방식이 변하면서 이 비전은 더욱 중요해졌습니다.
 
 이 기업은 이제 Adobe 기술과 서비스를 활용하여 목표를 성공적으로 달성하고 전염병 대유행 이후의 세계를 마주할 준비를 마쳤습니다.
 
-## Adobe의 접근 방식
+## Adobe 접근 방식
 
 * 해당 업체의 기존 기술 스택에 Adobe Experience Platform을 통합하여 크로스 솔루션 고객 상호 작용을 제공했습니다.
 * Real-time Customer Data Platform과 Customer Journey Analytics를 활성화하여 지속적인 분석 및 개인화된 고객 프로필을 제공했습니다.
 * 효과적인 마케팅 기여도 분석 및 리소스 할당을 지원할 수 있도록 고객 여정에 대한 거시적 관점을 구축했습니다.
 * COVID-19에 대응 전략을 구축해 대비하는 한편 고객의 참여도를 높였습니다.
 
-## 제공한 비즈니스 가치
+## 제공되는 비즈니스 가치
 
 | 목표 | 전략 | 발견한 가치 |
 |---|---|---|

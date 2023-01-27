@@ -1,18 +1,18 @@
 ---
-title: '고객 여정 '
+title: 고객 여정 블루프린트
 description: 어떤 화면에서든 개인에게 알맞고 시의적절한 고객 경험을 전달합니다.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 97%
 
 ---
 
-# 고객 여정
+# 고객 여정 블루프린트
 
 고객 여정은 이메일, SMS, 모바일 경고와 같은 채널을 통해 브랜드가 고객을 적극적으로 참여시키고 소통하는 기능을 합니다. 오케스트레이션 도구를 다른 소통 채널과 통합(예: 인바운드 채널과 통합)하여 다른 채널의 의사 결정 엔진과 대상자의 상태를 공유함으로써 웹 및 모바일 개인화를 실행할 수 있습니다. 고객 여정에 사용하는 애플리케이션 및 배포 옵션에 대해서는 여러 가지 요소가 있지만, 두 가지 접근 방식으로 요약할 수 있습니다. 고객이 참여할 때(트리거될 때) 반응하는 것과 고객 그룹이 참여할 때(예약됨) 대응하는 것입니다.
 

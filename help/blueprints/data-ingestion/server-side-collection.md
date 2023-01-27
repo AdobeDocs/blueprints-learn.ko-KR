@@ -4,10 +4,10 @@ description: Experience Platform SDK를 통해 대상으로 스트리밍 수집�
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 

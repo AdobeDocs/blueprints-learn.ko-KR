@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 100%
          + [개요](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Edge의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [허브의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
-      + [Journey Optimizer와 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [서드파티 메시지](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+      + [Journey Optimizer와 Adobe Campaign  ](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [타사 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko)
       + [Real-Time CDP와 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko)
