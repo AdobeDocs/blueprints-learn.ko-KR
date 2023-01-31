@@ -1,14 +1,14 @@
 ---
 title: 웹 및 모바일 개인화  블루프린트
 description: '[!UICONTROL Real-time Customer Profile]을 통해 개인화된 웹 및 모바일 콘텐츠를 게재합니다.'
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 97%
+ht-degree: 91%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 97%
 
 <br>
 
-### 알려진 고객 개인화 가드레일 다이어그램
+### 알려진 고객 개인화 보호 다이어그램
 
-<img src="assets/personalization_guardrails.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## 관련 블로그 게시물
 

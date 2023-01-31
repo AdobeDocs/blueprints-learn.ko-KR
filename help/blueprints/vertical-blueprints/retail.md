@@ -1,13 +1,13 @@
 ---
 title: 소매 업계 - Experience Cloud 애플리케이션을 통한 활성화
 description: 디지털 미디어, 이메일, 푸시, 웹 채널에 걸친 실시간 고객 경험을 제공합니다.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 93%
 
 ### Experience Cloud 애플리케이션
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul>
+<ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul>
 
 ### 블루프린트 아키텍처
 

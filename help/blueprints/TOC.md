@@ -5,7 +5,7 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 99%
@@ -64,8 +64,8 @@ ht-degree: 99%
       + [Journey Optimizer와 Adobe Campaign  ](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [타사 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
-      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko)
-      + [Real-Time CDP와 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko)
+      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko){target="_blank"}
+      + [Real-Time CDP와 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko){target="_blank"}
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP와 Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)

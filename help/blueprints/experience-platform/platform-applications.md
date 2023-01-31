@@ -1,28 +1,28 @@
 ---
 title: Adobe Experience Platform 및 애플리케이션 아키텍처 다이어그램
 description: 이 아키텍처 다이어그램은 Adobe Experience Platform과 다른 Adobe Experience Cloud 애플리케이션 및 애플리케이션 서비스 간의 관계를 보여 줍니다.
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 96%
+ht-degree: 64%
 
 ---
 
-# Adobe Experience Platform 및 애플리케이션 아키텍처 다이어그램
+# Adobe Experience Platform과 애플리케이션 아키텍처 다이어그램
 
-## Adobe Experience Platform 및 애플리케이션 아키텍처 다이어그램
+## Adobe Experience Platform과 애플리케이션 아키텍처 다이어그램
 
 이 아키텍처 다이어그램은 Adobe Experience Platform과 Adobe Experience Cloud 애플리케이션 및 애플리케이션 서비스 간의 관계를 보여 줍니다.
 
-<img src="assets/aep+apps_vertical.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep+apps_vertical.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
-## Adobe Experience Platform 및 애플리케이션 세부 아키텍처 다이어그램
+## Adobe Experience Platform과 애플리케이션 상세 아키텍처 다이어그램
 
-<img src="assets/aep-app-architecture.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep-app-architecture.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 <td colspan="1">Ad Cloud</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에서 정의한 대상자를 Audience Manager를 통해 Ad Cloud에 공유하여 타겟팅할 수 있습니다.</li>
+<li>Real-time Customer Data Platform에 정의된 대상은 Audience Manager을 통해 타깃팅하기 위해 Ad Cloud에 공유할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -84,7 +84,7 @@ ht-degree: 96%
 <td>Audience Manager</td>
 <td>
 <ul>
-<li>Real-time Customer Data Platform에서 정의한 대상자를 Audience Manager에 공유하여 타사 쿠키 대상에 대해 활성화할 수 있습니다.</li>
+<li>Real-time Customer Data Platform에 정의된 대상은 타사 쿠키 대상에 대한 활성화를 위해 Audience Manager에 공유할 수 있습니다.</li>
 </ul>
 </td>
 <td>
@@ -104,12 +104,12 @@ ht-degree: 96%
 <td colspan="1">Campaign Classic</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에서 정의한 대상자를 Campaign Classic에 공유하여 캠페인을 시작할 대상자로 사용할 수 있습니다.</li>
+<li>Real-time Customer Data Platform에 정의된 대상을 대상으로 공유하여 캠페인을 시작할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터를 Experience Platform으로 보내면 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics와 Experience Platform Query Service를 통해 분석할 데이터 소스로 활용할 수 있습니다.</li>
+<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터는 Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통해 Real-time Customer Data Platform을 통해 대상을 만들고 분석하기 위해 데이터 소스로 Experience Platform에 수집할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -122,12 +122,12 @@ ht-degree: 96%
 <td colspan="1">Campaign Standard</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에서 정의한 대상자를 Campaign Standard에 공유하여 캠페인을 시작할 대상자로 사용할 수 있습니다.</li>
+<li>Real-time Customer Data Platform에 정의된 대상을 대상으로 공유하여 캠페인을 시작할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터를 Experience Platform으로 보내면 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics와 Experience Platform Query Service를 통해 분석할 데이터 소스로 활용할 수 있습니다.</li>
+<li>Campaign에서 수집한 상호 작용 및 캠페인 데이터는 Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통해 Real-time Customer Data Platform을 통해 대상을 만들고 분석하기 위해 데이터 소스로 Experience Platform에 수집할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -141,14 +141,14 @@ ht-degree: 96%
 <td colspan="1">
 <ul>
 <li>수집하여 Experience Platform 데이터 레이크로 가져온 데이터는 Customer Journey Analytics로 처리할 수 있습니다. </li>
-<li>Real-time Customer Data Platform의 프로필 및 대상 데이터를 CJA로 수집할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ko">RTCDP와 CJA 통합</a>.
+<li>Real-time Customer Data Platform의 프로필 및 대상 데이터를 CJA에 수집할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ko">RTCDP와 CJA 통합</a>.
 </li>
 </ul>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Customer Journey Analtyics에서 대상자를 작성하고 그 결과로 나온 대상자를 Real-time Customer Data Platform에 공유합니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko">CJA 대상자 게시</a></li>
+<li>고객 여정 분석에서 대상을 작성하고 대상 결과를 Real-time Customer Data Platform에 공유합니다. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko">CJA 대상자 게시</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -184,7 +184,7 @@ ht-degree: 96%
 </td>
 <td colspan="1">
 <ul>
-<li>Journey Optimizer에서 만든 상호 작용 및 캠페인 데이터를 Experience Platform으로 수집하여 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics와 Experience Platform Query Service를 통해 분석할 데이터 소스로 활용할 수 있습니다.</li>
+<li>Journey Optimizer에서 생성한 상호 작용 및 캠페인 데이터는 Real-time Customer Data Platform을 통한 대상 작성 및 Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통한 분석에 추가로 사용하기 위해 Experience Platform에 수집됩니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -197,7 +197,7 @@ ht-degree: 96%
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에서 작성한 프로필 및 대상자를 Adobe Commerce 내 개인화에 사용 가능하도록 만들 수 있습니다. </li>
+<li>Real-time Customer Data Platform에 내장된 프로필 및 대상은 Adobe Commerce에서 개인화할 수 있습니다. </li>
 </ul>
 </td>
 <td colspan="1">
@@ -211,7 +211,7 @@ ht-degree: 96%
 <td colspan="1">Marketo</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에서 정의한 대상자를 Marketo에 공유하여 Marketo 캠페인을 시작하고 Marketo 개체를 업데이트할 대상자로 사용할 수 있습니다.</li>
+<li>Real-time Customer Data Platform에 정의된 대상은 Marketo 캠페인을 시작하고 Marketo 개체를 업데이트하는 대상으로 Marketo에 공유할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -226,10 +226,10 @@ ht-degree: 96%
 </td>
 </tr>
 <tr>
-<td colspan="1">Real-time CDP</td>
+<td colspan="1">Real-Time CDP</td>
 <td colspan="1">
 <ul>
-<li>Experience Platform으로 수집한 데이터는 Real-time Customer Data Platform을 지원하는 실시간 고객 프로필을 만들기 위한 데이터 소스로 사용됩니다.</li>
+<li>Experience Platform에 수집하여 수집된 데이터는 Real-time Customer Data Platform을 구동하는 실시간 고객 프로필을 어셈블하기 위한 데이터 소스입니다.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -249,12 +249,12 @@ ht-degree: 96%
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에서 정의한 대상자 및 프로필 속성을 Target에 공유하여 Target에서 제공하는 개인화 및 타겟팅 경험에 사용할 수 있습니다.</li>
+<li>Real-time Customer Data Platform에 정의된 대상 및 프로필 속성은 Target에 공유되고 Target이 제공하는 개인화 및 타깃팅 경험에서 사용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Target 경험 및 상호 작용에 대해 수집한 데이터는 Experience Platform Web/Mobile SDK를 통해 Experience Platform으로 수집할 수 있습니다. 이 데이터는 Real-time Customer Data Platform을 통해 대상자를 구축하고 Customer Journey Analytics, Experience Platform Query Service를 통해 분석하는 데 사용할 수 있습니다.</li>
+<li>Target 경험 및 상호 작용에 대해 수집한 데이터는 Experience Platform Web/Mobile SDK를 통해 Experience Platform으로 수집할 수 있습니다. 이 데이터는 Real-time Customer Data Platform을 통해 대상을 만들고, Customer Journey Analytics 및 Experience Platform 쿼리 서비스를 통해 분석에 사용할 수 있습니다.</li>
 </ul>
 </td>
 <td colspan="1">

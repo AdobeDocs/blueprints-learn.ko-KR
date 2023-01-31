@@ -1,17 +1,17 @@
 ---
 title: B2B 대상 및 프로필 활성화 블루프린트
-description: Real-time Customer Data Platform을 통해 계정 기반 대상자 및 프로필 중심적 고객 경험을 제공합니다.
-solution: Real-time Customer Data Platform
+description: Real-time Customer Data Platform을 통해 계정 기반 대상 및 프로필 중심의 고객 경험을 ​ 제공합니다.
+solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 98%
+ht-degree: 78%
 
 ---
 
-# B2B 대상자 및 프로필 활성화 블루프린트
+# B2B 대상 및 프로필 활성화 블루프린트
 
 개별 고객과 연결된 계정, 기회 및 리드 정보를 사용하여 실행 가능한 B2B 프로필을 만들어 여러 채널에서의 개인화 및 타겟팅을 개선합니다.
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 ## 통합 패턴
 
-* B2B 데이터 소스(Marketo, Salesforce 등) -> Real-time Customer Data Platform B2B 에디션 -> 다양한 대상의 B2B 데이터 소스를 사용하여 계정, 리드, 기회 및 사용자 데이터를 Real-time Customer Data Platform B2B 에디션에 매핑할 수 있습니다.
+* B2B 데이터 소스(Marketo, Salesforce 등) -> Real-time Customer Data Platform B2B Edition -> 대상 다양한 B2B 데이터 소스를 사용하여 계정, 리드, 기회 및 사람 데이터를 Real-time Customer Data Platform B2B Edition에 매핑할 수 있습니다.
 
 ## 아키텍처
 
@@ -68,12 +68,12 @@ ht-degree: 98%
 
 #### Experience Platform - Marketo 대상 커넥터:
 
-* Real-time Customer Data Platform에서 Marketo Engage으로 세그먼트를 공유하는 데 최대 5분이 소요될 수 있습니다.
+* Real-time Customer Data Platform에서 Marketo Engage으로 세그먼트 공유를 하는 데 최대 5분이 소요될 수 있습니다.
 * 일괄 처리 세분화는 Experience Platform 세분화 일정을 기반으로 하루에 한 번 공유됩니다. 계정, 리드, 기회를 포함하는 B2B 세그먼트는 다중 엔터티 관계를 사용하여 세그먼트를 일괄 처리합니다.
 
 #### Marketo Engage 가드 레일:
 
-* Marketo Engage의 연락처 및 리드에 맞추기 위해 Real-time Customer Data Platform 대상자는 Marketo Engage에서 직접 연락처와 리드를 수집하고 정의해야 합니다.
+* Marketo Engage 연락처 및 리드에 맞추기 위해 Real-time Customer Data Platform 대상자가 Marketo Engage에서 직접 연락처와 리드를 수집하고 정의해야 합니다.
 
 #### 대상 가드 레일
 
@@ -82,7 +82,7 @@ ht-degree: 98%
 
 ## 구현 단계
 
-Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방법에 대한 지침은 Real-time Customer Data Platform 설명서의 B2B 버전을 참조하십시오. [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
+Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방법에 대한 지침은 Real-time Customer Data Platform 설명서의 B2B 버전을 참조하십시오. [Real-time Customer Data Platform B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
 
 두 가지의 가능한 구현 패턴이 있습니다. Marketo Engage에서 B2B 데이터 및 프로필을 수집하는 기능 또는 다른 CRM 데이터 소스에서 B2B 데이터를 수집하는 기능 모두가 있습니다.
 
@@ -92,12 +92,12 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 * Marketo과 CRM 통합 및 비통합:
 구현에서 Marketo Engage을 소스로 사용하고 Marketo Engage이 CRM에 연결되어 있는 경우 Experience Platform의 Marketo 소스 커넥터를 사용하여 CRM 데이터를 Experience Platform에 수집합니다. 추가 테이블을 수집해야 하는 경우 Experience Platform 소스 커넥터를 사용합니다. 구현에서 Marketo Engage을 소스로 사용하지 않는 경우 CRM 소스 Experience Platform 커넥터를 사용하여 CRM 소스를 AEP에 직접 연결합니다.
-* Real-time Customer Data Platform B2B 에디션에서만 리드 시작 및 양성은 권장되지 않습니다. 이 사용 사례에는 Marketo Engage와 같은 리드 육성 도구을 사용하는 것이 좋습니다.
+* Real-time Customer Data Platform B2B Edition에서만 리드 시작 및 양성은 권장되지 않습니다. 이 사용 사례에는 Marketo Engage와 같은 리드 육성 도구을 사용하는 것이 좋습니다.
 * 대상자를 활성화를 위한 Marketo Engage으로 푸시하는 AEP용 Marketo Engage 대상 커넥터는 이메일 주소 및 ECID만 푸시합니다. 연락처가 아직 존재하지 않는 경우 새 리드를 만들지 않으므로 프로필 및 리드 데이터를 Marketo Engage에 수집해야 합니다.
 
 ## 관련 설명서
 
-* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
+* [Real-time Customer Data Platform B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
 * [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)

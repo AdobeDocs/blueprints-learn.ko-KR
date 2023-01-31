@@ -3,10 +3,10 @@ title: Campaign v8 블루프린트, 캠페인 및 플랫폼
 description: Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠페인 도구입니다. 완벽한 캠페인을 만들고 다듬을 수 있도록 강력한 ETL 및 데이터 관리 기능을 제공합니다. Campaign v8의 오케스트레이션 엔진은 배치 기반 여정에 핵심 초점을 둔 풍부한 멀티 터치 마케팅 프로그램을 제공합니다.  또한 확장 가능한 실시간 메시지 서버와 함께 제공되므로 마케팅 팀이 암호 재설정, 주문 확인, 전자 영수증 등에 대해 어떤 IT 시스템에서든 모든 것을 포괄하는 페이로드를 기반으로 사전 정의된 메시지를 보낼 수 있습니다.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 * DM 광고, 브로셔, 매거진 캠페인
 * 단순 트랜잭션 메시지(예: 암호 재설정, 이메일 영수증, 주문 확인 등)
 * 분석 및 프로필 작성을 위해 Campaign 데이터를 Adobe Experience Platform에 통합하기
-* Campaign에 Real-time Customer Data Platform 대상자를 공유합니다.
+* Campaign에 Real-time Customer Data Platform 대상 공유.
 
 <br>
 
@@ -37,7 +37,7 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [Real-time Customer Data Platform과 Adobe Campaign](rtcdp-and-campaign-v8.md) | Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다 | <ul><li>클라우드 스토리지 파일 교환과 Adobe Campaign 수집 워크플로우를 사용하여 Real-Time CDP에서 Adobe Campaign으로 프로필 및 대상자를 공유합니다. </li><li>고객 대화의 게재 및 상호 작용 데이터를 Adobe Campaign에서 다시 Real-Time CDP로 간단히 공유하여 [실시간 고객 프로필]을 개선하고 메시지 캠페인에 대해 크로스 채널 보고를 제공합니다.</li></ul> |
+| [Real-time Customer Data Platform과 Adobe Campaign](rtcdp-and-campaign-v8.md) | Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다 | <ul><li>클라우드 스토리지 파일 교환과 Adobe Campaign 수집 워크플로우를 사용하여 Real-Time CDP에서 Adobe Campaign으로 프로필 및 대상자를 공유합니다. </li><li>고객 대화의 게재 및 상호 작용 데이터를 Adobe Campaign에서 Real-Time CDP으로 쉽게 공유하여 실시간 고객 프로필을 향상시키고 메시징 캠페인에 대한 크로스 채널 보고를 제공합니다</li></ul> |
 | [Journey Optimizer와 Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer를 통해 [실시간 고객 프로필]을 활용하여 1:1 경험을 오케스트레이션하고 Adobe Campaign의 기본 제공 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다. | [실시간 고객 프로필]과 Journey Optimizer의 기능을 활용하여 실시간 경험을 오케스트레이션하는 한편 Adobe Campaign의 기본 제공 실시간 메시지 기능을 사용하여 라스트 마일 커뮤니케이션을 수행합니다.<br><br>고려 사항:<br><ul><li>[실시간 메시지] 서버를 통해 시간당 최대 100만 개의 메시지를 전송할 수 있습니다.<li>Journey Optimizer에서는 스로틀링을 수행하지 않으므로 영업 전 단계 기업 아키텍트가 기술 점검을 수행해야 합니다.</li><li>Campaign v8로 가는 페이로드에는 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
 <br>

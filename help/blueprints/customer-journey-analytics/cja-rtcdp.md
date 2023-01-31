@@ -1,24 +1,24 @@
 ---
-title: Customer Journey Analytics와 Real-time Customer Data Platform 블루프린트
+title: Real-time Customer Data Platform 블루프린트로 Customer Journey Analytics
 description: Customer Journey Analytics에서 고객 여정 전반에 걸친 데이터 및 고객 행동을 통합하고 분석하여 대상자를 CJA에서 RTCDP로 게시
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
-# Customer Journey Analytics와 Real-time Customer Data Platform 블루프린트
+# Real-time Customer Data Platform 블루프린트로 Customer Journey Analytics
 
 고객 타겟팅 및 개인화를 위해 CJA(Customer Journey Analytics)에서 식별한 대상자를 만들어 Adobe Experience Platform의 실시간 고객 프로필에 게시합니다. 내역 데이터를 사용하여 대상자를 만들거나 Customer Journey Analytics의 세분화된 필터링 및 계산된 필드로 보다 정교한 대상자를 만드는 데 적합합니다.
 
 ## Customer Journey Analytics 대상 게시 안내서
 
-Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상자를 게시하기 위한 구현 및 구성에 대한 지침은 다음 설명서를 참조하세요. [사용자 가이드](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko)
+Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상 게시에 대한 구현 및 구성에 대한 지침은 다음 설명서를 참조하십시오. [사용자 가이드](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko)
 
 ## Customer Journey Analytics 블루프린트를 위한 아키텍처
 

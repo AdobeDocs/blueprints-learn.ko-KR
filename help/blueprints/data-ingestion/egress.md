@@ -2,12 +2,12 @@
 title: 데이터 액세스 및 내보내기 블루프린트
 description: 이 블루프린트는 Adobe Experience Platform 및 애플리케이션에서 데이터에 액세스하고 데이터를 내보낼 수 있는 모든 방법을 제시하고 개괄적으로 설명합니다.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 95%
 
 * [클라이언트 측 태그](#client-side-tags-extensions)
 * [이벤트 전송](#event-forwarding)
-* [Real-time Customer Data Platform 대상 ](#RTCDP-destinations)
+* [Real-time Customer Data Platform 대상](#RTCDP-destinations)
 * [Journey Optimizer 사용자 정의 작업](#jo-custom-actions)
 
 ## 데이터 액세스 및 내보내기 개요 아키텍처
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="데이터 준비 및 수집 블루프린트의 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="데이터 준비 및 수집 블루프린트의 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## 데이터 액세스 접근 방법
 
@@ -126,7 +126,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 
 프로필 속성 데이터와 대상자 멤버십 데이터를 기업 및 광고 대상에 활성화할 수 있습니다. 즉, 전송 데이터를 Experience Platform 실시간 고객 프로필로 수집해야 합니다.
 
-자세한 내용은 [Real-time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko) 설명서를 참조하세요.
+자세한 내용은 [Real-time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko) 설명서 를 참조하십시오.
 
 #### 사용 사례
 
