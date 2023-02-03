@@ -1,16 +1,16 @@
 ---
-title: Adobe Campaign v7를 사용한 Real-Time CDP 및 Campaign Standard 통합 패턴
+title: Real-Time CDP와 Adobe Campaign v7 및 Campaign Standard 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Real-Time CDP과 Adobe Campaign 통합 패턴
+# Real-Time CDP와 Adobe Campaign 통합 패턴
 
 Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 
@@ -25,7 +25,7 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 
 ## 아키텍처
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="배치 메시징 및 Adobe Experience Platform 통합 패턴을 위한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="일괄 처리 메시지와 Adobe Experience Platform 통합 패턴의 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -50,7 +50,7 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 * 활성화는 매 24시간으로 제한
 * 통합 스키마 속성만 활성화할 수 있습니다(배열/맵/경험 이벤트 미지원)
 * 세그먼트 당 최대 속성 20개 제한 추천
-* &quot;실현된&quot; 세그먼트 멤버십이 있는 모든 프로필의 세그먼트당 하나의 파일 또는 &quot;실현된&quot; 프로필과 &quot;종료한&quot; 프로필 모두에서 세그먼트 멤버십이 파일의 속성으로 추가되는 경우
+* 세그먼트 당 한 파일(&quot;실현&quot; 세그먼트 멤버십을 가진 프로필 전체의 세그먼트, 또는 파일에 세그먼트 멤버십을 속성으로 추가한 경우 &quot;실현&quot; 및 &quot;탈퇴&quot; 프로필 전체의 세그먼트)
 * 증분 및 전체 세그먼트 가져오기 지원
 * 파일 암호화 미지원
 
@@ -68,10 +68,10 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 1. 거버넌스를 위해 Experience Platform에서 데이터 세트에 [데이터 사용 레이블을 추가](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ko)합니다.
 1. 대상 관리 [정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ko)
 
-#### 프로필/ID
+#### 프로필/신원
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
+1. [스키마에 신원을 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 1. [!UICONTROL Real-time Customer Profile]의 서로 다른 보기에 대한 [병합 규칙](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko)을 만듭니다(선택 사항).
 1. Adobe Campaign에서 사용하기 위한 세그먼트를 만듭니다.
