@@ -1,16 +1,16 @@
 ---
-title: Edge 블루프린트의 결정 관리
+title: Edge의 의사 결정 관리 블루프린트
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Edge 블루프린트의 결정 관리
+# Journey Optimizer - Edge의 의사 결정 관리 블루프린트
 
 의사 결정 관리에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)에 있는 제품 설명서와 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ko)에 있는 의사 결정 관리 개요를 참조하세요.
 
@@ -24,7 +24,7 @@ Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 
 
 허브의 의사 결정 관리에 대한 자세한 내용은 [허브의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=ko) 블루프린트를 참조하세요.
 
-## 에지에서 의사 결정 관리에 사용 사례
+## Edge의 의사 결정 관리 사용 사례
 
 * 웹 또는 모바일 인바운드 경험을 통한 온라인 개인화.
 * 크로스 채널 여정 실행 - Adobe Journey Optimizer를 통한 웹, 모바일, 이메일, 기타 상호 작용 채널 간 오퍼 일관성.
@@ -62,13 +62,13 @@ Adobe Experience Platform
 * Edge 실시간 프로필 액세스. Edge로 투영한 대상자 및 프로필 속성만 프로필에서 사용할 수 있습니다.
 * 첫 경험에서부터 개인화가 필요한 경우 프로필 전체를 사용할 수 있는 허브가 적합합니다. 처음부터 Edge 경험을 제공하려면 Edge 프로필을 허브와 동기화해야 합니다. 즉 Edge를 통한 제일 처음 경험에는 이전에 허브에 업로드한 프로필 데이터가 포함되지 않습니다.
 
-### 데이터 수집 가드 레일
+### 데이터 수집 가드레일
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### 활성화 보호 기능
+### 활성화 가드레일
 
 <img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -78,7 +78,7 @@ Adobe Experience Platform
 
 * 웹사이트 및 모바일 애플리케이션에 배포하려는 경우 Web 또는 Mobile SDK를 사용하여 SDK를 배포할 곳에 의사 결정 관리를 구현합니다.
    * [Web/Mobile SDK 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=ko)
-   * [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ko)
+   * [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ko)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 또는
@@ -99,7 +99,7 @@ Adobe Experience Platform
 1. 거버넌스를 위해 Experience Platform에서 데이터 세트에 [데이터 사용 레이블을 추가](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ko)합니다.
 1. 대상 관리 [정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ko)
 
-#### 프로필/ID
+#### 프로필/신원
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
