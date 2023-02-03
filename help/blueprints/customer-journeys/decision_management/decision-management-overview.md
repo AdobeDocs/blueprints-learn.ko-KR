@@ -1,18 +1,18 @@
 ---
-title: 의사 결정 관리 청사진
+title: 의사 결정 관리 블루프린트
 description: 고객 여정 전반에 걸쳐 개인화된 오퍼를 게재합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - 의사 결정 관리 청사진
+# Journey Optimizer - 의사 결정 관리 블루프린트
 
-의사 결정 관리에 대한 자세한 내용은 [제품 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)
+의사 결정 관리에 대한 자세한 내용은 [제품 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)를 참조하세요.
 
 Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트에서는 애플리케이션의 사용 사례 및 기술적 기능을 간략하게 훑어보고 의사 결정 관리의 다양한 아키텍처 구성 요소와 고려할 사항을 자세히 설명합니다.
 
@@ -25,7 +25,7 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 
 <img src="../assets/offers_overview.png" alt="의사 결정 관리" style="width:100%; border:1px solid #4a4a4a" />
 
-의사 결정 관리는 두 가지 방법(Edge 또는 허브) 중 하나로 배포할 수 있습니다. 아래에서 인용한 두 배포 방법 각각의 블루프린트에서 설명하는 바와 같이, 사용하는 방법에 따라 서비스 운영에 사용하는 인터페이스 및 프로토콜이 다릅니다. 자세한 내용은 [의사 결정 관리 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=ko).
+의사 결정 관리는 두 가지 방법(Edge 또는 허브) 중 하나로 배포할 수 있습니다. 아래에서 인용한 두 배포 방법 각각의 블루프린트에서 설명하는 바와 같이, 사용하는 방법에 따라 서비스 운영에 사용하는 인터페이스 및 프로토콜이 다릅니다. 더 자세한 내용을 [의사 결정 관리 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=ko)에서도 확인할 수 있습니다.
 
 ## 허브의 의사 결정 관리
 
@@ -33,7 +33,7 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 
 * 오퍼 자격은 모든 속성 및 경험 이벤트를 포함하여 실시간 고객 프로필 전체에 적용됩니다.
 
-### 허브의 의사 결정 관리에 대한 사용 사례
+### 허브의 의사 결정 관리 사용 사례
 
 * 키오스크 및 매장 경험의 개인화 오퍼.
 * 콜센터나 세일즈 상호 작용 등 상담원 지원 경험의 개인화 오퍼.
@@ -50,12 +50,12 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 
 두 번째 방법은 Experience Edge Network를 통한 것입니다. Experience Edge Network는 1초 미만, 밀리초 단위의 빠른 경험을 제공하기 위해 지리적 위치를 전 세계에 분산시킨 인프라입니다. 지연을 최소화하기 위하여 최종 소비자 경험은 소비자의 지리적 위치에서 가장 가까운 Edge 인프라에 의해 실행됩니다. Edge의 의사 결정 관리는 웹 또는 모바일 인바운드 개인화 요청과 같은 실시간 고객 경험을 제공하는 용도로 설계되었습니다. Edge의 의사 결정 관리에 대한 자세한 내용은 [Edge의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ko) 블루프린트를 참조하세요.
 
-### 에지에서 의사 결정 관리에 사용 사례
+### Edge의 의사 결정 관리 사용 사례
 
 * 웹 또는 모바일 인바운드 경험을 통한 온라인 개인화.
 * 크로스 채널 여정 실행 - Adobe Journey Optimizer를 통한 웹, 모바일, 이메일, 기타 상호 작용 채널 간 오퍼 일관성.
 
-### Edge의 의사 결정 관리   기술 고려 사항
+### Edge의 의사 결정 관리    기술 고려 사항
 
 * 초당 요청 수: 5000.
 * 응답 지연 시간: 250ms 미만.
