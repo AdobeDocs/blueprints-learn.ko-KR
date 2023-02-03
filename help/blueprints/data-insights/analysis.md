@@ -1,20 +1,20 @@
 ---
-title: 데이터 분석 및 인텔리전스 블루프린트
+title: 데이터 분석과 인텔리전스 블루프린트
 description: 이 블루프린트는 Adobe Experience Platform 내에서 데이터 레이크에 존재하는 데이터에 대해 탐색 쿼리와 분석을 수행하는 기능을 설명합니다.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# 데이터 분석 및 인텔리전스 블루프린트
+# 데이터 분석과 인텔리전스 블루프린트
 
-데이터 분석 및 인텔리전스는 Adobe Experience Platform 내에서 데이터 레이크에 존재하는 데이터에 대해 탐색 쿼리와 분석을 수행하는 기능으로 구성되어 있습니다.
+데이터 분석과 인텔리전스는 Adobe Experience Platform 내에서 데이터 레이크에 존재하는 데이터에 대해 탐색 쿼리와 분석을 수행하는 기능으로 구성되어 있습니다.
 
 Experience Platform의 [!UICONTROL 쿼리 서비스]를 통해 데이터에 대해 SQL 쿼리를 수행할 수 있습니다.
 
@@ -39,7 +39,7 @@ Experience Platform은 서드파티 SQL 클라이언트, 인터페이스, BI(Bus
 ## 가드레일
 
 모범 사례 및 가드레일에 대한 자세한 설명은 Query Service 제품 설명서를 참조하세요.
-[Query Service 안내](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
+[쿼리 서비스 안내](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
 
 ## 구현 단계
 
