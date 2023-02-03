@@ -1,16 +1,16 @@
 ---
-title: Journey Optimizer - 타사 메시징 블루프린트
+title: Journey Optimizer - 서드파티 메시지 블루프린트
 description: Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# 타사 메시징 블루프린트
+# 서드파티 메시지 블루프린트
 
 Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다.
 
@@ -30,7 +30,7 @@ Adobe Experience Platform
 * [경험 이벤트] 클래스 기반 스키마의 경우 규칙 기반 이벤트가 아닌 이벤트를 트리거하려면 [Orchestration eventID 필드 그룹]을 추가해야 합니다.
 * [개별 프로필] 클래스 기반 스키마의 경우 Journey Optimizer에서 사용할 테스트 프로필을 로드할 수 있도록 하려면 [프로필 테스트 세부 정보] 필드 그룹을 추가해야 합니다.
 
-타사 메시징 응용 프로그램
+서드파티 메시지 애플리케이션
 
 * 트랜잭션 페이로드를 보내기 위해 REST API 호출을 지원해야 합니다.
 
@@ -52,7 +52,7 @@ Adobe Experience Platform
 * 세그먼트 일괄 처리: 인증 사용자의 일별 볼륨을 이해해야 하며, 대상 시스템이 각 여정 및 모든 여정의 발생 처리량을 처리할 수 있어야 합니다.
 * 세그먼트 스트리밍: 프로필 인증 첫 발생을 각 여정 및 모든 여정에 대한 일별 스트리밍 인증 볼륨과 함께 처리할 수 있어야 합니다.
 * 의사 결정 관리는 지원하지 않음
-* 타사 시스템에 대한 아웃바운드 통합
+* 서드파티 시스템으로의 아웃바운드 통합
    * 멀티 테넌트 인프라를 사용하므로 단일 고정 IP를 지원하지 않습니다(모든 데이터 센터의 IP를 허용 목록에 추가해야 함).
    * 사용자 정의 작업에는 POST 및 PUT 메서드만 지원됩니다.
    * 인증 지원: 토큰 | 암호 | OAuth2
@@ -60,7 +60,7 @@ Adobe Experience Platform
 
 <br>
 
-타사 메시징 시스템
+서드파티 메시지 시스템
 
 * 시스템이 트랜잭션 API 호출에 지원할 수 있는 로드를 파악해야 합니다.
    * 초당 허용되는 호출 수
@@ -69,8 +69,8 @@ Adobe Experience Platform
    * 인증 유형: Journey Optimizer를 통해 토큰 | 암호 | OAuth2 지원
    * 인증 캐시 기간: 토큰의 유효성이 지속되는 기간
 * 일괄 수집만 지원되는 경우 먼저 Amazon Kinesis나 Azure Event Grid 등 클라우드 스토리지 엔진으로 스트리밍해야 합니다.
-   * 이러한 클라우드 스토리지 엔진에서 데이터를 일괄 처리하여 타사에 공급할 수 있습니다
-   * 필요한 모든 미들웨어는 고객 또는 타사에서 제공하는 책임입니다
+   * 그 뒤 데이터를 이 클라우드 스토리지 엔진에서 일괄 처리하여 서드파티에 공급하게 됩니다.
+   * 필요한 미들웨어에 대한 제공 책임은 모두 고객 또는 서드파티에 있습니다.
 
 <br>
 
@@ -85,7 +85,7 @@ Adobe Experience Platform
 1. 거버넌스를 위해 Experience Platform에서 데이터 세트에 [데이터 사용 레이블을 추가](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ko)합니다.
 1. 대상 관리 [정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ko)
 
-#### 프로필/ID
+#### 프로필/신원
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
@@ -103,13 +103,13 @@ Adobe Experience Platform
 1. 외부 데이터 소스를 구성합니다
 1. 서드파티 애플리케이션에 대한 사용자 정의 작업 구성
 
-### 모바일 푸시 구성(타사에서 토큰을 수집할 수 있는 옵션)
+### 모바일 푸시 구성(선택 사항. 서드파티에서 토큰을 수집할 수 있음)
 
 1. Experience Platform Mobile SDK를 구현하여 푸시 토큰 및 로그인 정보를 수집하고 이를 알려진 고객 프로필에 다시 연결합니다.
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * ID        Edge 네트워크의 경우
+   * ID         Edge 네트워크의 경우
    * Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
 1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)를 참조하세요.
