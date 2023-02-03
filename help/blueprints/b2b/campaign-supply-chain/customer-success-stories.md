@@ -3,9 +3,9 @@ title: 고객 성공 사례
 description: 고객 성공 사례 - Marketo와 Workfront로 캠페인 공급망 최적화하기
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -21,6 +21,6 @@ ht-degree: 87%
 
 * BNY Mellon (summit breakout): [BNY Mellon이 사람, 프로세스, 그리고 Adobe 기술로 캠페인 실행을 개선한 방법 - S127](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
 
-* Commvault(사례 연구): [Commvault는 매년 1,800개 이상의 캠페인을 실행할 수 있도록 Adobe Marketo Engage과 함께 우수한 마케팅 센터를 생성합니다](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
+* Commvault(사례 연구): [Commvault는 Adobe Marketo Engage로 마케팅 최상위 센터를 만들어 매년 1,800여 개의 캠페인을 실행합니다](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
 
-* Poly(블로그): [Poly가 Adobe Experience Cloud로 새로운 대상자에 도달하기 위해 방향을 바꾸는 방법](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
+* Poly(블로그): [Poly가 새로운 대상자에게 도달하고자 Adobe Experience Cloud로 방향을 바꾼 이야기](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
