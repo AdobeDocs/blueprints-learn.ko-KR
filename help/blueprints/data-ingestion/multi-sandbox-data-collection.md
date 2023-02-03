@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -36,24 +36,24 @@ ht-degree: 73%
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="다중 샌드박스 이벤트 전달을 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
-1. 태그 작성자는 태그 속성과 이벤트 전달 속성을 모두 정의합니다. 여기에서 작성자는 데이터 수집을 관리하는 데이터 요소, 규칙 및 작업을 정의합니다. 태그 속성 코드는 클라이언트에서 실행되며 CDN 호스트에 의해 배포됩니다. 이벤트 전달 속성 코드는 Adobe Edge 서버에서 실행됩니다.
+1. 태그 작성자가 태그 속성과 이벤트 전달 속성을 모두 정의합니다. 이 경우 작성자는 데이터 수집을 관리하는 데이터 요소, 규칙, 작업을 정의합니다. 태그 속성 코드는 클라이언트에서 실행되며 CDN 호스트에 의해 배포된다는 점에 유의하세요. 이벤트 전달 속성 코드는 Adobe Edge 서버에서 실행됩니다.
 
-1. 클라이언트에서 수집된 데이터는 에지 네트워크로 전송됩니다. 또한 서버 측 수집 방법으로 먼저 데이터를 자체 서버로 보낼 수도 있습니다.  웹 SDK는 서버 간 수집 기능을 제공할 수 있습니다. 그러나 이를 구현하려면 다른 프로그래밍 모델이 필요합니다. 아래의 **Edge Network Server API 개요** 설명서를 참조하세요.
+1. 클라이언트에서 수집한 데이터는 Edge Network로 전송됩니다. 또한 서버 측 수집 방법으로 먼저 데이터를 자체 서버로 보낼 수도 있습니다.  Web SDK가 서버에서 서버로의 수집 기능을 제공할 수 있습니다. 그러나 이를 구현하려면 다른 프로그래밍 모델이 필요합니다. 아래의 **Edge Network Server API 개요** 설명서를 참조하세요.
 
-1. Platform Edge Network는 데이터 수집 페이로드를 수신하고 Target 및 Analytics와 같은 필수 시스템으로 데이터 흐름을 오케스트레이션합니다.
+1. Platform Edge Network는 데이터 수집 페이로드를 수신하여 Target, Analytics 등 필요한 시스템으로 데이터 흐름을 오케스트레이션합니다.
 
-1. 이벤트 전달 속성 데이터 요소는 페이로드에 도착하는 이벤트 데이터에 액세스하는 데 사용됩니다. 필요에 따라 규칙을 사용하여 이벤트 데이터를 전달 전에 조정할 수도 있습니다. 가령 스트리밍 데이터 수집을 위해 데이터 형식을 필요한 XDM에 맞추는 등의 조정 작업을 할 수 있습니다.
+1. 페이로드에 도착하는 이벤트 데이터에 액세스하는 데에는 이벤트 전달 속성 데이터 요소를 사용합니다. 필요에 따라 규칙을 사용하여 이벤트 데이터를 전달 전에 조정할 수도 있습니다. 가령 스트리밍 데이터 수집을 위해 데이터 형식을 필요한 XDM에 맞추는 등의 조정 작업을 할 수 있습니다.
 
-1. 이벤트 전달은 이벤트 데이터를 HTTPS 종료 지점에 전달하는 기능을 제공하는 HTTPS 확장을 제공합니다.
+1. 이벤트 전달은 이벤트 데이터를 HTTPS 엔드포인트로 전달하는 기능이 있는 HTTPS 확장을 제공합니다.
 
-1. 샌드박스 2는 전달된 이벤트를 수신하는 스트리밍 종료 지점으로 구성됩니다.
+1. 샌드박스 2를 구성할 때는 전달한 이벤트를 수신하는 스트리밍 엔드포인트를 사용합니다.
 
 ## 관련 설명서
 
 * [이벤트 전달 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ko)
 * [이벤트 전달 비디오](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ko)
 * 웹 SDK의 [이벤트 전달 레슨](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=ko) 튜토리얼
-* [Experience Platform 웹 SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
+* [Experience Platform Web SDK 개요 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
 * [Edge Network Server API 개요 ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 
 ## 관련 블로그 게시물
