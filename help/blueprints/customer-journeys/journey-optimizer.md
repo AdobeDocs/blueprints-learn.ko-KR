@@ -4,13 +4,13 @@ description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로�
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer 블루프린트
+# Journey Optimizer  블루프린트
 
 Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각적인 고객 만족을 이끌어 낼 수 있도록 고안된 시스템입니다. 데이터 관리 기능이 Adobe Experience Platform으로 이동하여 마케팅 팀은 중요한 업무에 집중할 수 있습니다. 바로 세계 최고 수준의 고객 여정과 개인화된 소통을 이끌어 내는 데에 초점을 맞출 수 있습니다.  이 블루프린트는 애플리케이션의 기술 기능을 간략하게 설명하고 Adobe Journey Optimizer을 구성하는 다양한 아키텍처 구성 요소에 대해 자세히 살펴봅니다.
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer는 고객 행동에 실시간으로 반응하여 즉각�
 
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [타사 메시징](3rd-party-messaging.md) | Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다. | 고객이 브랜드나 회사와 상호 작용할 때 1:1로 즉각적인 개인화 커뮤니케이션을 제공합니다.<br><br>고려 사항:<br><ul><li>인증을 위해 서드파티 시스템이 베어러 토큰을 지원해야 합니다.</li><li>멀티테넌트 아키텍처로 인해 고정 IP를 지원하지 않습니다.</li><li>서드파티 시스템의 아키텍처에 따른 초당 API 호출 제한을 알고 있어야 합니다.  Journey Optimizer에서 보내는 데이터의 양을 지원하기 위해 고객이 서드파티 공급업체로부터 추가 용량을 구매해야 할 수도 있습니다.</li><li>메시지나 페이로드에 의사 결정 관리를 지원하지 않습니다.</li></ul> |
+| [서드파티 메시지](3rd-party-messaging.md) | Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다. | 고객이 브랜드나 회사와 상호 작용할 때 1:1로 즉각적인 개인화 커뮤니케이션을 제공합니다.<br><br>고려 사항:<br><ul><li>인증을 위해 서드파티 시스템이 베어러 토큰을 지원해야 합니다.</li><li>멀티테넌트 아키텍처로 인해 고정 IP를 지원하지 않습니다.</li><li>서드파티 시스템의 아키텍처에 따른 초당 API 호출 제한을 알고 있어야 합니다.  Journey Optimizer에서 보내는 데이터의 양을 지원하기 위해 고객이 서드파티 공급업체로부터 추가 용량을 구매해야 할 수도 있습니다.</li><li>메시지나 페이로드에 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
 <br>
 
@@ -83,19 +83,19 @@ Adobe Experience Platform
    * 이메일
    * 푸시(FCM/APNS)
    * 사용자 정의 작업(Rest API 사용)
-* 타사 시스템에 대한 아웃바운드 통합
+* 서드파티 시스템으로의 아웃바운드 통합
    * 멀티 테넌트 인프라를 사용하므로 단일 고정 IP를 지원하지 않습니다(모든 데이터 센터의 IP를 허용 목록에 추가해야 함).
    * 사용자 정의 작업에는 POST 및 PUT 메서드만 지원됩니다.
    * 사용자/암호 또는 인증 토큰을 통한 인증
 * 다양한 샌드박스 간에 Adobe Experience Platform 또는 Journey Optimizer의 개별 구성 요소를 패키징하여 이동할 수 없습니다. 새로운 환경에서는 다시 구현해야 합니다.
 
-### 데이터 수집 가드 레일
+### 데이터 수집 가드레일
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### 활성화 보호 기능
+### 활성화 가드레일
 
 <img src="../experience-platform/assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -112,7 +112,7 @@ Adobe Experience Platform
 1. 거버넌스를 위해 Experience Platform에서 데이터 세트에 [데이터 사용 레이블을 추가](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ko)합니다.
 1. 대상 관리 [정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ko)
 
-#### 프로필/ID
+#### 프로필/신원
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
@@ -136,7 +136,7 @@ Adobe Experience Platform
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. ID        Edge 네트워크의 경우
+1. ID         Edge 네트워크의 경우
 1. Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
 1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)를 참조하세요.
