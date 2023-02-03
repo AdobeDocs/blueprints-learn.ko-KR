@@ -3,13 +3,13 @@ title: 디지털 경험 블루프린트 업계 성공 사례
 description: 디지털 경험 블루프린트 성공 사례에서는 다양한 업계에서 Adobe Experience Platform 기반 Adobe Experience Cloud의 비즈니스 가치를 어떻게 실현해 나가는지 소개합니다.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Digital Experience Blueprint를 통해 업계 성공
+# 디지털 경험 블루프린트를 통한 업계 성공
 
 고객이 어떻게 디지털 경험 블루프린트를 통해 탁월한 경험을 설계하고 성공하는지 알아봅니다. 검증되고 재사용할 수 있는 구현을 통해 전략을 구사하고 비즈니스 문제를 신속하게 해결할 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 </tr>
 </table>
 
-## 더 많은 성공 사례
+## 주요 성공 사례
 
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience">Adobe Experience Cloud</a>
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience+Platform">Adobe Experience Platform</a>
