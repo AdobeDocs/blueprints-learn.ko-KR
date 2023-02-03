@@ -1,16 +1,16 @@
 ---
-title: 허브 블루프린트의 결정 관리
+title: 허브의 의사 결정 관리 블루프린트
 description: 키오스크, 상담원 지원 경험, 이메일, 기타 아웃바운드 게재 등 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '906'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 허브 블루프린트의 결정 관리
+# 허브의 의사 결정 관리 블루프린트
 
 의사 결정 관리에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)에 있는 제품 설명서와 [여기](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ko)에 있는 의사 결정 관리 개요를 참조하세요.
 
@@ -26,7 +26,7 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 
 Edge의 의사 결정 관리에 대한 자세한 내용은 [Edge의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ko) 블루프린트를 참조하세요.
 
-## 허브의 의사 결정 관리에 대한 사용 사례
+## 허브의 의사 결정 관리 사용 사례
 
 * 키오스크 및 매장 경험의 개인화 오퍼.
 * 콜센터나 세일즈 상호 작용 등 상담원 지원 경험의 개인화 오퍼.
@@ -61,13 +61,13 @@ Adobe Experience Platform
 * 대상자 멤버십, 속성, 경험 이벤트 등 전체 실시간 고객 프로필 액세스.
 
 
-### 데이터 수집 가드 레일
+### 데이터 수집 가드레일
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### 활성화 보호 기능
+### 활성화 가드레일
 
 <img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -92,7 +92,7 @@ Adobe Experience Platform
 1. 거버넌스를 위해 Experience Platform에서 데이터 세트에 [데이터 사용 레이블을 추가](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ko)합니다.
 1. 대상 관리 [정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ko)
 
-#### 프로필/ID
+#### 프로필/신원
 
 1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
 1. [스키마에 ID를 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
