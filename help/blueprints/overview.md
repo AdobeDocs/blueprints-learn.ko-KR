@@ -6,7 +6,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 73%
 * **[고객 활동 허브 블루프린트](/help/blueprints/audience-activation/customer-activity.md)**
 
    *직원이 관여하는 지원 및 영업의 맥락을 제공합니다.*
-* **[데이터 분석 및 인텔리전스 블루프린트](/help/blueprints/data-insights/analysis.md)**
+* **[데이터 분석과 인텔리전스 블루프린트](/help/blueprints/data-insights/analysis.md)**
 
    *데이터 레이크에 있는 데이터에 탐색 쿼리 및 분석을 수행합니다.*
 
@@ -43,7 +43,7 @@ ht-degree: 73%
     <p><em>[!UICONTROL Platform]을 중앙 허브로 사용하여 메시지를 보내고 고객 경험에 실시간으로 영향을 줍니다.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="알려진 고객 활성화 블루프린트에 대한 축소판 이미지" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="알려진 고객 활성화 블루프린트의 썸네일 이미지" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>알려진 고객 활성화</strong></a></div>
     <p><em>대상자에 의해 활성화되는 크로스채널 광고를 게재합니다.</em></p>
   </td>

@@ -1,5 +1,5 @@
 ---
-title: 웹 및 모바일 개인화  블루프린트
+title: 웹 및 모바일 개인화   블루프린트
 description: '[!UICONTROL Real-time Customer Profile]을 통해 개인화된 웹 및 모바일 콘텐츠를 게재합니다.'
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -8,11 +8,11 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
-# 웹 및 모바일 개인화 블루프린트
+# 웹 및 모바일 개인화  블루프린트
 
 웹 및 모바일 개인화에서는 여러 애플리케이션에서 프로필과 대상자 세분화를 사용하여 고객 경험을 개인화 및 최적화하는 방법을 다룹니다. 고객 행동, 인구 통계, 충성도 수준, 거래 내역 등을 활용하여 레이아웃, 클릭 유도, 컨텐츠 등을 개인화할 수 있습니다.
 

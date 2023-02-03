@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
       + [가드레일](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 대상자 활성화       (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [익명 대상자 활성화        (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 알려진 고객 활성화(RTCDP) {#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
       + 소셜 및 광고 채널에 대한 활성화 {#audience-activation}
@@ -62,7 +62,7 @@ ht-degree: 99%
          + [Edge의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [허브의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer와 Adobe Campaign  ](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [타사 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+      + [서드파티 메시지](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko){target="_blank"}
       + [Real-Time CDP와 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko){target="_blank"}
@@ -72,19 +72,19 @@ ht-degree: 99%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP와 Adobe Campaign     v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP와 Adobe Campaign      v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer와 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 데이터 수집, 액세스, 내보내기 {#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [데이터 준비 및 수집 ](/help/blueprints/data-ingestion/ingestion.md)
    + [데이터 액세스 및 내보내기](/help/blueprints/data-ingestion/egress.md)
-   + [이벤트 전송](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [이벤트 전달](/help/blueprints/data-ingestion/server-side-collection.md)
 + 데이터 분석, 인텔리전스 및 AI/ML {#data-exploration}
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동을 통한 개인화       - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [행동을 통한 개인화        - Target](/help/blueprints/web-personalization/behavioral.md)
    + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)

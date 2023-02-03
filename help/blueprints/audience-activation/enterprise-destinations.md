@@ -1,17 +1,17 @@
 ---
-title: 파일 및 엔터프라이즈 스트리밍 대상에 대한 대상 및 프로필 활성화 블루프린트
-description: 엔터프라이즈 대상에 대한 고객 및 프로필 활성화
+title: 파일 및 엔터프라이즈 스트리밍 대상에 대한 대상자 및 프로필 활성화 블루프린트
+description: 엔터프라이즈 대상에 대한 대상자 및 프로필 활성화
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
-# 파일 및 엔터프라이즈 스트리밍 대상에 대한 대상 및 프로필 활성화 블루프린트
+# 파일 및 엔터프라이즈 스트리밍 대상에 대한 대상자 및 프로필 활성화 블루프린트
 
 스트리밍 또는 일괄 처리에서 프로필 및 대상 변경 사항 및 이벤트 공유 [!UICONTROL Real-time Customer Data Platform] 엔터프라이즈 데이터 저장소 및 응용 프로그램에 연결할 수 있습니다. 이러한 프로필 및 대상 이벤트를 사용하여 중단된 애플리케이션 프로세스 또는 웨비나 등록을 처리하는 등 고객에게 판매 또는 지원 조치를 시작하거나 최신 고객 속성 및 인텔리전스로 엔터프라이즈 애플리케이션을 업데이트하는 데 사용할 수 있습니다. [!UICONTROL Real-time Customer Data Platform].
 
@@ -21,7 +21,7 @@ ht-degree: 66%
 
 ## 애플리케이션
 
-* Adobe Experience Platform   Activation
+* Adobe Experience Platform    Activation
 
 ## 아키텍처
 
@@ -52,7 +52,7 @@ ht-degree: 66%
 * [프로필 및 세분화 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * [세분화 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
 
-## 관련 비디오 및 자습서
+## 관련 비디오 및 튜토리얼
 
 * [[!UICONTROL Real-time Customer Data Platform] 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
 * [데모 [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ko)

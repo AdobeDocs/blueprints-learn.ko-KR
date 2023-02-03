@@ -1,16 +1,16 @@
 ---
-title: Adobe Campaign v8 통합 패턴이 있는 Real-Time CDP
+title: Real-Time CDP와 Adobe Campaign v8 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign v8과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 76%
+ht-degree: 90%
 
 ---
 
-# Adobe Campaign v8 통합 패턴이 있는 Real-Time CDP
+# Real-Time CDP와 Adobe Campaign v8 통합 패턴
 
 Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 
@@ -25,7 +25,7 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 
 ## 아키텍처
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="배치 메시징 및 Adobe Experience Platform 통합 패턴을 위한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="일괄 처리 메시지와 Adobe Experience Platform 통합 패턴의 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -61,7 +61,7 @@ Adobe Experience Platform에 Campaign v8 소스 커넥터를 구성하고 Real-t
 * 활성화 지연 시간은 최소 3시간입니다
 * 통합 스키마 속성만 활성화할 수 있습니다(배열/맵/경험 이벤트 미지원)
 * 세그먼트 당 최대 속성 20개 제한 추천
-* &quot;실현된&quot; 세그먼트 멤버십이 있는 모든 프로필의 세그먼트당 하나의 파일 또는 &quot;실현된&quot; 프로필과 &quot;종료한&quot; 프로필 모두에서 세그먼트 멤버십이 파일의 속성으로 추가되는 경우
+* 세그먼트 당 한 파일(&quot;실현&quot; 세그먼트 멤버십을 가진 프로필 전체의 세그먼트, 또는 파일에 세그먼트 멤버십을 속성으로 추가한 경우 &quot;실현&quot; 및 &quot;탈퇴&quot; 프로필 전체의 세그먼트)
 * 증분 및 전체 세그먼트 가져오기 지원
 * 파일 암호화 미지원
 * AEP의 프로필 및 데이터 수집 가드레일을 참조하세요. [링크](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)

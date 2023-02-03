@@ -7,7 +7,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 ## Adobe Experience Platform 및 애플리케이션 가드레일
 
-[데이터 수집 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
+[데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
 
 [Edge Network API 가드레일](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ko)
 
@@ -34,7 +34,7 @@ ht-degree: 93%
 
 <br>
 
-## 종단 간 지연 다이어그램
+## 엔드투엔드 지연 다이어그램
 
 ### 데이터 수집
 

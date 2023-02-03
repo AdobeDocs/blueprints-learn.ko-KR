@@ -1,5 +1,5 @@
 ---
-title: 프로필 데이터 보강 블루프린트를 위한 사용자 지정 데이터 과학
+title: 사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트
 description: 이 블루프린트는 데이터 과학 기반 인사이트를 Experience Platform에 수집하여 Real-time Customer Profile을 보강하는 방법을 보여 줍니다.
 solution: Data Collection
 kt: 7203
@@ -7,11 +7,11 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
-# 프로필 데이터 보강 블루프린트를 위한 사용자 지정 데이터 과학
+# 사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트
 
 프로필 데이터 보강 블루프린트를 위한 사용자 지정 데이터 과학을 통해 데이터 과학 및 시스템 학습 도구를 통해 Experience Platform 및 Real-time Customer Data Platform에 대한 기계 학습 인사이트를 제공하기 위해 데이터를 사용하여 모델을 교육, 배포 및 평가하는 방법을 보여줍니다. 모델링한 인사이트를 Experience Platform에 수집하여 실시간 고객 프로필을 보강할 수 있습니다. 머신 러닝 인사이트의 예로는 생애 가치 평가, 제품 및 카테고리 관심도, 전환 경향 또는 이탈 경향 등이 있습니다.
 

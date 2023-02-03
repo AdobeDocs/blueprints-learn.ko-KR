@@ -7,11 +7,11 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
-# B2B Analytics 및 활성화 블루프린트
+# B2B 분석 및 활성화 블루프린트
 
 데이터 기반 마케팅의 세계에서는 B2B 대상자와 프로필을 중심으로 활성화해야 성공할 수 있습니다. 그러나 많은 브랜드가 여전히 일관되지 않은 도달 및 개인화 전략으로 채널 중심 활성화에 노력을 기울입니다.
 

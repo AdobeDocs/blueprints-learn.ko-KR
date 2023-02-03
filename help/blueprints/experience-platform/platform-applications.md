@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Platform 및 애플리케이션 아키텍처 다이어그램
+title: Adobe Experience Platform과 애플리케이션 아키텍처 다이어그램
 description: 이 아키텍처 다이어그램은 Adobe Experience Platform과 다른 Adobe Experience Cloud 애플리케이션 및 애플리케이션 서비스 간의 관계를 보여 줍니다.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
@@ -8,7 +8,7 @@ exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 64%
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Adobe Experience Platform 및 Experience Cloud 애플리케이션 통합
+## Adobe Experience Platform과 Experience Cloud 애플리케이션 통합
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>

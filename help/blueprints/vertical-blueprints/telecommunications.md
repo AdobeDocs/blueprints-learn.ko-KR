@@ -7,7 +7,7 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 84%
 
 이와 같은 제한을 해결해 기존 7일의 대기 기간 이전에 회선을 추가해 사용자에게 보다 시의적절한 후속 조치를 해야 했습니다.
 
-## Adobe 접근 방식
+## Adobe의 접근 방식
 
 * 새 회선을 추가하도록 전환하지 못한 사용자를 식별하는 Adobe Analytics 데이터를 Adobe Journey Optimizer에서 사용할 수 있는 데이터 소스로 포함했습니다.
-* Adobe Journey Optimizer은 고객이 계정에 새 줄을 추가하여 전환하도록 유도하기 위해 고안된 사용자 지정된 &quot;포기&quot; 메시지를 받을 때까지의 규칙을 사용합니다.
+* Adobe Journey Optimizer에서는 고객이 사용자 정의된 &quot;포기&quot; 메시지를 받을 시간을 정하는 규칙을 사용합니다. 이 메시지는 고객이 자신의 계정에 새로운 회선을 추가함으로써 전환을 이루도록 유도합니다.
 
 
-## 제공되는 비즈니스 가치
+## 제공한 비즈니스 가치
 
 | 목표 | 전략 | 발견한 가치 |
 |---|---|---|

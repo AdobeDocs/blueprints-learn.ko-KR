@@ -1,15 +1,15 @@
 ---
-title: Marketo 및 Workfront 청사진이 포함된 캠페인 공급망
-description: 개요 - Marketo 및 Workfront 블루프린트로 캠페인 공급망 최적화
+title: Marketo와 Workfront를 사용하는 캠페인 공급망 블루프린트
+description: 개요 - Marketo와 Workfront로 캠페인 공급망 최적화하기 블루프린트
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
-# Marketo 및 Workfront 청사진이 포함된 캠페인 공급망 {#overview}
+# Marketo와 Workfront를 사용하는 캠페인 공급망 블루프린트 {#overview}
 
 ## 최적화된 캠페인 공급망을 통해 시장 출시 시간 단축 {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -30,7 +30,7 @@ ht-degree: 90%
 
 멀티채널 마케팅 활성화 시스텀(Marketo Engage)과 마케팅 기획 및 기록 시스템(Workfront)을 통합하면 캠페인 속도를 높이고 이해 관계자에게 보다 나은 가시성을 제공할 수 있습니다.
 
-마케팅 운영 팀은 Workfront Fusion을 사용하여 마케팅 브리프를 캠페인으로 변환할 때 직접 손으로 해야 하고 오류가 발생하기 쉬운 단계를 크게 줄일 수 있습니다. Workfront Fusion은 바로 사용할 수 있는 Workfront과 Marketo Engage 간 통합 레이어를 제공하여 시스템 간 워크플로우 개발에 유연성과 효율성을 더합니다. 통합을 설정하는 방법과 워크플로우를 자동화하기 위해 수행할 수 있는 작업을 자세히 알아볼 수 있습니다 [여기](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ko){target="_blank"}.
+마케팅 운영 팀은 Workfront Fusion을 사용하여 마케팅 브리프를 캠페인으로 변환할 때 직접 손으로 해야 하고 오류가 발생하기 쉬운 단계를 크게 줄일 수 있습니다. Workfront Fusion은 바로 사용할 수 있는 Workfront과 Marketo Engage 간 통합 레이어를 제공하여 시스템 간 워크플로우 개발에 유연성과 효율성을 더합니다. 통합을 설정하는 방법과 워크플로우를 자동화하기 위해 할 수 있는 작업에 대해 [여기](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ko){target="_blank"}에서 자세히 알아볼 수 있습니다.
 
 ## Campaign 계획-실행 - 자동화 사용 사례 {#campaign-planning-to-execution-automation-use-cases}
 
@@ -147,7 +147,7 @@ Workfront [프로젝트]를 템플릿화하여 특정 마케팅 전술을 실행
 
 ### Workfront Fusion, Workfront 및 Marketo Engage 통합 시작하기 {#getting-started-with-workfront-fusion}
 
-* [가져오기 및 만들기](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Marketo Engage 및 Workfront을 사용한 Campaign 개발 자동화
+* [가져오기 및 만들기](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Marketo Engage와 Workfront를 사용한 캠페인 개발 자동화
 
 * 증명 및 승인(준비 중)
 
@@ -155,7 +155,7 @@ Workfront [프로젝트]를 템플릿화하여 특정 마케팅 전술을 실행
 
 ### Marketo Engage 캠페인 이름 및 관련 URL 관리 {#managing-marketo-engage-campaign-names}
 
-캠페인 및 URL의 이름 지정 규칙을 표준화하는 것은 Marketo Engage에서 프로그램을 정확하게 관리하고 캠페인 공급망 전반에 걸쳐 보다 일관된 프로세스를 구현하는 데 도움이 되는 중요한 토대입니다. 이 작업에 도움이 되는 도구를 찾고 있는 경우, [Adobe 성공 서비스](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} Marketo Engage 캠페인 및 관련 URL을 만들고 관리하는 일관된 방법을 만들 수 있습니다.
+캠페인 및 URL의 이름 지정 규칙을 표준화하는 것은 Marketo Engage에서 프로그램을 정확하게 관리하고 캠페인 공급망 전반에 걸쳐 보다 일관된 프로세스를 구현하는 데 도움이 되는 중요한 토대입니다. 여기에 도움이 되는 도구를 찾고 있다면 Marketo Engage 캠페인과 그 연결 URL을 만들고 관리하기 위한 일관적인 접근법을 만들게 해 주는 [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}의 무료 오픈 소스 도구 몇 가지를 확인해 보시기를 추천합니다.
 
 ### 리소스 {#resources}
 

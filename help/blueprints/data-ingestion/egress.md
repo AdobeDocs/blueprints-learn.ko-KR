@@ -7,7 +7,7 @@ exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 94%
 
 이 블루프린트는 Experience Platform과 애플리케이션에서 데이터에 액세스하는 방법에 대한 두 카테고리로 분류됩니다. 먼저 Experience Platform 및 애플리케이션에서 데이터를 내보낼 때의 접근 방법으로, 데이터 전송의 푸시 유형 방법이라 할 수 있습니다. 그 다음은 Experience Platform 및 애플리케이션에서 데이터에 액세스할 때의 접근 방법으로, 데이터 액세스의 풀 유형 방법이라 할 수 있습니다.
 
-데이터 액세스 접근 방식:
+데이터 액세스 접근 방법:
 
 * [실시간 고객 프로필 액세스 API](#rtcp-profile-access-api)
 * [데이터 액세스 API](#data-access-api)
 * [쿼리 서비스](#query-service)
 
-데이터 내보내기 방법:
+데이터 내보내기 접근 방법:
 
 * [클라이언트 측 태그](#client-side-tags-extensions)
-* [이벤트 전송](#event-forwarding)
+* [이벤트 전달](#event-forwarding)
 * [Real-time Customer Data Platform 대상](#RTCDP-destinations)
 * [Journey Optimizer 사용자 정의 작업](#jo-custom-actions)
 
@@ -117,7 +117,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 
 #### 고려할 사항
 
-* 이벤트 전달을 사용하려면 웹 SDK 또는 MobileSDK를 사용하여 Edge 네트워크로 데이터를 전송해야 합니다.
+* 이벤트 전달을 사용하려면 Web SDK 또는 MobileSDK를 사용하여 Edge Network로 데이터를 보내야 합니다.
 * 이벤트 전송 접근 방식은 페이지에 태그를 더 추가하는 데 따른 페이지 로드 시간과 가중치를 줄여 줍니다.
 * Edge 프로필이나 다른 데이터 소스를 통한 데이터 보강은 현재 지원하지 않습니다.
 * 제한된 데이터 필터링 및 간단한 매핑 변환을 지원합니다.
@@ -138,7 +138,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 * 프로필 속성 및 대상자 멤버십을 활성화할 수 있습니다. 미가공 경험 이벤트는 현재 RTCDP 대상의 일부로 활성화할 수 없습니다.
 * 세그먼트 평가의 특성과 대상이 허용하는 수집 프로토콜의 특성에 따라 스트리밍 또는 일괄 처리 방식으로 활성화가 일어납니다.
 
-### Journey Optimizer 사용자 지정 작업 {#jo-custom-actions}
+### Journey Optimizer 사용자 정의 작업 {#jo-custom-actions}
 
 고객은 Journey Optimizer를 사용하여 여정 캔버스에서 사용자 정의 작업을 호출하여 구성해 둔 외부 API 엔드포인트에 페이로드나 메시지를 보낼 수 있습니다. JSON 포맷 페이로드로 REST API를 통해 호출할 수 있는 모든 공급자의 모든 서비스에 대해 작업을 구성할 수 있습니다. 이 페이로드에는 여정에서 구성한 이벤트 정보, 프로필 속성 및 이전 이벤트 데이터, 변환 및 데이터 보강 등이 포함될 수 있습니다.
 
