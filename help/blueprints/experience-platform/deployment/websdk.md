@@ -1,29 +1,29 @@
 ---
-title: 웹/모바일 SDK, 에지 네트워크 배포 아키텍처 다이어그램
+title: Web/Mobile SDK, Edge Network 배포 아키텍처 다이어그램
 description: 이 블루프린트는 Experience Platform Web 및 Mobile SDK와 Edge Network를 통한 아키텍처와 수집을 보여줍니다.
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platform 웹 SDK 및 Edge 네트워크 아키텍처 다이어그램
+# Experience Platform Web SDK와 Edge Network 아키텍처 다이어그램
 
 Web 및 Mobile SDK와 Edge Network Server API에 대한 개요 및 세부 정보는 다음을 참조하세요.
 
-* [웹 SDK 개요](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)
-* [모바일 SDK 개요](https://developer.adobe.com/client-sdks/documentation/)
+* [Web SDK 개요](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)
+* [Mobile SDK 개요](https://developer.adobe.com/client-sdks/documentation/)
 * [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 
-웹 SDK에서 지원되는 애플리케이션 기능에 대한 자세한 개요를 알려면 다음 설명서를 참조하십시오.
+WebSDK에서 지원하는 애플리케이션 기능에 대한 자세한 개요는 다음 설명서를 참조하세요.
 
-* [웹 SDK 애플리케이션 기능 지원](https://github.com/orgs/adobe/projects/18/views/1)
+* [Web SDK 애플리케이션 기능 지원](https://github.com/orgs/adobe/projects/18/views/1)
 
 애플리케이션별 SDK에서 Web 및 Mobile SDK로 마이그레이션하는 작업과 관련된 자세한 내용은 다음 설명서를 참조하세요.
 
@@ -32,7 +32,7 @@ Web 및 Mobile SDK와 Edge Network Server API에 대한 개요 및 세부 정보
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=ko)
 
-## Experience Platform 웹/모바일 SDK 또는 Edge Network Server API 배포
+## Experience Platform Web/Mobile SDK 또는 Edge Network Server API 배포
 
 아래 아키텍처 다이어그램은 Experience Platform Web SDK를 활용하는 배포 및 데이터 수집을 보여줍니다.
 
