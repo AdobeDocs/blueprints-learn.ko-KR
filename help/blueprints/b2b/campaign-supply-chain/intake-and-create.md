@@ -2,10 +2,10 @@
 title: 가져오기 및 만들기 블루프린트
 description: 가져오기 및 만들기 - Marketo와 Workfront로 캠페인 공급망 최적화하기
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 99%
+source-wordcount: '1331'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Marketo Engage의 프로그램 템플릿으로 최상위 센터를 구축하는 
 
 Marketo Engage에서는 토큰을 사용하여 캠페인 자산에 콘텐츠를 채울 수 있습니다. 예를 들어 최상위 센터에서 이메일 템플릿을 복제한 뒤 Workfront Fusion에서 Workfront의 캠페인 요청에 있는 세부 정보를 가져다 Marketo Engage 프로그램의 [내 토큰]으로 전달할 수 있습니다. 그런 다음에는 토큰 값을 이메일에 직접 상속하여 이메일을 작성할 수 있습니다.
 
-![](assets/intake-and-create-2.png)
+![토큰을 사용하여 콘텐츠 다이어그램을 채웁니다](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### AEM Assets에서 가져온 이미지 채우기 {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ Workfront 요청으로 새 Marketo Engage 프로그램을 만드는 과정을 �
 
 미리 작성된 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ko){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ko){target="_blank"} 모듈을 사용하여 Fusion에서 워크플로우 논리를 조합함으로써 자동화를 더 빠르게 제공하는 방법의 예시입니다.
 
-![](assets/intake-and-create-3.png)
+![자동화 흐름 가져오기 및 만들기](assets/intake-and-create-3.png)토큰을 사용하여 콘텐츠를 채웁니다
 
 ## 리소스 {#resources}
 

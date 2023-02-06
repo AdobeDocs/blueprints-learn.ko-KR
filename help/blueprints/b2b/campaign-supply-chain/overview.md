@@ -2,10 +2,10 @@
 title: Marketo와 Workfront를 사용하는 캠페인 공급망 블루프린트
 description: 개요 - Marketo와 Workfront로 캠페인 공급망 최적화하기 블루프린트
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 96%
+source-wordcount: '1778'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 아래에서 대량 이메일 전송 요청 사례에 대한 캠페인 개발 과정 워크플로우 다이어그램을 확인할 수 있습니다. 또한 Workfront Fusion이 어떻게 Workfront과 Marketo Engage 사이에서 캠페인 개발 주기 전반에 걸쳐 워크플로우와 프로세스 자동화를 유도하는 역할을 하는지도 살펴볼 수 있습니다.
 
-![](assets/overview-1.png)
+![Campaign 계획-실행 - 자동화 사용 사례](assets/overview-1.png){zoomable=&quot;yes&quot;}
 
 캠페인 개발 프로세스의 여러 단계에 주목하세요.
 
@@ -60,7 +60,7 @@ Adobe Workfront는 조직이 작업을 관리하여 캠페인을 보다 효율�
 
 이 오브젝트에 비즈니스 프로세스를 매핑하는 방법을 이해하는 것은 Workfront과 Marketo Engage 간의 관계를 이해하는 데 중요합니다.
 
-![](assets/overview-2.png)
+![Workfront에서 마케팅 이니셔티브가 표시되는 방식 이해](assets/overview-2.png){zoomable=&quot;yes&quot;}
 
 ### 정의된 Portfolio 계층 {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Zeplin 사는 기존의 Z10 모델보다 높은 내구성과 자유로운 맞춤
 
 아래 계층 구조는 이 마케팅 캠페인에서 전략, 전술, 작업, 자산이 Workfront에 어떻게 매핑되는지 보여 줍니다.
 
-![](assets/overview-3.png)
+![마케팅 이니셔티브 작업 관리 예제](assets/overview-3.png){zoomable=&quot;yes&quot;}
 
 ## Workfront를 Marketo에 매핑하기 {#mapping-workfront-to-marketo}
 
@@ -129,7 +129,7 @@ Workfront Fusion을 통합 레이어로 사용하면 Workfront의 프로젝트�
 
 아래에서는 한 [프로그램]에 여러 프로젝트를 포함하고 그 Workfront [프로젝트]를 Marketo Engage의 [프로그램]에 매핑하는 방법의 예시를 볼 수 있습니다.
 
-![](assets/overview-4.png)
+![Workfront 프로젝트를 Marketo Engage 프로그램에 매핑](assets/overview-4.png){zoomable=&quot;yes&quot;}
 
 Workfront의 한 [프로그램]에 여러 Workfront [프로젝트]를 넣어야 하는 대규모 마케팅 이니셔티브를 시작할 수도 있고, 웨비나나 이메일에 대한 일회성 요청에 대응하기 위해 단일 Workfront [프로젝트]만 필요할 수도 있습니다. 무엇이 필요하든 Workfront, Workfront Fusion, Marketo Engage는 캠페인 개발 프로젝트를 기획부터 실행까지 원활하게 통합할 수 있는 유연성을 제공합니다.
 

@@ -4,10 +4,10 @@ description: 디지털 미디어, 이메일, 푸시, 웹 채널에 걸친 실시
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 96%
+source-wordcount: '349'
+ht-degree: 91%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 96%
 
 ### 블루프린트 아키텍처
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="디지털 미디어, 이메일, 푸시, 웹 채널에 걸친 실시간 고객 경험을 제공하는 소매 비즈니스의 썸네일 이미지" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="디지털 미디어, 이메일, 푸시 및 웹 채널에서 실시간 고객 경험을 제공하는 소매 기업을 위한 이미지" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>
