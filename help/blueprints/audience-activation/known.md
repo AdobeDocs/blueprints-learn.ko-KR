@@ -1,13 +1,13 @@
 ---
 title: 알려진 고객 활성화 블루프린트
 description: 온라인/오프라인 대상자 활성화.
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 
 기본 제공 거버넌스 제어로 확장된 식별자를 통해 알려진 고객과 더 많이 소통할 수 있습니다. 대상자를 이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상으로 활성화합니다.
 
-자세한 내용은 [Experience Cloud 애플리케이션을 사용한 대상 및 프로필 활성화 블루프린트](platform-and-applications.md) Experience Platform과 Experience Cloud 애플리케이션 간의 통합에 따라 다릅니다.
+[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화 블루프린트](platform-and-applications.md)에서 Experience Platform와 Experience Cloud 애플리케이션 간 통합에 대하여 더 자세하게 설명합니다.
 
 ## 사용 사례
 
@@ -34,12 +34,12 @@ ht-degree: 71%
 
 ### Real-time Customer Data Platform을 통한 알려진 고객 활성화
 
-<img src="assets/known_activation.svg" alt="알려진 고객 활성화 블루프린트에 대한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="알려진 고객 활성화 블루프린트의 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
-### 사용자 기반 대상을 통한 알려진 고객 활성화
+### Audience Manager 사람 기반 대상을 통한 알려진 고객 활성화
 
-<img src="assets/AAM_PBD.svg" alt="알려진 고객 활성화 블루프린트에 대한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="알려진 고객 활성화 블루프린트의 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## 가드레일
@@ -63,7 +63,7 @@ ht-degree: 71%
 
 * 자세한 내용은 [Experience Cloud 애플리케이션을 사용한 대상 및 프로필 활성화 블루프린트](platform-and-applications.md) Real-time Customer Data Platform에서 Audience Manager, Analytics, Target, 캠페인 및 Journey Optimizer으로 대상을 공유하는 것에 대한 자세한 내용은 다음을 참조하십시오.
 
-## 사용자 기반 대상 Audience Manager 구현 단계
+## Audience Manager 사람 기반 대상 구현 단계
 
 * Audience Manager 구현에 대한 자세한 내용은 다음 [설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko)를 참조하세요.
 
@@ -76,7 +76,7 @@ ht-degree: 71%
 * [세분화 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
 * [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko)
 
-## 관련 비디오 및 자습서
+## 관련 비디오 및 튜토리얼
 
 * [[!UICONTROL Real-time Customer Data Platform] 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
 * [데모 [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ko)

@@ -1,10 +1,10 @@
 ---
 title: B2B 분석 및 활성화 블루프린트
 description: Real-time Customer Data Platform을 통해 계정 기반 대상 및 프로필 중심의 고객 경험을 제공합니다.
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 90%

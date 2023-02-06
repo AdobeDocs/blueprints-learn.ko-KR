@@ -1,20 +1,20 @@
 ---
 title: Google Customer Match 활성화
 description: Google Customer Match 활성화입니다.
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
 
 # Google Customer Match 활성화
 
-여러 소스에서 고객 데이터를 수집하여 고객에 대한 단일 프로필 보기를 작성하고, 이 프로필을 세그먼트로 만들어 마케팅과 개인화를 위한 대상자를 작성한 다음, 이 대상자를 Google Customer Match 등 소셜 광고 네트워크에 공유하여 해당 대상자에 대한 타겟팅 및 개인화 캠페인을 수행할 수 있습니다. Google Customer Match를 통해 온오프라인 데이터를 사용하여 Search, Shopping, Gmail, YouTube 등 Google 소유 및 운영 플랫폼 전반에 걸쳐 고객에게 도달하고 고객의 재참여를 유도할 수 있습니다.
+여러 소스에서 고객 데이터를 수집하여 고객에 대한 단일 프로필 보기를 작성하고, 이 프로필을 세그먼트로 만들어 마케팅과 개인화를 위한 대상자를 작성한 다음, 이 대상자를 Google Customer Match 등 소셜 광고 네트워크에 공유하여 해당 대상자에 대한 타겟팅 및 개인화 캠페인을 수행할 수 있습니다. Google 고객 일치 기능을 사용하면 온라인 및 오프라인 데이터를 사용하여 다음과 같이 Google이 소유하거나 운영하는 속성에서 고객에게 도달하고 다시 참여하도록 할 수 있습니다. 검색, 쇼핑, Gmail 및 YouTube.
 
 ## 사용 사례
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 ## 아키텍처
 
-<img src="../assets/gcm.svg" alt="Google Customer Match 활성화 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Google Customer Match 활성화 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 구현 단계
 

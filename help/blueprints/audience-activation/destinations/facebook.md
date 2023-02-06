@@ -1,10 +1,10 @@
 ---
 title: Facebook 맞춤 타겟 활성화
 description: Facebook 맞춤 타겟을 활성화합니다.
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 95%
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 ## 아키텍처
 
-<img src="../assets/facebook.svg" alt="Facebook 맞춤 타겟 활성화 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/facebook.svg" alt="Facebook 맞춤 타겟 활성화 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 구현 단계
 

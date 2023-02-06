@@ -1,10 +1,10 @@
 ---
 title: 여행 및 서비스 업계 - 온라인 및 오프라인 데이터를 사용한 활성화
 description: 다양한 채널에서의 고객 행동에 대해 통합된 단일 관점을 적용한 실시간 의사 결정.
-solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 92%

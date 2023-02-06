@@ -1,17 +1,17 @@
 ---
 title: 의류 업계 - Experience Cloud 애플리케이션을 통한 활성화
 description: 실시간 마케팅, 크로스 채널 활성화, 크로스 채널 분석을 위해 여러 블루프린트를 사용했습니다.
-solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
-# 의류 업계 비즈니스 문제
+# 의류 업계 비즈니스 과제
 
 이 특정 의류 회사는 신발, 의류, 장비, 액세서리, 서비스를 디자인, 개발, 제조하고 전 세계에 마케팅 및 판매하는 이 분야의 글로벌 리더입니다.
 
@@ -21,14 +21,14 @@ ht-degree: 89%
 * 트리거 기반의 실시간 마케팅
 * 개인화, 캠페인의 효율성을 측정하는 기능, 고객에 대한 360도 분석과 기여도 분석을 수행하는 기능
 
-## Adobe 접근 방식
+## Adobe의 접근 방식
 
 * 강력한 Platform 기반을 구축하여 비즈니스에 가치를 제공하고, 이는 전사적 채택으로 이어집니다.
 * 기술 팀과의 공동 작업을 통해 기술 구현 시 비즈니스 가치를 확실하게 제공합니다.
 * 이 의류 회사의 고객에 대한 360도 관점을 통해 캠페인을 직접적으로 세그먼트화, 활성화, 보고합니다.
 * 트리거를 자동화하고 개인화된 고객 여정을 오케스트레이션합니다.
 
-## 제공되는 비즈니스 가치
+## 제공한 비즈니스 가치
 
 | 목표 | 전략 | 발견한 가치 |
 |---|---|---|

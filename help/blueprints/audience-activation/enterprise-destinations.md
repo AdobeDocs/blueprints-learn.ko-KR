@@ -1,10 +1,10 @@
 ---
 title: 파일 및 엔터프라이즈 스트리밍 대상에 대한 대상자 및 프로필 활성화 블루프린트
 description: 엔터프라이즈 대상에 대한 대상자 및 프로필 활성화
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 73%
@@ -25,7 +25,7 @@ ht-degree: 73%
 
 ## 아키텍처
 
-<img src="assets/enterprise_destination_activation.svg" alt="엔터프라이즈 활성화 시나리오를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="엔터프라이즈 활성화 시나리오를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 
 
 ## 가드레일
