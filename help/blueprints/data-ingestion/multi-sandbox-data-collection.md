@@ -4,8 +4,8 @@ description: Experience Platform SDK에서 수집한 데이터를 이벤트 전�
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 아키텍처
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="다중 샌드박스 이벤트 전달을 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="다중 샌드박스 이벤트 전달을 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. 태그 작성자가 태그 속성과 이벤트 전달 속성을 모두 정의합니다. 이 경우 작성자는 데이터 수집을 관리하는 데이터 요소, 규칙, 작업을 정의합니다. 태그 속성 코드는 클라이언트에서 실행되며 CDN 호스트에 의해 배포된다는 점에 유의하세요. 이벤트 전달 속성 코드는 Adobe Edge 서버에서 실행됩니다.
 

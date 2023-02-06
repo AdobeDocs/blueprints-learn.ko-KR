@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 94%
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 아래 그림에서는 Experience Platform의 실시간 고객 프로필의 핵심 구성 요소를 개략적으로 확인할 수 있습니다.
 
-<img src="assets/profile_architecture.jpg" alt="실시간 고객 프로필의 참조 아키텍처" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
+<img src="assets/profile_architecture.jpg" alt="실시간 고객 프로필의 참조 아키텍처" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 
 첫 번째 데이터 소스가 Experience Platform으로 수집됩니다. 데이터 소스가 프로필용으로 구성된 경우 이를 처리하면 실시간 고객 프로필로 피드됩니다. 각 데이터 소스용으로 구성된 각 기본 ID 레코드에 대해 하나의 프로필 조각 또는 문서가 만들어집니다. 또한 프로필에 수집한 데이터는 ID 서비스에서도 처리합니다. 스키마에 둘 이상의 ID가 표시되어 있고 이에 해당하는 값이 레코드에 입력된 데이터 소스의 모든 레코드는 ID 서비스 내에서 ID 관계로 처리합니다.
 
@@ -42,7 +42,7 @@ ID 그래프가 관련된 다양한 소스 프로필 조각에 대해 ID 관계�
 
 아래 그림에서 다양한 세분화 방법과 프로필 및 대상 활성화 패턴을 볼 수 있습니다.
 
-<img src="assets/segmentation_destination_overview.png" alt="실시간 고객 프로필의 참조 아키텍처" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
+<img src="assets/segmentation_destination_overview.png" alt="실시간 고객 프로필의 참조 아키텍처" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 
 ## 대상자 및 프로필 활성화 블루프린트 가드레일
 

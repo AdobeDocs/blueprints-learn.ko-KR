@@ -4,7 +4,7 @@ description: 다양한 채널에서의 고객 행동에 대해 통합된 단일 
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 92%
@@ -42,4 +42,4 @@ ht-degree: 92%
 
 ### 블루프린트 아키텍처
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="다양한 채널에서의 고객 행동에 대해 통합된 단일 관점을 적용하여 실시간 의사 결정을 내리는 여행 및 서비스 비즈니스의 썸네일 이미지." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="다양한 채널에서의 고객 행동에 대해 통합된 단일 관점을 적용하여 실시간 의사 결정을 내리는 여행 및 서비스 비즈니스의 썸네일 이미지." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg" class="modal-image" /></a>

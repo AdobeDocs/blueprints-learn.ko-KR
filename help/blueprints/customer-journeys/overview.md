@@ -5,8 +5,8 @@ solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaig
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -22,6 +22,6 @@ ht-degree: 100%
 
 | 블루프린트 | 설명 | 아키텍처 |
 |---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | 기본적으로 Experience Platform 실시간 고객 프로필을 기반으로 구축되어 마케팅 팀이 실시간 대응을 통해 고객 행동을 변화시키고 언제 어느 채널에서든 고객을 만날 수 있습니다. | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" /> |
-| **[Adobe Campaign v8](campaign-v8.md)** | 고도로 복잡한 데이터 관리 및 캠페인 프로세스에 최적화된 차세대 캠페인 도구입니다. 고객이 풍부한 마케팅 캠페인 커뮤니케이션을 찾아내고 만들 수 있도록 지원합니다. | <img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" /> |
-| **[Adobe Campaign v7](campaign-v7.md)** | 이메일, SMS, DM 등 다양한 채널에서의 배치 기반 마케팅 캠페인을 위해 개발된 기존 캠페인 도구입니다. 고객이 다양한 고객 커뮤니케이션을 한 곳에서 오케스트레이션 및 관리할 수 있도록 지원합니다. | <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Journey Optimizer](journey-optimizer.md)** | 기본적으로 Experience Platform 실시간 고객 프로필을 기반으로 구축되어 마케팅 팀이 실시간 대응을 통해 고객 행동을 변화시키고 언제 어느 채널에서든 고객을 만날 수 있습니다. | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | 고도로 복잡한 데이터 관리 및 캠페인 프로세스에 최적화된 차세대 캠페인 도구입니다. 고객이 풍부한 마케팅 캠페인 커뮤니케이션을 찾아내고 만들 수 있도록 지원합니다. | <img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | 이메일, SMS, DM 등 다양한 채널에서의 배치 기반 마케팅 캠페인을 위해 개발된 기존 캠페인 도구입니다. 고객이 다양한 고객 커뮤니케이션을 한 곳에서 오케스트레이션 및 관리할 수 있도록 지원합니다. | <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |

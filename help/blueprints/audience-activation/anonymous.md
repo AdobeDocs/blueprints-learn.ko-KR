@@ -6,7 +6,7 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 4b09d5e43dba53df2f066917f95eae0f74191de8
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 68%
@@ -35,7 +35,7 @@ Microsoft Bing, Google DV360 및 TradeDesk는 익명 장치 기반 타깃팅을 
 
 ## 아키텍처
 
-<img src="assets/anonymous_activation.svg" alt="익명 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
+<img src="assets/anonymous_activation.svg" alt="익명 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 <br>
 
