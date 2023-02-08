@@ -4,10 +4,10 @@ description: 이 블루프린트는 Adobe Experience Platform 및 애플리케�
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 * [클라이언트 측 태그](#client-side-tags-extensions)
 * [이벤트 전달](#event-forwarding)
-* [Real-time Customer Data Platform 대상](#RTCDP-destinations)
+* [Real-time Customer Data Platform 대상 ](#RTCDP-destinations)
 * [Journey Optimizer 사용자 정의 작업](#jo-custom-actions)
 
 ## 데이터 액세스 및 내보내기 개요 아키텍처
@@ -126,7 +126,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 
 프로필 속성 데이터와 대상자 멤버십 데이터를 기업 및 광고 대상에 활성화할 수 있습니다. 즉, 전송 데이터를 Experience Platform 실시간 고객 프로필로 수집해야 합니다.
 
-자세한 내용은 [Real-time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko) 설명서 를 참조하십시오.
+자세한 내용은 [Real-time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko) 설명서를 참조하세요.
 
 #### 사용 사례
 

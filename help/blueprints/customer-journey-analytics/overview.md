@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Customer Journey Analytics 사용 사례의 전체 목록은 Customer Journey An
 
 [일반적인 사용 사례는 다음과 같습니다.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ko)
 
-* Real-time Customer Data Platform에 대상자 만들기 및 게시
+* 대상자를 만들어 Real-time Customer Data Platform에 게시하기
 * 최대/최소 전환 경로
 * 채널 참여 및 전환
 * 가장 많이 본 콘텐츠
@@ -37,7 +37,8 @@ Customer Journey Analytics 사용 사례의 전체 목록은 Customer Journey An
 기본 사용 사례의 예시는 다음과 같습니다.
 | 블루프린트 | 설명 |  Experience Cloud 애플리케이션 |
 |---|---|---|
-| **[크로스 채널 여정 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ko)**  | <ul><li>다양한 웹, 모바일 및 오프라인 속성에서 수집한 데이터를 통합하여 전 채널에 걸친 고객 행동을 통합된 단일 관점으로 분석합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics(선택 사항)</li></ul>| | **[Real-time Customer Data Platform에 대상 게시](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko)** | <ul><li>고객 타겟팅 및 개인화를 위해 CJA(Customer Journey Analytics)에서 식별한 대상자를 만들어 Adobe Experience Platform의 실시간 고객 프로필에 게시합니다. 내역 데이터를 사용하여 대상자를 만들거나 Customer Journey Analytics의 세분화된 필터링 및 계산된 필드로 보다 정교한 대상자를 만드는 데 적합합니다.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
+| **[크로스 채널 여정 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ko)**  | <ul><li>다양한 웹, 모바일 및 오프라인 속성에서 수집한 데이터를 통합하여 전 채널에 걸친 고객 행동을 통합된 단일 관점으로 분석합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics(선택 사항)</li></ul>|
+| **[Real-time Customer Data Platform에 대상자 게시](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko)** | <ul><li>고객 타겟팅 및 개인화를 위해 CJA(Customer Journey Analytics)에서 식별한 대상자를 만들어 Adobe Experience Platform의 실시간 고객 프로필에 게시합니다. 내역 데이터를 사용하여 대상자를 만들거나 Customer Journey Analytics의 세분화된 필터링 및 계산된 필드로 보다 정교한 대상자를 만드는 데 적합합니다.</li></ul> | <ul><li>Real-time Customer Data Platform   </li><li>Customer Journey Analytics</li> |
 | **[통화 전환 여정 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=ko)** | <ul><li>콜센터 데이터를 웹, 모바일 및 다른 상호작용 데이터와 함께 분석하여 어떤 행동이 가장 콜센터 문의로 이어질 확률이 높은지를 확인합니다.</li><li>이 인사이트를 활용하여 고객 경험을 최적화할 수 있으며, 셀프 서비스 콘텐츠 및 도구를 최적화하여 콜센터 문의로 이어지는 경로를 줄일 수 있습니다.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Customer Journey Analytics 블루프린트의 가드레일 다이어그램

@@ -3,10 +3,10 @@ title: Segment Match  블루프린트
 description: AEP(Adobe Experience Platform)의 [!UICONTROL Segment Match]에 대해 알아봅니다. [!UICONTROL Segment Match]는 업계의 공통 식별자를 기반으로 안전하고 철저히 관리할 수 있으며 개인 정보 보호에 친화적인 방식으로 세그먼트 데이터를 교환할 수 있도록 해 주는 데이터 공동 작업 서비스입니다.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 이 서비스를 통해 고객은 전체 데이터베이스를 공개하지 않고도 안전하고 중립적인 방식으로 일치하는 ID를 안전하게 식별할 수 있습니다. 파트너는 범위가 겹치는 ID에 대해 지정한 특성(세그먼트 이름)만 수신하므로 제어할 수 있는 동의 기반 방식으로 빠르고 간단한 공유가 가능합니다.
 
-[!UICONTROL Segment Match]는 AEP 데이터 거버넌스 및 동의 프레임워크를 중추로 사용합니다. 모든 B2C 및 B2P Real-time Customer Data Platform 고객은 이 서비스를 사용할 수 있습니다. [!UICONTROL [!UICONTROL Segment Match]]의 주요 기능:
+[!UICONTROL Segment Match]는 AEP 데이터 거버넌스 및 동의 프레임워크를 중추로 사용합니다. 모든 B2C 및 B2P Real-time Customer Data Platform 고객이 사용할 수 있습니다. [!UICONTROL [!UICONTROL Segment Match]]의 주요 기능:
 
 * 동의한 교집합 고객에 대한 세그먼트 공유
 * 교집합 보고서 사전 공유로 예상 일치량 인사이트 제공

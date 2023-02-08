@@ -4,10 +4,10 @@ description: Experience Platform의 프로필 및 대상자를 관리하고 Expe
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 * 대상에 프로필 데이터를 공유하려면 대상 페이로드에 대상이 사용하는 특정 ID 값을 포함해야 합니다. 목표 대상에 필요한 ID는 모두 Platform으로 수집하여 [!UICONTROL Real-time Customer Profile] ID로 구성해야 합니다.
 
-### Real-time Customer Data Platform에서 Audience Manager으로 대상 공유
+### Real-time Customer Data Platform에서 Audience Manager로 대상 공유하기
 
 * 자세한 내용은 다음 설명서를 참조하세요. [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko).
 
@@ -65,31 +65,31 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 * Experience Platform에서 Audience Manager로 대상자를 공유하는 활성화 시나리오의 경우 자동으로 공유되는 ID에는 ECID, IDFA, GAID, 해시 이메일 주소(EMAIL_LC_SHA256), AdCloud ID가 있습니다. 현재 사용자 지정 네임스페이스는 공유되지 않습니다.
 * Experience Platform의 대상자는 필요한 대상 ID가 [!UICONTROL Real-time Customer Profile]에 포함된 경우 또는 [!UICONTROL Real-time Customer Profile]의 ID가 Audience Manager에서 필요 대상 ID와 연결된 경우에 Audience Manager 대상을 통해 공유할 수 있습니다.
 
-### Real-time Customer Data Platform에서 Target으로 대상 공유
+### Real-time Customer Data Platform에서 Target으로 대상 공유하기
 
-* 자세한 내용은 [알려진 고객 개인화 - Target 및 RTCDP 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ko) Real-time Customer Data Platform에서 Target으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
+* [알려진 고객 개인화 - Target 및 RTCDP 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ko)에서 Real-time Customer Data Platform의 프로필 및 대상자를 Target으로 공유하는 방법에 대한 자세한 내용을 확인할 수 있습니다.
 
 ### Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 대상 공유
 
-* 자세한 내용은 [고객 여정 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ko) Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
+* [고객 여정 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ko)에서 프로필 및 대상자를 Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 공유하는 방법에 대해 자세히 살펴볼 수 있습니다.
 
-### Real-time Customer Data Platform에서 Marketo Engage으로 대상 공유
+### Real-time Customer Data Platform에서 Marketo Engage로 대상자 공유하기
 
-* 자세한 내용은 [B2B 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ko) Real-time Customer Data Platform에서 Marketo Engage으로 프로필 및 대상자 공유에 대한 자세한 내용을 확인하십시오.
+* Real-time Customer Data Platform에서 Marketo Engage로 프로필 및 대상자를 공유하는 자세한 방법은 [B2B 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ko)를 참조하세요.
 
-### Real-time Customer Data Platform에서 Customer Journey Analytics으로 대상 공유
+### Real-time Customer Data Platform에서 Customer Journey Analytics로 대상자 공유하기
 
-* 자세한 내용은 [Customer Journey Analytics과 공유되는 RTCDP 대상](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ko) Real-time Customer Data Platform 대상을 Customer Journey Analytics에 공유하는 방법에 대한 자세한 내용은 을 참조하십시오.
+* Real-time Customer Data Platform 대상자를 Customer Journey Analytics로 공유하는 자세한 방법은 [RTCDP 대상자를 Customer Journey Analytics에 공유하기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ko)를 참조하세요.
 
 ## 관련 설명서
 
-* [[!UICONTROL Real-time Customer Data Platform] 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform] 제품 설명 ](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform.html)
 * [프로필 및 세분화 지침](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * [세분화 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko)
 * [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko)
 
 ## 관련 비디오 및 튜토리얼
 
-* [[!UICONTROL Real-time Customer Data Platform] 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
-* [데모 [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ko)
+* [[!UICONTROL Real-time Customer Data Platform] 개요 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
+* [[!UICONTROL Real-time Customer Data Platform] 데모](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ko)
 * [세그먼트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ko)

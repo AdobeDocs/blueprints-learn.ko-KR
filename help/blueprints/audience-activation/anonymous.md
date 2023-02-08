@@ -6,10 +6,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 68%
 ## 애플리케이션
 
 * Audience Manager
-* Real-time Customer Data Platform
+* Real-time Customer Data Platform   
 
-Audience Manager과 Real-time Customer Data Platform을 모두 활용하여 온사이트 및 광고 대상을 위한 익명의 Audience Activation을 강화할 수 있습니다. Real-time Customer Data Platform은 Analytics Mobile Apps 또는 Analytics Premium에서 카탈로그로 지정된 익명 장치 식별자가 있는 광고 대상의 하위 집합만 지원합니다 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ko).
+온사이트 및 광고 대상에 대한 익명 대상자 활성화에는 Audience Manager와 Real-time Customer Data Platform 모두 활용할 수 있습니다. 단, Real-time Customer Data Platform의 경우 광고 대상 중 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ko)에서 설명하는 익명 디바이스 식별자가 있는 일부만 지원합니다.
 
-Microsoft Bing, Google DV360 및 TradeDesk는 익명 장치 기반 타깃팅을 위해 지원되는 기본 Real-time Customer Data Platform 광고 대상입니다. 이 외에도 Real-time Customer Data Platform은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ko) 및 [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko).
+ 익명 디바이스 기반 타겟팅을 지원하는 기본 Real-time Customer Data Platform 광고 대상에는 Microsoft Bing, Google DV360, TradeDesk가 있습니다. 이 외에도 Real-time Customer Data Platform은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ko)에서 언급하고 [알려진 고객 활성화 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko)에서 설명하는 수많은 알려진 고객 기반 대상을 지원합니다.
 
 ## 아키텍처
 
@@ -45,7 +45,7 @@ Microsoft Bing, Google DV360 및 TradeDesk는 익명 장치 기반 타깃팅을 
 
 ## Real-time Customer Data Platform 구현 단계
 
-* Real-time Customer Data Platform의 구현 단계는 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko).
+* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko)를 참조하세요.
 
 ## 관련 설명서
 

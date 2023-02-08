@@ -4,10 +4,10 @@ description: Facebook 맞춤 타겟을 활성화합니다.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 ## 애플리케이션
 
-* Real-time Customer Data Platform
+* Real-time Customer Data Platform   
 
 ## 아키텍처
 
@@ -82,7 +82,7 @@ ht-degree: 95%
    * 게재되지 않은 프로필에 프로필 ID나 필수 속성이 누락되어 있는지 확인합니다.
    * 해결해야 할 다른 오류가 있는지 확인합니다.
 1. 대상자가 최종 대상에서 예상한 대상자 멤버십 수대로 활성화되었는지 확인합니다.
-   * facebook 사용자 지정 대상 포털에 로그인하여 Real-time Customer Data Platform의 대상이 전달되었고 Facebook 대상의 프로필 일치율이 Real-time Customer Data Platform 대상의 프로필 수와 합리적으로 일치하는지 확인합니다.
+   * Facebook 맞춤 타겟 포탈에 로그인하여 Real-time Customer Data Platform의 대상자가 게재되었으며 Facebook 내 대상자의 프로필 일치율이 Real-time Customer Data Platform의 대상자 프로필 수와 유사한지 확인합니다.
 
 ## 가드레일
 

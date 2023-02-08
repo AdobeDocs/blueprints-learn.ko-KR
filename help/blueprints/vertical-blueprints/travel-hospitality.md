@@ -4,10 +4,10 @@ description: 다양한 채널에서의 고객 행동에 대해 통합된 단일 
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 ## Adobe의 접근 방식
 
 * 해당 업체의 기존 기술 스택에 Adobe Experience Platform을 통합하여 크로스 솔루션 고객 상호 작용을 제공했습니다.
-* 지속적인 분석 및 개인화된 고객 프로필을 제공하기 위해 Real-time Customer Data Platform 및 Customer Journey Analytics을 활성화했습니다.
+* Real-time Customer Data Platform과 Customer Journey Analytics를 활성화하여 지속적인 분석 및 개인화된 고객 프로필을 제공했습니다.
 * 효과적인 마케팅 기여도 분석 및 리소스 할당을 지원할 수 있도록 고객 여정에 대한 거시적 관점을 구축했습니다.
 * COVID-19에 대응 전략을 구축해 대비하는 한편 고객의 참여도를 높였습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 
 ### Experience Cloud 애플리케이션
 
-<ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### 블루프린트 아키텍처
 

@@ -3,10 +3,10 @@ title: Real-Time CDP와 Adobe Campaign v8 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign v8과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 
 ## 구현 단계
 
-Adobe Experience Platform에 Campaign v8 소스 커넥터를 구성하고 Real-time Customer Data Platform 대상 커넥터를 Campaign v8에 구성하는 방법에 대한 다음 설명서를 참조하십시오.
+Adobe Experience Platform으로 연결되는 Campaign v8 소스 커넥터를 구성하고 Campaign v8로 연결되는 Real-time Customer Data Platform 대상 커넥터를 구성하는 방법에 대한 다음 설명서를 참조하세요.
 [Campaign과 AEP 커넥터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ko)
 
 ## 가드레일
@@ -53,7 +53,7 @@ Adobe Experience Platform에 Campaign v8 소스 커넥터를 구성하고 Real-t
 * Adobe Campaign이 전체 활성 프로필에 대한 단일 정보 저장소입니다. 따라서 프로필이 Adobe Campaign 내에 존재해야 하며 Experience Platform 기반으로 새로운 프로필을 만들면 안 됩니다.
 
 
-### Real-time Customer Data Platform 세그먼트 공유 Experience Platform
+### Experience Platform Real-time Customer Data Platform 세그먼트 공유
 
 * RTCDP Campaign 대상 커넥터를 참조하세요. [RTCDP Campaign 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ko)
 * 최대 50 세그먼트 제한 추천
