@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 1d579402ce0b576acac274cd2a10aa68288f72a1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '989'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe Experience Platform과 애플리케이션 상세 아키텍처 다이어그램
 
-<img src="assets/aep-app-architecture.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/aep+apps_horizontal.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
