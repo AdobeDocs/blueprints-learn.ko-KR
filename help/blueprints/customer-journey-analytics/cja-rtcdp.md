@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 2d7d2fff6c430b66e4a2935d4c68b5a8b9ecfae2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상�
 
 ## Customer Journey Analytics 블루프린트의 아키텍처
 
-![아키텍처 다이어그램](assets/CJA_RTCDP.svg){zoomable=&quot;yes&quot;}
+![아키텍처 다이어그램](assets/CJA.svg){zoomable=&quot;yes&quot;}
 
 ## Customer Journey Analytics 블루프린트의 가드레일 다이어그램
 
