@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytic
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '407'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### Experience Cloud 애플리케이션
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### 블루프린트 아키텍처
 
