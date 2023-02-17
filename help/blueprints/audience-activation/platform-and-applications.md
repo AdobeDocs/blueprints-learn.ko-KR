@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Experience Cloud 애플리케이션에서의 활성화는 [알려진 고객 활�
 
 ## 애플리케이션
 
-* Adobe Experience Platform   
+* Adobe Experience Platform    
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 애플리케이션
@@ -48,7 +48,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ## 가드레일
 
-[대상자 및 프로필 활성화 개요 페이지의 가드레일](overview.md)을 참조하세요.   또한 [배포 가드레일](../experience-platform/deployment/guardrails.md) 페이지도 참조하실 수 있습니다.
+[대상자 및 프로필 활성화 개요 페이지의 가드레일](overview.md)을 참조하세요.    또한 [배포 가드레일](../experience-platform/deployment/guardrails.md) 페이지도 참조하실 수 있습니다.
 
 ## 구현 시 고려 사항
 
