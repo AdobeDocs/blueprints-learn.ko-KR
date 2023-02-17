@@ -6,13 +6,13 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
-# 데이터 수집 및 준비  블루프린트
+# 데이터 수집 및 준비   블루프린트
 
 데이터 준비 및 수집에서는 데이터를 준비하고 Adobe Experience Platform으로 수집하는 방법을 모두 다룹니다. 또한 Adobe Experience Platform의 Edge Network로 데이터를 수집하고 사이드 포워딩을 통해 엔터프라이즈 대상으로 이 데이터를 전달하는 기능도 다룹니다.
 
