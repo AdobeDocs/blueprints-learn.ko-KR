@@ -1,18 +1,18 @@
 ---
-title: 데이터 분석, 인텔리전스 및 AI/ML 블루프린트
+title: 데이터 분석, 인텔리전스, AI/ML 블루프린트
 description: 이 블루프린트는 Adobe Experience Platform 내에서 데이터 레이크에 존재하는 데이터에 대해 탐색 쿼리와 분석을 수행하는 기능을 설명합니다.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
-# 데이터 분석, 인텔리전스 및 AI/ML 블루프린트
+# 데이터 분석, 인텔리전스, AI/ML 블루프린트
 
 데이터 분석, 인텔리전스 및 AI/ML은 Adobe Experience Platform 내에서 데이터 레이크에 존재하는 데이터에 대해 탐색 쿼리와 분석을 수행하는 기능으로 구성되어 있습니다.
 
