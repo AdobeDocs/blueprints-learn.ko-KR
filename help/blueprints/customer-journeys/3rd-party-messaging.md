@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer를 서드파티 메시지 시스템과 함�
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
 ht-degree: 100%
 
