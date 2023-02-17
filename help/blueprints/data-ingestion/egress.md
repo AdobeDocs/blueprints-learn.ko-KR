@@ -5,9 +5,9 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1513'
+ht-degree: 100%
 
 ---
 
