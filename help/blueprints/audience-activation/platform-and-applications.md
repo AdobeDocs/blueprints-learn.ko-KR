@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%
 

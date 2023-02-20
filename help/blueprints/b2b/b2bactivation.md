@@ -6,12 +6,12 @@ kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '842'
+ht-degree: 100%
 
 ---
 
-# B2B 대상자 및 프로필 활성화  블루프린트
+# B2B 대상자 및 프로필 활성화 블루프린트
 
 개별 고객과 연결된 계정, 기회 및 리드 정보를 사용하여 실행 가능한 B2B 프로필을 만들어 여러 채널에서의 개인화 및 타겟팅을 개선합니다.
 

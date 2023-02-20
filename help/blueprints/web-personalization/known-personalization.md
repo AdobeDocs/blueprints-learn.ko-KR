@@ -7,7 +7,7 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 100%
 

@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics  블루프린트
+title: Customer Journey Analytics   블루프린트
 description: 고객 여정 전체에 걸쳐 수집한 데이터와 고객 행동의 통합 및 분석
 solution: Customer Journey Analytics
 kt: null
@@ -7,12 +7,12 @@ thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 99%
 
 ---
 
-# Customer Journey Analytics  블루프린트
+# Customer Journey Analytics   블루프린트
 
 Customer Journey Analytics를 통해 브랜드가 다양한 소통 채널 및 소스에서 수집한 고객 데이터와 행동을 통합하여 모든 고객 상호 작용에 대한 여정 기반 관점을 만들 수 있는 방법을 확인할 수 있습니다. Customer Journey Analytics 애플리케이션 서비스에서 보고와 분석을 수행하여 고객 상호 작용과 행동 패턴을 평가하고 인사이트를 얻을 수 있습니다.
 

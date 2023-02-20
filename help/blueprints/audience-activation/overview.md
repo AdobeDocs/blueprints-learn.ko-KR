@@ -7,13 +7,13 @@ thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '872'
+ht-degree: 100%
 
 ---
 
 
-# 대상자 및 프로필 활성화  블루프린트
+# 대상자 및 프로필 활성화 블루프린트
 
 데이터 기반 마케팅의 세계에서는 대상자와 프로필을 중심으로 활성화해야 성공할 수 있습니다. 그러나 많은 브랜드가 여전히 일관되지 않은 도달 및 개인화 전략으로 채널 중심 활성화에 노력을 기울입니다.
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 |---|---|---|
 | **[익명 대상자 활성화](anonymous.md)** | <ul><li>고객의 익명 행동 데이터를 기반으로 웹 및 광고 채널에 걸쳐 대상자를 타겟팅합니다.</li><li>서드파티 대상자 데이터와 통합하여 개인화를 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[알려진 고객 활성화](known.md)** | <ul><li>이메일 공급자, 소셜 네트워크 및 광고 대상 등 알려진 프로필 기반 대상에 대해 활성화합니다. </li><li>오프라인 주문, 거래, CRM 또는 충성도 데이터 등 오프라인 특성 및 이벤트와 온라인 행동을 함께 사용하여 온라인 타겟팅과 개인화를 수행합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager(선택 사항)</li></ul> |
-| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다.</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul> |
+| **[Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화](platform-and-applications.md)** | <ul><li>Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다.</li><li>Experience Platform에서 풍부한 고객 세그먼트와 인사이트를 작성 및 공유하고 이를 Experience Cloud 애플리케이션에 공유합니다.</li></ul> | <ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 애플리케이션</li></ul> |
 | **[Segment Match](segment-match.md)** | <ul><li>거버넌스, 권한, 환경 설정 관리 시스템이 좋아지면 마케터가 주요 파트너에 대해 퍼스트파티 인증된 대상자의 정밀도를 더욱 향상시킬 수 있습니다.</li></ul> | <ul><li>Adobe Experience Platform   </li></ul> |
 
 ## 실시간 고객 프로필 아키텍처
@@ -48,7 +48,7 @@ ID 그래프가 관련된 다양한 소스 프로필 조각에 대해 ID 관계�
 
 * 자세한 가드레일 및 엔드 투 엔드 지연 시간에 대해서는 [배포 가드레일 문서](../experience-platform/deployment/guardrails.md)와 [프로필 및 세분화 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)을 참조하세요.
 
-### 특성 및 ID 활성화
+### 특성 및 신원 활성화
 
 * [!UICONTROL Real-time Customer Data Platform]은 활성화하도록 선택한 회원 또는 세그먼트인 프로필에 대해 발생하는 특성 및 ID 변경뿐 아니라 대상자 멤버십도 활성화할 수 있습니다. 특성 또는 ID를 활성화하는 것이 목표인 경우 특성 및 ID 업데이트가 전송되는 모든 프로필을 포함하는 글로벌 세그먼트를 정의해야 합니다. 이 시점에서 세그먼트 및 원하는 특성을 선택하여 대상 구성의 일부로 활성화할 수 있습니다.
 * 참고: 대상 일괄 처리는 특성에만 적용되는 변경 이벤트 활성화를 지원하지 않습니다. 활성화를 위해 선택한 속성과 함께 전체나 증분 대상 멤버십을 전송할 수 있습니다.

@@ -1,18 +1,18 @@
 ---
 title: 디지털 경험 블루프린트
-description: 디지털 경험 설계는 전략을 해결하고 수립된 비즈니스 문제를 해결하기 위한 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
+description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 디지털 경험 블루프린트
 
-디지털 경험 설계는 전략을 해결하고 수립된 비즈니스 문제를 신속하게 해결할 수 있는 반복 가능한 구현입니다. 각 블루프린트에서는 고가치 비즈니스 문제를 설명하는 여러 문서, 아키텍처, 구현 단계, 기술적 고려 사항 및 관련 설명서 링크를 제공합니다.
+디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 신속하게 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 각 블루프린트에서는 고가치 비즈니스 문제를 설명하는 여러 문서, 아키텍처, 구현 단계, 기술적 고려 사항 및 관련 설명서 링크를 제공합니다.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -21,9 +21,9 @@ ht-degree: 79%
 <div id="recs-overview-body-5"></div>
 <div id="recs-overview-body-6"></div>
 
-## 새로운 기능
+## 새로운 항목
 
-* **[Enterprise 대상 블루프린트에 대한 대상 및 프로필 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[엔터프라이즈 대상에 대한 대상자 및 프로필 활성화 블루프린트](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *모든 시스템에서 고객 프로필을 최신 상태로 유지하면 영업 및 지원 업무에 도움이 됩니다&#x200B;.*
 * **[고객 활동 허브 블루프린트](/help/blueprints/audience-activation/customer-activity.md)**
@@ -33,7 +33,7 @@ ht-degree: 79%
 
    *데이터 레이크에 있는 데이터에 탐색 쿼리 및 분석을 수행합니다.*
 
-## 주요 블루프린트
+## 추천 블루프린트
 
 <table style="table-layout:fixed">
 <tr>
