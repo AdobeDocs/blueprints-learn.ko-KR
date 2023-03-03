@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey 
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,4 +46,4 @@ ht-degree: 95%
 
 ### 블루프린트 아키텍처
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="대상 활성화, 고객 여정 분석 및 고객 여정 Blueprint를 사용한 의류 사업용 이미지" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko"><img alt="대상자 활성화, Customer Journey Analytics, 고객 여정 블루프린트를 사용하는 의류 비즈니스 이미지" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>
