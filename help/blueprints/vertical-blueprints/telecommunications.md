@@ -5,9 +5,9 @@ solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 1a0ce987fc615080bb78fb8ecf60c96e362a95c0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 ### 블루프린트 아키텍처
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ko"><img alt="텔레커뮤니케이션 비즈니스를 위한 이미지는 장기적인 충성도에 대한 효율적인 고객 온보딩과 동시에 실시간 맞춤 거래를 제공합니다." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ko"><img alt="실시간으로 맞춤형 딜을 제공하는 한편 장기적 충성도를 확보하기 위한 효율적 고객 온보딩을 진행하는 통신 비즈니스 이미지." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
