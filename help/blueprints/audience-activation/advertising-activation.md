@@ -1,19 +1,19 @@
 ---
-title: 실시간 고객 데이터 플랫폼에서 소셜 및 광고 대상에 활성화
-description: 실시간 고객 데이터 플랫폼에서 소셜 및 광고 대상에 활성화
+title: Real-time Customer Data Platform에서 소셜 및 광고 대상에 활성화하기
+description: Real-time Customer Data Platform에서 소셜 및 광고 대상에 활성화하기
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1184'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# 실시간 고객 데이터 플랫폼에서 소셜 및 광고 대상에 활성화
+# Real-time Customer Data Platform에서 소셜 및 광고 대상에 활성화하기
 
-여러 소스에서 고객 데이터를 수집하여 고객에 대한 단일 프로필 보기를 작성하고, 이러한 프로필을 세그먼트화하여 마케팅 및 개인화를 위한 기본 대상을 만들고, 이러한 대상을 Facebook 및 Google과 같은 광고 네트워크에 공유하여 해당 대상에 대한 타겟팅 및 개인화 캠페인을 수행할 수 있습니다.
+여러 소스에서 고객 데이터를 수집하여 고객에 대한 단일 프로필 보기를 작성하고, 이 프로필을 세그먼트로 만들어 마케팅과 개인화를 위한 대상자를 작성한 다음, 이 대상자를 Facebook과 Google 등 광고 네트워크에 공유하여 해당 대상자에 대한 타겟팅 및 개인화 캠페인을 수행할 수 있습니다.
 
 ## 사용 사례
 
@@ -73,7 +73,7 @@ ht-degree: 87%
    * 세그먼트에 포함해야 하는 프로필을 살펴보며 세그먼트 멤버십이 프로필의 세그먼트 멤버십 부분에 들어가 있는지 확인합니다.
 1. [대상] 구성에서 대상에 대한 대상자 게재를 구성합니다.
    * Facebook 대상 구성에 대한 자세한 내용은 [Facebook 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=ko)를 참조하세요.
-   * 자세한 내용은 [Google Customer Match 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=ko) Google 대상 구성에 대한 자세한 내용은
+   * Google 대상 구성에 대한 자세한 내용은 [Google Customer Match 대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=ko)를 참조하세요.
    * 대상을 구성할 때 해당 대상에 대해 활성화할 대상자를 선택합니다.
    * 대상 데이터 흐름에서 대상자를 대상에 게재할 예약 시작 일자를 결정합니다.
    * 각 대상에는 필수적으로 보내야 하는 속성과 보낼 여부를 선택할 수 있는 속성이 있습니다.
@@ -84,7 +84,7 @@ ht-degree: 87%
       * Google Customer Match의 경우 대상자 멤버십은 스트리밍 방식을 통해 Google Customer Match 종단점에 JSON 포맷으로 게재됩니다.
       * 대상자 멤버십을 Experience Platform에서 세분화 스트리밍 또는 일괄 처리 방식으로 평가한 후 스트리밍 방식으로 게재합니다.
 1. 대상 흐름이 대상자를 대상에 예상대로 게재했는지 확인합니다.
-   * 게재한 대상자 프로필 수가 예상과 같은지 모니터링 인터페이스를 확인합니다. 대상 크기는 활성화되는 예상 프로필 수를 반영해야 합니다. Facebook 및 Google과 같은 특정 대상에 이메일 해시 ID와 같은 특정 필드가 필요하며, 대상 구성원의 프로필에 없는 경우 대상으로 활성화되지 않습니다.
+   * 게재한 대상자 프로필 수가 예상과 같은지 모니터링 인터페이스를 확인합니다. 대상자 크기는 예상한 활성화 프로필 수를 반영해야 합니다. Facebook과 Google 등 특정 대상에는 이메일 해시 ID 등 특정 필드가 필요하며, 대상자에 포함된 프로필에 해당 필드가 없는 경우 해당 프로필은 대상에서 활성화되지 않습니다
    * 게재되지 않은 프로필에 프로필 ID나 필수 속성이 누락되어 있는지 확인합니다.
    * 해결해야 할 다른 오류가 있는지 확인합니다.
 1. 대상자가 최종 대상에서 예상한 대상자 멤버십 수대로 활성화되었는지 확인합니다.
