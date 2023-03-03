@@ -1,6 +1,6 @@
 ---
-source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: ht
+source-git-commit: 139702439c38e3bafe1aa74a129934504aa95352
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -45,3 +45,4 @@ Adobe는 커뮤니티의 모든 참여를 환영합니다. 참여자를 넘어 �
 ## 보안 문제
 
 보안 문제는 이 문제 추적기에 보고하면 안 됩니다. 대신 [Adobe 보안 전문가에게 문제를 전달](https://helpx.adobe.com/kr/security/alertus.html)합니다.
+
