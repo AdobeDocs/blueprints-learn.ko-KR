@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 64%
 
 ---
 
@@ -29,6 +29,242 @@ ht-degree: 100%
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## 데이터 수집 방법
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:1123px">
+<tbody>
+<tr>
+<td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:31px; vertical-align:top; width:1123px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">스트리밍 소스</span></strong></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">방법</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:401px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">일반적인 사용 사례</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">프로토콜</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:282px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">고려할 사항</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko" style="color:#0563c1; text-decoration:underline">웹/모바일 SDK Adobe</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">웹 사이트 및 모바일 앱에서 데이터 수집.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">클라이언트측 수집에 기본 설정된 방법입니다.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, HTTP, JSON</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">단일 SDK를 활용하여 여러 Adobe 애플리케이션을 구현합니다.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=en" style="color:#0563c1; text-decoration:underline">HTTP API 커넥터</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">스트리밍 소스, 트랜잭션, 관련 고객 이벤트 및 신호에서 수집</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, REST API, JSON</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">데이터는 허브로 직접 스트리밍되므로 실시간 에지 세그멘테이션 또는 이벤트 전달을 수행할 수 없습니다.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en" style="color:#0563c1; text-decoration:underline">Edge Network API</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">전 세계에 분산된 에지 네트워크에서 스트리밍 소스, 트랜잭션, 관련 고객 이벤트 및 신호 수집</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, REST API, JSON</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">데이터는 Edge Network를 통해 스트리밍됩니다. Edge에서 실시간 세그멘테이션을 지원합니다. </span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko" style="color:#0563c1; text-decoration:underline">Adobe 애플리케이션</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Adobe Analytics, Marketo, 캠페인, Target, AAM의 이전 구현</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, 소스 커넥터 및 API</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">권장되는 접근 방식은 기존 애플리케이션 SDK보다 웹/모바일 SDK로 마이그레이션하는 것입니다.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko" style="color:#0563c1; text-decoration:underline">스트리밍 소스 커넥터</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">엔터프라이즈 이벤트 스트림 수집. 일반적으로 엔터프라이즈 데이터를 여러 다운스트림 애플리케이션에 공유하는 데 사용됩니다. </span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, REST API, JSON</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">XDM 형식으로 스트리밍해야 합니다.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">스트리밍 소스 SDK</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">HTTP API 커넥터와 유사하게, 외부 데이터 스트림의 셀프서비스 구성 카드를 사용할 수 있습니다.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, HTTP API, JSON</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">에지 네트워크</span></span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:1105px">
+<tbody>
+<tr>
+<td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:37px; vertical-align:top; width:1105px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">일괄 처리 소스</span></strong></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">방법</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:397px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">일반적인 사용 사례</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">프로토콜</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:277px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">고려할 사항</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en" style="color:#0563c1; text-decoration:underline">일괄 처리 수집 API</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">엔터프라이즈 관리 큐에서 수집 수집 전 데이터 정리 및 변환.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, JSON 또는 Parquet</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">수집할 배치 및 파일 관리 필요</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob-s3.html?lang=en" style="color:#0563c1; text-decoration:underline">일괄 소스 커넥터</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">클라우드 저장소 위치에서 파일을 수집하는 일반적인 방법입니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">일반적인 CRM 및 마케팅 애플리케이션에 대한 커넥터입니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">대량의 이전 데이터를 수집하는 데 이상적입니다.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">풀, CSV, JSON, Parquet</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">항상 켜져 있는 것은 아니며, 즉각적인 수집입니다. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">최소 15분마다 델타 파일을 수집하기 위해 반복 빈도 확인.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone.html?lang=en" style="color:#0563c1; text-decoration:underline">데이터 랜딩 영역</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">수집을 위해 파일을 푸시할 프로비저닝된 파일 스토리지 위치 Adobe.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, CSV, JSON, Parquet</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">- 파일에 7일 TTL이 제공됨</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/sdk/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">일괄 처리 소스 SDK</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">외부 데이터 소스의 셀프서비스 구성 카드를 사용할 수 있습니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">파트너 커넥터 또는 엔터프라이즈 커넥터 설정에 적합한 워크플로 환경에 적합합니다.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">끌어오기, REST API, CSV 또는 JSON 파일</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">최소 주파수 15분</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">예: MailChimp, One Trust, Zendesk</span></span></span></li>
+</ul>
+
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 | 수집 방법 | 설명 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
