@@ -4,7 +4,7 @@ description: Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 �
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
 ht-degree: 100%
 
