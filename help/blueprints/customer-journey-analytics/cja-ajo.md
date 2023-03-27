@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics와 Journey Optimizer   블루프린트
+title: Customer Journey Analytics와 Journey Optimizer     블루프린트
 description: Customer Journey Analytics에서 Journey Optimizer의 게재 및 상호 작용 데이터를 포함하여 고객 여정 전반에 걸친 데이터 및 고객 행동을 통합하고 분석합니다.
 solution: Customer Journey Analytics
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics와 Journey Optimizer   블루프린트
+# Customer Journey Analytics와 Journey Optimizer     블루프린트
 
 Journey Optimizer의 데이터는 Experience Platform의 데이터 레이크로 공유되어 Customer Journey Analytics 내 수집, 분석, 보고에 사용할 수 있습니다. Customer Journey Analytics 내에서 여정의 게재, 상호 작용, 효율성을 분석 및 보고할 수 있습니다.
 
