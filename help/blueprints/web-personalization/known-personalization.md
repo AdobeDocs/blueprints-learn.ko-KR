@@ -1,5 +1,5 @@
 ---
-title: 웹/모바일 개인화 개요       - Adobe Target과 RTCDP
+title: 웹/모바일 개인화 개요         - Adobe Target과 RTCDP
 description: 웹 개인화를 이메일 및 기타 알려지거나 알려지지 않은 채널 개인화와 동기화합니다.
 landing-page-description: 웹 개인화를 이메일 및 기타 알려지거나 알려지지 않은 채널 개인화와 동기화합니다.
 short-description: Synchronize web personalization with email and other known and anonymous channel personalization.
@@ -8,14 +8,14 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
 ht-degree: 100%
 
 ---
 
 
-# 알려진 고객 데이터를 사용한 웹/모바일 개인화   블루프린트
+# 알려진 고객 데이터를 사용한 웹/모바일 개인화     블루프린트
 
 ## 사용 사례
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 ### 구현 패턴 1 - Edge Network와 Web/Mobile SDK 또는 Edge Network API(권장 방법)
 
 * Web/Mobile SDK에서 Edge Network를 사용합니다. 실시간 Edge 세분화를 사용하려면 Web/Mobile SDK 또는 Edge API 구현 방법이 필요합니다.
-* [Experience Platform Web 및 Mobile SDK 블루프린트를 참조하세요.](../experience-platform/deployment/websdk.md)         SDK 기반 구현에 대해 설명하고 있습니다.
+* [Experience Platform Web 및 Mobile SDK 블루프린트를 참조하세요.](../experience-platform/deployment/websdk.md)           SDK 기반 구현에 대해 설명하고 있습니다.
 * Mobile SDK에서 사용하려면 [Adobe Journey Optimizer - Decisioning 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)을 Mobile SDK에 설치해야 합니다.
 * Edge Profile을 사용하는 Adobe Target의 API 기반 구현에 대해서는 [Edge Network Server API를 참조하세요](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko).
 
