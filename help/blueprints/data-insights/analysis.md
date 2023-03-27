@@ -30,7 +30,7 @@ Experience Platform은 서드파티 SQL 클라이언트, 인터페이스, BI(Bus
 
 ## 애플리케이션
 
-* Adobe Experience Platform  
+* Adobe Experience Platform    
 
 ## 아키텍처
 
