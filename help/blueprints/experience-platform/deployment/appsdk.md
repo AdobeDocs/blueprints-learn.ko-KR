@@ -21,5 +21,5 @@ ht-degree: 100%
 ## 참조 설명서
 
 * [Experience Platform 웹/모바일 SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
-* [웹 SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko)
+* [Web SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko)
 * [모바일 앱에서 Adobe Experience Cloud 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko)
