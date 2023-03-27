@@ -5,9 +5,9 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2052'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 76%
 </tr>
 <tr>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">메서드</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">방법</span></span></span></p>
 </td>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">일반적인 사용 사례</span></span></span></p>
@@ -63,8 +63,8 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">분석 및 수집을 위해 Adobe SDK에서 수집한 원시 데이터를 엔터프라이즈 시스템에 전달</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">3에 대한 경량 태그 지정<sup>rd</sup> 확장을 통한 데이터 수집</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Adobe SDK에서 수집한 원시 데이터를 분석 및 수집할 수 있도록 엔터프라이즈 시스템에 전달</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">확장을 통한 서드파티<sup></sup> 데이터 수집에 활용할 저용량 태그 지정</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -77,17 +77,17 @@ ht-degree: 76%
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">낮은 수준의 원시 이벤트</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">합계 또는 이전 레코드 컨텍스트가 추가되지 않음</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">집계 또는 이전 레코드 컨텍스트가 추가되지 않음</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=en#:~:text=containing%20profile%20exports.-,스트리밍%20segment%20export%20destinations,-Segment%20export%20destinations" style="color:#0563c1; text-decoration:underline">RTCDP - 스트리밍 세그먼트 내보내기</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=ko#:~:text=containing%20profile%20exports.-,Streaming%20segment%20export%20destinations,-Segment%20export%20destinations" style="color:#0563c1; text-decoration:underline">RTCDP - 스트리밍 세그먼트 내보내기</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP에서 마케팅 및 광고, 시스템에 이르기까지 대상을 활성화합니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP의 대상자를 마케팅, 광고, 시스템 등에 사용할 수 있도록 활성화</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -99,20 +99,20 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">대상 멤버십을 나타내는 집계된 데이터</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">집계 데이터는 대상자 멤버십을 나타냄</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">원시 경험 이벤트 데이터를 활성화하지 않음</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=en#:~:text=file%2Dbased)%20destinations-,Streaming%20profile%20export%20destinations%20(enterprise%20destinations),-IMPORTANT" style="color:#0563c1; text-decoration:underline">RTCDP - 프로필 내보내기 대상</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=ko#:~:text=file%2Dbased)%20destinations-,Streaming%20profile%20export%20destinations%20(enterprise%20destinations),-IMPORTANT" style="color:#0563c1; text-decoration:underline">RTCDP - 프로필 내보내기 대상</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP의 풍부한 행동 프로필 및 대상을 활용하여 소비자 경험과 마케팅을 향상합니다.</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP에서 마케팅 및 광고로, 대상 및 프로필 속성에서 작동하는 시스템에 대해 대상 및 프로필 속성을 활성화합니다. </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">AEP 프로필을 이메일 서비스 공급업체로 활성화하여 교육 및 CRM 시스템을 선도합니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP의 풍부한 행동 프로필과 대상자를 활용하여 소비자 경험과 마케팅 개선.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">대상자와 프로필 속성을 기반으로 작동하는 RTCDP를 이용해 대상자 및 프로필 속성을 활성화하여 마케팅과 광고에 이용. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">이메일 서비스 공급 시스템, 리드 육성 시스템, CRM 시스템에 사용할 수 있도록 AEP 프로필 활성화.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -124,7 +124,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">대상 멤버십 및 프로필 레코드 속성을 나타내는 집계된 데이터</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">대상자 멤버십과 프로필 레코드 속성을 나타내는 집계 데이터</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">원시 경험 이벤트 데이터를 활성화하지 않음</span></span></span></li>
 </ul>
 </td>
@@ -135,7 +135,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">브라우저 및 클라이언트측 경험에서 실시간 고객 프로필에 액세스하여 클라이언트측 개인화를 보강합니다. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">브라우저 및 클라이언트측 경험의 실시간 고객 프로필에 액세스하여 클라이언트측 개인화 보강. </span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -151,11 +151,11 @@ ht-degree: 76%
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-sdk/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">RTCDP - Destination SDK</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-sdk/overview.html?lang=ko" style="color:#0563c1; text-decoration:underline">RTCDP - Destination SDK</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP 대상에서 사용자 지정된 대상 카드를 구성합니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP 대상에 사용자 정의 대상 카드 구성.</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">파일 및 스트리밍 유형 대상 지원</span></span></span></li>
 </ul>
 </td>
@@ -167,51 +167,51 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">파트너 및 브랜드가 사용자 지정 대상 카드를 구성할 수 있습니다</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">파트너 및 브랜드가 사용자 정의 대상 카드를 구성하도록 허용</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=ko" style="color:#0563c1; text-decoration:underline">RTCDP - 프로필 조회 허브 API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=ko" style="color:#0563c1; text-decoration:underline">RTCDP - 프로필 검색 허브 API</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">지원 또는 판매 에이전트 상호 작용과 같은 에이전트 지원 경험에 대한 소비자 경험을 보강하기 위해 프로필에 액세스합니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">고객 지원 및 판매 상담과 같은 상담 지원 경험에서 프로필에 액세스하여 고객 경험 보강.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">가져오기</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">풀</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">허브 조회는 500ms 이상 사용 사례에만 이상적입니다</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">허브 검색은 500ms 초과 사용 사례에만 적합</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - 프로필 조회 에지 API* 베타</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - 프로필 검색 Edge API* Beta</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">에지에서 프로필에 액세스하여 웹 및 모바일의 개인화 또는 오퍼 결정과 같은 실시간 &lt;200ms 경험을 위한 소비자 경험을 보강합니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Edge에서 프로필에 액세스하여 웹 및 모바일 환경의 개인화나 오퍼 의사 결정 등 200ms 미만의 실시간 경험에서의 고객 경험 보강.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:144px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">가져오기</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">풀</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">실시간 환경 및 서버 간 통합</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">실시간 환경 및 서버 간 통합에 사용</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -221,7 +221,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">1:1 여정 이벤트 및 트리거를 활성화하여 외부 시스템에 알립니다. 장바구니 포기, 어플리케이션 포기, 등록</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">1:1 여정 이벤트 및 트리거를 활성화하여 외부 시스템에 알림 전송. 장바구니 포기, 애플리케이션 포기, 등록.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -233,7 +233,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">주어진 프로필에 대한 단일 이벤트 활성화. 합계 또는 벌크 작업용이 아닙니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">해당 프로필에 대한 단일 이벤트 활성화. 집계 또는 대량 작업에 적합하지 않음</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -246,12 +246,12 @@ ht-degree: 76%
 <tbody>
 <tr>
 <td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:39px; vertical-align:top; width:1132px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">배치 대상</span></strong></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">일괄 처리 대상</span></strong></span></span></p>
 </td>
 </tr>
 <tr>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">메서드</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">방법</span></span></span></p>
 </td>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">일반적인 사용 사례</span></span></span></p>
@@ -265,23 +265,23 @@ ht-degree: 76%
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en" style="color:#0563c1; text-decoration:underline">데이터 액세스 API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ko" style="color:#0563c1; text-decoration:underline">데이터 액세스 API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Experience Platform 외부의 데이터 과학 및 ML 워크플로우를 위한 원시 데이터에 액세스합니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Experience Platform 외부의 데이터 과학 및 ML 워크플로우에 사용할 원시 데이터 액세스.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">가져오기</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">풀</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Parquet 파일</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Parquet 파일을 사용 가능한 데이터 세트로 액세스하고 처리할 개발 프로세스가 필요합니다.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Parquet 파일에 액세스하여 사용할 수 있는 데이터 세트로 가공할 개발 프로세스 필요</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -291,30 +291,30 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">집계된 통찰력 및 보고를 위해 데이터 세트의 쿼리 결과를 유지합니다. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">데이터 세트의 쿼리 결과를 유지하여 집계한 데이터를 인사이트 및 보고에 활용. </span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">가져오기</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">풀</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">PostgreSQL </span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">SQL 클라이언트</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">집계 데이터만 사용합니다. 10분 쿼리 제한.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">집계 데이터만 사용. 쿼리 제한 10분.</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en" style="color:#0563c1; text-decoration:underline">데이터 집합 내보내기* 베타</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko" style="color:#0563c1; text-decoration:underline">데이터 세트 내보내기* Beta</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">외부 보고, 분석 및 데이터 과학 도구에서 액세스할 수 있도록 Experience Platform 이벤트 데이터를 내보냅니다. </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">외부 보고, 분석 및 데이터 과학 도구를 위한 집계된 프로필 통찰력 및 대상 멤버십 내보내기. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">외부 보고, 분석, 데이터 과학 도구에서 사용할 수 있도록 Experience Platform 이벤트 내보내기 </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">외부 보고, 분석, 데이터 과학 도구에서 사용할 수 있도록 집계한 프로필 인사이트 및 대상자 멤버십 내보내기. </span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -326,7 +326,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">현재 베타에 있으며, 데이터 세트 유형의 하위 집합부터 시작합니다</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">현재 Beta 버전(데이터 세트 유형의 하위 집합부터 시작)</span></span></span></li>
 </ul>
 </td>
 </tr>
