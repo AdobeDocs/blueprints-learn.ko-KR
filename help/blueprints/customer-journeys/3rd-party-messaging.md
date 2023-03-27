@@ -109,7 +109,7 @@ Adobe Experience Platform
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * ID         Edge 네트워크의 경우
+   * ID           Edge 네트워크의 경우
    * Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
 1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)를 참조하세요.
