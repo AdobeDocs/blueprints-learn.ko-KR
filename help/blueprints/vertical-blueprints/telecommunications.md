@@ -5,7 +5,7 @@ solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 1a0ce987fc615080bb78fb8ecf60c96e362a95c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 
