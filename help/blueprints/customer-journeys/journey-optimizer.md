@@ -4,9 +4,9 @@ description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로�
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

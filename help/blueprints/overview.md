@@ -4,7 +4,7 @@ description: 디지털 경험 블루프린트는 전략을 다루고 기존 비�
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
