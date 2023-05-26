@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 478a9bf0449e7953d527b5a54580f8eec7a7c30f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '998'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 <img src="assets/aep+apps.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Adobe Experience Platform 및 애플리케이션 개요 다이어그램
+## Adobe Experience Platform과 애플리케이션 개요 다이어그램
 
 <img src="assets/aep+apps_overview.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
