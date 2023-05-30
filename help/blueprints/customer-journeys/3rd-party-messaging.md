@@ -3,7 +3,7 @@ title: Journey Optimizer - 서드파티 메시지 블루프린트
 description: Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 342b039e62ff3a8fc8a42cf292f4fc28781c21de
+source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 99%
@@ -112,12 +112,7 @@ Adobe Experience Platform
    * ID           Edge 네트워크의 경우
    * Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
-1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://developer.adobe.com/client-sdks/documentation/mobile-foundation-extensions/)를 참조하세요.
-
-<!--
-This step with a broken link was replaced by above step.
-1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
--->
+1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)를 참조하세요.
 
 <br>
 
