@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 97%
+source-wordcount: '255'
+ht-degree: 95%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 97%
 + B2B 활성화 및 마케팅 {#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
-   + Marketo와 Workfront를 사용하는 캠페인 공급망 {#optimize-campaign-supply-chain-with-marketo-and-workfront}
-      + [개요](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [가져오기 및 만들기](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
-      + [고객 성공 사례](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+   + Marketo Engage 및 Workfront 통합 블루프린트{#marketo-engage-and-workfront-integration-blueprint}
+      + [개요](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
+      + [가져오기 및 만들기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+      + [고객 성공 사례](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA 대상자를 RTCDP에 공유](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
