@@ -4,10 +4,10 @@ description: Real-time Customer Data Platform을 통해 계정 기반 대상자 
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
-source-wordcount: '842'
-ht-degree: 100%
+source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 98%
 
 ---
 
@@ -99,6 +99,6 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 * [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
-* [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
+* [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html)
 * [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)
-* [Adobe Experience Platform - Marketo 대상 커넥터](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=ko)
+* [Adobe Experience Platform - Marketo 대상 커넥터](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html)
