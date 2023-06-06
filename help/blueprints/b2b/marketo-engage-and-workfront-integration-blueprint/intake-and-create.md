@@ -2,7 +2,7 @@
 title: 가져오기 및 만들기 블루프린트
 description: 접수 및 생성 - Marketo Engage 및 Workfront 통합 블루프린트
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Workfront와 Marketo Engage를 사용하면 시스템 간 연결을 통해 [Work
 
 >[!TIP]
 >
->마케팅 캠페인 작업을 구성하는 데 사용되는 Workfront의 다양한 오브젝트 유형과 이 오브젝트가 Marketo Engage 프로그램에 어떻게 매핑되는지에 대한 자세한 내용은 [Marketo와 Workfront 개요](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}를 참조하세요.
+>마케팅 캠페인 작업을 구성하는 데 사용되는 Workfront의 다양한 오브젝트 유형과 이 오브젝트가 Marketo Engage 프로그램에 어떻게 매핑되는지에 대한 자세한 내용은 [Marketo와 Workfront 개요](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}를 참조하세요.
 
 ## 자동화에 대비하여 캠페인 개발 프로세스 정비하기 {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Workfront 요청으로 새 Marketo Engage 프로그램을 만드는 과정을 �
 
 * [Adobe Workfront 모듈](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ko){target="_blank"}
 
-* [Marketo 및 Workfront 개요](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Marketo 및 Workfront 개요](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
