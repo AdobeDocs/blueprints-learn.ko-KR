@@ -32,29 +32,29 @@ ht-degree: 40%
 | 카테고리 | 목표 | 사용 사례 | 설명 |
 |:----|:----|:----|:----|
 | 고객 여정 | 고객 확보 | 시작 시리즈 | 비즈니스, 제품 및 서비스에 대한 소개로 새로운 가입자를 환영합니다. |
-|  |  | 첫 번째 구매 프로그램 |  |
-|  | 판매 개선 | 포기한 장바구니/찾아보기 | 잠재 구매자 회수 및 판매 촉진 |
-|  |  | 제품 리뷰/크로스셀 | 제품 검토를 사용하여 더 많은 항목을 교차 판매합니다. |
-|  |  | 제품 프로모션 |  |
-|  |  | 순서 변경 시간 | 순환 제품/서비스에 대한 반복 알림 |
-|  | 브랜드 충성도 | 되돌아오다 | 비활성 상태인 고객을 복구합니다. |
-|  |  | 생일 미리 알림 | 고객의 생일 축하의 일부가 되어 고객과의 더 개인적인 관계를 조성하세요! |
+| | | 첫 번째 구매 프로그램 | |
+| | 판매 개선 | 포기한 장바구니/찾아보기 | 잠재 구매자 회수 및 판매 촉진 |
+| | | 제품 리뷰/크로스셀 | 제품 검토를 사용하여 더 많은 항목을 교차 판매합니다. |
+| | | 제품 프로모션 |  |
+| | | 순서 변경 시간 | 순환 제품/서비스에 대한 반복 알림 |
+| | 브랜드 충성도 | 되돌아오다 | 비활성 상태인 고객을 복구합니다. |
+| | | 생일 미리 알림 | 고객의 생일 축하의 일부가 되어 고객과의 더 개인적인 관계를 조성하세요! |
 | 머천다이징 | 인벤토리 관리 | 재고로 돌아가기 | 고객이 원하는 제품이 재입고된 것을 보여줌으로써 재고를 개선합니다. |
-|  |  | 다음 우수 범주 | 사용자를 위한 최상의 카테고리/판매 식별 |
-|  |  | 베스트셀러 |  |
-|  |  | 가격 하락 미리 알림 | 사용자에게 마음에 드는 항목의 가격이 감소했음을 보여 줍니다. |
-|  |  | 유사 제품 |  |
+| | | 다음 우수 범주 | 사용자를 위한 최상의 카테고리/판매 식별 |
+| | | 베스트셀러 | |
+| | | 가격 하락 미리 알림 | 사용자에게 마음에 드는 항목의 가격이 감소했음을 보여 줍니다. |
+| | | 유사 제품 |  |
 | 개인화 | 전환 늘리기 | 쿠폰/오퍼 | 고객에게 최상의 오퍼/쿠폰 표시 |
-|  |  | 개인화된 제품 검색 | 검색 경험 개선 |
-|  |  | 제품 Recommendations | 제품 탐색 경험 개선 |
-|  |  | 옴니채널 경험 | 모든 채널에서 고객에게 도달 |
+| | | 개인화된 제품 검색 | 검색 경험 개선 |
+| | | 제품 Recommendations | 제품 탐색 경험 개선 |
+| | | 옴니채널 경험 | 모든 채널에서 고객에게 도달 |
 | 측정 | 고객 여정 이해 | 크로스 채널 캠페인 | 크로스채널 캠페인 측정 |
-|  |  | 세그먼트 성능 | 세그먼트 성능 및 기여도 이해 |
-|  |  | 폴아웃 보고서 | 각 단계에서 전환 시각화 |
-|  |  | 집단 분석 | 세그먼트 그룹 간 참여 측정 |
-|  |  | 클릭-브릭 보고서 | 고객 전환이 매장 내 경험으로 이어지는 방식 확인 |
-|  |  | 귀속 | 구매 전환에 가장 높은 영향을 미치는 접점/경험 보기 |
-|  |  | 예측 인사이트 | 고객 성향에 대해 자세히 알아보기 |
+| | | 세그먼트 성능 | 세그먼트 성능 및 기여도 이해 |
+| | | 폴아웃 보고서 | 각 단계에서 전환 시각화 |
+| | | 집단 분석 | 세그먼트 그룹 간 참여 측정 |
+| | | 클릭-브릭 보고서 | 고객 전환이 매장 내 경험으로 이어지는 방식 확인 |
+| | | 귀속 | 구매 전환에 가장 높은 영향을 미치는 접점/경험 보기 |
+| | | 예측 인사이트 | 고객 성향에 대해 자세히 알아보기 |
 
 ## 아키텍처
 
@@ -67,10 +67,10 @@ ht-degree: 40%
 | 사용 사례/통합  | 링크 |
 |:----|:----|
 | CJA + AEP | [Customer Journey Analytics 블루프린트 개요](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ko) |
-|  | [Customer Journey Analytics - 사용 사례](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ko) |
+| | [Customer Journey Analytics - 사용 사례](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ko) |
 | AJO + AEP | [Adobe Journey Optimizer - 사용 사례](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=en) |
-|  | [의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ko) |
+| | [의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ko) |
 | RTCDP + AEP | [온라인/오프라인 대상자 활성화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko) |
-|  | [Experience Platform + 애플리케이션 활성화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko) |
-| MARKETO + AEP | [B2B 활성화 및 마케팅 ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) |  |
-| TARGET + AEP | [Adobe Target 사용 사례 - 행동 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=ko) | [알려진 고객 데이터를 사용한 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) |  |
+| | [Experience Platform + 애플리케이션 활성화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko) |
+| MARKETO + AEP | [B2B 활성화 및 마케팅 ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) | |
+| TARGET + AEP | [Adobe Target 사용 사례 - 행동 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=ko) | [알려진 고객 데이터를 사용한 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) | |
