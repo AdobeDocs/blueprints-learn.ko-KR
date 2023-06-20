@@ -1,17 +1,17 @@
 ---
-title: Marketo Engage 및 Workfront 통합 블루프린트 개요
-description: 개요 - Marketo Engage 및 Workfront 통합 블루프린트 개요
+title: Marketo Engage와 Workfront 통합 블루프린트 개요
+description: 개요 - Marketo Engage와 Workfront 통합 블루프린트 개요
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Marketo Engage 및 Workfront 통합 블루프린트 개요 {#overview}
+# Marketo Engage와 Workfront 통합 블루프린트 개요 {#overview}
 
-## Marketo Engage 및 Workfront을 통해 보다 빠른 시장 출시 {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
+## Marketo Engage와 Workfront를 통해 시장 출시 앞당기기 {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 하루가 다르게 새로운 채널이 나타나고 커뮤니케이션 개인화 수단이 많아지면서 마케팅이 할 일이 계속 늘어나고 있습니다. 전 세계의 변화하는 마케팅 수요를 지원하기 위해 마케팅 팀은 자동화와 진화를 지속할 방법을 찾아야 합니다.
 
@@ -153,7 +153,7 @@ Workfront [프로젝트]를 템플릿화하여 특정 마케팅 전술을 실행
 
 ### Marketo Engage 캠페인 이름 및 연결 URL 관리하기 {#managing-marketo-engage-campaign-names}
 
-캠페인 및 URL에 대한 이름 지정 규칙을 표준화하는 것은 Marketo Engage에서 정확한 프로그램 관리를 위한 핵심 기반이며 캠페인 개발 라이프사이클에서 보다 일관성 있는 프로세스를 추진하는 데 도움이 됩니다. 여기에 도움이 되는 도구를 찾고 있다면 Marketo Engage 캠페인과 그 연결 URL을 만들고 관리하기 위한 일관적인 접근법을 만들게 해 주는 [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}의 무료 오픈 소스 도구 몇 가지를 확인해 보시기를 추천합니다.
+캠페인 및 URL의 이름 지정 규칙을 표준화하면 Marketo Engage에서 프로그램을 정확하게 관리하고 캠페인 개발 수명 주기 전반에서 더욱 일관된 프로세스를 구현하는 데 도움이 됩니다. 여기에 도움이 되는 도구를 찾고 있다면 Marketo Engage 캠페인과 그 연결 URL을 만들고 관리하기 위한 일관적인 접근법을 만들게 해 주는 [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}의 무료 오픈 소스 도구 몇 가지를 확인해 보시기를 추천합니다.
 
 ### 리소스 {#resources}
 

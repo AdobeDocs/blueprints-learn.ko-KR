@@ -7,7 +7,7 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,5 +21,5 @@ ht-degree: 93%
 |---|---|---|
 | **[B2B 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=ko)** | <ul><li>고객 여정 분석에 B2B 계정 정보 포함</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B 대상자 활성화](b2bactivation.md)** | <ul><li>웹, 이메일, 광고 채널에서 B2B 대상자 타겟팅</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B 에디션</li></ul> |
-| **[Marketo Engage 및 Workfront 통합 블루프린트: 개요](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>B2B 마케팅 캠페인 기획, 개발, 실행 최적화</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
-| **[Marketo Engage 및 Workfront 통합 블루프린트: 가져오기 및 만들기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>B2B 마케팅 캠페인 요청을 캠페인 개발 실행으로 가져오는 프로세스 자동화하기</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[Marketo Engage와 Workfront 통합 블루프린트: 개요](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>B2B 마케팅 캠페인 기획, 개발, 실행 최적화</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[Marketo Engage와 Workfront 통합 블루프린트: 가져오기 및 만들기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>B2B 마케팅 캠페인 요청을 캠페인 개발 실행으로 가져오는 프로세스 자동화하기</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
