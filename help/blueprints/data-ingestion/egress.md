@@ -2,10 +2,10 @@
 title: 데이터 액세스 및 내보내기 블루프린트
 description: 이 블루프린트는 Adobe Experience Platform 및 애플리케이션에서 데이터에 액세스하고 데이터를 내보낼 수 있는 모든 방법을 제시하고 개괄적으로 설명합니다.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Data Collection
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
-workflow-type: ht
+source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 100%
 
