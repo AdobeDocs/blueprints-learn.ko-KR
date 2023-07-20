@@ -5,8 +5,8 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 2d7d2fff6c430b66e4a2935d4c68b5a8b9ecfae2
-workflow-type: ht
+source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Customer Journey Analytics에서 Real-time Customer Data Platform으로 대상�
 
 * 자세한 가드레일 및 엔드 투 엔드 지연 시간에 대해서는 [배포 가드레일 문서](../experience-platform/deployment/guardrails.md)를 참조하십시오.
 
-![가드레일 다이어그램](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![가드레일 다이어그램](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## 자주 하는 질문
 

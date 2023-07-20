@@ -5,7 +5,7 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
+source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 아래 다이어그램은 Adobe Experience Platform에 데이터를 수집할 때의 평균 성능 가드레일과 지연 시간을 보여줍니다.
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
+<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## 데이터 수집 방법
 
