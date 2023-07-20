@@ -3,8 +3,8 @@ title: Edge의 의사 결정 관리 블루프린트
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -64,13 +64,13 @@ Adobe Experience Platform
 
 ### 데이터 수집 가드레일
 
-<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### 활성화 가드레일
 
-<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
