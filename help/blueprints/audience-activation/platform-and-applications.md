@@ -1,11 +1,11 @@
 ---
 title: Experience Cloud 애플리케이션을 사용한 대상자 및 프로필 활성화 블루프린트
 description: Experience Platform의 프로필 및 대상자를 관리하고 Experience Cloud 애플리케이션에 공유합니다.
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: ht
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Experience Cloud 애플리케이션에서의 활성화는 [알려진 고객 활�
 
 ## 애플리케이션
 
-* Adobe Experience Platform    
+* Adobe Experience Platform      
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 애플리케이션

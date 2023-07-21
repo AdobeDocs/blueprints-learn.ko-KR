@@ -1,14 +1,14 @@
 ---
 title: 대상자 및 프로필 활성화 블루프린트
 description: Real-time Customer Data Platform을 통해 대상자에 따라 활성화되는 프로필 중심적 고객 경험을 제공합니다.
-solution: Real-time Customer Data Platform
+solution: Real-Time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '872'
+ht-degree: 100%
 
 ---
 

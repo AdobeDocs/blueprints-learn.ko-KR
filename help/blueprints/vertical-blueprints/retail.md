@@ -1,10 +1,10 @@
 ---
 title: 소매 업계 - Experience Cloud 애플리케이션을 통한 활성화
 description: 디지털 미디어, 이메일, 푸시, 웹 채널에 걸친 실시간 고객 경험을 제공합니다.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: f03981dd3fe6ed9e60d2e60ca4eb91e129052a73
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 100%

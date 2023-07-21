@@ -1,12 +1,12 @@
 ---
 title: Real-Time CDP와 Adobe Campaign v7 및 Campaign Standard 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '804'
+ht-degree: 100%
 
 ---
 
@@ -116,8 +116,8 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
    * [Campaign SDK 설명서] 를 따르세요(Campaign Mobile SDK의 경우
 여기에서 설명하는 배포 설명서를 따르세요).
 
-   >[!IMPORTANT]
-   >Campaign SDK를 배포하고 다른 Experience Cloud 애플리케이션으로 작업하는 경우, 데이터 수집을 위해 Experience Platform Mobile SDK를 사용해야 합니다. 이렇게 하면 디바이스에 중복 클라이언트 측 호출이 만들어집니다.
+  >[!IMPORTANT]
+  >Campaign SDK를 배포하고 다른 Experience Cloud 애플리케이션으로 작업하는 경우, 데이터 수집을 위해 Experience Platform Mobile SDK를 사용해야 합니다. 이렇게 하면 디바이스에 중복 클라이언트 측 호출이 만들어집니다.
 
 ## 관련 설명서
 

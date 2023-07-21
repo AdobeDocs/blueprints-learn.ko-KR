@@ -1,10 +1,10 @@
 ---
 title: Real-Time CDP와 Adobe Campaign v8 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign v8과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 711d781e4b0cf967786808233badbc5eac8a5815
-workflow-type: ht
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -36,7 +36,6 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 * 고객에 대해 Campaign의 V8 인스턴스를 프로비저닝해야 합니다.
 * 고객에게 RTCDP, 소스, 대상에 대한 액세스 권한이 있어야 합니다.
 * Adobe Campaign 제품 컨텍스트가 있어야 합니다.
-
 <br>
 
 ## 구현 단계
