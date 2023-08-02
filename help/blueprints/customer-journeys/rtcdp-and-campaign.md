@@ -4,7 +4,7 @@ description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 �
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
 ht-degree: 100%
 
