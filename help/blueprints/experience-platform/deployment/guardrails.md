@@ -7,7 +7,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 가드레일은 Adobe Experience Platform 및 애플리케이션에서의 데이터 및 시스템 사용, 성능 최적화, 오류 또는 예기치 못한 결과 방지를 위한 지침을 제공하는 추천 임계값입니다. 가드레일의 설정 목적은 시스템의 제한과 성능 기대치를 반영하여 고객 아키텍처와 사용 사례 성능 최적화를 용이하게 하는 것입니다. 가드레일은 서비스 수준 계약 용도로 설정한 것이 아닙니다. 제품별 서비스 수준 계약에 대한 내용은 아래 링크의 제품 설명서를 참조하세요.
 
 
-## Adobe Experience Platform 및 애플리케이션에 대한 보호 참조 설명서
+## Adobe Experience Platform 및 애플리케이션 가드레일 참조 설명서
 
 [데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
 
