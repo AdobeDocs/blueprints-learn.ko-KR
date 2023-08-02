@@ -5,7 +5,7 @@ solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytic
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
