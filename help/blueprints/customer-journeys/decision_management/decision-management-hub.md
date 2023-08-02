@@ -4,7 +4,7 @@ description: 키오스크, 상담원 지원 경험, 이메일, 기타 아웃바�
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '906'
 ht-degree: 100%
 
