@@ -1,9 +1,9 @@
 ---
 title: 블루프린트 검토 및 승인
 description: 블루프린트 검토 및 승인 - Marketo Engage 및 Workfront 통합 블루프린트
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: 4c63a1e552c893a2b2ae753bd3eaccab5c673448
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,7 @@ Workfront과 Marketo Engage을 통해 마케팅 팀은 정확하고 규정 준�
 
 마케팅 캠페인 구축에 대해 생각할 때, 계획, 구축, 검토, 피드백, 승인 및 실행을 포함하여 여러 시스템이 관련된 다양한 단계를 지원함을 고려해야 합니다. Workfront 및 Marketo Engage을 통해 팀은 새로운 마케팅 캠페인을 계획하고 시작하는 전체 프로세스를 완료하는 데 필요한 모든 도구를 갖추고 있습니다. 또한 팀은 검토 및 승인 프로세스를 더욱 간소화하여 캠페인 개발 속도를 높이고 정확성과 규정 준수를 최고 수준으로 유지할 수 있습니다.
 
-![흐름 다이어그램 증명 및 승인](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
-
-### Workfront 및 Marketo Engage 연결에 대한 사용 사례 {#use-cases-for-connecting-workfront-and-marketo-engage}
+### Marketo Engage 및 Workfront으로 잠금 해제된 사용 사례 검토 및 승인 {#review-and-approve-use-cases-unlocked-with-marketo-engage-and-workfront}
 
 * Marketo Engage 에셋에 대한 Workfront의 주석 및 주석 달기 기능을 활용하여 이질적인 피드백을 제거하고 중앙 집중식 환경에서 협업을 강화합니다.
 
@@ -52,7 +50,7 @@ Workfront과 Marketo Engage 간의 증명 및 승인 프로세스를 간소화�
 1. 검토 준비됨 작업으로 Workfront 프로젝트를 구성합니다.
 1. 작업 상태 변경과 함께 Workfront에 동기화하도록 Marketo Engage 이메일을 트리거합니다.
 1. Workfront에서 Marketo Engage 이메일 파일을 다시 볼 수 있는 증명으로 변환합니다.
-1. Workfront 교정을 사용하여 주석 및 주석을 통해 공동 작업을 수행합니다.
+1. Workfront 교정을 사용하여 주석 및 주석을 통해 공동 작업을 수행할 수 있습니다.
 1. Workfront 증명을 승인하여 Marketo Engage에서 에셋 승인을 트리거한 다음 작업을 완료로 표시합니다.
 
 ### 검토 준비됨 작업으로 Workfront 프로젝트 구성 {#configure-a-workfront-project-with-a-ready-for-review-task}
@@ -63,7 +61,7 @@ Workfront의 프로젝트 템플릿에 마케팅 캠페인의 일부인 에셋�
 
 새 이메일 캠페인을 시작하려는 경우, 이메일을 검토하는 작업과 이메일을 보내기 전에 올바른 관련자가 승인했는지 확인하는 승인 프로세스를 포함하는 프로젝트 템플릿이 있어야 합니다.
 
-![작업 화면](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
+![작업 화면](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
 
 ### 작업 상태 변경과 함께 Workfront에 동기화하도록 Marketo Engage 이메일 트리거 {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
@@ -71,13 +69,23 @@ Workfront의 프로젝트 템플릿에 마케팅 캠페인의 일부인 에셋�
 
 이 상태가 Workfront 프로젝트에 적절히 준비되면 &quot;Marketo 이메일 검토&quot;로 업데이트할 검토 준비됨 작업을 수신하도록 Workfront Fusion 시나리오를 구성할 수 있습니다. 시나리오가 업데이트되면 Marketo Engage 이메일을 HTML 파일로 검색하고 압축한 다음 검토할 Workfront 프로젝트 문서에 해당 이메일의 사본을 저장할 수 있습니다.
 
-![리뷰 준비 화면](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+![리뷰 준비 화면](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
 
 ### Workfront에서 Marketo Engage 이메일을 다시 볼 수 있는 증명으로 변환 {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
 검토 준비 작업을 &quot;Marketo 이메일 검토&quot; 상태로 이동하고 Marketo Engage 이메일을 Workfront에 저장하면 이메일을 Workfront 증명으로 변환하도록 Workfront Fusion 시나리오를 구성할 수 있습니다.
 
-![이메일 화면 전환](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
+### Workfront 교정을 사용하여 주석 및 주석을 통해 공동 작업 {#use-workfront-proofing-to-collaborate}
+
+[Workfront 증명](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} 기능을 사용하면 마케팅 팀이 이미지 또는 이메일과 같은 새 자산을 가져와서 주석 및 주석을 통해 공동 작업을 수행할 수 있습니다. 증명을 실행할 준비가 되면 의사 결정권자가 증명 도구에서 에셋을 승인할 수 있습니다.
+
+![이메일 화면 전환](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+
+### Workfront 증명을 승인하고 Marketo Engage에서 자산 승인을 트리거한 다음 작업을 완료로 표시 {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
+
+Workfront Fusion은 이해 관계자가 이메일을 승인한 시점을 감지하고 Marketo 내에서 이메일을 승인하도록 Marketo Engage에 요청을 보낼 수 있습니다.
+
+적절한 팀원이 검토한/승인한 이메일을 통해 Marketo Engage에서 라이브로 전환할 수 있습니다.
 
 ## Fusion 시나리오 템플릿 {#fusion-scenario-templates}
 
@@ -87,12 +95,12 @@ Workfront의 프로젝트 템플릿에 마케팅 캠페인의 일부인 에셋�
 
 아래 융합 시나리오는 검토 및 승인 흐름의 전반부를 안내합니다. 이메일 초안을 Marketo Engage에서 가져와 증명으로 Workfront에 저장할 수 있습니다. Workfront 프로젝트 문서에 증명으로 저장되면 마케팅 이해 당사자가 검토하고, 주석을 달고, 검토 프로세스의 일부로 주석을 달 수 있습니다.
 
-![fusion 시나리오 검토 및 승인 흐름](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
+![fusion 시나리오 검토 및 승인 흐름](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
 
 ### Marketo Engage에서 에셋의 승인을 트리거하는 Workfront의 이메일 승인 {#approve-an-email-in-workfront-that-triggers-approval}
 
 아래 융합 시나리오를 사용하여 Workfront의 증명이 승인된 시기를 감지하고 해당 승인을 Marketo Engage으로 전달하여 Marketo Engage 프로그램에서 사용할 수 있도록 이메일 초안을 업데이트할 수 있습니다.
 
-![fusion 시나리오 증명 승인](assets/review-and-approve-blueprint-6.png){zoomable=&quot;yes&quot;}
+![fusion 시나리오 증명 승인](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
 
 이러한 두 시나리오를 함께 사용하면 마케팅 자산을 Marketo Engage에서 Workfront의 강력한 검토 및 승인 워크플로우로 가져오고 승인을 Workfront에서 Marketo Engage으로 다시 푸시하기 위한 양방향 경로를 만들 수 있습니다.
