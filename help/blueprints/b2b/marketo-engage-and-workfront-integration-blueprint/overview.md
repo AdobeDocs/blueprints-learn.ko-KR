@@ -2,10 +2,10 @@
 title: Marketo Engage와 Workfront 통합 블루프린트 개요
 description: 개요 - Marketo Engage와 Workfront 통합 블루프린트 개요
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. 가져오기 및 만들기: 캠페인에 대한 요청을 만들고 프로그래밍 방식으로 캠페인 자산을 모읍니다.
 
-1. 증명 및 승인: 캠페인을 조직한 뒤 이해 관계자가 이메일, 랜딩 페이지 등 캠페인 자산을 검토 및 승인합니다.
+1. 검토 및 승인: 캠페인이 조립되면 이해 당사자가 이메일 및 랜딩 페이지와 같은 캠페인 에셋을 검토하고 승인할 차례입니다.
 
 1. 보고서 및 감사: 캠페인 결과를 Workfront에 공유하여 여러 직능에 걸친 이해 관계자에게 보다 나은 가시성을 제공합니다.
 
@@ -149,7 +149,7 @@ Workfront [프로젝트]를 템플릿화하여 특정 마케팅 전술을 실행
 
 * [가져오기 및 만들기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Marketo Engage와 Workfront를 사용한 캠페인 개발 자동화
 
-* 증명 및 승인(준비 중)
+* [검토 및 승인](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Marketo Engage 캠페인 이름 및 연결 URL 관리하기 {#managing-marketo-engage-campaign-names}
 

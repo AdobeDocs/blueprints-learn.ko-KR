@@ -2,9 +2,9 @@
 title: 가져오기 및 만들기 블루프린트
 description: 접수 및 생성 - Marketo Engage와 Workfront 통합 블루프린트
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Workfront 요청으로 새 Marketo Engage 프로그램을 만드는 과정을 �
 
 미리 작성된 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ko){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ko){target="_blank"} 모듈을 사용하여 Fusion에서 워크플로우 논리를 조합함으로써 자동화를 더 빠르게 제공하는 방법의 예시입니다.
 
-![가져오기 및 만들기 자동화 흐름](assets/intake-and-create-3.png)토큰을 사용하여 콘텐츠 채우기
+![가져오기 및 만들기 자동화 흐름](assets/intake-and-create-3.png)
 
 ## 리소스 {#resources}
 
