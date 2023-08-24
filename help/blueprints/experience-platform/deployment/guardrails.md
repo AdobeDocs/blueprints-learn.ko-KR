@@ -5,7 +5,7 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 

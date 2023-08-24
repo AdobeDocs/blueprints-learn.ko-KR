@@ -5,7 +5,7 @@ solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 100%
 
