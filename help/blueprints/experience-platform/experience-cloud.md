@@ -1,18 +1,20 @@
 ---
 title: Adobe Experience Cloud 아키텍처 다이어그램
-description: 이 아키텍처 다이어그램은 엔터프라이즈 마케팅 아키텍처에서 Adobe Experience Cloud 애플리케이션, 애플리케이션 서비스 및 Adobe Experience Platform이 어떤 식으로 적용되는지를 설명합니다.
+description: Experience Cloud 애플리케이션, 애플리케이션 서비스 및 Experience Platform이 엔터프라이즈 마케팅 아키텍처에 어떻게 적합한지 알아봅니다.
 solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 655545ab9e1b173244a239967b6c173d66f74633
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 79%
 
 ---
 
 # Adobe Experience Cloud 아키텍처 다이어그램
+
+이 다이어그램은 Experience Cloud 애플리케이션, 애플리케이션 서비스 및 Experience Platform이 엔터프라이즈 마케팅 아키텍처에 어떻게 적합한지 보여 줍니다.
 
 ## Adobe Experience Cloud 마키텍처
 
