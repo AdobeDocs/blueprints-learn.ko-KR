@@ -4,19 +4,23 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 72%
 
 ---
 
 # 가드레일
 
-가드레일은 Adobe Experience Platform 및 애플리케이션에서의 데이터 및 시스템 사용, 성능 최적화, 오류 또는 예기치 못한 결과 방지를 위한 지침을 제공하는 추천 임계값입니다. 가드레일의 설정 목적은 시스템의 제한과 성능 기대치를 반영하여 고객 아키텍처와 사용 사례 성능 최적화를 용이하게 하는 것입니다. 가드레일은 서비스 수준 계약 용도로 설정한 것이 아닙니다. 제품별 서비스 수준 계약에 대한 내용은 아래 링크의 제품 설명서를 참조하세요.
+보호 기능은 Adobe Experience Platform 및 애플리케이션에서 데이터 및 시스템 사용에 대한 지침을 제공하는 권장 임계값입니다. 보호 기능은 시스템 제한 사항과 성능 기대치를 반영하여 고객 아키텍처 및 사용 사례 성능을 최적화하고 오류 또는 예상치 못한 결과를 방지하는 데 도움이 됩니다. 보호 기능은 SLA(서비스 수준 계약)가 아닙니다.
+
+애플리케이션 및 기능에 대한 특정 SLA에 대한 자세한 내용은 이 페이지 하단의 &quot;애플리케이션 및 기능 설명&quot;을 참조하십시오.
 
 
 ## Adobe Experience Platform 및 애플리케이션 가드레일 참조 설명서
+
+다음 페이지에서는 Adobe Experience Platform 기능, 서비스 및 응용 프로그램의 보호 기능에 대한 정보를 제공합니다.
 
 [데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
 
@@ -70,7 +74,9 @@ ht-degree: 100%
 
 <br>
 
-## 제품 설명
+## 애플리케이션 및 기능 설명
+
+기능별 SLA에 대한 자세한 내용은 아래 설명을 참조하십시오.
 
 [Experience Platform 컬렉션 기업용](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
