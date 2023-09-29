@@ -24,14 +24,11 @@ ht-degree: 100%
 ## 새로운 항목
 
 * **[엔터프라이즈 대상에 대한 대상자 및 프로필 활성화 블루프린트](/help/blueprints/audience-activation/enterprise-destinations.md)**
-
-   *모든 시스템에서 고객 프로필을 최신 상태로 유지하면 영업 및 지원 업무에 도움이 됩니다&#x200B;.*
+  *모든 시스템에서 고객 프로필을 최신 상태로 유지하면 영업 및 지원 업무에 도움이 됩니다&#x200B;.*
 * **[고객 활동 허브 블루프린트](/help/blueprints/audience-activation/customer-activity.md)**
-
-   *직원이 관여하는 지원 및 영업의 맥락을 제공합니다.*
+  *직원이 관여하는 지원 및 영업의 맥락을 제공합니다.*
 * **[데이터 분석과 인텔리전스 블루프린트](/help/blueprints/data-insights/analysis.md)**
-
-   *데이터 레이크에 있는 데이터에 탐색 쿼리 및 분석을 수행합니다.*
+  *데이터 레이크에 있는 데이터에 탐색 쿼리 및 분석을 수행합니다.*
 
 ## 추천 블루프린트
 
