@@ -4,10 +4,10 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4379f372241248ea6c70c766f13a182783fcac0c
+source-git-commit: 76ad3dceda37c5f991a43df5828a926f6dfc42a5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 64%
+source-wordcount: '625'
+ht-degree: 41%
 
 ---
 
@@ -38,39 +38,37 @@ ht-degree: 64%
 * [쿼리 서비스 가드레일](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
 * [대상 활성화 가드레일](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=ko)
 
+## 엔드투엔드 지연 다이어그램 {#end-to-end-latency}
 
+### 데이터 수집 {#data-ingestion}
 
-## 엔드투엔드 지연 다이어그램
+아래 다이어그램은 다음을 통해 예상되는 데이터 수집 지연 값을 표시합니다. [스트리밍 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) 및 [일괄 처리 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=ko) 데이터를 Real-Time CDP으로 가져올 때. 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
-### 데이터 수집
+![데이터 수집 높은 수준의 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "데이터 수집 높은 수준의 시각적 개요 및 지연 시간 값"){width="1000" zoomable="yes"}
 
-<img src="assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" />
+### 세분화 {#segmentation}
 
-<br>
+아래 다이어그램은 의 대상자로 작업할 때 예상되는 지연 값을 표시합니다. [Real-Time CDP 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko). 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
-### 세분화
+![세그먼테이션의 높은 수준의 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "세그먼테이션 높은 수준의 시각적 개요 및 지연 값"){width="1000" zoomable="yes"}
 
-<img src="assets/segmentation_guardrails.svg" alt="Experience Platform 세분화 가드레일" style="border:1px solid #4a4a4a" width="85%" />
+### Real-time Customer Data Platform 및 Adobe Target {#adobe-target-latency}
 
-<br>
+아래 다이어그램은 Real-Time CDP에서 로 대상을 내보낼 때 예상되는 지연 값을 표시합니다 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko). 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
-### Real-time Customer Data Platform 및 Adobe Target
+![Adobe Target으로 내보내기의 높은 수준 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Adobe Target으로 대상 내보내기 높은 수준의 시각적 개요 및 지연 시간 값"){width="1000" zoomable="yes"}
 
-<img src="assets/RTCDP_Target_guardrails.svg" alt="RTCDP 및 Target 가드레일" style="border:1px solid #4a4a4a" width="85%" />
+### Customer Journey Analytics      {#customer-journey-analytics}
 
-<br>
+아래 다이어그램은 를 사용하여 작업할 때 예상되는 지연 값을 표시합니다 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
-### Customer Journey Analytics
+![Customer Journey Analytics 높은 수준의 시각적 개요 작업](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Customer Journey Analytics의 높은 수준의 시각적 개요 및 지연 시간 값 작업"){width="1000" zoomable="yes"}
 
-<img src="assets/CJA_guardrails.svg" alt="CJA 가드레일" style="border:1px solid #4a4a4a" width="85%" />
+### Journey Optimizer    {#journey-optimizer}
 
-<br>
+아래 다이어그램은 를 사용하여 작업할 때 예상되는 지연 값을 표시합니다 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
-### Journey Optimizer
-
-<img src="assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" />
-
-<br>
+![Adobe Journey Optimizer을 사용한 작업 고급 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Adobe Journey Optimizer의 높은 수준의 시각적 개요 및 지연 시간 값 작업"){width="1000" zoomable="yes"}
 
 ## 애플리케이션 및 기능 설명 {#application-feature-descriptions}
 
