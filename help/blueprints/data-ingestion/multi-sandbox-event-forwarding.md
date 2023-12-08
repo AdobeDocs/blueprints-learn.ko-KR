@@ -3,10 +3,10 @@ title: 다중 샌드박스 이벤트 전달 데이터 수집
 description: Experience Platform Web 및 Mobile SDK로 수집한 데이터를 구성하여 단일 이벤트를 수집하고 여러 Experience Platform 샌드박스로 전달하는 방법을 알아봅니다.
 solution: Data Collection
 kt: 7202
-exl-id: 3d9d312a-50b6-435f-b277-076e0c442a5f
-source-git-commit: cb36f47232261d6ddc6659949272c9832baec0da
+exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
+source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '793'
 ht-degree: 100%
 
 ---

@@ -1,16 +1,16 @@
 ---
-title: Segment Match     블루프린트
+title: 세그먼트 매치 블루프린트
 description: AEP(Adobe Experience Platform)의 [!UICONTROL Segment Match]에 대해 알아봅니다. [!UICONTROL Segment Match]는 업계의 공통 식별자를 기반으로 안전하고 철저히 관리할 수 있으며 개인 정보 보호에 친화적인 방식으로 세그먼트 데이터를 교환할 수 있도록 해 주는 데이터 공동 작업 서비스입니다.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 81%
+source-wordcount: '2126'
+ht-degree: 79%
 
 ---
 
-# Segment Match     블루프린트
+# 세그먼트 매치 블루프린트
 
 Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 환경 전반에 걸쳐 대상자를 공유할 수 있습니다. 브랜드의 핵심은 고객과의 직접적인 관계에서 수집한 데이터를 바탕으로 고객과 교류하는 것입니다. 거버넌스, 권한, 환경 설정 관리 시스템이 좋아지면 마케터가 주요 파트너에 대해 퍼스트파티 인증된 대상자의 정밀도를 더욱 향상시킬 수 있습니다.
 
@@ -44,7 +44,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 ## 아키텍처
 
-![Segment Match 아키텍처](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![세그먼트 매치 아키텍처](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
 
 [!UICONTROL Segment Match]는 데이터를 구입할 수 있는 데이터 시장이 아닙니다. 선택한 파트너의 퍼스트파티 데이터로 작동하며 개인 정보 보호 및 동의 제어를 사용하여 공동 작업을 돕는 AEP 기능입니다. [!UICONTROL Segment Match]는 고객 관계를 개선하고 브랜드를 성장시키는 데 중점을 둡니다. 기존에 브랜드나 파트너 관계가 존재하는 경우에 유용합니다. [!UICONTROL Segment Match]의 경험은 관리가 쉽고 확장이 가능하며, 관리자가 옵트인 기반의 제어 가능한 방식으로 세그먼트를 공유할 수 있도록 해 줍니다.
 
@@ -77,7 +77,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 [!UICONTROL Segment Match]의 파트너 관리 플로우는 RBAC에 의해 보호됩니다. 권한이 있는 개인만이 파트너를 시작, 수락 또는 관리할 수 있습니다. 이 작업은 [제품 프로필]의 [데이터 수집] 섹션에서 수행할 수 있습니다. 다음 권한이 필요합니다.
 
-![대상자 공유 연결](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![대상 공유 연결](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
 
 | 권한 | 설명 |
 |---|---|
@@ -146,7 +146,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 신원 교집합 프로세스는 보내는 쪽과 받는 쪽의 샌드박스 양쪽에서 **매일 전체 프로필 내보내기**&#x200B;로 가져온 데이터 세트에 의존하여 공유 세그먼트에 속하는 공통 프로필을 식별합니다. 이 교집합 프로세스의 자세한 프로세스 플로우는 아래와 같습니다.
 
-![신원 교집합 프로세스](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![ID 중복 프로세스](assets/overlap-process.png){zoomable=&quot;yes&quot;}
 
 보내는 파트너의 세그먼트 공유가 완료되면 받는 파트너는 세그먼트 피드 공유에 대한 알림을 받습니다. 세그먼트 멤버십 데이터 플로우를 시작하려면 받는 쪽의 프로필에서 이 세그먼트 피드를 사용하도록 설정해야 합니다. 받는 IMS 조직의 교집합 프로필 조각에서는 세그먼트 멤버십만 수집하며, 그 외에 보내는 쪽에서 받는 쪽으로 전송되는 신원은 없습니다.
 

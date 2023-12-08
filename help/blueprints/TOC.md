@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 98%
+source-wordcount: '250'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
       + [가드레일](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 대상 및 프로필 활성화 {#audience-activation}
    + [개요](/help/blueprints/audience-activation/overview.md)
-   + [익명 대상자 활성화  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [익명 Audience Activation(AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 알려진 고객 활성화(RTCDP) {#known-customer-audience-activation}
       + [개요](/help/blueprints/audience-activation/known.md)
       + [소셜 및 광고 채널에 대한 활성화](/help/blueprints/audience-activation/advertising-activation.md)
@@ -73,7 +73,7 @@ ht-degree: 98%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP와 Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP과 Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer와 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 데이터 수집, 액세스, 내보내기 {#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
@@ -87,6 +87,6 @@ ht-degree: 98%
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
 + 웹 및 모바일 개인화 {#web-personalization}
    + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동을 통한 개인화  - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [행동 개인화 - Target](/help/blueprints/web-personalization/behavioral.md)
    + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)

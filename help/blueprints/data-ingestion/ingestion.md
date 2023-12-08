@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: 886cae3895f3adc85f516ab8b4241bfe1fa9a541
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 99%
+source-wordcount: '854'
+ht-degree: 98%
 
 ---
 

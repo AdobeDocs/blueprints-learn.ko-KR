@@ -1,13 +1,13 @@
 ---
-title: Experience Platform 및 애플리케이션 가드레일
+title: Experience Platform 및 애플리케이션 보호 및 전체 지연
 description: 가드레일은 Adobe Experience Platform 및 애플리케이션 내 구성 요소와 서비스의 성능 기대치 및 영향을 정의합니다.
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 76ad3dceda37c5f991a43df5828a926f6dfc42a5
+source-git-commit: 94197d1b450694f96eb1ef17245c0353494859b1
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 41%
+source-wordcount: '464'
+ht-degree: 25%
 
 ---
 
