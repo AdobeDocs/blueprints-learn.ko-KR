@@ -1,17 +1,17 @@
 ---
-title: Experience Platform 및 애플리케이션 보호 및 전체 지연
+title: Experience Platform 및 애플리케이션 가드레일
 description: 가드레일은 Adobe Experience Platform 및 애플리케이션 내 구성 요소와 서비스의 성능 기대치 및 영향을 정의합니다.
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 22%
+source-wordcount: '463'
+ht-degree: 24%
 
 ---
 
-# 보호 기능 및 전체 대기 시간
+# 가드레일
 
 보호 기능은 Adobe Experience Platform 및 애플리케이션에서 데이터, 관찰된 대기 시간 및 시스템 사용에 대한 지침을 제공하는 권장 임계값입니다. 보호 기능은 시스템 제한 사항과 성능 기대치를 반영하여 고객 아키텍처 및 사용 사례 성능을 최적화하고 오류 또는 예상치 못한 결과를 방지하는 데 도움이 됩니다. 보호 기능은 SLA(서비스 수준 계약)가 아닙니다.
 
