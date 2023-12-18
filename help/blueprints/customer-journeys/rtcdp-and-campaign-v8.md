@@ -3,9 +3,9 @@ title: Real-Time CDP와 Adobe Campaign v8 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign v8과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
@@ -54,12 +54,5 @@ Adobe Experience Platform으로 연결되는 Campaign v8 소스 커넥터를 구
 ### Experience Platform Real-time Customer Data Platform 세그먼트 공유
 
 * RTCDP Campaign 대상 커넥터를 참조하세요. [RTCDP Campaign 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ko)
-* 최대 50 세그먼트 제한 추천
-* AEP의 세그먼트 멤버십 실현은 일괄 처리(하루에 1회)와 스트리밍(~5분) 모두에 대해, 세그먼트 평가 일정에 따라 지연 처리됩니다.
-* 활성화 지연 시간은 최소 3시간입니다
-* 통합 스키마 속성만 활성화할 수 있습니다(배열/맵/경험 이벤트 미지원)
-* 세그먼트 당 최대 속성 20개 제한 추천
-* 세그먼트 당 한 파일(&quot;실현&quot; 세그먼트 멤버십을 가진 프로필 전체의 세그먼트, 또는 파일에 세그먼트 멤버십을 속성으로 추가한 경우 &quot;실현&quot; 및 &quot;탈퇴&quot; 프로필 전체의 세그먼트)
-* 증분 및 전체 세그먼트 가져오기 지원
-* 파일 암호화 미지원
+
 * AEP의 프로필 및 데이터 수집 가드레일을 참조하세요. [링크](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)

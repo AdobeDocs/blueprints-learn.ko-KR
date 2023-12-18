@@ -3,10 +3,10 @@ title: Edge의 의사 결정 관리 블루프린트
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -56,23 +56,11 @@ Adobe Experience Platform
 ## 가드레일
 
 * Journey Optimizer의 가드레일에 대해서는 다음의 [Journey Optimizer 가드레일](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=ko)을 참조하세요.
+
 * 의사 결정 관리의 가드레일은 다음 [의사 결정 관리 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html)을 참조하세요.
-* 초당 요청 수: 5000.
-* 응답 지연 시간: 250ms 미만.
-* Edge 실시간 프로필 액세스. Edge로 투영한 대상자 및 프로필 속성만 프로필에서 사용할 수 있습니다.
-* 첫 경험에서부터 개인화가 필요한 경우 프로필 전체를 사용할 수 있는 허브가 적합합니다. 처음부터 Edge 경험을 제공하려면 Edge 프로필을 허브와 동기화해야 합니다. 즉 Edge를 통한 제일 처음 경험에는 이전에 허브에 업로드한 프로필 데이터가 포함되지 않습니다.
 
-### 데이터 수집 가드레일
+[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### 활성화 가드레일
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## 구현 패턴
 
