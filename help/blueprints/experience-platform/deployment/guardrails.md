@@ -4,18 +4,20 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 24%
+source-wordcount: '630'
+ht-degree: 18%
 
 ---
 
 # 가드레일
 
-보호 기능은 Adobe Experience Platform 및 애플리케이션에서 데이터, 관찰된 대기 시간 및 시스템 사용에 대한 지침을 제공하는 권장 임계값입니다. 보호 기능은 시스템 제한 사항과 성능 기대치를 반영하여 고객 아키텍처 및 사용 사례 성능을 최적화하고 오류 또는 예상치 못한 결과를 방지하는 데 도움이 됩니다. 보호 기능은 SLA(서비스 수준 계약)가 아닙니다.
+보호 기능은 Adobe Experience Platform 및 애플리케이션에서 데이터, 관찰된 대기 시간 및 시스템 사용에 대한 지침을 제공하는 권장 임계값입니다. 보호 기능은 시스템 제한 사항과 성능 기대치를 반영하여 고객 아키텍처 및 사용 사례 성능을 최적화하고 오류 또는 예상치 못한 결과를 방지하는 데 도움이 됩니다. 보호 기능은 SLA(서비스 수준 계약)가 아니며, SLA(서비스 수준 계약)는 아래 링크된 제품 설명 및 고객 라이선스 계약에 문서화되어 있습니다. 보호 기능은 안정성과 실행을 보장하기 위해 특정 고객 사용 사례에 대한 솔루션 설계 지침을 제공하기 위한 것입니다.
 
 애플리케이션 및 기능에 대한 특정 SLA에 대한 자세한 내용은 [애플리케이션 및 기능 설명](#application-feature-descriptions) 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+
+지연 또는 볼륨 요구 사항이 엄격한 고객 사용 사례의 경우 Adobe은 Adobe 계정 팀 및 구현 파트너와 함께 사용 사례를 자세히 검토할 것을 권장합니다. 특정 경우에 사용 사례의 프로덕션 시작 전에 주어진 사용 사례 구현을 테스트하고 관찰하여 예상 동작을 관찰하고 이해하는 것이 좋습니다. 각 고객 구현에는 데이터 수집의 특성 및 케이던스, 빌드 중인 세그먼트 규칙의 세부 사항, 다양한 활성화 문제 및 페이로드를 비롯한 다양한 요소가 있으므로 각 사용 사례 구현에는 관찰된 성능이 달라질 것입니다. 따라서 사용 사례의 지연 시간 및 성능 요구 사항에 따라 적절한 아키텍처 및 구현을 보장하기 위해 예상되는 성능을 미리 설정하고 테스트하는 것이 가장 좋습니다.
 
 
 ## Adobe Experience Platform 및 애플리케이션 가드레일 참조 설명서
