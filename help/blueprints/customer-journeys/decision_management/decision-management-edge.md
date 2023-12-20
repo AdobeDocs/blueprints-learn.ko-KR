@@ -3,10 +3,10 @@ title: Edge의 의사 결정 관리 블루프린트
 description: 실시간 웹 및 모바일 경험을 포함하여 다양한 채널의 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 98%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 
 
 ## Edge의 의사 결정 관리 사용 사례
 
+* 프로필 컨텍스트 지연 시간이 15분 미만으로 엄격하고 의사 결정 관리 실행이 1초 미만인 스트리밍 사용 사례입니다.
 * 웹 또는 모바일 인바운드 경험을 통한 온라인 개인화.
 * 크로스 채널 여정 실행 - Adobe Journey Optimizer를 통한 웹, 모바일, 이메일, 기타 상호 작용 채널 간 오퍼 일관성.
 
