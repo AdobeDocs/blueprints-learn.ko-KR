@@ -4,10 +4,10 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
+source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 18%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 애플리케이션 및 기능에 대한 특정 SLA에 대한 자세한 내용은 [애플리케이션 및 기능 설명](#application-feature-descriptions) 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
-지연 또는 볼륨 요구 사항이 엄격한 고객 사용 사례의 경우 Adobe은 Adobe 계정 팀 및 구현 파트너와 함께 사용 사례를 자세히 검토할 것을 권장합니다. 특정 경우에 사용 사례의 프로덕션 시작 전에 주어진 사용 사례 구현을 테스트하고 관찰하여 예상 동작을 관찰하고 이해하는 것이 좋습니다. 각 고객 구현에는 데이터 수집의 특성 및 케이던스, 빌드 중인 세그먼트 규칙의 세부 사항, 다양한 활성화 문제 및 페이로드를 비롯한 다양한 요소가 있으므로 각 사용 사례 구현에는 관찰된 성능이 달라질 것입니다. 따라서 사용 사례의 지연 시간 및 성능 요구 사항에 따라 적절한 아키텍처 및 구현을 보장하기 위해 예상되는 성능을 미리 설정하고 테스트하는 것이 가장 좋습니다.
+지연 또는 볼륨 요구 사항이 엄격한 고객 사용 사례의 경우 Adobe은 Adobe 계정 팀 및 구현 파트너와 함께 사용 사례를 자세히 검토할 것을 권장합니다. 특정 경우에 사용 사례의 프로덕션 시작 전에 주어진 사용 사례 구현을 테스트하고 관찰하여 예상 동작을 관찰하고 이해하는 것이 좋습니다. 각 고객 구현에는 데이터 수집의 특성 및 케이던스, 빌드 중인 세그먼트 규칙의 세부 사항, 다양한 활성화 채널 및 페이로드를 비롯한 다양한 요소가 있으므로 각 사용 사례 구현에는 관찰된 성능이 달라질 것입니다. 따라서 사용 사례의 지연 시간 및 성능 요구 사항에 따라 적절한 아키텍처 및 구현을 보장하기 위해 예상되는 성능을 미리 설정하고 테스트하는 것이 가장 좋습니다.
 
 
 ## Adobe Experience Platform 및 애플리케이션 가드레일 참조 설명서
@@ -42,6 +42,12 @@ ht-degree: 18%
 
 ## 엔드투엔드 지연 다이어그램 {#end-to-end-latency}
 
+### Experience Platform 에지 네트워크 및 허브 기본 대기 시간 {#edge-hub-latencies}
+
+다음 다이어그램은 Experience Platform 및 애플리케이션에서 사용 사례를 설계할 때 알아야 하는 기본 에지 및 허브의 관찰된 대기 시간을 보여 줍니다.
+
+![Experience Platform 에지 네트워크 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform 에지 네트워크 및 허브 기본 대기 시간"){width="1000" zoomable="yes"}
+
 ### 데이터 수집 {#data-ingestion}
 
 아래 다이어그램은 다음을 통해 예상되는 데이터 수집 지연 값을 표시합니다. [스트리밍 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) 및 [일괄 처리 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=ko) 데이터를 Real-Time CDP으로 가져올 때. 고해상도 버전을 보려면 이미지를 클릭하십시오.
@@ -54,11 +60,11 @@ ht-degree: 18%
 
 ![세그먼테이션의 높은 수준의 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "세그먼테이션 높은 수준의 시각적 개요 및 지연 값"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform 및 Adobe Target {#adobe-target-latency}
+### Real-time Customer Data Platform 및 Edge Network {#adobe-edge-latency}
 
-아래 다이어그램은 Real-Time CDP에서 로 대상을 내보낼 때 예상되는 지연 값을 표시합니다 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko). 고해상도 버전을 보려면 이미지를 클릭하십시오.
+아래 다이어그램은 Edge Network를 활용할 때 예상되는 지연 시간 값을 표시합니다(예: 에서 RTCDP 대상을 활용하는 경우). [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko). 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
-![Adobe Target으로 내보내기의 높은 수준 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Adobe Target으로 대상 내보내기 높은 수준의 시각적 개요 및 지연 시간 값"){width="1000" zoomable="yes"}
+![Adobe Edge 네트워크 및 Experience Platform 고급 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Adobe Target으로 대상 내보내기 높은 수준의 시각적 개요 및 지연"){width="1000" zoomable="yes"}
 
 ### Customer Journey Analytics      {#customer-journey-analytics}
 
