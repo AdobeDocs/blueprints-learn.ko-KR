@@ -3,10 +3,10 @@ title: Campaign v8 블루프린트, Campaign과 Platform
 description: Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠페인 도구입니다. 완벽한 캠페인을 만들고 다듬을 수 있도록 강력한 ETL 및 데이터 관리 기능을 제공합니다. Campaign v8의 오케스트레이션 엔진은 배치 기반 여정에 핵심 초점을 둔 풍부한 멀티 터치 마케팅 프로그램을 제공합니다.  또한 확장 가능한 실시간 메시지 서버와 함께 제공되므로 마케팅 팀이 암호 재설정, 주문 확인, 전자 영수증 등에 대해 어떤 IT 시스템에서든 모든 것을 포괄하는 페이로드를 기반으로 사전 정의된 메시지를 보낼 수 있습니다.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
-source-wordcount: '1147'
-ht-degree: 100%
+source-git-commit: ac6e27e88854f5a05a7ff7428cd4375b3532f632
+workflow-type: tm+mt
+source-wordcount: '1074'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,18 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 
 <br>
 
-## 아키텍처
+## 아키텍처 다이어그램
 
-<img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 블루프린트 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+에서 Campaign v8 배포 모델에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+
+### Campaign Enterprise(FFDA) 배포
+
+<img src="assets/P4-architecture.png" alt="Campaign v8 블루프린트(P4)에 대한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+
+
+### Campaign v8 FDA 배포
+
+<img src="assets/P1-P3-architecture.png" alt="Campaign v8 블루프린트(P1-P3)에 대한 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -84,7 +93,7 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
    * API 데이터 로드 지원은 주로 데이터베이스 내의 프로필 또는 단순 개체(예: 만들기 및 업데이트)를 관리하는 용도입니다. 대량의 데이터나 일괄 처리에 가까운 작업 로드에 사용하도록 설계한 기능이 아닙니다.
    * 사용자 정의 애플리케이션 관련 목적의 API 데이터 읽기는 지원하지 않습니다.
    * API를 통해 로드한 데이터는 애플리케이션 데이터베이스에서 준비된 다음 매시간마다 클라우드 데이터베이스에 복제됩니다.
-* API 호출은 초당 15개 또는 하루 15만 개로 제한됩니다.
+* API 호출에 대한 제한이 적용됩니다. 다음에서 자세히 알아보기 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### 메시지 일괄 전송 서버 크기 조정
 
@@ -104,16 +113,6 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
    * SMS MO(모바일 시작): SMPP 공급 시스템을 통해 모바일에서 Adobe Campaign으로 보내는 SMS입니다.
    * SMS SR(상태 보고서) 또는 DR 또는 DLR(게재 확인): SMPP 공급 시스템을 통해 모바일에서 Adobe Campaign으로 보내는, SMS가 성공적으로 수신되었다는 알림입니다. Adobe Campaign에서 메시지 게재 실패를 알리는 SR을 받을 수도 있으며, 이 경우 보통 오류에 대한 설명도 제공됩니다.
 
-### 모바일 푸시 구성
-
-* Campaign v8에는 Campaign SDK만 지원됩니다. Adobe 고객 지원 센터에 문의하여 액세스를 요청하세요.
-* SDK를 설치하고 구성하는 방법은 [Campaign SDK 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ko)를 참조하세요.
-
-   >[!IMPORTANT]
-   >다른 Experience Cloud 애플리케이션을 사용하는 경우 데이터 수집을 위해 Experience Platform Mobile SDK를 사용해야 합니다. 이는 다른 SDK이므로 Campaign SDK와 별도로 설치해야 합니다.
-
-<br>
-
 ## 구현 단계
 
 [Adobe Campaign v8 구현](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ko) 시작 안내서를 참조하세요.
@@ -121,7 +120,7 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 
 ## 관련 설명서
 
-* [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko)
+* [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html)
 * [Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/launch.html?lang=ko)
-* [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)
+* [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/launch.html)
+* [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html)
