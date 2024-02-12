@@ -1,12 +1,12 @@
 ---
 title: 고객 여정 블루프린트
 description: 어떤 화면에서든 개인에게 알맞고 시의적절한 고객 경험을 전달합니다.
-solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
+solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

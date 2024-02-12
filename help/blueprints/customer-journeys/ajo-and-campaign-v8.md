@@ -1,9 +1,9 @@
 ---
 title: Journey Optimizer와 Adobe Campaign v8 블루프린트
 description: Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 메시지를 보내는 방법을 설명합니다. Campaign의 실시간 메시지 서버를 활용합니다.
-solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
+solution: Journey Optimizer, Campaign, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 98%
