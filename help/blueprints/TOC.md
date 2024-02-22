@@ -5,7 +5,7 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
+source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 92%
@@ -40,6 +40,11 @@ ht-degree: 92%
       + [고객 활동 허브 ](/help/blueprints/audience-activation/customer-activity.md)
       + [Segment Match](/help/blueprints/audience-activation/segment-match.md)
    + [Experience Cloud 애플리케이션을 사용한 활성화](/help/blueprints/audience-activation/platform-and-applications.md)
+   + 웹 및 모바일 개인화 {#web-personalization}
+      + [개요](/help/blueprints/audience-activation/web-personalization/overview.md)
+      + [행동 개인화 - Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+      + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+      + [의사 결정 관리](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + B2B 활성화 및 마케팅 {#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
@@ -85,8 +90,3 @@ ht-degree: 92%
    + [개요](/help/blueprints/data-insights/overview.md)
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
    + [사용자 정의 데이터 과학을 통한 프로필 강화 ](/help/blueprints/data-insights/data-science.md)
-+ 웹 및 모바일 개인화 {#web-personalization}
-   + [개요](/help/blueprints/web-personalization/overview.md)
-   + [행동 개인화 - Target](/help/blueprints/web-personalization/behavioral.md)
-   + [알려진 고객 개인화 - Target 및 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
-   + [의사 결정 관리](/help/blueprints/web-personalization/decision-management-edge.md)
