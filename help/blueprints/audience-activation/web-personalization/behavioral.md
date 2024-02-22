@@ -7,7 +7,7 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 47ae9808a53fd59583bd26b70e58c34a15e47493
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 98%
@@ -40,8 +40,8 @@ ht-degree: 98%
 
 웹/모바일 개인화 블루프린트는 다음과 같은 방법을 통해 구현할 수 있습니다(아래에서 설명).
 
-1. [!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK]와 [!UICONTROL Edge 네트워크] 사용 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오.](../experience-platform/deployment/websdk.md)
-1. 기존 애플리케이션별 SDK 사용(예: AppMeasurement.js). [애플리케이션별 SDK 블루프린트 참조](../experience-platform/deployment/appsdk.md)
+1. [!UICONTROL Platform Web SDK] 또는 [!UICONTROL Platform Mobile SDK]와 [!UICONTROL Edge 네트워크] 사용 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오.](/experience-platform/deployment/websdk.md)
+1. 기존 애플리케이션별 SDK 사용(예: AppMeasurement.js). [애플리케이션별 SDK 블루프린트 참조](/experience-platform/deployment/appsdk.md)
 
 ## 구현 단계
 
