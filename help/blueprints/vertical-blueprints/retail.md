@@ -4,10 +4,10 @@ description: 디지털 미디어, 이메일, 푸시, 웹 채널에 걸친 실시
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 99%
 
 ---
 
@@ -73,4 +73,4 @@ ht-degree: 100%
 | RTCDP + AEP | [온라인/오프라인 대상자 활성화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ko) |
 | | [Experience Platform + 애플리케이션 활성화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ko) |
 | MARKETO + AEP | [B2B 활성화 및 마케팅 ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=ko) | |
-| TARGET + AEP | [Adobe Target 사용 사례 - 행동 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=ko) | [알려진 고객 데이터를 사용한 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ko) | |
+| TARGET + AEP | [Adobe Target 사용 사례 - 행동 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/behavioral.html?lang=en) | [알려진 고객 데이터를 사용한 웹/모바일 개인화](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html?lang=en) | |

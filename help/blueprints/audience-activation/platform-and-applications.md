@@ -4,10 +4,10 @@ description: Experience Platform의 프로필 및 대상자를 관리하고 Expe
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ## 가드레일
 
-[대상자 및 프로필 활성화 개요 페이지의 가드레일](overview.md)을 참조하세요.      또한 [배포 가드레일](../experience-platform/deployment/guardrails.md) 페이지도 참조하실 수 있습니다.
+다음을 참조하십시오. [audience 및 Profile Activation 개요 페이지의 보호](overview.md) 및 [배포 보호 기능](../experience-platform/deployment/guardrails.md) 페이지를 가리키도록 업데이트하는 중입니다.
 
 ## 구현 시 고려 사항
 
@@ -67,7 +67,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ### Real-time Customer Data Platform에서 Target으로 대상 공유하기
 
-* [알려진 고객 개인화 - Target 및 RTCDP 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ko)에서 Real-time Customer Data Platform의 프로필 및 대상자를 Target으로 공유하는 방법에 대한 자세한 내용을 확인할 수 있습니다.
+* [알려진 고객 개인화 - Target 및 RTCDP 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html)에서 Real-time Customer Data Platform의 프로필 및 대상자를 Target으로 공유하는 방법에 대한 자세한 내용을 확인할 수 있습니다.
 
 ### Real-time Customer Data Platform에서 Campaign 및 Journey Optimizer으로 대상 공유
 
