@@ -1,7 +1,7 @@
 source,dest
-/docs/blueprints-learn/web-personalization/overview.html,/docs/blueprints-learn/audience-activation/web-personalization/overview.html
-/docs/blueprints-learn/web-personalization/behavioral.html,/docs/blueprints-learn/audience-activation/web-personalization/behavioral.html
-/docs/blueprints-learn/web-personalization/known-personalization.html,/docs/blueprints-learn/audience-activation/web-personalization/known-personalization.html
+/docs/blueprints-learn/web-personalization/overview.html,/docs/blueprints-learn/architecture/audience-activation/web-personalization/overview.html
+/docs/blueprints-learn/web-personalization/behavioral.html,/docs/blueprints-learn/architecture/audience-activation/web-personalization/behavioral.html
+/docs/blueprints-learn/web-personalization/known-personalization.html,/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html
 /docs/blueprints-learn/architecture/customer-activity-hub/overview.html,/docs/blueprints-learn/architecture/audience-activation/customer-activity.html
 /docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html,/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html
 /docs/blueprints-learn/architecture/data-science/overview.html,/docs/blueprints-learn/architecture/data-exploration/data-science.html
