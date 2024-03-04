@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
+workflow-type: tm+mt
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,11 @@ WebSDK에서 지원하는 애플리케이션 기능에 대한 자세한 개요�
 
 아래 아키텍처 다이어그램은 Experience Platform Web SDK를 활용하는 배포 및 데이터 수집을 보여줍니다.
 
-<img src="assets/web_sdk_flow.svg" alt="Experience Platform Web 및 Mobile SDK를 사용하여 구현할 때 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Experience Platform Web 및 Mobile SDK를 사용하여 구현할 때 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 Experience Edge, Experience Platform 서비스, 애플리케이션의 시퀀스 다이어그램
 
-<img src="assets/web_sdk_sequence.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 참조 설명서
 
