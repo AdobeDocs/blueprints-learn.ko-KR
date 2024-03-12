@@ -3,9 +3,9 @@ title: 디지털 경험 블루프린트
 description: 디지털 경험 블루프린트는 전략을 다루고 기존 비즈니스 문제를 해결하는 데 사용할 수 있는 반복 가능한 구현입니다. 블루프린트는 가치 창출에 걸리는 시간을 줄이고 성공하기 위한 빠른 길을 제시합니다.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: 48991029a990bbbc7d9be52d15fe19d3825341cb
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '201'
 ht-degree: 100%
 
 ---
