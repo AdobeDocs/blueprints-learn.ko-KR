@@ -5,17 +5,17 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 3cb8d1566e0ce1356c864e360f660a739d0a472a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 92%
+source-wordcount: '252'
+ht-degree: 90%
 
 ---
 
 
 # 디지털 경험 블루프린트 {#architecture}
 
-+ [개요](/help/blueprints/overview.md)
++ [Digital Experiences 블루프린트](/help/blueprints/overview.md)
 + 세로형 산업 블루프린트 {#vertical-blueprints}
    + [개요](/help/blueprints/vertical-blueprints/overview.md)
    + [의류](/help/blueprints/vertical-blueprints/apparel.md)
