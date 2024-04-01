@@ -3,10 +3,10 @@ title: Journey Optimizer - 서드파티 메시지 블루프린트
 description: Adobe Journey Optimizer를 서드파티 메시지 시스템과 함께 사용하여 개인화된 메시지를 오케스트레이션하고 보내는 방법을 설명합니다.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Experience Platform
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Edge Network용 ID
+   * 다음에 대한 ID [!DNL Edge Network]
    * Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
 1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)를 참조하세요.

@@ -4,10 +4,10 @@ description: Experience Platform SDK에서 수집한 데이터를 이벤트 전�
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 100%
 
 1. 태그 작성자가 태그 속성과 이벤트 전달 속성을 모두 정의합니다. 이 경우 작성자는 데이터 수집을 관리하는 데이터 요소, 규칙, 작업을 정의합니다. 태그 속성 코드는 클라이언트에서 실행되며 CDN 호스트에 의해 배포된다는 점에 유의하세요. 이벤트 전달 속성 코드는 Adobe Edge 서버에서 실행됩니다.
 
-1. 클라이언트에서 수집한 데이터는 Edge Network로 전송됩니다. 또한 서버 측 수집 방법으로 먼저 데이터를 자체 서버로 보낼 수도 있습니다.  Web SDK가 서버에서 서버로의 수집 기능을 제공할 수 있습니다. 그러나 이를 구현하려면 다른 프로그래밍 모델이 필요합니다. 아래의 **Edge Network Server API 개요** 설명서를 참조하세요.
+1. 클라이언트에서 수집된 데이터는 [!DNL Edge Network]. 또한 서버 측 수집 방법으로 먼저 데이터를 자체 서버로 보낼 수도 있습니다.  Web SDK가 서버에서 서버로의 수집 기능을 제공할 수 있습니다. 그러나 이를 구현하려면 다른 프로그래밍 모델이 필요합니다. 설명서 참조 **[!DNL Edge Network]서버 API 개요** 아래
 
-1. Platform Edge Network는 데이터 수집 페이로드를 수신하여 Target, Analytics 등 필요한 시스템으로 데이터 흐름을 오케스트레이션합니다.
+1. 플랫폼 [!DNL Edge Network] 데이터 수집 페이로드를 수신하고 Target 및 Analytics와 같은 필요한 시스템에 대한 데이터 흐름을 조정합니다.
 
 1. 페이로드에 도착하는 이벤트 데이터에 액세스하는 데에는 이벤트 전달 속성 데이터 요소를 사용합니다. 필요에 따라 규칙을 사용하여 이벤트 데이터를 전달 전에 조정할 수도 있습니다. 가령 스트리밍 데이터 수집을 위해 데이터 형식을 필요한 XDM에 맞추는 등의 조정 작업을 할 수 있습니다.
 
@@ -54,15 +54,15 @@ ht-degree: 100%
 * [이벤트 전달 비디오](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ko)
 * 웹 SDK의 [이벤트 전달 레슨](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=ko) 튜토리얼
 * [Experience Platform Web SDK 개요 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
-* [Edge Network Server API 개요 ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
+* [[!DNL Edge Network] 서버 API 개요](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 
 ## 관련 블로그 게시물
 
-* [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [[!DNL Adobe Experience Platform Web SDK — Adobe Target]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [[!DNL Adobe Experience Platform Web SDK Migration Scenarios for Adobe Analytics]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [[!DNL Unify Your Adobe Experience Platform Services with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [[!DNL Accelerate Your Mobile Application Development with Adobe Experience Platform Mobile SDK and Launch]](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
-* [[!DNL Simplifying Customer Workflows with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
+* [Adobe Experience Platform Web SDK 및 [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Adobe Experience Platform Web SDK 및 [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [고객 관리를 위한 Adobe Experience Platform 웹 SDK](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe Experience Platform Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Adobe Analytics용 Adobe Experience Platform 웹 SDK 마이그레이션 시나리오](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Adobe Experience Platform 웹 SDK로 Adobe Experience Platform 서비스 통합하기](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Adobe Experience Platform 모바일 SDK와 Launch를 통한 모바일 애플리케이션 개발 가속화](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Adobe Experience Platform 웹 SDK를 통한 고객 워크플로우 간소화](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

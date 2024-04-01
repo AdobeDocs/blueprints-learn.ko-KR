@@ -4,10 +4,10 @@ description: Experience Platform Web 및 Mobile SDK로 수집한 데이터를 �
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ### 서로 다른 데이터스트림과 스트리밍 엔드포인트
 
-데이터가 [!UICONTROL Platform Edge Network]에서 데이터스트림을 통해 흐르기 때문에, 다른 AEP 샌드박스로 가는 [!UICONTROL 이벤트 전달]을 사용할 때는 원래 컬렉션을 만들 때 사용하는 데이터스트림과 같은 데이터스트림이나 스트리밍 엔드포인트를 사용해서는 안 됩니다. 이 경우 AEP 인스턴스가 손상될 수 있고, DoS 상황이 발생할 가능성이 있습니다.
+데이터가 의 데이터스트림을 통해 [!DNL Platform Edge Network], 사용 시 [!UICONTROL 이벤트 전달] 다른 AEP 샌드박스에서 요구 사항은 원래 컬렉션을 만드는 데이터스트림과 동일한 데이터스트림 또는 스트리밍 끝점을 사용하지 않는 것입니다. 이 경우 AEP 인스턴스가 손상될 수 있고, DoS 상황이 발생할 가능성이 있습니다.
 
 ### 예상 트래픽량
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 ![다중 샌드박스 [!UICONTROL 이벤트 전달]](assets/multi-sandbox-data-collection.png)
 
-1. [!UICONTROL 이벤트 전달]을 사용하려면 이벤트 데이터를 수집해 [!UICONTROL Platform Edge Network]로 보내야 합니다. 고객은 Adobe 태그를 사용해 클라이언트측에서 데이터를 수집하거나 [!UICONTROL Platform Edge Network Server API]로 서버 간 데이터 수집 작업을 할 수 있습니다. [!UICONTROL Platform Edge Network API]는 서버 간 수집 기능을 제공할 수 있습니다. 그러나 이를 구현하려면 다른 프로그래밍 모델이 필요합니다. [Edge Network Server API 개요](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)를 참조하세요.
+1. 이벤트 데이터를 수집하여 로 보내기 [!DNL Platform Edge Network] 을(를) 사용하려면 이 필수입니다. [!UICONTROL 이벤트 전달]. Adobe 고객은 클라이언트측 또는 [!DNL Platform Edge Network Server API] 서버 간 데이터 수집에 사용됩니다. 다음 [!DNL Platform Edge Network API] 은 서버 간 컬렉션 기능을 제공할 수 있습니다. 그러나 이를 구현하려면 다른 프로그래밍 모델이 필요합니다. [Edge Network Server API 개요](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)를 참조하세요.
 
-1. 수집한 페이로드는 태그 구현에서 [!UICONTROL Platform Edge Network]로, 여기에서 다시 [!UICONTROL 이벤트 전달] 서비스로 보내져 고유 [!UICONTROL 데이터 요소], [!UICONTROL 규칙] 및 [!UICONTROL 작업]에 따라 처리됩니다. [[!UICONTROL 태그와 이벤트 전달에서 자세한 차이를 확인할 수 있습니다]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ko#differences-from-tags).
+1. 수집된 페이로드는 태그 구현에서 [!DNL Platform Edge Network] (으)로 [!UICONTROL 이벤트 전달] 자체적으로 처리 및 처리되는 서비스 [!UICONTROL 데이터 요소], [!UICONTROL 규칙] 및 [!UICONTROL 작업]. [[!UICONTROL 태그와 이벤트 전달에서 자세한 차이를 확인할 수 있습니다]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ko#differences-from-tags).
 
-1. [!UICONTROL Platform Edge Network]에서 수집한 이벤트 데이터를 수신하려면 [!UICONTROL 이벤트 전달] 속성도 필요합니다. 이벤트 데이터를 Platform Edge Network로 보낸 것이 배포된 태그 구현인지, 서버 간 수집인지 여부입니다. 작성자는 이벤트 데이터를 두 번째 샌드박스로 전달하기 전에 보강할 때 사용할 데이터 요소와 규칙, 작업을 정의합니다. 사용자 정의 코드 [!DNL JavaScript] 데이터 요소를 사용하여 데이터의 구조를 샌드박스 수집용으로 설정하는 과정을 지원하는 것도 고려해 볼 수 있습니다. 이 데이터 요소를 Platform 데이터 준비 기능과 결합하면 여러 방식 중 원하는 것으로 데이터 구조를 관리할 수 있습니다.
+1. An [!UICONTROL 이벤트 전달] 속성은에서 수집된 이벤트 데이터를 받는 데에도 필요합니다. [!DNL Platform Edge Network]. 해당 이벤트 데이터가 [!DNL Platform Edge Network] 를 배포된 Tags 구현 또는 서버 간 컬렉션으로 만듭니다. 작성자는 이벤트 데이터를 두 번째 샌드박스로 전달하기 전에 보강할 때 사용할 데이터 요소와 규칙, 작업을 정의합니다. 사용자 정의 코드 [!DNL JavaScript] 데이터 요소를 사용하여 데이터의 구조를 샌드박스 수집용으로 설정하는 과정을 지원하는 것도 고려해 볼 수 있습니다. 이 데이터 요소를 Platform 데이터 준비 기능과 결합하면 여러 방식 중 원하는 것으로 데이터 구조를 관리할 수 있습니다.
 
 1. 현재는 [!UICONTROL 이벤트 전달] 속성 내에서 [!UICONTROL Cloud Connector 확장]을 사용해야 합니다. 규칙을 통해 이벤트 데이터를 처리하거나 보강한 후에 페이로드를 두 번째 샌드박스로 보내는 POST에 대해 구성된 수집 호출 내에서 Cloud Connector를 사용합니다.
 

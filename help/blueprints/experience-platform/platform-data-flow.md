@@ -1,18 +1,18 @@
 ---
-title: Adobe Experience Platform 데이터 흐름 아키텍처 다이어그램
+title: Experience Platform 데이터 흐름 아키텍처 다이어그램
 description: 이 아키텍처 다이어그램은 데이터가 Adobe Experience Platform에 들어오고 나가는 흐름을 보여 줍니다.
 solution: Data Collection
 kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
-source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
-workflow-type: ht
-source-wordcount: '118'
-ht-degree: 100%
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform 데이터 흐름 아키텍처    다이어그램
+# Adobe Experience Platform 데이터 흐름 아키텍처 다이어그램
 
 ## 데이터 흐름 다이어그램
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <img src="assets/aep_data_flow.svg" alt="Experience Platform 데이터 흐름" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## 데이터 유입 및 송출 패턴
+## 데이터 수신 및 송신 패턴
 
 모든 데이터 수집과 유입 패턴의 자세한 목록은 [데이터 준비 및 수집 블루프린트](../data-ingestion/ingestion.md)를 참조하십시오.
 

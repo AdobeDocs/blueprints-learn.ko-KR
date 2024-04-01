@@ -1,13 +1,13 @@
 ---
-title: 의류 업계 - Experience Cloud 애플리케이션을 통한 활성화
-description: 실시간 마케팅, 크로스 채널 활성화, 크로스 채널 분석을 위해 여러 블루프린트를 사용했습니다.
+title: 의류 산업 - Experience Cloud 애플리케이션으로 활성화
+description: 여러 블루프린트를 사용하여 실시간 마케팅, 크로스 채널 활성화 및 크로스 채널 분석을 활성화했습니다.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

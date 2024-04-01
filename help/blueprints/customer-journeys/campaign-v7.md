@@ -1,20 +1,20 @@
 ---
 title: Campaign v7 블루프린트
-description: Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도구입니다. 완벽한 캠페인을 만들고 다듬을 수 있도록 강력한 ETL 및 데이터 관리 기능을 제공합니다. Campaign v7의 오케스트레이션 엔진은 배치 기반 여정에 핵심 초점을 둔 풍부한 멀티 터치 마케팅 프로그램을 제공합니다.  또한 실시간 메시지 서버와 함께 제공되므로 마케팅 팀이 암호 재설정, 주문 확인, 전자 영수증 등에 대해 어떤 IT 시스템에서든 모든 것을 포괄하는 페이로드를 기반으로 사전 정의된 메시지를 보낼 수 있습니다.
+description: 일괄 처리 기반 메시징 프로그램, 온보딩 및 리마케팅 캠페인, DM 광고 및 간단한 트랜잭션 메시지를 위한 Campaign v7 블루프린트에 대해 알아봅니다.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '1195'
-ht-degree: 100%
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Campaign v7 블루프린트
 
-Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도구입니다. 완벽한 캠페인을 만들고 다듬을 수 있도록 강력한 ETL 및 데이터 관리 기능을 제공합니다. Campaign v7의 오케스트레이션 엔진은 배치 기반 여정에 핵심 초점을 둔 풍부한 멀티 터치 마케팅 프로그램을 제공합니다.  또한 실시간 메시지 서버와 함께 제공되므로 마케팅 팀이 암호 재설정, 주문 확인, 전자 영수증 등에 대해 어떤 IT 시스템에서든 모든 것을 포괄하는 페이로드를 기반으로 사전 정의된 메시지를 보낼 수 있습니다.
+Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도구입니다. 완벽한 캠페인을 만들고 다듬을 수 있도록 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정에 중점을 둔 풍부한 멀티 터치 마케팅 프로그램을 제공합니다.
 
-<br>
+또한 실시간 메시지 서버와 함께 제공되므로 마케팅 팀이 암호 재설정, 주문 확인, 전자 영수증 등에 대해 어떤 IT 시스템에서든 모든 것을 포괄하는 페이로드를 기반으로 사전 정의된 메시지를 보낼 수 있습니다.
 
 ## 사용 사례
 
@@ -23,13 +23,9 @@ Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도�
 * DM 광고, 브로셔, 매거진 캠페인
 * 저용량 단순 트랜잭션 메시지(예: 암호 재설정, 이메일 영수증, 주문 확인 등)
 
-<br>
-
 ## 아키텍처
 
 <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 블루프린트 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## 통합 패턴
 
@@ -38,9 +34,9 @@ Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도�
 | [Real-Time CDP와 Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform의 Real-Time CDP와 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다. | <ul><li>클라우드 스토리지 파일 교환과 Adobe Campaign 수집 워크플로우를 사용하여 Real-Time CDP에서 Adobe Campaign으로 프로필 및 대상자를 공유합니다. </li><li>고객 대화의 게재 및 상호 작용 데이터를 Adobe Campaign에서 다시 Real-Time CDP로 간단히 공유하여 실시간 고객 프로필을 개선하고 메시지 캠페인에 대해 크로스 채널 보고를 제공합니다.</li></ul> |
 | [Journey Optimizer와 Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer를 통해 [실시간 고객 프로필]을 활용하여 1:1 경험을 오케스트레이션하고 Adobe Campaign의 기본 제공 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다. | [실시간 고객 프로필]과 Journey Optimizer의 기능을 활용하여 실시간 경험을 오케스트레이션하는 한편 Adobe Campaign의 기본 제공 실시간 메시지 기능을 사용하여 라스트 마일 커뮤니케이션을 수행합니다.<br><br>고려 사항:<br><ul><li>[실시간 메시지] 서버를 통해 시간당 최대 5만 개의 메시지를 전송할 수 있습니다.<li>Journey Optimizer에서는 스로틀링을 수행하지 않으므로 영업 전 단계 기업 아키텍트가 기술 점검을 수행해야 합니다.</li><li>Campaign v7 실시간 메시지 서버로 가는 페이로드에서는 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
-<br>
-
 ## 필요 조건
+
+아래에서 다음 사전 요구 사항을 검토하십시오.
 
 ### 애플리케이션 서버 및 실시간 메시지 서버
 
@@ -72,6 +68,8 @@ Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도�
 <br>
 
 ## 가드레일
+
+다음 보호 기능을 검토하십시오.
 
 ### 애플리케이션 서버 크기 조정
 
@@ -113,14 +111,12 @@ Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도�
    * Adobe 고객 지원 센터에 문의하여 액세스를 요청하세요.
    * SDK를 설치하고 구성하는 방법은 [Campaign SDK 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ko)를 참조하세요.
 
-   >[!IMPORTANT]
-   >Campaign SDK를 배포하고 다른 Experience Cloud 애플리케이션으로 작업하는 경우, 데이터 수집을 위해 Experience Platform Mobile SDK를 사용해야 합니다. 이는 다른 SDK이므로 Campaign SDK와 별도로 설치해야 합니다.
-
-<br>
+  >[!IMPORTANT]
+  >Campaign SDK를 배포하고 다른 Experience Cloud 애플리케이션으로 작업하는 경우, 데이터 수집을 위해 Experience Platform Mobile SDK를 사용해야 합니다. 이는 다른 SDK이므로 Campaign SDK와 별도로 설치해야 합니다.
 
 ## 구현 단계
 
-Adobe Campaign v7 구현에 대해서는 [시작 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ko)를 참조하세요.
+다음을 참조하십시오. [시작 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ko) Adobe Campaign v7 구현용
 
 
 ## 관련 설명서

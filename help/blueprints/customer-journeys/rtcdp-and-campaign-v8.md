@@ -3,25 +3,21 @@ title: Real-Time CDP와 Adobe Campaign v8 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign v8과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Real-Time CDP와 Adobe Campaign v8 통합 패턴
+# [!DNL Real-Time CDP] Adobe 포함 [!DNL Campaign] v8 통합 패턴
 
-Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
-
-<br>
+Adobe 방법 표시 [!DNL Experience Platform] 또한 실시간 고객 프로필 및 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 활용하여 개인화된 대화를 제공할 수 있습니다.
 
 ## 애플리케이션
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v8
-
-<br>
+* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
 
 ## 아키텍처
 
@@ -32,10 +28,10 @@ Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중�
 ## 필요 조건
 
 * 고객은 유효한 IMS 조직이 있는 Experience Cloud에 프로비전되어야 합니다.
-* 단일 로그인 URL을 사용할 수 있도록 Adobe Experience Platform과 Campaign을 동일한 IMS 조직에 프로비저닝하기를 권장합니다.
-* 고객에 대해 Campaign의 V8 인스턴스를 프로비저닝해야 합니다.
+* Adobe Experience Platform 및 [!DNL Campaign] 단일 로그인 URL에 대해 동일한 IMS 조직에서 프로비저닝되는 것이 좋습니다.
+* 고객은 의 V8 인스턴스를 프로비저닝해야 합니다. [!DNL Campaign]
 * 고객에게 RTCDP, 소스, 대상에 대한 액세스 권한이 있어야 합니다.
-* Adobe Campaign 제품 컨텍스트가 있어야 합니다.
+* Adobe [!DNL Campaign] 제품 컨텍스트가 있어야 합니다.
 <br>
 
 ## 구현 단계

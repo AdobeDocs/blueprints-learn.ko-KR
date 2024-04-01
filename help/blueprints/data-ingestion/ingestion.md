@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 886cae3895f3adc85f516ab8b4241bfe1fa9a541
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -90,11 +90,11 @@ ht-degree: 98%
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko" style="color:#0563c1; text-decoration:underline">Edge Network API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko" style="color:#0563c1; text-decoration:underline">[!DNL Edge Network] API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">전 세계에 분산된 Edge Network의 스트리밍 소스, 트랜잭션, 관련 고객 이벤트, 신호로부터 수집</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">전 세계에 분포한 스트리밍 소스, 트랜잭션, 관련 고객 이벤트 및 신호에서 수집 [!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -102,7 +102,7 @@ ht-degree: 98%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">데이터가 Edge Network를 통해 스트리밍됨. Edge에서의 실시간 세분화 지원. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">데이터는 를 통해 스트리밍됩니다 [!DNL Edge Network]. Edge에서의 실시간 세분화 지원. </span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -156,7 +156,7 @@ ht-degree: 98%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Edge Network</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">[!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -268,9 +268,9 @@ ht-degree: 98%
 
 | 수집 방법 | 설명 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | 지연:<ul><li>실시간 - 동일한 페이지에서 Edge Network로 수집</li><li>95번째 백분위수에서 15분 미만의 프로필로 수집 스트리밍</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</ul>사용자 가이드: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)</li><li>[Web SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)</li><li>[모바일 앱에서 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko)</li></ul> |
-| 스트리밍 소스 | [스트리밍 소스](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#connectors)<br>지연:<ul><li>실시간 - 동일한 페이지에서 Edge Network로 수집</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li></ul> |
-| 스트리밍 API | [Edge Network Server API(기본 설정)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko) - Edge 세분화 등 Edge 서비스 지원, <br>[Data Collection Core Service API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=ko) - Edge 서비스를 지원하지 않고 허브로 직접 라우팅<br>지연:<ul><li>실시간 - 동일한 페이지에서 Edge Network로 수집</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li><li>7GB/시간</li></ul>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko#what-can-you-do-with-streaming-ingestion%3F) |
+| Web/Mobile SDK | 지연:<ul><li>실시간 - 과 동일한 페이지 컬렉션 [!DNL Edge Network]</li><li>95번째 백분위수에서 15분 미만의 프로필로 수집 스트리밍</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</ul>사용자 가이드: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)</li><li>[Web SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)</li><li>[모바일 앱에서 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko)</li></ul> |
+| 스트리밍 소스 | [스트리밍 소스](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#connectors)<br>지연:<ul><li>실시간 - 과 동일한 페이지 컬렉션 [!DNL Edge Network]</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li></ul> |
+| 스트리밍 API | [[!DNL Edge Network] 서버 API(기본 설정)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko) - 에지 세분화 및 를 포함한 에지 서비스 지원 <br>[데이터 수집 핵심 서비스 API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=ko) - 는 Edge Services를 지원하지 않으며, 허브로 직접 라우팅됩니다.<br>지연:<ul><li>실시간 - 과 동일한 페이지 컬렉션 [!DNL Edge Network]</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li><li>7GB/시간</li></ul>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko#what-can-you-do-with-streaming-ingestion%3F) |
 | ETL 도구 사용 | ETL 도구를 사용하여 엔터프라이즈 데이터를 Experience Platform으로 수집하기 전에 수정 및 변환합니다.<br><br>지연:<ul><li>시간은 외부 ETL 도구의 예약 설정에 따라 달라지며, 수집에 사용하는 방법을 기반으로 표준 수집 가드레일이 적용됩니다.</li></ul> |
 | 일괄 처리 소스 | 소스 예약 호출<br>지연: 최대 200GB/시간<br><br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#connectors)<br>[비디오 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=ko) |
 | 일괄 처리 API | 지연:<ul><li>프로필로 일괄 수집하는 경우 규모 및 트래픽 부하에 따라 달라지며 45분 이내</li><li>데이터 레이크로 일괄 수집하는 경우 규모 및 트래픽 부하에 따라 다름</li></ul>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=ko#batch) |

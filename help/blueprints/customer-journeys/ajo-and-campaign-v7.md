@@ -3,10 +3,10 @@ title: Journey Optimizer와 Adobe Campaign v7 블루프린트
 description: Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 메시지를 보내는 방법을 설명합니다. Campaign의 실시간 메시지 서버를 활용합니다.
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,8 +87,8 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 1. Experience Platform Mobile SDK를 구현하여 푸시 토큰 및 로그인 정보를 수집하고 이를 알려진 고객 프로필에 다시 연결합니다.
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
-   * Adobe Experience Platform Edge Network
-   * Edge Network용 ID
+   * Adobe Experience Platform [!DNL Edge Network]
+   * 다음에 대한 ID [!DNL Edge Network]
    * Mobile Core
 1. 모바일 앱 배포와 웹 배포 각각에 대해 전용 데이터 스트림이 있는지 확인합니다.
 1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)를 참조하세요.

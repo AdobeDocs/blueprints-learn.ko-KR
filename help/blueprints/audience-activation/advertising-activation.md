@@ -1,19 +1,19 @@
 ---
-title: Real-time Customer Data Platform에서 소셜 및 광고 대상에 활성화하기
-description: Real-time Customer Data Platform에서 소셜 및 광고 대상에 활성화하기
+title: RTCDP에서 소셜 및 광고 대상으로 활성화
+description: 여러 소스에서 고객 데이터를 수집하여 고객에 대한 단일 프로필 보기를 구축하는 방법에 대해 알아봅니다.
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Real-time Customer Data Platform에서 소셜 및 광고 대상에 활성화하기
+# RTCDP에서 소셜 및 광고 대상으로 활성화
 
-여러 소스에서 고객 데이터를 수집하여 고객에 대한 단일 프로필 보기를 작성하고, 이 프로필을 세그먼트로 만들어 마케팅과 개인화를 위한 대상자를 작성한 다음, 이 대상자를 Facebook과 Google 등 광고 네트워크에 공유하여 해당 대상자에 대한 타겟팅 및 개인화 캠페인을 수행할 수 있습니다.
+여러 소스에서 고객 데이터를 수집하여 고객에 대한 단일 프로필 보기를 작성합니다. 이러한 프로필을 마케팅 및 개인화를 위해 구축된 대상자로 세그먼트화하고, 이러한 대상자를 Facebook 및 Google과 같은 광고 네트워크에 공유하여 해당 대상자에 대해 타겟 및 개인화 캠페인을 수행할 수 있습니다.
 
 ## 사용 사례
 

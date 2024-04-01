@@ -1,20 +1,20 @@
 ---
 title: 데이터 수집 및 준비
-description: 이 블루프린트에서는 Adobe Experience Platform에서 데이터를 수집하고 준비하는 방법을 모두 다룹니다.
+description: Adobe Experience Platform에서 데이터를 수집하고 준비할 수 있는 방법을 알아봅니다.
 solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 데이터 수집 및 준비     블루프린트
+# 데이터 수집 및 준비 블루프린트
 
-데이터 준비 및 수집에서는 데이터를 준비하고 Adobe Experience Platform으로 수집하는 방법을 모두 다룹니다. 또한 Adobe Experience Platform의 Edge Network로 데이터를 수집하고 사이드 포워딩을 통해 엔터프라이즈 대상으로 이 데이터를 전달하는 기능도 다룹니다.
+데이터 준비 및 수집에서는 데이터를 준비하고 Adobe Experience Platform으로 수집하는 방법을 모두 다룹니다. Adobe을 위해 데이터를 수집하는 기능 [!DNL Experience Platform Edge Network] 및 엔터프라이즈 대상으로 측 전달을 통한 후속 데이터 전달.
 
 데이터를 준비할 때는 소스 데이터를 XDM(Experience Data Model) 스키마로 매핑하게 됩니다. 또한 데이터에 날짜 포맷 정리, 필드 분할/연결/전환 및 기록 연결/병합/재입력 등의 변환을 수행합니다. 데이터 준비를 통해 고객 데이터를 단일화하면 종합적이고 필터링된 분석 제공에 도움이 됩니다. 보고 시에나 고객 프로필 집합/데이터 과학/활성화 등을 위해 데이터를 준비할 때 유용합니다.
 

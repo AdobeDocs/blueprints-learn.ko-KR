@@ -3,10 +3,10 @@ title: 의사 결정 관리 블루프린트
 description: 고객 여정 전반에 걸쳐 개인화된 오퍼를 게재합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,9 +46,9 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 * 응답 지연 시간: 500ms 미만.
 * 대상자 멤버십, 속성, 경험 이벤트 등 전체 실시간 고객 프로필 액세스.
 
-## Edge의 의사 결정 관리
+## Edge의 의사 결정 관리   
 
-두 번째 방법은 Experience Edge Network를 통한 것입니다. Experience Edge Network는 1초 미만, 밀리초 단위의 빠른 경험을 제공하기 위해 지리적 위치를 전 세계에 분산시킨 인프라입니다. 지연을 최소화하기 위하여 최종 소비자 경험은 소비자의 지리적 위치에서 가장 가까운 Edge 인프라에 의해 실행됩니다. Edge의 의사 결정 관리는 웹 또는 모바일 인바운드 개인화 요청과 같은 실시간 고객 경험을 제공하는 용도로 설계되었습니다. Edge의 의사 결정 관리에 대한 자세한 내용은 [Edge의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ko) 블루프린트를 참조하세요.
+두 번째 방법은 경험을 사용하는 것입니다 [!DNL Edge Network]: 빠르게 초당 밀리초 미만의 경험을 제공할 수 있도록 전역으로 분산된 지리적으로 위치한 인프라입니다. 지연을 최소화하기 위하여 최종 소비자 경험은 소비자의 지리적 위치에서 가장 가까운 Edge 인프라에 의해 실행됩니다. Edge의 의사 결정 관리는 웹 또는 모바일 인바운드 개인화 요청과 같은 실시간 고객 경험을 제공하는 용도로 설계되었습니다. Edge의 의사 결정 관리에 대한 자세한 내용은 [Edge의 의사 결정 관리](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ko) 블루프린트를 참조하세요.
 
 ### Edge의 의사 결정 관리 사용 사례
 

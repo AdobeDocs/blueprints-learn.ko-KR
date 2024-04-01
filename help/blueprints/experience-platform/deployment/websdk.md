@@ -1,25 +1,25 @@
 ---
-title: Web/Mobile SDK, Edge Network 배포 아키텍처 다이어그램
-description: 이 블루프린트는 Experience Platform Web 및 Mobile SDK와 Edge Network를 통한 아키텍처와 수집을 보여줍니다.
+title: 웹/모바일 SDK, [!DNL Edge Network] 배포 아키텍처 다이어그램
+description: 이 블루프린트는 웹 및 모바일 SDK Experience Platform을 통한 아키텍처 및 수집을 보여 줍니다. [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Experience Platform Web SDK와 Edge Network 아키텍처 다이어그램
+# Experience Platform 웹 SDK &amp; [!DNL Edge Network] 아키텍처 다이어그램
 
-Web 및 Mobile SDK와 Edge Network Server API에 대한 개요 및 세부 정보는 다음을 참조하세요.
+웹 및 모바일 SDK에 대한 개요 및 세부 정보는 [!DNL Edge Network] 서버 API 다음을 참조하십시오.
 
 * [Web SDK 개요](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)
 * [Mobile SDK 개요](https://developer.adobe.com/client-sdks/documentation/)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
+* [[!DNL Edge Network] 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 
 WebSDK에서 지원하는 애플리케이션 기능에 대한 자세한 개요는 다음 설명서를 참조하세요.
 
@@ -32,7 +32,7 @@ WebSDK에서 지원하는 애플리케이션 기능에 대한 자세한 개요�
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=ko)
 
-## Experience Platform Web/Mobile SDK 또는 Edge Network Server API 배포
+## 웹/모바일 SDK 또는 Experience Platform [!DNL Edge Network] 서버 API 배포
 
 아래 아키텍처 다이어그램은 Experience Platform Web SDK를 활용하는 배포 및 데이터 수집을 보여줍니다.
 

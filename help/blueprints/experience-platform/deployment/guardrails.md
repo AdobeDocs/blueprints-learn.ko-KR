@@ -4,10 +4,10 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 15%
 **Experience Platform 서비스**
 
 * [데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [Edge Network API 가드레일](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] API 보호](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [실시간 고객 프로필 및 세그멘테이션 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * [신원 가드레일](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ko)
 * [쿼리 서비스 가드레일](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 다음 다이어그램은 Experience Platform 및 애플리케이션에서 사용 사례를 설계할 때 알아야 하는 기본 에지 및 허브의 관찰된 대기 시간을 보여 줍니다.
 
-![Experience Platform 에지 네트워크 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform 에지 네트워크 및 허브 기본 대기 시간"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] 및 허브 기본 관찰된 대기 시간.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform 에지 네트워크 및 허브 기본 대기 시간"){width="1000" zoomable="yes"}
 
 ### 데이터 수집 {#data-ingestion}
 
@@ -60,9 +60,9 @@ ht-degree: 15%
 
 ![세그먼테이션의 높은 수준의 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "세그먼테이션 높은 수준의 시각적 개요 및 지연 값"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform 및 Edge Network {#adobe-edge-latency}
+### REAL-TIME CUSTOMER DATA PLATFORM &amp; [!DNL Edge Network] {#adobe-edge-latency}
 
-아래 다이어그램은 Edge Network를 활용할 때 예상되는 지연 시간 값을 표시합니다(예: 에서 RTCDP 대상을 활용하는 경우). [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko). 고해상도 버전을 보려면 이미지를 클릭하십시오.
+아래 다이어그램은 을 활용할 때 예상되는 지연 값을 표시합니다. [!DNL Edge Network] - 예를 들어에서 RTCDP 대상을 활용하는 경우 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko). 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
 ![Adobe Edge 네트워크 및 Experience Platform 고급 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Adobe Target으로 대상 내보내기 높은 수준의 시각적 개요 및 지연"){width="1000" zoomable="yes"}
 

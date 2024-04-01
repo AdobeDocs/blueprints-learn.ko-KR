@@ -5,10 +5,10 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 20ec9197752bbafea6e601d7a36406b5786f372b
+source-git-commit: 48b34b05b83f693395b71bcabb16dffa548a1b00
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
 <img src="assets/AEC.jpg" alt="Experience Cloud 개요" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
-## 데이터 및 인사이트, 콘텐츠 및 커머스, 경험 게재의 통합 아키텍처
+## 데이터 및 통찰력, 콘텐츠 및 상거래, 경험 전달의 통합 아키텍처
 
 아래 아키텍처 다이어그램은 Adobe Experience Cloud의 다양한 구성 요소가 어떻게 연결 및 통합되어 데이터, 콘텐츠, 경험 게재 과정에 걸쳐 적절한 규모의 개인화를 실현하는지 보여 줍니다.
 
