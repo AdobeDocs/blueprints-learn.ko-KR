@@ -4,22 +4,22 @@ description: Adobe Experience Platform 및 애플리케이션에서 데이터에
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1834'
+ht-degree: 91%
 
 ---
 
-# 데이터 액세스 및 내보내기 블루프린트
+# 데이터 액세스 및 블루프린트 내보내기
 
 데이터 액세스 및 내보내기 블루프린트는 데이터에서 액세스하거나 내보낼 수 있는 가능한 모든 방법에 대해 간략하게 설명합니다 [!DNL Experience Platform] 및 응용 프로그램.
 
 블루프린트는 의 데이터 액세스를 위해 두 개의 카테고리로 나뉩니다 [!DNL Experience Platform] 및 응용 프로그램.
 
-첫 번째 방법은 Experience Platform 및 애플리케이션에서 데이터를 이그레스하기 위한 접근 방식을 포함합니다. 이는 _푸시_ 데이터 이그레스의 유형 메서드입니다.
+첫 번째 방법에는 의 데이터를 이그레스하기 위한 접근 방식이 포함되어 있습니다 [!DNL Experience Platform] 및 응용 프로그램. 이는 _푸시_ 데이터 이그레스의 유형 메서드입니다.
 
-두 번째는 Experience Platform 및 애플리케이션으로부터 데이터에 액세스하기 위한 접근 방식을 포함한다. 이는 _가져오기_ 유형 데이터 액세스 방법입니다.
+두 번째는 의 데이터에 액세스하기 위한 접근 방식을 포함합니다. [!DNL Experience Platform] 및 응용 프로그램. 이는 _가져오기_ 유형 데이터 액세스 방법입니다.
 
 데이터 액세스 접근 방식:
 

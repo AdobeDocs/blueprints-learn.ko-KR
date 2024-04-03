@@ -1,19 +1,21 @@
 ---
 title: 사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트
-description: 이 블루프린트는 데이터 과학 기반 인사이트를 Experience Platform에 수집하여 Real-time Customer Profile을 보강하는 방법을 보여 줍니다.
+description: 데이터 과학 기반 인사이트를 수집하는 방법에 대해 알아봅니다 [!DNL Experience Platform] 실시간 고객 프로필을 보강합니다.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: ht
-source-wordcount: '500'
-ht-degree: 100%
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 69%
 
 ---
 
-# 사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트
+# 프로필 강화를 위한 맞춤형 데이터 과학 블루프린트
 
-사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트에서는 데이터를 사용하여 모델을 교육, 배포, 평가함으로써 Experience Platform과 Real-time Customer Data Platform에 데이터 과학과 머신 러닝 도구가 제공하는 머신 러닝 인사이트를 제공하는 방법을 다룹니다. 모델링한 인사이트를 Experience Platform에 수집하여 실시간 고객 프로필을 보강할 수 있습니다. 머신 러닝 인사이트의 예로는 생애 가치 평가, 제품 및 카테고리 관심도, 전환 경향 또는 이탈 경향 등이 있습니다.
+프로필 강화를 위한 사용자 정의 데이터 과학 블루프린트는 데이터를 사용하여 모델을 교육하고 배포하고 평가하여 머신 러닝 통찰력을 제공하는 방법을 보여줍니다. [!DNL Experience Platform] 및 [!DNL Real-Time Customer Data Platform] 데이터 과학 및 머신 러닝 도구에서.
+
+모델링된 인사이트를 수집할 수 있습니다. [!DNL Experience Platform] 실시간 고객 프로필을 보강합니다. 머신 러닝 인사이트의 예로는 생애 가치 평가, 제품 및 카테고리 관심도, 전환 경향 또는 이탈 경향 등이 있습니다.
 
 ## 사용 사례
 
@@ -27,13 +29,13 @@ ht-degree: 100%
 
 ## 가드레일
 
-* 데이터 과학 결과를 Experience Platform 및 실시간 고객 프로필로 수집할 때의 자세한 가드레일 및 엔드 투 엔드 지연 시간은 [배포 가드레일 문서](../experience-platform/deployment/guardrails.md)에서 언급하는 데이터 수집 가드레일 및 지연 시간 다이어그램을 참조하세요.
+* 데이터 과학 결과를으로 수집하는 데 세부적인 보호 기능 및 종단 간 지연 시간 [!DNL Experience Platform] 및 실시간 고객 프로필은에서 참조한 데이터 수집 보호 및 지연 다이어그램을 참조합니다. [배포 보호 문서](../experience-platform/deployment/guardrails.md).
 
 ## 구현 단계
 
 1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ko)
 1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
-1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
+1. [데이터 수집](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko) 대상 [!DNL Experience Platform].
 
 모델의 결과를 실시간 고객 프로필에 수집하려면 데이터를 수집하기 전에 다음 작업을 수행해야 합니다.
 
@@ -44,7 +46,7 @@ ht-degree: 100%
 
 * 대부분의 경우 모델 결과는 경험 이벤트가 아니라 프로필 속성으로 수집해야 합니다. 모델 결과는 단순한 속성 문자열일 수 있습니다. 수집할 모델 결과가 여러 개 있는 경우 배열이나 맵 유형 필드를 사용하면 좋습니다.
 * 통합 프로필 속성 데이터를 일 단위로 내보낸 일별 프로필 스냅샷 데이터 세트를 활용하여 프로필 속성 데이터에 대한 모델을 교육할 수 있습니다. 프로필 스냅샷 데이터 세트 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=ko#profile-attribute-datasets)에서 확인할 수 있습니다.
-* Experience Platform에서 데이터를 추출하려면 다음 방법 중 하나를 사용할 수 있습니다.
+* 에서 데이터 추출용 [!DNL Experience Platform] 다음과 같은 방법을 사용할 수 있습니다
    * 데이터 액세스 SDK
       * 데이터는 원시 파일 형태
       * 프로필 경험 이벤트 데이터는 통합되지 않은 원시 상태로 유지됩니다.
@@ -53,12 +55,12 @@ ht-degree: 100%
 
 ## 관련 설명서
 
-* [Adobe Experience Platform Intelligence 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)
+* [Adobe [!DNL Experience Platform] 인텔리전스 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)
 
 ## 관련 블로그 게시물
 
-* [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
-* [[!DNL Cutting Across Adobe Experience Products with Machine Learning to Elevated User Experience]](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
-* [[!DNL Segmentation.AI: Automated Audience-Clustering-as-a-Service in Adobe Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
+* [콘텐츠와 커머스 AI: 콘텐츠 인텔리전스로 고객과의 상호 작용 개인화하기](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
+* [Adobe에 대한 탐색적 데이터 분석에 관한 소개 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
+* [Adobe Experience 제품에 머신 러닝을 활용하여 사용자 경험 향상](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
+* [Segmentation.AI: Adobe의 Automated Audience-Clustering-as-a-Service [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
