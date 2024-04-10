@@ -5,8 +5,8 @@ solution: Real-Time Customer Data Platform, [!DNL Campaign]
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 258aea64f6ff2f620b1adaa0c9ba4b02b47acce9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '620'
+ht-degree: 42%
 
 ---
 
