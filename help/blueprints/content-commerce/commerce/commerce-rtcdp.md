@@ -3,7 +3,7 @@ title: Adobe Commerce - RTCDP 블루프린트
 description: Adobe Experience Platform과 Adobe Commerce을 통합하여 고객에 대한 단일 뷰를 제작하고 디지털 상점 및 여러 채널에서 경험을 지능적으로 개인화할 수 있습니다.
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
+source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -69,4 +69,4 @@ Adobe Commerce 대상에 연결하려면 다음 작업을 수행하십시오.
 |:----|:----|
 | 플랫폼 커넥터 | [Adobe Commerce Experience Platform 커넥터 개요](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Commerce 대상 | [RTCDP의 Adobe Commerce 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| Edge Personalization | [Edge 개인화 대상에 대한 대상자 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
+| Edge Personalization | [Edge 개인화 대상에 대한 대상자 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |
