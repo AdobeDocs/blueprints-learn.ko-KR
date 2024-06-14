@@ -7,10 +7,10 @@ solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 845655a275cdb6d4a9cd397ec7c3515cbf02d321
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 79%
 
 ---
 
@@ -30,6 +30,13 @@ ht-degree: 0%
 * Adobe Target
 * Adobe Audience Manager(선택 사항): 서드파티 대상자 데이터 추가
 * Adobe Analytics 또는 Customer Journey Analytics(선택 사항): 정교한 세분화를 통해 이전 고객 및 행동 데이터를 기반으로 세그먼트를 작성하는 기능 추가
+
+### 참조 설명서
+
+* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
+* [Edge Datastream 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
+* [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko)
+
 
 ## 통합 패턴
 
@@ -68,34 +75,14 @@ ht-degree: 0%
 
 기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 일괄 처리 대상자를 공유하는 작업을 지원합니다.
 
+[Adobe Target 커넥터 설명서 를 참조하십시오](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [애플리케이션별 SDK 블루프린트 참조](../../experience-platform/deployment/appsdk.md)
-
-### 구현 단계
-
-1. 웹 또는 모바일 애플리케이션에 [Adobe Target 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)
-1. [Experience Platform 및 [!UICONTROL Real-time Customer Profile 구현]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ko) Edge에서 사용 가능한 활성 [병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#create-a-merge-policy)을 구현하여 생성한 대상자가 활성화되도록 합니다.
-1. 올바른 확장(Target 또는 Adobe Journey Optimizer - Decisioning)을 설치한 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 또는 [Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/)를 구현합니다. 실시간 Edge 세분화에는 Experience Platform Web/Mobile SDK 또는 EDGE API가 필요하지만, Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상을 공유하는 데에는 필요하지 않습니다.
-1. [구성 [!DNL Edge Network] 에지 데이터 스트림 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
-1. [Real-time Customer Data Platform 내에서 Adobe Target을 대상으로 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
-1. (선택 사항)[Adobe Audience Manager 구현](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ko).
-1. (선택 사항)[Experience Platform과 Adobe Target 간 대상자 공유를 위한 프로비저닝을 요청(공유 대상자)](https://www.adobe.com/go/audiences)하여 Experience Platform에서 Target으로 대상자를 공유합니다.
-
-## 가드레일
-
-[웹 및 모바일 개인화 블루프린트 개요 페이지의 가드레일을 참조하세요.](overview.md)
-
-* Edge 프로필은 사용자가 Edge에서 활성 상태일 때, 즉 해당 프로필에 Web/Mobile SDK 또는 Edge Server API를 통해 Edge로 제출되는 스트리밍 이벤트가 있을 때만 만들어집니다. 이는 보통 웹 사이트 또는 모바일 앱에서 활성 상태인 사용자에 해당합니다.
-* Edge 프로필에는 기본 14일의 유지 기한이 있습니다. 사용자에게서 활성 Edge 이벤트가 수집되지 않는 경우 그 프로필은 비활성 상태 14일 후 Edge에서 만료됩니다. 프로필은 허브에서 유효한 상태로 유지되며, 사용자가 Edge에서 다시 활성 상태가 되면 Edge와 동기화됩니다.
-* Edge에서 새 프로필이 만들어지면 허브 동기화 호출을 비동기적으로 수행하여 대상을 통해 Edge 투영용으로 구성된 모든 대상자 및 속성을 가져옵니다. 이는 비동기 프로세스이므로 허브 프로필이 Edge에 동기화되려면 1초에서 몇 분 정도 걸릴 수 있습니다. 따라서 새 프로필의 경우 첫 페이지 경험 시 허브의 프로필 컨텍스트를 가진다고 보장할 수 없습니다. 이는 허브에 새로 수집한 데이터에도 적용됩니다. 이 데이터는 비동기적으로 Edge에 투영되므로 데이터가 적절한 Edge에 도달하는 시점은 Edge 활동과는 별개입니다. Edge에서 활성 상태인 프로필만 허브에서 투영된 속성과 대상자를 유지합니다.
 
 ## 구현 시 고려 사항
 
 ID 필요 조건
 
-* 위에 설명된 구현 패턴 1을 활용할 때 모든 기본 ID를 활용할 수 있습니다. [!DNL Edge Network] 및 Web SDK를 사용할 수 있습니다. 로그인을 처음 개인화할 때에는 개인화 요청에서 설정한 기본 ID가 Real-time Customer Data Platform 프로필의 기본 ID와 일치해야 합니다. 허브에서 익명 디바이스와 알려진 고객의 신원 연결을 진행한 뒤 Edge로 투영합니다.
-* 소비자가 웹 사이트를 방문하거나 로그인하기 전에 허브에 업로드된 데이터는 개인화에 바로 사용할 수 없습니다. 먼저 활성 Edge 프로필이 있어야 허브 데이터를 해당 프로필에 동기화할 수 있습니다. Edge 프로필을 만들면 허브 프로필과 비동기적으로 동기화되어 다음 페이지 개인화가 발생합니다.
-* Adobe Experience Platform에서 Adobe Target으로 대상자를 공유하려면 위의 통합 패턴 2와 3에서 설명한 대로 대상자 공유 서비스를 사용할 때 ECID를 신원으로 사용해야 합니다.
-* Audience Manager을 통해 대체 ID를 사용하여 Experience Platform 대상을 Adobe Target에 공유할 수도 있습니다. Experience Platform에서 Audience Manager를 활성화 가능한 지원되는 네임스페이스는 다음과 같습니다: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Audience Manager와 Target은 ECID 신원을 통해 대상자 멤버십을 해결하므로 Adobe Target에 최종 대상자를 공유하려면 해당 소비자에 대한 신원 그래프에 ECID가 있어야 합니다.
+* 위에 설명된 구현 패턴 1을 활용할 때 모든 기본 ID를 활용할 수 있습니다. [!DNL Edge Network] 및 Web SDK를 사용할 수 있습니다. 첫 번째 로그인 개인화를 사용하려면 개인화 요청 세트 기본 ID가 Real-time Customer Data Platform 프로필의 기본 ID와 일치해야 합니다.
 
 ## 관련 설명서
 
@@ -104,12 +91,6 @@ ID 필요 조건
 * [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
 * [Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
-
-### 연결 설명서
-
-* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
-* [Edge Datastream 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
-* [Experience Platform 세그먼트를 Audience Manager 및 기타 Experience Cloud 솔루션에 공유하기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ko)
 
 ### 세분화 설명서
 
