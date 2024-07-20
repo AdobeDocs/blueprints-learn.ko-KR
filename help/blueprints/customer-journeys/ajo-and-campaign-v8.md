@@ -5,14 +5,14 @@ solution: Journey Optimizer, Campaign, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
 source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '632'
+ht-degree: 64%
 
 ---
 
 # Journey Optimizer와 Adobe Campaign v8 블루프린트
 
-Adobe 방법을 보여 줍니다 [!DNL Journey Optimizer] Adobe과 함께 사용할 수 있습니다. [!DNL Campaign] 의 실시간 메시징 서버를 사용하여 메시지를 기본적으로 전송합니다. [!DNL Campaign].
+[!DNL Campaign]의 실시간 메시징 서버를 사용하여 Adobe [!DNL Journey Optimizer]을(를) Adobe [!DNL Campaign]과(와) 함께 사용하여 메시지를 기본적으로 보내는 방법을 보여 줍니다.
 
 ## 아키텍처
 
@@ -41,7 +41,7 @@ Adobe 방법을 보여 줍니다 [!DNL Journey Optimizer] Adobe과 함께 사용
 
 * [Journey Optimizer Guarrails 제품 제한 사항](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ko)
 
-* [보호 및 완벽한 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 구현 단계
 
@@ -67,30 +67,30 @@ Adobe 방법을 보여 줍니다 [!DNL Journey Optimizer] Adobe과 함께 사용
 
 #### 소스/대상
 
-1. [데이터 수집 대상 [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko) 스트리밍 API 및 소스 커넥터 사용.
+1. 스트리밍 API 및 소스 커넥터를 사용하여 [데이터를  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)(으)로 수집
 
 ### Journey Optimizer   
 
-1. 구성 [!DNL Experience Platform] 데이터 소스 및 프로필의 일부로 캐시할 필드 결정고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 오케스트레이션 ID를 가져오려면 먼저 Journey Optimizer 내에서 구성해야 합니다. 이 오케스트레이션 ID는 데이터 수집에 사용할 수 있도록 개발자에게 제공됩니다.
+1. [!DNL Experience Platform] 데이터 소스를 구성하고 프로필의 일부로 캐시할 필드를 결정고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 오케스트레이션 ID를 가져오려면 먼저 Journey Optimizer 내에서 구성해야 합니다. 이 오케스트레이션 ID는 데이터 수집에 사용할 수 있도록 개발자에게 제공됩니다.
 1. 외부 데이터 소스를 구성합니다.
 1. Campaign 인스턴스에 대한 사용자 지정 작업을 구성합니다.
 
 ### Campaign v8
 
 * 메시징 템플릿은 적절한 개인화 컨텍스트로 구성해야 합니다.
-* 대상 [!DNL Campaign] 표준: 트랜잭션 메시지 로그를 다시 Experience Platform으로 내보내려면 내보내기 워크플로우를 구성해야 합니다. 최대 4시간마다 실행하는 것이 좋습니다.
-* 대상 [!DNL Campaign] v8.4 Adobe 활용 가능 [!DNL Campaign] Experience Platform의 Managed Services 소스 커넥터를 사용하여 Campaign의 게재 및 추적 이벤트를 Experience Platform에 동기화할 수 있습니다. 다음을 참조하십시오. [소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko) 자세한 내용은 설명서를 참조하십시오.
+* [!DNL Campaign] 표준의 경우: 트랜잭션 메시지 로그를 다시 Experience Platform으로 내보내려면 내보내기 워크플로우를 구성해야 합니다. 최대 4시간마다 실행하는 것이 좋습니다.
+* [!DNL Campaign] v8.4의 경우 Experience Platform의 Adobe [!DNL Campaign] Managed Services Source 커넥터를 사용하여 Campaign의 게재 및 추적 이벤트를 Experience Platform에 동기화할 수 있습니다. 자세한 내용은 [Source 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko) 설명서를 참조하십시오.
 
 ### 모바일 푸시 구성(선택 사항)
 
-1. 구현 [!DNL Experience Platform] Mobile SDK를 사용하여 푸시 토큰 및 로그인 정보를 수집하여 알려진 고객 프로필에 다시 연결합니다.
+1. [!DNL Experience Platform] Mobile SDK를 구현하여 푸시 토큰과 로그인 정보를 수집하여 알려진 고객 프로필에 다시 연결합니다.
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
    * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
    * Adobe [!DNL Experience Platform] [!DNL Edge Network]
-   * 다음에 대한 ID [!DNL Edge Network]
+   * [!DNL Edge Network]에 대한 ID
    * Mobile Core
 1. 모바일 앱 배포와 웹 배포를 위한 전용 데이터스트림이 있는지 확인합니다.
-1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. 자세한 내용은 [Adobe Journey Optimizer Mobile 안내서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)를 참조하세요.
 
    >[!IMPORTANT]
    >Journey Optimizer를 통해 실시간 커뮤니케이션을 보내고 Campaign을 통해 일괄 푸시 알림을 보내려는 경우 Journey Optimizer와 Campaign 양쪽에서 모바일 토큰을 수집해야 할 수 있습니다. Campaign v8에서 푸시 토큰을 캡처하려면 Campaign SDK를 단독으로 사용해야 합니다.

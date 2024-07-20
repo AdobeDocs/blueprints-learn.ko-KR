@@ -13,13 +13,13 @@ ht-degree: 91%
 
 # 데이터 액세스 및 블루프린트 내보내기
 
-데이터 액세스 및 내보내기 블루프린트는 데이터에서 액세스하거나 내보낼 수 있는 가능한 모든 방법에 대해 간략하게 설명합니다 [!DNL Experience Platform] 및 응용 프로그램.
+데이터 액세스 및 내보내기 블루프린트는 [!DNL Experience Platform] 및 응용 프로그램에서 데이터를 액세스하거나 내보낼 수 있는 모든 방법을 간략하게 설명합니다.
 
-블루프린트는 의 데이터 액세스를 위해 두 개의 카테고리로 나뉩니다 [!DNL Experience Platform] 및 응용 프로그램.
+블루프린트는 [!DNL Experience Platform] 및 응용 프로그램에서 데이터 액세스를 위해 두 개의 범주로 나뉩니다.
 
-첫 번째 방법에는 의 데이터를 이그레스하기 위한 접근 방식이 포함되어 있습니다 [!DNL Experience Platform] 및 응용 프로그램. 이는 _푸시_ 데이터 이그레스의 유형 메서드입니다.
+첫 번째 방법에는 [!DNL Experience Platform] 및 응용 프로그램의 데이터를 회귀하는 방법이 포함되어 있습니다. 이는 데이터 이그레스의 _push_ 유형 메서드로 간주됩니다.
 
-두 번째는 의 데이터에 액세스하기 위한 접근 방식을 포함합니다. [!DNL Experience Platform] 및 응용 프로그램. 이는 _가져오기_ 유형 데이터 액세스 방법입니다.
+두 번째는 [!DNL Experience Platform] 및 응용 프로그램에서 데이터에 액세스하는 방법을 포함합니다. 이는 데이터 액세스의 _pull_ 유형 메서드로 간주됩니다.
 
 데이터 액세스 접근 방식:
 
@@ -412,7 +412,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 
 ### 이벤트 전달 {#event-forwarding}
 
-데이터 수집 요청은 Adobe의 [!DNL Edge Network]. 다음에서 [!DNL Edge Network] 외부 RESTful 끝점에 대한 요청은 이러한 요청을 외부 대상에 전달하도록 구성할 수 있습니다.
+데이터 수집 요청은 Adobe [!DNL Edge Network]에 직접 수집됩니다. 외부 RESTful 끝점에 대한 [!DNL Edge Network] 요청에서 이러한 요청을 외부 대상으로 전달하도록 구성할 수 있습니다.
 
 자세한 내용은 [이벤트 전송](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ko) 설명서를 참조하세요.
 
@@ -422,7 +422,7 @@ Adobe의 태그 솔루션을 사용하여 확장을 배포할 수 있습니다. 
 
 #### 고려할 사항
 
-* 이벤트 전달을 사용하려면 데이터를 [!DNL Edge Network] Web SDK 또는 MobileSDK 사용.
+* 이벤트 전달을 사용하려면 Web SDK 또는 MobileSDK를 사용하여 데이터를 [!DNL Edge Network](으)로 보내야 합니다.
 * 이벤트 전송 접근 방식은 페이지에 태그를 더 추가하는 데 따른 페이지 로드 시간과 가중치를 줄여 줍니다.
 * Edge 프로필이나 다른 데이터 소스를 통한 데이터 보강은 현재 지원하지 않습니다.
 * 제한된 데이터 필터링 및 간단한 매핑 변환을 지원합니다.

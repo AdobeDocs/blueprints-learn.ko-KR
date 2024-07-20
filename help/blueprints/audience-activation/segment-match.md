@@ -5,8 +5,8 @@ solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 79%
+source-wordcount: '2118'
+ht-degree: 80%
 
 ---
 
@@ -44,7 +44,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 ## 아키텍처
 
-![세그먼트 매치 아키텍처](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![Segment Match 아키텍처](assets/architecture-segment-match.png){zoomable="yes"}
 
 [!UICONTROL Segment Match]는 데이터를 구입할 수 있는 데이터 시장이 아닙니다. 선택한 파트너의 퍼스트파티 데이터로 작동하며 개인 정보 보호 및 동의 제어를 사용하여 공동 작업을 돕는 AEP 기능입니다. [!UICONTROL Segment Match]는 고객 관계를 개선하고 브랜드를 성장시키는 데 중점을 둡니다. 기존에 브랜드나 파트너 관계가 존재하는 경우에 유용합니다. [!UICONTROL Segment Match]의 경험은 관리가 쉽고 확장이 가능하며, 관리자가 옵트인 기반의 제어 가능한 방식으로 세그먼트를 공유할 수 있도록 해 줍니다.
 
@@ -77,7 +77,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 [!UICONTROL Segment Match]의 파트너 관리 플로우는 RBAC에 의해 보호됩니다. 권한이 있는 개인만이 파트너를 시작, 수락 또는 관리할 수 있습니다. 이 작업은 [제품 프로필]의 [데이터 수집] 섹션에서 수행할 수 있습니다. 다음 권한이 필요합니다.
 
-![대상 공유 연결](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![대상자 공유 연결](assets/data-ingestion.png){zoomable="yes"}
 
 | 권한 | 설명 |
 |---|---|
@@ -140,13 +140,13 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 전체 프로세스의 플로우는 다음과 같습니다.
 
-![세그먼트 공유](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
+![세그먼트 공유](assets/segment-sharing.png){zoomable="yes"}
 
 이 교집합 예상치를 통해 핵심 인사이트를 확인하고 파트너를 탐색하며 데이터 공동 작업 약정의 원동력이 될 데이터를 얻을 수 있습니다. 이 교집합 예상치 지표를 얻기 위해 고객 또는 세그먼트 데이터를 샌드박스 간에 옮길 필요는 없습니다. 어떤 샌드박스에서든 고객이 선택하고 사전 해시 처리한 적용 가능 신원을 확률론적 데이터에 추가함으로써 Adobe가 해당 신원 집합의 합집합 및 교집합 연산을 처리할 수 있습니다. 이 연산은 [!UICONTROL Segment Match]가 실제 값을 비교할 필요 없이 서로 다른 두 샌드박스에서 가져온 신원으로 구성한 두 데이터 구조에 대해 예상 교집합을 확인하는 데 도움이 됩니다.
 
 신원 교집합 프로세스는 보내는 쪽과 받는 쪽의 샌드박스 양쪽에서 **매일 전체 프로필 내보내기**&#x200B;로 가져온 데이터 세트에 의존하여 공유 세그먼트에 속하는 공통 프로필을 식별합니다. 이 교집합 프로세스의 자세한 프로세스 플로우는 아래와 같습니다.
 
-![ID 중복 프로세스](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![신원 교집합 프로세스](assets/overlap-process.png){zoomable="yes"}
 
 보내는 파트너의 세그먼트 공유가 완료되면 받는 파트너는 세그먼트 피드 공유에 대한 알림을 받습니다. 세그먼트 멤버십 데이터 플로우를 시작하려면 받는 쪽의 프로필에서 이 세그먼트 피드를 사용하도록 설정해야 합니다. 받는 IMS 조직의 교집합 프로필 조각에서는 세그먼트 멤버십만 수집하며, 그 외에 보내는 쪽에서 받는 쪽으로 전송되는 신원은 없습니다.
 
@@ -170,7 +170,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 개인 정보 중심 대상 공동 작업에서 Adobe Experience Platform 세그먼트 일치 를 사용하고 광고주와 게시자 간의 프로그래밍 방식의 개인 거래를 향상시킬 수 있습니다. 세그먼트 일치를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
-* 분할 **광고 트래픽** 및 **대상자** 워크플로.
+* **광고 트래픽** 및 **대상자** 워크플로우를 분할합니다.
 * 동의 강제 수행 프로세스 내에서 해시된 이메일 및 해시된 전화 번호와 같은 지속적인 식별자를 사용하여 파트너 브랜드가 상호 공유되고 동의하는 ID를 위해 대상 메타데이터를 공유할 수 있습니다.
 
 ### 사용 사례
@@ -181,7 +181,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 >[!BEGINSHADEBOX]
 
-**브랜드(Luma)와 미디어 네트워크(ACME) 간의 다음 예제 워크플로를 생각해 보십시오.**
+**브랜드(Luma)와 ACME(미디어 네트워크) 간의 다음 예제 워크플로를 고려하십시오.**
 
 1. 브랜드(Luma)는 세그먼트 일치를 통해 ACME(미디어 네트워크)와 대상자 일치를 수행합니다.
 2. ACME는 Adobe Real-Time CDP 대상을 통해 대상을 광고 서버 또는 프로그래밍 방식 SSP로 푸시합니다.
@@ -194,7 +194,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 >[!ENDSHADEBOX]
 
-![브랜드와 게시자 간의 워크플로우에 대한 다이어그램입니다.](./assets/segment-match-blueprints.png)
+![브랜드와 게시자 간 워크플로의 다이어그램입니다.](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >

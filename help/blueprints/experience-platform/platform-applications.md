@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '831'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[Experience Cloud 애플리케이션 통합을 위한 통합 구성](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+>[Experience Cloud 응용 프로그램 통합을 위한 통합 구성](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
 
 
 ## 아키텍처 다이어그램

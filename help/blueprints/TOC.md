@@ -16,7 +16,7 @@ ht-degree: 56%
 # 디지털 경험 블루프린트 {#architecture}
 
 + [Digital Experiences 블루프린트](/help/blueprints/overview.md)
-+ 수직 산업의 청사진{#vertical-blueprints}
++ 수직 산업 블루프린트{#vertical-blueprints}
    + [개요](/help/blueprints/vertical-blueprints/overview.md)
    + [의류](/help/blueprints/vertical-blueprints/apparel.md)
    + [소매](/help/blueprints/vertical-blueprints/retail.md)
@@ -27,7 +27,7 @@ ht-degree: 56%
    + [Experience Platform 및 애플리케이션](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform 데이터 흐름](/help/blueprints/experience-platform/platform-data-flow.md)
    + 배포 {#deployment}
-      + [Experience Platform 웹 SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [웹 SDK 및  [!DNL Edge Network] Experience Platform](/help/blueprints/experience-platform/deployment/websdk.md)
       + [애플리케이션 SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [가드레일](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 대상 및 프로필 활성화 {#audience-activation}
@@ -53,7 +53,7 @@ ht-degree: 56%
       + [접수 및 만들기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [검토 및 승인](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [고객 성공 사례](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Content &amp; Commerce{#content-commerce}
++ 컨텐츠 및 Commerce{#content-commerce}
    + [Adobe Commerce 및 RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [개요](/help/blueprints/customer-journey-analytics/overview.md)
@@ -71,15 +71,15 @@ ht-degree: 56%
       + [서드파티 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko){target="_blank"}
-      + [Adobe 포함 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko){target="_blank"}
+      + [Adobe이 있는 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko){target="_blank"}
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [Adobe 포함 Real-Time CDP [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Adobe  [!DNL Campaign] v8이(가) 있는 Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Adobe 포함 Real-Time CDP [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [Adobe 포함 Journey Optimizer [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [Adobe  [!DNL Campaign] v7이(가) 있는 Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Adobe  [!DNL Campaign] v7이(가) 있는 Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 데이터 수집, 액세스, 내보내기 {#data-ingestion}
    + [개요](/help/blueprints/data-ingestion/overview.md)
    + [다중 샌드박스 이벤트 전달 데이터 수집](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)

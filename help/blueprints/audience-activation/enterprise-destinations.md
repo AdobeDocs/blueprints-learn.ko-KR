@@ -6,8 +6,8 @@ kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 애플리케이션
 
-* Adobe Experience Platform       Activation
+* Adobe Experience Platform 활성화
 
 ## 아키텍처
 

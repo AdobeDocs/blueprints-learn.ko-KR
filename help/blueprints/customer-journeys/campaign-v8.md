@@ -5,8 +5,8 @@ solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: 16b233c7ea9077566ebf12238f0a87beec1c61ce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '966'
+ht-degree: 41%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 
 ## 아키텍처 다이어그램
 
-자세히 알아보기 [Campaign v8 배포 모델](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+[Campaign v8 배포 모델](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}에 대해 자세히 알아보세요.
 
 ### Campaign Enterprise(FFDA) 배포
 
@@ -41,8 +41,8 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] Adobe 포함 [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Adobe Experience Platform 및 실시간 고객 프로필과 중앙 집중식 세분화 도구를 Adobe과 함께 활용하는 방법을 보여 줍니다 [!DNL Campaign] 개인화된 대화를 전달하려면 | <ul><li>에서 프로필 및 대상자 공유 [!DNL Real-Time CDP] 대상 Adobe [!DNL Campaign] 클라우드 스토리지 파일 교환 및 Adobe 사용 [!DNL Campaign] 수집 워크플로우 </li><li>고객 대화의 전달 및 상호 작용 데이터를 [!DNL Real-Time CDP] 출처: Adobe [!DNL Campaign] 실시간 고객 프로필을 개선하고 메시징 캠페인에 대한 크로스 채널 보고를 제공합니다.</li></ul> |
-| [[!DNL Journey Optimizer] Adobe 포함 [!DNL Campaign]](ajo-and-campaign.md) | Adobe Journey Optimizer을 사용하여 실시간 고객 프로필을 활용하는 1:1 경험을 조정하고 기본 Adobe을 활용하는 방법을 보여 줍니다 [!DNL Campaign] 메시지를 보낼 트랜잭션 메시지 시스템 | 의 실시간 고객 프로필 및 기능 활용 [!DNL Journey Optimizer] Adobe의 기본 실시간 메시징 기능을 활용하면서 즉각적인 경험을 조율합니다. [!DNL Campaign] 마지막 마일 통신을 하다<br><br>고려 사항:<br><ul><li>[실시간 메시지] 서버를 통해 시간당 최대 100만 개의 메시지를 전송할 수 있습니다.<li>다음에서 조정이 수행되지 않습니다. [!DNL Journey Optimizer] 따라서 Pre-Sales Enterprise Architect 의 기술 검증</li><li>Campaign v8로 가는 페이로드에는 의사 결정 관리를 지원하지 않습니다.</li></ul> |
+| [[!DNL Real-time Customer Data Platform] Adobe 포함 [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Adobe Experience Platform 및 실시간 고객 프로필과 중앙 집중식 세분화 도구를 Adobe [!DNL Campaign]과(와) 함께 사용하여 개인 맞춤화된 대화를 제공하는 방법을 소개합니다 | <ul><li>클라우드 저장소 파일 교환 및 Adobe [!DNL Campaign] 수집 워크플로를 사용하여 [!DNL Real-Time CDP]에서 [!DNL Campaign] Adobe으로 프로필 및 대상자를 공유합니다. </li><li>고객 대화의 게재 및 상호 작용 데이터를 [!DNL Campaign] Adobe에서 [!DNL Real-Time CDP](으)로 쉽게 공유하여 실시간 고객 프로필을 개선하고 메시징 캠페인에 대한 크로스 채널 보고를 제공합니다</li></ul> |
+| [[!DNL Journey Optimizer] Adobe 포함 [!DNL Campaign]](ajo-and-campaign.md) | Adobe Journey Optimizer을 사용하여 실시간 고객 프로필을 활용하여 1:1 경험을 조정하고 기본 Adobe [!DNL Campaign] 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다 | [!DNL Journey Optimizer]의 실시간 고객 프로필과 기능을 활용하여 즉각적인 경험을 조율하고 [!DNL Campaign] Adobe의 기본 실시간 메시징 기능을 활용하여 마지막 마일 통신을 수행합니다<br><br>고려 사항:<br><ul><li>[실시간 메시지] 서버를 통해 시간당 최대 100만 개의 메시지를 전송할 수 있습니다.<li>[!DNL Journey Optimizer]에서 제한이 수행되지 않으므로 Pre-Sales Enterprise Architect의 기술 검사를 확인하십시오.</li><li>Campaign v8로 가는 페이로드에는 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
 ## 필요 조건
 
@@ -50,7 +50,7 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 
 ### 애플리케이션 서버 및 실시간 메시지 서버
 
-* Adobe [!DNL Campaign] 클라이언트 콘솔은 상호 작용하고 [!DNL Campaign] v8 소프트웨어. Windows 기반 클라이언트이며 표준 인터넷 프로토콜(SOAP, HTTP 등)을 사용합니다 소프트웨어를 배포, 설치, 실행하기 위해 조직에서 필요한 권한을 사용하도록 설정해야 합니다.
+* [!DNL Campaign] v8 소프트웨어를 상호 작용하고 사용하려면 Adobe [!DNL Campaign] 클라이언트 콘솔이 필요합니다. Windows 기반 클라이언트이며 표준 인터넷 프로토콜(SOAP, HTTP 등)을 사용합니다 소프트웨어를 배포, 설치, 실행하기 위해 조직에서 필요한 권한을 사용하도록 설정해야 합니다.
 
 * IP 주소 허용 목록:
    * 모든 사용자가 클라이언트 콘솔에 액세스하는 동안 활용하는 IP 범위를 식별합니다.
@@ -82,12 +82,12 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 ### 애플리케이션 서버 크기 조정
 
 * 스토리지는 최대 200만 개의 프로필로 확장할 수 있으며 최대 1B 프로필까지 확장할 수 있습니다.
-* Adobe을 통한 사용자 액세스 설정 및 제어 [!DNL Admin Console].
-* 에 데이터 로드 중 [!DNL Campaign] 은(는) 배치 파일을 통해 수행되어야 합니다.
+* [!DNL Admin Console] Adobe을 통해 사용자 액세스를 설정하고 제어합니다.
+* [!DNL Campaign](으)로 데이터를 로드하려면 배치 파일을 사용해야 합니다.
    * API 데이터 로드 지원은 주로 데이터베이스 내의 프로필 또는 단순 개체(예: 만들기 및 업데이트)를 관리하는 용도입니다. 대량의 데이터나 일괄 처리에 가까운 작업 로드에 사용하도록 설계한 기능이 아닙니다.
    * 사용자 정의 애플리케이션 관련 목적의 API 데이터 읽기는 지원하지 않습니다.
    * API를 통해 로드한 데이터는 애플리케이션 데이터베이스에서 준비된 다음 매시간마다 클라우드 데이터베이스에 복제됩니다.
-* API 호출에 대한 제한이 적용됩니다. 다음에서 자세히 알아보기 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+* API 호출에 대한 제한이 적용됩니다. 자세한 내용은 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}을 참조하세요.
 
 ### 메시지 일괄 전송 서버 크기 조정
 
@@ -103,9 +103,9 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 * Campaign은 SMS 공급 시스템과 통합할 수 있습니다. 공급업체는 고객이 조달하고 SMS 기반 메시지 전송 캠페인과 통합됩니다.
 * 지원은 SMPP 프로토콜을 통해 이루어집니다.
 * SMS에는 세 가지 유형이 있으며, Adobe는 이 세 가지를 모두 지원합니다.
-   * SMS MT(모바일 종료됨): Adobe에서 전송하는 SMS [!DNL Campaign] SMPP 공급자를 통해 휴대 전화에 대한.
-   * SMS MO(모바일 출처): 모바일에서 Adobe으로 전송되는 SMS입니다 [!DNL Campaign] SMPP 공급자를 통해
-   * SMS SR(상태 보고서) 또는 DR 또는 DLR(배달 확인): 모바일이 Adobe에게 보낸 반환 확인 [!DNL Campaign] sms가 성공적으로 수신되었음을 나타내는 SMPP 공급자를 통해. Adobe [!DNL Campaign] 종종 오류에 대한 설명과 함께, 메시지가 전달되지 않았음을 나타내는 SR 을 수신할 수도 있습니다.
+   * SMS MT(모바일 착신): [!DNL Campaign] Adobe이 SMPP 공급자를 통해 휴대폰으로 보내는 SMS입니다.
+   * SMS MO(Mobile Originated): 모바일이 SMPP 공급자를 통해 [!DNL Campaign] Adobe에게 보내는 SMS입니다.
+   * SMS SR(상태 보고서) 또는 DR 또는 DLR(배달 확인): SMPP 공급자를 통해 모바일이 Adobe [!DNL Campaign]에게 보낸 반환 확인 메일은 SMS가 성공적으로 수신되었음을 나타냅니다. Adobe [!DNL Campaign]은(는) 종종 오류에 대한 설명과 함께 메시지를 배달할 수 없음을 나타내는 SR을 받을 수도 있습니다.
 
 ## 구현 단계
 

@@ -4,8 +4,8 @@ description: 접수 및 생성 - Marketo Engage와 Workfront 통합 블루프린
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Workfront와 Marketo Engage를 사용하면 시스템 간 연결을 통해 [Work
 
 아래 워크플로우는 캠페인 관리자가 Workfront 요청 양식을 사용하여 웨비나 요청을 만드는 과정을 보여 줍니다. 요청에서 제출한 세부 정보는 Marketo Engage 내에서 웨비나에 필요한 프로그램과 이메일이 만들어지도록 트리거합니다. 또한 요청 양식에서 세부 정보를 가져와 이메일의 콘텐츠를 채웁니다.
 
-![가져오기 및 만들기 블루프린트](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![블루프린트 가져오기 및 만들기](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Marketo Engage의 프로그램 템플릿으로 최상위 센터를 구축하는 
 
 Marketo Engage에서는 토큰을 사용하여 캠페인 자산에 콘텐츠를 채울 수 있습니다. 예를 들어 최상위 센터에서 이메일 템플릿을 복제한 뒤 Workfront Fusion에서 Workfront의 캠페인 요청에 있는 세부 정보를 가져다 Marketo Engage 프로그램의 [내 토큰]으로 전달할 수 있습니다. 그런 다음에는 토큰 값을 이메일에 직접 상속하여 이메일을 작성할 수 있습니다.
 
-![토큰을 사용하여 콘텐츠 채우기 다이어그램](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![토큰을 사용하여 콘텐츠 다이어그램 채우기](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### AEM Assets에서 가져온 이미지 채우기 {#populate-images-from-aem-assets}
 
@@ -147,7 +147,7 @@ Workfront 요청으로 새 Marketo Engage 프로그램을 만드는 과정을 �
 
 ## 가져오기 및 만들기 자동화 흐름 {#intake-and-create-automation-flow}
 
-미리 작성된 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ko){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ko){target="_blank"} 모듈을 사용하여 Fusion에서 워크플로우 논리를 조합함으로써 자동화를 더 빠르게 제공하는 방법의 예시입니다.
+다음은 자동화를 더 빨리 제공할 수 있도록 해주는 사전 빌드된 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ko){target="_blank"} 및 [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ko){target="_blank"} 모듈을 사용하여 Fusion에서 워크플로 논리를 조립하는 방법의 예입니다.
 
 ![가져오기 및 만들기 자동화 흐름](assets/intake-and-create-3.png)
 

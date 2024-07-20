@@ -35,7 +35,7 @@ ht-degree: 76%
 
 아래 그림에서는 Experience Platform의 실시간 고객 프로필의 핵심 구성 요소를 개략적으로 확인할 수 있습니다.
 
-프로필, 세분화 및 활성화와 관련된 추가 설명서는 [RTCDP 개요 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) 및 [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) 페이지.
+프로필, 세분화 및 활성화와 관련된 추가 설명서는 [RTCDP 개요 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) 및 [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) 페이지를 참조하십시오.
 
 <img src="assets/profile_architecture.jpg" alt="실시간 고객 프로필의 참조 아키텍처" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 

@@ -10,17 +10,17 @@ ht-degree: 80%
 
 ---
 
-# JOURNEY OPTIMIZER - [!DNL Decision Management] Edge 블루프린트에서
+# Journey Optimizer - Edge 블루프린트의 [!DNL Decision Management]
 
-[!DNL Decision Management] 의 일부로 제공되는 서비스입니다. [!DNL Journey Optimizer]. 이 블루프린트에서는 애플리케이션의 사용 사례 및 기술적 기능을 간략하게 훑어보고 의사 결정 관리의 다양한 아키텍처 구성 요소와 고려할 사항을 자세히 설명합니다.
+[!DNL Decision Management]은(는) [!DNL Journey Optimizer]의 일부로 제공된 서비스입니다. 이 블루프린트에서는 애플리케이션의 사용 사례 및 기술적 기능을 간략하게 훑어보고 의사 결정 관리의 다양한 아키텍처 구성 요소와 고려할 사항을 자세히 설명합니다.
 
 >[!MORELIKETHIS]
 >
->에 대해 자세히 알아보기 [!DNL Decision Management], 다음을 참조하십시오. [블루프린트 개요](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ko) 또는 [제품 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko).
+>[!DNL Decision Management]에 대한 자세한 내용은 [블루프린트 개요](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ko)를 참조하거나 [제품 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)를 참조하세요.
 
-[!DNL Decision Management] 다음 두 가지 방법 중 하나로 배포할 수 있습니다. 첫 번째는 [!DNL Experience Platform] 단일 데이터 센터 아키텍처인 허브 [허브] 접근 방식에서는 오퍼를 실행, 개인화하여 초 단위의 지연 시간을 두고 게재합니다 따라서 허브 아키텍처는 지연 시간이 초 미만 단위일 필요가 없는 고객 경험에 가장 적합합니다. 예를 들면 콜센터 또는 대면 상호 작용 등의 상담원 지원 경험이나 키오스크에서 제공하는 오퍼 의사 결정이 있습니다.
+[!DNL Decision Management]은(는) 다음 두 가지 방법 중 하나로 배포할 수 있습니다. 첫 번째 방법은 단일 데이터 센터 아키텍처인 [!DNL Experience Platform] 허브를 사용하는 것입니다. [허브] 접근 방식에서는 오퍼를 실행, 개인화하여 초 단위의 지연 시간을 두고 게재합니다 따라서 허브 아키텍처는 지연 시간이 초 미만 단위일 필요가 없는 고객 경험에 가장 적합합니다. 예를 들면 콜센터 또는 대면 상호 작용 등의 상담원 지원 경험이나 키오스크에서 제공하는 오퍼 의사 결정이 있습니다.
 
-두 번째 방법은 Experience Platform을 사용하는 것입니다 [!DNL Edge Network]: 빠르게 초당 밀리초 미만의 경험을 제공할 수 있도록 전역으로 분산된 지리적으로 위치한 인프라입니다. 지연 시간을 최소화하기 위해 소비자 지리적 위치에 가장 가까운 Edge 인프라에서 최종 소비자 경험을 실행하고 있습니다. [!DNL Decision Management] on the Edge는 실시간 소비자 경험을 제공하도록 설계되었습니다. 여기에는 웹 또는 모바일 인바운드 개인화 요청 등의 경험이 포함됩니다.
+두 번째 방법은 빠르게 1초 미만 및 밀리초 단위의 경험을 제공하기 위해 전역적으로 분산된 지리적으로 위치한 인프라인 Experience Platform [!DNL Edge Network]을(를) 사용하는 것입니다. 지연을 최소화하기 위해 소비자 지리적 위치에 가장 가까운 Edge 인프라에서 최종 소비자 경험을 실행하고 있습니다. Edge의 [!DNL Decision Management]은(는) 실시간 소비자 경험을 제공하도록 설계되었습니다. 여기에는 웹 또는 모바일 인바운드 개인화 요청 등의 경험이 포함됩니다.
 
 이 블루프린트는 Edge에서의 의사 결정 관리에 대해 구체적인 정보를 다룹니다.
 
@@ -62,7 +62,7 @@ Adobe Experience Platform
 
 * 의사 결정 관리의 가드레일은 다음 [의사 결정 관리 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html)을 참조하세요.
 
-[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 
 ## 구현 패턴

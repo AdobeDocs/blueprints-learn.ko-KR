@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 67%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 현재, 고객 여정 솔루션을 원할 때 고객이 선택할 수 있는 두 가지 Adobe 옵션이 있습니다.
 
-<ul><li>Adobe [!DNL Campaign] 관리되는 Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
+<ul><li>Adobe [!DNL Campaign] 관리 Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
 
 | 블루프린트 | 설명 | 아키텍처 |
 |---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | 기본적으로 위에 빌드됨 [!DNL Experience Platforms] 실시간 고객 프로필 을 통해 마케팅 팀은 변화하는 고객 행동에 실시간으로 반응하고 언제든지 채널에서 언제든지 해당 고객을 충족할 수 있습니다 | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Journey Optimizer](journey-optimizer.md)** | 기본적으로 [!DNL Experience Platforms] 실시간 고객 프로필 위에 구축되어 마케팅 팀이 변화하는 고객 행동에 실시간으로 반응하고 언제든지 채널에서 해당 고객 행동을 충족할 수 있습니다 | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 | **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | 고도로 복잡한 데이터 관리 및 캠페인 프로세스에 최적화된 차세대 캠페인 도구입니다. 고객이 풍부한 마케팅 캠페인 커뮤니케이션을 찾아내고 만들 수 있도록 지원합니다. | <img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 | **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | 이메일, SMS, DM 등 다양한 채널에서의 배치 기반 마케팅 캠페인을 위해 개발된 기존 캠페인 도구입니다. 고객이 다양한 고객 커뮤니케이션을 한 곳에서 오케스트레이션 및 관리할 수 있도록 지원합니다. | <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |

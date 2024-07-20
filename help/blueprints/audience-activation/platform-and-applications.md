@@ -48,7 +48,7 @@ Experience Platform과 Experience Cloud 애플리케이션 통합과 관련된 �
 
 ## 가드레일
 
-다음을 참조하십시오. [audience 및 Profile Activation 개요 페이지의 보호](overview.md) 및 [배포 보호 기능](../experience-platform/deployment/guardrails.md) 페이지를 가리키도록 업데이트하는 중입니다.
+대상자 및 프로필 활성화 개요 페이지의 [보호 기능](overview.md) 및 [배포 보호 기능](../experience-platform/deployment/guardrails.md) 페이지를 참조하세요.
 
 ## 구현 시 고려 사항
 

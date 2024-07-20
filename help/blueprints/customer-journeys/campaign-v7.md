@@ -5,8 +5,8 @@ solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1103'
+ht-degree: 94%
 
 ---
 
@@ -116,7 +116,7 @@ Adobe Campaign v7은 이메일, DM 등 기존 마케팅 채널용 캠페인 도�
 
 ## 구현 단계
 
-다음을 참조하십시오. [시작 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ko) Adobe Campaign v7 구현용
+Adobe Campaign v7을 구현하려면 [시작 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ko)를 참조하세요.
 
 
 ## 관련 설명서
