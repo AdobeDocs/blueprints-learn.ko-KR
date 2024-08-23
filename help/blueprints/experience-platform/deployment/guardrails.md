@@ -4,7 +4,7 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 15%
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 다음 다이어그램은 Experience Platform 및 애플리케이션에서 사용 사례를 설계할 때 알아야 하는 기본 에지 및 허브의 관찰된 대기 시간을 보여 줍니다.
 
-![Experience Platform [!DNL Edge Network] 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network 및 허브 기본 대기 시간이 관찰됨"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network 및 허브 기본 대기 시간이 관찰됨"){width="1000" zoomable="yes"}
 
 ### 데이터 수집 {#data-ingestion}
 
