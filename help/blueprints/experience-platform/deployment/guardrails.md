@@ -4,9 +4,9 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
-> 지연 시간 또는 성능 요구 사항이 엄격한 사용 사례의 경우 Adobe은 Adobe 계정 팀 및 구현 파트너와 세부 사항에 대해 논의할 것을 제안합니다. 각 고객 설정은 데이터 수집 패턴, 세그먼트 규칙 및 활성화 채널에 따라 다를 수 있습니다. 실행 전에 사용 사례를 테스트하고 검토하여 작동 방식을 이해하는 것이 중요합니다.
+> 지연 시간 또는 성능 요구 사항이 엄격한 사용 사례의 경우 Adobe은 Adobe 계정 팀 및 구현 파트너와 세부 사항에 대해 논의할 것을 제안합니다. 각 고객 설정은 데이터 수집 패턴, 프로필 수 및 풍부성, 세그먼트 규칙 및 활성화 채널에 따라 다를 수 있습니다. 따라서 성능을 최적화하고 예상 성능 특성을 완전히 파악하려면 사용 사례를 설계하고 테스트하는 것이 중요합니다.
 
 ## Adobe Experience Platform 및 애플리케이션 가드레일 참조 설명서
 
