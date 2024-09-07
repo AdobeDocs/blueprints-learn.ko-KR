@@ -4,21 +4,30 @@ description: 가드레일은 Adobe Experience Platform 및 애플리케이션 �
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
+source-git-commit: 7ccabe2d11467b02d7fb5a2f920ebc5af8a17983
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 15%
+source-wordcount: '603'
+ht-degree: 10%
 
 ---
 
 # 가드레일
+가드레일은 시스템 제한, 예상 대기 시간 및 성능 기대치를 반영하여 고객 아키텍처 및 사용 사례 성능을 최적화하고 안정성을 보장하고 오류나 예상치 못한 결과를 방지하는 데 도움이 됩니다.
 
-보호 기능은 Adobe Experience Platform 및 애플리케이션에서 데이터, 관찰된 대기 시간 및 시스템 사용에 대한 지침을 제공하는 권장 임계값입니다. 보호 기능은 시스템 제한 사항과 성능 기대치를 반영하여 고객 아키텍처 및 사용 사례 성능을 최적화하고 오류 또는 예상치 못한 결과를 방지하는 데 도움이 됩니다. 보호 기능은 SLA(서비스 수준 계약)가 아니며, SLA(서비스 수준 계약)는 아래 링크된 제품 설명 및 고객 라이선스 계약에 문서화되어 있습니다. 보호 기능은 안정성과 실행을 보장하기 위해 특정 고객 사용 사례에 대한 솔루션 설계 지침을 제공하기 위한 것입니다.
+## 보호 기능 유형
 
-응용 프로그램 및 기능의 특정 서비스 수준 계약에 대한 자세한 내용은 이 페이지 하단에 있는 [응용 프로그램 및 기능 설명](#application-feature-descriptions) 섹션을 참조하십시오.
+| 보호 유형 | 설명 |
+|---|---|
+| 성능 보호(소프트 제한) | 성능 보호는 사용 사례의 범위와 관련된 사용 제한이며 일반적인 조건에서 예상되는 성능을 요약합니다. 초과되면 성능 저하와 지연이 발생할 수 있습니다. 성능 보호 기능은 아래 설명된 대로 각 솔루션에 대한 보호 섹션 아래의 Experience League 문서에 설명되어 있습니다. |
+| 정적 제한(엄격한 제한) | 이는 초과할 수 없는 시스템 적용 제한입니다. 정적 제한은 일반적으로 계약상으로 연결되며 고객 계약과 [제품 설명](https://helpx.adobe.com/legal/product-descriptions.html)에 요약되어 있습니다. |
 
-지연 또는 볼륨 요구 사항이 엄격한 고객 사용 사례의 경우 Adobe은 Adobe 계정 팀 및 구현 파트너와 함께 사용 사례를 자세히 검토할 것을 권장합니다. 특정 경우에 사용 사례의 프로덕션 시작 전에 주어진 사용 사례 구현을 테스트하고 관찰하여 예상 동작을 관찰하고 이해하는 것이 좋습니다. 각 고객 구현에는 데이터 수집의 특성 및 케이던스, 빌드 중인 세그먼트 규칙의 세부 사항, 다양한 활성화 채널 및 페이로드를 비롯한 다양한 요소가 있으므로 각 사용 사례 구현에는 관찰된 성능이 달라질 것입니다. 따라서 사용 사례의 지연 시간 및 성능 요구 사항에 따라 적절한 아키텍처 및 구현을 보장하기 위해 예상되는 성능을 미리 설정하고 테스트하는 것이 가장 좋습니다.
+>[!NOTE]
+>
+> 보호 기능은 SLA(서비스 수준 계약)가 아니라 최적의 구성과 예상되는 시스템 동작을 위한 지침입니다. 시스템 또는 계약 제한 또는 SLA(서비스 수준 계약)에 해당하는 모든 보호 기능은 고객 계약 및 제품 설명에 자세히 설명되어 있습니다. 사용자 지정 제한에 대한 자세한 내용은 고객 지원 센터에 문의하십시오.
 
+>[!NOTE]
+>
+> 지연 시간 또는 성능 요구 사항이 엄격한 사용 사례의 경우 Adobe은 Adobe 계정 팀 및 구현 파트너와 세부 사항에 대해 논의할 것을 제안합니다. 각 고객 설정은 데이터 수집 패턴, 세그먼트 규칙 및 활성화 채널에 따라 다를 수 있습니다. 실행 전에 사용 사례를 테스트하고 검토하여 작동 방식을 이해하는 것이 중요합니다.
 
 ## Adobe Experience Platform 및 애플리케이션 가드레일 참조 설명서
 
@@ -77,19 +86,3 @@ ht-degree: 15%
 아래 다이어그램은 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en)(으)로 작업할 때 필요한 대기 시간 값을 표시합니다. 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
 ![Adobe Journey Optimizer 고급 시각적 개요 작업Adobe Journey Optimizer ](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "높은 수준의 시각적 개요 및 지연 시간 값을 사용하여 작업"){width="1000" zoomable="yes"}
-
-## 애플리케이션 및 기능 설명 {#application-feature-descriptions}
-
-기능별 SLA에 대한 자세한 내용은 아래 제품 설명을 참조하십시오.
-
-* [Experience Platform 컬렉션 기업용](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
-* [Real-time Customer Data Platform](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform.html)
-* [B2B Customer Data Platform](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-b2b.html)
-* [Experience Platform Activation](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform0.html)
-* [Experience Platform Intelligence](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [인텔리전트 서비스](https://helpx.adobe.com/kr/legal/product-descriptions/intelligent-services.html)
-* [Data Distiller](https://helpx.adobe.com/kr/legal/product-descriptions/data-distiller.html)
-* [Customer Journey Analytics](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html)
-* [Journey Optimizer](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Journey Orchestration](https://helpx.adobe.com/kr/legal/product-descriptions/journey-orchestration.html)
-* [Offer Decisioning](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html)
