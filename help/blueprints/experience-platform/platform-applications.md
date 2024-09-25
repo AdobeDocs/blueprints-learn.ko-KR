@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: 9fe44d93dcc05711c77ce1325b6549bb6c27a860
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -208,7 +208,7 @@ ht-degree: 91%
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform에서 작성한 프로필 및 대상자를 Adobe Commerce 내 개인화에 사용 가능하도록 만들 수 있습니다. </li>
+<li>Real-time Customer Data Platform에 내장된 프로필 및 대상을 Adobe Commerce의 개인화에 사용할 수 있습니다. </li>
 </ul>
 </td>
 <td colspan="1">
