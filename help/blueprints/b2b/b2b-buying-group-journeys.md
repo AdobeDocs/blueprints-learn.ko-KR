@@ -2,9 +2,9 @@
 title: 구매 그룹 기반 마케팅 및 여정 관리 블루프린트
 description: Adobe Journey Optimizer B2B edition의 구매 그룹으로 이어질 수 있는 여정을 식별, 디자인 및 구축하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer B2B Edition
-source-git-commit: 5035c869aa5181fff66cbc20b03922f82832f126
+source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Journey Optimizer B2B edition에서 제공하는 향상된 B2B 능력의 결과�
 
 ## 계정 기반 마케팅
 
-일반적인 사용 사례와 이 블루프린트의 포커스는 계정 기반 마케팅 이니셔티브로, 역할 및 솔루션 관심사와 관련된 경우 생성된 구매 그룹에 리드가 채워지는 지점을 살펴봅니다.
+일반적인 사용 사례이며 이 블루프린트의 초점은 계정 기반 마케팅 이니셔티브입니다. 이 사용 사례에서는 만든 구매 그룹이 역할 및 솔루션 관심사와 연결될 때 리드로 채워지는 지점을 살펴봅니다.
 
 여정을 통해 개인을 리드하면 양식, CRM 동기화 및 LinkedIn 활성화를 통해 리드(구매 그룹 워크플로)에 대한 자세한 정보를 수집합니다.
 
-잠재 고객이 솔루션 관심을 명확하게 보여 주면 비즈니스 렌즈로 정의된 비즈니스 이벤트를 나타냅니다. 이 시점에서 비즈니스는 이 리드가 정말로 제품에 관심이 있으며 Journey Optimizer B2B edition에서는 리드가 역할 템플릿(예: 인플루언서, 의사 결정자, 챔피언 및 스폰서)에서 해당 솔루션에 대한 구매 그룹과 연결되어 있다고 확신합니다.
+잠재 고객이 솔루션 관심을 명확하게 보여 주면 비즈니스 렌즈로 정의된 비즈니스 이벤트를 나타냅니다. 이 시점에서 비즈니스는 이 리드가 정말 제품에 관심이 있다고 확신합니다. Journey Optimizer B2B edition에서 잠재 고객은 역할 템플릿(예: 인플루언서, 의사 결정자, 챔피언 및 스폰서)의 해당 솔루션에 대한 구매 그룹과 연결되어 있습니다.
 
 다음 다이어그램에서 보여 주듯이 양식 또는 LinkedIn 활성화를 통해 세부 정보를 수집하고 채팅 봇과의 상호 작용이 발생한 경우 솔루션 의도를 한정할 수 있습니다.
 
@@ -85,7 +85,7 @@ B2B 리드 관리의 초점은 계정과 해당 리드에 있습니다. 기술 �
 
 스키마는 프로필의 풍부한 관계를 지원하기 위해 B2B 데이터 요소로 특별히 보강되었으며, 이벤트 및 프로필을 계정 스키마에 연결하기 위해 `sourceKey`을(를) 통한 계정 관점을 포함합니다. 스키마는 조직 요구 사항과 수집 및 프로파일링된 데이터를 나타냅니다. 이러한 요구 사항을 충족하기 위해 B2B 스키마는 유연하며 필수 B2B 요소의 확장입니다.
 
-조직의 데이터 스키마를 디자인할 때는 [RTCDP B2B 스키마 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)의 첫 번째 다이어그램에서 높은 수준의 엔터티를 사용하여 ERD의 주 엔터티를 표시하고 레이블을 지정하는 것이 좋습니다. 이 프로세스는 각 스키마에서 정의해야 하는 필수 데이터 요소를 이해하는 데 매우 유용합니다.
+조직의 데이터 스키마를 디자인할 때는 ERD의 주요 엔터티를 높은 수준의 엔터티로 나타내고 레이블을 지정하는 것이 좋습니다. ([RTCDP B2B 스키마 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)의 첫 번째 다이어그램을 참조하십시오.) 이 프로세스는 각 스키마에서 정의해야 하는 필수 데이터 요소를 이해하는 데 매우 유용합니다.
 
 이 단계에서 경험 이벤트는 아직 여정에 영향을 줄 수 없습니다. 경험 이벤트 스키마 외에도 사용자 활동을 기반으로 주요 결정을 나타내는 속성을 계정에 추가하는 것이 좋습니다. 이러한 속성은 여정 디자이너에서 분할 경로 요소에 사용됩니다.
 
@@ -97,7 +97,7 @@ B2B 리드 관리의 초점은 계정과 해당 리드에 있습니다. 기술 �
 
 계정 데이터 요소를 보강하기 위해 Marketo Engage 및 해당 B2B 데이터를 사용하여 RTCDP 및 Journey Optimizer B2B edition 계정 보기를 보강할 수 있습니다. Marketo Engage Source 커넥터를 설정하고 Marketo Engage 데이터를 RTCDP 스키마 속성에 매핑하면 데이터가 Marketo Engage에서 RTCDP로 이동하고 지정된 경우 프로필로 이동할 수 있습니다.
 
-커넥터 구성 및 이전 단계에서 정의한 스키마에 대한 필수 필드 매핑에 대한 자세한 내용은 [Marketo Engage 커넥터 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 참조하십시오.
+커넥터 구성 및 스키마에 대한 필수 필드 매핑에 대한 자세한 내용은 [Marketo Engage 커넥터 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 참조하세요.
 
 ### 가드레일
 
@@ -118,7 +118,7 @@ RTCDP 보호 기능에 대한 자세한 내용은 [Real-Time CDP 보호 기능 �
 
 ## 구현
 
-다음 단계에서는 Journey Optimizer B2B edition 인스턴스에서 구매 그룹 기능을 활성화하는 지침을 제공하고, 역할 템플릿이 없는 구매 그룹에 중점을 둔 계정 기반 확장을 지원하는 추가 활성화를 포함합니다.
+다음 단계에서는 구매 그룹 역할 템플릿 누락에 중점을 두고 계정 기반 확장을 지원하는 대상 활성화를 포함하여 Journey Optimizer B2B edition 인스턴스에서 구매 그룹을 활성화하는 지침을 제공합니다.
 
 ### 사전 요구 사항 단계
 
@@ -131,7 +131,7 @@ RTCDP 보호 기능에 대한 자세한 내용은 [Real-Time CDP 보호 기능 �
    * [RTCDP B2B 스키마 만들기 스크립트](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)를 사용하여 초기 스키마 생성
    * 조직 요구 사항에 맞게 스키마를 완료하기 위해 생성된 스키마에 사용 사례별 필드를 추가합니다.
 
-   이 단계에서는 Marketo Engage과 RTCDP 간의 연결을 설정하고 계정 및 개인 데이터를 수락하여 계정 세그먼트의 데이터 세트를 채울 스키마 구조가 정의됩니다. 다음 단계는 RTCDP를 Marketo Engage 및 Journey Optimizer B2B edition과 연결하는 것입니다.
+   이 단계에서는 계정 및 개인 데이터를 수락하여 Marketo Engage 세그먼트의 데이터 세트를 채울 스키마 구조와 계정 및 RTCDP 간의 연결이 정의됩니다. 다음 단계는 RTCDP를 Marketo Engage 및 Journey Optimizer B2B edition과 연결하는 것입니다.
 
 1. XDM 구조에 대한 Marketo Engage 매핑을 포함하여 Marketo Engage 커넥터를 구성합니다.
 
