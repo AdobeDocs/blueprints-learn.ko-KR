@@ -3,16 +3,18 @@ title: 의사 결정 관리 블루프린트
 description: 고객 여정 전반에 걸쳐 개인화된 오퍼를 게재합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 96%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer - 의사 결정 관리 블루프린트
 
 의사 결정 관리에 대한 자세한 내용은 [제품 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)를 참조하세요.
+
+[의사 결정 관리]와 관련된 보호 기능은 다음 설명서를 참조하십시오. [의사 결정 관리 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트에서는 애플리케이션의 사용 사례 및 기술적 기능을 간략하게 훑어보고 의사 결정 관리의 다양한 아키텍처 구성 요소와 고려할 사항을 자세히 설명합니다.
 
@@ -42,8 +44,6 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 
 ### 허브의 의사 결정 관리 기술 고려 사항
 
-* 초당 요청 수: 2000.
-* 응답 지연 시간: 500ms 미만.
 * 대상자 멤버십, 속성, 경험 이벤트 등 전체 실시간 고객 프로필 액세스.
 
 ## Edge의 의사 결정 관리   
@@ -57,10 +57,7 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 
 ### Edge 의사 결정 관리 기술 고려 사항
 
-* 초당 요청 수: 5000.
-* 응답 지연 시간: 250ms 미만.
 * Edge 실시간 프로필 액세스. Edge로 투영한 대상자 및 프로필 속성만 프로필에서 사용할 수 있습니다.
-* 첫 경험에서부터 개인화가 필요한 경우 프로필 전체를 사용할 수 있는 허브가 적합합니다. 처음부터 Edge 경험을 제공하려면 Edge 프로필을 허브와 동기화해야 합니다. 즉 Edge를 통한 제일 처음 경험에는 이전에 허브에 업로드한 프로필 데이터가 포함되지 않습니다.
 
 ## 관련 설명서
 

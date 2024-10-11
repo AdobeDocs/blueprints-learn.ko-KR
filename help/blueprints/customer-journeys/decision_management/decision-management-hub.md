@@ -3,10 +3,10 @@ title: 허브의 의사 결정 관리 블루프린트
 description: 키오스크, 상담원 지원 경험, 이메일, 기타 아웃바운드 게재 등 다양한 채널에서 소비자에게 개인화된 오퍼를 제공합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 84%
+source-wordcount: '656'
+ht-degree: 80%
 
 ---
 
@@ -39,23 +39,9 @@ Edge의 의사 결정 관리에 대한 자세한 내용은 [Edge의 의사 결�
 >
 >추가 정보 및 컨텍스트를 위해 프로필에 액세스해야 하는 오퍼 및 여정 사용 사례의 경우. 결정 시간에 사용할 수 있도록 허브에서 프로필로 데이터 수집을 지연하는 것과 관련된 사항을 고려하는 것이 중요합니다. 컨텍스트가 프로필로 스트리밍 또는 수집되고 오퍼 또는 여정이 오퍼 결정 후 몇 초 또는 몇 분 내에 해당 컨텍스트를 사용할 수 있어야 하는 시나리오의 경우 이러한 시나리오는 Edge의 의사 결정 관리에서 가장 잘 제공됩니다.
 
-<br>
-
 ## 아키텍처
 
 <img src="../assets/offers_hub.svg" alt="참조 아키텍처: Edge의 의사 결정 관리 블루프린트" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
-
-## 필요 조건
-
-Adobe Experience Platform
-
-* Journey Optimizer 데이터 소스를 구성하려면 먼저 시스템에서 스키마와 데이터 세트를 구성해야 합니다.
-* [경험 이벤트] 클래스 기반 스키마의 경우 규칙 기반 이벤트가 아닌 이벤트를 트리거하려면 [Orchestration eventID 필드 그룹]을 추가해야 합니다.
-* [개별 프로필] 클래스 기반 스키마의 경우 Journey Optimizer에서 사용할 테스트 프로필을 로드할 수 있도록 하려면 [프로필 테스트 세부 정보] 필드 그룹을 추가해야 합니다.
-
-<br>
 
 ## 가드레일
 
@@ -70,30 +56,6 @@ Adobe Experience Platform
 * 서버 API를 기반으로 의사 결정 관리를 구현하려는 경우 [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=ko)를 활용합니다.
 * 오퍼를 대량으로 메시지 게재 애플리케이션에 전달하는 일괄 처리 기반 의사 결정을 구현하려는 경우 [Batch Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=ko)를 사용합니다.
 * Edge 기반 실시간 경험에는 [Edge의 의사 결정 관리 블루프린트](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ko)에서 설명하는 것과 같이 Web/Mobile SDK 또는 Edge Decisioning API를 사용합니다.
-<br>
-
-## 구현 단계
-
-### Adobe Experience Platform  
-
-#### 스키마/데이터 세트
-
-1. 고객 제공 데이터를 기반으로 Experience Platform에서 [개인 프로필, 경험 이벤트 및 다중 항목 스키마를 구성합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ko)
-1. Experience Platform에서 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
-1. 거버넌스를 위해 Experience Platform에서 데이터 세트에 [데이터 사용 레이블을 추가](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ko)합니다.
-1. 대상 관리 [정책을 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ko)
-
-#### 프로필/신원
-
-1. [고객용 네임스페이스를 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [스키마에 신원을 추가합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
-1. [!UICONTROL Real-time Customer Profile]의 서로 다른 보기에 대한 [병합 규칙](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko)을 만듭니다(선택 사항).
-1. Journey에서 사용할 세그먼트를 만듭니다.
-
-#### 소스/대상
-
-1. 스트리밍 API 및 소스 커넥터를 사용하여 [Experience Platform으로 데이터를 수집해 옵니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)
 
 ## 관련 설명서
 
