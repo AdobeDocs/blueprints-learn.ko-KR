@@ -2,7 +2,8 @@
 title: 구매 그룹 기반 마케팅 및 여정 관리 블루프린트
 description: Adobe Journey Optimizer B2B edition의 구매 그룹으로 이어질 수 있는 여정을 식별, 디자인 및 구축하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer B2B Edition
-source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
