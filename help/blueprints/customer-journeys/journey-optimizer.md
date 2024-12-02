@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Journey Optimizer] - 트리거된 메시징 및 Adobe Experience Platform 블루프린트"
+title: '[!DNL Journey Optimizer] - 트리거된 메시징 및 Adobe Experience Platform 블루프린트'
 description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878

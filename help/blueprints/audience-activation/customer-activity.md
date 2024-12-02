@@ -1,13 +1,13 @@
 ---
 title: 고객 활동 허브 블루프린트
-description: "직원이 관여하는 지원 및 영업의 맥락을 제공하는 [!UICONTROL Real-time Customer Profile] 확인 블루프린트입니다."
+description: 직원이 관여하는 지원 및 영업의 맥락을 제공하는 [!UICONTROL Real-time Customer Profile] 확인 블루프린트입니다.
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
