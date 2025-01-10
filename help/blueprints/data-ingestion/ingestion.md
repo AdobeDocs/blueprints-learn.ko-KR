@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
+source-git-commit: 1b35f6955a7bb10d07c6ce796e80a18b92f25d18
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 73%
+source-wordcount: '452'
+ht-degree: 83%
 
 ---
 
@@ -219,7 +219,6 @@ ht-degree: 73%
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">항상 켜져 있지 않음, 즉각 수집. </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">델타 파일 수집을 위해 최소 15분마다 빈도 확인 되풀이</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -236,7 +235,6 @@ ht-degree: 73%
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">푸시, CSV, JSON, Parquet</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">- 파일의 TTL은 7일입니다</span></span></span></p>
 </td>
 </tr>
 <tr>
@@ -254,7 +252,6 @@ ht-degree: 73%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">최소 빈도 15분</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">예: MailChimp, One Trust, Zendesk</span></span></span></li>
 </ul>
 
@@ -263,33 +260,3 @@ ht-degree: 73%
 </tr>
 </tbody>
 </table>
-
-
-
-| 수집 방법 | 설명 |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | 지연:<ul><li>실시간 - [!DNL Edge Network]과(와) 동일한 페이지 컬렉션</li><li>95번째 백분위수에서 15분 미만의 프로필로 수집 스트리밍</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</ul>사용자 가이드: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)</li><li>[Web SDK를 사용하여 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)</li><li>[모바일 앱에서 Adobe Experience Cloud 구현하기 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko)</li></ul> |
-| 스트리밍 소스 | [스트리밍 소스](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#connectors)<br>지연:<ul><li>실시간 - [!DNL Edge Network]과(와) 동일한 페이지 컬렉션</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li></ul> |
-| 스트리밍 API | [[!DNL Edge Network] Server API(기본 설정)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko) - Edge 세분화를 포함한 Edge 서비스 및 <br>[데이터 수집 핵심 서비스 API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=ko) - Edge 서비스를 지원하지 않습니다. 허브로 직접 라우팅합니다.<br>지연:<ul><li>실시간 - [!DNL Edge Network]과(와) 동일한 페이지 컬렉션</li><li>프로필로 스트리밍 수집 1분 이내</li><li>데이터 레이크로 스트리밍 수집(소규모 일괄 처리 15분 이내)</li><li>7GB/시간</li></ul>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko#what-can-you-do-with-streaming-ingestion%3F) |
-| ETL 도구 사용 | ETL 도구를 사용하여 [!DNL Experience Platform](으)로 수집하기 전에 엔터프라이즈 데이터를 수정하고 변환합니다.<br><br>지연:<ul><li>시간은 외부 ETL 도구의 예약 설정에 따라 달라지며, 수집에 사용하는 방법을 기반으로 표준 수집 가드레일이 적용됩니다.</li></ul> |
-| 일괄 처리 소스 | 소스 예약 호출<br>지연: 최대 200GB/시간<br><br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#connectors)<br>[비디오 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=ko) |
-| 일괄 처리 API | 지연:<ul><li>프로필로 일괄 수집하는 경우 규모 및 트래픽 부하에 따라 달라지며 45분 이내</li><li>데이터 레이크로 일괄 수집하는 경우 규모 및 트래픽 부하에 따라 다름</li></ul>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=ko#batch) |
-| Adobe 애플리케이션 커넥터 | Adobe Experience Cloud 애플리케이션을 소스로 하는 데이터를 자동으로 수집<ul><li>Adobe Analytics: [설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko#connectors) 및 [비디오 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=ko)</li><li>Audience Manager: [설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko#connectors) 및 [비디오 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=ko)</li></ul> |
-
-
-## 데이터 준비 방법
-
-| 데이터 준비 방법 | 설명 |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 외부 ETL 도구([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] 등) | ETL 툴링에서 복잡한 변환을 수행하고 표준 [!DNL Experience Platform] [!UICONTROL 흐름 서비스] API 또는 소스 커넥터를 사용하여 결과 데이터를 수집합니다. |
-| [!UICONTROL 쿼리 서비스] - 데이터 준비 | 데이터를 새 데이터 세트와 연결, 분할, 병합, 변환, 쿼리 및 필터링합니다. CTAS(Create Table as Selec) 사용 <br>[설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko#sql) |
-| XDM 매핑 및 데이터 준비 함수(스트리밍 및 일괄 처리) | [!DNL Experience Platform] 수집 중에 CSV 또는 JSON 형식의 소스 특성을 XDM 특성에 매핑합니다.<br>수집하는 데이터의 함수 계산(데이터 형식 지정, 분할, 연결 등)<br>[사용자 가이드](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) |
-
-## 관련 블로그 게시물
-
-* [Adobe에서 외부 데이터 플랫폼 활용 [!DNL Experience Platform] [!DNL Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page)
-* [Iceberg를 통한 고처리량 수집](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page)
-* [Adobe에서 쿼리 서비스 트릭 [!DNL Experience Platform] (쿼리 작성 및 파생 데이터 세트 저장)](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
-* [실시간 고객 프로필의 기능을 더 완벽하게 이해하기 위해  [!DNL Experience Platform]의 Adobe 데이터 모델 파헤치기](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
-* [Adobe에 대한 탐색적 데이터 분석에 대한 소개 보기 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
-* [Adobe에서 규모에 맞게 데이터 과학을 위한 XDM 데이터 모델링 [!DNL Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page)
