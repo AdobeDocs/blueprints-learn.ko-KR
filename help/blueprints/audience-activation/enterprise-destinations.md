@@ -4,10 +4,10 @@ description: 엔터프라이즈 대상에 대한 대상자 및 프로필 활성�
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ## 가드레일
 
-[대상자 및 프로필 활성화 개요 페이지의 가드레일 설명을 참조하세요.](overview.md)
+[보호 기능 페이지에 설명된 대로 보호 기능을 참조하세요.](../experience-platform/deployment/guardrails.md)
 
 ## 구현 단계
 

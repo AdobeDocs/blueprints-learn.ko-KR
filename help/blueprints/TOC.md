@@ -5,7 +5,7 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 67c3debf5224cecf88d69ae1e2ba09765b8a575a
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -25,13 +25,13 @@ ht-degree: 53%
       + [애플리케이션 SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [가드레일](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 대상 및 프로필 활성화 {#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
+   + [Audience Manager](/help/blueprints/audience-activation/audience_manager.md)
    + Real-time Customer Data Platform(RTCDP) {#known-customer-audience-activation}
       + [소셜 및 광고 채널 활성화](/help/blueprints/audience-activation/advertising-activation.md)
       + [파일 및 엔터프라이즈 스트리밍 대상에 대한 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [고객 활동 허브](/help/blueprints/audience-activation/customer-activity.md)
       + [세그먼트 일치](/help/blueprints/audience-activation/segment-match.md)
-      + [Target 및 RTCDP](/help/blueprints/audience-activation/RTCDP-Target.md)
+      + [Target 및 RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B 활성화 및 마케팅 {#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)

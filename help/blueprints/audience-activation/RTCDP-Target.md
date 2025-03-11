@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 613c22fd6882144515bd91da64bb305be98dccf3
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 32%
@@ -63,7 +63,7 @@ ht-degree: 32%
 ### 웹/모바일 SDK 또는 [!DNL Edge Network] API를 사용하는 구현 패턴 1 - [!DNL Edge Network]&#x200B;(권장 방법)
 
 * 웹/모바일 SDK에서 [!DNL Edge Network]을(를) 사용 중입니다. 실시간 Edge 세분화를 사용하려면 Web/Mobile SDK 또는 Edge API 구현 방법이 필요합니다.
-* SDK 기반 구현은 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오](../../experience-platform/deployment/websdk.md).
+* SDK 기반 구현은 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오](../experience-platform/deployment/websdk.md).
 * Mobile SDK에서 사용하려면 [Adobe Journey Optimizer - Decisioning 확장](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)이 설치되어 있어야 합니다.
 * [Edge 프로필을 사용한 Adobe Target의 API 기반 구현은  [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)를 참조하십시오.
 
@@ -72,7 +72,7 @@ ht-degree: 32%
 기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 일괄 처리 대상자를 공유하는 작업을 지원합니다.
 
 [Adobe Target 커넥터 설명서를 참조하세요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[애플리케이션별 SDK 블루프린트 참조](../../experience-platform/deployment/appsdk.md)
+[애플리케이션별 SDK 블루프린트 참조](../experience-platform/deployment/appsdk.md)
 
 ## 구현 시 고려 사항
 
