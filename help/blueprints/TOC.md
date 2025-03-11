@@ -5,9 +5,9 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 616f2ba96d18b682d92e58dc06ae1b61a6c46ab4
+source-git-commit: 67c3debf5224cecf88d69ae1e2ba09765b8a575a
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '203'
 ht-degree: 53%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 53%
 + 대상 및 프로필 활성화 {#audience-activation}
    + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
    + Real-time Customer Data Platform(RTCDP) {#known-customer-audience-activation}
-      + [개요](/help/blueprints/audience-activation/known.md)
       + [소셜 및 광고 채널 활성화](/help/blueprints/audience-activation/advertising-activation.md)
       + [파일 및 엔터프라이즈 스트리밍 대상에 대한 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [고객 활동 허브](/help/blueprints/audience-activation/customer-activity.md)
