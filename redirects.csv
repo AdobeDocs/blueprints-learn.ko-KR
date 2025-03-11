@@ -1,15 +1,10 @@
 source,dest
-https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html,https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/overview.html
-https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html,https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/behavioral.html
-https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html,https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html
-/docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html,/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html
 /docs/blueprints-learn/architecture/data-science/overview.html,/docs/blueprints-learn/architecture/data-exploration/data-science.html
 /docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html,/docs/analytics-platform/using/cja-usecases/cross-channel.html
 /docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html,/docs/analytics-platform/using/cja-usecases/call-center.html
 /docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html,/docs/blueprints-learn/architecture/customer-journeys/cdp-and-campaign.html
 /docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html,/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html
 /docs/blueprints-learn/architecture/customer-journeys/rtcdp-and-campaign.html,/docs/blueprints-learn/architecture/customer-journeys/campaign-v7/rtcdp-and-campaign.html
-https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html,https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html
 https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html,https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/customer-activity.html
 https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.html,https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/marketo-engage-and-workfront-integration-blueprint/overview.html
 https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.html,https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/marketo-engage-and-workfront-integration-blueprint/intake-and-create.html
