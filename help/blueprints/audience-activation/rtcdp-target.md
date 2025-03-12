@@ -7,10 +7,10 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 32065a63e1febe0fe4fb76185c955cf124b81ca6
+source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 32%
+ht-degree: 29%
 
 ---
 
@@ -46,15 +46,15 @@ ht-degree: 32%
 
 아키텍처
 
-<img src="assets/RTCDP+Target.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/RTCDP+Target.svg)
 
 시퀀스 세부 사항
 
-<img src="assets/RTCDP+Target_flow.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/RTCDP+Target_flow.svg)
 
 아키텍처 개요
 
-<img src="assets/personalization_with_apps.svg" alt="온라인/오프라인 웹 개인화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/personalization_with_apps.svg)
 
 ## 구현 패턴
 
