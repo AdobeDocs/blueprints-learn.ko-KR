@@ -7,10 +7,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: bb3d3ec11809dceb9ecf46561b608e22bff855b9
+source-git-commit: 7cdafaa39e5f46a2d777219be519efca31d3830b
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 ## 아키텍처
 
-<img src="assets/anonymous_activation.svg" alt="익명 대상자 활성화 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+![익명 Audience Activation 블루프린트에 대한 참조 아키텍처](assets/anonymous_activation.svg)
 
 <br>
 
