@@ -1,11 +1,9 @@
 ---
 title: 고객 여정 블루프린트
 description: 어떤 화면에서든 개인에게 알맞고 시의적절한 고객 경험을 전달합니다.
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard, Experience Platform
-kt: null
-thumbnail: null
+solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 67%
@@ -18,9 +16,9 @@ ht-degree: 67%
 
 오케스트레이션 도구를 다른 소통 채널과 통합(예: 인바운드 채널과 통합)하여 다른 채널의 의사 결정 엔진과 대상자의 상태를 공유함으로써 웹 및 모바일 개인화를 실행할 수 있습니다. 고객 여정에 사용하는 애플리케이션 및 배포 옵션에 대해서는 여러 가지 요소가 있지만, 두 가지 접근 방식으로 요약할 수 있습니다. 고객이 참여할 때(트리거될 때) 반응하는 것과 고객 그룹이 참여할 때(예약됨) 대응하는 것입니다.
 
-현재, 고객 여정 솔루션을 원할 때 고객이 선택할 수 있는 두 가지 Adobe 옵션이 있습니다.
+현재 Adobe에서는 고객 여정 솔루션을 원할 때 고객이 선택할 수 있는 두 가지 옵션이 있습니다.
 
-<ul><li>Adobe [!DNL Campaign] 관리 Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
+<ul><li>Adobe [!DNL Campaign] 관리 클라우드 서비스</li><li>Adobe Journey Optimizer</li></ul>
 
 | 블루프린트 | 설명 | 아키텍처 |
 |---|---|---|

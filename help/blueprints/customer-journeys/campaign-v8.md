@@ -2,8 +2,9 @@
 title: Campaign v8 블루프린트, Campaign과 Platform
 description: Campaign v8의 블루프린트에 대해 알아봅니다.
 solution: Campaign,Campaign v8
+version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 16b233c7ea9077566ebf12238f0a87beec1c61ce
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 41%
@@ -41,8 +42,8 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] Adobe 포함 [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Adobe Experience Platform 및 실시간 고객 프로필과 중앙 집중식 세분화 도구를 Adobe [!DNL Campaign]과(와) 함께 사용하여 개인 맞춤화된 대화를 제공하는 방법을 소개합니다 | <ul><li>클라우드 저장소 파일 교환 및 Adobe [!DNL Campaign] 수집 워크플로를 사용하여 [!DNL Real-Time CDP]에서 [!DNL Campaign] Adobe으로 프로필 및 대상자를 공유합니다. </li><li>고객 대화의 게재 및 상호 작용 데이터를 [!DNL Campaign] Adobe에서 [!DNL Real-Time CDP](으)로 쉽게 공유하여 실시간 고객 프로필을 개선하고 메시징 캠페인에 대한 크로스 채널 보고를 제공합니다</li></ul> |
-| [[!DNL Journey Optimizer] Adobe 포함 [!DNL Campaign]](ajo-and-campaign.md) | Adobe Journey Optimizer을 사용하여 실시간 고객 프로필을 활용하여 1:1 경험을 조정하고 기본 Adobe [!DNL Campaign] 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다 | [!DNL Journey Optimizer]의 실시간 고객 프로필과 기능을 활용하여 즉각적인 경험을 조율하고 [!DNL Campaign] Adobe의 기본 실시간 메시징 기능을 활용하여 마지막 마일 통신을 수행합니다<br><br>고려 사항:<br><ul><li>[실시간 메시지] 서버를 통해 시간당 최대 100만 개의 메시지를 전송할 수 있습니다.<li>[!DNL Journey Optimizer]에서 제한이 수행되지 않으므로 Pre-Sales Enterprise Architect의 기술 검사를 확인하십시오.</li><li>Campaign v8로 가는 페이로드에는 의사 결정 관리를 지원하지 않습니다.</li></ul> |
+| [[!DNL Real-time Customer Data Platform] Adobe 사용 [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Adobe Experience Platform 및 실시간 고객 프로필, 중앙 집중식 세분화 도구를 Adobe [!DNL Campaign]과(와) 함께 사용하여 개인 맞춤화된 대화를 제공하는 방법을 소개합니다 | <ul><li>클라우드 저장소 파일 교환 및 Adobe [!DNL Campaign] 수집 워크플로우를 사용하여 [!DNL Real-Time CDP]에서 Adobe [!DNL Campaign]&#x200B;(으)로 프로필 및 대상자 공유 </li><li>고객 대화의 게재 및 상호 작용 데이터를 Adobe [!DNL Campaign]의 [!DNL Real-Time CDP]&#x200B;(으)로 쉽게 공유하여 실시간 고객 프로필을 개선하고 메시징 캠페인에 대한 크로스 채널 보고를 제공합니다</li></ul> |
+| [[!DNL Journey Optimizer] Adobe 사용 [!DNL Campaign]](ajo-and-campaign.md) | Adobe Journey Optimizer을 사용하여 실시간 고객 프로필을 활용하여 1:1 경험을 조정하고 기본 Adobe [!DNL Campaign] 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다 | [!DNL Journey Optimizer]의 실시간 고객 프로필과 기능을 활용하여 최신 경험을 조율하고 Adobe [!DNL Campaign]의 기본 실시간 메시징 기능을 활용하여 최후의 통신 수행<br><br>고려 사항:<br><ul><li>[실시간 메시지] 서버를 통해 시간당 최대 100만 개의 메시지를 전송할 수 있습니다.<li>[!DNL Journey Optimizer]에서 제한이 수행되지 않으므로 Pre-Sales Enterprise Architect의 기술 검사를 확인하십시오.</li><li>Campaign v8로 가는 페이로드에는 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
 ## 필요 조건
 
@@ -62,7 +63,7 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 ### 이메일
 
 * 메시지 전송에 사용할 하위 도메인이 준비되었습니다.
-* 하위 도메인을 AdobeAdobe 에 완전히 위임(권장)하거나 CNAME을 사용하여 도메인별 DNS 서버(사용자 지정)를 지정할 수 있습니다.
+* 하위 도메인을 Adobe에 완전히 위임(권장)하거나 CNAME을 사용하여 Adobe 관련 DNS 서버(사용자 지정)를 지정할 수 있습니다.
 * 전달성을 높이려면 각 하위 도메인에 Google TXT 레코드가 필요합니다.
 
 ### 모바일 푸시
@@ -82,8 +83,8 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 ### 애플리케이션 서버 크기 조정
 
 * 스토리지는 최대 200만 개의 프로필로 확장할 수 있으며 최대 1B 프로필까지 확장할 수 있습니다.
-* [!DNL Admin Console] Adobe을 통해 사용자 액세스를 설정하고 제어합니다.
-* [!DNL Campaign](으)로 데이터를 로드하려면 배치 파일을 사용해야 합니다.
+* Adobe [!DNL Admin Console]을(를) 통해 사용자 액세스를 설정하고 제어합니다.
+* [!DNL Campaign]&#x200B;(으)로 데이터를 로드하려면 배치 파일을 사용해야 합니다.
    * API 데이터 로드 지원은 주로 데이터베이스 내의 프로필 또는 단순 개체(예: 만들기 및 업데이트)를 관리하는 용도입니다. 대량의 데이터나 일괄 처리에 가까운 작업 로드에 사용하도록 설계한 기능이 아닙니다.
    * 사용자 정의 애플리케이션 관련 목적의 API 데이터 읽기는 지원하지 않습니다.
    * API를 통해 로드한 데이터는 애플리케이션 데이터베이스에서 준비된 다음 매시간마다 클라우드 데이터베이스에 복제됩니다.
@@ -103,9 +104,9 @@ Adobe Campaign v8은 이메일, DM 등 기존 마케팅 채널용 차세대 캠�
 * Campaign은 SMS 공급 시스템과 통합할 수 있습니다. 공급업체는 고객이 조달하고 SMS 기반 메시지 전송 캠페인과 통합됩니다.
 * 지원은 SMPP 프로토콜을 통해 이루어집니다.
 * SMS에는 세 가지 유형이 있으며, Adobe는 이 세 가지를 모두 지원합니다.
-   * SMS MT(모바일 착신): [!DNL Campaign] Adobe이 SMPP 공급자를 통해 휴대폰으로 보내는 SMS입니다.
-   * SMS MO(Mobile Originated): 모바일이 SMPP 공급자를 통해 [!DNL Campaign] Adobe에게 보내는 SMS입니다.
-   * SMS SR(상태 보고서) 또는 DR 또는 DLR(배달 확인): SMPP 공급자를 통해 모바일이 Adobe [!DNL Campaign]에게 보낸 반환 확인 메일은 SMS가 성공적으로 수신되었음을 나타냅니다. Adobe [!DNL Campaign]은(는) 종종 오류에 대한 설명과 함께 메시지를 배달할 수 없음을 나타내는 SR을 받을 수도 있습니다.
+   * SMS MT(모바일 착신): Adobe [!DNL Campaign]에서 SMPP 공급자를 통해 휴대폰으로 보내는 SMS입니다.
+   * SMS MO(Mobile Originated): 모바일에서 SMPP 공급자를 통해 Adobe [!DNL Campaign]&#x200B;(으)로 전송하는 SMS입니다.
+   * SMS SR(상태 보고서) 또는 DR 또는 DLR(배달 확인): SMPP 공급자를 통해 모바일이 Adobe [!DNL Campaign]에 SMS가 성공적으로 수신되었음을 나타내는 반환 확인 메일입니다. Adobe [!DNL Campaign]은(는) 종종 오류에 대한 설명과 함께 메시지를 배달할 수 없음을 나타내는 SR을 받을 수도 있습니다.
 
 ## 구현 단계
 
