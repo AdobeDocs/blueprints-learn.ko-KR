@@ -35,7 +35,7 @@ ht-degree: 10%
 
 <img src="assets/aep+apps_detailed.svg" alt="Experience Platform과 애플리케이션" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
->[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422784/?quality=12&learn=on&captions=kor)
 
 ## AEP 및 Experience Cloud 애플리케이션 통합
 
