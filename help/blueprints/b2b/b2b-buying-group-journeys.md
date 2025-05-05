@@ -68,11 +68,11 @@ B2B 리드 관리의 초점은 계정과 해당 리드에 있습니다. 기술 �
 >
 >Journey Optimizer B2B edition 라이선스에는 다음 항목이 포함되어야 합니다.
 ><ul><li>Experience Platform B2B에 연결된 Journey Optimizer B2B edition 인스턴스</li><li>RTCDP에 동기화되는 Marketo Engage 인스턴스</li></ul>
-&gt;<br/>
-&gt;기존 Marketo Engage 고객의 경우 기존 인스턴스에 연결하는 것이 좋습니다.
-&gt;<br/><br/>
-&gt;프로필 풍부성을 향상시키는 솔루션에 사용할 수 있는 추가 확장이 있습니다.
-&gt;<ul><li>프로필을 보강하기 위해 RTCDP에 대한 추가 소스</li><li>Marketo Engage에 대한 RTCDP 대상</li></ul>
+>&gt;<br/>
+>&gt;기존 Marketo Engage 고객의 경우 기존 인스턴스에 연결하는 것이 좋습니다.
+>&gt;<br/><br/>
+>&gt;프로필 풍부성을 향상시키는 솔루션에 사용할 수 있는 추가 확장이 있습니다.
+>&gt;<ul><li>프로필을 보강하기 위해 RTCDP에 대한 추가 소스</li><li>Marketo Engage에 대한 RTCDP 대상</li></ul>
 
 이 솔루션을 구현하려면 _계정_ 및 _구매 그룹_&#x200B;의 개념과 영업 리드 자격을 확대하고 가속화하는 방법에 대한 명확한 이해가 필요합니다. 이러한 이해를 통해 원하는 구매 그룹 완성도 점수도 식별해야 합니다.
 

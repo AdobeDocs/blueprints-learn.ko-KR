@@ -10,7 +10,7 @@ ht-degree: 72%
 
 ---
 
-# [!DNL Real-Time CDP](Adobe [!DNL Campaign] v8 통합 패턴 포함)
+# [!DNL Real-Time CDP] (Adobe [!DNL Campaign] v8 통합 패턴 포함)
 
 [!DNL Experience Platform] Adobe과 실시간 고객 프로필 및 중앙 집중식 세분화 도구를 Adobe Campaign과 함께 사용하여 개인 맞춤화된 대화를 제공하는 방법을 소개합니다.
 

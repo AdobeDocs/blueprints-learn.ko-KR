@@ -29,7 +29,7 @@ ht-degree: 69%
 
 ## 가드레일
 
-* 데이터 과학 결과를 [!DNL Experience Platform](으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](../experience-platform/deployment/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
+* 데이터 과학 결과를 [!DNL Experience Platform] (으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](../experience-platform/deployment/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
 
 ## 구현 단계
 

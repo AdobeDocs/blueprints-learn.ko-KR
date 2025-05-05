@@ -12,7 +12,7 @@ ht-degree: 53%
 
 # [!DNL Journey Optimizer] 블루프린트
 
-Adobe [!DNL Journey Optimizer]은(는) 마케팅 팀이 고객 행동에 실시간으로 반응하고 현재 위치에서 이를 충족하도록 특별히 빌드된 시스템입니다. 데이터 관리 기능이 Adobe [!DNL Experience Platform](으)로 이동되어 마케팅 팀이 가장 잘하는 일에 집중할 수 있습니다. 이는 세계적 수준의 고객 여정 및 맞춤형 대화를 만드는 것입니다.
+Adobe [!DNL Journey Optimizer]은(는) 마케팅 팀이 고객 행동에 실시간으로 반응하고 현재 위치에서 이를 충족하도록 특별히 빌드된 시스템입니다. 데이터 관리 기능이 Adobe [!DNL Experience Platform] (으)로 이동되어 마케팅 팀이 가장 잘하는 일에 집중할 수 있습니다. 이는 세계적 수준의 고객 여정 및 맞춤형 대화를 만드는 것입니다.
 
 이 블루프린트는 응용 프로그램의 기술 기능에 대해 간략하게 설명하고 [!DNL Journey Optimizer]을(를) 구성하는 다양한 아키텍처 구성 요소에 대해 자세히 살펴봅니다.
 
