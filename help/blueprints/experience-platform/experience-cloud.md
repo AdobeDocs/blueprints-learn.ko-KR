@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 48b34b05b83f693395b71bcabb16dffa548a1b00
+source-git-commit: c967d4945774ca4580b60656bc051c479ce56389
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 73%
@@ -20,7 +20,7 @@ ht-degree: 73%
 
 다음 다이어그램은 Adobe Experience Cloud의 다양한 구성 요소를 보여 줍니다. Adobe Experience Platform을 기반으로 데이터 인사이트 및 대상자, 콘텐츠 및 커머스, 고객 여정, 마케팅 워크플로우에 걸쳐 다양한 구성 요소가 작성 및 통합됩니다.
 
-<img src="assets/AEC.jpg" alt="Experience Cloud 개요" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.png" alt="Experience Cloud 개요" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## 데이터 및 통찰력, 콘텐츠 및 상거래, 경험 전달의 통합 아키텍처
