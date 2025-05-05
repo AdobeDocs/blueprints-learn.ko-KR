@@ -21,7 +21,7 @@ ht-degree: 10%
 | 보호 유형 | 설명 |
 |---|---|
 | 성능 보호(소프트 제한) | 성능 보호는 사용 사례의 범위와 관련된 사용 제한이며 일반적인 조건에서 예상되는 성능을 요약합니다. 초과되면 성능 저하와 지연이 발생할 수 있습니다. 성능 보호 기능은 아래 설명된 대로 각 솔루션에 대한 보호 섹션 아래의 Experience League 문서에 설명되어 있습니다. |
-| 정적 제한(엄격한 제한) | 이는 초과할 수 없는 시스템 적용 제한입니다. 정적 제한은 일반적으로 계약상으로 연결되며 고객 계약과 [제품 설명](https://helpx.adobe.com/legal/product-descriptions.html)에 요약되어 있습니다. |
+| 정적 제한(엄격한 제한) | 이는 초과할 수 없는 시스템 적용 제한입니다. 정적 제한은 일반적으로 계약상으로 연결되며 고객 계약과 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions.html)에 요약되어 있습니다. |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ ht-degree: 10%
 
 **Experience Platform 응용 프로그램**
 
-* [Real-Time CDP 보호 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [보호 기능을 공유하는 Customer Journey Analytics 대상](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Customer Journey Analytics 데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer 보호](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Real-Time CDP 보호 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=ko)
+* [보호 기능을 공유하는 Customer Journey Analytics 대상](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko#latency)
+* [Customer Journey Analytics 데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer 보호](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko)
 
 **Experience Platform 서비스**
 
-* [데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] API 보호](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
+* [[!DNL Edge Network] API 보호](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ko)
 * [실시간 고객 프로필 및 세그먼테이션 보호](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * [신원 가드레일](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ko)
 * [쿼리 서비스 가드레일](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
@@ -61,7 +61,7 @@ ht-degree: 10%
 
 ### 데이터 수집 {#data-ingestion}
 
-아래 다이어그램은 Real-Time CDP으로 데이터를 가져올 때 [스트리밍 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) 및 [일괄 처리 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=ko)을 통해 예상되는 데이터 수집 지연 값을 표시합니다. 고해상도 버전을 보려면 이미지를 클릭하십시오.
+아래 다이어그램은 Real-Time CDP으로 데이터를 가져올 때 [스트리밍 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko) 및 [일괄 처리 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=ko)을 통해 예상되는 데이터 수집 지연 값을 표시합니다. 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
 ![데이터 수집 높은 수준의 시각적 개요.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "데이터 수집 높은 수준의 시각적 개요 및 대기 시간 값"){width="1000" zoomable="yes"}
 
@@ -79,12 +79,12 @@ ht-degree: 10%
 
 ### Customer Journey Analytics      {#customer-journey-analytics}
 
-아래 다이어그램은 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)을 사용하여 작업할 때 필요한 대기 시간 값을 표시합니다. 고해상도 버전을 보려면 이미지를 클릭하십시오.
+아래 다이어그램은 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)을 사용하여 작업할 때 필요한 대기 시간 값을 표시합니다. 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
 ![Customer Journey Analytics 높은 수준의 시각적 개요 작업](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Customer Journey Analytics 높은 수준의 시각적 개요 및 대기 시간 값을 사용하여 작업"){width="1000" zoomable="yes"}
 
 ### Journey Optimizer    {#journey-optimizer}
 
-아래 다이어그램은 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en)(으)로 작업할 때 필요한 대기 시간 값을 표시합니다. 고해상도 버전을 보려면 이미지를 클릭하십시오.
+아래 다이어그램은 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=ko)(으)로 작업할 때 필요한 대기 시간 값을 표시합니다. 고해상도 버전을 보려면 이미지를 클릭하십시오.
 
 ![Adobe Journey Optimizer 고급 시각적 개요 작업Adobe Journey Optimizer ](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "높은 수준의 시각적 개요 및 지연 시간 값을 사용하여 작업"){width="1000" zoomable="yes"}

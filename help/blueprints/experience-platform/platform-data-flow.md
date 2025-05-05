@@ -22,4 +22,4 @@ ht-degree: 60%
 
 ## 데이터 수신 및 송신 패턴
 
-모든 데이터 수집, 수집, 수신 및 송신 패턴에 대한 자세한 목록은 [데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)를 참조하십시오.
+모든 데이터 수집, 수집, 수신 및 송신 패턴에 대한 자세한 목록은 [데이터 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)를 참조하십시오.
