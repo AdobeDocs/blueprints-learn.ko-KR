@@ -5,19 +5,19 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: adddd4105afc68379116d8d7208160689ee52c1d
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
 
 # Experience Platform 웹 SDK 및 [!DNL Edge Network] 아키텍처 다이어그램
 
-웹 및 모바일 SDK와 [!DNL Edge Network] Server API에 대한 개요와 자세한 내용은 다음을 참조하십시오.
+웹 및 모바일 SDK 및 [!DNL Edge Network] Server API에 대한 개요와 자세한 내용은 다음을 참조하십시오.
 
-* [Web SDK 개요](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko)
+* [Web SDK 개요](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk)
 * [Mobile SDK 개요](https://developer.adobe.com/client-sdks/documentation/)
 * [[!DNL Edge Network] 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 
@@ -32,7 +32,7 @@ WebSDK에서 지원하는 애플리케이션 기능에 대한 자세한 개요�
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=ko)
 
-## 웹/모바일 SDK 또는 [!DNL Edge Network] 서버 API 배포 Experience Platform
+## Experience Platform Web/Mobile SDK 또는 [!DNL Edge Network] Server API 배포
 
 아래 아키텍처 다이어그램은 Experience Platform Web SDK를 활용하는 배포 및 데이터 수집을 보여줍니다.
 
