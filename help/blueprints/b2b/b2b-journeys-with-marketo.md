@@ -121,7 +121,7 @@ from
 >[!NOTE]
 >
 >데이터 세트 테이블 marketo_person_ajo_b2b는 Marketo Person 데이터 세트로 작업하는 방법에 대한 완전한 예를 제공하는 데 사용됩니다.
->>샌드박스의 데이터 세트는 [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) 작업 영역에서 찾을 수 있습니다.
+>&#x200B;>샌드박스의 데이터 세트는 [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) 작업 영역에서 찾을 수 있습니다.
 
 ```sql
 select
