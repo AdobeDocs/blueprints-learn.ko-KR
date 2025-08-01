@@ -18,7 +18,7 @@ ht-degree: 26%
 
 >[!MORELIKETHIS]
 >
->[Experience Cloud 응용 프로그램 통합을 위한 통합 구성](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+>[Experience Cloud 응용 프로그램 통합을 위한 통합 구성](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=ko).
 
 
 ## 아키텍처 다이어그램

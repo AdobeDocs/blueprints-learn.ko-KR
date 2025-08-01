@@ -43,7 +43,7 @@ Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 앱 내에서 �
 
 ## 가드레일
 
-[Journey Optimizer 가드레일 제품 링크](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[Journey Optimizer 가드레일 제품 링크](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
 
 [보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 

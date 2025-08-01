@@ -66,7 +66,7 @@ Adobe [!DNL Experience Platform]:
 
 ## 가드레일
 
-[[!DNL Journey Optimizer] 보호 기능 제품 링크](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] 보호 기능 제품 링크](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
 
 [보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 

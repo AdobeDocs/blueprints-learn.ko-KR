@@ -21,7 +21,7 @@ ht-degree: 13%
 | 보호 유형 | 설명 |
 |---|---|
 | 성능 보호(소프트 제한) | 성능 보호는 사용 사례의 범위와 관련된 사용 제한이며 일반적인 조건에서 예상되는 성능을 요약합니다. 초과되면 성능 저하와 지연이 발생할 수 있습니다. 성능 보호 기능은 아래 설명된 대로 각 솔루션에 대한 보호 섹션 아래의 Experience League 문서에 설명되어 있습니다. |
-| 정적 제한(엄격한 제한) | 이는 초과할 수 없는 시스템 적용 제한입니다. 정적 제한은 일반적으로 계약상으로 연결되며 고객 계약과 [제품 설명](https://helpx.adobe.com/legal/product-descriptions.html)에 요약되어 있습니다. |
+| 정적 제한(엄격한 제한) | 이는 초과할 수 없는 시스템 적용 제한입니다. 정적 제한은 일반적으로 계약상으로 연결되며 고객 계약과 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions.html)에 요약되어 있습니다. |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ ht-degree: 13%
 
 **Experience Platform 응용 프로그램**
 
-* [Real-Time CDP 보호 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [보호 기능을 공유하는 Customer Journey Analytics 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Customer Journey Analytics 데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer 보호](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Real-Time CDP 보호 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=ko)
+* [보호 기능을 공유하는 Customer Journey Analytics 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko#latency)
+* [Customer Journey Analytics 데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer 보호](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko)
 
 **Experience Platform 서비스**
 
-* [데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] API 보호](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [데이터 수집 가드레일](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
+* [[!DNL Edge Network] API 보호](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ko)
 * [실시간 고객 프로필 및 세그먼테이션 보호](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * [신원 가드레일](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ko)
 * [쿼리 서비스 가드레일](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
