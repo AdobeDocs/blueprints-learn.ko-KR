@@ -4,7 +4,7 @@ description: 엔터프라이즈 대상에 대한 대상자 및 프로필 활성�
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 80%
@@ -29,8 +29,8 @@ ht-degree: 80%
 
 ## 관련 설명서
 
-클라우드 저장소 및 엔터프라이즈 대상 구성에 대한 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/overview)를 참조하세요.
+클라우드 저장소 및 엔터프라이즈 대상 구성에 대한 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview)를 참조하세요.
 
 ## 가드레일
 
-[보호 기능 페이지에 설명된 대로 보호 기능을 참조하십시오.](../experience-platform/deployment/guardrails.md)
+[보호 기능 페이지에 설명된 대로 보호 기능을 참조하십시오.](../experience-platform/guardrails.md)

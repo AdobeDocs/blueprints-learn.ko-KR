@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer를 Adobe Campaign과 함께 사용하여 �
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -40,9 +40,9 @@ Adobe [!DNL Journey Optimizer]을(를) Adobe [!DNL Campaign]과(와) 함께 사�
 
 ## 가드레일
 
-* [Journey Optimizer Guarrails 제품 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer Guarrails 제품 제한 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ko)
+* [보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 구현 단계
 
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer]을(를) Adobe [!DNL Campaign]과(와) 함께 사�
 
 #### 스키마/데이터 세트
 
-1. 고객 제공 데이터를 기반으로 Experience Platform에서 [개인 프로필, 경험 이벤트 및 다중 항목 스키마를 구성합니다.](https://experienceleague.adobe.com/?lang=ko&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ko)
+1. 고객 제공 데이터를 기반으로 Experience Platform에서 [개인 프로필, 경험 이벤트 및 다중 항목 스키마를 구성합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=ko)
 1. (선택 사항) Adobe Campaign broadLog, trackingLog 및 전달할 수 없는 주소 테이블에 대한 경험 이벤트 클래스 기반 스키마를 만듭니다.
 1. Experience Platform에서 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
 1. 거버넌스를 위해 Experience Platform에서 데이터 세트에 [데이터 사용 레이블을 추가](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ko)합니다.
@@ -68,7 +68,7 @@ Adobe [!DNL Journey Optimizer]을(를) Adobe [!DNL Campaign]과(와) 함께 사�
 
 #### 소스/대상
 
-1. 스트리밍 API 및 소스 커넥터를 사용하여 [데이터를  [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=ko&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko)&#x200B;(으)로 수집
+1. 스트리밍 API 및 소스 커넥터를 사용하여 [데이터를  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ko)&#x200B;(으)로 수집
 
 ### Journey Optimizer   
 

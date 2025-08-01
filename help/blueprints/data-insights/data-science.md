@@ -4,10 +4,10 @@ description: 데이터 과학 기반의 통찰력을  [!DNL Experience Platform]
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 69%
+source-wordcount: '342'
+ht-degree: 63%
 
 ---
 
@@ -29,29 +29,12 @@ ht-degree: 69%
 
 ## 가드레일
 
-* 데이터 과학 결과를 [!DNL Experience Platform] (으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](../experience-platform/deployment/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
-
-## 구현 단계
-
-1. 수집할 데이터를 위한 [스키마를 만듭니다.](https://experienceleague.adobe.com/?lang=ko&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ko)
-1. 수집할 데이터를 위한 [데이터 세트를 만듭니다.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko)
-1. [데이터를 [!DNL Experience Platform]에 수집](https://experienceleague.adobe.com/?lang=ko&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ko).
-
-모델의 결과를 실시간 고객 프로필에 수집하려면 데이터를 수집하기 전에 다음 작업을 수행해야 합니다.
-
-1. 수집한 데이터를 통합 프로필로 결합할 수 있도록 스키마에 [올바른 ID와 ID 네임스페이스를 구성합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ko).
-1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
+* 데이터 과학 결과를 [!DNL Experience Platform]&#x200B;(으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](../experience-platform/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
 
 ## 구현 시 고려 사항
 
 * 대부분의 경우 모델 결과는 경험 이벤트가 아니라 프로필 속성으로 수집해야 합니다. 모델 결과는 단순한 속성 문자열일 수 있습니다. 수집할 모델 결과가 여러 개 있는 경우 배열이나 맵 유형 필드를 사용하면 좋습니다.
 * 통합 프로필 속성 데이터를 일 단위로 내보낸 일별 프로필 스냅샷 데이터 세트를 활용하여 프로필 속성 데이터에 대한 모델을 교육할 수 있습니다. 프로필 스냅샷 데이터 세트 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=ko#profile-attribute-datasets)에서 확인할 수 있습니다.
-* [!DNL Experience Platform]에서 데이터를 추출하는 경우 다음 메서드를 사용할 수 있습니다
-   * 데이터 액세스 SDK
-      * 데이터는 원시 파일 형태
-      * 프로필 경험 이벤트 데이터는 통합되지 않은 원시 상태로 유지됩니다.
-   * RTCDP 대상
-      * 프로필 속성 및 세그먼트 멤버십을 내보낼 수 있습니다.
 
 ## 관련 설명서
 
@@ -61,6 +44,6 @@ ht-degree: 69%
 ## 관련 블로그 게시물
 
 * [콘텐츠와 커머스 AI: 콘텐츠 인텔리전스로 고객과의 상호 작용 개인화하기](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [Adobe에 대한 탐색적 데이터 분석에 대한 소개 보기 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
+* [Adobe의 탐색적 데이터 분석에 대한 소개 보기 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
 * [Adobe Experience 제품에 머신 러닝을 활용하여 사용자 경험 향상](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
 * [Segmentation.AI: Adobe의 Automated Audience-Clustering-as-a-Service [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)

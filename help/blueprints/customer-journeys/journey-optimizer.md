@@ -3,16 +3,16 @@ title: '[!DNL Journey Optimizer] - 트리거된 메시징 및 Adobe Experience P
 description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 53%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
 # [!DNL Journey Optimizer] 블루프린트
 
-Adobe [!DNL Journey Optimizer]은(는) 마케팅 팀이 고객 행동에 실시간으로 반응하고 현재 위치에서 이를 충족하도록 특별히 빌드된 시스템입니다. 데이터 관리 기능이 Adobe [!DNL Experience Platform] (으)로 이동되어 마케팅 팀이 가장 잘하는 일에 집중할 수 있습니다. 이는 세계적 수준의 고객 여정 및 맞춤형 대화를 만드는 것입니다.
+Adobe [!DNL Journey Optimizer]은(는) 마케팅 팀이 고객 행동에 실시간으로 반응하고 현재 위치에서 이를 충족하도록 특별히 빌드된 시스템입니다. 데이터 관리 기능이 Adobe [!DNL Experience Platform]&#x200B;(으)로 이동되어 마케팅 팀은 세계적 수준의 고객 여정 및 맞춤형 대화를 만드는 데 주력할 수 있습니다.
 
 이 블루프린트는 응용 프로그램의 기술 기능에 대해 간략하게 설명하고 [!DNL Journey Optimizer]을(를) 구성하는 다양한 아키텍처 구성 요소에 대해 자세히 살펴봅니다.
 
@@ -33,7 +33,7 @@ Adobe [!DNL Journey Optimizer]은(는) 마케팅 팀이 고객 행동에 실시�
 
 | 시나리오 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [서드파티 메시지](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer]을(를) 서드파티 메시징 시스템과 함께 사용하여 개인 맞춤화된 통신을 통합 및 전송하는 방법을 보여 줍니다. | 고객이 브랜드나 회사와 상호 작용할 때 1:1로 즉각적인 개인화 커뮤니케이션을 제공합니다.<br><br>고려 사항:<br><ul><li>인증을 위해 서드파티 시스템이 베어러 토큰을 지원해야 합니다.</li><li>멀티테넌트 아키텍처로 인해 고정 IP를 지원하지 않습니다.</li><li>서드파티 시스템의 아키텍처에 따른 초당 API 호출 제한을 알고 있어야 합니다.  고객이 [!DNL Journey Optimizer]에서 제공되는 볼륨을 지원하기 위해 타사 공급업체로부터 추가 볼륨을 구매해야 할 수도 있습니다.</li><li>메시지나 페이로드에 의사 결정 관리를 지원하지 않습니다.</li></ul> |
+| [서드파티 메시지](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer]을(를) 서드파티 메시징 시스템과 함께 사용하여 개인 맞춤화된 통신을 통합 및 전송하는 방법을 보여 줍니다. | 고객이 브랜드나 회사와 상호 작용할 때 개인화된 커뮤니케이션을 고객에게 즉시 전달:1고려 사항:<br><br><br><ul><li>인증을 위해 서드파티 시스템이 베어러 토큰을 지원해야 합니다.</li><li>멀티테넌트 아키텍처로 인해 고정 IP를 지원하지 않습니다.</li><li>서드파티 시스템의 아키텍처에 따른 초당 API 호출 제한을 알고 있어야 합니다.  고객이 [!DNL Journey Optimizer]에서 제공되는 볼륨을 지원하기 위해 타사 공급업체로부터 추가 볼륨을 구매해야 할 수도 있습니다.</li><li>메시지나 페이로드에 의사 결정 관리를 지원하지 않습니다.</li></ul> |
 
 <br>
 
@@ -41,7 +41,7 @@ Adobe [!DNL Journey Optimizer]은(는) 마케팅 팀이 고객 행동에 실시�
 
 | 통합 | 설명 | 기능 |
 | :-- | :--- | :--- |
-| [[!DNL Journey Optimizer] Adobe Campaign 사용](ajo-and-campaign.md) | [!DNL Journey Optimizer] Adobe을 사용하여 실시간 고객 프로필을 활용하는 1:1 경험을 조정하고 기본 Adobe Campaign 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다. | [!DNL Journey Optimizer]의 실시간 고객 프로필과 기능을 활용하여 최신 경험을 조율하고 Adobe Campaign의 기본 실시간 메시징 기능을 활용하여 최후의 통신을 수행합니다<br><br>고려 사항:<br><ul><li>Campaign 애플리케이션이 v7 빌드 21.1 이후 또는 v8 버전이어야 합니다.</li><li>메시지 처리량</li><ul><li>Campaign v7 - 시간당 최대 5만</li><li>Campaign v8 - 시간당 최대 100만</li><li>Campaign Standard - 시간당 최대 5만</li></ul><li>스로틀링을 수행하지 않으므로 사용 사례에 대해 기업 아키텍트의 기술 점검을 받아야 합니다.</li><li>Campaign에서 보내는 메시지에 대한 의사 결정 관리 활용은 지원하지 않습니다.</li></ul> |
+| [[!DNL Journey Optimizer] Adobe Campaign 사용](ajo-and-campaign.md) | Adobe [!DNL Journey Optimizer]을(를) 사용하여 실시간 고객 프로필을 활용하는 1:1 경험을 조정하고 기본 Adobe Campaign 트랜잭션 메시지 시스템을 활용하여 메시지를 보내는 방법을 보여 줍니다 | [!DNL Journey Optimizer]의 실시간 고객 프로필과 기능을 활용하여 최신 경험을 조율하고 Adobe Campaign의 기본 실시간 메시징 기능을 활용하여 최후의 통신을 수행합니다<br><br>고려 사항:<br><ul><li>Campaign 애플리케이션이 v7 빌드 21.1 이후 또는 v8 버전이어야 합니다.</li><li>메시지 처리량</li><ul><li>Campaign v7 - 시간당 최대 5만</li><li>Campaign v8 - 시간당 최대 100만</li><li>Campaign Standard - 시간당 최대 5만</li></ul><li>스로틀링을 수행하지 않으므로 사용 사례에 대해 기업 아키텍트의 기술 점검을 받아야 합니다.</li><li>Campaign에서 보내는 메시지에 대한 의사 결정 관리 활용은 지원하지 않습니다.</li></ul> |
 
 <br>
 
@@ -66,9 +66,9 @@ Adobe [!DNL Experience Platform]:
 
 ## 가드레일
 
-[[!DNL Journey Optimizer] 보호 기능 제품 링크](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] 보호 기능 제품 링크](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ko)
+[보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 관련 설명서
 
