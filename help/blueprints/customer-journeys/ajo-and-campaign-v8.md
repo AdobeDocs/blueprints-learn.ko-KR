@@ -42,7 +42,7 @@ Adobe [!DNL Journey Optimizer]을(를) Adobe [!DNL Campaign]과(와) 함께 사�
 
 * [Journey Optimizer Guarrails 제품 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
 
-* [보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+* [보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ko)
 
 ## 구현 단계
 
