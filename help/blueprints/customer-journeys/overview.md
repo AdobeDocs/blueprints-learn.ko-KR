@@ -1,27 +1,39 @@
 ---
 title: 고객 여정 블루프린트
-description: 어떤 화면에서든 개인에게 알맞고 시의적절한 고객 경험을 전달합니다.
+description: 화면 전체에서 적시에 조정된 개별 고객 경험을 제공합니다.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 67%
+source-wordcount: '221'
+ht-degree: 13%
 
 ---
 
 # 고객 여정 블루프린트
 
-고객 여정은 브랜드가 이메일, SMS 및 모바일 알림과 같은 채널을 통해 주도적으로 고객과 관계를 맺고 소통할 수 있는 기능을 제공합니다.
+최신 마케팅 팀에는 고객을 전환 단계로 안내하는 캠페인을 시작하는 적극적인 참여(개별 고객 행동에 응답)와 사전 예방적 전달을 모두 지원할 수 있는 플랫폼이 필요합니다. 이러한 사용 사례는 이메일, SMS, 푸시 및 점점 더 많은 웹 및 인앱 경험과 같은 채널에 걸쳐 있습니다.
 
-오케스트레이션 도구를 다른 소통 채널과 통합(예: 인바운드 채널과 통합)하여 다른 채널의 의사 결정 엔진과 대상자의 상태를 공유함으로써 웹 및 모바일 개인화를 실행할 수 있습니다. 고객 여정에 사용하는 애플리케이션 및 배포 옵션에 대해서는 여러 가지 요소가 있지만, 두 가지 접근 방식으로 요약할 수 있습니다. 고객이 참여할 때(트리거될 때) 반응하는 것과 고객 그룹이 참여할 때(예약됨) 대응하는 것입니다.
+Adobe Journey Optimizer 및 Adobe Campaign v8은 모두 고객 참여를 위한 두 가지 기본 모델을 지원합니다.
 
-현재 Adobe에서는 고객 여정 솔루션을 원할 때 고객이 선택할 수 있는 두 가지 옵션이 있습니다.
+- 고객 트리거 여정: 개별 행동 및 신호를 기반으로 이벤트 기반의 실시간 오케스트레이션.
+- 브랜드에서 시작한 캠페인: 세그먼테이션 또는 비즈니스 논리를 기반으로 대상자를 참여 유입 경로에 도입하는 전략적으로 시간이 지정된 푸시입니다.
 
-<ul><li>Adobe [!DNL Campaign] 관리 클라우드 서비스</li><li>Adobe Journey Optimizer</li></ul>
+두 솔루션 모두 기존 및 디지털 채널에서 아웃바운드 통신을 가능하게 합니다. AJO은 또한 대상 상태 공유 및 의사 결정 서비스를 통해 인바운드 채널(예: 웹 및 모바일 앱)과의 통합을 지원하므로 통합된 크로스 채널 개인화가 가능합니다.
+
+이러한 도구 간의 선택은 지연 내성, 채널 요구 사항, 데이터 통합 전략 및 확장성과 같은 아키텍처 고려 사항에 따라 달라집니다.
+
+<br>
 
 | 블루프린트 | 설명 | 아키텍처 |
-|---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | 기본적으로 [!DNL Experience Platforms] 실시간 고객 프로필 위에 구축되어 마케팅 팀이 변화하는 고객 행동에 실시간으로 반응하고 언제든지 채널에서 해당 고객 행동을 충족할 수 있습니다 | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | 고도로 복잡한 데이터 관리 및 캠페인 프로세스에 최적화된 차세대 캠페인 도구입니다. 고객이 풍부한 마케팅 캠페인 커뮤니케이션을 찾아내고 만들 수 있도록 지원합니다. | <img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | 이메일, SMS, DM 등 다양한 채널에서의 배치 기반 마케팅 캠페인을 위해 개발된 기존 캠페인 도구입니다. 고객이 다양한 고객 커뮤니케이션을 한 곳에서 오케스트레이션 및 관리할 수 있도록 지원합니다. | <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+|---|---|:---:|
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | 이벤트 기반의 1:1 프로필 오케스트레이션을 이메일, SMS, 웹, 푸시, 인앱 메시지, 데스크탑 등과 같은 여러 채널에서 대상 기반 브랜드 커뮤니케이션과 결합합니다. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md)** | 일괄 처리 기반의 다중 채널 캠페인 관리에 중점을 두고 이메일, SMS 및 DM과 같은 기존 마케팅 채널에 이상적입니다. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Campaign v8 블루프린트 참조 아키텍처" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+
+<br>
+
+## 더 이상 사용되지 않는 블루프린트
+
+| 블루프린트 | 아키텍처 |
+|---|:---:|
+| **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7-overview.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Campaign v7 블루프린트 참조 아키텍처" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |

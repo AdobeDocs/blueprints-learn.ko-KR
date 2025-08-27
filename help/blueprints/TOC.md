@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 0509c5a8ce92c25040262130a5f583cdd7f08e59
+source-git-commit: 003e8ebf32150cf6527ed588ff05f22ea8cfb209
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 47%
+source-wordcount: '201'
+ht-degree: 41%
 
 ---
 
@@ -52,24 +52,24 @@ ht-degree: 47%
 + 고객 여정{#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer   {#journey-optimizer}
-      + [Journey Optimizer   ](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + 의사 결정 관리{#decision-management}
-         + [개요](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
-         + [Edge의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
-         + [허브의 의사 결정 관리](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
-      + [Journey Optimizer와 Adobe Campaign  ](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [서드파티 메시징](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign Standard{#campaign-standard}
-      + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko){target="_blank"}
-      + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko){target="_blank"}
+      + [Journey Optimizer   ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [AJO 여정](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+      + [AJO 캠페인](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
+      + [서드파티 메시징](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
+   + 의사 결정 관리{#decision-management}
+      + [개요](/help/blueprints/customer-journeys/decision-management/decision-management-overview.md)
+      + [Edge에서 의사 결정 관리](/help/blueprints/customer-journeys/decision-management/decision-management-edge.md)
+      + [허브에서 의사 결정 관리](/help/blueprints/customer-journeys/decision-management/decision-management-hub.md)
    + Campaign v8{#campaign-v8}
-      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [Adobe이 포함된 Real-Time CDP [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
-      + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
-   + Campaign v7{#campaign-v7}
-      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Adobe이 포함된 Real-Time CDP [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [Adobe이 포함된 Journey Optimizer [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8/campaign-v8-overview.md)
+      + [Adobe이 포함된 Real-Time CDP [!DNL Campaign] v8](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
+      + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
+   + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
+      + Campaign Standard{#campaign-standard}
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+      + Campaign v7{#campaign-v7}
+         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + 데이터 분석, 인텔리전스, AI/ML {#data-exploration}
    + [데이터 분석 및 인텔리전스](/help/blueprints/data-insights/analysis.md)
    + [프로필 강화를 위한 맞춤형 데이터 과학](/help/blueprints/data-insights/data-science.md)
