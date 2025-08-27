@@ -47,7 +47,7 @@ Adobe Campaign v8은 이메일 및 DM(Direct Mail)과 같은 기존 마케팅 �
 
 ## 아키텍처 다이어그램
 
-[Campaign v8 배포 모델](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}에 대해 자세히 알아보세요.
+[Campaign v8 배포 모델](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ko#ac-deployment){target="_blank"}에 대해 자세히 알아보세요.
 
 ### Campaign Enterprise(FFDA) 배포
 
@@ -137,11 +137,11 @@ Adobe Campaign v8은 이메일 및 DM(Direct Mail)과 같은 기존 마케팅 �
 
 ## 구현 단계
 
-[Adobe Campaign v8 구현](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html) 시작 안내서를 참조하세요.
+[Adobe Campaign v8 구현](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ko) 시작 안내서를 참조하세요.
 
 ## 관련 설명서
 
-- [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko)
 - [Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/launch.html)
-- [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html)
+- [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/launch.html?lang=ko)
+- [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)
