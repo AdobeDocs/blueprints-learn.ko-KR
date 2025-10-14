@@ -115,7 +115,7 @@ RTCDP 가드레일에 대한 자세한 내용은 [Real-Time CDP 가드레일 설
 
 * 모든 인스턴스는 동일한 IMS 조직에 있어야 합니다.
 * 하나의 Journey Optimizer B2B edition 인스턴스만 하나의 Experience Platform 샌드박스에 연결할 수 있습니다.
-* Real-time Customer Data Platform[에 ](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)Marketo Source 커넥터를 구현하는 것이 좋습니다.
+* Real-time Customer Data Platform[에 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)Marketo Source 커넥터를 구현하는 것이 좋습니다.
 
 ## 구현
 
