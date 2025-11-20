@@ -52,7 +52,7 @@ ht-degree: 41%
 + 고객 여정{#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer   {#journey-optimizer}
-      + [Journey Optimizer   &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer   ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO 여정](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO 캠페인](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [서드파티 메시징](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -66,8 +66,8 @@ ht-degree: 41%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard){target="_blank"}
-         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + 데이터 분석, 인텔리전스, AI/ML {#data-exploration}

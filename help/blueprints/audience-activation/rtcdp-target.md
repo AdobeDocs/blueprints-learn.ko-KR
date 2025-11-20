@@ -31,7 +31,7 @@ ht-degree: 32%
 
 ### 참조 설명서
 
-* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
+* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge Datastream 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
 
 ## 통합 패턴
@@ -39,10 +39,10 @@ ht-degree: 32%
 | 통합 패턴 | 기능 | 필요 조건 |
 |--------------------|------------|---------------|
 | **실시간 고객 데이터 플랫폼에서 Target으로 공유되는 Edge에 대한 실시간 세그먼트 평가** | - Edge에서 동일한 페이지 또는 다음 페이지 개인화에 대해 실시간으로 대상자를 평가합니다. <br>- 스트리밍 또는 일괄 처리 방식으로 평가된 모든 세그먼트는 에지 세그먼트 평가 및 개인화에 포함되도록 Edge Network에도 투영됩니다. | - 웹/모바일 SDK을 구현하거나 Edge Network Server API를 구현해야 합니다. <br>- Target 및 Experience Platform 확장이 활성화된 Experience Edge에서 데이터 스트림을 구성해야 합니다. <br>- Target 대상은 Real-time Customer Data Platform 대상에 구성해야 합니다. <br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다. |
-| **Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 대상자 공유** | - Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 처리 대상자를 공유합니다. <br>- 실시간으로 평가되는 대상에는 웹 SDK 및 Edge Network 구현이 필요합니다. | - Target의 웹/모바일 SDK 또는 Edge API 구현은 Target에 스트리밍 및 일괄 RTCDP 대상을 공유하는 데 필요하지 않지만 실시간 에지 세그먼트 평가를 활성화하는 데 필요합니다. <br>- AT.js를 사용하는 경우 ECID ID 네임스페이스에 대한 프로필 통합만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스 조회를 수행하려면 웹 SDK/Edge API를 배포해야 하며 각 ID는 ID 맵에서 ID로 설정해야 합니다. <br>- Target 대상은 Real-time Customer Data Platform 대상에 구성해야 합니다. RTCDP의 기본 프로덕션 샌드박스만 지원됩니다. <br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다. |
+| **Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 대상자 공유** | - Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상자를 공유합니다. <br>- 실시간으로 평가되는 대상에는 웹 SDK 및 Edge Network 구현이 필요합니다. | - Target의 웹/모바일 SDK 또는 Edge API 구현은 Target에 스트리밍 및 일괄 RTCDP 대상을 공유하는 데 필요하지 않지만 실시간 에지 세그먼트 평가를 활성화하는 데 필요합니다. <br>- AT.js를 사용하는 경우 ECID ID 네임스페이스에 대한 프로필 통합만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스 조회를 수행하려면 웹 SDK/Edge API를 배포해야 하며 각 ID는 ID 맵에서 ID로 설정해야 합니다. <br>- Target 대상은 Real-time Customer Data Platform 대상에 구성해야 합니다. RTCDP의 기본 프로덕션 샌드박스만 지원됩니다. <br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다. |
 | **대상 공유 서비스 접근 방식을 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 대상 공유 스트리밍 및 일괄 처리** | - 이 통합 패턴은 Audience Manager의 서드파티 데이터 및 대상의 추가 보강이 필요한 경우 활용할 수 있습니다. | - 웹/모바일 SDK은 Target에 스트리밍 및 배치 대상을 공유하는 데 필요하지 않지만 실시간 에지 세그먼트 평가를 활성화하는 데 필요합니다. <br>- AT.js를 사용하는 경우 ECID ID 네임스페이스에 대한 프로필 통합만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스 조회를 수행하려면 웹 SDK/Edge API를 배포해야 하며 각 ID는 ID 맵에서 ID로 설정해야 합니다. <br>- 대상 공유 서비스를 통한 대상 프로젝션을 구축해야 합니다. <br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이 필요합니다. <br>- 기본 프로덕션 샌드박스의 대상자만 핵심 서비스를 공유하는 대상을 지원합니다. |
 
-## Adobe Target으로 실시간, 스트리밍, 일괄 처리 대상자 공유하기
+## Adobe Target으로 실시간, 스트리밍, 배치 대상자 공유하기
 
 아키텍처
 
@@ -69,9 +69,9 @@ ht-degree: 32%
 
 ### 구현 패턴 2 - 애플리케이션별 SDK
 
-기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 일괄 처리 대상자를 공유하는 작업을 지원합니다.
+기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 배치 대상자를 공유하는 작업을 지원합니다.
 
-[Adobe Target 커넥터 설명서를 참조하세요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Adobe Target 커넥터 설명서를 참조하세요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [애플리케이션별 SDK 블루프린트 참조](../experience-platform/deployment/appsdk.md)
 
 ## 구현 시 고려 사항

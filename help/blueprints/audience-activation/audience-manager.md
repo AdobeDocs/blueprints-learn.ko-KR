@@ -44,4 +44,4 @@ ht-degree: 93%
 
 ## Real-time Customer Data Platform 구현 단계
 
-* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home)를 참조하세요.
+* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)를 참조하세요.
