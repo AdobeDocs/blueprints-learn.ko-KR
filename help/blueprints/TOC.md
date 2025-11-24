@@ -4,8 +4,8 @@ breadcrumb-title: 블루프린트
 user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
 product: adobe experience platform
 mini-toc-levels: 3
-role: Architect, Developer, User
-source-git-commit: 003e8ebf32150cf6527ed588ff05f22ea8cfb209
+role: Developer, User
+source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 41%
@@ -52,7 +52,7 @@ ht-degree: 41%
 + 고객 여정{#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer   {#journey-optimizer}
-      + [Journey Optimizer   &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer   ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO 여정](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO 캠페인](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [서드파티 메시징](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -66,8 +66,8 @@ ht-degree: 41%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard){target="_blank"}
-         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + 데이터 분석, 인텔리전스, AI/ML {#data-exploration}
