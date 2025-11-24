@@ -1,9 +1,9 @@
 ---
 title: ' [!DNL Campaign] v7 및 Campaign Standard 통합 패턴이 포함된 Real-Time CDP'
 description: Adobe Experience Platform 및 실시간 고객 프로필과 중앙 집중식 세분화 도구를 Adobe [!DNL Campaign] 과(와) 함께 사용하여 개인화된 대화를 제공하는 방법을 소개합니다.
-solution: Real-Time Customer Data Platform, [!DNL Campaign]
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 10d49e3b712fc9d4ecdf41defe6e62dde2a86b72
+source-git-commit: fa1f8799e774713a48fdd437a9325731aef1b6ab
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 42%
@@ -21,7 +21,7 @@ Adobe [!DNL Experience Platform] 및 실시간 고객 프로필과 중앙 집중
 
 ## 아키텍처
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="일괄 처리 메시지와 Adobe Experience Platform 통합 패턴의 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="배치 메시징과 Adobe Experience Platform 통합 패턴의 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 필요 조건
 
