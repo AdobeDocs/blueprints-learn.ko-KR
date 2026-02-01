@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
+source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 41%
+source-wordcount: '231'
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 41%
       + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [애플리케이션 SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
 + 대상자 및 프로필 활성화{#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
+   + [장치 기반 - Audience Manager을 사용한 익명 대상 타깃팅](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [소셜 및 광고 채널 활성화](/help/blueprints/audience-activation/advertising-activation.md)
-      + [파일 및 엔터프라이즈 스트리밍 대상에 대한 활성화](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [고객 활동 허브](/help/blueprints/audience-activation/customer-activity.md)
-      + [세그먼트 일치](/help/blueprints/audience-activation/segment-match.md)
-      + [Target 및 RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [Social 및 Advertising 대상으로 Audience Activation](/help/blueprints/audience-activation/advertising-activation.md)
+      + [Enterprise 대상에 대한 Audience 및 Profile Activation 블루프린트](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [지원 및 판매 시나리오를 위한 실시간 프로필 액세스](/help/blueprints/audience-activation/customer-activity.md)
+      + [웹 및 모바일 Personalization용 실시간 Edge 프로필 액세스](/help/blueprints/audience-activation/real-time-lookup.md)
+      + [세그먼트가 일치하는 Audience Collaboration](/help/blueprints/audience-activation/segment-match.md)
+      + [Target을 사용하는 알려진 고객 Personalization](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B 활성화 및 마케팅{#b2b-activation}
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
@@ -52,7 +53,7 @@ ht-degree: 41%
 + 고객 여정{#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer   {#journey-optimizer}
-      + [Journey Optimizer   &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer   ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO 여정](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO 캠페인](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [서드파티 메시징](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -66,8 +67,8 @@ ht-degree: 41%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard){target="_blank"}
-         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + 데이터 분석, 인텔리전스, AI/ML {#data-exploration}

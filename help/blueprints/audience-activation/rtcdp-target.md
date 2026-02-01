@@ -1,5 +1,5 @@
 ---
-title: Real-time Customer Data Platform 및 Adobe Target
+title: Target을 사용하는 알려진 고객 Personalization
 description: RTCDP 프로필과 대상자를 Adobe Target과 통합합니다.
 landing-page-description: RTCDP 프로필과 대상자를 Adobe Target과 통합합니다.
 short-description: RTCDP 프로필과 대상자를 Adobe Target과 통합합니다.
@@ -7,21 +7,21 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 32%
+source-wordcount: '943'
+ht-degree: 31%
 
 ---
 
 
-# Adobe Target과 실시간 고객 데이터 플랫폼 통합
+# Target을 사용하는 알려진 고객 Personalization
 
 ## 사용 사례
 
 * 알려진 고객 데이터를 사용한 온라인 개인화
 * 랜딩 페이지 최적화
-* 이전 제품/콘텐츠 조회, 제품/콘텐츠 관련성, 환경 요인 및 인적 특성과 더불어 거래, 충성도 및 CRM 데이터 등 오프라인 인사이트와 모델에서 도출한 인사이트를 기반으로 한 개인화.
+* 이전 제품/콘텐츠 조회, 제품/콘텐츠 관련성, 환경 요인 및 인적 속성과 더불어 거래, 충성도 및 CRM 데이터 등 오프라인 인사이트와 모델에서 도출한 인사이트를 기반으로 한 개인화.
 * Adobe Target을 사용하여 웹 사이트 및 모바일 앱에서 실시간 고객 데이터 플랫폼에 정의된 대상을 공유하고 타깃팅할 수 있습니다
 
 ## 애플리케이션
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 ### 참조 설명서
 
-* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
+* [Real-time Customer Data Platform용 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge Datastream 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
 
 ## 통합 패턴
@@ -71,7 +71,7 @@ ht-degree: 32%
 
 기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 배치 대상자를 공유하는 작업을 지원합니다.
 
-[Adobe Target 커넥터 설명서를 참조하세요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Adobe Target 커넥터 설명서를 참조하세요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [애플리케이션별 SDK 블루프린트 참조](../experience-platform/deployment/appsdk.md)
 
 ## 구현 시 고려 사항

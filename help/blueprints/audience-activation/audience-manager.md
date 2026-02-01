@@ -1,5 +1,5 @@
 ---
-title: Audience Manager 블루프린트
+title: 장치 기반 - Audience Manager을 사용한 익명 대상 타깃팅
 description: 고객의 익명 행동 데이터를 기반으로 여러 웹과 광고 채널에 걸쳐 대상자를 타겟팅하는 방법을 알아봅니다. 이를 통해 전 디바이스에 걸쳐 개인화되고 일관적인 실시간 고객 경험을 제공할 수 있습니다.
 landing-page-description: 고객의 익명 행동 데이터를 기반으로 여러 웹과 광고 채널에 걸쳐 대상자를 타겟팅하는 방법을 알아봅니다.
 short-description: 고객의 익명 행동 데이터를 기반으로 여러 웹과 광고 채널에 걸쳐 대상자를 타겟팅하는 방법을 알아봅니다.
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '246'
+ht-degree: 89%
 
 ---
 
-# Audience Manager 블루프린트
+# 장치 기반 - Audience Manager을 사용한 익명 대상 타깃팅
 
 익명 대상자 활성화는 익명의 디바이스 및 행동 데이터를 기반으로 웹, 모바일, 광고 채널 전반에 걸쳐 대상자를 타겟팅하고 대상자에 맞추어 개인화하는 기능입니다.
 
@@ -44,4 +44,4 @@ ht-degree: 93%
 
 ## Real-time Customer Data Platform 구현 단계
 
-* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home)를 참조하세요.
+* Real-time Customer Data Platform의 구현 단계는 다음 [설명서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)를 참조하세요.
