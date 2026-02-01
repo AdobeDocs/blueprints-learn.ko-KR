@@ -21,7 +21,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->허브에서의 프로필 조회는 웹/모바일 인바운드 개인화와 같이 높은 처리량, 짧은 지연 사용 사례를 위한 것이 아닙니다. 허브에 대한 프로필 조회는 에이전트 지원 지원 또는 판매 상호 작용과 같은 지연 시간이 짧은 시나리오를 위한 것입니다. 웹/모바일 개인화 또는 실시간 오퍼 의사 결정과 같이 지연 시간이 짧고 처리량이 많은 시나리오의 경우 Edge 프로필을 활용해야 합니다. Edge 프로필을 사용하면 Real-time Customer Data Platform의 [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)을 통해 실시간으로 액세스할 수 있습니다.
+>허브에서의 프로필 조회는 웹/모바일 인바운드 개인화와 같이 높은 처리량, 짧은 지연 사용 사례를 위한 것이 아닙니다. 허브에 대한 프로필 조회는 에이전트 지원 지원 또는 판매 상호 작용과 같은 지연 시간이 짧은 시나리오를 위한 것입니다. 웹/모바일 개인화 또는 실시간 오퍼 의사 결정과 같이 지연 시간이 짧고 처리량이 많은 시나리오의 경우 Edge 프로필을 활용해야 합니다. Edge 프로필을 사용하면 Real-time Customer Data Platform의 [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization)을 통해 실시간으로 액세스할 수 있습니다.
 
 ## 사용 사례
 

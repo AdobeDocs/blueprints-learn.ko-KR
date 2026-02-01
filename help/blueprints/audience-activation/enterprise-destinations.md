@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## 관련 설명서
 
-클라우드 저장소 및 엔터프라이즈 대상 구성에 대한 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview)를 참조하세요.
+클라우드 저장소 및 엔터프라이즈 대상 구성에 대한 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/overview)를 참조하세요.
 
 ## 가드레일
 
