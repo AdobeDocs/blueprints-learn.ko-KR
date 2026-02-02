@@ -40,13 +40,13 @@ ht-degree: 6%
 
 이 블루프린트를 사용하려면 스트리밍 데이터를 사용하여 프로필을 실시간으로 업데이트하려는 경우 다음 데이터 수집 방법 중 하나를 사용해야 합니다. Edge 프로필에 직접 데이터를 수집하지 않고도 Edge 프로필에 실시간으로 액세스할 수 있습니다. 허브에도 데이터를 수집하고 Edge 프로필에도 투영할 수 있습니다. 허브에 수집된 후 Edge에 투영되는 데이터에 대한 지연이 추가됩니다.
 
-* 웹 사이트에서 데이터를 수집하려면 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)를 사용하십시오.
+* 웹 사이트에서 데이터를 수집하려면 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ko)를 사용하십시오.
 * 모바일 애플리케이션에서 데이터를 수집하려면 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)를 사용하십시오.
 * Web SDK 또는 Mobile SDK을 사용하지 않거나 서버 간 직접 연결을 구현하는 경우 [Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)를 사용하십시오.
 
 >[!IMPORTANT]
 >
->Edge 개인화를 구현하기 전에 [Edge 개인화 대상에 대상 데이터를 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)하는 방법에 대한 안내서를 읽어 보십시오. 이 안내서는 여러 Experience Platform 구성 요소에서 동일한 페이지 및 다음 페이지 개인화 사용 사례에 필요한 구성 단계를 안내합니다.
+>Edge 개인화를 구현하기 전에 [Edge 개인화 대상에 대상 데이터를 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)하는 방법에 대한 안내서를 읽어 보십시오. 이 안내서는 여러 Experience Platform 구성 요소에서 동일한 페이지 및 다음 페이지 개인화 사용 사례에 필요한 구성 단계를 안내합니다.
 
 ## 아키텍처 다이어그램
 
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 ## 구현 패턴
 
-Edge 개인화는 실시간 고객 데이터 플랫폼의 [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 대상을 사용하여 구현할 수 있습니다. 이 대상은 사용 사례에 따라 여러 데이터 수집 방법을 지원합니다.
+Edge 개인화는 실시간 고객 데이터 플랫폼의 [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 대상을 사용하여 구현할 수 있습니다. 이 대상은 사용 사례에 따라 여러 데이터 수집 방법을 지원합니다.
 
 ### 패턴 1: 웹 SDK/모바일 SDK을 사용한 대상자 멤버십 기반 개인화
 
@@ -93,15 +93,15 @@ Edge 개인화는 실시간 고객 데이터 플랫폼의 [사용자 지정 Pers
 1. [프로필에 대해 스키마와 데이터 세트를 활성화합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ko).
 1. 데이터를 Experience Platform으로 [수집합니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ko)
 1. 올바른 ID 결합 및 프로필 병합을 위해 [병합 정책을 설정합니다](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ko).
-1. 대상 구성이 활성화된 Experience Platform 데이터 수집에서 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)합니다. 데이터 스트림은 페이지 응답에 대상이 포함될 데이터 수집 데이터 스트림을 결정합니다.
-1. 데이터 수집을 위한 웹 및 모바일 속성에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) 또는 [Mobile SDK](https://developer.adobe.com/client-sdks/home/)을 구현합니다.
+1. 대상 구성이 활성화된 Experience Platform 데이터 수집에서 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)합니다. 데이터 스트림은 페이지 응답에 대상이 포함될 데이터 수집 데이터 스트림을 결정합니다.
+1. 데이터 수집을 위한 웹 및 모바일 속성에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ko) 또는 [Mobile SDK](https://developer.adobe.com/client-sdks/home/)을 구현합니다.
 1. 실시간 평가가 필요한 대상에 대해 에지 세분화를 구성합니다. [Edge 세그멘테이션 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ko).
-1. 대상 카탈로그에서 [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 대상을 설정합니다.
-1. [Edge 개인화 대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations). 대상에 활성화할 대상을 선택합니다.
+1. 대상 카탈로그에서 [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 대상을 설정합니다.
+1. [Edge 개인화 대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations). 대상에 활성화할 대상을 선택합니다.
 1. (속성 기반 개인화의 경우 선택 사항) 대상 멤버십 외에 프로필 속성을 기반으로 개인화해야 하는 경우 동일한 데이터스트림을 사용하여 인증된 서버측 통합으로 [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)를 구현합니다. 프로필 특성에 액세스하는 데 필요한 **필수**&#x200B;입니다.
 1. 웹/모바일 애플리케이션에서 개인화 논리를 구현하여 내보낸 대상 데이터 및 프로필 속성을 사용합니다.
    * Adobe Experience Platform의 태그를 사용하는 경우 [이벤트 완료 보내기 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ko)을 사용하여 내보낸 데이터로 `event.destinations` 변수에 액세스합니다.
-   * 태그를 사용하지 않는 경우 [명령 응답](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)을 사용하여 Adobe Experience Platform의 JSON 응답을 구문 분석하고 대상 ID 및 프로필 속성을 검색합니다.
+   * 태그를 사용하지 않는 경우 [명령 응답](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=ko)을 사용하여 Adobe Experience Platform의 JSON 응답을 구문 분석하고 대상 ID 및 프로필 속성을 검색합니다.
 
 ## 구현 시 고려 사항
 
@@ -133,25 +133,25 @@ Edge 개인화는 실시간 고객 데이터 플랫폼의 [사용자 지정 Pers
 
 ### 대상 구성
 
-* [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - 기본 구현 안내서
-* [Personalization 대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
-* [Edge 개인화 대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
-* [실시간으로 가장자리에서 프로필 특성 조회](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
+* [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - 기본 구현 안내서
+* [Personalization 대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/overview)
+* [Edge 개인화 대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [실시간으로 가장자리에서 프로필 특성 조회](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
 
 ### SDK 설명서
 
-* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ko)
 * [Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/home/)
 * [Edge Network Server API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
-* [웹 SDK의 명령 응답](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)
+* [웹 SDK의 명령 응답](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=ko)
 
 ### 프로필 및 세그멘테이션 설명서
 
-* [[!UICONTROL Real-time Customer Profile] 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [[!UICONTROL Real-time Customer Profile] 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
 * [프로필 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 
 ### 튜토리얼
 
-* [Real-Time CDP와 Adobe Target을 사용한 다음 방문 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html)
-* [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)
+* [Real-Time CDP와 Adobe Target을 사용한 다음 방문 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ko)
+* [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)
