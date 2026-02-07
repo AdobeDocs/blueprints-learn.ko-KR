@@ -65,7 +65,7 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 | 컨텐츠 유형 | 기본 URL | 예제 경로 |
 |--------------|----------|--------------|
 | Experience Platform 문서 | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | `/en/`을(를) 사용하는 위와 동일한 구조입니다. |
+| Experience League (en) | `https://experienceleague.adobe.com/ko/docs/` | `/en/`을(를) 사용하는 위와 동일한 구조입니다. |
 | Journey Optimizer    | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | 웹 SDK | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | Edge Network 서버 API | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -77,7 +77,7 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 
 ### Markdown으로 링크 서식 지정
 
-- **설명 링크 텍스트**: `[Create schemas](https://experienceleague.adobe.com/...)`이(가) &quot;여기를 클릭&quot;하지 않습니다.
+- **설명 링크 텍스트**: `[Create schemas](https://experienceleague.adobe.com/ko...)`이(가) &quot;여기를 클릭&quot;하지 않습니다.
 - **텍스트 형식의 제품 이름**: Adobe 스타일에 따라 `[!DNL Product Name]`을(를) 사용합니다(예: `[!DNL Real-time Customer Profile]`).
 - **외부 링크**: 템플릿 또는 파이프라인에 필요한 경우에만 `{target="_blank"}`을(를) 추가합니다(리포지토리의 기존 블루프린트를 확인).
 
@@ -98,16 +98,16 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ko)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 ```
 
 &#x200B;---

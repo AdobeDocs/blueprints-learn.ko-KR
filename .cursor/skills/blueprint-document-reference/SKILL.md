@@ -98,7 +98,7 @@ exl-id: [UUID - leave blank if new, this will be auto-generated as part of the E
 ## Adobe Experience League 참조
 
 - **연결할 시기**: 제품 설명서, API 참조, 보호 기능, 자습서 및 구성 단계를 위한 Experience League에 연결합니다. 긴 절차를 복제하지 마십시오. 요약 및 링크하십시오.
-- **URL 형식**: 전체 URL을 사용합니다. `https://experienceleague.adobe.com/docs/...` 또는 `https://experienceleague.adobe.com/en/docs/...`을(를) 선호합니다. 개발자 문서의 경우 `https://developer.adobe.com/...`도 유효합니다.
+- **URL 형식**: 전체 URL을 사용합니다. `https://experienceleague.adobe.com/docs/?lang=ko...` 또는 `https://experienceleague.adobe.com/ko/docs/...`을(를) 선호합니다. 개발자 문서의 경우 `https://developer.adobe.com/...`도 유효합니다.
 - **링크 텍스트**: 설명 텍스트를 사용하십시오(예: &quot;여기를 클릭&quot;하지 않고 &quot;[스키마 만들기] (url)&quot;). 링크 텍스트의 제품 이름은 필요한 경우 `[!DNL Product Name]`을(를) 사용하십시오.
 - **관련 설명서 섹션**: 범주(예: 대상 구성, SDK 설명서, 프로필 및 세그멘테이션, 튜토리얼)별로 링크를 그룹화하는 &quot;관련 설명서&quot; 섹션으로 블루프린트를 종료합니다.
 
