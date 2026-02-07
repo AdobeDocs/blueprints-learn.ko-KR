@@ -15,7 +15,7 @@ ht-degree: 2%
 | **시나리오 블루프린트** | 단일 사용 사례: 아키텍처, 단계, 보호 기능 | 예: `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **목차** | 탐색, 컨텐츠 템플릿으로 사용하지 않음 | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## 전체 섹션 참조
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 - **블루프린트 시나리오** 또는 **통합 패턴**: 시나리오 이름, 간단한 설명 및 시나리오 블루프린트에 연결된 테이블입니다.
 - **필수 구성 요소**, **보호 기능**, **관련 설명서**: 위와 같습니다. 간결하게 유지하십시오.
 
----
+&#x200B;---
 
 ## Adobe Experience League - 에이전트 지침
 
@@ -110,7 +110,7 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## 보고서 및 목차
 
@@ -118,7 +118,7 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 - **Assets**: 블루프린트(예: `assets/`, `images/`) 또는 공유 폴더(예: `experience-platform/assets/`)와 함께 찾습니다.
 - **TOC**: 블루프린트 페이지를 추가, 이름 변경 또는 이동할 때 `help/blueprints/TOC.md`을(를) 편집합니다. `user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role` 및 `+` 계층 구조를 유지합니다.
 
----
+&#x200B;---
 
 ## 이 저장소의 참조 예
 
