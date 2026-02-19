@@ -1,10 +1,14 @@
 ---
-source-git-commit: 9d0eebd5d84671db1c86d73e7e0de50cb926235d
+title: AJO B2B 유료 미디어 컨트롤러
+description: 유료 미디어 대상에 대한 캠페인 및 계정 활성화의 우선 순위
+solution: Journey Optimizer B2B Edition
+source-git-commit: dff5608af92fa1140419d6834d8374df75de98d3
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
+
 # 개요
 
 대규모로 B2B 유료 미디어를 실행하는 마케팅 팀은 반복되는 문제에 직면합니다. **계정은 한 번에 여러 캠페인으로 끝납니다**(성향, 카테고리 인식, 솔루션 주도, 추구). 이 캠페인으로 인해 메시징이 희석되고, 대상자 피로가 발생하며, LinkedIn 계정 일치(계정 대상)에서 업로드, 제외 및 억제와 같은 수동 목록 작업이 강제로 수행됩니다. **waterfall 우선 순위 지정** 및 **자동화된 캠페인 할당**&#x200B;이 없으면 메시지를 받을 계정을 결정할 수 있는 위치가 없으며 작업이 확장되지 않습니다.
@@ -67,8 +71,8 @@ ht-degree: 0%
 
 ### 가드레일
 
-- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
-- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
+- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
+- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
 
 ## 구현
 
@@ -121,6 +125,6 @@ ht-degree: 0%
 
 ## 관련 설명서
 
-- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b) — 제품 설명서입니다.
+- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — 제품 설명서입니다.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - 계정 대상자 및 활성화.
