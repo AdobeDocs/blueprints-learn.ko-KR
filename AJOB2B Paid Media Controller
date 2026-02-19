@@ -1,0 +1,258 @@
+# Overview
+
+Marketing teams running B2B paid media at scale face a recurring problem: **accounts end up in multiple campaigns at once** (persona, category awareness, solution-led, pursuit), which dilutes messaging, causes audience fatigue, and forces manual list work—uploads, exclusions, and suppression—across LinkedIn Account Match (Account Destination). Without **waterfall prioritization** and **automated campaign assignment**, there is no single place to decide which account gets which message, and operations do not scale.
+
+The **Paid Media Controller** addresses this problem using **Adobe Journey Optimizer B2B Edition (AJO B2B)** and **Adobe Experience Platform (AEP)** together. One **account journey** reads a qualified-account audience from Real-Time CDP, applies **split-path (waterfall) logic** to assign each account to exactly one campaign tier, and **activates each path directly** to paid media destinations (e.g., LinkedIn Matched Audiences)—with no manual list handoffs.  
+
+The outcome is precision control, less overlap, and a repeatable pattern for multichannel B2B paid media orchestration.
+
+---
+
+# Use Case: A Marketer’s Story — Why a Controller Matters
+
+*Maya leads paid media for a global B2B brand. Her team runs dozens of campaigns—foundational awareness, category intent (Journey, Data, Content), solution-led programs, persona campaigns, and must-win pursuits. She has a problem.*
+
+## The Problem
+
+The same accounts show up in multiple campaigns. A high-intent Journey account is also in a broad awareness list; a pursuit account still gets persona ads.  
+
+List uploads and exclusions are manual. Every time sales updates a “must-win” list or a new persona campaign launches, her team re-exports audiences, reconciles overlaps in spreadsheets, and re-uploads to LinkedIn and other platforms.
+
+It’s slow, error-prone, and doesn’t scale.
+
+## What She Wants
+
+One place where every qualified account is evaluated once, assigned to the *most relevant* campaign using clear priority rules (waterfall), and sent to the right paid media destination—automatically.
+
+No manual list handoffs.
+
+When data or strategy changes, the system re-evaluates and moves accounts between campaigns without manual intervention.
+
+## Adobe’s Answer
+
+With **AJO B2B and AEP working together**, Maya runs a single **Paid Media Controller** journey:
+
+- AEP & Real-Time CDP hold the data and one master “qualified accounts” audience
+- AJO B2B runs an account journey
+- **Split-path logic (waterfall)** routes accounts into the right tier:
+  - Targeted Pursuits  
+  - Solution-Led  
+  - Persona  
+  - Category Awareness  
+  - Foundational Awareness  
+- **Activate to Destination** sends each path to the right LinkedIn (or other) campaign
+
+One journey.  
+One source of truth.  
+No manual list exports.
+
+---
+
+## Why It Matters for B2B Enterprises
+
+Organizations adopting this pattern can:
+
+- Eliminate manual suppression and exclusion logic
+- Scale to **tens of thousands of accounts**
+- Manage **millions of person-level profiles**
+- Maintain a **single source of truth**
+- Automatically adapt as campaign focus and sales goals change
+- Dynamically manage spend and delivery across paid media channels
+
+### Success KPIs
+
+- **Awareness:** Are target accounts seeing the right ads and moving appropriately?
+- **Engagement:** Does removing overlap improve conversion?
+- **Efficiency:** Has manual list work decreased?
+- **Cost:** How does cost per acquired account/opportunity change?
+
+---
+
+# Paid Media Journey Orchestration
+
+A common use case is **B2B paid media journey orchestration**:
+
+Ensuring every qualified account is assigned to exactly one campaign tier and activated to the correct paid media destination—without overlap or manual handoffs.
+
+The controller journey:
+
+1. **Reads** a qualified-account audience (from Real-Time CDP)
+2. **Evaluates** accounts through waterfall conditions:
+   - Pursuit  
+   - Solution-led  
+   - Persona  
+   - Category intent  
+   - Foundational  
+3. **Activates** each path to the corresponding destination
+
+When account attributes change, re-entry rules re-evaluate and reassign accounts automatically.
+
+---
+
+# Requirements
+
+## Applications & Services
+
+- **Adobe Journey Optimizer B2B Edition**
+  - Account journeys
+  - Split-path logic
+  - Activate to Destination
+
+- **Real-Time CDP B2B Edition**
+  - Account profiles
+  - Account audiences
+
+## Licensing Notes
+
+- AJO B2B connected to AEP B2B
+- Real-Time CDP B2B Edition
+- Data sources enriching account/person profiles
+- Paid media destinations configured (e.g., LinkedIn Matched Audiences)
+
+---
+
+# Architecture
+
+## High-Level Flow
+
+1. **Data & Audiences**
+   - AEP holds profiles and events
+   - Real-Time CDP builds account audiences
+   - “Paid Media Eligible Accounts” = journey entry audience
+
+2. **Orchestration**
+   - AJO B2B account journey
+   - Read audience → Split path (waterfall) → Activate to Destination
+
+3. **Destinations**
+   - LinkedIn Matched Audiences
+   - Other paid media channels
+   - No manual uploads
+
+---
+
+# Data Modeling in B2B AEP
+
+Account and person profiles must include attributes used in **split-path conditions**:
+
+- Pursuit flag
+- Solution interest
+- Persona
+- Intent category
+- Engagement score
+
+Recommended schemas:
+
+- XDM Business Account
+- XDM Individual Profile
+- Relationship schemas
+
+Resources:
+
+- [RTCDP B2B Schemas](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
+- [AJO B2B Documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home)
+
+---
+
+## Guardrails
+
+- **Journey Optimizer B2B Edition:**  
+  https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html
+
+- **Real-Time CDP Guardrails:**  
+  https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview
+
+- **Destinations:**  
+  Align sync limits and journey schedule with platform processing times.
+
+---
+
+## Provisioning
+
+- All instances must be on the same IMS organization
+- One AJO B2B instance per AEP sandbox
+- Destinations must be configured for activation
+
+---
+
+# Implementation
+
+## Pre-Requisites
+
+### 1. Define Account Audiences
+Create the **qualified-account audience** in Real-Time CDP B2B  
+(e.g., “Paid Media Eligible Accounts”).
+
+### 2. Define Campaign Hierarchy & Split Logic
+Document waterfall order:
+
+Pursuit → Solution-Led → Persona → Category → Foundational  
+
+Ensure conditions are mutually exclusive (top-down evaluation).
+
+### 3. Configure Destinations
+Set up LinkedIn and other paid media destinations.
+
+---
+
+## Paid Media Controller Configuration
+
+### Create Controller Journey
+
+- **Read audience**
+  - Select qualified-account audience
+  - Set schedule and re-entry rules
+
+- **Split path**
+  - Add nodes in waterfall order
+  - Evaluate conditions
+  - First match wins
+
+- **Activate to Destination**
+  - Add activation per path
+
+---
+
+### Validate
+
+- Ensure one-path assignment
+- Test re-entry logic
+- Verify destination activation
+
+---
+
+# Audience Activation
+
+## Activate to LinkedIn
+
+Use “Activate to Destination” in the journey.
+
+No manual list exports.
+
+## Monitor & Tune
+
+- Monitor journey reporting
+- Check sync status
+- Adjust split conditions as strategy evolves
+
+---
+
+# Summary
+
+The **Paid Media Controller** blueprint shows how **AJO B2B and AEP** work together to automate campaign assignment and paid media activation:
+
+- One master audience  
+- One journey  
+- Waterfall split logic  
+- Direct activation to destinations  
+- No manual list handoffs  
+
+It creates a scalable, repeatable pattern for B2B paid media orchestration.
+
+---
+
+# Related Documentation
+
+- [Buying Group-based Marketing and Journey Management Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys)
+- [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b)
+- [Real-Time CDP B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
