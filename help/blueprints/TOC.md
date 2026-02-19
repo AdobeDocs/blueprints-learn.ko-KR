@@ -5,10 +5,10 @@ user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
+source-git-commit: 747e685bb897dd15774748c20940e49e9c234b31
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 38%
+source-wordcount: '234'
+ht-degree: 37%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 38%
    + [개요](/help/blueprints/b2b/overview.md)
    + [B2B 활성화](/help/blueprints/b2b/b2bactivation.md)
    + [B2B 계정 활성화](/help/blueprints/b2b/b2b-account-activation.md)
+   + [B2B 유료 미디어 컨트롤러](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + [구매 그룹 기반 마케팅 및 여정 관리](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [Marketo 데이터를 사용하는 B2B 여정](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
    + Marketo Engage 및 Workfront 통합 블루프린트{#marketo-engage-and-workfront-integration-blueprint}
@@ -53,7 +54,7 @@ ht-degree: 38%
 + 고객 여정{#customer-journeys}
    + [개요](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer   {#journey-optimizer}
-      + [Journey Optimizer   &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer   ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO 여정](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO 캠페인](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [서드파티 메시징](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -67,8 +68,8 @@ ht-degree: 38%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard){target="_blank"}
-         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Adobe이 포함된 Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + 데이터 분석, 인텔리전스, AI/ML {#data-exploration}
