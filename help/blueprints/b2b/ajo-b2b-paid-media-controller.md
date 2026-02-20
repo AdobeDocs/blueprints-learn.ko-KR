@@ -74,8 +74,8 @@ ht-degree: 0%
 
 ### 가드레일
 
-- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
-- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
+- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
+- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
 
 ## 구현
 
@@ -128,6 +128,6 @@ ht-degree: 0%
 
 ## 관련 설명서
 
-- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — 제품 설명서입니다.
+- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b) — 제품 설명서입니다.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - 계정 대상자 및 활성화.
