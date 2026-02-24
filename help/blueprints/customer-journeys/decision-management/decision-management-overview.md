@@ -3,10 +3,10 @@ title: 의사 결정 관리 블루프린트
 description: 고객 여정 전반에 걸쳐 개인화된 오퍼를 게재합니다.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 
 [의사 결정 관리](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)에 대한 다음 설명서를 참조하세요.
 
-[의사 결정 관리]와 관련된 보호 기능은 다음 설명서를 참조하십시오. [의사 결정 관리 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+[의사 결정 관리]와 관련된 보호 기능은 다음 설명서를 참조하십시오. [의사 결정 관리 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 Adobe 의사 결정 관리는 Adobe Journey Optimizer의 일부로 제공되는 서비스입니다. 이 블루프린트에서는 애플리케이션의 사용 사례 및 기술적 기능을 간략하게 훑어보고 의사 결정 관리의 다양한 아키텍처 구성 요소와 고려할 사항을 자세히 설명합니다.
 
@@ -64,5 +64,5 @@ Journey Optimizer는 모든 접점에서 적시에 고객에게 최상의 오퍼
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
 * [Adobe Journey Optimizer 의사 결정 관리](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ko)
-* [&#x200B; Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)
+* [ Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Adobe 의사 결정 관리 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html)
