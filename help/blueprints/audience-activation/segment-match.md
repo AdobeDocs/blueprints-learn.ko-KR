@@ -1,12 +1,12 @@
 ---
 title: 세그먼트가 일치하는 Audience Collaboration
-description: AEP(Adobe Experience Platform)의 [!UICONTROL Segment Match]에 대해 알아봅니다. [!UICONTROL Segment Match]는 업계의 공통 식별자를 기반으로 안전하고 철저히 관리할 수 있으며 개인 정보 보호에 친화적인 방식으로 세그먼트 데이터를 교환할 수 있도록 해 주는 데이터 공동 작업 서비스입니다.
+description: Adobe Experience Platform(AEP)의 [!UICONTROL 세그먼트 일치]에 대해 알아봅니다. [!UICONTROL 세그먼트 일치 ]은(는) 보안되고 관리되며 개인 정보에 친화적인 방식으로 일반적인 업계 식별자를 기반으로 세그먼트 데이터를 교환할 수 있는 데이터 공동 작업 서비스입니다.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 80%
+source-wordcount: '2235'
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 브랜드-퍼블리셔:
 
-서드파티 쿠키 및 모바일 광고 ID 데이터의 사용이 종료되면서 &#39;퍼블리셔 사용 사례&#39;가 가장 큰 영향을 받게 됩니다. 이 사용 사례는 광고를 판매하는 데 중점을 둔 비즈니스 모델을 사용하는 미디어 및 엔터테인먼트 업계에 큰 영향을 줍니다. [!UICONTROL Segment Match]는 대규모 퍼스트파티 대상자를 갖추고 광고주와 직접 공동 작업하려는 퍼블리셔에게 길을 열어 줍니다. 광고주는 퍼블리셔와 직접 공동 작업하여 퍼블리셔 속성에서 일치하는 대상자에게 광고함으로써 세부적인 타겟팅 또는 예측 캠페인을 진행할 수 있습니다.
+서드파티 쿠키 및 모바일 광고 ID 데이터의 사용이 종료되면서 &#39;퍼블리셔 사용 사례&#39;가 가장 큰 영향을 받게 됩니다. 이 활용 사례는 비즈니스 모델로서 광고 판매에 집중하는 미디어 및 엔터테인먼트 업계에 큰 영향을 미친다. [!UICONTROL 세그먼트 일치]은(는) 자사 대상자가 많은 게시자가 광고주와 직접 공동 작업하려는 경로입니다. 광고주는 퍼블리셔와 직접 공동 작업하여 퍼블리셔 속성에서 일치하는 대상자에게 광고함으로써 세부적인 타겟팅 또는 예측 캠페인을 진행할 수 있습니다.
 
 ### 브랜드-브랜드
 
@@ -46,7 +46,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 ![Segment Match 아키텍처](assets/architecture-segment-match.png){zoomable="yes"}
 
-[!UICONTROL Segment Match]는 데이터를 구입할 수 있는 데이터 시장이 아닙니다. 선택한 파트너의 퍼스트파티 데이터로 작동하며 개인 정보 보호 및 동의 제어를 사용하여 공동 작업을 돕는 AEP 기능입니다. [!UICONTROL Segment Match]는 고객 관계를 개선하고 브랜드를 성장시키는 데 중점을 둡니다. 기존에 브랜드나 파트너 관계가 존재하는 경우에 유용합니다. [!UICONTROL Segment Match]의 경험은 관리가 쉽고 확장이 가능하며, 관리자가 옵트인 기반의 제어 가능한 방식으로 세그먼트를 공유할 수 있도록 해 줍니다.
+[!UICONTROL Segment Match]는 데이터를 구입할 수 있는 데이터 시장이 아닙니다. 대신, 개인 정보 및 동의 제어를 사용하여 공동 작업을 지원함으로써 선별된 파트너와 함께 자사 데이터로 작동하는 AEP 기능입니다. [!UICONTROL 세그먼트 일치 ]은(는) 고객 관계를 개선하고 브랜드를 성장시키는 데 노력을 집중하는 데 도움이 됩니다. 기존 브랜드 또는 파트너 관계가 존재하는 경우 유용합니다. [!UICONTROL 세그먼트 일치 ] 경험은 관리하기 쉽고 확장 가능하며 관리자가 제어 가능한 옵트인 방식으로 세그먼트를 공유할 수 있습니다.
 
 [!UICONTROL Segment Match]로 할 수 있는 일:
 
@@ -104,7 +104,7 @@ Segment Match를 통해 파트너 브랜드끼리 각자의 Experience Platform 
 
 * [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko)을 사용하여 신원 특정적 속성(idSpecific) 공유를 설정합니다.
 
-  이 필드 그룹은 환경 및 기본 설정 정보를 캡처할 수 있도록 단일 객체 유형 필드인 동의 필드를 제공합니다. [!UICONTROL Segment Match]는 명시적으로 옵트아웃하지 않은 모든 ID를 기본적으로 포함합니다. 예:
+  이 필드 그룹은 동의 및 환경 설정 정보를 캡처하기 위한 단일 개체 유형 필드인 동의를 제공합니다. [!UICONTROL 세그먼트 일치 ]에는 기본적으로 명시적으로 옵트아웃되지 않은 모든 ID가 포함됩니다. 예:
 
   ```
   "share": {

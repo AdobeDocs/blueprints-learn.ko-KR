@@ -2,10 +2,10 @@
 title: 가져오기 및 만들기 블루프린트
 description: 접수 및 생성 - Marketo Engage와 Workfront 통합 블루프린트
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 97%
+source-wordcount: '1372'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 캠페인 요청 제출 프로세스를 설정하고 요청이 많은 마케팅 캠페인 만들기를 자동화함으로써 캠페인 속도를 높이고, 오류를 줄이고, 마케팅 운영 팀의 적합한 구성원에게 요청을 할당하고, 리소스 사용률의 균형을 맞추고 개선하며, 마케팅 운영 팀의 구성원 중 많은 수를 보다 전략적인 작업에 집중할 수 있습니다.
 
-Workfront와 Marketo Engage를 사용하면 시스템 간 연결을 통해 [Workfront 요청 양식](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=ko){target="_blank"}의 세부 정보를 사용하여 Marketo Engage의 프로그램을 만든 다음 제목, 이메일 카피, 이미지, 날짜, 시간, 이벤트 정보 등 핵심 변수를 채울 수 있습니다.
+Workfront 및 Marketo Engage을 사용하면 시스템 간 연결을 통해 [Workfront 요청 양식](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=ko){target="_blank"}에서 세부 정보를 사용하여 Marketo Engage 프로그램을 만든 다음 제목 줄, 전자 메일 복사본, 이미지, 날짜, 시간, 이벤트 정보 등과 같은 주요 변수를 채울 수 있습니다.
 
 이 통합을 구성하려면 Workfront와 다른 시스템 간의 워크플로우를 자동화할 수 있는 작업 자동화 레이어인 Workfront Fusion을 사용합니다.
 
@@ -95,7 +95,7 @@ Marketo Engage의 프로그램 템플릿으로 최상위 센터를 구축하는 
 
 재사용 가능한 프로그램 템플릿 세트를 갖춘 다음에는 이 블루프린트에서 설명하는 자동화를 사용하여 캠페인 개발의 속도를 더욱 높이는 방향으로 노력을 확장할 수 있습니다.
 
-자신만의 최상위 센터를 만드는 방법을 자세히 알아보려면 [Marketo 커뮤니티](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}의 우수 사례를 살펴보세요.
+자신만의 전문가 센터를 만드는 방법에 대해 자세히 알아보려면 [Marketo 커뮤니티](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}에서 모범 사례를 확인하십시오.
 
 ### 토큰을 사용하여 콘텐츠 채우기 {#use-tokens-to-populate-content}
 
@@ -105,7 +105,7 @@ Marketo Engage에서는 토큰을 사용하여 캠페인 자산에 콘텐츠를 
 
 ### AEM Assets에서 가져온 이미지 채우기 {#populate-images-from-aem-assets}
 
-Marketo Engage의 토큰을 AEM Assets의 자산으로 가는 링크와 함께 활용하여 이메일 및 랜딩 페이지 개발을 더욱 자동화할 수 있습니다. 캠페인 요청자는 요청 프로세스의 일환으로 AEM Assets에서 게시한 이미지 링크를 제출할 수 있습니다. 그 다음 Workfront Fusion에서 Marketo Engage 토큰을 사용하여 이 링크를 이메일 HTML에 포함할 수 있습니다.
+Marketo Engage의 토큰을 AEM Assets의 자산으로 가는 링크와 함께 활용하여 이메일 및 랜딩 페이지 개발을 더욱 자동화할 수 있습니다. 캠페인 요청자는 요청 프로세스의 일환으로 AEM Assets에서 게시한 이미지 링크를 제출할 수 있습니다. 그 다음 Workfront Fusion에서 Marketo Engage 토큰을 사용하여 이 링크를 이메일 HTML에 임베드할 수 있습니다.
 
 Fusion이 Workfront에 제출된 정보로 토큰 값을 업데이트할 수 있도록 하려면 Marketo Engage에서 [프로그램] 및 [프로그램 템플릿]이 [내 토큰]을 활용하도록 작성해야 합니다.
 

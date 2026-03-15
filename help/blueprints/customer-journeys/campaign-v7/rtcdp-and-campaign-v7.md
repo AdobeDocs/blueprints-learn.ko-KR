@@ -3,14 +3,14 @@ title: ' [!DNL Campaign] v7 및 Campaign Standard 통합 패턴이 포함된 Rea
 description: Adobe Experience Platform 및 실시간 고객 프로필과 중앙 집중식 세분화 도구를 Adobe [!DNL Campaign] 과(와) 함께 사용하여 개인화된 대화를 제공하는 방법을 소개합니다.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: fa1f8799e774713a48fdd437a9325731aef1b6ab
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 42%
+source-wordcount: '811'
+ht-degree: 55%
 
 ---
 
-# [!DNL Real-Time Customer Data Platform] 통합 패턴을 사용하는 [!DNL Campaign]
+# [!DNL Campaign] 통합 패턴을 사용하는 [!DNL Real-Time Customer Data Platform]
 
 Adobe [!DNL Experience Platform] 및 실시간 고객 프로필과 중앙 집중식 세분화 도구를 Adobe [!DNL Campaign]과(와) 함께 사용하여 개인 맞춤화된 대화를 제공하는 방법을 소개합니다.
 
@@ -48,7 +48,7 @@ Adobe [!DNL Experience Platform] 및 실시간 고객 프로필과 중앙 집중
 
 다음 섹션에서는 각 애플리케이션에 대한 구현 단계를 설명합니다.
 
-### Adobe Experience Platform  
+### Adobe Experience Platform
 
 #### 스키마/데이터 세트
 
@@ -68,10 +68,10 @@ Adobe [!DNL Experience Platform] 및 실시간 고객 프로필과 중앙 집중
 
 #### 소스/대상
 
-1. [Experience Platform 및 [!DNL Campaign] 표준 소스 및 지정](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko)
+1. [Experience Platform 및 [!DNL Campaign] 표준 소스 및 설명](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko)
 1. [Experience Platform 및 [!DNL Campaign] v7 소스 및 설명](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ko)
 1. 스트리밍 API 및 소스 커넥터를 사용하여 [Experience Platform으로 데이터를 수집해 옵니다.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ko)
-1. Adobe [!DNL Azure]에서 사용할 [!DNL Campaign] blob 저장소 대상을 구성합니다.
+1. Adobe [!DNL Campaign]에서 사용할 [!DNL Azure] blob 저장소 대상을 구성합니다.
 
 #### Adobe [!DNL Campaign]
 

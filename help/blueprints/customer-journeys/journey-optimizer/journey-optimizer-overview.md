@@ -3,10 +3,10 @@ title: '[!DNL Journey Optimizer] - 여정 블루프린트'
 description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
+source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 15%
+source-wordcount: '718'
+ht-degree: 16%
 
 ---
 
@@ -94,12 +94,12 @@ Adobe [!DNL Experience Platform]:
 
 [[!DNL Journey Optimizer] 보호 기능 제품 링크](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[보호 기능 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ko)
+[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 관련 설명서
 
 - [[!DNL Experience Platform] 설명서](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 - [[!DNL Experience Platform] 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
-- [[!DNL Experience Platform Mobile SDK] 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)
-- [[!DNL Journey Optimizer] 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ko)
+- [[!DNL Experience Platform Mobile SDK] 설명서](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)

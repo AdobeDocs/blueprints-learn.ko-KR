@@ -3,10 +3,10 @@ title: Campaign v7 블루프린트
 description: 일괄 처리 기반 메시징 프로그램, 온보딩 및 리마케팅 캠페인, DM 광고 및 간단한 트랜잭션 메시지를 위한 Campaign v7 블루프린트에 대해 알아봅니다.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 10d49e3b712fc9d4ecdf41defe6e62dde2a86b72
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
