@@ -1,14 +1,14 @@
 ---
-user-guide-title: Customer Experience Orchestration 블루프린트
-breadcrumb-title: 블루프린트
-user-guide-description: 블루프린트는 기존 비즈니스 문제를 다루는 반복 가능한 구현으로 아키텍처 다이어그램, 기술적 고려 사항 및 관련 설명서 링크 등을 포함하고 있습니다.
+user-guide-title: Customer Experience Orchestration 비즈니스 목표, 사용 사례, 아키텍처 다이어그램 및 블루프린트
+breadcrumb-title: 사용 사례 및 블루프린트
+user-guide-description: Adobe Experience Platform 및 애플리케이션에 대한 주요 비즈니스 목표, 사용 사례 패턴 및 업계 사용 사례를 살펴봅니다. 시각적 아키텍처 다이어그램 및 블루프린트는 비즈니스 가치를 구현에 연결하는 시스템 통합, 데이터 흐름 및 솔루션 설계에 대한 기술 참조를 제공합니다.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 021e6b48e09ce2d3da80ffe7ca1b7f4ce4a4a3a4
+source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 17%
+source-wordcount: '474'
+ht-degree: 12%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 17%
          + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard){target="_blank"}
-            + [Adobe [!DNL Campaign Standard]이(가) 있는 Real-Time CDP](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Adobe [!DNL Campaign Standard]이(가) 있는 Real-Time CDP](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
