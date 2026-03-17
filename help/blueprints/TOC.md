@@ -5,9 +5,9 @@ user-guide-description: Adobe Experience Platform 및 애플리케이션에 대�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
+source-git-commit: 8ad59ff130dae13553f10049eb685cf557a73ead
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '477'
 ht-degree: 12%
 
 ---
@@ -69,6 +69,7 @@ ht-degree: 12%
       + [Brand Concierge 대화 경험](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + 업계 사용 사례 예{#industry-use-cases}
    + [개요](/help/blueprints/industry-use-cases/overview.md)
+   + [사용 사례 카탈로그](/help/blueprints/industry-use-cases/use-case-catalog.md)
    + [자동차](/help/blueprints/industry-use-cases/automotive/automotive-overview.md)
    + [B2B](/help/blueprints/industry-use-cases/b2b/b2b-overview.md)
    + [금융 서비스](/help/blueprints/industry-use-cases/financial-services/financial-services-overview.md)
@@ -132,7 +133,7 @@ ht-degree: 12%
          + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard){target="_blank"}
-            + [Adobe [!DNL Campaign Standard]이(가) 있는 Real-Time CDP](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Adobe [!DNL Campaign Standard]이(가) 있는 Real-Time CDP](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
