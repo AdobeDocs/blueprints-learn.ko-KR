@@ -1,7 +1,7 @@
 ---
 name: blueprint-document-reference
 description: Adobe Digital Experience Blueprint 문서 생성 및 편집에 대한 참조입니다. 새 블루프린트를 만들거나 블루프린트 페이지를 추가하거나 사용자가 블루프린트 구조, 섹션, 템플릿에 대해 묻거나 Adobe Experience League를 참조할 때 사용합니다.
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 title: [Short descriptive title]
 description: "[One sentence: what this blueprint shows and why it matters.]"
 solution: [Product name, e.g. Real-Time Customer Data Platform, Journey Optimizer]
-exl-id: [UUID - leave blank if new, this will be auto-generated as part of the Experience League publishing flow]
+exl-id: [UUID - if this is already popultated keep it as is. Disregard and remove this field if it is a new blueprint as blank values will be rejected by the publishing flow. If the field and value are not present, it will be auto-generated as part of the Experience League publishing flow]
 ---
 # [H1 - same as title or expanded]
 
@@ -98,8 +98,8 @@ exl-id: [UUID - leave blank if new, this will be auto-generated as part of the E
 ## Adobe Experience League 참조
 
 - **연결할 시기**: 제품 설명서, API 참조, 보호 기능, 자습서 및 구성 단계를 위한 Experience League에 연결합니다. 긴 절차를 복제하지 마십시오. 요약 및 링크하십시오.
-- **URL 형식**: 전체 URL을 사용합니다. `https://experienceleague.adobe.com/docs/?lang=ko...` 또는 `https://experienceleague.adobe.com/ko/docs/...`을(를) 선호합니다. 개발자 문서의 경우 `https://developer.adobe.com/...`도 유효합니다.
-- **링크 텍스트**: 설명 텍스트를 사용하십시오(예: &quot;여기를 클릭&quot;하지 않고 &quot;[스키마 만들기] (url)&quot;). 링크 텍스트의 제품 이름은 필요한 경우 `[!DNL Product Name]`을(를) 사용하십시오.
+- **URL 형식**: 전체 URL을 사용합니다. `https://experienceleague.adobe.com/docs/...` 또는 `https://experienceleague.adobe.com/en/docs/...`을(를) 선호합니다. 개발자 문서의 경우 `https://developer.adobe.com/...`도 유효합니다.
+- **링크 텍스트**: 설명 텍스트를 사용하십시오(예: &quot;여기를 클릭&quot;하지 않고 &quot;[스키마 만들기](url)&quot;). 링크 텍스트의 제품 이름은 필요한 경우 `[!DNL Product Name]`을(를) 사용하십시오.
 - **관련 설명서 섹션**: 범주(예: 대상 구성, SDK 설명서, 프로필 및 세그멘테이션, 튜토리얼)별로 링크를 그룹화하는 &quot;관련 설명서&quot; 섹션으로 블루프린트를 종료합니다.
 
 자세한 URL 패턴, 링크 그룹화 및 예제는 [reference.md](reference.md)을(를) 참조하십시오.
