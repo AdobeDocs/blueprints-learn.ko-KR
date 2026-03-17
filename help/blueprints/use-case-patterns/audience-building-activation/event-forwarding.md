@@ -80,9 +80,9 @@ ht-degree: 0%
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Adobe Experience Platform](Edge Network)** - 구성된 데이터스트림을 통해 Web SDK, Mobile SDK 또는 Server API에서 실시간 이벤트 데이터를 수신하고 라우팅합니다.
-- **[!DNL Adobe Experience Platform](이벤트 전달)** — 이벤트 데이터를 평가, 필터링, 변환 및 외부 대상으로 전달하기 위한 서버측 규칙 엔진을 제공합니다.
-- **[!DNL Adobe Experience Platform](태그/데이터 수집)** — 이벤트 전달 속성 라이프사이클, 확장, 규칙 및 게시 워크플로우를 관리합니다.
+- **[!DNL Adobe Experience Platform] (Edge Network)** - 구성된 데이터스트림을 통해 Web SDK, Mobile SDK 또는 Server API에서 실시간 이벤트 데이터를 수신하고 라우팅합니다.
+- **[!DNL Adobe Experience Platform] (이벤트 전달)** — 이벤트 데이터를 평가, 필터링, 변환 및 외부 대상으로 전달하기 위한 서버측 규칙 엔진을 제공합니다.
+- **[!DNL Adobe Experience Platform] (태그/데이터 수집)** — 이벤트 전달 속성 라이프사이클, 확장, 규칙 및 게시 워크플로우를 관리합니다.
 
 ## 기본 함수
 

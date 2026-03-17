@@ -91,10 +91,10 @@ ht-degree: 2%
 
 다음 응용 프로그램을 사용하여 이 사용 사례 패턴을 구현합니다.
 
-- **[!DNL Adobe Journey Optimizer]([!DNL AJO])** — 여정 오케스트레이션(다단계 캔버스 디자인, 시작 조건, 대기, 조건, 종료 기준), 채널 간 메시지 작성, 채널 표면 구성, 충돌 및 우선 순위 관리
+- **[!DNL Adobe Journey Optimizer] ([!DNL AJO])** — 여정 오케스트레이션(다단계 캔버스 디자인, 시작 조건, 대기, 조건, 종료 기준), 채널 간 메시지 작성, 채널 표면 구성, 충돌 및 우선 순위 관리
 - **[!DNL Adobe Journey Optimizer]의사 결정** — 오퍼 및 콘텐츠 항목 관리, 자격 규칙, 순위 전략(우선 순위, 공식, AI), 의사 결정 정책, 배치, 대체 오퍼
-- **[!DNL Adobe Real-Time Customer Data Platform]([!DNL RT-CDP])** — 여정 입력 및 오퍼 자격 세그먼트에 대한 대상 평가, 계산된 특성 및 성향 점수를 통한 프로필 강화, 동의 및 거버넌스 적용
-- **[!DNL Adobe Experience Platform]([!DNL AEP])** — 실시간 고객 프로필 스토어, 크로스 채널 해결을 위한 ID 서비스, 데이터 모델링 및 수집 인프라
+- **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** — 여정 입력 및 오퍼 자격 세그먼트에 대한 대상 평가, 계산된 특성 및 성향 점수를 통한 프로필 강화, 동의 및 거버넌스 적용
+- **[!DNL Adobe Experience Platform] ([!DNL AEP])** — 실시간 고객 프로필 스토어, 크로스 채널 해결을 위한 ID 서비스, 데이터 모델링 및 수집 인프라
 
 ## 기본 함수
 

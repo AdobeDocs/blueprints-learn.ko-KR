@@ -101,8 +101,8 @@ ht-degree: 1%
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Customer Journey Analytics](CJA)** — 연결, 데이터 보기, 작업 공간 분석, 안내식 분석, 계산된 지표, 대시보드, 대상 게시 및 콘텐츠 분석
-- **[!DNL Adobe Experience Platform](AEP)** — CJA 연결에 데이터를 제공하는 데이터 레이크, 데이터 세트, XDM 스키마, 프로필 및 이벤트 데이터
+- **[!DNL Customer Journey Analytics] (CJA)** — 연결, 데이터 보기, 작업 공간 분석, 안내식 분석, 계산된 지표, 대시보드, 대상 게시 및 콘텐츠 분석
+- **[!DNL Adobe Experience Platform] (AEP)** — CJA 연결에 데이터를 제공하는 데이터 레이크, 데이터 세트, XDM 스키마, 프로필 및 이벤트 데이터
 
 ## 기본 함수
 

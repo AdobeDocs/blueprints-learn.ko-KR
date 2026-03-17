@@ -107,8 +107,8 @@ ht-degree: 0%
 다음 응용 프로그램을 사용하여 이 사용 사례 패턴을 구현합니다.
 
 - **[!DNL Brand Concierge]** — 에이전트 orchestrator, Product Advisor Agent, 사이트 자문 에이전트, 브랜드 거버넌스 및 대화형 분석을 제공하는 AI 기반 대화형 경험 애플리케이션
-- **[!DNL Adobe Experience Platform](AEP)** — XDM 스키마, ID 확인, 실시간 고객 프로필 및 대화 신호를 위한 데이터 수집 인프라를 제공하는 통합 데이터 기반
-- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — 개인화된 대화에 대한 실시간 프로필 조회, 대화 신호의 대상자 세분화 및 의도 및 감정 데이터를 통한 프로필 강화를 제공하는 고객 데이터 플랫폼
+- **[!DNL Adobe Experience Platform] (AEP)** — XDM 스키마, ID 확인, 실시간 고객 프로필 및 대화 신호를 위한 데이터 수집 인프라를 제공하는 통합 데이터 기반
+- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — 개인화된 대화에 대한 실시간 프로필 조회, 대화 신호의 대상자 세분화 및 의도 및 감정 데이터를 통한 프로필 강화를 제공하는 고객 데이터 플랫폼
 
 ## 기본 함수
 
