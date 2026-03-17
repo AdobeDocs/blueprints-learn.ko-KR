@@ -1,18 +1,40 @@
 ---
 title: 사용 사례 카탈로그
-description: 수직, 성숙 수준 또는 구현 패턴별로 업계 사용 사례를 탐색하여 Adobe Experience Platform 여정에 적합한 시작점을 찾습니다.
+description: 업계 사용 사례를 세로로 탐색하여 구현 패턴 및 비즈니스 목표에 대한 링크와 함께 Adobe Experience Platform 여정에 대한 올바른 시작점을 찾습니다.
 doc-type: overview-page
-exl-id: 7a3c2f1e-9b4d-4e6a-8f5c-2d1b3a4e7c9f
-source-git-commit: 12ebc30259c5dcf7cea7a0ef19c9f9166fa7441e
+exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
+source-git-commit: b0fe19570fb5b649b063d0ba7d99e77ab166983d
 workflow-type: tm+mt
-source-wordcount: '5531'
-ht-degree: 3%
+source-wordcount: '2377'
+ht-degree: 1%
 
 ---
 
 # 사용 사례 카탈로그
 
-업계 전반에 걸쳐 검증된 사용 사례를 탐색하여 [!DNL Adobe Experience Platform] 구현을 가속화하십시오. 업종별로 탐색하여 비즈니스와 관련된 사용 사례를 찾고, 조직의 준비성에 맞게 완성 수준별로 탐색하거나, 기술 접근 방식을 이해하려면 구현 패턴별로 탐색하십시오.
+업계 사용 사례는 특정 분야의 조직이 Adobe Experience Platform 및 애플리케이션을 적용하여 측정 가능한 비즈니스 성과를 달성하는 방법을 보여 줍니다. 각 사용 사례에서는 구체적인 비즈니스 시나리오, 예상되는 영향 및 자세한 구현 지침을 제공하는 [사용 사례 패턴](/help/blueprints/use-case-patterns/overview.md)에 대한 링크를 설명합니다.
+
+산업별로 탐색하여 조직과 관련된 사용 사례를 찾은 다음, 의사 결정 지침, 함수 체인 및 Experience League 설명서를 포함한 구현 참조에 대한 패턴 링크를 따르십시오.
+
+| 업계 | 주요 테마 |
+| --- | --- |
+| [자동차](automotive/automotive-overview.md) | 차량 구매 여정, 서비스 라이프사이클, 커넥티드 카 경험, 소유자 충성도 |
+| [B2B](b2b/b2b-overview.md) | 계정 기반 마케팅, 리드 점수, 파이프라인 가속, 고객 확장 |
+| [금융 서비스](financial-services/financial-services-overview.md) | 제품 권장 사항, 이탈 방지, 수명 단계 오퍼, 사기 개인화 |
+| [의료 서비스](healthcare/healthcare-overview.md) | 약속 관리, 복약 준수, 환자 온보딩, 진료 조정 |
+| [보험](insurance/insurance-overview.md) | 정책 갱신, 청구 경험, 위험 방지, 교차 판매 최적화 |
+| [미디어 및 엔터테인먼트](media-entertainment/media-entertainment-overview.md) | 콘텐츠 권장 사항, 구독 유지, 평가판 전환, 교차 플랫폼 참여 |
+| [소매](retail/retail-overview.md) | 제품 개인화, 장바구니 복구, 교차 판매 최적화, 충성도 참여 |
+| [통신](telecommunications/telecommunications-overview.md) | 장치 업그레이드, 이탈 방지, 계획 최적화, 네트워크 참여 |
+| [여행 및 접대](travel-hospitality/travel-hospitality-overview.md) | 예약 개인화, 포기 복구, 충성도 프로그램, 시즌 캠페인 |
+
+## 사용 사례가 구현 지침에 연결되는 방법
+
+각 사용 사례는 **사용 사례 패턴**&#x200B;에 연결됩니다. 이는 사용 사례를 실행하는 데 필요한 함수 체인, 의사 결정 지점 및 구성 단계를 설명하는 반복 가능한 구현 접근 방식입니다. 사용 사례 패턴을 차례로 [주요 비즈니스 목표](/help/blueprints/business-objectives/overview.md)에 연결하여 구현 작업을 전략적 결과에 맞게 조정할 수 있습니다.
+
+```
+Industry Use Case → Use Case Pattern → Key Business Objective
+```
 
 ## 업종별 찾아보기
 
@@ -170,299 +192,5 @@ ht-degree: 3%
 | | [고객 지원 프로그램](b2b/b2b-overview.md#customer-advocacy-programs) | 참조 및 추천에 대해 만족도가 높은 고객을 식별하고 참여시킵니다. | [!BADGE 표시]{type=Informative} | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
 | <img src="assets/use-case-icons/b2b/icon-contract-renewal.png" alt="계약 갱신" width="40"> | [계약 갱신 캠페인](b2b/b2b-overview.md#contract-renewal-campaigns) | 개인화된 오퍼를 통해 재계약을 추진하는 고객의 적극적인 참여 | [!BADGE 고급]{type=Caution} | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | <img src="assets/use-case-icons/b2b/icon-upsell-expansion.png" alt="업셀 확장" width="40"> | [업셀 및 확장 기회](b2b/b2b-overview.md#upsell-and-expansion-opportunities) | 사용 패턴 및 증가 지표를 기반으로 업그레이드 준비가 된 고객 식별 | [!BADGE 고급]{type=Caution} | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-
->[!ENDTABS]
-
-## 완성도 수준별 찾아보기
-
->[!BEGINTABS]
-
->[!TAB 기본]
-
-| | 사용 사례 | 업계 | 비즈니스에 대한 영향 | 패턴 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/retail/icon-abandoned-cart.png" alt="포기한 장바구니" width="40"> | [포기한 장바구니 전자 메일 복구](retail/retail-overview.md#abandoned-cart-email-recovery) | 리테일 | 25-35% 장바구니 복구율 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/retail/icon-inventory-urgency.png" alt="재고 긴급도" width="40"> | [인벤토리 기반 긴급도 캠페인](retail/retail-overview.md#inventory-based-urgency-campaigns) | 리테일 | 전환 30-40% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/retail/icon-price-drop.png" alt="가격 하락" width="40"> | [가격 하락 경고](retail/retail-overview.md#price-drop-alerts) | 리테일 | 20-30% 전환율 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [재고 부족 알림](retail/retail-overview.md#out-of-stock-notifications) | 리테일 | 40-50% 전환율 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/automotive/icon-service-reminders.png" alt="서비스 알림 메시지" width="40"> | [서비스 약속 미리 알림](automotive/automotive-overview.md#service-appointment-reminders) | 자동차 | 표시율 40-50% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/automotive/icon-recall-notifications.png" alt="알림 회수" width="40"> | [차량 회수 알림](automotive/automotive-overview.md#vehicle-recall-notifications) | 자동차 | 리콜 응답률 60-70% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/automotive/icon-test-drive.png" alt="테스트 드라이브" width="40"> | [드라이브 예약 테스트](automotive/automotive-overview.md#test-drive-scheduling) | 자동차 | 테스트 드라이브 완료 50-60% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/automotive/icon-model-launch.png" alt="모델 실행" width="40"> | [새 모델 실행 캠페인](automotive/automotive-overview.md#new-model-launch-campaigns) | 자동차 | launch campaign 참여 35-45% 증가 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| | [트랜잭션 기반 알림 및 권장 사항](financial-services/financial-services-overview.md#transaction-based-alerts-and-recommendations) | 금융 서비스 | 50-60%의 참여율 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [신용 카드 응용 프로그램 포기 복구](financial-services/financial-services-overview.md#credit-card-application-abandonment-recovery) | 금융 서비스 | 애플리케이션 완료 시 20-30% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [사기 행위 경고 Personalization](financial-services/financial-services-overview.md#fraud-alert-personalization) | 금융 서비스 | 경고 응답률 40-50% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/healthcare/icon-appointment-reminder.png" alt="약속 미리 알림" width="40"> | [약속 미리 알림 자동화](healthcare/healthcare-overview.md#appointment-reminder-automation) | 건강 관리 | 표시율 30-40% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/healthcare/icon-post-visit.png" alt="Post-Visit" width="40"> | [방문 후 후속 캠페인](healthcare/healthcare-overview.md#post-visit-follow-up-campaigns) | 건강 관리 | 설문 조사 응답 40-50% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [랩 결과 알림](healthcare/healthcare-overview.md#lab-results-notification) | 건강 관리 | 결과 조회율 60-70% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [보험 적용 범위 확인](healthcare/healthcare-overview.md#insurance-coverage-verification) | 건강 관리 | 사전 방문 적용 범위 확인의 25-35% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [원격 약속 알림](healthcare/healthcare-overview.md#telehealth-appointment-reminders) | 건강 관리 | 40-50%의 가상 방문 비율 개선 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/healthcare/icon-preventive-care.png" alt="예방 관리" width="40"> | [예방 관리 알림](healthcare/healthcare-overview.md#preventive-care-reminders) | 건강 관리 | 예방 관리 완료율 25-35% 증가 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| <img src="assets/use-case-icons/insurance/icon-policy-renewal.png" alt="정책 갱신" width="40"> | [정책 갱신 캠페인](insurance/insurance-overview.md#policy-renewal-campaigns) | 보험 | 갱신률 25-35% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [정책 변경 알림](insurance/insurance-overview.md#policy-change-notifications) | 보험 | 알림 승인 50-60% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [견적 포기 복구](insurance/insurance-overview.md#quote-abandonment-recovery) | 보험 | 견적 완료 시 20-30% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [클레임 사기 방지](insurance/insurance-overview.md#claims-fraud-prevention) | 보험 | 사기 행위 감지 15-25% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [재해 이벤트 응답](insurance/insurance-overview.md#catastrophic-event-response) | 보험 | 60-70%의 통신 속도 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [에이전트 및 브로커 조정](insurance/insurance-overview.md#agent-and-broker-coordination) | 보험 | 에이전트 참여도 35-45% 향상 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| <img src="assets/use-case-icons/media-entertainment/icon-new-content.png" alt="새 컨텐츠" width="40"> | [새 콘텐츠 릴리스 알림](media-entertainment/media-entertainment-overview.md#new-content-release-notifications) | 미디어 및 엔터테인먼트 | 첫 주 이내에 새로운 컨텐츠 참여가 40~50% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [관심 목록 및 즐겨찾기 미리 알림](media-entertainment/media-entertainment-overview.md#watchlist-and-favorites-reminders) | 미디어 및 엔터테인먼트 | 감시 목록 완료 시 30~40% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [실시간 이벤트 미리 알림 보기](media-entertainment/media-entertainment-overview.md#live-event-viewing-reminders) | 미디어 및 엔터테인먼트 | 라이브 이벤트 시청률 50-60% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [콘텐츠 완료 캠페인](media-entertainment/media-entertainment-overview.md#content-completion-campaigns) | 미디어 및 엔터테인먼트 | 컨텐츠 완료율 35-45% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [데이터 사용 알림 및 권장 사항](telecommunications/telecommunications-overview.md#data-usage-alerts-and-recommendations) | 전기 통신 | 데이터 추가 기능 구매 40~50% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [서비스 중단 알림](telecommunications/telecommunications-overview.md#service-outage-notifications) | 전기 통신 | 60-70% 알림 승인률 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [결제 알림](telecommunications/telecommunications-overview.md#bill-payment-reminders) | 전기 통신 | 정시 결제 20-30% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| | [5G 업그레이드 캠페인](telecommunications/telecommunications-overview.md#5g-upgrade-campaigns) | 전기 통신 | 5G 채택 25-35% 증가 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-cart-abandonment.png" alt="장바구니 포기" width="40"> | [장바구니 포기 복구 여정](travel-hospitality/travel-hospitality-overview.md#cart-abandonment-recovery-journey) | 여행 및 접대 | 25-35% 장바구니 복구율 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-booking-reminders.png" alt="예약 알림 메시지" width="40"> | [다중 채널 예약 알림](travel-hospitality/travel-hospitality-overview.md#multi-channel-booking-reminders) | 여행 및 접대 | 예약 완료의 20-30% 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-seasonal-campaigns.png" alt="시즌 캠페인" width="40"> | [시즌 캠페인 Personalization](travel-hospitality/travel-hospitality-overview.md#seasonal-campaign-personalization) | 여행 및 접대 | 시즌 예약 전환의 15-25% 상승도 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| <img src="assets/use-case-icons/b2b/icon-webinar-demo.png" alt="웨비나 데모" width="40"> | [웨비나 및 데모 예약](b2b/b2b-overview.md#webinar-and-demo-scheduling) | B2B | 웨비나 출석 35-45% 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-
->[!TAB 표시]
-
-| | 사용 사례 | 업계 | 비즈니스에 대한 영향 | 패턴 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/retail/icon-product-recommendations.png" alt="제품 추천" width="40"> | [개인 맞춤화된 제품 추천](retail/retail-overview.md#personalized-product-recommendations) | 리테일 | CTR에서 20-30% 증가, 15-25% 전환 리프트 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| <img src="assets/use-case-icons/retail/icon-category-pages.png" alt="범주 페이지" width="40"> | [개인 설정된 범주 페이지](retail/retail-overview.md#personalized-category-pages) | 리테일 | 참여 25-35% 증가 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| <img src="assets/use-case-icons/retail/icon-welcome-series.png" alt="시작 시리즈" width="40"> | [새 고객 환영 시리즈](retail/retail-overview.md#new-customer-welcome-series) | 리테일 | 40-50%의 참여율 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/retail/icon-replenishment.png" alt="보충" width="40"> | [보충 알림](retail/retail-overview.md#replenishment-reminders) | 리테일 | 30-40% 반복 구매율 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/retail/icon-post-purchase.png" alt="구매 후" width="40"> | [구매 후 후속 캠페인](retail/retail-overview.md#post-purchase-follow-up-campaigns) | 리테일 | 15-20% 검토율, 10-15% 반복 구매 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [소셜 증명 Personalization](retail/retail-overview.md#social-proof-personalization) | 리테일 | 전환율 10-15% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/automotive/icon-trade-in.png" alt="트레이드인" width="40"> | [거래 값 캠페인](automotive/automotive-overview.md#trade-in-value-campaigns) | 자동차 | 거래 참여 25-35% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/automotive/icon-parts-accessories.png" alt="부품 액세서리" width="40"> | [부품 및 액세서리 권장 사항](automotive/automotive-overview.md#parts-and-accessories-recommendations) | 자동차 | 부품/액세서리 구매 시 30~40% 증가 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| <img src="assets/use-case-icons/automotive/icon-warranty.png" alt="보증" width="40"> | [무상수리 및 연장 서비스 플랜](automotive/automotive-overview.md#warranty-and-extended-service-plans) | 자동차 | 연장 보증 채택 20-30% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/automotive/icon-connected-car.png" alt="커넥티드 카" width="40"> | [연결된 자동차 기능 활성화](automotive/automotive-overview.md#connected-car-feature-activation) | 자동차 | 기능 활성화율 35-45% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/automotive/icon-dealer-network.png" alt="판매자 네트워크" width="40"> | [대리점 네트워크 조정](automotive/automotive-overview.md#dealer-network-coordination) | 자동차 | 딜러 참여 30-40% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/financial-services/icon-lead-nurturing.png" alt="리드 육성" width="40"> | [높은 가치의 잠재 고객 양성](financial-services/financial-services-overview.md#high-value-lead-nurturing) | 금융 서비스 | 리드-고객 전환 25-35% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/financial-services/icon-account-dashboard.png" alt="계정 대시보드" width="40"> | [개인화된 계정 대시보드](financial-services/financial-services-overview.md#personalized-account-dashboard) | 금융 서비스 | 참여 30-40% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| | [투자 Portfolio 권장 사항](financial-services/financial-services-overview.md#investment-portfolio-recommendations) | 금융 서비스 | 투자 상품 채택 25-35% 증가 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| | [담보 대출 사전 승인 캠페인](financial-services/financial-services-overview.md#mortgage-pre-approval-campaigns) | 금융 서비스 | 지원율 20-30% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/healthcare/icon-medication-adherence.png" alt="약물 복용" width="40"> | [약물 준수 캠페인](healthcare/healthcare-overview.md#medication-adherence-campaigns) | 건강 관리 | 준수율 20-30% 향상 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [만성 질환 관리 프로그램](healthcare/healthcare-overview.md#chronic-disease-management-programs) | 건강 관리 | 프로그램 참여 30-40% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [새 환자 온보딩 여정](healthcare/healthcare-overview.md#new-patient-onboarding-journey) | 건강 관리 | 포털 활성화 50-60% 향상 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [Wellness 프로그램 참여](healthcare/healthcare-overview.md#wellness-program-engagement) | 건강 관리 | 프로그램 참여 30~40% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [관리 팀 조정](healthcare/healthcare-overview.md#care-team-coordination) | 건강 관리 | 35-45% 의 진료 팀 참여 개선 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/insurance/icon-claims-process.png" alt="클레임 프로세스" width="40"> | [클레임 처리 Personalization](insurance/insurance-overview.md#claims-process-personalization) | 보험 | 청구 만족도 40-50% 향상 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [위험 평가 및 예방](insurance/insurance-overview.md#risk-assessment-and-prevention) | 보험 | 예방 참여도 30-40% 향상 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [건강 및 예방 프로그램](insurance/insurance-overview.md#wellness-and-prevention-programs) | 보험 | 프로그램 참여도 30~40% 향상 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/media-entertainment/icon-content-recommendations.png" alt="콘텐츠 권장 사항" width="40"> | [콘텐츠 추천 엔진](media-entertainment/media-entertainment-overview.md#content-recommendation-engine) | 미디어 및 엔터테인먼트 | 컨텐츠 참여도 30-40% 향상 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| | [개인 맞춤화된 홈 페이지 환경](media-entertainment/media-entertainment-overview.md#personalized-homepage-experience) | 미디어 및 엔터테인먼트 | 홈페이지 참여 25-35% 증가 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| | [개인화된 재생 목록 생성](media-entertainment/media-entertainment-overview.md#personalized-playlist-generation) | 미디어 및 엔터테인먼트 | 재생 목록 참여 40-50% 증가 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| | [무료 평가판 전환 캠페인](media-entertainment/media-entertainment-overview.md#free-trial-conversion-campaigns) | 미디어 및 엔터테인먼트 | 평가판-유료 전환의 25-35% 개선 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [크로스 플랫폼 콘텐츠 동기화](media-entertainment/media-entertainment-overview.md#cross-platform-content-sync) | 미디어 및 엔터테인먼트 | 장치 간 연결 30-40% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| | [소셜 공유 Personalization](media-entertainment/media-entertainment-overview.md#social-sharing-personalization) | 미디어 및 엔터테인먼트 | 사회적 공유율 20-30% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/telecommunications/icon-plan-optimization.png" alt="플랜 최적화" width="40"> | [계획 최적화 캠페인](telecommunications/telecommunications-overview.md#plan-optimization-campaigns) | 전기 통신 | 계획 변경률 25-35% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [새 고객 온보딩 여정](telecommunications/telecommunications-overview.md#new-customer-onboarding-journey) | 전기 통신 | 기능 활성화 50-60% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| | [네트워크 성능 Personalization](telecommunications/telecommunications-overview.md#network-performance-personalization) | 전기 통신 | 앱 참여 35-45% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-personalized-homepage.png" alt="개인화된 홈페이지" width="40"> | [새 방문자를 위한 개인 맞춤화된 홈 페이지](travel-hospitality/travel-hospitality-overview.md#personalized-homepage-for-new-visitors) | 여행 및 접대 | 전환율 15-20% 증가 | [익명 방문자 웹 Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-high-intent.png" alt="높은 의도" width="40"> | [높은 의도의 방문자 타깃팅](travel-hospitality/travel-hospitality-overview.md#high-intent-visitor-targeting) | 여행 및 접대 | 전환 30-40% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-post-booking-upsell.png" alt="예약 후 상향 판매" width="40"> | [예약 후 상향 판매 캠페인](travel-hospitality/travel-hospitality-overview.md#post-booking-upsell-campaigns) | 여행 및 접대 | 15-25% 상승하는 보조 수익 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-win-back.png" alt="윈백" width="40"> | 종료된 고객을 위한 [Win-Back 캠페인](travel-hospitality/travel-hospitality-overview.md#win-back-campaigns-for-lapsed-customers) | 여행 및 접대 | 10-15% 재활성화율 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-dynamic-itinerary.png" alt="동적 여정" width="40"> | [동적 일정 권장 사항](travel-hospitality/travel-hospitality-overview.md#dynamic-itinerary-recommendations) | 여행 및 접대 | 일정 페이지 참여 20-30% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-recently-browsed.png" alt="최근에 검색한 항목" width="40"> | [홈 페이지에서 최근에 검색한 제품](travel-hospitality/travel-hospitality-overview.md#recently-browsed-products-on-homepage) | 여행 및 접대 | 재방문 참여 15-20% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-group-booking.png" alt="그룹 예약" width="40"> | [그룹 예약 권장 사항](travel-hospitality/travel-hospitality-overview.md#group-booking-recommendations) | 여행 및 접대 | AOV에서 1,000달러~3,000달러 증가 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| <img src="assets/use-case-icons/b2b/icon-abm.png" alt="ABM" width="40"> | [Account-Based Marketing Personalization](b2b/b2b-overview.md#account-based-marketing-personalization) | B2B | 계정 참여 30-40% 증가 | [B2B 대상자 활성화](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) |
-| <img src="assets/use-case-icons/b2b/icon-lead-scoring.png" alt="잠재 고객 점수" width="40"> | [잠재 고객 점수 및 양성](b2b/b2b-overview.md#lead-scoring-and-nurturing) | B2B | Lead-to-Opportunity 전환 25-35% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/b2b/icon-content-personalization.png" alt="콘텐츠 개인화" width="40"> | [잠재 고객을 위한 컨텐츠 Personalization](b2b/b2b-overview.md#content-personalization-for-prospects) | B2B | 컨텐츠 참여 20-30% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| <img src="assets/use-case-icons/b2b/icon-event-registration.png" alt="이벤트 등록" width="40"> | [이벤트 등록 및 추가 작업](b2b/b2b-overview.md#event-registration-and-follow-up) | B2B | 이벤트 참석 40~50% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/b2b/icon-trial-conversion.png" alt="평가판 전환" width="40"> | [제품 평가판 전환 캠페인](b2b/b2b-overview.md#product-trial-conversion-campaigns) | B2B | 평가판-유료 전환 25-35% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/b2b/icon-customer-onboarding.png" alt="고객 온보딩" width="40"> | [고객 성공 및 온보딩](b2b/b2b-overview.md#customer-success-and-onboarding) | B2B | 90일 이내에 기능 채택이 50~60% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/b2b/icon-competitive-replacement.png" alt="경쟁 제품 교체" width="40"> | [경쟁사 교체 캠페인](b2b/b2b-overview.md#competitive-replacement-campaigns) | B2B | 경쟁 우위 확보율 15-25% 향상 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| <img src="assets/use-case-icons/b2b/icon-case-study.png" alt="사례 연구" width="40"> | [사례 연구 및 ROI Personalization](b2b/b2b-overview.md#case-study-and-roi-personalization) | B2B | 사례 연구 참여 25-35% 증가 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
-| | [고객 지원 프로그램](b2b/b2b-overview.md#customer-advocacy-programs) | B2B | 옹호 참여의 20-30% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-
->[!TAB 고급]
-
-| | 사용 사례 | 업계 | 비즈니스에 대한 영향 | 패턴 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/retail/icon-cross-sell-upsell.png" alt="크로스셀 업셀" width="40"> | [교차 판매 및 상향 판매 권장 사항](retail/retail-overview.md#cross-sell-and-upsell-recommendations) | 리테일 | AOV에서 25-75달러 증가, 10-15% 매출 향상 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| | [VIP Customer Exclusive Offers](retail/retail-overview.md#vip-customer-exclusive-offers) | 리테일 | VIP의 50-70% 참여 비율 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/automotive/icon-vehicle-purchase.png" alt="차량 구매" width="40"> | [차량 구매 여정 Personalization](automotive/automotive-overview.md#vehicle-purchase-journey-personalization) | 자동차 | 리드-구매 전환 20-30% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/automotive/icon-financing.png" alt="파이낸싱" width="40"> | [금융 및 보험 혜택](automotive/automotive-overview.md#financing-and-insurance-offers) | 자동차 | 자금조달 수락률 25-35% 증가 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| <img src="assets/use-case-icons/automotive/icon-owner-loyalty.png" alt="소유자 충성도" width="40"> | [소유자 충성도 프로그램](automotive/automotive-overview.md#owner-loyalty-programs) | 자동차 | 충성도 프로그램 참여 40-50% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/financial-services/icon-product-recommendation.png" alt="제품 추천" width="40"> | [기존 고객을 위한 제품 추천](financial-services/financial-services-overview.md#product-recommendation-for-existing-customers) | 금융 서비스 | 제품 채택 20-30% 증가 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| <img src="assets/use-case-icons/financial-services/icon-churn-prevention.png" alt="이탈 방지" width="40"> | [이탈 방지 캠페인](financial-services/financial-services-overview.md#churn-prevention-campaigns) | 금융 서비스 | 고객 감소 15-25% 감소 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/financial-services/icon-life-stage.png" alt="라이프 스테이지" width="40"> | [수명 단계 기반 제품 오퍼](financial-services/financial-services-overview.md#life-stage-based-product-offers) | 금융 서비스 | 제품 채택률 35-45% | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| | [충성도 프로그램 참여](financial-services/financial-services-overview.md#loyalty-program-engagement) | 금융 서비스 | 프로그램 참여 30~40% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| | [개인 맞춤화된 금융 교육 콘텐츠](financial-services/financial-services-overview.md#personalized-financial-education-content) | 금융 서비스 | 컨텐츠 참여 25-35% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| | [개인 맞춤화된 상태 콘텐츠 배달](healthcare/healthcare-overview.md#personalized-health-content-delivery) | 건강 관리 | 컨텐츠 참여 35-45% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/insurance/icon-cross-sell.png" alt="크로스셀" width="40"> | [교차 판매 제품 권장 사항](insurance/insurance-overview.md#cross-sell-product-recommendations) | 보험 | 교차 판매 전환 20-30% 향상 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| | [수명 단계 기반 제품 오퍼](insurance/insurance-overview.md#life-stage-based-product-offers) | 보험 | 라이프 스테이지 제품 채택 시 35-45% 향상 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| | [할인 및 절감 기회](insurance/insurance-overview.md#discount-and-savings-opportunities) | 보험 | 할인 활용률 25-35% 향상 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| <img src="assets/use-case-icons/media-entertainment/icon-subscription-churn.png" alt="구독 이탈" width="40"> | [구독 이탈 방지](media-entertainment/media-entertainment-overview.md#subscription-churn-prevention) | 미디어 및 엔터테인먼트 | 가입자 이탈 20-30% 감소 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| | [프리미엄 기능 상향 판매](media-entertainment/media-entertainment-overview.md#premium-feature-upsell) | 미디어 및 엔터테인먼트 | 프리미엄 기능 채택 15-25% 증가 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| <img src="assets/use-case-icons/telecommunications/icon-device-upgrade.png" alt="장치 업그레이드" width="40"> | [장치 업그레이드 권장 사항](telecommunications/telecommunications-overview.md#device-upgrade-recommendations) | 전기 통신 | 업그레이드 전환 30-40% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/telecommunications/icon-churn-prevention.png" alt="이탈 방지" width="40"> | [가치가 높은 고객을 위한 이탈 방지](telecommunications/telecommunications-overview.md#churn-prevention-for-high-value-customers) | 전기 통신 | 20-30%의 이탈 감소 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| | [가족 계획 관리](telecommunications/telecommunications-overview.md#family-plan-management) | 전기 통신 | 가족 계획 참여 30-40% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| | [추가 기능 서비스 권장 사항](telecommunications/telecommunications-overview.md#add-on-service-recommendations) | 전기 통신 | 추가 기능 채택 15-25% 증가 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| | [충성도 프로그램 참여](telecommunications/telecommunications-overview.md#loyalty-program-engagement) | 전기 통신 | 프로그램 참여 30~40% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-exit-intent.png" alt="종료 의도" width="40"> | [타깃팅된 오퍼가 있는 Exit Intent 양식](travel-hospitality/travel-hospitality-overview.md#exit-intent-modal-with-targeted-offers) | 여행 및 접대 | 기존 방문자의 5-10% 전환율 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| <img src="assets/use-case-icons/travel-hospitality/icon-loyalty-program.png" alt="고객 충성도 프로그램" width="40"> | [충성도 프로그램 Personalization](travel-hospitality/travel-hospitality-overview.md#loyalty-program-personalization) | 여행 및 접대 | 충성도 멤버의 참여 25-35% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/b2b/icon-contract-renewal.png" alt="계약 갱신" width="40"> | [계약 갱신 캠페인](b2b/b2b-overview.md#contract-renewal-campaigns) | B2B | 갱신률 30-40% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| <img src="assets/use-case-icons/b2b/icon-upsell-expansion.png" alt="업셀 확장" width="40"> | [업셀 및 확장 기회](b2b/b2b-overview.md#upsell-and-expansion-opportunities) | B2B | 확장 매출 20-30% 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-
->[!ENDTABS]
-
-## 구현 패턴별 찾아보기
-
->[!BEGINTABS]
-
->[!TAB 캠페인 관리 및 오케스트레이션]
-
-### 이벤트 트리거된 메시징
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/retail/icon-abandoned-cart.png" alt="포기한 장바구니" width="40"> | [포기한 장바구니 전자 메일 복구](retail/retail-overview.md#abandoned-cart-email-recovery) | 리테일 | [!BADGE 기본]{type=Neutral} | 25-35% 장바구니 복구율 |
-| <img src="assets/use-case-icons/retail/icon-inventory-urgency.png" alt="재고 긴급도" width="40"> | [인벤토리 기반 긴급도 캠페인](retail/retail-overview.md#inventory-based-urgency-campaigns) | 리테일 | [!BADGE 기본]{type=Neutral} | 전환 30-40% 증가 |
-| <img src="assets/use-case-icons/retail/icon-price-drop.png" alt="가격 하락" width="40"> | [가격 하락 경고](retail/retail-overview.md#price-drop-alerts) | 리테일 | [!BADGE 기본]{type=Neutral} | 20-30% 전환율 |
-| | [재고 부족 알림](retail/retail-overview.md#out-of-stock-notifications) | 리테일 | [!BADGE 기본]{type=Neutral} | 40-50% 전환율 |
-| <img src="assets/use-case-icons/automotive/icon-service-reminders.png" alt="서비스 알림 메시지" width="40"> | [서비스 약속 미리 알림](automotive/automotive-overview.md#service-appointment-reminders) | 자동차 | [!BADGE 기본]{type=Neutral} | 표시율 40-50% 증가 |
-| <img src="assets/use-case-icons/automotive/icon-recall-notifications.png" alt="알림 회수" width="40"> | [차량 회수 알림](automotive/automotive-overview.md#vehicle-recall-notifications) | 자동차 | [!BADGE 기본]{type=Neutral} | 리콜 응답률 60-70% 증가 |
-| <img src="assets/use-case-icons/automotive/icon-test-drive.png" alt="테스트 드라이브" width="40"> | [드라이브 예약 테스트](automotive/automotive-overview.md#test-drive-scheduling) | 자동차 | [!BADGE 기본]{type=Neutral} | 테스트 드라이브 완료 50-60% 증가 |
-| | [트랜잭션 기반 알림 및 권장 사항](financial-services/financial-services-overview.md#transaction-based-alerts-and-recommendations) | 금융 서비스 | [!BADGE 기본]{type=Neutral} | 50-60%의 참여율 |
-| | [신용 카드 응용 프로그램 포기 복구](financial-services/financial-services-overview.md#credit-card-application-abandonment-recovery) | 금융 서비스 | [!BADGE 기본]{type=Neutral} | 애플리케이션 완료 시 20-30% 향상 |
-| | [사기 행위 경고 Personalization](financial-services/financial-services-overview.md#fraud-alert-personalization) | 금융 서비스 | [!BADGE 기본]{type=Neutral} | 경고 응답률 40-50% 향상 |
-| <img src="assets/use-case-icons/healthcare/icon-appointment-reminder.png" alt="약속 미리 알림" width="40"> | [약속 미리 알림 자동화](healthcare/healthcare-overview.md#appointment-reminder-automation) | 건강 관리 | [!BADGE 기본]{type=Neutral} | 표시율 30-40% 향상 |
-| <img src="assets/use-case-icons/healthcare/icon-post-visit.png" alt="Post-Visit" width="40"> | [방문 후 후속 캠페인](healthcare/healthcare-overview.md#post-visit-follow-up-campaigns) | 건강 관리 | [!BADGE 기본]{type=Neutral} | 설문 조사 응답 40-50% 향상 |
-| | [랩 결과 알림](healthcare/healthcare-overview.md#lab-results-notification) | 건강 관리 | [!BADGE 기본]{type=Neutral} | 결과 조회율 60-70% 향상 |
-| | [보험 적용 범위 확인](healthcare/healthcare-overview.md#insurance-coverage-verification) | 건강 관리 | [!BADGE 기본]{type=Neutral} | 사전 방문 적용 범위 확인의 25-35% 향상 |
-| | [원격 약속 알림](healthcare/healthcare-overview.md#telehealth-appointment-reminders) | 건강 관리 | [!BADGE 기본]{type=Neutral} | 40-50%의 가상 방문 비율 개선 |
-| <img src="assets/use-case-icons/insurance/icon-policy-renewal.png" alt="정책 갱신" width="40"> | [정책 갱신 캠페인](insurance/insurance-overview.md#policy-renewal-campaigns) | 보험 | [!BADGE 기본]{type=Neutral} | 갱신률 25-35% 향상 |
-| | [정책 변경 알림](insurance/insurance-overview.md#policy-change-notifications) | 보험 | [!BADGE 기본]{type=Neutral} | 알림 승인 50-60% 향상 |
-| | [견적 포기 복구](insurance/insurance-overview.md#quote-abandonment-recovery) | 보험 | [!BADGE 기본]{type=Neutral} | 견적 완료 시 20-30% 향상 |
-| | [클레임 사기 방지](insurance/insurance-overview.md#claims-fraud-prevention) | 보험 | [!BADGE 기본]{type=Neutral} | 사기 행위 감지 15-25% 향상 |
-| | [재해 이벤트 응답](insurance/insurance-overview.md#catastrophic-event-response) | 보험 | [!BADGE 기본]{type=Neutral} | 60-70%의 통신 속도 향상 |
-| <img src="assets/use-case-icons/media-entertainment/icon-new-content.png" alt="새 컨텐츠" width="40"> | [새 콘텐츠 릴리스 알림](media-entertainment/media-entertainment-overview.md#new-content-release-notifications) | 미디어 및 엔터테인먼트 | [!BADGE 기본]{type=Neutral} | 첫 주 이내에 새로운 컨텐츠 참여가 40~50% 증가 |
-| | [관심 목록 및 즐겨찾기 미리 알림](media-entertainment/media-entertainment-overview.md#watchlist-and-favorites-reminders) | 미디어 및 엔터테인먼트 | [!BADGE 기본]{type=Neutral} | 감시 목록 완료 시 30~40% 증가 |
-| | [실시간 이벤트 미리 알림 보기](media-entertainment/media-entertainment-overview.md#live-event-viewing-reminders) | 미디어 및 엔터테인먼트 | [!BADGE 기본]{type=Neutral} | 라이브 이벤트 시청률 50-60% 증가 |
-| | [콘텐츠 완료 캠페인](media-entertainment/media-entertainment-overview.md#content-completion-campaigns) | 미디어 및 엔터테인먼트 | [!BADGE 기본]{type=Neutral} | 컨텐츠 완료율 35-45% 향상 |
-| | [데이터 사용 알림 및 권장 사항](telecommunications/telecommunications-overview.md#data-usage-alerts-and-recommendations) | 전기 통신 | [!BADGE 기본]{type=Neutral} | 데이터 추가 기능 구매 40~50% 증가 |
-| | [서비스 중단 알림](telecommunications/telecommunications-overview.md#service-outage-notifications) | 전기 통신 | [!BADGE 기본]{type=Neutral} | 60-70% 알림 승인률 |
-| | [결제 알림](telecommunications/telecommunications-overview.md#bill-payment-reminders) | 전기 통신 | [!BADGE 기본]{type=Neutral} | 정시 결제 20-30% 향상 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-cart-abandonment.png" alt="장바구니 포기" width="40"> | [장바구니 포기 복구 여정](travel-hospitality/travel-hospitality-overview.md#cart-abandonment-recovery-journey) | 여행 및 접대 | [!BADGE 기본]{type=Neutral} | 25-35% 장바구니 복구율 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-booking-reminders.png" alt="예약 알림 메시지" width="40"> | [다중 채널 예약 알림](travel-hospitality/travel-hospitality-overview.md#multi-channel-booking-reminders) | 여행 및 접대 | [!BADGE 기본]{type=Neutral} | 예약 완료의 20-30% 향상 |
-| <img src="assets/use-case-icons/b2b/icon-webinar-demo.png" alt="웨비나 데모" width="40"> | [웨비나 및 데모 예약](b2b/b2b-overview.md#webinar-and-demo-scheduling) | B2B | [!BADGE 기본]{type=Neutral} | 웨비나 출석 35-45% 증가 |
-
-### 일괄 아웃바운드 메시지 활성화
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/automotive/icon-model-launch.png" alt="모델 실행" width="40"> | [새 모델 실행 캠페인](automotive/automotive-overview.md#new-model-launch-campaigns) | 자동차 | [!BADGE 기본]{type=Neutral} | launch campaign 참여 35-45% 증가 |
-| <img src="assets/use-case-icons/healthcare/icon-preventive-care.png" alt="예방 관리" width="40"> | [예방 관리 알림](healthcare/healthcare-overview.md#preventive-care-reminders) | 건강 관리 | [!BADGE 기본]{type=Neutral} | 예방 관리 완료율 25-35% 증가 |
-| | [에이전트 및 브로커 조정](insurance/insurance-overview.md#agent-and-broker-coordination) | 보험 | [!BADGE 기본]{type=Neutral} | 에이전트 참여도 35-45% 향상 |
-| | [5G 업그레이드 캠페인](telecommunications/telecommunications-overview.md#5g-upgrade-campaigns) | 전기 통신 | [!BADGE 기본]{type=Neutral} | 5G 채택 25-35% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-seasonal-campaigns.png" alt="시즌 캠페인" width="40"> | [시즌 캠페인 Personalization](travel-hospitality/travel-hospitality-overview.md#seasonal-campaign-personalization) | 여행 및 접대 | [!BADGE 기본]{type=Neutral} | 시즌 예약 전환의 15-25% 상승도 |
-
-### 여러 단계로 조정된 여정
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/retail/icon-welcome-series.png" alt="시작 시리즈" width="40"> | [새 고객 환영 시리즈](retail/retail-overview.md#new-customer-welcome-series) | 리테일 | [!BADGE 표시]{type=Informative} | 40-50%의 참여율 |
-| <img src="assets/use-case-icons/retail/icon-replenishment.png" alt="보충" width="40"> | [보충 알림](retail/retail-overview.md#replenishment-reminders) | 리테일 | [!BADGE 표시]{type=Informative} | 30-40% 반복 구매율 |
-| <img src="assets/use-case-icons/retail/icon-post-purchase.png" alt="구매 후" width="40"> | [구매 후 후속 캠페인](retail/retail-overview.md#post-purchase-follow-up-campaigns) | 리테일 | [!BADGE 표시]{type=Informative} | 15-20% 검토율, 10-15% 반복 구매 |
-| <img src="assets/use-case-icons/automotive/icon-trade-in.png" alt="트레이드인" width="40"> | [거래 값 캠페인](automotive/automotive-overview.md#trade-in-value-campaigns) | 자동차 | [!BADGE 표시]{type=Informative} | 거래 참여 25-35% 증가 |
-| <img src="assets/use-case-icons/automotive/icon-warranty.png" alt="보증" width="40"> | [무상수리 및 연장 서비스 플랜](automotive/automotive-overview.md#warranty-and-extended-service-plans) | 자동차 | [!BADGE 표시]{type=Informative} | 연장 보증 채택 20-30% 증가 |
-| <img src="assets/use-case-icons/automotive/icon-connected-car.png" alt="커넥티드 카" width="40"> | [연결된 자동차 기능 활성화](automotive/automotive-overview.md#connected-car-feature-activation) | 자동차 | [!BADGE 표시]{type=Informative} | 기능 활성화율 35-45% 증가 |
-| <img src="assets/use-case-icons/financial-services/icon-lead-nurturing.png" alt="리드 육성" width="40"> | [높은 가치의 잠재 고객 양성](financial-services/financial-services-overview.md#high-value-lead-nurturing) | 금융 서비스 | [!BADGE 표시]{type=Informative} | 리드-고객 전환 25-35% 증가 |
-| | [담보 대출 사전 승인 캠페인](financial-services/financial-services-overview.md#mortgage-pre-approval-campaigns) | 금융 서비스 | [!BADGE 표시]{type=Informative} | 지원율 20-30% 증가 |
-| <img src="assets/use-case-icons/healthcare/icon-medication-adherence.png" alt="약물 복용" width="40"> | [약물 준수 캠페인](healthcare/healthcare-overview.md#medication-adherence-campaigns) | 건강 관리 | [!BADGE 표시]{type=Informative} | 준수율 20-30% 향상 |
-| | [만성 질환 관리 프로그램](healthcare/healthcare-overview.md#chronic-disease-management-programs) | 건강 관리 | [!BADGE 표시]{type=Informative} | 프로그램 참여 30-40% 증가 |
-| | [새 환자 온보딩 여정](healthcare/healthcare-overview.md#new-patient-onboarding-journey) | 건강 관리 | [!BADGE 표시]{type=Informative} | 포털 활성화 50-60% 향상 |
-| | [Wellness 프로그램 참여](healthcare/healthcare-overview.md#wellness-program-engagement) | 건강 관리 | [!BADGE 표시]{type=Informative} | 프로그램 참여 30~40% 증가 |
-| | [관리 팀 조정](healthcare/healthcare-overview.md#care-team-coordination) | 건강 관리 | [!BADGE 표시]{type=Informative} | 35-45% 의 진료 팀 참여 개선 |
-| <img src="assets/use-case-icons/insurance/icon-claims-process.png" alt="클레임 프로세스" width="40"> | [클레임 처리 Personalization](insurance/insurance-overview.md#claims-process-personalization) | 보험 | [!BADGE 표시]{type=Informative} | 청구 만족도 40-50% 향상 |
-| | [위험 평가 및 예방](insurance/insurance-overview.md#risk-assessment-and-prevention) | 보험 | [!BADGE 표시]{type=Informative} | 예방 참여도 30-40% 향상 |
-| | [건강 및 예방 프로그램](insurance/insurance-overview.md#wellness-and-prevention-programs) | 보험 | [!BADGE 표시]{type=Informative} | 프로그램 참여도 30~40% 향상 |
-| | [무료 평가판 전환 캠페인](media-entertainment/media-entertainment-overview.md#free-trial-conversion-campaigns) | 미디어 및 엔터테인먼트 | [!BADGE 표시]{type=Informative} | 평가판-유료 전환의 25-35% 개선 |
-| <img src="assets/use-case-icons/telecommunications/icon-plan-optimization.png" alt="플랜 최적화" width="40"> | [계획 최적화 캠페인](telecommunications/telecommunications-overview.md#plan-optimization-campaigns) | 전기 통신 | [!BADGE 표시]{type=Informative} | 계획 변경률 25-35% 증가 |
-| | [새 고객 온보딩 여정](telecommunications/telecommunications-overview.md#new-customer-onboarding-journey) | 전기 통신 | [!BADGE 표시]{type=Informative} | 기능 활성화 50-60% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-post-booking-upsell.png" alt="예약 후 상향 판매" width="40"> | [예약 후 상향 판매 캠페인](travel-hospitality/travel-hospitality-overview.md#post-booking-upsell-campaigns) | 여행 및 접대 | [!BADGE 표시]{type=Informative} | 15-25% 상승하는 보조 수익 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-win-back.png" alt="윈백" width="40"> | 종료된 고객을 위한 [Win-Back 캠페인](travel-hospitality/travel-hospitality-overview.md#win-back-campaigns-for-lapsed-customers) | 여행 및 접대 | [!BADGE 표시]{type=Informative} | 10-15% 재활성화율 |
-| <img src="assets/use-case-icons/b2b/icon-lead-scoring.png" alt="잠재 고객 점수" width="40"> | [잠재 고객 점수 및 양성](b2b/b2b-overview.md#lead-scoring-and-nurturing) | B2B | [!BADGE 표시]{type=Informative} | Lead-to-Opportunity 전환 25-35% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-event-registration.png" alt="이벤트 등록" width="40"> | [이벤트 등록 및 추가 작업](b2b/b2b-overview.md#event-registration-and-follow-up) | B2B | [!BADGE 표시]{type=Informative} | 이벤트 참석 40~50% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-trial-conversion.png" alt="평가판 전환" width="40"> | [제품 평가판 전환 캠페인](b2b/b2b-overview.md#product-trial-conversion-campaigns) | B2B | [!BADGE 표시]{type=Informative} | 평가판-유료 전환 25-35% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-customer-onboarding.png" alt="고객 온보딩" width="40"> | [고객 성공 및 온보딩](b2b/b2b-overview.md#customer-success-and-onboarding) | B2B | [!BADGE 표시]{type=Informative} | 90일 이내에 기능 채택이 50~60% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-competitive-replacement.png" alt="경쟁 제품 교체" width="40"> | [경쟁사 교체 캠페인](b2b/b2b-overview.md#competitive-replacement-campaigns) | B2B | [!BADGE 표시]{type=Informative} | 경쟁 우위 확보율 15-25% 향상 |
-| | [고객 지원 프로그램](b2b/b2b-overview.md#customer-advocacy-programs) | B2B | [!BADGE 표시]{type=Informative} | 옹호 참여의 20-30% 증가 |
-
-### Decisioning을 사용한 크로스 채널 여정
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| | [VIP Customer Exclusive Offers](retail/retail-overview.md#vip-customer-exclusive-offers) | 리테일 | [!BADGE 고급]{type=Caution} | VIP의 50-70% 참여 비율 |
-| <img src="assets/use-case-icons/automotive/icon-vehicle-purchase.png" alt="차량 구매" width="40"> | [차량 구매 여정 Personalization](automotive/automotive-overview.md#vehicle-purchase-journey-personalization) | 자동차 | [!BADGE 고급]{type=Caution} | 리드-구매 전환 20-30% 증가 |
-| <img src="assets/use-case-icons/automotive/icon-owner-loyalty.png" alt="소유자 충성도" width="40"> | [소유자 충성도 프로그램](automotive/automotive-overview.md#owner-loyalty-programs) | 자동차 | [!BADGE 고급]{type=Caution} | 충성도 프로그램 참여 40-50% 증가 |
-| <img src="assets/use-case-icons/financial-services/icon-churn-prevention.png" alt="이탈 방지" width="40"> | [이탈 방지 캠페인](financial-services/financial-services-overview.md#churn-prevention-campaigns) | 금융 서비스 | [!BADGE 고급]{type=Caution} | 고객 감소 15-25% 감소 |
-| <img src="assets/use-case-icons/financial-services/icon-life-stage.png" alt="라이프 스테이지" width="40"> | [수명 단계 기반 제품 오퍼](financial-services/financial-services-overview.md#life-stage-based-product-offers) | 금융 서비스 | [!BADGE 고급]{type=Caution} | 제품 채택률 35-45% |
-| | [충성도 프로그램 참여](financial-services/financial-services-overview.md#loyalty-program-engagement) | 금융 서비스 | [!BADGE 고급]{type=Caution} | 프로그램 참여 30~40% 증가 |
-| | [개인 맞춤화된 금융 교육 콘텐츠](financial-services/financial-services-overview.md#personalized-financial-education-content) | 금융 서비스 | [!BADGE 고급]{type=Caution} | 컨텐츠 참여 25-35% 증가 |
-| | [개인 맞춤화된 상태 콘텐츠 배달](healthcare/healthcare-overview.md#personalized-health-content-delivery) | 건강 관리 | [!BADGE 고급]{type=Caution} | 컨텐츠 참여 35-45% 증가 |
-| | [수명 단계 기반 제품 오퍼](insurance/insurance-overview.md#life-stage-based-product-offers) | 보험 | [!BADGE 고급]{type=Caution} | 라이프 스테이지 제품 채택 시 35-45% 향상 |
-| <img src="assets/use-case-icons/media-entertainment/icon-subscription-churn.png" alt="구독 이탈" width="40"> | [구독 이탈 방지](media-entertainment/media-entertainment-overview.md#subscription-churn-prevention) | 미디어 및 엔터테인먼트 | [!BADGE 고급]{type=Caution} | 가입자 이탈 20-30% 감소 |
-| <img src="assets/use-case-icons/telecommunications/icon-device-upgrade.png" alt="장치 업그레이드" width="40"> | [장치 업그레이드 권장 사항](telecommunications/telecommunications-overview.md#device-upgrade-recommendations) | 전기 통신 | [!BADGE 고급]{type=Caution} | 업그레이드 전환 30-40% 증가 |
-| <img src="assets/use-case-icons/telecommunications/icon-churn-prevention.png" alt="이탈 방지" width="40"> | [가치가 높은 고객을 위한 이탈 방지](telecommunications/telecommunications-overview.md#churn-prevention-for-high-value-customers) | 전기 통신 | [!BADGE 고급]{type=Caution} | 20-30%의 이탈 감소 |
-| | [가족 계획 관리](telecommunications/telecommunications-overview.md#family-plan-management) | 전기 통신 | [!BADGE 고급]{type=Caution} | 가족 계획 참여 30-40% 증가 |
-| | [충성도 프로그램 참여](telecommunications/telecommunications-overview.md#loyalty-program-engagement) | 전기 통신 | [!BADGE 고급]{type=Caution} | 프로그램 참여 30~40% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-loyalty-program.png" alt="고객 충성도 프로그램" width="40"> | [충성도 프로그램 Personalization](travel-hospitality/travel-hospitality-overview.md#loyalty-program-personalization) | 여행 및 접대 | [!BADGE 고급]{type=Caution} | 충성도 멤버의 참여 25-35% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-contract-renewal.png" alt="계약 갱신" width="40"> | [계약 갱신 캠페인](b2b/b2b-overview.md#contract-renewal-campaigns) | B2B | [!BADGE 고급]{type=Caution} | 갱신률 30-40% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-upsell-expansion.png" alt="업셀 확장" width="40"> | [업셀 및 확장 기회](b2b/b2b-overview.md#upsell-and-expansion-opportunities) | B2B | [!BADGE 고급]{type=Caution} | 확장 매출 20-30% 증가 |
-
->[!TAB Personalization]
-
-### 행동 추천
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/retail/icon-product-recommendations.png" alt="제품 추천" width="40"> | [개인 맞춤화된 제품 추천](retail/retail-overview.md#personalized-product-recommendations) | 리테일 | [!BADGE 표시]{type=Informative} | CTR에서 20-30% 증가, 15-25% 전환 리프트 |
-| <img src="assets/use-case-icons/retail/icon-category-pages.png" alt="범주 페이지" width="40"> | [개인 설정된 범주 페이지](retail/retail-overview.md#personalized-category-pages) | 리테일 | [!BADGE 표시]{type=Informative} | 참여 25-35% 증가 |
-| <img src="assets/use-case-icons/automotive/icon-parts-accessories.png" alt="부품 액세서리" width="40"> | [부품 및 액세서리 권장 사항](automotive/automotive-overview.md#parts-and-accessories-recommendations) | 자동차 | [!BADGE 표시]{type=Informative} | 부품/액세서리 구매 시 30~40% 증가 |
-| | [투자 Portfolio 권장 사항](financial-services/financial-services-overview.md#investment-portfolio-recommendations) | 금융 서비스 | [!BADGE 표시]{type=Informative} | 투자 상품 채택 25-35% 증가 |
-| <img src="assets/use-case-icons/media-entertainment/icon-content-recommendations.png" alt="콘텐츠 권장 사항" width="40"> | [콘텐츠 추천 엔진](media-entertainment/media-entertainment-overview.md#content-recommendation-engine) | 미디어 및 엔터테인먼트 | [!BADGE 표시]{type=Informative} | 컨텐츠 참여도 30-40% 향상 |
-| | [개인 맞춤화된 홈 페이지 환경](media-entertainment/media-entertainment-overview.md#personalized-homepage-experience) | 미디어 및 엔터테인먼트 | [!BADGE 표시]{type=Informative} | 홈페이지 참여 25-35% 증가 |
-| | [개인화된 재생 목록 생성](media-entertainment/media-entertainment-overview.md#personalized-playlist-generation) | 미디어 및 엔터테인먼트 | [!BADGE 표시]{type=Informative} | 재생 목록 참여 40-50% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-group-booking.png" alt="그룹 예약" width="40"> | [그룹 예약 권장 사항](travel-hospitality/travel-hospitality-overview.md#group-booking-recommendations) | 여행 및 접대 | [!BADGE 표시]{type=Informative} | AOV에서 1,000달러~3,000달러 증가 |
-
-### Offer Decisioning
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/retail/icon-cross-sell-upsell.png" alt="크로스셀 업셀" width="40"> | [교차 판매 및 상향 판매 권장 사항](retail/retail-overview.md#cross-sell-and-upsell-recommendations) | 리테일 | [!BADGE 고급]{type=Caution} | AOV에서 25-75달러 증가, 10-15% 매출 향상 |
-| <img src="assets/use-case-icons/automotive/icon-financing.png" alt="파이낸싱" width="40"> | [금융 및 보험 혜택](automotive/automotive-overview.md#financing-and-insurance-offers) | 자동차 | [!BADGE 고급]{type=Caution} | 자금조달 수락률 25-35% 증가 |
-| <img src="assets/use-case-icons/financial-services/icon-product-recommendation.png" alt="제품 추천" width="40"> | [기존 고객을 위한 제품 추천](financial-services/financial-services-overview.md#product-recommendation-for-existing-customers) | 금융 서비스 | [!BADGE 고급]{type=Caution} | 제품 채택 20-30% 증가 |
-| <img src="assets/use-case-icons/insurance/icon-cross-sell.png" alt="크로스셀" width="40"> | [교차 판매 제품 권장 사항](insurance/insurance-overview.md#cross-sell-product-recommendations) | 보험 | [!BADGE 고급]{type=Caution} | 교차 판매 전환 20-30% 향상 |
-| | [할인 및 절감 기회](insurance/insurance-overview.md#discount-and-savings-opportunities) | 보험 | [!BADGE 고급]{type=Caution} | 할인 활용률 25-35% 향상 |
-| | [프리미엄 기능 상향 판매](media-entertainment/media-entertainment-overview.md#premium-feature-upsell) | 미디어 및 엔터테인먼트 | [!BADGE 고급]{type=Caution} | 프리미엄 기능 채택 15-25% 증가 |
-| | [추가 기능 서비스 권장 사항](telecommunications/telecommunications-overview.md#add-on-service-recommendations) | 전기 통신 | [!BADGE 고급]{type=Caution} | 추가 기능 채택 15-25% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-exit-intent.png" alt="종료 의도" width="40"> | [타깃팅된 오퍼가 있는 Exit Intent 양식](travel-hospitality/travel-hospitality-overview.md#exit-intent-modal-with-targeted-offers) | 여행 및 접대 | [!BADGE 고급]{type=Caution} | 기존 방문자의 5-10% 전환율 |
-
-### 알려진 방문자 웹/앱 Personalization
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| | [소셜 증명 Personalization](retail/retail-overview.md#social-proof-personalization) | 리테일 | [!BADGE 표시]{type=Informative} | 전환율 10-15% 증가 |
-| <img src="assets/use-case-icons/automotive/icon-dealer-network.png" alt="판매자 네트워크" width="40"> | [대리점 네트워크 조정](automotive/automotive-overview.md#dealer-network-coordination) | 자동차 | [!BADGE 표시]{type=Informative} | 딜러 참여 30-40% 증가 |
-| <img src="assets/use-case-icons/financial-services/icon-account-dashboard.png" alt="계정 대시보드" width="40"> | [개인화된 계정 대시보드](financial-services/financial-services-overview.md#personalized-account-dashboard) | 금융 서비스 | [!BADGE 표시]{type=Informative} | 참여 30-40% 증가 |
-| | [크로스 플랫폼 콘텐츠 동기화](media-entertainment/media-entertainment-overview.md#cross-platform-content-sync) | 미디어 및 엔터테인먼트 | [!BADGE 표시]{type=Informative} | 장치 간 연결 30-40% 증가 |
-| | [소셜 공유 Personalization](media-entertainment/media-entertainment-overview.md#social-sharing-personalization) | 미디어 및 엔터테인먼트 | [!BADGE 표시]{type=Informative} | 사회적 공유율 20-30% 증가 |
-| | [네트워크 성능 Personalization](telecommunications/telecommunications-overview.md#network-performance-personalization) | 전기 통신 | [!BADGE 표시]{type=Informative} | 앱 참여 35-45% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-high-intent.png" alt="높은 의도" width="40"> | [높은 의도의 방문자 타깃팅](travel-hospitality/travel-hospitality-overview.md#high-intent-visitor-targeting) | 여행 및 접대 | [!BADGE 표시]{type=Informative} | 전환 30-40% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-dynamic-itinerary.png" alt="동적 여정" width="40"> | [동적 일정 권장 사항](travel-hospitality/travel-hospitality-overview.md#dynamic-itinerary-recommendations) | 여행 및 접대 | [!BADGE 표시]{type=Informative} | 일정 페이지 참여 20-30% 증가 |
-| <img src="assets/use-case-icons/travel-hospitality/icon-recently-browsed.png" alt="최근에 검색한 항목" width="40"> | [홈 페이지에서 최근에 검색한 제품](travel-hospitality/travel-hospitality-overview.md#recently-browsed-products-on-homepage) | 여행 및 접대 | [!BADGE 표시]{type=Informative} | 재방문 참여 15-20% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-content-personalization.png" alt="콘텐츠 개인화" width="40"> | [잠재 고객을 위한 컨텐츠 Personalization](b2b/b2b-overview.md#content-personalization-for-prospects) | B2B | [!BADGE 표시]{type=Informative} | 컨텐츠 참여 20-30% 증가 |
-| <img src="assets/use-case-icons/b2b/icon-case-study.png" alt="사례 연구" width="40"> | [사례 연구 및 ROI Personalization](b2b/b2b-overview.md#case-study-and-roi-personalization) | B2B | [!BADGE 표시]{type=Informative} | 사례 연구 참여 25-35% 증가 |
-
-### 익명 방문자 웹 Personalization
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/travel-hospitality/icon-personalized-homepage.png" alt="개인화된 홈페이지" width="40"> | [새 방문자를 위한 개인 맞춤화된 홈 페이지](travel-hospitality/travel-hospitality-overview.md#personalized-homepage-for-new-visitors) | 여행 및 접대 | [!BADGE 표시]{type=Informative} | 전환율 15-20% 증가 |
-
->[!TAB 대상 구축 및 활성화]
-
-### B2B Audience Activation
-
-| | 사용 사례 | 업계 | 완성도 | 비즈니스에 대한 영향 |
-| --- | --- | --- | --- | --- |
-| <img src="assets/use-case-icons/b2b/icon-abm.png" alt="ABM" width="40"> | [Account-Based Marketing Personalization](b2b/b2b-overview.md#account-based-marketing-personalization) | B2B | [!BADGE 표시]{type=Informative} | 계정 참여 30-40% 증가 |
 
 >[!ENDTABS]
