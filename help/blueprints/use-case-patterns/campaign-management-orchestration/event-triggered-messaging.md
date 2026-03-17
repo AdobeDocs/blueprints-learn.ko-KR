@@ -116,11 +116,11 @@ ht-degree: 1%
 
 | 기본 함수 | 상태 | 제자리에 있어야 하는 사항 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 가정 위치 | AJO 샌드박스가 활성 채널 구성으로 프로비저닝되었습니다. 여정 작성 및 구현 팀에 할당된 게시 권한. 여정 관리, 콘텐츠 작성 및 채널 관리를 위해 구성된 사용자 역할. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | XDM ExperienceEvent 스키마는 조건 평가 및 메시지 개인화에 필요한 모든 컨텍스트 필드(예: 장바구니 이벤트, 제품 세부 정보, 장바구니 값의 경우 `commerce.productListAdds`)를 사용하여 트리거 이벤트를 캡처해야 합니다. 실시간 고객 프로필에 대해 스키마를 활성화해야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| 데이터 소스 및 수집 | 필수 | 실시간 이벤트 스트리밍을 구성해야 합니다. 웹 이벤트의 경우 Web SDK, 앱 이벤트의 경우 Mobile SDK 또는 시스템 이벤트의 경우 Edge Network Server API입니다. AEP 및 AJO 서비스가 활성화된 상태에서 데이터 스트림을 구성하여 이벤트를 올바른 데이터 세트로 라우팅해야 합니다. 패턴은 실시간 이벤트 수집에 따라 달라지므로 이는 중요한 종속성입니다. | [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
-| ID 및 프로필 구성 | 필수 | 트리거링 이벤트는 알려진 ID(이메일, CRM ID 또는 인증된 세션)와 연결되어 있어야 여정이 프로필을 확인하고 메시지를 전달할 수 있습니다. 트리거링 이벤트에 사용되는 식별자에 대해 ID 네임스페이스가 있어야 합니다. 메시지를 전달하려면 익명 이벤트에는 ID 그래프를 통한 ID 결합이 필요합니다. 병합 정책을 구성해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| 대상 정의 및 세분화 | 추천 | 이벤트 트리거 여정(시작은 이벤트 기반이며 대상 기반이 아님)에 대해서는 엄격히 필요하지 않지만, 대상 세그먼트는 여정 내의 조건 평가에 사용될 수 있습니다(예: 프로필이 &quot;고가치 고객&quot; 세그먼트에 있는 경우에만 전송하거나 프로필이 &quot;최근에 연락한&quot; 세그먼트에 있는 경우에는 표시하지 않음). 스트리밍 평가는 여정 내 실시간 세그먼트 멤버십 확인에 권장됩니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [스트리밍 세그먼테이션](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation) |
+| 관리 및 거버넌스 | 가정 위치 | AJO 샌드박스가 활성 채널 구성으로 프로비저닝되었습니다. 여정 작성 및 구현 팀에 할당된 게시 권한. 여정 관리, 콘텐츠 작성 및 채널 관리를 위해 구성된 사용자 역할. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
+| 데이터 모델링 및 준비 | 필수 | XDM ExperienceEvent 스키마는 조건 평가 및 메시지 개인화에 필요한 모든 컨텍스트 필드(예: 장바구니 이벤트, 제품 세부 정보, 장바구니 값의 경우 `commerce.productListAdds`)를 사용하여 트리거 이벤트를 캡처해야 합니다. 실시간 고객 프로필에 대해 스키마를 활성화해야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) |
+| 데이터 소스 및 수집 | 필수 | 실시간 이벤트 스트리밍을 구성해야 합니다. 웹 이벤트의 경우 Web SDK, 앱 이벤트의 경우 Mobile SDK 또는 시스템 이벤트의 경우 Edge Network Server API입니다. AEP 및 AJO 서비스가 활성화된 상태에서 데이터 스트림을 구성하여 이벤트를 올바른 데이터 세트로 라우팅해야 합니다. 패턴은 실시간 이벤트 수집에 따라 달라지므로 이는 중요한 종속성입니다. | [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home), [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) |
+| ID 및 프로필 구성 | 필수 | 트리거링 이벤트는 알려진 ID(이메일, CRM ID 또는 인증된 세션)와 연결되어 있어야 여정이 프로필을 확인하고 메시지를 전달할 수 있습니다. 트리거링 이벤트에 사용되는 식별자에 대해 ID 네임스페이스가 있어야 합니다. 메시지를 전달하려면 익명 이벤트에는 ID 그래프를 통한 ID 결합이 필요합니다. 병합 정책을 구성해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview) |
+| 대상 정의 및 세분화 | 추천 | 이벤트 트리거 여정(시작은 이벤트 기반이며 대상 기반이 아님)에 대해서는 엄격히 필요하지 않지만, 대상 세그먼트는 여정 내의 조건 평가에 사용될 수 있습니다(예: 프로필이 &quot;고가치 고객&quot; 세그먼트에 있는 경우에만 전송하거나 프로필이 &quot;최근에 연락한&quot; 세그먼트에 있는 경우에는 표시하지 않음). 스트리밍 평가는 여정 내 실시간 세그먼트 멤버십 확인에 권장됩니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home), [스트리밍 세그먼테이션](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation) |
 
 ## 기능 지원
 
@@ -128,11 +128,11 @@ ht-degree: 1%
 
 | 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 추천 | 장바구니 포기 수, 마지막 구매 이후 일 수, 평균 주문 가격 및 라이프타임 구매 합계와 같은 계산된 속성은 트리거된 여정 내에서 조건 평가 및 개인화를 향상시킵니다. 이러한 행동 집계는 보다 정확한 타깃팅 결정을 가능하게 합니다(예: 처음 포기자와 반복 포기자를 구별합니다). | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | 스토리지 비용 및 규정 준수를 관리하려면 일시적인 동작 이벤트(페이지 보기, 검색, 클릭 수)에 대해 이벤트 데이터 만료를 구성해야 합니다. 메시지 게재 중 채널별 옵트인/옵트아웃 적용을 위해 동의 스키마 필드가 있어야 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [데이터 세트 만료](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | 이벤트 및 프로필 필드의 거버넌스 레이블은 규정 준수 개인화를 보장합니다. 트리거된 메시지에 PII 또는 행동 데이터를 사용하는 개인화된 콘텐츠가 포함된 경우 메시지 콘텐츠에서 허가되지 않은 데이터 사용을 방지하기 위해 데이터 사용 레이블 및 거버넌스 정책을 검토해야 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
-| 모니터링 및 가시성 | 포함됨 | 여정 실행 모니터링은 보고 단계의 일부입니다. 또한 이벤트 수집 실패 또는 여정 처리 지연에 대한 경고를 구성하여 트리거된 메시지가 전송되지 않도록 하는 파이프라인 문제를 감지합니다. | [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [가시성 통찰력 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | 여정 성능 보고서는 보고 단계에서 다룹니다. 채널 간 및 시간에 따른 트리거된 메시징 효과를 보다 심층적으로 분석하려면 CJA 연결 및 작업 영역을 구성하여 전환 속성, 전환 시간 및 채널 성능을 분석하십시오. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| 계산/파생 속성 생성 | 추천 | 장바구니 포기 수, 마지막 구매 이후 일 수, 평균 주문 가격 및 라이프타임 구매 합계와 같은 계산된 속성은 트리거된 여정 내에서 조건 평가 및 개인화를 향상시킵니다. 이러한 행동 집계는 보다 정확한 타깃팅 결정을 가능하게 합니다(예: 처음 포기자와 반복 포기자를 구별합니다). | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
+| 데이터 수명 주기 관리 | 추천 | 스토리지 비용 및 규정 준수를 관리하려면 일시적인 동작 이벤트(페이지 보기, 검색, 클릭 수)에 대해 이벤트 데이터 만료를 구성해야 합니다. 메시지 게재 중 채널별 옵트인/옵트아웃 적용을 위해 동의 스키마 필드가 있어야 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home), [데이터 세트 만료](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | 이벤트 및 프로필 필드의 거버넌스 레이블은 규정 준수 개인화를 보장합니다. 트리거된 메시지에 PII 또는 행동 데이터를 사용하는 개인화된 콘텐츠가 포함된 경우 메시지 콘텐츠에서 허가되지 않은 데이터 사용을 방지하기 위해 데이터 사용 레이블 및 거버넌스 정책을 검토해야 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
+| 모니터링 및 가시성 | 포함됨 | 여정 실행 모니터링은 보고 단계의 일부입니다. 또한 이벤트 수집 실패 또는 여정 처리 지연에 대한 경고를 구성하여 트리거된 메시지가 전송되지 않도록 하는 파이프라인 문제를 감지합니다. | [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview), [가시성 통찰력 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
+| 보고 및 분석 | 포함됨 | 여정 성능 보고서는 보고 단계에서 다룹니다. 채널 간 및 시간에 따른 트리거된 메시징 효과를 보다 심층적으로 분석하려면 CJA 연결 및 작업 영역을 구성하여 전환 속성, 전환 시간 및 채널 성능을 분석하십시오. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## 애플리케이션 기능
 
@@ -206,8 +206,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [여정 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [일반 이벤트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [일반 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 
 ### 옵션 B: 대기가 있는 조건부 이벤트 트리거 메시지
 
@@ -244,8 +244,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [대기 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [조건 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [대기 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [조건 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [종료 기준](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### 옵션 C: 빈도 거버넌스를 사용하여 이벤트가 트리거됨
@@ -285,7 +285,7 @@ ht-degree: 1%
 
 - [빈도 규칙](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [비즈니스 규칙 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [우선 순위 점수](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [우선 순위 점수](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
 - [여정 항목 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 
 ### 옵션 비교
@@ -366,11 +366,11 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [스트리밍 수집 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
+- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)
+- [스트리밍 수집 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/streaming/overview)
 
 ### 2단계: ID 및 프로필 구성
 
@@ -404,8 +404,8 @@ ht-degree: 1%
 **Experience League 설명서:**
 
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-linking-logic)
+- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
 
 ### 3단계: 채널 표면 설정
 
@@ -451,11 +451,11 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [이메일 구성 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [이메일 구성 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [하위 도메인 위임](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP 풀 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
-- [채널 표면 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [SMS 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [채널 표면 설정](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [SMS 채널 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [푸시 알림 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### 4단계: 메시지 콘텐츠 만들기
@@ -507,9 +507,9 @@ ht-degree: 1%
 - [개인화 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization 구문](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [컨텐츠 조각을 사용한 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [콘텐츠 미리보기 및 테스트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [콘텐츠 미리보기 및 테스트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 ### 5단계: 여정 만들기 및 구성
 
@@ -593,17 +593,17 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [여정 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [여정 속성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
-- [일반 이벤트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [조건 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [대기 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [여정에 메시지 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [여정 속성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [일반 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [조건 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [대기 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [여정에 메시지 추가](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [종료 기준](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [여정 항목 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [빈도 규칙](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
-- [우선 순위 점수](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [잠재적인 충돌 파악](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [우선 순위 점수](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [잠재적인 충돌 파악](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/conflicts)
 
 ### 6단계: 여정 테스트 및 배포
 
@@ -625,7 +625,7 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [여정 테스트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [여정 테스트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [여정 게시](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
 ### 7단계: 성능 모니터링 및 보고
@@ -661,8 +661,8 @@ ht-degree: 1%
 - [여정 라이브 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [여정 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Customer Journey Analytics 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
+- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ## 구현 시 고려 사항
 
@@ -672,15 +672,15 @@ ht-degree: 1%
 
 이벤트가 트리거된 메시징 구현에는 다음과 같은 플랫폼 보호 및 제한이 적용됩니다.
 
-- **단일 이벤트 처리량:** 단일 이벤트 여정에 대한 샌드박스당 초당 최대 5,000개 이벤트 — [Journey Optimizer 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- **실시간 여정 제한:** 샌드박스당 최대 500개의 실시간 여정 — [Journey Optimizer 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- **단일 이벤트 처리량:** 단일 이벤트 여정에 대한 샌드박스당 초당 최대 5,000개 이벤트 — [Journey Optimizer 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+- **실시간 여정 제한:** 샌드박스당 최대 500개의 실시간 여정 — [Journey Optimizer 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
 - **여정 캔버스 제한:** 여정 캔버스당 최대 50개 활동
 - **여정 시간 제한:** 최대 여정 기간은 91일입니다(전역 시간 제한)
 - **다시 시작 쿨다운:** 최소 다시 시작 쿨다운은 5분입니다
 - **빈도 제한 구성:** 샌드박스당 최대 10개의 제한 구성
 - **채널 표면:** 샌드박스당 채널 유형당 최대 10개 채널 표면
-- **스트리밍 수집:** HTTP 연결당 초당 최대 20,000개의 레코드 — [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- **연산 속성:** 샌드박스당 최대 25개의 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **스트리밍 수집:** HTTP 연결당 초당 최대 20,000개의 레코드 — [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
+- **연산 속성:** 샌드박스당 최대 25개의 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **콘텐츠 조각:** 메시지당 최대 30개의 콘텐츠 조각
 - **실시간 보고서 새로 고침:** 실시간 보고서는 60초마다 새로 고침되며 지난 24시간 동안의 데이터를 표시합니다
 - **이전 보고서 대기 시간:** 이전(항상) 보고서는 실행이 끝난 후 완전히 채워지는 데 최대 2시간이 걸릴 수 있습니다
@@ -759,43 +759,43 @@ ht-degree: 1%
 
 ### 여정 편성
 
-- [여정 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [여정 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [여정 속성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
-- [일반 이벤트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [대상자 선별 이벤트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [조건 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [대기 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [여정에 메시지 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [여정 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [여정 속성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [일반 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [대상자 선별 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
+- [조건 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [대기 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [여정에 메시지 추가](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [종료 기준](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [여정 항목 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
-- [여정 테스트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [여정 테스트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [여정 게시](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
 ### 채널 구성
 
-- [이메일 구성 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [이메일 구성 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [하위 도메인 위임](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP 풀 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP 준비 계획](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [이메일 표면 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [SMS 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [이메일 표면 설정](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [SMS 채널 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [푸시 알림 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
-- [제외 목록 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [제외 목록 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### 메시지 작성 및 개인화
 
-- [이메일 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
+- [이메일 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/create-email)
 - [이메일 콘텐츠 디자인](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [개인화 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization 구문](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [도우미 함수](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/functions/functions)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [컨텐츠 조각을 사용한 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [콘텐츠 미리보기 및 테스트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
-- [SMS 메시지 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
-- [푸시 알림 디자인](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/design-push)
+- [콘텐츠 미리보기 및 테스트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [SMS 메시지 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/create-sms)
+- [푸시 알림 디자인](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/push/design-push)
 
 ### 빈도 및 비즈니스 규칙
 
@@ -805,68 +805,68 @@ ht-degree: 1%
 
 ### 충돌 및 우선 순위 관리
 
-- [충돌 및 우선 순위 관리 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
-- [잠재적인 충돌 파악](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
-- [우선 순위 점수](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [여정 한도 및 중재](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [충돌 및 우선 순위 관리 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
+- [잠재적인 충돌 파악](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [우선 순위 점수](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [여정 한도 및 중재](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
 
 ### 보고 및 성능
 
 - [여정 라이브 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [여정 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
-- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ### 데이터 수집 및 수집
 
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
 - [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [스트리밍 수집 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)
+- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)
+- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+- [스트리밍 수집 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/streaming/overview)
 
 ### 데이터 모델링 및 스키마
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
 
 ### ID 및 프로필
 
-- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-linking-logic)
+- [프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
+- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
 
 ### 세분화 및 대상자
 
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
+- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 ### 데이터 거버넌스 및 동의
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
 - [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview)
-- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents)
 - [Journey Optimizer의 동의](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 
 ### 계산된 속성
 
-- [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [계산된 속성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
+- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/ui)
 
 ### 모니터링 및 가시성
 
-- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home)
 
 ### 가드레일
 
-- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
 
 ### 튜토리얼 및 안내서
 
-- [여정 자습서 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [웹 SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
+- [여정 자습서 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [웹 SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/overview)
