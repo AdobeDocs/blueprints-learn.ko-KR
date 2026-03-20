@@ -1,0 +1,41 @@
+Use Cases in icon-lookup.csv NOT in the Use Case Catalog
+============================================================
+
+Use Case Title                                          Industry                  Icon Filename
+------------------------------------------------------- ------------------------- ----------------------------------------
+Account-Based Marketing (ABM) Personalization           B2B                       5e267c06-83bc-4458-94ae-9cd1b72d789e.png
+B2B Account-Based Audience Activation                   B2B                       0c5f0291-a18c-4a42-aaad-bbeddbbfd6dc.png
+Buying Group Journey Orchestration                      B2B                       16eb7513-7b48-4ede-a9d6-50b9b08853f5.png
+Customer Journey Analytics Dashboard                    Finance                   4b04b84c-3680-46f5-a245-accf3c229d80.png
+Next-Best Offer Decisioning                             Finance                   c09ef0d9-38f8-41d6-a1a6-9c231d335b14.png
+Patient Engagement & Appointment Reminders              Healthcare                b724ff0f-3906-4dd7-9f51-191d7bc1ef47.png
+Abandoned Browsing: Merchandise—For Activation          Retail                    2c6f4562-55f4-4635-ad40-77b606f858c4.png
+Abandoned Browsing: Product—For Activation              Retail                    d4aa783e-c9bb-44d7-8bec-767564d79c03.png
+Abandoned Cart: Merchandise—For Activation              Retail                    7f9ddfe4-72da-40d5-9961-0a92d18b4778.png
+Abandoned Cart: Product—For Activation                  Retail                    998a276c-7d54-4db8-a8c1-1d4e23e93bec.png
+Anonymous Visitor Web Personalization                   Retail                    031c3d15-a9b2-44ae-8dd6-1e0f22f6ab3d.png
+Audience Segmentation & Activation for Paid Media       Retail                    34e0aebf-d5b8-49fa-9dc2-7c97b2ad7d61.png
+Brand Concierge Conversational Experience               Retail                    52ad6e43-b43e-4e22-a107-00a86e025060.png
+Cart Abandonment Recovery                               Retail                    fb2af6de-e76e-4384-8838-22e3913720b5.png
+Check-in Reminder with App Download CTA                 Retail                    8a39a506-7f40-40d8-9a70-57f1b563ac2c.png
+Cross-Channel Campaign Orchestration                    Retail                    6d719dd4-1a4e-4724-9ab8-08de1193eaa7.png
+Customer Suppression for Acquisition Campaigns          Retail                    d9913a46-6236-4185-a0ab-dddd12f95a75.png
+Game Promotion—For Activation                           Retail                    a35f54fa-e982-4617-9d17-5c0ddbbbadfd.png
+Increase Merchandise Purchase During Game - For Activation Retail                    8957fe59-9425-40d4-9b06-70df2a35c96b.png
+Increase product purchase during store visit—For Activation Retail                    417b1059-3470-4f72-8fca-2455694fdf7e.png
+Loyalty Tier Upgrade Campaign                           Retail                    dd3c5161-dc5d-4c6c-9aec-b7bf2c9512fe.png
+Personalized Web Experiences for Known Visitors         Retail                    ca3717a7-b15d-415e-88b6-3528d13e93df.png
+Post-Purchase Engagement Journey                        Retail                    b648619e-64c0-486a-b471-bfb84ea1bf80.png
+Product Promotion—For Activation                        Retail                    3e8026e0-b0c8-4a0f-9350-620df94d7f0f.png
+Send A Birthday Message To Fans—For Activation          Retail                    254fe121-30df-45b7-b00f-dac90a83c428.png
+Send A Birthday Message to Shoppers—For Activation      Retail                    fa6921c8-ac75-4314-a5c0-de356214a261.png
+Shopping Cart Abandon                                   Retail                    14cfbcb9-487b-4a9f-8783-394d7d6ed04e.png
+Welcome Series Journey                                  Retail                    a7fe360d-5eef-4674-b1fb-c7b6dd474004.png
+Churn Prevention & Win-Back                             Telecommunications        9a130d4a-e16e-447f-9d87-557767cd3f52.png
+Abandoned Browsing: Reservation—For Activation          Travel & Hospitality      93fa5939-94d5-403c-90cc-59549a2dc240.png
+Abandoned Cart: Reservation—For Activation              Travel & Hospitality      ab43d8c0-ea18-4989-91c3-8227c805f99c.png
+Destination Promotion—For Activation                    Travel & Hospitality      34e0aebf-d5b8-49fa-9dc2-7c97b2ad7d61.png
+Increase Product and Services Purchase During Stay—For Activation Travel & Hospitality      5ff676fc-acd8-4dc7-b9f6-980b21c99b68.png
+Send A Birthday Message to Guests—For Activation        Travel & Hospitality      b739aee1-f135-4832-940a-e83fd842ea82.png
+
+Total: 34 use cases
