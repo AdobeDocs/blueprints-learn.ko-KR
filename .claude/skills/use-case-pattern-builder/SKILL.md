@@ -157,7 +157,7 @@ ht-degree: 0%
 
 5. **프론트메일 완성도** — 패턴 파일에는 YAML 프론트메일의 제목, 설명, 솔루션 및 exl-id가 포함됩니다.
 
-6. **Experience League 링크** — 모든 Experience League URL이 올바른지 확인합니다(`https://experienceleague.adobe.com/`(으)로 시작).
+6. **Experience League 링크** — 모든 Experience League URL이 올바른지 확인합니다(`https://experienceleague.adobe.com/ko`(으)로 시작).
 
 사용자에게 유효성 검사 실패를 보고하고 이를 수정한 후에 작업 완료를 고려하십시오.
 
