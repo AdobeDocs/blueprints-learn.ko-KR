@@ -3,9 +3,9 @@ title: 사용 사례 카탈로그
 description: 업계 사용 사례를 세로로 탐색하여 구현 패턴 및 비즈니스 목표에 대한 링크와 함께 Adobe Experience Platform 여정에 대한 올바른 시작점을 찾습니다.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: b0fe19570fb5b649b063d0ba7d99e77ab166983d
+source-git-commit: 9d1ba8ce3fed83b1bd2b2615309ae7e3683e14f1
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2379'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ Industry Use Case → Use Case Pattern → Key Business Objective
 | | [위험 평가 및 예방](insurance/insurance-overview.md#risk-assessment-and-prevention) | 개인화된 위험 평가 정보 및 예방 팁 제공 | [!BADGE 표시]{type=Informative} | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
 | | [건강 및 예방 프로그램](insurance/insurance-overview.md#wellness-and-prevention-programs) | 보험 고객을 위한 웰니스 프로그램 커뮤니케이션 및 보상 개인화 | [!BADGE 표시]{type=Informative} | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
 | <img src="assets/use-case-icons/insurance/icon-cross-sell.png" alt="크로스셀" width="40"> | [교차 판매 제품 권장 사항](insurance/insurance-overview.md#cross-sell-product-recommendations) | 기존 보험 및 생활 단계에 따른 추가 보험 상품 추천 | [!BADGE 고급]{type=Caution} | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| | [수명 단계 기반 제품 오퍼](insurance/insurance-overview.md#life-stage-based-product-offers) | 새로운 생명 단계에 접어드는 고객을 식별하고 관련 보험 상품을 제공합니다. | [!BADGE 고급]{type=Caution} | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
+| <img src="assets/use-case-icons/insurance/icon-life-stage-based-product-offers.png" alt="라이프 스테이지" width="40"> | [수명 단계 기반 제품 오퍼](insurance/insurance-overview.md#life-stage-based-product-offers) | 새로운 생명 단계에 접어드는 고객을 식별하고 관련 보험 상품을 제공합니다. | [!BADGE 고급]{type=Caution} | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | | [할인 및 절감 기회](insurance/insurance-overview.md#discount-and-savings-opportunities) | 개인화된 할인 기회 식별 및 전달 | [!BADGE 고급]{type=Caution} | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 
 >[!TAB 미디어 및 엔터테인먼트]
