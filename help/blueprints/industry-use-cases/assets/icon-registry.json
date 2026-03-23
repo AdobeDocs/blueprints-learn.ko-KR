@@ -1,0 +1,233 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-03-23T20:07:21.044Z",
+  "blueprintsPath": "/Users/nhecht/Library/CloudStorage/OneDrive-Adobe/Documents/GitHub/blueprints-learn.en/help/blueprints",
+  "note": "Maps use case title → icon file path (relative to assets/use-case-icons/). null means no icon is assigned in the blueprints catalog. Run `npm run sync:generate-icons` to regenerate.",
+  "stats": {
+    "totalUseCases": 119,
+    "withIcon": 63,
+    "withoutIcon": 56,
+    "unusedIconFiles": 62
+  },
+  "industries": {
+    "Retail": {
+      "Abandoned Cart Email Recovery": "retail/icon-abandoned-cart.png",
+      "Inventory-Based Urgency Campaigns": "retail/icon-inventory-urgency.png",
+      "Price Drop Alerts": "retail/icon-price-drop.png",
+      "Out-of-Stock Notifications": null,
+      "Personalized Product Recommendations": "retail/icon-product-recommendations.png",
+      "Personalized Category Pages": "retail/icon-category-pages.png",
+      "New Customer Welcome Series": "retail/icon-welcome-series.png",
+      "Replenishment Reminders": "retail/icon-replenishment.png",
+      "Post-Purchase Follow-Up Campaigns": "retail/icon-post-purchase.png",
+      "Social Proof Personalization": null,
+      "Cross-Sell and Upsell Recommendations": "retail/icon-cross-sell-upsell.png",
+      "VIP Customer Exclusive Offers": null,
+      "AI Product Advisor": null,
+      "Cross-Channel Attribution Analysis": null
+    },
+    "Automotive": {
+      "Service Appointment Reminders": "automotive/icon-service-reminders.png",
+      "Vehicle Recall Notifications": "automotive/icon-recall-notifications.png",
+      "Test Drive Scheduling": "automotive/icon-test-drive.png",
+      "New Model Launch Campaigns": "automotive/icon-model-launch.png",
+      "Trade-In Value Campaigns": "automotive/icon-trade-in.png",
+      "Parts and Accessories Recommendations": "automotive/icon-parts-accessories.png",
+      "Warranty and Extended Service Plans": "automotive/icon-warranty.png",
+      "Connected Car Feature Activation": "automotive/icon-connected-car.png",
+      "Dealer Network Coordination": "automotive/icon-dealer-network.png",
+      "Vehicle Purchase Journey Personalization": "automotive/icon-vehicle-purchase.png",
+      "Financing and Insurance Offers": "automotive/icon-financing.png",
+      "Owner Loyalty Programs": "automotive/icon-owner-loyalty.png"
+    },
+    "Financial Services": {
+      "Transaction-Based Alerts and Recommendations": null,
+      "Credit Card Application Abandonment Recovery": null,
+      "Fraud Alert Personalization": null,
+      "High-Value Lead Nurturing": "financial-services/icon-lead-nurturing.png",
+      "Personalized Account Dashboard": "financial-services/icon-account-dashboard.png",
+      "Investment Portfolio Recommendations": null,
+      "Mortgage Pre-Approval Campaigns": null,
+      "Product Recommendation for Existing Customers": "financial-services/icon-product-recommendation.png",
+      "Churn Prevention Campaigns": "financial-services/icon-churn-prevention.png",
+      "Life Stage-Based Product Offers": "financial-services/icon-life-stage.png",
+      "Loyalty Program Engagement": null,
+      "Personalized Financial Education Content": null,
+      "AI Financial Product Guide": null,
+      "Product Adoption Funnel and Churn Driver Analysis": null
+    },
+    "Healthcare": {
+      "Appointment Reminder Automation": "healthcare/icon-appointment-reminder.png",
+      "Post-Visit Follow-Up Campaigns": "healthcare/icon-post-visit.png",
+      "Lab Results Notification": null,
+      "Insurance Coverage Verification": null,
+      "Telehealth Appointment Reminders": null,
+      "Preventive Care Reminders": "healthcare/icon-preventive-care.png",
+      "Medication Adherence Campaigns": "healthcare/icon-medication-adherence.png",
+      "Chronic Disease Management Programs": null,
+      "New Patient Onboarding Journey": null,
+      "Wellness Program Engagement": null,
+      "Care Team Coordination": null,
+      "Personalized Health Content Delivery": null,
+      "Patient Journey Funnel and Care Gap Analysis": null,
+      "Patient Portal Content Personalization": null
+    },
+    "Insurance": {
+      "Policy Renewal Campaigns": "insurance/icon-policy-renewal.png",
+      "Policy Change Notifications": null,
+      "Quote Abandonment Recovery": null,
+      "Claims Fraud Prevention": null,
+      "Catastrophic Event Response": null,
+      "Agent and Broker Coordination": null,
+      "Claims Process Personalization": "insurance/icon-claims-process.png",
+      "Risk Assessment and Prevention": null,
+      "Wellness and Prevention Programs": null,
+      "Cross-Sell Product Recommendations": "insurance/icon-cross-sell.png",
+      "Life Stage-Based Product Offers": "insurance/icon-life-stage-based-product-offers.png",
+      "Discount and Savings Opportunities": null,
+      "Policyholder Portal Content Personalization": null
+    },
+    "Media & Entertainment": {
+      "New Content Release Notifications": "media-entertainment/icon-new-content.png",
+      "Watchlist and Favorites Reminders": null,
+      "Live Event Viewing Reminders": null,
+      "Content Completion Campaigns": null,
+      "Content Recommendation Engine": "media-entertainment/icon-content-recommendations.png",
+      "Personalized Homepage Experience": null,
+      "Personalized Playlist Generation": null,
+      "Free Trial Conversion Campaigns": null,
+      "Cross-Platform Content Sync": null,
+      "Social Sharing Personalization": null,
+      "Subscription Churn Prevention": "media-entertainment/icon-subscription-churn.png",
+      "Premium Feature Upsell": null,
+      "Subscriber Churn Driver and Content Engagement Analysis": null
+    },
+    "Telecommunications": {
+      "Data Usage Alerts and Recommendations": null,
+      "Service Outage Notifications": null,
+      "Bill Payment Reminders": null,
+      "5G Upgrade Campaigns": null,
+      "Plan Optimization Campaigns": "telecommunications/icon-plan-optimization.png",
+      "New Customer Onboarding Journey": null,
+      "Network Performance Personalization": null,
+      "Device Upgrade Recommendations": "telecommunications/icon-device-upgrade.png",
+      "Churn Prevention for High-Value Customers": "telecommunications/icon-churn-prevention.png",
+      "Family Plan Management": null,
+      "Add-On Service Recommendations": null,
+      "Loyalty Program Engagement": null,
+      "AI Plan Advisor": null,
+      "Churn Propensity and Network Experience Analytics": null
+    },
+    "Travel & Hospitality": {
+      "Cart Abandonment Recovery Journey": "travel-hospitality/icon-cart-abandonment.png",
+      "Multi-Channel Booking Reminders": "travel-hospitality/icon-booking-reminders.png",
+      "Seasonal Campaign Personalization": "travel-hospitality/icon-seasonal-campaigns.png",
+      "Personalized Homepage for New Visitors": "travel-hospitality/icon-personalized-homepage.png",
+      "High-Intent Visitor Targeting": "travel-hospitality/icon-high-intent.png",
+      "Post-Booking Upsell Campaigns": "travel-hospitality/icon-post-booking-upsell.png",
+      "Win-Back Campaigns for Lapsed Customers": "travel-hospitality/icon-win-back.png",
+      "Dynamic Itinerary Recommendations": "travel-hospitality/icon-dynamic-itinerary.png",
+      "Recently Browsed Products on Homepage": "travel-hospitality/icon-recently-browsed.png",
+      "Group Booking Recommendations": "travel-hospitality/icon-group-booking.png",
+      "Exit Intent Modal with Targeted Offers": "travel-hospitality/icon-exit-intent.png",
+      "Loyalty Program Personalization": "travel-hospitality/icon-loyalty-program.png",
+      "AI Booking Concierge": null
+    },
+    "B2B": {
+      "Webinar and Demo Scheduling": "b2b/icon-webinar-demo.png",
+      "Account-Based Marketing Personalization": "b2b/icon-abm.png",
+      "Lead Scoring and Nurturing": "b2b/icon-lead-scoring.png",
+      "Content Personalization for Prospects": "b2b/icon-content-personalization.png",
+      "Event Registration and Follow-Up": "b2b/icon-event-registration.png",
+      "Product Trial Conversion Campaigns": "b2b/icon-trial-conversion.png",
+      "Customer Success and Onboarding": "b2b/icon-customer-onboarding.png",
+      "Competitive Replacement Campaigns": "b2b/icon-competitive-replacement.png",
+      "Case Study and ROI Personalization": "b2b/icon-case-study.png",
+      "Customer Advocacy Programs": null,
+      "Contract Renewal Campaigns": "b2b/icon-contract-renewal.png",
+      "Upsell and Expansion Opportunities": "b2b/icon-upsell-expansion.png"
+    }
+  },
+  "unusedIconFiles": {
+    "Automotive": [
+      "icon-connected-car-feature-activation.png",
+      "icon-dealer-network-coordination.png",
+      "icon-financing-and-insurance-offers.png",
+      "icon-new-model-launch-campaigns.png",
+      "icon-owner-loyalty-programs.png",
+      "icon-parts-and-accessories-recommendations.png",
+      "icon-service-appointment-reminders.png",
+      "icon-test-drive-scheduling.png",
+      "icon-trade-in-value-campaigns.png",
+      "icon-vehicle-purchase-journey-personalization.png",
+      "icon-vehicle-recall-notifications.png",
+      "icon-warranty-and-extended-service-plans.png"
+    ],
+    "B2B": [
+      "icon-case-study-and-roi-personalization.png",
+      "icon-competitive-replacement-campaigns.png",
+      "icon-content-personalization-for-prospects.png",
+      "icon-contract-renewal-campaigns.png",
+      "icon-customer-success-and-onboarding.png",
+      "icon-event-registration-and-follow-up.png",
+      "icon-lead-scoring-and-nurturing.png",
+      "icon-product-trial-conversion-campaigns.png",
+      "icon-upsell-and-expansion-opportunities.png",
+      "icon-webinar-and-demo-scheduling.png"
+    ],
+    "Financial Services": [
+      "icon-churn-prevention-campaigns.png",
+      "icon-high-value-lead-nurturing.png",
+      "icon-life-stage-based-product-offers.png",
+      "icon-next-best-offer.png",
+      "icon-personalized-account-dashboard.png",
+      "icon-product-recommendation-for-existing-customers.png"
+    ],
+    "Healthcare": [
+      "icon-appointment-reminder-automation.png",
+      "icon-medication-adherence-campaigns.png",
+      "icon-post-visit-follow-up-campaigns.png",
+      "icon-preventive-care-reminders.png"
+    ],
+    "Insurance": [
+      "icon-claims-process-personalization.png",
+      "icon-cross-sell-product-recommendations.png",
+      "icon-policy-renewal-campaigns.png"
+    ],
+    "Media & Entertainment": [
+      "icon-content-recommendation-engine.png",
+      "icon-new-content-release-notifications.png",
+      "icon-subscription-churn-prevention.png"
+    ],
+    "Retail": [
+      "icon-abandoned-cart-email-recovery.png",
+      "icon-cross-sell-and-upsell-recommendations.png",
+      "icon-inventory-based-urgency-campaigns.png",
+      "icon-new-customer-welcome-series.png",
+      "icon-personalized-category-pages.png",
+      "icon-personalized-product-recommendations.png",
+      "icon-post-purchase-follow-up-campaigns.png",
+      "icon-price-drop-alerts.png",
+      "icon-replenishment-reminders.png"
+    ],
+    "Telecommunications": [
+      "icon-churn-prevention-for-high-value-customers.png",
+      "icon-device-upgrade-recommendations.png",
+      "icon-plan-optimization-campaigns.png"
+    ],
+    "Travel & Hospitality": [
+      "icon-cart-abandonment-recovery-journey.png",
+      "icon-dynamic-itinerary-recommendations.png",
+      "icon-exit-intent-modal-with-targeted-offers.png",
+      "icon-group-booking-recommendations.png",
+      "icon-high-intent-visitor-targeting.png",
+      "icon-loyalty-program-personalization.png",
+      "icon-multi-channel-booking-reminders.png",
+      "icon-personalized-homepage-for-new-visitors.png",
+      "icon-post-booking-upsell-campaigns.png",
+      "icon-recently-browsed-products-on-homepage.png",
+      "icon-seasonal-campaign-personalization.png",
+      "icon-win-back-campaigns-for-lapsed-customers.png"
+    ]
+  }
+}
