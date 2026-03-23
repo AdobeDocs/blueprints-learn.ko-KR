@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-03-23T20:07:21.044Z",
+  "generatedAt": "2026-03-23T23:03:23.085Z",
   "blueprintsPath": "/Users/nhecht/Library/CloudStorage/OneDrive-Adobe/Documents/GitHub/blueprints-learn.en/help/blueprints",
   "note": "Maps use case title → icon file path (relative to assets/use-case-icons/). null means no icon is assigned in the blueprints catalog. Run `npm run sync:generate-icons` to regenerate.",
   "stats": {
-    "totalUseCases": 119,
-    "withIcon": 63,
-    "withoutIcon": 56,
-    "unusedIconFiles": 62
+    "totalUseCases": 137,
+    "withIcon": 68,
+    "withoutIcon": 69,
+    "unusedIconFiles": 57
   },
   "industries": {
     "Retail": {
@@ -24,7 +24,17 @@
       "Cross-Sell and Upsell Recommendations": "retail/icon-cross-sell-upsell.png",
       "VIP Customer Exclusive Offers": null,
       "AI Product Advisor": null,
-      "Cross-Channel Attribution Analysis": null
+      "Cross-Channel Attribution Analysis": null,
+      "Audience Segmentation & Activation for Paid Media": null,
+      "Customer Suppression for Acquisition Campaigns": null,
+      "Personalized Web Experiences for Known Visitors": null,
+      "Anonymous Visitor Web Personalization": null,
+      "Welcome Series Journey": "retail/icon-new-customer-welcome-series.png",
+      "Cart Abandonment Recovery": "retail/icon-abandoned-cart-email-recovery.png",
+      "Post-Purchase Engagement Journey": "retail/icon-post-purchase-follow-up-campaigns.png",
+      "Loyalty Tier Upgrade Campaign": null,
+      "Cross-Channel Campaign Orchestration": null,
+      "Brand Concierge Conversational Experience": null
     },
     "Automotive": {
       "Service Appointment Reminders": "automotive/icon-service-reminders.png",
@@ -54,7 +64,9 @@
       "Loyalty Program Engagement": null,
       "Personalized Financial Education Content": null,
       "AI Financial Product Guide": null,
-      "Product Adoption Funnel and Churn Driver Analysis": null
+      "Product Adoption Funnel and Churn Driver Analysis": null,
+      "Next-Best Offer Decisioning": "financial-services/icon-next-best-offer.png",
+      "Customer Journey Analytics Dashboard": null
     },
     "Healthcare": {
       "Appointment Reminder Automation": "healthcare/icon-appointment-reminder.png",
@@ -70,7 +82,8 @@
       "Care Team Coordination": null,
       "Personalized Health Content Delivery": null,
       "Patient Journey Funnel and Care Gap Analysis": null,
-      "Patient Portal Content Personalization": null
+      "Patient Portal Content Personalization": null,
+      "Patient Engagement & Appointment Reminders": null
     },
     "Insurance": {
       "Policy Renewal Campaigns": "insurance/icon-policy-renewal.png",
@@ -116,7 +129,8 @@
       "Add-On Service Recommendations": null,
       "Loyalty Program Engagement": null,
       "AI Plan Advisor": null,
-      "Churn Propensity and Network Experience Analytics": null
+      "Churn Propensity and Network Experience Analytics": null,
+      "Churn Prevention & Win-Back": "telecommunications/icon-churn-prevention-for-high-value-customers.png"
     },
     "Travel & Hospitality": {
       "Cart Abandonment Recovery Journey": "travel-hospitality/icon-cart-abandonment.png",
@@ -145,7 +159,13 @@
       "Case Study and ROI Personalization": "b2b/icon-case-study.png",
       "Customer Advocacy Programs": null,
       "Contract Renewal Campaigns": "b2b/icon-contract-renewal.png",
-      "Upsell and Expansion Opportunities": "b2b/icon-upsell-expansion.png"
+      "Upsell and Expansion Opportunities": "b2b/icon-upsell-expansion.png",
+      "B2B Account-Based Audience Activation": null,
+      "Buying Group Journey Orchestration": null,
+      "Account-Based Marketing (ABM) Personalization": null
+    },
+    "Technology": {
+      "Real-Time Event Forwarding": null
     }
   },
   "unusedIconFiles": {
@@ -179,7 +199,6 @@
       "icon-churn-prevention-campaigns.png",
       "icon-high-value-lead-nurturing.png",
       "icon-life-stage-based-product-offers.png",
-      "icon-next-best-offer.png",
       "icon-personalized-account-dashboard.png",
       "icon-product-recommendation-for-existing-customers.png"
     ],
@@ -200,18 +219,14 @@
       "icon-subscription-churn-prevention.png"
     ],
     "Retail": [
-      "icon-abandoned-cart-email-recovery.png",
       "icon-cross-sell-and-upsell-recommendations.png",
       "icon-inventory-based-urgency-campaigns.png",
-      "icon-new-customer-welcome-series.png",
       "icon-personalized-category-pages.png",
       "icon-personalized-product-recommendations.png",
-      "icon-post-purchase-follow-up-campaigns.png",
       "icon-price-drop-alerts.png",
       "icon-replenishment-reminders.png"
     ],
     "Telecommunications": [
-      "icon-churn-prevention-for-high-value-customers.png",
       "icon-device-upgrade-recommendations.png",
       "icon-plan-optimization-campaigns.png"
     ],
