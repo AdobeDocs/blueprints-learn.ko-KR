@@ -94,8 +94,8 @@ B2B 마케팅 효과를 개선하기 위해 잠재 고객을 구매 그룹으로
 
 이 사용 사례 패턴에는 다음 Adobe 애플리케이션이 사용됩니다.
 
-- **[!DNL Journey Optimizer B2B Edition]([!DNL AJO B2B])** — 계정 수준 여정을 조정하고, 역할 템플릿과 솔루션 관심사를 사용하여 구매 그룹을 관리하고, 개인 및 구매 그룹 수준에서 참여 점수를 매기고, 작성자 B2B 이메일 콘텐츠를 작성하고, SMS 메시지를 보내고, 판매 알림을 구성하고, B2B 분석 대시보드를 제공합니다.
-- **[!DNL Real-Time CDP B2B Edition]([!DNL RT-CDP B2B])** — 소스 간 B2B 데이터에서 계정 프로필을 통합하고, 개인 대 계정 관계를 확인하고, 계정 수준 대상을 평가하고, B2B별 대상([!DNL Marketo Engage], [!DNL LinkedIn], CRM)을 구성하고, B2B 데이터 전반에 걸쳐 데이터 거버넌스를 적용합니다.
+- **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])** — 계정 수준 여정을 조정하고, 역할 템플릿과 솔루션 관심사를 사용하여 구매 그룹을 관리하고, 개인 및 구매 그룹 수준에서 참여 점수를 매기고, 작성자 B2B 이메일 콘텐츠를 작성하고, SMS 메시지를 보내고, 판매 알림을 구성하고, B2B 분석 대시보드를 제공합니다.
+- **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])** — 소스 간 B2B 데이터에서 계정 프로필을 통합하고, 개인 대 계정 관계를 확인하고, 계정 수준 대상을 평가하고, B2B별 대상([!DNL Marketo Engage], [!DNL LinkedIn], CRM)을 구성하고, B2B 데이터 전반에 걸쳐 데이터 거버넌스를 적용합니다.
 
 ## 기본 함수
 

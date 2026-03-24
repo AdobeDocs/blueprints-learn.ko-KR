@@ -90,9 +90,9 @@ ht-degree: 2%
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — 웹 채널 구성, 인앱 채널 구성, 콘텐츠 카드 채널 구성, 의사 결정(오퍼 선택 및 등급), 메시지 작성(개인화된 콘텐츠 만들기), 캠페인 실행, 콘텐츠 실험 및 보고
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 대상 평가(에지, 스트리밍 및 일괄 처리), Edge Network을 통한 실시간 프로필 조회, 계산된 특성 및 성향 점수를 통한 프로필 보강
-- **[!DNL Adobe Experience Platform](AEP)** — 프로필 저장소, ID 서비스, Web SDK, Mobile SDK, 데이터스트림 구성, Edge Network Delivery
+- **[!DNL Adobe Journey Optimizer] (AJO)** — 웹 채널 구성, 인앱 채널 구성, 콘텐츠 카드 채널 구성, 의사 결정(오퍼 선택 및 등급), 메시지 작성(개인화된 콘텐츠 만들기), 캠페인 실행, 콘텐츠 실험 및 보고
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 대상 평가(에지, 스트리밍 및 일괄 처리), Edge Network을 통한 실시간 프로필 조회, 계산된 특성 및 성향 점수를 통한 프로필 보강
+- **[!DNL Adobe Experience Platform] (AEP)** — 프로필 저장소, ID 서비스, Web SDK, Mobile SDK, 데이터스트림 구성, Edge Network Delivery
 
 ## 기본 함수
 

@@ -106,9 +106,9 @@ ht-degree: 1%
 
 이 사용 사례 패턴에는 다음 Adobe 애플리케이션이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — 단일 이벤트 항목, 조건 평가, 대기 단계, 메시지 작성, 채널 구성, 빈도 거버넌스 및 게재 보고와 함께 여정 오케스트레이션
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - 여정, 동의 및 거버넌스 적용, 프로필 강화 내에서의 조건 기반 필터링에 대한 대상 평가
-- **[!DNL Adobe Experience Platform](AEP)** — 웹 SDK, Mobile SDK 또는 서버측 API를 통한 실시간 이벤트 수집, 데이터 모델링, ID 확인, Edge Network
+- **[!DNL Adobe Journey Optimizer] (AJO)** — 단일 이벤트 항목, 조건 평가, 대기 단계, 메시지 작성, 채널 구성, 빈도 거버넌스 및 게재 보고와 함께 여정 오케스트레이션
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - 여정, 동의 및 거버넌스 적용, 프로필 강화 내에서의 조건 기반 필터링에 대한 대상 평가
+- **[!DNL Adobe Experience Platform] (AEP)** — 웹 SDK, Mobile SDK 또는 서버측 API를 통한 실시간 이벤트 수집, 데이터 모델링, ID 확인, Edge Network
 
 ## 기본 함수
 

@@ -90,9 +90,9 @@ ht-degree: 1%
 
 다음 응용 프로그램을 사용하여 이 패턴을 구현합니다.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — 메시지 작성, 채널 구성, 캠페인 실행, 여정 오케스트레이션, 콘텐츠 실험, 빈도 규칙 및 보고
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - 대상 평가, 동의 및 거버넌스 적용
-- **[!DNL Adobe Experience Platform](AEP)** — 프로필 저장소, ID 서비스, 스키마, 데이터 세트, 데이터 수집
+- **[!DNL Adobe Journey Optimizer] (AJO)** — 메시지 작성, 채널 구성, 캠페인 실행, 여정 오케스트레이션, 콘텐츠 실험, 빈도 규칙 및 보고
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - 대상 평가, 동의 및 거버넌스 적용
+- **[!DNL Adobe Experience Platform] (AEP)** — 프로필 저장소, ID 서비스, 스키마, 데이터 세트, 데이터 수집
 
 ## 기본 함수
 

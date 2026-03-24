@@ -87,9 +87,9 @@ ht-degree: 2%
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer](AJO) Decisioning** — 선택 전략, 순위 모델, 항목 카탈로그 및 동작 신호를 평가하고 각 방문자에 대해 가장 관련성이 높은 항목을 반환하는 결정 정책
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 행동 프로필 데이터 누적, 추천 범위에 대한 대상 평가 및 행동 선호도 점수에 대한 계산된 특성
-- **[!DNL Adobe Experience Platform](AEP)** — [!DNL Web SDK] 및 [!DNL Mobile SDK]을(를) 통한 동작 이벤트 수집, [!DNL Edge Network] 처리, 이벤트 및 카탈로그 데이터에 대한 XDM 스키마 관리
+- **[!DNL Adobe Journey Optimizer] (AJO) Decisioning** — 선택 전략, 순위 모델, 항목 카탈로그 및 동작 신호를 평가하고 각 방문자에 대해 가장 관련성이 높은 항목을 반환하는 결정 정책
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 행동 프로필 데이터 누적, 추천 범위에 대한 대상 평가 및 행동 선호도 점수에 대한 계산된 특성
+- **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK] 및 [!DNL Mobile SDK]을(를) 통한 동작 이벤트 수집, [!DNL Edge Network] 처리, 이벤트 및 카탈로그 데이터에 대한 XDM 스키마 관리
 
 ## 기본 함수
 

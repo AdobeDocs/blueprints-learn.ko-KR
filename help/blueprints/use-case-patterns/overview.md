@@ -106,4 +106,4 @@ ht-degree: 0%
 
 - **개별 메시지가 여러 개의 오퍼 변형에서 실시간으로 선택되어야 합니까?**
    - 예→ [의사 결정 포함 크로스 채널 여정](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - → [여러 단계로 구성된 오케스트레이션된 여정 ](campaign-management-orchestration/multi-step-orchestrated-journey.md) 없음
+   - → [여러 단계로 구성된 오케스트레이션된 여정 &#x200B;](campaign-management-orchestration/multi-step-orchestrated-journey.md) 없음
