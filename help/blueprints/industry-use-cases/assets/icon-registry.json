@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-03-23T23:03:23.085Z",
+  "generatedAt": "2026-03-24T03:45:05.270Z",
   "blueprintsPath": "/Users/nhecht/Library/CloudStorage/OneDrive-Adobe/Documents/GitHub/blueprints-learn.en/help/blueprints",
   "note": "Maps use case title → icon file path (relative to assets/use-case-icons/). null means no icon is assigned in the blueprints catalog. Run `npm run sync:generate-icons` to regenerate.",
   "stats": {
     "totalUseCases": 137,
     "withIcon": 68,
     "withoutIcon": 69,
-    "unusedIconFiles": 57
+    "unusedIconFiles": 0
   },
   "industries": {
     "Retail": {
@@ -168,81 +168,5 @@
       "Real-Time Event Forwarding": null
     }
   },
-  "unusedIconFiles": {
-    "Automotive": [
-      "icon-connected-car-feature-activation.png",
-      "icon-dealer-network-coordination.png",
-      "icon-financing-and-insurance-offers.png",
-      "icon-new-model-launch-campaigns.png",
-      "icon-owner-loyalty-programs.png",
-      "icon-parts-and-accessories-recommendations.png",
-      "icon-service-appointment-reminders.png",
-      "icon-test-drive-scheduling.png",
-      "icon-trade-in-value-campaigns.png",
-      "icon-vehicle-purchase-journey-personalization.png",
-      "icon-vehicle-recall-notifications.png",
-      "icon-warranty-and-extended-service-plans.png"
-    ],
-    "B2B": [
-      "icon-case-study-and-roi-personalization.png",
-      "icon-competitive-replacement-campaigns.png",
-      "icon-content-personalization-for-prospects.png",
-      "icon-contract-renewal-campaigns.png",
-      "icon-customer-success-and-onboarding.png",
-      "icon-event-registration-and-follow-up.png",
-      "icon-lead-scoring-and-nurturing.png",
-      "icon-product-trial-conversion-campaigns.png",
-      "icon-upsell-and-expansion-opportunities.png",
-      "icon-webinar-and-demo-scheduling.png"
-    ],
-    "Financial Services": [
-      "icon-churn-prevention-campaigns.png",
-      "icon-high-value-lead-nurturing.png",
-      "icon-life-stage-based-product-offers.png",
-      "icon-personalized-account-dashboard.png",
-      "icon-product-recommendation-for-existing-customers.png"
-    ],
-    "Healthcare": [
-      "icon-appointment-reminder-automation.png",
-      "icon-medication-adherence-campaigns.png",
-      "icon-post-visit-follow-up-campaigns.png",
-      "icon-preventive-care-reminders.png"
-    ],
-    "Insurance": [
-      "icon-claims-process-personalization.png",
-      "icon-cross-sell-product-recommendations.png",
-      "icon-policy-renewal-campaigns.png"
-    ],
-    "Media & Entertainment": [
-      "icon-content-recommendation-engine.png",
-      "icon-new-content-release-notifications.png",
-      "icon-subscription-churn-prevention.png"
-    ],
-    "Retail": [
-      "icon-cross-sell-and-upsell-recommendations.png",
-      "icon-inventory-based-urgency-campaigns.png",
-      "icon-personalized-category-pages.png",
-      "icon-personalized-product-recommendations.png",
-      "icon-price-drop-alerts.png",
-      "icon-replenishment-reminders.png"
-    ],
-    "Telecommunications": [
-      "icon-device-upgrade-recommendations.png",
-      "icon-plan-optimization-campaigns.png"
-    ],
-    "Travel & Hospitality": [
-      "icon-cart-abandonment-recovery-journey.png",
-      "icon-dynamic-itinerary-recommendations.png",
-      "icon-exit-intent-modal-with-targeted-offers.png",
-      "icon-group-booking-recommendations.png",
-      "icon-high-intent-visitor-targeting.png",
-      "icon-loyalty-program-personalization.png",
-      "icon-multi-channel-booking-reminders.png",
-      "icon-personalized-homepage-for-new-visitors.png",
-      "icon-post-booking-upsell-campaigns.png",
-      "icon-recently-browsed-products-on-homepage.png",
-      "icon-seasonal-campaign-personalization.png",
-      "icon-win-back-campaigns-for-lapsed-customers.png"
-    ]
-  }
+  "unusedIconFiles": {}
 }
