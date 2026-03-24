@@ -90,9 +90,9 @@ ht-degree: 0%
 
 | 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 필수 | 샌드박스는 적절한 사용자 역할과 권한을 구성하여 활성화해야 합니다. 이벤트 전달을 관리하는 사용자에게는 이벤트 전달 속성, 확장 및 규칙을 관리할 수 있는 권한을 포함하여 [!DNL Adobe Admin Console]에서 데이터 수집 권한이 필요합니다. | [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | Edge Network을 통해 흐르는 이벤트 데이터에 대해 XDM 스키마를 정의해야 합니다. 이벤트 전달 규칙이 필터링, 변환 및 매핑을 위한 구조화된 필드에 액세스할 수 있도록 데이터 스트림은 유효한 XDM ExperienceEvent 스키마를 참조해야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| 데이터 소스 및 수집 | 필수 | 구성된 데이터 스트림을 통해 이벤트를 전송하는 데이터 수집 메커니즘(웹 SDK, Mobile SDK 또는 Edge Network Server API)이 활성화되어 있어야 합니다. 데이터 스트림은 클라이언트측 컬렉션을 서버측 이벤트 전달에 연결하는 기본 라우팅 계층입니다. | [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| 관리 및 거버넌스 | 필수 | 샌드박스는 적절한 사용자 역할과 권한을 구성하여 활성화해야 합니다. 이벤트 전달을 관리하는 사용자에게는 이벤트 전달 속성, 확장 및 규칙을 관리할 수 있는 권한을 포함하여 [!DNL Adobe Admin Console]에서 데이터 수집 권한이 필요합니다. | [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
+| 데이터 모델링 및 준비 | 필수 | Edge Network을 통해 흐르는 이벤트 데이터에 대해 XDM 스키마를 정의해야 합니다. 이벤트 전달 규칙이 필터링, 변환 및 매핑을 위한 구조화된 필드에 액세스할 수 있도록 데이터 스트림은 유효한 XDM ExperienceEvent 스키마를 참조해야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) |
+| 데이터 소스 및 수집 | 필수 | 구성된 데이터 스트림을 통해 이벤트를 전송하는 데이터 수집 메커니즘(웹 SDK, Mobile SDK 또는 Edge Network Server API)이 활성화되어 있어야 합니다. 데이터 스트림은 클라이언트측 컬렉션을 서버측 이벤트 전달에 연결하는 기본 라우팅 계층입니다. | [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) |
 | ID 및 프로필 구성 | 해당 사항 없음 | 이벤트 전달은 ID 확인 또는 프로필 통합이 발생하기 전에 Edge Network 레이어의 원시 이벤트 데이터에 대해 작동합니다. 전달된 이벤트가 실시간 고객 프로필(이벤트 전달의 문제가 아닌 별도의 데이터스트림 서비스 구성)에도 기여해야 하는 경우가 아니면 ID 네임스페이스 및 병합 정책이 필요하지 않습니다. | |
 | 대상 정의 및 세분화 | 해당 사항 없음 | 이벤트 전달은 개별 이벤트를 실시간으로 처리하며 대상 멤버십을 평가하지 않습니다. 대상 기반 필터링은 이벤트 전달 기능 체인의 일부가 아닙니다. 대상자 기반 활성화가 필요한 경우 대상 Audience Activation 참조 계획을 참조하십시오. | |
 
@@ -103,10 +103,10 @@ ht-degree: 0%
 | 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 계산/파생 속성 생성 | 해당 사항 없음 | 이벤트 전달은 프로필 수준의 계산된 속성이 아니라 원시 이벤트 데이터에서 작동합니다. 이벤트 전달 컨텍스트에서는 계산된 속성을 사용할 수 없습니다. | |
-| 데이터 수명 주기 관리 | 추천 | 이벤트 데이터를 동일한 데이터 스트림을 통해 AEP 데이터 세트에도 수집하는 경우 스토리지 비용 및 규정 준수를 관리하기 위해 해당 데이터 세트에 대해 데이터 보존 정책(만료)을 구성해야 합니다. 이벤트 전달 자체는 데이터를 저장하지 않지만 병렬 AEP 수집 경로는 저장합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | 이벤트 전달 규칙은 필드 수준 필터링을 제공하지만(전달된 페이로드에서 민감한 데이터를 제외할 수 있음), 데이터 사용 레이블을 기본 스키마 및 데이터 세트에 적용하면 동일한 데이터가 대상자 활성화 또는 개인화에 사용되는 경우 거버넌스 정책이 적용되도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 모니터링 및 가시성 | 포함됨 | 이벤트 전달에는 모니터링이 필수적입니다. 이벤트 전달 모니터링 대시보드는 전달 성공률, 오류율 및 대상 응답 코드에 대한 가시성을 제공합니다. 대상 실패에 대한 경고를 구성해야 합니다. | [이벤트 전달 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
-| 보고 및 분석 | 추천 | 전달된 이벤트가 서드파티 분석 플랫폼을 제공하는 경우 통합 크로스 채널 보기를 위해 동일한 AEP 이벤트 데이터 세트를 CJA에 연결하는 것이 좋습니다. 이를 통해 Adobe 측과 서드파티 측 분석을 비교할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 데이터 수명 주기 관리 | 추천 | 이벤트 데이터를 동일한 데이터 스트림을 통해 AEP 데이터 세트에도 수집하는 경우 스토리지 비용 및 규정 준수를 관리하기 위해 해당 데이터 세트에 대해 데이터 보존 정책(만료)을 구성해야 합니다. 이벤트 전달 자체는 데이터를 저장하지 않지만 병렬 AEP 수집 경로는 저장합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | 이벤트 전달 규칙은 필드 수준 필터링을 제공하지만(전달된 페이로드에서 민감한 데이터를 제외할 수 있음), 데이터 사용 레이블을 기본 스키마 및 데이터 세트에 적용하면 동일한 데이터가 대상자 활성화 또는 개인화에 사용되는 경우 거버넌스 정책이 적용되도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
+| 모니터링 및 가시성 | 포함됨 | 이벤트 전달에는 모니터링이 필수적입니다. 이벤트 전달 모니터링 대시보드는 전달 성공률, 오류율 및 대상 응답 코드에 대한 가시성을 제공합니다. 대상 실패에 대한 경고를 구성해야 합니다. | [이벤트 전달 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/monitoring) |
+| 보고 및 분석 | 추천 | 전달된 이벤트가 서드파티 분석 플랫폼을 제공하는 경우 통합 크로스 채널 보기를 위해 동일한 AEP 이벤트 데이터 세트를 CJA에 연결하는 것이 좋습니다. 이를 통해 Adobe 측과 서드파티 측 분석을 비교할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 **주요 고려 사항:**
 
-- 확장 가용성은 다양합니다. 계획하기 전에 [데이터 수집 확장 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)를 확인하십시오.
+- 확장 가용성은 다양합니다. 계획하기 전에 [데이터 수집 확장 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/overview)를 확인하십시오.
 - 확장은 Adobe 또는 파트너에 의해 유지 관리됩니다. 업데이트는 규칙을 조정해야 하는 새로운 변경 사항을 도입할 수 있습니다
 - 일부 확장은 특정 이벤트 유형만 지원하거나 특정 XDM 필드 매핑이 필요합니다
 - 확장은 구성 UI 내에서 인증 및 자격 증명 관리를 처리합니다
@@ -175,11 +175,11 @@ ht-degree: 0%
 
 **Experience League:**
 
-- [이벤트 전달 확장 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Meta 전환 API 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [AWS 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [이벤트 전달 확장 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/overview)
+- [Meta 전환 API 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [AWS 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Snowflake 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/snowflake/overview)
 
 ### 옵션 B: 사용자 지정 웹후크(API 가져오기) 이벤트 전달
 
@@ -218,8 +218,8 @@ ht-degree: 0%
 
 **Experience League:**
 
-- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [이벤트 전달 비밀](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [이벤트 전달 비밀](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/secrets)
 
 ### 옵션 C: 하이브리드(확장 + 맞춤형 웹후크)
 
@@ -253,8 +253,8 @@ ht-degree: 0%
 
 **Experience League:**
 
-- [이벤트 전달 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [이벤트 전달 시작](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [이벤트 전달 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/overview)
+- [이벤트 전달 시작](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### 옵션 비교
 
@@ -325,9 +325,9 @@ ht-degree: 0%
 
 **Experience League 설명서:**
 
-- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [데이터스트림 개요](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [이벤트 전달 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+- [데이터스트림 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview)
+- [이벤트 전달 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/overview)
 
 ### 2단계: 이벤트 전달 속성 및 확장
 
@@ -372,10 +372,10 @@ ht-degree: 0%
 
 **Experience League 설명서:**
 
-- [이벤트 전달 시작](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [이벤트 전달 확장 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [이벤트 전달 비밀](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
-- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [이벤트 전달 시작](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/getting-started)
+- [이벤트 전달 확장 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/overview)
+- [이벤트 전달 비밀](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/secrets)
+- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### 3단계: 이벤트 규칙 정의
 
@@ -448,10 +448,10 @@ Cloud Connector 확장의 &quot;Make Fetch Call&quot; 작업을 사용하여 규
 
 **Experience League 설명서:**
 
-- [이벤트 전달 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [이벤트 전달의 데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
-- [데이터 수집 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
-- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [이벤트 전달 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/overview)
+- [이벤트 전달의 데이터 요소](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/data-elements)
+- [데이터 수집 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/rules)
+- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### 4단계: 게시 및 활성화
 
@@ -484,10 +484,10 @@ Cloud Connector 확장의 &quot;Make Fetch Call&quot; 작업을 사용하여 규
 
 **Experience League 설명서:**
 
-- [게시 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
-- [라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)
+- [게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
+- [라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/libraries)
 - [환경](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments)
-- [빌드](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds)
+- [빌드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/builds)
 
 ### 5단계: 모니터링 및 유효성 검사
 
@@ -521,9 +521,9 @@ Cloud Connector 확장의 &quot;Make Fetch Call&quot; 작업을 사용하여 규
 
 **Experience League 설명서:**
 
-- [이벤트 전달 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)
-- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [이벤트 전달 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)
+- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
 
 ## 구현 시 고려 사항
 
@@ -605,26 +605,26 @@ Cloud Connector 확장의 &quot;Make Fetch Call&quot; 작업을 사용하여 규
 
 **이벤트 전달**
 
-- [이벤트 전달 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [이벤트 전달 시작](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [이벤트 전달 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [이벤트 전달 비밀](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [이벤트 전달 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/overview)
+- [이벤트 전달 시작](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/getting-started)
+- [이벤트 전달 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/monitoring)
+- [이벤트 전달 비밀](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/secrets)
 
 **이벤트 전달 확장**
 
-- [서버측 확장 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Meta 전환 API 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [AWS 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Google Ads Enhanced Conversions 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Mailchimp 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [서버측 확장 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/overview)
+- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Meta 전환 API 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [AWS 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Snowflake 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Google Ads Enhanced Conversions 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Mailchimp 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **데이터 수집 및 Edge Network**
 
-- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [데이터스트림 개요](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+- [데이터스트림 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)
+- [태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)

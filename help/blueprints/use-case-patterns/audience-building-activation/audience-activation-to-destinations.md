@@ -96,11 +96,11 @@ ht-degree: 1%
 
 | 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 가정 위치 | RT-CDP 샌드박스가 프로비저닝되고 활성 상태입니다. 구현 역할에 할당된 대상 관리 및 활성화 권한. 대상 플랫폼에 사용할 수 있는 대상 계정 자격 증명입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | 프로필 스키마에는 대상 필드에 매핑될 속성(예: 이메일, 전화 번호, 해시된 식별자, 인구 통계 속성)이 포함되어야 합니다. 활발하게 데이터를 받는 데이터 세트에서 스키마를 프로필로 활성화할 수 있어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| 데이터 소스 및 수집 | 가정 위치 | 대상 평가를 강화하는 프로필 데이터는 수집해야 하며 최신 상태여야 합니다. 일괄 처리 및/또는 스트리밍 수집 파이프라인이 작동 중입니다. 프로필 지원 데이터 세트로 데이터를 제공하는 웹 SDK, 소스 커넥터 또는 일괄 수집. | [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| ID 및 프로필 구성 | 필수 | 대상 일치를 위한 ID 네임스페이스는 구성해야 합니다(예: Facebook 사용자 지정 대상을 위한 해시된 이메일, Google Ads 고객 일치). 병합 정책은 활성화에 필요한 모든 특성이 있는 통합 프로필을 생성해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| 대상 정의 및 세분화 | 필수 | 세그먼트 빌더, 대상 구성 또는 연결된 대상 구성을 사용하여 정의된 Target 대상입니다. 활성화 지연 요구 사항에 따라 선택한 평가 방법(일괄 처리, 스트리밍 또는 에지)입니다. 이 함수는 이 플랜의 단계 1에서 실행됩니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| 관리 및 거버넌스 | 가정 위치 | RT-CDP 샌드박스가 프로비저닝되고 활성 상태입니다. 구현 역할에 할당된 대상 관리 및 활성화 권한. 대상 플랫폼에 사용할 수 있는 대상 계정 자격 증명입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
+| 데이터 모델링 및 준비 | 필수 | 프로필 스키마에는 대상 필드에 매핑될 속성(예: 이메일, 전화 번호, 해시된 식별자, 인구 통계 속성)이 포함되어야 합니다. 활발하게 데이터를 받는 데이터 세트에서 스키마를 프로필로 활성화할 수 있어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) |
+| 데이터 소스 및 수집 | 가정 위치 | 대상 평가를 강화하는 프로필 데이터는 수집해야 하며 최신 상태여야 합니다. 일괄 처리 및/또는 스트리밍 수집 파이프라인이 작동 중입니다. 프로필 지원 데이터 세트로 데이터를 제공하는 웹 SDK, 소스 커넥터 또는 일괄 수집. | [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home), [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home) |
+| ID 및 프로필 구성 | 필수 | 대상 일치를 위한 ID 네임스페이스는 구성해야 합니다(예: Facebook 사용자 지정 대상을 위한 해시된 이메일, Google Ads 고객 일치). 병합 정책은 활성화에 필요한 모든 특성이 있는 통합 프로필을 생성해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview) |
+| 대상 정의 및 세분화 | 필수 | 세그먼트 빌더, 대상 구성 또는 연결된 대상 구성을 사용하여 정의된 Target 대상입니다. 활성화 지연 요구 사항에 따라 선택한 평가 방법(일괄 처리, 스트리밍 또는 에지)입니다. 이 함수는 이 플랜의 단계 1에서 실행됩니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## 기능 지원
 
@@ -108,11 +108,11 @@ ht-degree: 1%
 
 | 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 추천 | 라이프타임 값, 참여 점수 또는 성향 점수와 같은 계산된 속성은 대상 정밀도를 향상시키고 대상에 매핑할 데이터 보강 속성을 제공합니다. 대상이 값 기반 또는 점수 기반 대상 세분화의 이점을 얻을 때 특히 유용합니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | 데이터 세트 및 프로필 만료 정책은 데이터의 최신 상태 및 규정 준수를 보장합니다. 동의 스키마 구성은 동의한 프로필만 활성화되도록 합니다. 외부 시스템으로 데이터를 내보낼 때 규정 준수에 매우 중요합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | 거버넌스 레이블 및 정책은 제한된 데이터를 승인되지 않은 대상(예: 광고 플랫폼에 대한 PII, 데이터 파트너에 대한 중요한 세그먼트)으로 활성화하지 않습니다. 외부 서드파티 시스템에 대한 대상 활성화에 특히 중요합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
-| 모니터링 및 가시성 | 포함됨 | 활성화 모니터링은 기능 체인(5단계)의 일부입니다. 데이터 흐름 실행 모니터링, 게재 상태 경고, 대상자 모집단 추적 및 라이선스 사용량 가시성을 다룹니다. | [대상 데이터 흐름 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations), [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| 보고 및 분석 | 추천 | CJA의 대상 활성화 효과 분석을 통해 활성화된 대상(예: 억제의 전환 상승도, 유사 대상의 ROAS)에 대한 성능을 측정할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 계산/파생 속성 생성 | 추천 | 라이프타임 값, 참여 점수 또는 성향 점수와 같은 계산된 속성은 대상 정밀도를 향상시키고 대상에 매핑할 데이터 보강 속성을 제공합니다. 대상이 값 기반 또는 점수 기반 대상 세분화의 이점을 얻을 때 특히 유용합니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
+| 데이터 수명 주기 관리 | 추천 | 데이터 세트 및 프로필 만료 정책은 데이터의 최신 상태 및 규정 준수를 보장합니다. 동의 스키마 구성은 동의한 프로필만 활성화되도록 합니다. 외부 시스템으로 데이터를 내보낼 때 규정 준수에 매우 중요합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | 거버넌스 레이블 및 정책은 제한된 데이터를 승인되지 않은 대상(예: 광고 플랫폼에 대한 PII, 데이터 파트너에 대한 중요한 세그먼트)으로 활성화하지 않습니다. 외부 서드파티 시스템에 대한 대상 활성화에 특히 중요합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
+| 모니터링 및 가시성 | 포함됨 | 활성화 모니터링은 기능 체인(5단계)의 일부입니다. 데이터 흐름 실행 모니터링, 게재 상태 경고, 대상자 모집단 추적 및 라이선스 사용량 가시성을 다룹니다. | [대상 데이터 흐름 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/dataflows/ui/monitor-destinations), [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview) |
+| 보고 및 분석 | 추천 | CJA의 대상 활성화 효과 분석을 통해 활성화된 대상(예: 억제의 전환 상승도, 유사 대상의 ROAS)에 대한 성능을 측정할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
@@ -179,8 +179,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [스트리밍 대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [스트리밍 대상 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview)
 
 ### 옵션 B: 배치 대상 활성화(파일 내보내기)
 
@@ -218,7 +218,7 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [파일 기반 대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage)
 
 ### 옵션 C: 다중 대상 활성화
@@ -256,8 +256,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
+- [대상 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview)
 
 ### 옵션 비교
 
@@ -352,13 +352,13 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language 참조](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [대상 구성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [평가 방법](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/pql/overview)
+- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [에지 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [대상 구성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-composition)
+- [평가 방법](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home#evaluation-methods)
 
 
 ### 2단계: 대상 구성
@@ -430,12 +430,12 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Destination SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
-- [Destination SDK 구성 옵션](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [대상 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview)
+- [대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
+- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Destination SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/destination-sdk/overview)
+- [Destination SDK 구성 옵션](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### 3단계: 대상자 활성화
@@ -493,10 +493,10 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [배치 대상에 대한 온디맨드 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [대상에 대한 데이터 흐름 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [배치 대상에 대한 온디맨드 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [대상에 대한 데이터 흐름 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 
 ### 4단계: 거버넌스 유효성 검사
@@ -540,11 +540,11 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [정책 시행](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
+- [정책 시행](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/overview)
 - [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview)
 - [동의 및 환경 설정](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [동의 정책 시행](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
+- [동의 정책 시행](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/policies/user-guide)
 
 
 ### 5단계: 모니터링 및 유효성 검사
@@ -565,9 +565,9 @@ ht-degree: 1%
 
 **Experience League 설명서:**
 
-- [대상에 대한 데이터 흐름 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [대상에 대한 데이터 흐름 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home)
 - [라이선스 사용 대시보드](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## 구현 시 고려 사항
@@ -576,15 +576,15 @@ ht-degree: 1%
 
 ### 보호 기능 및 제한 사항
 
-- **세그먼트 정의 제한:** 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- 대상당 **데이터 흐름:** 대상 연결당 최대 데이터 흐름 수: [대상 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **세그먼트 정의 제한:** 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- 대상당 **데이터 흐름:** 대상 연결당 최대 데이터 흐름 수: [대상 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails)
 - **일괄 내보내기 파일 크기:** 파일 기반 대상에 최대 내보내기 파일 크기 제한이 있습니다. 큰 대상은 자동으로 여러 파일로 분할됩니다
 - **스트리밍 대상 처리량:** 초당 처리량 제한은 각 대상 파트너에 의해 설정되며, 대량 대상 변경은 조절될 수 있습니다
 - **일괄 처리 평가 용량:** 기본적으로 세그먼트 평가 작업당 최대 2,400만 개의 프로필
 - **대상 구성:** 캔버스당 최대 10개의 구성 블록입니다. 구성된 대상은 일괄 평가만 됩니다.
-- **ID 그래프:** 그래프당 최대 50개의 ID — [ID 서비스 보호](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- **연산 속성:** 샌드박스당 최대 25개의 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
-- **활성화 보호 개요:** [활성화 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **ID 그래프:** 그래프당 최대 50개의 ID — [ID 서비스 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)
+- **연산 속성:** 샌드박스당 최대 25개의 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **활성화 보호 개요:** [활성화 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails)
 
 ### 일반적인 함정
 
@@ -654,72 +654,72 @@ ht-degree: 1%
 
 **대상**
 
-- [대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [배치 대상에 대한 온디맨드 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [대상 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Destination SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
+- [대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
+- [대상 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview)
+- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [프로필 내보내기 대상을 일괄 처리하도록 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [배치 대상에 대한 온디맨드 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [대상 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails)
+- [Destination SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/destination-sdk/overview)
 
 **대상 및 세분화**
 
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language 참조](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [대상 구성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/pql/overview)
+- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [에지 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [대상 구성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-composition)
+- [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
 
 **ID 및 프로필**
 
-- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-linking-logic)
+- [프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
+- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
 
 **데이터 모델링 및 스키마**
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
 
 **데이터 거버넌스**
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
 - [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview)
-- [데이터 거버넌스 정책](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
-- [정책 시행](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [데이터 거버넌스 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/policies/overview)
+- [정책 시행](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/overview)
 - [동의 및 환경 설정](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **모니터링 및 관찰 가능성**
 
-- [대상에 대한 데이터 흐름 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [대상에 대한 데이터 흐름 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home)
 - [라이선스 사용 대시보드](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **계산된 특성**
 
-- [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [계산된 속성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
+- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/ui)
 
 **데이터 수집 및 원본**
 
-- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
 
 **관리**
 
 - [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)
-- [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+- [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
 - [속성 기반 액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
 
 **보호 기능**
 
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [ID 서비스 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- [활성화 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- [ID 서비스 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)
+- [활성화 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails)
+- [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
