@@ -2,13 +2,13 @@
 title: 자동차 사용 사례
 description: 자동차 조직에서 Adobe Experience Platform을 사용하여 차량 구매 여정을 개인화하고, 서비스 유지율을 개선하고, 소유자 충성도를 구축하는 방법을 살펴보십시오.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 0%
+source-wordcount: '1941'
+ht-degree: 4%
 
 ---
-
 
 # 자동차 사용 사례
 
@@ -18,18 +18,18 @@ ht-degree: 0%
 
 | 사용 사례 | 설명 | 비즈니스에 대한 영향 | 구현 패턴 |
 | --- | --- | --- | --- |
-| [차량 구매 여정 Personalization](#vehicle-purchase-journey-personalization) | 관련 차량 권장 사항, 금융 옵션 및 판매자 정보를 사용하여 조사부터 구매까지 차량 구매 여정을 개인화합니다. 잠재 구매자가 각 단계에서 맞춤 안내를 받으면 판매 funnel을 보다 빠르고 더 큰 신뢰로 이동합니다. | 리드-구매 전환율 20-30% 향상, 판매 파이프라인 개선 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| [서비스 약속 미리 알림](#service-appointment-reminders) | 차량 마일리지, 서비스 내역 및 고객 선호도에 따라 개인화된 서비스 알림 메시지를 보냅니다. 사전 예방적 지원은 차량을 유지 관리하고 고객이 서드파티 공급자를 찾는 대신 대리점으로 돌아갈 수 있도록 합니다. | 40~50% 의 서비스 약속 이행률 증가, 서비스 수익 증가 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| [거래 값 캠페인](#trade-in-value-campaigns) | 업그레이드할 준비가 된 고객에게 거래 가치 평가를 사전에 제공합니다. 소유자에게 소유권 주기의 적절한 시점에 도달함으로써 새로운 차량 구매로 가는 경로를 가속화합니다. | 트레이드 인 참여 25-35% 증가, 신차 판매 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| [부품 및 액세서리 권장 사항](#parts-and-accessories-recommendations) | 차량 모델, 소유권 기간 및 고객 선호도에 따라 관련 부품, 액세서리 및 업그레이드를 추천합니다. 개인화된 애프터마켓 권장 사항은 소유자가 자신의 차량에서 더 많은 것을 얻을 수 있도록 돕는 동시에 점진적인 매출을 창출합니다. | 부품/액세서리 구매 증가 30-40%, 애프터 마켓 매출 증가 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| [차량 회수 알림](#vehicle-recall-notifications) | 서비스 예약 옵션 및 안전 정보와 함께 개인화된 리콜 알림을 보냅니다. 시의적절하고 명확한 리콜 커뮤니케이션은 고객 안전을 보호하고 책임 있는 소유권 지원에 대한 브랜드의 노력을 입증합니다. | 리콜 응답률 60-70% 향상, 안전 규정 준수 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| [새 모델 실행 캠페인](#new-model-launch-campaigns) | 현재 차량, 환경 설정 및 구매 내역을 기반으로 새로운 모델 출시에 관심이 있을 수 있는 고객을 타깃팅합니다. 집중 대상 타깃팅은 론치 효과를 극대화하고 초기 주문 모멘텀을 구축합니다. | launch campaign 참여 35-45% 증가, 새로운 모델 관심 증가 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| [금융 및 보험 혜택](#financing-and-insurance-offers) | 신용 프로필, 차량 선택 및 구매 타임라인을 기반으로 개인화된 금융 및 보험 혜택을 제공합니다. 맞춤형 금융상품은 구매 장벽을 없애고 고객이 자신의 용어에 자신감을 느낄 수 있도록 돕는다. | 25-35% 의 금융 수용률 증가, 판매당 수익 증가 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| [드라이브 예약 테스트](#test-drive-scheduling) | 딜러 추천 및 차량 가용성을 통해 개인화된 테스트 드라이브 예약을 활성화합니다. 관심 있는 구매자가 쉽게 운전할 수 있도록 만들면 구매 경로를 가속화합니다. | 테스트 드라이브 완료율 50~60% 향상, 판매 전환 개선 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| [소유자 충성도 프로그램](#owner-loyalty-programs) | 소유권 내역 및 충성도 계층을 기반으로 충성도 프로그램 커뮤니케이션, 보상 및 독점 오퍼를 개인화할 수 있습니다. 장기 소유자를 인지하는 것은 브랜드에 대한 정서적 연결을 강화시킨다. | 충성도 프로그램 참여 40~50% 증가, 반복 구매 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| [무상수리 및 연장 서비스 플랜](#warranty-and-extended-service-plans) | 차량 수명, 마일리지 및 구매 패턴에 따라 최적의 시간에 보증 및 연장 서비스 계획을 권장합니다. 적절한 시간 내 지원은 공장 보증이 만료되기 전에 매출을 캡처합니다. | 무상수리 기간 연장 채택, 서비스 매출 20-30% 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| [연결된 자동차 기능 활성화](#connected-car-feature-activation) | 차량 기능 및 기술 선호도를 기반으로 커넥티드 카 기능 권장 사항을 개인화합니다. 소유자가 사용하지 않는 기능을 발견하도록 지원하면 만족도가 높아지고 디지털 관계가 강화됩니다. | 기능 활성화율 35-45% 향상, 고객 경험 개선 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| [대리점 네트워크 조정](#dealer-network-coordination) | 고객 위치, 환경 설정 및 딜러 인벤토리를 기반으로 개인화된 딜러 권장 사항을 활성화합니다. 고객을 적합한 대리점과 연결하면 구매 및 서비스 경험이 향상됩니다. | 딜러 참여율 30-40% 향상, 영업 조정 개선 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
+| [차량 구매 여정 Personalization](#vehicle-purchase-journey-personalization) | 관련 차량 권장 사항, 금융 옵션 및 판매자 정보를 사용하여 조사부터 구매까지 차량 구매 여정을 개인화합니다. 잠재 구매자가 각 단계에서 맞춤 안내를 받으면 판매 funnel을 보다 빠르고 더 큰 신뢰로 이동합니다. | Lead-to-Purchase 전환율 향상 및 판매 파이프라인 강화 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
+| [서비스 약속 미리 알림](#service-appointment-reminders) | 차량 마일리지, 서비스 내역 및 고객 선호도에 따라 개인화된 서비스 알림 메시지를 보냅니다. 사전 예방적 지원은 차량을 유지 관리하고 고객이 서드파티 공급자를 찾는 대신 대리점으로 돌아갈 수 있도록 합니다. | 향상된 서비스 약속 표시율 및 서비스 매출 향상 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
+| [거래 값 캠페인](#trade-in-value-campaigns) | 업그레이드할 준비가 된 고객에게 거래 가치 평가를 사전에 제공합니다. 소유자에게 소유권 주기의 적절한 시점에 도달함으로써 새로운 차량 구매로 가는 경로를 가속화합니다. | 트레이드 인 참여 개선 및 신차 판매 증가 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
+| [부품 및 액세서리 권장 사항](#parts-and-accessories-recommendations) | 차량 모델, 소유권 기간 및 고객 선호도에 따라 관련 부품, 액세서리 및 업그레이드를 추천합니다. 개인화된 애프터마켓 권장 사항은 소유자가 자신의 차량에서 더 많은 것을 얻을 수 있도록 돕는 동시에 점진적인 매출을 창출합니다. | 부품 및 액세서리 구매율 향상 및 애프터 마켓 매출 증대 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
+| [차량 회수 알림](#vehicle-recall-notifications) | 서비스 예약 옵션 및 안전 정보와 함께 개인화된 리콜 알림을 보냅니다. 시의적절하고 명확한 리콜 커뮤니케이션은 고객 안전을 보호하고 책임 있는 소유권 지원에 대한 브랜드의 노력을 입증합니다. | 향상된 리콜 응답률 및 강화된 안전 규정 준수 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
+| [새 모델 실행 캠페인](#new-model-launch-campaigns) | 현재 차량, 환경 설정 및 구매 내역을 기반으로 새로운 모델 출시에 관심이 있을 수 있는 고객을 타깃팅합니다. 집중 대상 타깃팅은 론치 효과를 극대화하고 초기 주문 모멘텀을 구축합니다. | 출시 캠페인 참여 개선 및 새로운 모델 관심 증가 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
+| [금융 및 보험 혜택](#financing-and-insurance-offers) | 신용 프로필, 차량 선택 및 구매 타임라인을 기반으로 개인화된 금융 및 보험 혜택을 제공합니다. 맞춤형 금융상품은 구매 장벽을 없애고 고객이 자신의 용어에 자신감을 느낄 수 있도록 돕는다. | 자금 조달 수용률 향상 및 판매당 매출 증대 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
+| [드라이브 예약 테스트](#test-drive-scheduling) | 딜러 추천 및 차량 가용성을 통해 개인화된 테스트 드라이브 예약을 활성화합니다. 관심 있는 구매자가 쉽게 운전할 수 있도록 만들면 구매 경로를 가속화합니다. | 테스트 드라이브 완료율 향상 및 판매 전환 강화 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
+| [소유자 충성도 프로그램](#owner-loyalty-programs) | 딜러, OEM 디지털 및 커넥티드 카 채널 간의 충성도 커뮤니케이션을 조정하고, 계층 기반 자격 규칙을 적용하여 어떤 소유주가 독점 오퍼, 조기 차량 액세스 및 파트너 보상을 받는지 관리합니다. 오퍼 중재는 딜러와 OEM 채널이 동일한 소유자에게 동시에 도달하여 충돌하는 프로모션을 방지합니다. | 충성도 프로그램 참여 개선 및 반복 구매 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
+| [무상수리 및 연장 서비스 플랜](#warranty-and-extended-service-plans) | 차량 수명, 마일리지 및 구매 패턴에 따라 최적의 시간에 보증 및 연장 서비스 계획을 권장합니다. 적절한 시간 내 지원은 공장 보증이 만료되기 전에 매출을 캡처합니다. | 무상수리 기간 연장 도입률 향상 및 서비스 수익 증대 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
+| [연결된 자동차 기능 활성화](#connected-car-feature-activation) | 차량 기능 및 기술 선호도를 기반으로 커넥티드 카 기능 권장 사항을 개인화합니다. 소유자가 사용하지 않는 기능을 발견하도록 지원하면 만족도가 높아지고 디지털 관계가 강화됩니다. | 향상된 기능 활성화 속도 및 향상된 고객 경험 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
+| [대리점 네트워크 조정](#dealer-network-coordination) | 고객 위치, 환경 설정 및 딜러 인벤토리를 기반으로 개인화된 딜러 권장 사항을 활성화합니다. 고객을 적합한 대리점과 연결하면 구매 및 서비스 경험이 향상됩니다. | 딜러 참여 비율 개선 및 판매 조정 강화 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
 
 ## 사용 사례별 기술 고려 사항
 
@@ -92,6 +92,9 @@ ht-degree: 0%
 ### 소유자 충성도 프로그램
 
 - 충성도 계층 계산에는 차량 구매 내역뿐만 아니라 서비스 방문, 부품 구매, 참조 및 이벤트 참석 등 다양한 참여 차원이 통합되어야 합니다.
+- 전용 오퍼, 새 차량에 대한 조기 액세스, 파트너 보상 상환 등에 대한 자격을 부여할 소유자를 관리하도록 [!DNL Journey Optimizer] 의사 결정에서 계층 기반 자격 규칙을 구성해야 적합한 구성원만 각 혜택을 받을 수 있습니다.
+- 오퍼 중재 논리는 메시지가 전송되기 전에 딜러와 OEM 채널 모두의 보류 중인 커뮤니케이션을 평가하여 우선순위가 낮거나 충돌하는 프로모션을 억제함으로써 동일한 소유자가 동시에 모순되는 오퍼를 받지 않도록 해야 합니다.
+- 크로스 채널 조정은 판매자 CRM 시스템, OEM 디지털 속성, 연결된 자동차 알림 채널 및 서비스 접점에 걸쳐 이루어져야 하므로 소유자가 참여하는 위치에 관계없이 충성도 상호 작용이 일관되게 이루어집니다.
 - 대리점과 서비스 센터의 보상 이행 시스템을 통합하여 서비스 시점에서 충성도 혜택을 원활하게 상환할 수 있도록 해야 합니다.
 - 커뮤니케이션은 소유권 라이프사이클 단계에 따라 조정되어야 하며, 향후 업그레이드에 임하는 장기 소유자와 비교하여 첫 해 동안 새로운 소유자에게 다양한 가치 제안을 제공해야 합니다.
 - [!DNL Journey Optimizer] 여정 논리는 계층 변경을 실시간으로 감지하고 고객이 충성도 수준 사이를 이동할 때 축하 또는 재참여 메시지를 트리거해야 합니다.

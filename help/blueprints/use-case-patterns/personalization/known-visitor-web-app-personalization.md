@@ -2,13 +2,13 @@
 title: 알려진 방문자 웹/앱 Personalization
 description: 실시간 프로필 및 세그먼트 멤버십을 기반으로 식별된 방문자에게 개인화된 콘텐츠, 오퍼 또는 프로모션을 제공하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '7957'
+source-wordcount: '7968'
 ht-degree: 2%
 
 ---
-
 
 # 알려진 방문자 웹/앱 개인화
 
@@ -28,37 +28,25 @@ ht-degree: 2%
 
 ## 주요 비즈니스 목표
 
-다음 비즈니스 목표는 이 사용 사례 패턴을 통해 해결됩니다.
+이 사용 사례 패턴에서는 다음 비즈니스 목표가 지원됩니다.
 
 ### 개인화된 고객 경험 전달
 
 콘텐츠, 오퍼 및 메시지를 개별 환경 설정, 동작 및 라이프사이클 단계에 맞게 맞춤화할 수 있습니다. 자세한 내용은 [개인화된 고객 경험 전달](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)을 참조하십시오.
 
-| KPI | 설명 |
-| --- | --- |
-| 참여 | 디지털 표면 전반에 걸쳐 개인화된 콘텐츠와 상호 작용 빈도 및 깊이 |
-| 전환율 | 개인화된 콘텐츠를 받은 후 원하는 작업을 완료하는 방문자의 비율 |
-| 고객 만족도(CSAT) | 개인화된 적절한 디지털 경험을 통해 전반적인 만족도 향상 |
+**KPI:** 참여, 전환율, 고객 만족도(CSAT)
 
 ### 웹 사이트 참여 늘리기
 
 관련 경험을 통해 사이트에서 보낸 시간, 세션당 페이지 수 및 웹 콘텐츠와의 상호 작용을 개선합니다. 자세한 내용은 [웹 사이트 참여 늘리기](../../business-objectives/acquisition-growth/increase-website-engagement.md)를 참조하십시오.
 
-| KPI | 설명 |
-| --- | --- |
-| Time On (웹) 페이지 | 개인화된 콘텐츠 영역에 대한 체류 시간 증가 |
-| 참여 | 개인화된 요소와의 상호 작용 비율(클릭, 스크롤, 상호 작용) |
-| 전환율 | 맞춤형 콘텐츠와 기본 콘텐츠의 전환 개선 |
+**KPI:** 웹 페이지 체류 시간, 참여, 전환율
 
 ### 모바일 앱 참여 늘리기
 
 개인화된 인앱 경험을 통해 일일 활성 사용량, 기능 채택 및 인앱 전환을 유도합니다.
 
-| KPI | 설명 |
-| --- | --- |
-| 참여 | 개인화된 메시지 및 콘텐츠 카드를 통한 인앱 상호 작용 비율 |
-| 유지 | 개인화된 경험을 통해 앱 보존 기능 향상 |
-| 전환율 | 개인화된 오퍼 및 권장 사항에서 인앱 전환 개선 |
+**KPI:** 참여, 유지, 전환율
 
 ## 예시 전술 사용 사례
 
@@ -102,9 +90,9 @@ ht-degree: 2%
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer] (AJO)** — 웹 채널 구성, 인앱 채널 구성, 콘텐츠 카드 채널 구성, 의사 결정(오퍼 선택 및 등급), 메시지 작성(개인화된 콘텐츠 만들기), 캠페인 실행, 콘텐츠 실험 및 보고
-- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 대상 평가(에지, 스트리밍 및 일괄 처리), Edge Network을 통한 실시간 프로필 조회, 계산된 특성 및 성향 점수를 통한 프로필 보강
-- **[!DNL Adobe Experience Platform] (AEP)** — 프로필 저장소, ID 서비스, Web SDK, Mobile SDK, 데이터스트림 구성, Edge Network Delivery
+- **[!DNL Adobe Journey Optimizer](AJO)** — 웹 채널 구성, 인앱 채널 구성, 콘텐츠 카드 채널 구성, 의사 결정(오퍼 선택 및 등급), 메시지 작성(개인화된 콘텐츠 만들기), 캠페인 실행, 콘텐츠 실험 및 보고
+- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 대상 평가(에지, 스트리밍 및 일괄 처리), Edge Network을 통한 실시간 프로필 조회, 계산된 특성 및 성향 점수를 통한 프로필 보강
+- **[!DNL Adobe Experience Platform](AEP)** — 프로필 저장소, ID 서비스, Web SDK, Mobile SDK, 데이터스트림 구성, Edge Network Delivery
 
 ## 기본 함수
 
@@ -113,9 +101,9 @@ ht-degree: 2%
 | 기본 함수 | 상태 | 제자리에 있어야 하는 사항 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 관리 및 거버넌스 | 가정 위치 | 웹 채널, 인앱 채널 및 의사 결정 권한이 구성된 AJO 샌드박스 . 마케터 및 콘텐츠 작성자 역할로 프로비저닝된 사용자. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | 프로필 스키마에는 개인화 및 세분화에 사용되는 속성(예: 충성도 계층, 구매 내역, 제품 관심 분야, 라이프사이클 단계)이 포함되어야 합니다. 웹/앱 상호 작용 추적 및 전환 이벤트에 대한 경험 이벤트 스키마. [!DNL Real-Time Customer Profile]에 대해 데이터 세트를 사용할 수 있습니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) |
-| 데이터 소스 및 수집 | 필수 | 웹 SDK은 경험 전달 및 노출 추적을 위해 웹 속성에 구현되었습니다. 모바일 SDK은 인앱 및 콘텐츠 카드 전달을 위해 모바일 앱에 구현되었습니다. 에지 개인화에 대해 활성화된 AJO 서비스로 구성된 데이터스트림. 실시간 프로필 데이터를 엣지에서 1초 이내에 개인화할 수 있습니다. | [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home), [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview), [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) |
-| ID 및 프로필 구성 | 필수 | 알려진 ID 네임스페이스(CRM ID, 이메일, 인증된 사용자 ID)가 구성되었습니다. 익명에서 알려진 방문자 개인화로 원활하게 전환하기 위해 작동하는 익명 세션과 인증된 세션 간의 ID 결합. 가장자리에서 인증된 프로필을 해결하기 위해 `isActiveOnEdge: true`(으)로 구성된 Edge 병합 정책입니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview) |
+| 데이터 모델링 및 준비 | 필수 | 프로필 스키마에는 개인화 및 세분화에 사용되는 속성(예: 충성도 계층, 구매 내역, 제품 관심 분야, 라이프사이클 단계)이 포함되어야 합니다. 웹/앱 상호 작용 추적 및 전환 이벤트에 대한 경험 이벤트 스키마. [!DNL Real-Time Customer Profile]에 대해 데이터 세트를 사용할 수 있습니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| 데이터 소스 및 수집 | 필수 | 웹 SDK은 경험 전달 및 노출 추적을 위해 웹 속성에 구현되었습니다. 모바일 SDK은 인앱 및 콘텐츠 카드 전달을 위해 모바일 앱에 구현되었습니다. 에지 개인화에 대해 활성화된 AJO 서비스로 구성된 데이터스트림. 실시간 프로필 데이터를 엣지에서 1초 이내에 개인화할 수 있습니다. | [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview), [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| ID 및 프로필 구성 | 필수 | 알려진 ID 네임스페이스(CRM ID, 이메일, 인증된 사용자 ID)가 구성되었습니다. 익명에서 알려진 방문자 개인화로 원활하게 전환하기 위해 작동하는 익명 세션과 인증된 세션 간의 ID 결합. 가장자리에서 인증된 프로필을 해결하기 위해 `isActiveOnEdge: true`(으)로 구성된 Edge 병합 정책입니다. | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | 대상 정의 및 세분화 | 필수 | 프로필 속성, 행동 데이터 및 계산된 속성을 사용하여 정의된 대상입니다. Edge 또는 스트리밍 평가를 통한 실시간 개인화 자격 부여. 세그먼트 기반 개인화에 사용되는 대상은 에지 평가의 대상이어야 합니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Edge 세그먼테이션](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
 ## 기능 지원
@@ -124,11 +112,11 @@ ht-degree: 2%
 
 | 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 추천 | 계산된 특성(예: [!DNL Customer AI] 성향 점수, 라이프타임 값, 참여 점수, 제품 선호도, 마지막 구매 이후 일 수)은 대상 정의 및 콘텐츠 선택에 더 풍부한 신호를 제공하여 개인화 품질을 크게 향상시킵니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview), [Customer AI 개요](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
+| 계산/파생 속성 생성 | 추천 | 계산된 특성(예: [!DNL Customer AI] 성향 점수, 라이프타임 값, 참여 점수, 제품 선호도, 마지막 구매 이후 일 수)은 대상 정의 및 콘텐츠 선택에 더 풍부한 신호를 제공하여 개인화 품질을 크게 향상시킵니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [Customer AI 개요](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | 데이터 수명 주기 관리 | 추천 | 프로필 및 이벤트 데이터 보존 정책을 통해 새롭고 관련 있는 데이터를 통해 개인화 결정을 내릴 수 있습니다. 동의 적용은 사용자 환경 설정을 준수하도록 개인화를 보장합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Journey Optimizer의 동의](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | 개인화에 사용되는 프로필 속성(특히 구매 내역, 위치, 재무 데이터와 같은 PII 인접 속성)의 거버넌스 레이블은 데이터 사용 정책을 준수하도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | 개인화에 사용되는 프로필 속성(특히 구매 내역, 위치, 재무 데이터와 같은 PII 인접 속성)의 거버넌스 레이블은 데이터 사용 정책을 준수하도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
 | 모니터링 및 가시성 | 추천 | Edge 게재 및 개인화 성능 모니터링은 개인화된 경험을 저하시키는 지연 문제, 게재 실패 또는 데이터 신선도 문제를 탐지하는 데 도움이 됩니다. | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| 보고 및 분석 | 포함됨 | Personalization 성능 보고는 Function Chain 6단계의 일부입니다. [!DNL Customer Journey Analytics] 분석을 사용하면 방문자 세그먼트 간 전환, 참여 및 매출에 미치는 개인화 영향을 심층적으로 조사할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| 보고 및 분석 | 포함됨 | Personalization 성능 보고는 Function Chain 6단계의 일부입니다. [!DNL Customer Journey Analytics] 분석을 사용하면 방문자 세그먼트 간 전환, 참여 및 매출에 미치는 개인화 영향을 심층적으로 조사할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## 애플리케이션 기능
 
@@ -208,7 +196,7 @@ ht-degree: 2%
 
 **Experience League:**
 
-- [웹 채널 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/get-started-web)
+- [웹 채널 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
 - [웹 경험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 
@@ -254,6 +242,10 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 - [결정 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-activities)
 - [순위 전략](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/ranking/ranking-strategies)
 
+**Offer Decisioning 옵션 B와 차이점:**
+
+인프라는 동일합니다. 두 가지 모두 Web SDK과 Edge에서 AJO Decisioning을 사용하고 Edge-Active 병합 정책을 사용합니다. 차이점은 선택 중인 항목입니다. 이 옵션은 선택 기준이 개인화에 맞는 콘텐츠 항목(세그먼트 멤버십, 행동 순위)을 관리합니다. [Offer Decisioning](offer-decisioning.md) 옵션 B는 자격 규칙, 최대 한도 및 유효성 창이 비즈니스 요구 사항인 관리되는 오퍼 카탈로그를 관리합니다. 항목 집합에 프로필별 노출 한도, 규제 자격 제한 또는 오퍼 라이프사이클 관리가 필요한 경우 Offer Decisioning 옵션 B를 대신 사용하십시오.
+
 ### 옵션 C: 다중 표면 개인화(웹 + 인앱 + 콘텐츠 카드)
 
 **최적의 용도:** 여러 디지털 표면에 걸쳐 일관적인 개인화를 통해 웹 페이지, 모바일 인앱 메시지 및 콘텐츠 카드에 개인화된 통합 환경을 제공할 수 있습니다. 조직이 웹 및 모바일 앱 속성을 모두 가지고 있고 모든 디지털 접점에 통합 개인화 논리를 원하는 경우에 이상적입니다.
@@ -292,7 +284,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 - [인앱 채널 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
 - [콘텐츠 카드 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/get-started-content-card)
-- [웹 채널 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/get-started-web)
+- [웹 채널 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
 
 ### 옵션 비교
 
@@ -369,7 +361,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 **Experience League 설명서:**
 
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
 - [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Profile Query Language 참조](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
@@ -418,7 +410,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 **Experience League 설명서:**
 
 - [배치 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -466,7 +458,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 **Experience League 설명서:**
 
-- [웹 채널 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/get-started-web)
+- [웹 채널 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
 - [웹 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/web-configuration)
 - [인앱 채널 사전 요구 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
 - [콘텐츠 카드 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/content-card-configuration)
@@ -600,7 +592,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 **Experience League 설명서:**
 
-- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 - [웹 SDK으로 이벤트 추적](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)
 - [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
 
@@ -641,8 +633,8 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 - [캠페인 라이브 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [캠페인 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [콘텐츠 실험 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
-- [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
-- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ## 구현 시 고려 사항
 
@@ -650,16 +642,16 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 ### 보호 기능 및 제한 사항
 
-- Edge Network 조회에 에지 평가 세그먼트에 대한 응답 시간 SLA이 200ms 미만입니다. [실시간 고객 프로필 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- Edge Network 조회에 에지 평가 세그먼트에 대한 응답 시간 SLA이 200ms 미만입니다. [실시간 고객 프로필 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - Edge 세그먼트는 단순 속성 확인 및 세그먼트 멤버십 쿼리(시계열 쿼리 없음)로 제한됩니다. [Edge 세그멘테이션](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- 샌드박스당 Edge에서 하나의 병합 정책만 활성화할 수 있습니다. [병합 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
-- 샌드박스당 최대 10,000개의 승인된 맞춤형 오퍼 — [의사 결정 관리 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- 결정당 최대 30개의 배치 — [Journey Optimizer 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+- 샌드박스당 Edge에서 하나의 병합 정책만 활성화할 수 있습니다. [병합 정책](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- 샌드박스당 최대 10,000개의 승인된 맞춤형 오퍼 — [의사 결정 관리 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 결정당 최대 30개의 배치 — [Journey Optimizer 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - AI 등급 모델은 교육을 위해 최소 1,000개의 전환 이벤트가 필요합니다
 - 단일 범위 요청에 대한 SLA의 오퍼 게재 응답 시간은 P95에서 500ms 미만입니다.
-- 샌드박스당 최대 500개의 활성 라이브 캠페인 — [Journey Optimizer 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- 샌드박스당 최대 25개의 활성 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
+- 샌드박스당 최대 500개의 활성 라이브 캠페인 — [Journey Optimizer 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 샌드박스당 최대 25개의 활성 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 
 ### 일반적인 함정
 
@@ -715,7 +707,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 ### 웹 채널 개인화
 
-- [웹 채널 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/get-started-web)
+- [웹 채널 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
 - [웹 경험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [웹 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/web-configuration)
 
@@ -732,7 +724,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [배치 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -746,31 +738,31 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 - [Personalization 구문](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [도우미 함수](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/functions/functions)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [컨텐츠 조각을 사용한 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
 
 ### 대상자 및 세그멘테이션
 
 - [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
 - [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Profile Query Language 참조](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
 
 ### ID 및 프로필
 
-- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
 - [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
 - [프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
+- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ### 데이터 수집 및 SDK
 
-- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 - [웹 SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
 - [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 - [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
 
 ### 캠페인 및 실험
@@ -783,7 +775,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 ### 계산된 속성 및 데이터 보강
 
-- [계산된 속성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
+- [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 - [계산된 속성 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
 - [Customer AI 개요](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview)
 
@@ -791,18 +783,18 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 콘텐츠 항목
 
 - [캠페인 라이브 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [캠페인 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
-- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 - [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
+- [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 
 ### 거버넌스 및 개인 정보 보호
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Journey Optimizer의 동의](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 - [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
 
 ### 가드레일
 
-- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- [ID 서비스 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)
+- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [ID 서비스 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
