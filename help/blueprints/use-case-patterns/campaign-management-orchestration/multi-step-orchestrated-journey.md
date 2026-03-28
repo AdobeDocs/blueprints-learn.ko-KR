@@ -115,7 +115,7 @@ ht-degree: 1%
 | 데이터 모델링 및 준비 | 필수 | 여러 메시지에서 조건 분기 및 개인화에 사용되는 특성이 있는 XDM 프로필 스키마(예: 충성도 계층, 제품 관심 분야, 참여 점수). 종료 기준 및 조건 평가를 유도하는 전환 이벤트에 대한 경험 이벤트 스키마(예: 구매 이벤트, 양식 제출). | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
 | 데이터 소스 및 수집 | 가정 위치 | 종료 기준이나 조건이 실시간 이벤트에 의존하는 경우(예: 여정을 종료하는 구매 이벤트) 이벤트 스트리밍이 활성화되어야 합니다. 분기하는 데 사용되는 프로필 속성에 대한 일괄 처리 수집 동작 이벤트 수집을 위한 웹 SDK 또는 서버측 API. | [스트리밍 수집 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview), [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | ID 및 프로필 구성 | 가정 위치 | 여정에 사용된 모든 채널(이메일, SMS, 푸시)에서 프로필을 확인할 수 있어야 합니다. 여정이 웹 및 모바일 터치포인트에 적용되는 경우 교차 장치 ID를 구성해야 합니다. 샌드박스에 대해 병합 정책을 구성해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| 대상 정의 및 세분화 | 필수 | 대상 읽기 여정에 대해 시작 대상을 정의해야 합니다. 분기를 위해 조건 노드에서 세그먼트를 사용할 수도 있습니다. 평가 방법(일괄 처리 또는 스트리밍)은 여정 입력 요구 사항과 일치해야 합니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| 대상 정의 및 세분화 | 필수 | 대상 읽기 여정에 대해 시작 대상을 정의해야 합니다. 분기를 위해 조건 노드에서 세그먼트를 사용할 수도 있습니다. 평가 방법(일괄 처리 또는 스트리밍)은 여정 입력 요구 사항과 일치해야 합니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## 기능 지원
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 | 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 계산/파생 속성 생성 | 추천 | 참여 점수, 마지막 활동 이후의 일 수 또는 라이프타임 구매 값과 같은 계산된 속성은 조건 분기 논리를 개선하여 보다 지능적인 여정 경로 결정을 가능하게 합니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | 스토리지를 관리하고 데이터 보존 규정을 준수하기 위해 여정 이벤트 데이터 보존 정책을 구성해야 합니다. 동의 적용은 옵트인 프로필만 각 채널 터치포인트에서 메시지를 수신하도록 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [데이터 세트 만료](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| 데이터 수명 주기 관리 | 추천 | 스토리지를 관리하고 데이터 보존 규정을 준수하기 위해 여정 이벤트 데이터 보존 정책을 구성해야 합니다. 동의 적용은 옵트인 프로필만 각 채널 터치포인트에서 메시지를 수신하도록 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [데이터 세트 만료](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | 데이터 사용 레이블 지정 및 적용 | 추천 | 거버넌스 레이블은 여러 메시지 터치포인트에서 호환되는 개인화를 보장합니다. 특히 여정이 채널 간 개인화에 PII 또는 중요한 데이터를 사용할 때 중요합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
 | 모니터링 및 가시성 | 포함됨 | 여정 실행 모니터링 처리 실패, 프로필 항목 병목 현상 및 게재 문제에 대한 경고를 모니터링합니다. 지연 또는 오류가 고객 경험에 영향을 미치는 프로덕션 여정에 필수적입니다. | [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [가시성 통찰력 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | 보고 및 분석 | 포함됨 | 전체 여정에서 CJA funnel 및 폴아웃 분석은 AJO 기본 보고서보다 더 심층적인 insight을 제공합니다. 단계별 전환 분석, 집단 비교 및 여정 최적화를 가능하게 합니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
@@ -378,7 +378,7 @@ ht-degree: 1%
 - [SMS 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [푸시 알림 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 - [IP 준비 계획](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
 
 
 ### 2단계: 메시지 콘텐츠 만들기
@@ -837,7 +837,7 @@ ht-degree: 1%
 ### 대상자 및 세그멘테이션
 
 - [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
 - [Profile Query Language 참조](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
 - [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/streaming-segmentation)
 - [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/edge-segmentation)

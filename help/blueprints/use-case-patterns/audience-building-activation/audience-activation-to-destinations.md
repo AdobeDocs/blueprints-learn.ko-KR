@@ -715,7 +715,7 @@ ht-degree: 1%
 
 - [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)
 - [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
-- [속성 기반 액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [속성 기반 액세스 제어](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/overview)
 
 **보호 기능**
 
