@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - 여정 블루프린트'
 description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
+source-git-commit: 8ad1be5524ffd98f3728e4e65bc1b9d69efab2c2
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 16%
@@ -26,7 +26,7 @@ Adobe [!DNL Journey Optimizer]은(는) Adobe Experience Platform에 구축된 �
 - **포기 복구:** 사용자가 전자 메일, 푸시 또는 인앱을 통해 장바구니, 양식 또는 세션을 중단하는 경우 개인화된 메시지를 트리거합니다.
 - **신규 사용자 등록:** 신규 사용자가 신규 계정 환경 설정, 관련 프로모션 또는 혜택을 등록한 후 즉시 신규 사용자를 참여시키십시오
 - **트랜잭션 메시지:** 이벤트 트리거를 사용하여 실시간 확인, 경고 또는 업데이트(예: 주문 배송, 암호 재설정)를 보냅니다.
-- **Contextal 타깃팅:** 사용자의 신호 및 위치를 기반으로 즉시 사용자와 통신하여 환경을 안내하고 안내하는 데 도움을 줍니다.
+- **컨텍스트 기반의 타깃팅:** 사용자의 신호 및 위치를 기반으로 즉시 사용자와 통신하여 사용 경험을 안내하고 안내합니다.
 - **상황에 맞는 상향 판매/교차 판매:** 실시간 프로필 특성 및 최근 상호 작용을 기반으로 개인화된 오퍼를 제공합니다.
 
 >[!TAB Campaign 오케스트레이션(예약됨, 브랜드 시작)]
@@ -94,12 +94,12 @@ Adobe [!DNL Experience Platform]:
 
 [[!DNL Journey Optimizer] 보호 기능 제품 링크](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ko)
+[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 관련 설명서
 
 - [[!DNL Experience Platform] 설명서](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 - [[!DNL Experience Platform] 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
-- [[!DNL Experience Platform Mobile SDK] 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)
-- [[!DNL Journey Optimizer] 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ko)
+- [[!DNL Experience Platform Mobile SDK] 설명서](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)
