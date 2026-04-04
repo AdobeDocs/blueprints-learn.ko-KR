@@ -129,7 +129,7 @@ ht-degree: 0%
 | 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 계산/파생 속성 생성 | 추천 | 다운스트림 세그먼테이션 및 개인화에 사용할 수 있도록 대화 신호를 프로필 수준 속성(예: 총 대화, 주요 제품 관심, 평균 감정 점수)으로 집계 | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | 대화 이벤트 데이터에 대한 보존 정책을 구성하고, 대화 기록 및 프로파일링에 대한 동의를 관리하며, 대화 기록에 대한 개인 정보 삭제 요청을 지원합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 데이터 수명 주기 관리 | 추천 | 대화 이벤트 데이터에 대한 보존 정책을 구성하고, 대화 기록 및 프로파일링에 대한 동의를 관리하며, 대화 기록에 대한 개인 정보 삭제 요청을 지원합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
 | 데이터 사용 레이블 지정 및 적용 | 추천 | PII, 감정 또는 의도 신호가 포함된 대화 데이터 필드에 레이블을 지정하고 중요한 대화 데이터가 승인되지 않은 대상에 도달하지 못하도록 거버넌스 정책을 적용합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
 | 모니터링 및 가시성 | 추천 | 대화 이벤트 수집 파이프라인을 모니터링하고, 프로필 보강 성공률을 추적하고, 대화 개인화 품질에 영향을 줄 수 있는 데이터 흐름 실패에 대해 경고합니다 | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | 보고 및 분석 | 포함됨 | 크로스 채널 대화 영향 분석을 위해 [!DNL Brand Concierge] 기본 제공 분석 및 [!DNL CJA]을(를) 사용하여 대화 성과, 고객 피드백, 전환 속성 및 에이전트 효과를 분석합니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
@@ -362,7 +362,7 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 **Experience League 설명서:**
 
 - [Brand Concierge 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [AI Assistant 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
+- [AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)
 - [AEP Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 
 ### 2단계: 브랜드 거버넌스 설정
@@ -408,7 +408,7 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 **Experience League 설명서:**
 
 - [Brand Concierge 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [AI Assistant 작동 인사이트](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
+- [AI Assistant 작동 인사이트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)
 
 ### 3단계: 컨텐츠 통합
 
@@ -566,7 +566,7 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 
 - [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 - [계산된 속성 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
 - [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
@@ -684,7 +684,7 @@ Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정
 - [Brand Concierge 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Brand Concierge 제품 관리자](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge 사이트 관리자](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [AI Assistant 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
+- [AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)
 
 **[!DNL Adobe Experience Platform]**
 
@@ -705,13 +705,13 @@ Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정
 
 - [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
 - [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 
 **대상 및 세분화**
 
 - [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
 - [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 **데이터 거버넌스 및 개인 정보 보호**
@@ -719,7 +719,7 @@ Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정
 - [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
 - [Privacy Service 개요](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home)
-- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home)
 
 **모니터링 및 관찰 가능성**
 
