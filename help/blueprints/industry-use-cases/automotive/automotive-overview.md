@@ -3,9 +3,9 @@ title: 자동차 사용 사례
 description: 자동차 조직에서 Adobe Experience Platform을 사용하여 차량 구매 여정을 개인화하고, 서비스 유지율을 개선하고, 소유자 충성도를 구축하는 방법을 살펴보십시오.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1802'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 4%
 | [부품 및 액세서리 권장 사항](#parts-and-accessories-recommendations) | 차량 모델, 소유권 기간 및 고객 선호도에 따라 관련 부품, 액세서리 및 업그레이드를 추천합니다. 개인화된 애프터마켓 권장 사항은 소유자가 자신의 차량에서 더 많은 것을 얻을 수 있도록 돕는 동시에 점진적인 매출을 창출합니다. | 부품 및 액세서리 구매율 향상 및 애프터 마켓 매출 증대 | [동작 권장 사항](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
 | [차량 회수 알림](#vehicle-recall-notifications) | 서비스 예약 옵션 및 안전 정보와 함께 개인화된 리콜 알림을 보냅니다. 시의적절하고 명확한 리콜 커뮤니케이션은 고객 안전을 보호하고 책임 있는 소유권 지원에 대한 브랜드의 노력을 입증합니다. | 향상된 리콜 응답률 및 강화된 안전 규정 준수 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [새 모델 실행 캠페인](#new-model-launch-campaigns) | 현재 차량, 환경 설정 및 구매 내역을 기반으로 새로운 모델 출시에 관심이 있을 수 있는 고객을 타깃팅합니다. 집중 대상 타깃팅은 론치 효과를 극대화하고 초기 주문 모멘텀을 구축합니다. | 출시 캠페인 참여 개선 및 새로운 모델 관심 증가 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| [금융 및 보험 혜택](#financing-and-insurance-offers) | 신용 프로필, 차량 선택 및 구매 타임라인을 기반으로 개인화된 금융 및 보험 혜택을 제공합니다. 맞춤형 금융상품은 구매 장벽을 없애고 고객이 자신의 용어에 자신감을 느낄 수 있도록 돕는다. | 자금 조달 수용률 향상 및 판매당 매출 증대 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 | [드라이브 예약 테스트](#test-drive-scheduling) | 딜러 추천 및 차량 가용성을 통해 개인화된 테스트 드라이브 예약을 활성화합니다. 관심 있는 구매자가 쉽게 운전할 수 있도록 만들면 구매 경로를 가속화합니다. | 테스트 드라이브 완료율 향상 및 판매 전환 강화 | [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [소유자 충성도 프로그램](#owner-loyalty-programs) | 딜러, OEM 디지털 및 커넥티드 카 채널 간의 충성도 커뮤니케이션을 조정하고, 계층 기반 자격 규칙을 적용하여 어떤 소유주가 독점 오퍼, 조기 차량 액세스 및 파트너 보상을 받는지 관리합니다. 오퍼 중재는 딜러와 OEM 채널이 동일한 소유자에게 동시에 도달하여 충돌하는 프로모션을 방지합니다. | 충성도 프로그램 참여 개선 및 반복 구매 증가 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | [무상수리 및 연장 서비스 플랜](#warranty-and-extended-service-plans) | 차량 수명, 마일리지 및 구매 패턴에 따라 최적의 시간에 보증 및 연장 서비스 계획을 권장합니다. 적절한 시간 내 지원은 공장 보증이 만료되기 전에 매출을 캡처합니다. | 무상수리 기간 연장 도입률 향상 및 서비스 수익 증대 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
@@ -75,13 +74,6 @@ ht-degree: 4%
 - 캠페인 타이밍은 고객이 시장에 적합한 시간에 정보를 받을 수 있도록 엠바고 날짜 및 지역 론치 일정과 조정되어야 합니다.
 - [!DNL Real-Time Customer Data Platform] 대상 활성화는 소유 채널 전달을 통해 조정된 유료 미디어 지원을 위해 시작 세그먼트를 광고 플랫폼과 동기화해야 합니다.
 
-### 금융 및 보험 제공
-
-- 금융 오퍼 자격 규칙은 고객에게 제공되는 오퍼가 실제로 자격이 있는 오퍼인지 확인하기 위해 대출 규정을 준수하도록 신중하게 구성해야 합니다.
-- 금융 정보는 강화된 개인 정보 보호 및 규제 요구 사항에 따라 적용되므로 Credit Profile 데이터 통합에는 안전한 처리와 엄격한 액세스 제어가 필요합니다.
-- 오퍼 프레젠테이션은 각 해당 시장에서 소비자 금융 규정을 준수하는 약관, 요율 및 조건을 명확히 공시해야 합니다.
-- [!DNL Journey Optimizer] 의사 결정 규칙은 차량 가격, 계약금 및 대출 기간 선호도를 요인으로 하여 요금에 의해서가 아니라 관련성에 따라 오퍼의 등급을 지정해야 합니다.
-
 ### 드라이브 예약 테스트
 
 - 딜러 재고 시스템을 통합해야 특정 차량 모델과 고객이 관심 있는 트림 등을 추천 대리점에서 시승할 수 있다.
@@ -119,3 +111,4 @@ ht-degree: 4%
 - 고객 대 딜러 할당 논리는 최상의 일치를 제공하기 위해 근접, 딜러 특화, 언어 선호도 및 기존 딜러 관계를 고려해야 합니다.
 - 리드 라우팅 규칙은 고객이 온라인으로 구매 관심사를 표시할 때 해당 고객의 조사 활동에 대한 전체 컨텍스트를 통해 조회가 적절한 딜러에게 신속하게 전달되도록 해야 합니다.
 - [!DNL Experience Platform] ID 확인은 고객이 여러 대리점과 상호 작용하는 시나리오를 처리하고 각 대리점의 고유한 고객 관계 보기를 준수하면서 통합된 프로필을 유지해야 합니다.
+
