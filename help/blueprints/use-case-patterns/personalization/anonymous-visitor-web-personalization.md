@@ -111,7 +111,7 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 | 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 관리 및 거버넌스 | 가정 위치 | 웹 채널 권한이 구성된 AJO 샌드박스 입니다. [!DNL Web SDK] 구현 팀에 부여된 구현 권한 및 데이터스트림 액세스 웹 채널 구성, 대상자 관리 및 캠페인 실행을 허용하는 역할이 규정된 사용자. | [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | 웹 행동 신호(페이지 보기, 클릭 수, 스크롤 깊이, 참조 데이터, UTM 매개 변수)를 캡처하는 경험 이벤트 스키마. 실시간 평가를 지원하려면 스키마에 표준 웹 인터랙션 필드 그룹이 포함되어야 하며 에지 프로필에 대해 활성화되어야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| 데이터 모델링 및 준비 | 필수 | 웹 행동 신호(페이지 보기, 클릭 수, 스크롤 깊이, 참조 데이터, UTM 매개 변수)를 캡처하는 경험 이벤트 스키마. 실시간 평가를 지원하려면 스키마에 표준 웹 인터랙션 필드 그룹이 포함되어야 하며 에지 프로필에 대해 활성화되어야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) |
 | 데이터 소스 및 수집 | 필수 | [!DNL AEP Edge Network]&#x200B;(으)로 데이터를 라우팅하도록 구성된 데이터 스트림을 사용하여 모든 대상 웹 속성에 [!DNL Web SDK]을(를) 구현해야 합니다. 데이터 스트림에는 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Journey Optimizer] 서비스가 활성화되어 있어야 합니다. 이는 중요한 종속성입니다. [!DNL Web SDK]이(가) 없으면 동작 신호 수집이나 경험 전달을 수행할 수 없습니다. | [Web SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home) |
 | ID 및 프로필 구성 | 필수 | 익명 방문자에 대한 기본 ID 네임스페이스로 구성된 ECID([!DNL Experience Cloud ID]). 가장자리에서 익명 프로필 데이터를 확인하려면 `isActiveOnEdge: true`(으)로 Edge 병합 정책을 구성해야 합니다. 샌드박스당 하나의 병합 정책만 에지에서 활성화할 수 있습니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home) |
 | 대상 정의 및 세분화 | 필수 | 세션 내 행동 신호를 기반으로 정의된 Edge 평가 대상 세그먼트. Edge 세그먼테이션은 1초 미만의 평가 지연에 필수입니다. 세그먼트 규칙은 에지 적격 세그먼트 규칙 표현식(단순 속성 확인 및 세그먼트 멤버십 — 시계열 쿼리나 복잡한 집계 없음)만 사용해야 합니다. | [Edge 세그멘테이션](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation) |
@@ -723,9 +723,9 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 **[!DNL Web SDK]및 데이터 수집**
 
 - [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
-- [웹 SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
+- [웹 SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/overview)
 - [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)
 
 **ID 및 프로필**
 
@@ -736,7 +736,7 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 
 **데이터 모델링**
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
 - [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
 
 **보고 및 분석**
@@ -751,7 +751,7 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 
 - [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
 - [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
-- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents)
 
 **보호 기능**
 
