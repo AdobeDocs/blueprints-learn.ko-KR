@@ -1,0 +1,4 @@
+source,dest
+/en/docs/blueprints-learn/architecture/use-case-patterns/audience-building-activation/b2b-audience-activation,/en/docs/blueprints-learn/architecture/use-case-patterns/b2b-patterns/account-audience-activation
+/en/docs/blueprints-learn/architecture/use-case-patterns/campaign-orchestration-patterns/buying-group-based-marketing,/en/docs/blueprints-learn/architecture/use-case-patterns/b2b-patterns/buying-group-marketing
+/en/docs/blueprints-learn/architecture/use-case-patterns/analysis-patterns/b2b-analytics,/en/docs/blueprints-learn/architecture/use-case-patterns/b2b-patterns/account-analytics
