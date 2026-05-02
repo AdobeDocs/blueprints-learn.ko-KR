@@ -2,18 +2,14 @@
 title: AJO B2B 유료 미디어 컨트롤러
 description: 유료 미디어 대상에 대한 캠페인 및 계정 활성화의 우선 순위
 solution: Journey Optimizer B2B Edition
-exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
 source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
 
 # AJO B2B - 계정 Journey Orchestration - 유료 미디어 컨트롤러
-
->[!TIP]
->이 블루프린트는 B2B 활성화 및 마케팅에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)(으)로도 사용할 수 있습니다.
 
 ## 개요
 
@@ -67,7 +63,7 @@ ht-degree: 0%
 
 ## 아키텍처 다이어그램
 
-<img src="assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B 유료 미디어 컨트롤러 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B 유료 미디어 컨트롤러 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## B2B AEP의 데이터 모델링
 
@@ -113,7 +109,7 @@ ht-degree: 0%
 
 ## 구현 다이어그램
 
-<img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B 유료 미디어 컨트롤러 캔버스" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B 유료 미디어 컨트롤러 캔버스" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### 대상자 활성화
 

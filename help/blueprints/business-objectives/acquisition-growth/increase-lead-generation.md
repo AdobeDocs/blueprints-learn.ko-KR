@@ -2,13 +2,13 @@
 title: 리드 생성 늘리기
 description: 양식, 이벤트, 콘텐츠 및 멀티채널 참여를 통해 판매 파이프라인에 대한 보다 적합한 리드를 생성하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
-
 
 # 리드 생성 늘리기
 
@@ -28,8 +28,8 @@ ht-degree: 3%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
-| [B2B 대상자 활성화](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | 대상 구축 및 활성화 | 계정 기반 대상을 활성화하여 대상 계정에서 잠재 고객 생성 |
-| [그룹 기반 마케팅 및 여정 관리 구매](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | 캠페인 관리 및 오케스트레이션 | 구매 그룹을 타겟팅하는 다중 이해 관계자 캠페인을 조정하여 적격 B2B 리드를 생성합니다. |
+| [B2B 대상자 활성화](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | 대상 구축 및 활성화 | 계정 기반 대상을 활성화하여 대상 계정에서 잠재 고객 생성 |
+| [그룹 기반 마케팅 및 여정 관리 구매](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | 캠페인 관리 및 오케스트레이션 | 구매 그룹을 타겟팅하는 다중 이해 관계자 캠페인을 조정하여 적격 B2B 리드를 생성합니다. |
 | [아웃바운드 메시지 일괄 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | 캠페인 관리 및 오케스트레이션 | 잠재 고객 세그먼트에 타기팅된 일괄 캠페인을 제공하여 리드 캡처 촉진 |

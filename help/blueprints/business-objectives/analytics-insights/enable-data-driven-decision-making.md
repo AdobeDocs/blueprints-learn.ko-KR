@@ -2,13 +2,13 @@
 title: 데이터 중심의 의사 결정 활성화
 description: 전략을 안내하기 위해 셀프서비스 분석, 실시간 고객 인사이트 및 AI 기반 예측을 통해 팀에 권한을 부여하는 방법을 알아봅니다.
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # 데이터 중심의 의사 결정 활성화
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
 | [Customer Analytics 및 Insight 생성](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analysis | 데이터 기반 통찰력을 위한 셀프서비스 분석 작업 공간 및 안내식 분석 워크플로 제공 |
-| [B2B 분석](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Analysis | 계정 수준 분석 및 구매 그룹 통찰력을 통해 데이터 기반 B2B 의사 결정 활성화 |
+| [B2B 분석](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | Analysis | 계정 수준 분석 및 구매 그룹 통찰력을 통해 데이터 기반 B2B 의사 결정 활성화 |

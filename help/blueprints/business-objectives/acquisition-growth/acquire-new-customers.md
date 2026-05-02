@@ -2,13 +2,13 @@
 title: 신규 고객 확보
 description: 타겟팅된 획득 캠페인, 유사 대상 및 유료 미디어 최적화를 통해 고객 기반을 확장하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
-
 
 # 신규 고객 확보
 
@@ -28,10 +28,10 @@ ht-degree: 3%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
 | 대상에 대한 [Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | 대상 구축 및 활성화 | 유사 확장 및 타겟팅된 획득 캠페인을 위한 광고 플랫폼에 고가치 시드 대상을 게시합니다 |
 | [세그먼트가 일치하는 Audience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | 대상 구축 및 활성화 | 조직 간 대상 공유를 통해 고객 확보 프로그램에 대한 범위를 확장할 수 있습니다. |
-| [B2B 대상자 활성화](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | 대상 구축 및 활성화 | B2B 고객 확보를 위한 광고 및 전달 채널에 계정 기반 대상 활성화 |
+| [B2B 대상자 활성화](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | 대상 구축 및 활성화 | B2B 고객 확보를 위한 광고 및 전달 채널에 계정 기반 대상 활성화 |
 | [익명 방문자 웹 Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | 개인화 | 알 수 없는 방문자에 대한 웹 경험을 개인화하여 새로운 잠재 고객의 전환을 늘립니다. |
 | [Brand Concierge 대화 경험](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 대화 경험 | AI 기반의 대화형 검색을 통해 새로운 방문자가 첫 구매에 속도를 낼 수 있도록 안내합니다. |

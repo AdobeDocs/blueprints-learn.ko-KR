@@ -3,7 +3,7 @@ title: B2B 활용 사례
 description: B2B 조직이 Adobe Experience Platform을 사용하여 파이프라인을 가속화하고 리드 품질을 개선하며 고객 확장을 유도하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
@@ -28,7 +28,7 @@ B2B 조직은 Adobe Experience Platform을 사용하여 계정 및 개인 수준
 
 ### 구현 방법
 
-[B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) 패턴을 사용하여 계정 수준 대상자를 빌드하고 여러 채널에서 개인화된 콘텐츠를 활성화합니다. 이 패턴은 계정 기반 전략을 위해 특별히 빌드된 것으로, 계정과 사용자 수준 타겟팅을 모두 지원합니다. 이는 타겟팅이 개별 수준이 아닌 계정 수준에서 작동해야 하는 경우에 적합한 패턴입니다. 표준 RT-CDP 대상 활성화는 ABM 전략에 필요한 계정 기반 데이터 모델을 지원하지 않습니다.
+[B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) 패턴을 사용하여 계정 수준 대상자를 빌드하고 여러 채널에서 개인화된 콘텐츠를 활성화합니다. 이 패턴은 계정 기반 전략을 위해 특별히 빌드된 것으로, 계정과 사용자 수준 타겟팅을 모두 지원합니다. 이는 타겟팅이 개별 수준이 아닌 계정 수준에서 작동해야 하는 경우에 적합한 패턴입니다. 표준 RT-CDP 대상 활성화는 ABM 전략에 필요한 계정 기반 데이터 모델을 지원하지 않습니다.
 
 ### 기술 고려 사항
 
@@ -267,7 +267,7 @@ B2B 조직은 Adobe Experience Platform을 사용하여 계정 및 개인 수준
 
 ### 구현 방법
 
-[B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) 패턴을 사용하여 계정-사용자 관계를 사용하여 계정 수준 세그먼트를 만들고 B2B 지원 유료 미디어 대상에 활성화하십시오. 이는 고객 구성이 개별 개인 수준이 아닌 계정 수준(구매 조직 내 여러 연락처의 신호를 결합)에서 작동해야 하는 경우 적합한 패턴입니다.
+[B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) 패턴을 사용하여 계정-사용자 관계를 사용하여 계정 수준 세그먼트를 만들고 B2B 지원 유료 미디어 대상에 활성화하십시오. 이는 고객 구성이 개별 개인 수준이 아닌 계정 수준(구매 조직 내 여러 연락처의 신호를 결합)에서 작동해야 하는 경우 적합한 패턴입니다.
 
 ### 기술 고려 사항
 
@@ -287,7 +287,7 @@ B2B 조직은 Adobe Experience Platform을 사용하여 계정 및 개인 수준
 
 ### 구현 방법
 
-[구매 그룹 기반 마케팅](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) 패턴을 사용하여 구매 그룹 구성원을 역할별로 세분화하고, 그룹 수준 참여 신호를 평가하고, 계정 상태에 따라 조건부 분기로 조정된 다인, 다중 터치 여정을 오케스트레이션하는 계정 적격 캠페인을 만드십시오. 이는 여정 로직이 개인 수준이 아닌 계정 그룹 수준에서 작동해야 하는 경우에 적합한 패턴입니다. 표준 개인 수준 여정 오케스트레이션은 B2B 구매 그룹 관리의 그룹 자격 및 교차 개인 조정 요구 사항을 처리할 수 없습니다.
+[구매 그룹 기반 마케팅](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) 패턴을 사용하여 구매 그룹 구성원을 역할별로 세분화하고, 그룹 수준 참여 신호를 평가하고, 계정 상태에 따라 조건부 분기로 조정된 다인, 다중 터치 여정을 오케스트레이션하는 계정 적격 캠페인을 만드십시오. 이는 여정 로직이 개인 수준이 아닌 계정 그룹 수준에서 작동해야 하는 경우에 적합한 패턴입니다. 표준 개인 수준 여정 오케스트레이션은 B2B 구매 그룹 관리의 그룹 자격 및 교차 개인 조정 요구 사항을 처리할 수 없습니다.
 
 ### 기술 고려 사항
 
@@ -307,7 +307,7 @@ B2B 조직은 Adobe Experience Platform을 사용하여 계정 및 개인 수준
 
 ### 구현 방법
 
-[B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) 패턴을 사용하여 웹 및 아웃바운드 채널에서 개인화할 계정 수준 프로필을 활성화합니다. 이는 기본 요구 사항이 연락처 수준 여정 오케스트레이션이 아닌 개인화를 위한 계정 수준 타깃팅일 때 올바른 패턴입니다. 계정 프로필 데이터는 개별 행동 신호가 아닌 개인화 결정을 유도합니다.
+[B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) 패턴을 사용하여 웹 및 아웃바운드 채널에서 개인화할 계정 수준 프로필을 활성화합니다. 이는 기본 요구 사항이 연락처 수준 여정 오케스트레이션이 아닌 개인화를 위한 계정 수준 타깃팅일 때 올바른 패턴입니다. 계정 프로필 데이터는 개별 행동 신호가 아닌 개인화 결정을 유도합니다.
 
 ### 기술 고려 사항
 

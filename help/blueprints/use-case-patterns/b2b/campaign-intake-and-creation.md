@@ -1,24 +1,14 @@
 ---
 title: 가져오기 및 만들기 블루프린트
 description: 접수 및 생성 - Marketo Engage와 Workfront 통합 블루프린트
-exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-TQID: https://experienceleague.adobe.com/p0lDMluV6wyWfV7TzUEnPWhycpIImpl3z5Erooy2Bxk
-product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1386
+source-wordcount: '1372'
 ht-degree: 86%
 
 ---
 
 # 가져오기 및 만들기 블루프린트 {#intake-and-create}
-
->[!TIP]
->이 블루프린트는 B2B 활성화 및 마케팅에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/b2b/campaign-intake-and-creation.md)(으)로도 사용할 수 있습니다.
 
 새로운 캠페인을 실행하기 위해 마케팅 운영 팀에 들어오는 마케팅 요청의 수가 너무 많으면 높은 기능을 발휘하던 팀이 반복 작업의 회전문으로 변해 번아웃을 일으키고 혁신을 침체시킬 수 있습니다.
 
@@ -30,7 +20,7 @@ Workfront 및 Marketo Engage을 사용하면 시스템 간 연결을 통해 [Wor
 
 아래 워크플로우는 캠페인 관리자가 Workfront 요청 양식을 사용하여 웨비나 요청을 만드는 과정을 보여 줍니다. 요청에서 제출한 세부 정보는 Marketo Engage 내에서 웨비나에 필요한 프로그램과 이메일이 만들어지도록 트리거합니다. 또한 요청 양식에서 세부 정보를 가져와 이메일의 콘텐츠를 채웁니다.
 
-![블루프린트 가져오기 및 만들기](assets/intake-and-create-1.png){zoomable="yes"}
+![블루프린트 가져오기 및 만들기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -110,7 +100,7 @@ Marketo Engage의 프로그램 템플릿으로 최상위 센터를 구축하는 
 
 Marketo Engage에서는 토큰을 사용하여 캠페인 자산에 콘텐츠를 채울 수 있습니다. 예를 들어 최상위 센터에서 이메일 템플릿을 복제한 뒤 Workfront Fusion에서 Workfront의 캠페인 요청에 있는 세부 정보를 가져다 Marketo Engage 프로그램의 [내 토큰]으로 전달할 수 있습니다. 그런 다음에는 토큰 값을 이메일에 직접 상속하여 이메일을 작성할 수 있습니다.
 
-![토큰을 사용하여 콘텐츠 다이어그램 채우기](assets/intake-and-create-2.png){zoomable="yes"}
+![토큰을 사용하여 콘텐츠 다이어그램 채우기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
 
 ### AEM Assets에서 가져온 이미지 채우기 {#populate-images-from-aem-assets}
 
@@ -158,7 +148,7 @@ Workfront 요청으로 새 Marketo Engage 프로그램을 만드는 과정을 �
 
 다음은 자동화를 더 빨리 제공할 수 있도록 해주는 사전 빌드된 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ko){target="_blank"} 및 [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ko){target="_blank"} 모듈을 사용하여 Fusion에서 워크플로 논리를 조립하는 방법의 예입니다.
 
-![가져오기 및 만들기 자동화 흐름](assets/intake-and-create-3.png)
+![가져오기 및 만들기 자동화 흐름](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
 
 ## 리소스 {#resources}
 
