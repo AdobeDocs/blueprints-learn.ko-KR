@@ -115,7 +115,7 @@ Edge 개인화는 실시간 고객 데이터 플랫폼의 [사용자 지정 Pers
 
 >[!IMPORTANT]
 >
->프로필 속성에 중요한 데이터가 포함될 수 있습니다. 이 데이터를 보호하려면 특성 기반 개인화를 위해 사용자 지정 Personalization 대상을 구성할 때 **반드시**[Edge Network Server API를 사용](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)해야 합니다. 모든 Edge Network Server API 호출은 인증된 컨텍스트에서 수행되어야 합니다.
+>프로필 속성에 중요한 데이터가 포함될 수 있습니다. 이 데이터를 보호하려면 특성 기반 개인화를 위해 사용자 지정 Personalization 대상을 구성할 때 **반드시**&#x200B;[Edge Network Server API를 사용](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)해야 합니다. 모든 Edge Network Server API 호출은 인증된 컨텍스트에서 수행되어야 합니다.
 
 * 프로필 속성을 사용한 속성 기반 개인화의 경우 웹 또는 모바일 SDK 구현에 사용 중인 것과 동일한 데이터 스트림을 활용하는 Edge Network Server API와의 서버측 통합을 추가해야 합니다.
 * 사용자 지정 Personalization 연결 대상 구성을 통해 에지 프로젝션에 포함할 프로필 속성을 구성해야 합니다.
