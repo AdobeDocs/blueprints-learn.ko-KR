@@ -77,7 +77,7 @@ Workfront의 프로젝트 템플릿에 마케팅 캠페인의 일부인 자산�
 
 ### Workfront 교정을 사용하여 주석 및 주석을 통해 공동 작업 {#use-workfront-proofing-to-collaborate}
 
-[Workfront의 증명](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} 기능을 사용하면 마케팅 팀이 이미지나 전자 메일과 같은 새 에셋을 가져오고 댓글과 주석을 통해 공동 작업을 수행할 수 있습니다. 증명을 실행할 준비가 되면 의사 결정권자가 증명 도구에서 에셋을 승인할 수 있습니다.
+[Workfront의 증명](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=ko){target="_blank"} 기능을 사용하면 마케팅 팀이 이미지나 전자 메일과 같은 새 에셋을 가져오고 댓글과 주석을 통해 공동 작업을 수행할 수 있습니다. 증명을 실행할 준비가 되면 의사 결정권자가 증명 도구에서 에셋을 승인할 수 있습니다.
 
 ![전자 메일 화면 변환](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

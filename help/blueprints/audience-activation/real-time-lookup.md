@@ -72,25 +72,25 @@ ht-degree: 8%
 
 ### 대상 구성
 
-* [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - 기본 구현 안내서
-* [Personalization 대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
-* [Edge 개인화 대상에 대한 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
-* [에지에서 실시간으로 프로필 속성 조회](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
+* [사용자 지정 Personalization 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - 기본 구현 안내서
+* [Personalization 대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/overview)
+* [Edge 개인화 대상에 대한 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [에지에서 실시간으로 프로필 속성 조회](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
 
 ### SDK 설명서
 
-* [Experience Platform 웹 SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Experience Platform 웹 SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ko)
 * [Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/home/)
 * [Edge Network Server API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
-* [웹 SDK의 명령 응답](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)
+* [웹 SDK의 명령 응답](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=ko)
 
 ### 프로필 및 세그멘테이션 설명서
 
-* [[!UICONTROL 실시간 고객 프로필] 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [[!UICONTROL 실시간 고객 프로필] 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
 * [프로필 보호](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 
 ### 튜토리얼
 
-* [Real-Time CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html)
-* [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)
+* [Real-Time CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ko)
+* [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)
