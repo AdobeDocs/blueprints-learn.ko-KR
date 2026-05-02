@@ -3,14 +3,33 @@ title: 구매 그룹 기반 마케팅 및 여정 관리 블루프린트
 description: Adobe Journey Optimizer B2B edition의 구매 그룹으로 이어질 수 있는 여정을 식별, 디자인 및 구축하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: 2349
 ht-degree: 0%
 
 ---
 
 # 그룹 기반 마케팅 및 여정 관리 블루프린트 구매
+
+>[!TIP]
+>이 블루프린트는 B2B 활성화 및 마케팅에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)(으)로도 사용할 수 있습니다.
 
 현재 마케팅 팀은 Sales에게 검증된 잠재 고객을 제공하는 데 많은 어려움을 겪고 있습니다. 이러한 어려움 중 하나는 조직에서 적합한 사람들과 일하는 것이며 일반적으로 노력과 정확성에서 나타납니다. _리드 점수_&#x200B;를 얻으면 그룹이 너무 좁아 팀이 적합한 사람을 놓칠 수 있습니다. _계정 점수_&#x200B;를 얻으면 계정에 대한 광범위한 보기를 통해 적합한 사람을 식별하는 데 더 많은 노력이 필요합니다.
 

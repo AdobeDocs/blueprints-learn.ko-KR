@@ -2,13 +2,13 @@
 title: 익명 방문자 웹 Personalization
 description: 세션 내 행동 신호를 기반으로 미확인된 방문자에게 개인화된 웹 콘텐츠를 전달하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '8076'
+source-wordcount: '8109'
 ht-degree: 1%
 
 ---
-
 
 # 익명 방문자 웹 개인화
 
@@ -104,13 +104,19 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - 세션 내 동작 신호를 기반으로 실시간 대상 평가를 위한 Edge 세그멘테이션, 익명 Edge 프로필 관리
 - **[!DNL Adobe Experience Platform] (AEP)** — 동작 신호 수집의 경우 [!DNL Web SDK], 실시간 데이터 라우팅 및 개인화 전달의 경우 [!DNL Edge Network], 데이터스트림 구성
 
+## 아키텍처
+
+다음 참조 아키텍처는 익명의 방문자 신호가 에지에서 수집되고, 대상 규칙에 대해 평가되며, 개인화된 콘텐츠를 전달하는 데 사용되는 방식을 보여 줍니다.
+
+![익명 대상자 활성화 및 개인화를 위한 참조 아키텍처](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+
 ## 기본 함수
 
 이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
 
 | 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 가정 위치 | 웹 채널 권한이 구성된 AJO 샌드박스 입니다. [!DNL Web SDK] 구현 팀에 부여된 구현 권한 및 데이터스트림 액세스 웹 채널 구성, 대상자 관리 및 캠페인 실행을 허용하는 역할이 규정된 사용자. | [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
+| 관리 및 거버넌스 | 가정 위치 | 웹 채널 권한이 구성된 AJO 샌드박스 입니다. 구현 팀에 [!DNL Web SDK] 구현 권한 및 데이터스트림 액세스 권한이 부여되었습니다. 웹 채널 구성, 대상자 관리 및 캠페인 실행을 허용하는 역할이 규정된 사용자. | [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
 | 데이터 모델링 및 준비 | 필수 | 웹 행동 신호(페이지 보기, 클릭 수, 스크롤 깊이, 참조 데이터, UTM 매개 변수)를 캡처하는 경험 이벤트 스키마. 실시간 평가를 지원하려면 스키마에 표준 웹 인터랙션 필드 그룹이 포함되어야 하며 에지 프로필에 대해 활성화되어야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) |
 | 데이터 소스 및 수집 | 필수 | [!DNL AEP Edge Network]&#x200B;(으)로 데이터를 라우팅하도록 구성된 데이터 스트림을 사용하여 모든 대상 웹 속성에 [!DNL Web SDK]을(를) 구현해야 합니다. 데이터 스트림에는 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Journey Optimizer] 서비스가 활성화되어 있어야 합니다. 이는 중요한 종속성입니다. [!DNL Web SDK]이(가) 없으면 동작 신호 수집이나 경험 전달을 수행할 수 없습니다. | [Web SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home) |
 | ID 및 프로필 구성 | 필수 | 익명 방문자에 대한 기본 ID 네임스페이스로 구성된 ECID([!DNL Experience Cloud ID]). 가장자리에서 익명 프로필 데이터를 확인하려면 `isActiveOnEdge: true`(으)로 Edge 병합 정책을 구성해야 합니다. 샌드박스당 하나의 병합 정책만 에지에서 활성화할 수 있습니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home) |
@@ -409,10 +415,10 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 동작 신호를
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A(규칙 기반)의 경우:**
+옵션 A(규칙 기반)의 **:**
 각 콘텐츠 변형에 대해 고유한 대상 세그먼트를 만듭니다. 각 세그먼트는 특정 행동 조건을 나타냅니다(예: &quot;레퍼러 = Google AND 지역 = US&quot; 맵이 콘텐츠 변형 A로 매핑됨). 대상자 수는 개인화 규칙 수와 같습니다.
 
-**옵션 B(실험)의 경우:**
+옵션 B(실험)의 **:**
 대상 정의는 선택 사항입니다. 실험이 모든 방문자를 타깃팅하는 경우 대상이 필요하지 않습니다. 트래픽 분할은 변형 할당을 처리합니다. 실험이 특정 하위 집합을 타깃팅하는 경우(예: 모바일 방문자만) 실험 적격성에 대한 단일 타깃팅 대상을 정의합니다.
 
 **옵션 C(Decisioning)의 경우:**
@@ -462,10 +468,10 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 동작 신호를
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A(규칙 기반)의 경우:**
+옵션 A(규칙 기반)의 **:**
 2단계에서 정의된 각 대상 세그먼트에 대해 고유한 콘텐츠 변형을 작성합니다. 캠페인 구성에서 조건부 콘텐츠 규칙을 사용하여 각 변형을 타겟 대상에 바인딩합니다. 대상 규칙과 일치하지 않는 방문자에 대해 기본 콘텐츠 변형이 있는지 확인하십시오.
 
-**옵션 B(실험)의 경우:**
+옵션 B(실험)의 **:**
 작성자 처리 변형(A, B, C 등) 실험용. 캠페인에 대한 콘텐츠 실험을 활성화하고, 해당 콘텐츠로 처리 변형을 정의하고, 트래픽 할당 백분율을 설정하고, 성공 지표를 구성합니다.
 
 - 개별 콘텐츠로 2~10개의 처리 변형 정의
@@ -531,10 +537,10 @@ Decisioning 구성 요소 스택을 설정하고 캠페인에 통합합니다.
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A(규칙 기반)의 경우:**
+옵션 A(규칙 기반)의 **:**
 개인화 규칙당 하나의 캠페인을 만들고 각 캠페인은 해당 콘텐츠 변형을 통해 서로 다른 에지 대상을 타겟팅합니다. 또는 대상자 멤버십을 하나의 캠페인 내의 콘텐츠 변형에 매핑하는 조건부 콘텐츠 규칙이 있는 단일 캠페인을 사용할 수 있습니다.
 
-**옵션 B(실험)의 경우:**
+옵션 B(실험)의 **:**
 콘텐츠 실험이 활성화된 단일 캠페인을 만듭니다. 실험 구성(변형, 트래픽 할당, 성공 지표)은 3단계에서 정의되었습니다. 캠페인을 활성화하여 실험을 시작하십시오.
 
 **옵션 C(Decisioning)의 경우:**
@@ -573,10 +579,10 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A(규칙 기반)의 경우:**
+옵션 A(규칙 기반)의 **:**
 각 대상 세그먼트에 대한 캠페인 보고서를 검토하여 개인화된 콘텐츠 변형에 대한 게재 및 참여 지표를 비교하십시오. CJA을 사용하여 개인화된 컨텐츠와 기본 컨텐츠의 전환 영향을 측정하는 비교 작업 영역을 구축할 수 있습니다.
 
-**옵션 B(실험)의 경우:**
+옵션 B(실험)의 **:**
 실험 보고서를 검토하여 통계적 신뢰, 치료 상승도 및 승자 식별을 확인하십시오. 우승자를 선언하기 전에 신뢰 임계값에 도달할 때까지 기다립니다. 우승 콘텐츠를 영구 변형으로 적용합니다(지속적인 전달을 위해 옵션 A로 전환).
 
 - **UI 탐색:** 캠페인 > 콘텐츠 실험 > 보고서 보기
@@ -707,7 +713,7 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [배치 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)

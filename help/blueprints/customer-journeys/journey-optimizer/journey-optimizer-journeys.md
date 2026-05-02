@@ -3,14 +3,32 @@ title: '[!DNL Journey Optimizer] - 트리거된 메시징 및 Adobe Experience P
 description: Adobe Experience Platform을 스트리밍 데이터, 고객 프로필 및 세분화의 중앙 허브로 사용하여 트리거된 메시지 및 경험을 실행합니다.
 solution: Journey Optimizer
 exl-id: 70573eb9-cd69-4fe6-b2ae-dae81665a308
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/MuodOvJ52G9lmUAmsuj06q1aTXkRg7W0Bj6nxLp96N8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 357
 ht-degree: 12%
 
 ---
 
 # [!DNL Journey Optimizer] - 여정 블루프린트
+
+>[!TIP]
+>이 블루프린트는 Campaign Management &amp; Orchestration에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)으로도 사용할 수 있습니다.
 
 Adobe Journey Optimizer 여정은 개별 고객 행동을 기반으로 개인화된 여러 단계 경험을 제공하는 실시간 이벤트 기반 워크플로우입니다. 또한 이메일, SMS, 푸시 알림, 인앱 메시지, 코드 기반 경험, 사용자 정의 API 기반 통합 등 다양한 채널을 지원하여 브랜드가 선호하는 터치포인트에서 고객의 참여를 컨텍스트에 맞게 수행할 수 있습니다.
 

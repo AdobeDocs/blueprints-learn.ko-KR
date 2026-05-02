@@ -2,13 +2,13 @@
 title: 리드 자격 및 전환 개선
 description: 채점, 육성 및 개인화된 후속 조치를 통해 리드 품질을 높이고 파이프라인 진행을 가속화하는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4454b148-79f9-49f9-97ca-f305df00fe0b
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 4%
 
 ---
-
 
 # 리드 자격 및 전환 개선
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
-| [B2B 대상자 활성화](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | 대상 구축 및 활성화 | 타겟팅된 잠재 고객 자격 캠페인을 위한 계정 기반 대상 활성화 |
-| [그룹 기반 마케팅 및 여정 관리 구매](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | 캠페인 관리 및 오케스트레이션 | 자격을 갖춘 자가 구매 그룹으로 전환하고 파이프라인을 가속화하기 위해 여러 관련자 양성을 조정합니다. |
+| [B2B 대상자 활성화](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | 대상 구축 및 활성화 | 타겟팅된 잠재 고객 자격 캠페인을 위한 계정 기반 대상 활성화 |
+| [그룹 기반 마케팅 및 여정 관리 구매](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | 캠페인 관리 및 오케스트레이션 | 자격을 갖춘 자가 구매 그룹으로 전환하고 파이프라인을 가속화하기 위해 여러 관련자 양성을 조정합니다. |

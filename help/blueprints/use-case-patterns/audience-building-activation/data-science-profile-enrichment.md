@@ -3,18 +3,14 @@ title: 사용자 정의 데이터 과학을 통한 프로필 강화 블루프린
 description: 데이터 과학 기반의 통찰력을  [!DNL Experience Platform] 에 수집하여 실시간 고객 프로필을 보강하는 방법을 알아봅니다.
 solution: Data Collection
 kt: 7203
-exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 52%
+source-wordcount: '432'
+ht-degree: 64%
 
 ---
 
 # 프로필 강화를 위한 맞춤형 데이터 과학 블루프린트
-
->[!TIP]
->이 블루프린트는 Audience Building &amp; Activation에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md)으로도 사용할 수 있습니다.
 
 프로필 강화를 위한 사용자 지정 데이터 과학 블루프린트는 데이터를 사용하여 모델을 교육하고 배포하고 평가하여 데이터 과학 및 기계 학습 도구에서 [!DNL Experience Platform] 및 [!DNL Real-Time Customer Data Platform]에 기계 학습 통찰력을 제공하는 방법을 보여 줍니다.
 
@@ -28,11 +24,16 @@ ht-degree: 52%
 
 ## 아키텍처
 
-<img src="assets/data_science.svg" alt="사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트용 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
+<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트용 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 가드레일
 
-* 데이터 과학 결과를 [!DNL Experience Platform]&#x200B;(으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](../experience-platform/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
+* 데이터 과학 결과를 [!DNL Experience Platform]&#x200B;(으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](/help/blueprints/experience-platform/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
+
+## 구현 시 고려 사항
+
+* 대부분의 경우 모델 결과는 경험 이벤트가 아니라 프로필 속성으로 수집해야 합니다. 모델 결과는 단순한 속성 문자열일 수 있습니다. 수집할 모델 결과가 여러 개 있는 경우 배열이나 맵 유형 필드를 사용하면 좋습니다.
+* 통합 프로필 속성 데이터를 일 단위로 내보낸 일별 프로필 스냅샷 데이터 세트를 활용하여 프로필 속성 데이터에 대한 모델을 교육할 수 있습니다. 프로필 스냅샷 데이터 세트 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=ko#profile-attribute-datasets)에서 확인할 수 있습니다.
 
 ## 관련 설명서
 

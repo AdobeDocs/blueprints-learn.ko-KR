@@ -3,7 +3,7 @@ title: B2B Audience Activation
 description: 웹, 이메일 및 광고 채널에서 계정 기반 B2B 대상자를 활성화하는 방법을 알아봅니다.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7611'
 ht-degree: 0%
@@ -25,7 +25,7 @@ B2B 마케팅 팀은 개인 수준이 아닌 계정 수준에서 대상을 타�
 활성화된 계정은 수요 창출 funnel에서 고급 사용 사례: [!DNL LinkedIn]의 funnel 인식 캠페인 및 디스플레이 광고, [!DNL Marketo Engage]의 중간 funnel 교육 프로그램, CRM 통합을 통한 funnel 판매 지원. 계정 억제 대상은 기존 고객, 마감된 손실 계정 또는 이미 활성 영업 주기에 있는 계정을 제외하여 비용 낭비를 방지합니다.
 
 >[!NOTE]
->사용 사례에 계정 수준이 아닌 개인 수준(B2C)에서 대상을 활성화하는 것이 포함된 경우 [대상에 대상 활성화](audience-activation-to-destinations.md)를 참조하십시오. 이 패턴은 표준 RT-CDP 데이터 모델을 사용하며 B2B edition이 필요하지 않습니다.
+>사용 사례에 계정 수준이 아닌 개인 수준(B2C)에서 대상을 활성화하는 것이 포함된 경우 [대상에 대상 활성화](../audience-building-activation/audience-activation-to-destinations.md)를 참조하십시오. 이 패턴은 표준 RT-CDP 데이터 모델을 사용하며 B2B edition이 필요하지 않습니다.
 
 ## 주요 비즈니스 목표
 
@@ -181,7 +181,7 @@ B2B 마케팅 팀은 개인 수준이 아닌 계정 수준에서 대상을 타�
 
 **작동 방식:**
 
-이 옵션은 [!DNL RT-CDP]의 기본 [!DNL Marketo Engage] 대상 커넥터를 사용하여 계정 대상자 멤버십 변경 사항을 [!DNL Marketo Engage]&#x200B;(으)로 직접 스트리밍합니다. 계정이 대상 세그먼트에 대한 자격이 되거나 종료되면 [!DNL Marketo]의 연결된 잠재 고객 및 연락처가 세그먼트 멤버십 특성으로 업데이트됩니다. [!DNL Marketo] 그런 다음 스마트 캠페인이 이러한 멤버십 변경 사항을 기반으로 트리거될 수 있습니다.
+이 옵션은 [!DNL RT-CDP]의 기본 [!DNL Marketo Engage] 대상 커넥터를 사용하여 계정 대상자 멤버십 변경 사항을 [!DNL Marketo Engage]&#x200B;(으)로 직접 스트리밍합니다. 계정이 대상 세그먼트에 대한 자격이 되거나 종료되면 [!DNL Marketo]의 연결된 잠재 고객 및 연락처가 세그먼트 멤버십 특성으로 업데이트됩니다. 그런 다음 [!DNL Marketo] 스마트 캠페인이 이러한 멤버십 변경 사항을 기반으로 트리거될 수 있습니다.
 
 [!DNL Marketo Engage] 대상은 스트리밍 대상입니다. 즉, 대상 멤버십 변경 사항은 예약된 배치가 아니라 발생하는 대로 증분 전송됩니다. 이를 통해 계정 자격 변경에 응답해야 하는 캠페인에 대해 보다 빠른 작업 시간을 제공할 수 있습니다. 필드 매핑은 [!DNL RT-CDP] 프로필 특성을 [!DNL Marketo] 리드/연락처 필드에 연결하여 [!DNL RT-CDP]의 계정 수준 데이터로 [!DNL Marketo] 레코드를 보강할 수 있도록 합니다.
 

@@ -3,7 +3,7 @@ title: 구매 그룹 기반 마케팅 및 여정 관리
 description: B2B 마케팅 효과를 향상시키기 위해 구매 그룹으로 잠재 고객을 선별하는 계정 수준 여정을 개발하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -119,7 +119,7 @@ B2B 마케팅 효과를 개선하기 위해 잠재 고객을 구매 그룹으로
 | 데이터 수명 주기 관리 | 추천 | 동의 관리는 B2B 이메일 및 SMS 통신에 중요합니다. 데이터 세트 만료 정책은 임시 참여 데이터의 라이프사이클을 관리하고 데이터 보존 요구 사항을 준수하는 데 도움이 됩니다. | [고급 데이터 수명 주기 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
 | 데이터 사용 레이블 지정 및 적용 | 추천 | B2B 데이터에는 종종 민감한 회사 정보와 비즈니스 연락처의 개인 데이터가 포함됩니다. 데이터 거버넌스 정책은 특히 광고 플랫폼 또는 서드파티 시스템으로 활성화할 때 대상 간에 B2B 데이터를 호환하여 사용할 수 있도록 해줍니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
 | 모니터링 및 가시성 | 추천 | 모니터링을 통해 B2B 데이터 파이프라인(CRM/[!DNL Marketo] 동기화)이 정상이고, 계정 프로필이 업데이트되고, 계정 여정 실행이 실패 없이 진행 중인지 확인합니다. 소스 데이터 흐름 실패에 대한 경고는 데이터 통화를 유지 관리하는 데 중요합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | [!DNL AJO B2B Edition] 내의 B2B 분석 대시보드는 구매 그룹 참여, 계정 여정 성능 및 파이프라인 지표를 제공합니다. [!DNL CJA B2B Edition] 계정 수준 작업 영역 분석, 구매 그룹 분석 및 영업 기회 상관 관계를 통해 분석을 확장합니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 보고 및 분석 | 포함됨 | [!DNL AJO B2B Edition] 내의 B2B 분석 대시보드는 구매 그룹 참여, 계정 여정 성능 및 파이프라인 지표를 제공합니다. [!DNL CJA B2B Edition]은(는) 계정 수준 작업 영역 분석, 구매 그룹 분석 및 영업 기회 상관 관계로 분석을 확장합니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
@@ -391,13 +391,13 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A의 경우(단일 솔루션 관심):**
+옵션 A의 **경우(단일 솔루션 관심):**
 하나의 솔루션 관심사와 하나의 역할 템플릿을 만듭니다. 조직의 주요 제품 또는 서비스에 대한 명확하고 이해하기 쉬운 구매 움직임에 초점을 맞추십시오.
 
-옵션 B의 **다중 솔루션 관심 분야:**
+옵션 B의 **경우(여러 솔루션 관심):**
 각각 고유한 역할 템플릿을 사용하여 여러 솔루션 관심사를 만듭니다. 다운스트림 파이프라인 추적을 위해 각 솔루션 관심사를 적절한 CRM 제품/기회 유형에 매핑합니다.
 
-**옵션 C의 경우(AI 지원 자격):**
+**옵션 C(AI 지원 자격 조건)의 경우:**
 옵션 B와 같이 솔루션 관심 분야 및 역할 템플릿을 구성하되, 성공적인 구매 그룹 구성 및 거래 결과에 대한 내역 데이터로 AI 자격 에이전트를 추가로 구성하여 자격 모델을 교육합니다.
 
 **Experience League 설명서:**
@@ -500,13 +500,13 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A의 경우(단일 솔루션 관심):**
+옵션 A의 **경우(단일 솔루션 관심):**
 순차적 단계를 사용하는 선형 여정을 디자인합니다. 입력은 단일 계정 대상자 또는 구매 그룹 생성 이벤트를 기반으로 합니다. 컨텐츠의 긴급도와 깊이가 증가하는 하나의 이메일 육성 트랙입니다.
 
-옵션 B의 **다중 솔루션 관심 분야:**
+옵션 B의 **경우(여러 솔루션 관심):**
 솔루션 관심사별로 병렬 분기를 사용하는 여정을 디자인합니다. 조건 노드를 사용하여 구매 그룹이 존재하는 적절한 육성 트랙으로 계정을 라우팅합니다. 각 분기에는 자체 콘텐츠 및 점수 임계값이 있습니다.
 
-**옵션 C의 경우(AI 지원 자격):**
+**옵션 C(AI 지원 자격 조건)의 경우:**
 조건 노드가 규칙 기반 임계값이 아닌(또는 이에 추가하여) AI 자격 점수를 평가하는 여정을 디자인합니다. AI가 계정을 가속화할지, 유지관리할지 또는 우선 순위 지정을 취소할지 여부를 결정하는 동적 경로 선택을 포함합니다.
 
 **Experience League 설명서:**
@@ -566,7 +566,7 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **응용 프로그램 함수:** [!DNL AJO B2B]: B2B Analytics 대시보드
 
-이 단계에서는 보고 및 분석 프레임워크를 설정하여 구매 그룹 성과, 계정 여정 효율성 및 파이프라인 영향을 측정합니다. [!DNL AJO B2B Edition] 기본 제공 analytics 대시보드를 제공합니다. [!DNL CJA B2B Edition]&#x200B;(라이선스가 있는 경우)은(는) 더 자세한 크로스 채널 계정 수준 인사이트를 통해 분석을 확장합니다.
+이 단계에서는 보고 및 분석 프레임워크를 설정하여 구매 그룹 성과, 계정 여정 효율성 및 파이프라인 영향을 측정합니다. [!DNL AJO B2B Edition]은(는) 기본 제공 analytics 대시보드를 제공합니다. [!DNL CJA B2B Edition]&#x200B;(라이선스가 있는 경우)은(는) 더 자세한 크로스 채널 계정 수준 인사이트를 통해 분석을 확장합니다.
 
 #### 의사 결정: 보고 접근 방식
 

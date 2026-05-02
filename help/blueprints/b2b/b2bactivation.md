@@ -4,14 +4,29 @@ description: Real-time Customer Data Platform을 통해 계정 기반 대상자 
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 0509c5a8ce92c25040262130a5f583cdd7f08e59
+TQID: https://experienceleague.adobe.com/-YX20LT7VkWqGr4ciUM1iNYS9DnZAwj57K-bUy-zVsg
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 1034
 ht-degree: 52%
 
 ---
 
 # B2B 대상자 및 프로필 활성화 블루프린트
+
+>[!TIP]
+>이 블루프린트는 B2B 활성화 및 마케팅에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)(으)로도 사용할 수 있습니다.
 
 개별 고객과 연결된 계정, 기회 및 리드 정보를 사용하여 실행 가능한 B2B 프로필을 만들어 여러 채널에서의 개인화 및 타겟팅을 개선합니다.
 
@@ -27,7 +42,7 @@ ht-degree: 52%
 
 ## 통합 패턴
 
-* B2B 데이터 소스(Marketo, Salesforce 등) -> Real-time Customer Data Platform B2B edition -> 대상
+* B2B 데이터 소스 (Marketo, Salesforce 등) -> Real-time Customer Data Platform B2B edition -> 대상
 * 다양한 B2B 데이터 소스를 사용하여 계정, 리드, 기회 및 사용자 데이터를 Real-time Customer Data Platform의 B2B edition에 매핑할 수 있습니다.
 
 ## 아키텍처
@@ -59,7 +74,7 @@ ht-degree: 52%
 #### Experience Platform 프로필 및 세분화 가드 레일:
 
 * Experience Platform에 대한 프로필 및 세분화 가드레일 살펴보기 - [프로필 및 세분화 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
-* 계정, 리드, 기회를 포함하는 B2B 세그먼트는 다중 엔터티 관계를 사용하므로 세그먼트 평가가 일괄 처리됩니다. 스트리밍 세분화는 사용자 및 이벤트로 제한된 세그먼트에 대해 지원됩니다.
+* 계정, 리드, 기회를 포함하는 B2B 세그먼트는 다중 엔터티 관계를 사용하므로 세그먼트 평가가 배치 방식으로 수행됩니다. 스트리밍 세분화는 사용자 및 이벤트로 제한된 세그먼트에 대해 지원됩니다.
 * 일괄 처리 b2b 세그먼트를 스트리밍 또는 에지 세그먼트에 대한 입력으로 포함하여 스트리밍 b2b 세그먼트 사용 사례를 지원합니다. 배치 세그먼트 멤버십은 최신 일일 배치 세분화 평가 결과를 기반으로 합니다.
 
 #### Experience Platform - Marketo Engage 소스 커넥터:
@@ -70,7 +85,7 @@ ht-degree: 52%
 #### Experience Platform - Marketo 대상 커넥터:
 
 * Real-time Customer Data Platform에서 Marketo Engage으로 세그먼트를 공유하는 스트리밍 방식은 세그먼트 평가 후 최대 15분 정도 소요될 수 있습니다. 처음 활성화하기 전에 세그먼트에 이미 있던 프로필 채우기는 최대 24시간이 걸릴 수 있습니다.
-* 일괄 처리 세분화는 Experience Platform 세분화 일정을 기반으로 하루에 한 번 공유됩니다. 다중 엔티티 관계를 사용하는 B2B 세그먼트(예: 계정 및 영업 기회 객체의 데이터를 사용하는 세그먼트)는 항상 배치 모드에서 실행됩니다.
+* 배치 세분화는 Experience Platform 세분화 일정을 기반으로 하루에 한 번 공유됩니다. 다중 엔티티 관계를 사용하는 B2B 세그먼트(예: 계정 및 영업 기회 객체의 데이터를 사용하는 세그먼트)는 항상 배치 모드에서 실행됩니다.
 
 #### Marketo Engage 가드 레일:
 
@@ -98,10 +113,10 @@ Real-time Customer Data Platform의 B2B 버전을 구현하고 구성하는 방�
 
 ## 관련 설명서
 
-* [Real-time Customer Data Platform의 B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
+* [실시간 고객 데이터 플랫폼의 B2B edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ko)
 * [Real-time Customer Data Platform B2B edition 시작하기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [실시간 고객 데이터 플랫폼 B2B edition의 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Real-time Customer Data Platform B2B edition의 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ko)
-* [Adobe Experience Platform - Marketo 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)
+* [Adobe Experience Platform - Marketo Source 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ko)
 * [Adobe Experience Platform - Marketo 대상 커넥터](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=ko)

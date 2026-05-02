@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Platform 및 애플리케이션에 대�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: abed39b6b6f63f2eef6cb36b400319910f8cf472
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 25%
+source-wordcount: '539'
+ht-degree: 23%
 
 ---
 
@@ -50,21 +50,32 @@ ht-degree: 25%
       + [대상으로 Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
       + [세그먼트가 일치하는 Audience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
       + [이벤트 전달](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
-      + [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
+      + [지원 및 판매를 위한 실시간 프로필 조회](/help/blueprints/use-case-patterns/audience-building-activation/real-time-profile-lookup.md)
+      + [프로필 강화를 위한 맞춤형 데이터 과학](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md)
    + 개인화{#personalization-patterns}
       + [익명 방문자 웹 Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
       + [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
       + [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
       + [행동 추천](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
+      + [웹/모바일 Personalization용 Edge 프로필 액세스](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md)
+      + [Adobe Target과 공유하는 대상](/help/blueprints/use-case-patterns/personalization/audience-sharing-with-target.md)
    + 캠페인 관리 및 오케스트레이션{#campaign-orchestration-patterns}
       + [일괄 아웃바운드 메시지 활성화](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
       + [이벤트 트리거된 메시징](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
       + [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
       + [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-      + [구매 그룹 기반 마케팅 및 여정 관리](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
+      + [Campaign v8 일괄 오케스트레이션 및 트랜잭션 메시지](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)
+      + [Journey Optimizer과 서드파티 메시징 통합](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
    + Analysis{#analysis-patterns}
       + [Customer Analytics &amp; Insight 세대](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
-      + [B2B 분석](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
+   + B2B 활성화 및 마케팅{#b2b-patterns}
+      + [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)
+      + [구매 그룹 기반 마케팅 및 여정 관리](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)
+      + [B2B 분석](/help/blueprints/use-case-patterns/b2b/account-analytics.md)
+      + [Marketo 데이터를 사용하는 B2B 여정](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md)
+      + [AJO B2B 유료 미디어 컨트롤러](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)
+      + [Marketo 및 Workfront Intake 및 Create](/help/blueprints/use-case-patterns/b2b/campaign-intake-and-creation.md)
+      + [Marketo 및 Workfront 검토 및 승인](/help/blueprints/use-case-patterns/b2b/campaign-review-and-approval.md)
    + 대화 경험{#conversational-experience-patterns}
       + [Brand Concierge 대화 경험](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + 업계 사용 사례 예{#industry-use-cases}

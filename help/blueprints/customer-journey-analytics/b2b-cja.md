@@ -2,15 +2,18 @@
 title: B2B Customer Journey Analytics 블루프린트
 description: 계정 기반 보고 및 여정 분석을 위해 Customer Journey Analytics의 B2B 계정, 기회 및 구매 그룹 데이터를 포함합니다.
 solution: Customer Journey Analytics
-source-git-commit: 10e54d97082143b61e43bae56250a524d1759d45
+exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '743'
 ht-degree: 7%
 
 ---
 
-
 # B2B Customer Journey Analytics 블루프린트
+
+>[!TIP]
+>이 블루프린트는 B2B 활성화 및 마케팅에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/b2b/account-analytics.md)(으)로도 사용할 수 있습니다.
 
 Customer Journey Analytics B2B edition을 통해 B2B 조직을 위한 계정 기반 보고 및 분석을 사용할 수 있습니다. 사용자 중심의 B2C 분석과 달리 이 블루프린트는 **account**&#x200B;을 데이터 모델의 중심에 배치하므로 여러 관련자, 구매 그룹 및 판매 주기에 걸쳐 복잡한 B2B 구매 여정을 분석할 수 있습니다. [!DNL Customer Journey Analytics]을(를) 사용하여 행동 데이터를 여정 기반 통찰력 및 대상자 생성을 위한 B2B 차원(계정, 기회, 캠페인 및 마케팅 목록)과 통합합니다.
 

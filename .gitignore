@@ -1,3 +1,4 @@
 .DS_Store
 help/workspace.code-workspace
 icon-generation-prompts.md
+.claude/

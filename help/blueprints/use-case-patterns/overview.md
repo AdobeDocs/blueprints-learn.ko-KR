@@ -4,9 +4,9 @@ description: 주요 비즈니스 목표를 달성하기 위한 Adobe Experience 
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 27f7e230982807ec70ca96af7f737944a6588f27
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 0%
 | [대상에 대한 대상자 활성화](audience-building-activation/audience-activation-to-destinations.md) | 타깃팅 또는 제외를 위해 대상 세그먼트를 평가하고 외부 대상에 게시합니다. | [!DNL Real-Time CDP] |
 | [대상 Collaboration](audience-building-activation/audience-collaboration-segment-match.md) | 세그먼트 일치를 사용하여 샌드박스 또는 조직에서 대상 세그먼트 공유 및 일치 | [!DNL Real-Time CDP], [!DNL Experience Platform] |
 | [이벤트 전달](audience-building-activation/event-forwarding.md) | Edge Network을 통해 수집된 실시간 이벤트 데이터를 Adobe이 아닌 대상으로 전달 | [!DNL Experience Platform]&#x200B;(Edge Network, 이벤트 전달) |
-| [B2B 대상 활성화](audience-building-activation/b2b-audience-activation.md) | 웹, 이메일 및 광고 채널에서 계정 기반 B2B 대상 활성화 | [!DNL Real-Time CDP] B2B edition |
+| [지원 및 판매에 대한 실시간 프로필 조회](audience-building-activation/real-time-profile-lookup.md) | 에이전트 지원 지원 및 판매 시나리오에 대한 컨텍스트를 제공하는 실시간 고객 프로필 조회 | [!DNL Real-Time CDP], [!DNL Experience Platform] |
+| [프로필 강화를 위한 사용자 지정 데이터 과학](audience-building-activation/data-science-profile-enrichment.md) | 데이터 과학 기반의 통찰력을 Experience Platform에 수집하여 실시간 고객 프로필 강화 | [!DNL Experience Platform] |
 
 ## 개인화
 
@@ -38,6 +39,8 @@ ht-degree: 0%
 | [알려진 방문자 웹/앱 개인화](personalization/known-visitor-web-app-personalization.md) | 실시간 프로필 및 세그먼트 멤버십을 기반으로 식별된 방문자에게 개인화된 콘텐츠, 오퍼 또는 프로모션을 제공합니다 | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [Offer Decisioning](personalization/offer-decisioning.md) | 중앙 집중식 의사 결정 논리를 사용하여 여러 채널에서 프로필에 대한 차선책 오퍼 또는 콘텐츠를 선택합니다 | [!DNL Journey Optimizer]&#x200B;(Decisioning), [!DNL Real-Time CDP] |
 | [동작 권장 사항](personalization/behavioral-recommendation.md) | 선택 전략 및 등급 모델을 사용하여 항목 및 컨텐츠 권장 사항 생성 | [!DNL Journey Optimizer]&#x200B;(Decisioning), [!DNL Real-Time CDP] |
+| [웹/모바일 Personalization용 Edge 프로필 액세스](personalization/edge-profile-access.md) | 처리량이 많고 대기 시간이 짧은 웹 및 모바일 개인화를 위한 실시간 에지 프로필 액세스 | [!DNL Real-Time CDP], [!DNL Experience Platform]&#x200B;(Edge Network) |
+| [Adobe Target과 대상 공유](personalization/audience-sharing-with-target.md) | 알려진 고객 웹 및 모바일 개인화를 위해 Adobe Target과 Real-Time CDP 프로필 및 대상자 공유 | [!DNL Real-Time CDP], [!DNL Target], [!DNL Experience Platform] |
 
 ## 캠페인 관리 및 오케스트레이션
 
@@ -49,7 +52,8 @@ ht-degree: 0%
 | [이벤트 트리거된 메시징](campaign-management-orchestration/event-triggered-messaging.md) | 실시간 행동 또는 시스템 이벤트를 수신한 다음 상황별 메시지를 트리거하는 프로필에 전달합니다 | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [여러 단계로 조정된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md) | 대기, 조건 및 여러 메시지 작업을 사용하는 분기, 다중 터치 여정을 통해 프로필 안내 | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [의사 결정 포함 크로스 채널 여정](campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | 최적의 채널, 컨텐츠 또는 오퍼를 선택하기 위한 실시간 의사 결정을 통합하는 여러 단계 여정 오케스트레이션 | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [그룹 기반 마케팅 및 여정 관리 구매](campaign-management-orchestration/buying-group-based-marketing.md) | 잠재 고객을 구매 그룹으로 분류하여 B2B 마케팅 효과를 향상시키는 계정 수준 여정을 개발합니다. | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [Campaign v8 일괄 처리 오케스트레이션 및 트랜잭션 메시지](campaign-management-orchestration/campaign-v8-orchestration.md) | Campaign v8에서 일괄 캠페인 실행, 멀티 터치 오케스트레이션, ETL 기반 데이터 관리 및 트랜잭션 메시지 | [!DNL Campaign] v8 |
+| [Journey Optimizer과 타사 메시징 통합](campaign-management-orchestration/third-party-messaging.md) | REST API를 통해 개인화된 커뮤니케이션을 위해 Journey Optimizer을 서드파티 메시징 시스템과 통합 | [!DNL Journey Optimizer] |
 
 ## Analysis
 
@@ -58,7 +62,20 @@ ht-degree: 0%
 | 패턴 | 기본 기능 | 핵심 솔루션 |
 | --- | --- | --- |
 | [고객 분석 및 insight 생성](analysis/customer-analytics-insight-generation.md) | 비헤이비어 및 성능 분석을 위한 크로스 채널 분석 작업 공간, 계산된 지표 및 대시보드 구축 | [!DNL Customer Journey Analytics], [!DNL Experience Platform] |
-| [B2B 분석](analysis/b2b-analytics.md) | 크로스 채널 고객 여정 분석에 B2B 계정 수준 정보 포함 | [!DNL Customer Journey Analytics] B2B edition, [!DNL Real-Time CDP] B2B edition |
+
+## B2B 활성화 및 마케팅
+
+다음 패턴은 계정 기반 대상, 구매 그룹 오케스트레이션 및 B2B 분석과 같은 B2B별 마케팅 시나리오를 다룹니다.
+
+| 패턴 | 기본 기능 | 핵심 솔루션 |
+| --- | --- | --- |
+| [B2B 대상 활성화](b2b/account-audience-activation.md) | 웹, 이메일 및 광고 채널에서 계정 기반 B2B 대상 활성화 | [!DNL Real-Time CDP] B2B edition |
+| [그룹 기반 마케팅 및 여정 관리 구매](b2b/buying-group-marketing.md) | 잠재 고객을 구매 그룹으로 분류하여 B2B 마케팅 효과를 향상시키는 계정 수준 여정을 개발합니다. | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [B2B 분석](b2b/account-analytics.md) | 크로스 채널 고객 여정 분석에 B2B 계정 수준 정보 포함 | [!DNL Customer Journey Analytics] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [Marketo 데이터를 사용하는 B2B 여정](b2b/marketo-data-journeys.md) | 구매 그룹 여정 및 계정 참여를 조정하기 위해 Journey Optimizer B2B edition과 Marketo 데이터를 배포합니다 | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
+| [AJO B2B 유료 미디어 컨트롤러](b2b/paid-media-orchestration.md) | waterfall 논리를 사용하여 B2B 유료 미디어 캠페인을 오케스트레이션하여 캠페인에 계정을 할당하고 대상에 활성화합니다 | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [Marketo 및 Workfront Intake 및 만들기](b2b/campaign-intake-and-creation.md) | Workfront Forms 및 Fusion을 사용하여 마케팅 캠페인 요청 접수 및 Marketo Engage 프로그램 생성 자동화 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
+| [Marketo 및 Workfront 검토 및 승인](b2b/campaign-review-and-approval.md) | Fusion Automation을 사용하여 Workfront 증명 및 승인 워크플로를 Marketo Engage 이메일 에셋과 통합 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 
 ## 대화 경험
 
