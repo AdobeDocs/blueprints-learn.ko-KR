@@ -3,11 +3,17 @@ title: Marketo Engage와 Workfront 통합 블루프린트 개요
 description: 개요 - Marketo Engage와 Workfront 통합 블루프린트 개요
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 TQID: https://experienceleague.adobe.com/EbAEhF-UwPQKQA16T6GtZoP0YlqsgQWHby-MLP-bYuc
-product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2:
+  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
 source-wordcount: 1797
