@@ -3,10 +3,14 @@ title: Real-Time CDP와 Adobe Campaign v8 통합 패턴
 description: Adobe Experience Platform의 [실시간 고객 프로필]과 그 중앙 집중식 세분화 도구를 Adobe Campaign v8과 함께 활용하여 개인화된 대화를 게재하는 방법을 소개합니다.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/LANKBKui1B5RfyNI8ufsgjrC98TXpAf74IB-alwDTnk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 64%
+source-wordcount: 264
+ht-degree: 76%
 
 ---
 
@@ -37,7 +41,7 @@ Adobe [!DNL Experience Platform]과(와) 실시간 고객 프로필 및 중앙 �
 
 ## 구현 단계
 
-Campaign v8 소스 커넥터를 Adobe Experience Platform으로 구성하고 Real-time Customer Data Platform 대상 커넥터를 Campaign v8로 구성하는 방법은 다음 설명서를 참조하십시오.
+Adobe Experience Platform으로 연결되는 Campaign v8 소스 커넥터를 구성하고 Campaign v8로 연결되는 Real-time Customer Data Platform 대상 커넥터를 구성하는 방법에 대한 다음 설명서를 참조하세요.
 [Campaign과 AEP 커넥터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ko)
 
 ## 가드레일
