@@ -9,7 +9,7 @@ ht-degree: 0%
 
 아키텍처 다이어그램 페이지에 대한 전체 Markdown 템플릿입니다. 모든 `{placeholder}`을(를) 스킬 워크플로의 1단계 동안 수집된 값으로 바꿉니다. 적용되지 않는 선택적 섹션(예: `>[!MORELIKETHIS]` 블록)을 제거합니다. 생성된 파일에 빈 자리 표시자를 남기지 마십시오.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -60,7 +60,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
----
+&#x200B;---
 
 ## Frontmatter 규칙
 
