@@ -75,7 +75,7 @@ The architecture above supports the following use case patterns:
 - **이미지 경로** — 항상 `assets/{filename}`(페이지의 주제 폴더를 기준으로 함). 절대 경로를 사용하지 마십시오.
 - **Adobe 제품 이름** — 본문 텍스트와 글머리 기호로 `[!DNL ...]`을(를) 래핑합니다. 예: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`
 - **사용 사례 패턴 링크** — 항상 절대 `/help/blueprints/use-case-patterns/{category}/{file}.md` 양식을 사용하므로 링크가 이 콘텐츠를 포함할 수 있는 모든 페이지에서 확인됩니다.
-- **Experience League 링크** — `https://experienceleague.adobe.com/`(으)로 시작하는 절대 URL입니다. 현지화된 변형보다 표준 문서 URL을 선호합니다.
+- **Experience League 링크** — `https://experienceleague.adobe.com/ko`(으)로 시작하는 절대 URL입니다. 현지화된 변형보다 표준 문서 URL을 선호합니다.
 
 ## 섹션 순서 지정
 

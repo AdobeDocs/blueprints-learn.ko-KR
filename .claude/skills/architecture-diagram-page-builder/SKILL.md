@@ -71,7 +71,7 @@ ht-degree: 2%
 
 8. **기본 데이터 흐름/통합 지점** — 다이어그램(예: `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`)에 표시되는 주요 흐름 및 통합 경계를 설명하는 글머리 기호 3~7개.
 
-9. **Experience League 링크** — 자세한 내용은 관련 Experience League 설명서에 대한 3~6개의 링크를 참조하십시오. 각각 `https://experienceleague.adobe.com/`(으)로 시작해야 합니다.
+9. **Experience League 링크** — 자세한 내용은 관련 Experience League 설명서에 대한 3~6개의 링크를 참조하십시오. 각각 `https://experienceleague.adobe.com/ko`(으)로 시작해야 합니다.
 
    **먼저 후보자를 추천합니다.** Adobe 솔루션 및 페이지 용도를 기반으로 4~8개의 그럴듯한 Experience League 문서(예: 각 명명된 솔루션에 대한 표준 랜딩 또는 개요 페이지, 주요 통합 안내서, 배포 참조)를 제안합니다. 각 제안에 대해 다음 내용이 표시됩니다.
    - 문서 제목
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 2. **사용 사례 패턴 링크** — 파일의 모든 패턴 링크는 `/help/blueprints/use-case-patterns/` 아래의 기존 Markdown 파일을 가리킵니다. `Read` 또는 glob을 사용하여 각 대상이 있는지 확인하십시오.
 
-3. **Experience League 링크** — `## Further reading` 섹션의 모든 URL이 `https://experienceleague.adobe.com/`(으)로 시작하는지 확인합니다.
+3. **Experience League 링크** — `## Further reading` 섹션의 모든 URL이 `https://experienceleague.adobe.com/ko`(으)로 시작하는지 확인합니다.
 
 4. **목차 항목 배치** — 새 항목은 올바른 하위 섹션 내에 있으며 4개의 공백 들여쓰기를 사용하며 경로는 생성된 파일 위치와 정확히 일치합니다.
 
