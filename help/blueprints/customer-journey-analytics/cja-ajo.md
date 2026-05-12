@@ -4,6 +4,7 @@ description: Customer Journey Analytics에서 Journey Optimizer의 게재 및 �
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
+tester: Bob
 exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
 TQID: https://experienceleague.adobe.com/LfXHMTiwVFoS95g64Ma00Y9s6qq5h7ppNPCDbVS1JbE
 product_v2:
@@ -14,7 +15,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 762f6273fa3099f15eec529ceaeb2cc609c11b48
 workflow-type: tm+mt
 source-wordcount: 145
 ht-degree: 90%
@@ -34,3 +35,4 @@ Customer Journey Analytics 내 Journey Optimizer 데이터 구현 및 구성에 
 ## Customer Journey Analytics와 Journey Optimizer 아키텍처
 
 ![아키텍처 다이어그램](assets/CJA_AJO.svg){zoomable="yes"}
+
