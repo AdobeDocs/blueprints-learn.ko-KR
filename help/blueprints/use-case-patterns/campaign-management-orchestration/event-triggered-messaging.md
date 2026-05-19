@@ -6,7 +6,7 @@ exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '9040'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -245,7 +245,7 @@ ht-degree: 1%
 **Experience League:**
 
 - [대기 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [조건 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [조건 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [종료 기준](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### 옵션 C: 빈도 거버넌스를 사용하여 이벤트가 트리거됨
@@ -582,13 +582,13 @@ ht-degree: 1%
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A의 경우(간단한 이벤트가 트리거됨):**
+옵션 A(단순 이벤트 트리거)의 경우 **:**
 여정 캔버스는 최소입니다. 이벤트 항목 > 선택적 동의/자격 조건 > 메시지 작업 > 끝. 대기 단계 또는 전환 확인이 없습니다. 이벤트가 발생할 때마다 메시지를 생성해야 하는지에 따라 재입력 규칙을 설정합니다.
 
 옵션 B의 **조건(대기 시간 포함):**
 이벤트 항목 뒤에 대기 노드를 추가합니다. 대기 후 전환을 확인할 조건 노드(예: 여정 입력 후 `commerce.purchases` 이벤트가 발생했는지 확인)를 추가하거나 종료 기준을 사용하여 전환된 프로필을 자동으로 제거합니다. &quot;변환되지 않음&quot; 경로의 메시지 작업과 &quot;변환된&quot; 경로의 끝 노드로 분기합니다.
 
-**옵션 C의 경우(빈도 거버넌스):**
+옵션 C의 **경우(빈도 거버넌스):**
 게시하기 전에 관리 > 비즈니스 규칙을 통해 조직 수준 빈도 상한을 구성합니다. 여정 속성에서 여정 수준 재입력 쿨다운을 설정합니다. 필요한 경우 여정 속성을 통해 우선 순위 점수를 할당하여 최대 한도에 도달할 때 성공하는 커뮤니케이션을 제어합니다. 옵션 A 또는 옵션 B 위에 적용할 수 있습니다.
 
 **Experience League 설명서:**
@@ -596,9 +596,9 @@ ht-degree: 1%
 - [여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [여정 속성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [일반 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [조건 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [조건 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [대기 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [여정에 메시지 추가](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [여정에 메시지 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [종료 기준](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [여정 항목 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [빈도 규칙](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
@@ -764,9 +764,9 @@ ht-degree: 1%
 - [여정 속성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [일반 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [대상자 선별 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [조건 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [조건 활동](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [대기 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [여정에 메시지 추가](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [여정에 메시지 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [종료 기준](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [여정 항목 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [여정 테스트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
