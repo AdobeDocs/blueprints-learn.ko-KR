@@ -10,7 +10,7 @@ landing-page-breadcrumb-title: Tutorials
 type: Tutorial
 doc-type: blueprint
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/blueprints-learn.en
+git-repo: https://github.com/AdobeDocs/blueprints-learn.ko-KR
 index: true
 source-git-commit: 8a30f279131fe7e913dd33c54458bde38904c479
 workflow-type: tm+mt
