@@ -106,10 +106,10 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 | 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 관리 및 거버넌스 | 필수 | [!DNL CJA] B2B edition 및 [!DNL RT-CDP] B2B edition 권한으로 구성된 샌드박스. [!DNL CJA] 및 B2B 데이터 모델에 대한 액세스 권한이 있는 데이터 엔지니어, 애널리스트 및 마케팅 작업 사용자에게 제공된 역할입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home) |
-| 데이터 모델링 및 준비 | 필수 | B2B 클래스를 사용하여 구성된 B2B XDM 스키마: XDM 비즈니스 계정, XDM 비즈니스 영업 기회, XDM 비즈니스 계정 사용자 관계, XDM 비즈니스 영업 기회 사용자 관계 및 XDM 비즈니스 마케팅 목록 멤버. 계정 속성, 영업 기회 단계 및 구매 그룹 역할에 대한 필드 그룹을 정의해야 합니다. 프로필용으로 생성되어 활성화된 데이터 세트. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [B2B edition 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
-| 데이터 소스 및 수집 | 필수 | B2B 데이터 원본은 일반적으로 [!DNL Marketo Engage] 원본 커넥터 또는 [!DNL Salesforce] CRM 원본 커넥터를 통해 연결됩니다. 계정 레코드, 영업 기회 레코드, 개인-계정 관계 및 행동 참여 이벤트가 AEP 데이터 세트로 흘러야 합니다. [!DNL Web SDK] 또는 [!DNL Marketo] 통합은 계정 연결이 있는 동작 이벤트를 캡처해야 합니다. | [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| ID 및 프로필 구성 | 필수 | 개인-계정 관계를 확인하도록 구성된 B2B ID 해결입니다. 계정 ID, 개인 ID([!DNL Marketo] 리드 ID 또는 CRM 연락처 ID) 및 교차 장치 ID(ECID, 이메일)가 연결되어 있어야 합니다. ID 그래프는 B2B 데이터 모델에 내재된 다대다 개인 대 계정 매핑을 지원해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [B2B ID 확인](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
-| 대상 정의 및 세분화 | 가정 위치 | 활성화를 위해 B2B 세그먼트가 [!DNL CJA]에서 AEP으로 다시 게시되는 경우 계정 수준 대상 정의를 사용할 수 있어야 합니다. 분석 전용 사용 사례의 경우 엄격한 사전 요구 사항은 아니지만 세그먼트 기반 분석에 권장됩니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| 데이터 모델링 및 준비 | 필수 | B2B 클래스를 사용하여 구성된 B2B XDM 스키마: XDM 비즈니스 계정, XDM 비즈니스 영업 기회, XDM 비즈니스 계정 사용자 관계, XDM 비즈니스 영업 기회 사용자 관계 및 XDM 비즈니스 마케팅 목록 멤버. 계정 속성, 영업 기회 단계 및 구매 그룹 역할에 대한 필드 그룹을 정의해야 합니다. 프로필용으로 생성되어 활성화된 데이터 세트. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [B2B edition 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b) |
+| 데이터 소스 및 수집 | 필수 | B2B 데이터 원본은 일반적으로 [!DNL Marketo Engage] 원본 커넥터 또는 [!DNL Salesforce] CRM 원본 커넥터를 통해 연결됩니다. 계정 레코드, 영업 기회 레코드, 개인-계정 관계 및 행동 참여 이벤트가 AEP 데이터 세트로 흘러야 합니다. [!DNL Web SDK] 또는 [!DNL Marketo] 통합은 계정 연결이 있는 동작 이벤트를 캡처해야 합니다. | [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home), [Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| ID 및 프로필 구성 | 필수 | 개인-계정 관계를 확인하도록 구성된 B2B ID 해결입니다. 계정 ID, 개인 ID([!DNL Marketo] 리드 ID 또는 CRM 연락처 ID) 및 교차 장치 ID(ECID, 이메일)가 연결되어 있어야 합니다. ID 그래프는 B2B 데이터 모델에 내재된 다대다 개인 대 계정 매핑을 지원해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [B2B ID 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b) |
+| 대상 정의 및 세분화 | 가정 위치 | 활성화를 위해 B2B 세그먼트가 [!DNL CJA]에서 AEP으로 다시 게시되는 경우 계정 수준 대상 정의를 사용할 수 있어야 합니다. 분석 전용 사용 사례의 경우 엄격한 사전 요구 사항은 아니지만 세그먼트 기반 분석에 권장됩니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home) |
 
 ## 지원 기능
 
@@ -117,11 +117,11 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 | 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 추천 | 계정 프로필의 계산된 특성(예: 총 참여 점수, 마지막 활동 이후 일수, 기회 수)은 계정 수준 분석을 위해 [!DNL CJA]에서 사용할 수 있는 분석 차원을 보강합니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | B2B 데이터 세트, 특히 [!DNL Marketo Engage]의 동작 이벤트 데이터는 빠르게 증가할 수 있습니다. 데이터 세트 만료 정책은 스토리지를 관리하고 데이터 보존 요구 사항을 준수하는 데 도움이 됩니다. | [고급 데이터 수명 주기 관리](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | B2B 데이터에는 중요한 비즈니스 정보(계약 가치, 경쟁 인텔리전스)가 포함되는 경우가 많습니다. 데이터 사용 레이블 및 거버넌스 정책은 분석 및 활성화 워크플로 전반에서 이 데이터가 적절하게 사용되도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 모니터링 및 가시성 | 추천 | B2B 소스 커넥터([!DNL Marketo], [!DNL Salesforce])는 수집 상태에 대한 모니터링이 필요합니다. [!DNL CJA]의 연결 상태 모니터링은 분석을 위한 데이터 새로 고침을 보장합니다. 수집 실패에 대한 경고 규칙은 오래된 대시보드를 방지합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | 이 패턴은 그 자체로 분석 패턴입니다. 이 기능은 핵심 실행 계획이 보고 및 분석 기능을 제공함에 따라 기본적으로 포함됩니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 계산/파생 속성 생성 | 추천 | 계정 프로필의 계산된 특성(예: 총 참여 점수, 마지막 활동 이후 일수, 기회 수)은 계정 수준 분석을 위해 [!DNL CJA]에서 사용할 수 있는 분석 차원을 보강합니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
+| 데이터 수명 주기 관리 | 추천 | B2B 데이터 세트, 특히 [!DNL Marketo Engage]의 동작 이벤트 데이터는 빠르게 증가할 수 있습니다. 데이터 세트 만료 정책은 스토리지를 관리하고 데이터 보존 요구 사항을 준수하는 데 도움이 됩니다. | [고급 데이터 수명 주기 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | B2B 데이터에는 중요한 비즈니스 정보(계약 가치, 경쟁 인텔리전스)가 포함되는 경우가 많습니다. 데이터 사용 레이블 및 거버넌스 정책은 분석 및 활성화 워크플로 전반에서 이 데이터가 적절하게 사용되도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
+| 모니터링 및 가시성 | 추천 | B2B 소스 커넥터([!DNL Marketo], [!DNL Salesforce])는 수집 상태에 대한 모니터링이 필요합니다. [!DNL CJA]의 연결 상태 모니터링은 분석을 위한 데이터 새로 고침을 보장합니다. 수집 실패에 대한 경고 규칙은 오래된 대시보드를 방지합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
+| 보고 및 분석 | 포함됨 | 이 패턴은 그 자체로 분석 패턴입니다. 이 기능은 핵심 실행 계획이 보고 및 분석 기능을 제공함에 따라 기본적으로 포함됩니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
@@ -210,7 +210,7 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 **Experience League:**
 
 - [CJA B2B edition 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [B2B edition 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [B2B edition 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
 
 ### 옵션 B: 글로벌 계정 중심 분석
 
@@ -276,8 +276,8 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 **Experience League:**
 
-- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [데이터 보기 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [데이터 보기 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
 
 ### 옵션 비교
 
@@ -365,9 +365,9 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 **Experience League 설명서:**
 
-- [연결 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [연결 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [연결 관리](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [연결 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)
+- [연결 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection)
+- [연결 관리](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/manage-connections)
 - [CJA B2B edition 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### 2단계: 계정 데이터 보기 구성
@@ -436,13 +436,13 @@ B2B 참여에 대해 세션을 정의하는 방법을 결정합니다.
 
 **Experience League 설명서:**
 
-- [데이터 보기 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [구성 요소 설정 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [지속성 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [속성 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [파생 필드](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
-- [세션 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [데이터 보기 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
+- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [구성 요소 설정 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [지속성 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [속성 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [파생 필드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [세션 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/session-settings)
 
 ### 3단계: Workspace 분석
 
@@ -502,18 +502,18 @@ B2B KPI에 필요한 계산된 지표를 결정합니다.
 
 **Experience League 설명서:**
 
-- [Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [프로젝트 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [자유 형식 테이블](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [플로우 시각화](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [폴아웃 시각화](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [코호트 테이블](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [필터 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [계산된 지표 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [계산된 지표 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [주석 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
-- [안내식 분석 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
+- [프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [플로우 시각화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [폴아웃 시각화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [필터 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [계산된 지표 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [계산된 지표 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [주석 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/annotations/overview)
+- [안내식 분석 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/overview)
 - [분류 차원](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 ### 4단계: 대시보드 게시
@@ -557,13 +557,13 @@ B2B 분석 통찰력이 이해 당사자에게 전달되는 방법을 결정합�
 
 **Experience League 설명서:**
 
-- [모바일 스코어카드 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
-- [프로젝트 공유](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [프로젝트 예약](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [모바일 스코어카드 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [프로젝트 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [프로젝트 예약](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [스코어카드 구성 및 조정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics 대시보드 — 경영진 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [대상 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [대상자 생성 및 게시](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Adobe Analytics 대시보드 — 경영진 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [대상 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [대상자 생성 및 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)
 
 ## 구현 시 고려 사항
 
@@ -571,7 +571,7 @@ B2B 분석 통찰력이 이해 당사자에게 전달되는 방법을 결정합�
 
 ### 보호 기능 및 제한 사항
 
-- [!DNL CJA] 연결에는 하나의 AEP 샌드박스에서만 데이터 세트를 포함할 수 있습니다. [CJA 보호](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [!DNL CJA] 연결에는 하나의 AEP 샌드박스에서만 데이터 세트를 포함할 수 있습니다. [CJA 보호](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-admin/guardrails)
 - 데이터 보기당 최대 5,000개의 차원 및 5,000개의 지표
 - 데이터 보기당 최대 100개의 파생 필드
 - B2B 속성은 계정 수준 분석을 위해 최대 13개월까지 전환 확인 기간을 지원합니다
@@ -638,88 +638,88 @@ B2B 분석 통찰력이 이해 당사자에게 전달되는 방법을 결정합�
 **[!DNL CJA]B2B edition**
 
 - [CJA B2B edition 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA 보호 기능](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA 보호 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-admin/guardrails)
 
 **연결**
 
-- [연결 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [연결 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [연결 관리](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [연결 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)
+- [연결 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection)
+- [연결 관리](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/manage-connections)
 
 **데이터 보기**
 
-- [데이터 보기 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [구성 요소 설정 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [지속성 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [속성 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [형식 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [파생 필드](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
-- [세션 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [데이터 보기 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
+- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [구성 요소 설정 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [지속성 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [속성 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [형식 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [파생 필드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [세션 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/session-settings)
 
 **Workspace 및 분석**
 
-- [Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [프로젝트 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [자유 형식 테이블](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [플로우 시각화](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [폴아웃 시각화](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [코호트 테이블](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [프로젝트 공유](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [프로젝트 예약](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
+- [프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [플로우 시각화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [폴아웃 시각화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [프로젝트 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [프로젝트 예약](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [분류 차원](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 **구성 요소**
 
-- [필터 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [필터 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [계산된 지표 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [계산된 지표 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [주석 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [필터 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [필터 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [계산된 지표 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [계산된 지표 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [주석 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/annotations/overview)
 - [날짜 범위](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
 
 **대상**
 
-- [대상 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [대상자 생성 및 게시](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
-- [대상자 관리](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
+- [대상 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [대상자 생성 및 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)
+- [대상자 관리](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/manage)
 
 **대시보드 및 스코어카드**
 
-- [모바일 스코어카드 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [모바일 스코어카드 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [스코어카드 구성 및 조정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics 대시보드 — 경영진 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Adobe Analytics 대시보드 — 경영진 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/set-up-execs)
 
 **분석 가이드**
 
-- [안내식 분석 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [안내식 분석 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [트렌드 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [유지 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [트렌드 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [유지 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 **[!DNL RT-CDP]B2B edition**
 
 - [RT-CDP B2B edition 개요](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#702702)
-- [B2B edition 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [B2B 소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/sources/b2b)
+- [B2B edition 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
+- [B2B 소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/sources/b2b)
 
 **AEP 데이터 기반**
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
+- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+- [Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
 - [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)
 
 **데이터 거버넌스 및 라이프사이클**
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [고급 데이터 수명주기 관리](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
+- [고급 데이터 수명주기 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home)
 
 **튜토리얼 및 가이드**
 
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
+- [계산된 속성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
+- [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home)

@@ -116,9 +116,9 @@ ht-degree: 0%
 
 | 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 필수 | [!DNL Brand Concierge] 권한이 활성화된 샌드박스, 대화형 경험 관리자, 콘텐츠 관리자 및 분석 사용자에 대해 구성된 역할, PII 또는 중요한 고객 신호가 포함된 대화형 데이터에 대해 ABAC 정책 배치 | [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 관리 및 거버넌스 | 필수 | [!DNL Brand Concierge] 권한이 활성화된 샌드박스, 대화형 경험 관리자, 콘텐츠 관리자 및 분석 사용자에 대해 구성된 역할, PII 또는 중요한 고객 신호가 포함된 대화형 데이터에 대해 ABAC 정책 배치 | [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
 | 데이터 모델링 및 준비 | 필수 | 대화 이벤트에 대한 XDM 스키마(의도, 감정, 제품 상호 작용 및 전달 이벤트를 캡처하는 대화별 필드 그룹이 있는 ExperienceEvent 클래스), 대화 환경 설정 및 의도 속성으로 확장된 프로필 스키마, 권장 사항 접지를 위한 제품 카탈로그 조회 스키마 | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| 데이터 소스 및 수집 | 필수 | 대화형 이벤트 데이터를 AEP 데이터 세트로 라우팅하는 데이터 스트림으로 구성된 [!DNL Web SDK] 또는 [!DNL Mobile SDK], 대화 중 실시간 이벤트 캡처를 위한 [!DNL Edge Network] 통합, 소스 커넥터 또는 일괄 처리 수집을 통해 수집된 제품 카탈로그 데이터 | [Web SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
+| 데이터 소스 및 수집 | 필수 | 대화형 이벤트 데이터를 AEP 데이터 세트로 라우팅하는 데이터 스트림으로 구성된 [!DNL Web SDK] 또는 [!DNL Mobile SDK], 대화 중 실시간 이벤트 캡처를 위한 [!DNL Edge Network] 통합, 소스 커넥터 또는 일괄 처리 수집을 통해 수집된 제품 카탈로그 데이터 | [Web SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home) |
 | ID 및 프로필 구성 | 필수 | 방문자 식별을 위해 구성된 ID 네임스페이스(익명의 경우 ECID, 인증된 경우 CRM ID 또는 이메일), 대화 중 실시간 프로필 조회를 위해 Edge 활성화로 구성된 병합 정책, 장치 간 대화 연속성을 위한 ID 연결 규칙 | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
 | 대상 정의 및 세분화 | 가정 위치 | 핵심 대화 배포에는 필요하지 않지만 개인화된 대화 전략에 필요한 대상(예: 고가치 고객 세그먼트는 다양한 대화 흐름을 받음), 실시간 대화 개인화에 권장되는 스트리밍 또는 에지 평가 | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
@@ -519,10 +519,10 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 **Experience League 설명서:**
 
 - [Brand Concierge 배포](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
 - [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
 - [프로필 API 엔티티 엔드포인트](https://experienceleague.adobe.com/en/docs/experience-platform/profile/api/entities)
-- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
 
 ### 5단계: 프로필 보강
 
@@ -568,7 +568,7 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 - [계산된 속성 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
 - [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
 - [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
 
 ### 6단계: 분석 및 최적화
 
@@ -691,11 +691,11 @@ Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정
 - [AEP 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
 - [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
 - [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
 
 **데이터 수집 및 통합**
 
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
 - [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
 - [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 - [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
