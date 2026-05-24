@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: Adobe Experience Platform 블루프린트 저장소에 대한 새 아키텍처 다이어그램 페이지 만들기 안내서입니다. 새로운 최상위 아키텍처 다이어그램, 통합 아키텍처 페이지 또는 애플리케이션 아키텍처 개요를 추가할 때 이 기술을 사용하십시오. 아키텍처 페이지는 심층적인 사용 사례(사용 사례 패턴 빌더에 속함)가 아닌 최상위 수준의 AEP 및 애플리케이션 아키텍처와 주요 통합 지점을 다룹니다. 페이지 정보 수집, Markdown 파일 생성, 올바른 항목 폴더에 배치, TOC.md 업데이트와 같은 전체 워크플로를 처리합니다.
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 - 기본 데이터 흐름 및 통합 지점에 대한 간략한 목록 그림
 - 애플리케이션 도메인에서 자세히 읽기 위한 Experience League 링크
 
-자세한 사용 사례 콘텐츠 위치가 **아닙니다**. KPI, 비즈니스 목표, 전술적 사용 사례 예, 기능 체인 및 성향 설명은 `use-case-pattern-builder` 스킬을 통해 생성된 사용 사례 패턴 페이지에 대신 속합니다. 전체 보호 기능은 `references/scope-guardrails.md`을(를) 참조하십시오.
+자세한 사용 사례 콘텐츠 위치가 **아닙니다**. `use-case-pattern-builder` 스킬을 통해 생성된 사용 사례 패턴 페이지에는 KPI, 비즈니스 목표, 전술적 사용 사례 예, 기능 및 성향 설명이 대신 포함됩니다. 전체 보호 기능은 `references/scope-guardrails.md`을(를) 참조하십시오.
 
 ## 시작하기 전에 읽어야 함
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 - KPI 또는 측정 공식
 - 비즈니스 목표 또는 비즈니스 영향 설명
 - 전술적 사용 사례 예(특정 개인화 시나리오, 캠페인 예 등)
-- 함수 체인(`A > B > C > D` 스타일)
+- 기능(`A > B > C > D` 스타일)
 - 사용자 중심의 storytelling
 
 계획된 컨텐츠가 아키텍처 페이지 범위(최상위 아키텍처, 시스템 데이터 흐름, 통합 지점, 배포 토폴로지, 에지 및 허브) 내에 있는 경우 사용자에게 확인하고 3단계로 진행합니다.
@@ -192,4 +192,4 @@ ht-degree: 2%
 - 아키텍처 다이어그램은 일반적으로 SVG(선명하고 크기 조절에 선호됨)이지만 래스터 소스 아트워크에는 PNG를 사용할 수 있습니다.
 - `<img>` 포함 인라인 스타일 문자열(`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) 및 `class="modal-image"`이 필요합니다. 이 문자열을 사용하면 Experience League 모달 확대/축소 상호 작용을 사용할 수 있습니다.
 - 사용자가 아직 존재하지 않는 완전히 새로운 주제 폴더의 페이지를 만드는 경우 TOC.md에 `+ Architecture Diagrams and Blueprints{#architecture-diagrams}` 아래에 새로운 최상위 하위 섹션이 필요하다는 경고를 표시하십시오. 사용자의 명시적 승인을 통해 이를 별도의 단계로 처리합니다.
-- 아키텍처 다이어그램이 *단일 사용 사례 전체*&#x200B;을(를) 광범위하게 문서화하는 경우(KPI, 비즈니스 목표, 기능 체인 포함) 사용자를 `use-case-pattern-builder`(아키텍처 페이지가 아님)으로 리디렉션합니다.
+- 아키텍처 다이어그램이 *단일 사용 사례 전체*&#x200B;을(를) 광범위하게 문서화하는 경우(KPI, 비즈니스 목표, 기능 포함) 사용자를 `use-case-pattern-builder`(아키텍처 페이지가 아님)으로 리디렉션하십시오.

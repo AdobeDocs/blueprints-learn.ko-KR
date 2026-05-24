@@ -3,7 +3,7 @@ title: Brand Concierge 대화 경험
 description: 디지털 속성을 고객 검색을 안내하는 AI 기반의 브랜드 안전 대화 경험으로 변환하는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7239'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 사용 사례 개요
 
-조직에서는 정적 디지털 경험을 검색, 제품 선택 및 구매 결정을 통해 고객을 안내하는 역동적이고 AI가 지원하는 대화로 전환하고자 하는 경우가 점점 늘어나고 있습니다. [!DNL Adobe Brand Concierge] AEP Agent Orchestrator에서 제공하는 기존 디지털 속성 위에 있는 오케스트레이션된 대화형 AI 레이어를 제공하여 이러한 문제를 해결합니다.
+조직에서는 정적 디지털 경험을 검색, 제품 선택 및 구매 결정을 통해 고객을 안내하는 역동적이고 AI가 지원하는 대화로 전환하고자 하는 경우가 점점 늘어나고 있습니다. [!DNL Adobe Brand Concierge]은(는) AEP Agent Orchestrator에서 제공하는 기존 디지털 속성 위에 있는 오케스트레이션된 대화형 AI 계층을 제공하여 이를 해결합니다.
 
 이 패턴은 AEP의 통합 프로필과 기본적으로 통합되고, 브랜드 거버넌스 가드레일을 사용하여 모든 응답이 브랜드 표준에 부합하도록 하며, 다운스트림 개인화 및 활성화를 위해 대화 신호를 고객 데이터 플랫폼에 다시 공급하기 때문에 기존 챗봇 구현과 구별됩니다.
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 디지털 속성을 자연스러운 대화 상자를 통해 고객 검색을 안내하고 의도 및 감정 신호로 프로필을 보강하며 개인화된 제품 추천을 제공하는 AI 기반의 브랜드 안전 대화 경험으로 전환합니다.
 
-**기능 체인:** 에이전트 구성 > 브랜드 거버넌스 설정 > 콘텐츠 통합 > 대화형 경험 배포 > 프로필 강화 > 분석 및 최적화
+**실행 계획:** 에이전트 구성 > Brand Governance 설정 > 콘텐츠 통합 > 대화형 경험 배포 > 프로필 강화 > 분석 및 최적화
 
 ## 애플리케이션
 
@@ -110,37 +110,37 @@ ht-degree: 0%
 - **[!DNL Adobe Experience Platform] (AEP)** — XDM 스키마, ID 확인, 실시간 고객 프로필 및 대화 신호를 위한 데이터 수집 인프라를 제공하는 통합 데이터 기반
 - **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — 개인화된 대화에 대한 실시간 프로필 조회, 대화 신호의 대상자 세분화 및 의도 및 감정 데이터를 통한 프로필 강화를 제공하는 고객 데이터 플랫폼
 
-## 기본 함수
+## 기본 기능
 
-이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
+이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 기능에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지를 나타냅니다.
 
-| 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
+| 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 관리 및 거버넌스 | 필수 | [!DNL Brand Concierge] 권한이 활성화된 샌드박스, 대화형 경험 관리자, 콘텐츠 관리자 및 분석 사용자에 대해 구성된 역할, PII 또는 중요한 고객 신호가 포함된 대화형 데이터에 대해 ABAC 정책 배치 | [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | 대화 이벤트에 대한 XDM 스키마(의도, 감정, 제품 상호 작용 및 전달 이벤트를 캡처하는 대화별 필드 그룹이 있는 ExperienceEvent 클래스), 대화 환경 설정 및 의도 속성으로 확장된 프로필 스키마, 권장 사항 접지를 위한 제품 카탈로그 조회 스키마 | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) |
+| 데이터 모델링 및 준비 | 필수 | 대화 이벤트에 대한 XDM 스키마(의도, 감정, 제품 상호 작용 및 전달 이벤트를 캡처하는 대화별 필드 그룹이 있는 ExperienceEvent 클래스), 대화 환경 설정 및 의도 속성으로 확장된 프로필 스키마, 권장 사항 접지를 위한 제품 카탈로그 조회 스키마 | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
 | 데이터 소스 및 수집 | 필수 | 대화형 이벤트 데이터를 AEP 데이터 세트로 라우팅하는 데이터 스트림으로 구성된 [!DNL Web SDK] 또는 [!DNL Mobile SDK], 대화 중 실시간 이벤트 캡처를 위한 [!DNL Edge Network] 통합, 소스 커넥터 또는 일괄 처리 수집을 통해 수집된 제품 카탈로그 데이터 | [Web SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home) |
-| ID 및 프로필 구성 | 필수 | 방문자 식별을 위해 구성된 ID 네임스페이스(익명의 경우 ECID, 인증된 경우 CRM ID 또는 이메일), 대화 중 실시간 프로필 조회를 위해 Edge 활성화로 구성된 병합 정책, 장치 간 대화 연속성을 위한 ID 연결 규칙 | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home) |
-| 대상 정의 및 세분화 | 가정 위치 | 핵심 대화 배포에는 필요하지 않지만 개인화된 대화 전략에 필요한 대상(예: 고가치 고객 세그먼트는 다양한 대화 흐름을 받음), 실시간 대화 개인화에 권장되는 스트리밍 또는 에지 평가 | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home) |
+| ID 및 프로필 구성 | 필수 | 방문자 식별을 위해 구성된 ID 네임스페이스(익명의 경우 ECID, 인증된 경우 CRM ID 또는 이메일), 대화 중 실시간 프로필 조회를 위해 Edge 활성화로 구성된 병합 정책, 장치 간 대화 연속성을 위한 ID 연결 규칙 | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| 대상 정의 및 세분화 | 가정 위치 | 핵심 대화 배포에는 필요하지 않지만 개인화된 대화 전략에 필요한 대상(예: 고가치 고객 세그먼트는 다양한 대화 흐름을 받음), 실시간 대화 개인화에 권장되는 스트리밍 또는 에지 평가 | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
-## 기능 지원
+## 지원 기능
 
 다음 기능은 이 사용 사례 패턴을 강화하지만 코어 실행에는 필요하지 않습니다.
 
-| 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
+| 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 추천 | 다운스트림 세그먼테이션 및 개인화에 사용할 수 있도록 대화 신호를 프로필 수준 속성(예: 총 대화, 주요 제품 관심, 평균 감정 점수)으로 집계 | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | 대화 이벤트 데이터에 대한 보존 정책을 구성하고, 대화 기록 및 프로파일링에 대한 동의를 관리하며, 대화 기록에 대한 개인 정보 삭제 요청을 지원합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | PII, 감정 또는 의도 신호가 포함된 대화 데이터 필드에 레이블을 지정하고 중요한 대화 데이터가 승인되지 않은 대상에 도달하지 못하도록 거버넌스 정책을 적용합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
-| 모니터링 및 가시성 | 추천 | 대화 이벤트 수집 파이프라인을 모니터링하고, 프로필 보강 성공률을 추적하고, 대화 개인화 품질에 영향을 줄 수 있는 데이터 흐름 실패에 대해 경고합니다 | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | 크로스 채널 대화 영향 분석을 위해 [!DNL Brand Concierge] 기본 제공 분석 및 [!DNL CJA]을(를) 사용하여 대화 성과, 고객 피드백, 전환 속성 및 에이전트 효과를 분석합니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 계산/파생 속성 생성 | 추천 | 다운스트림 세그먼테이션 및 개인화에 사용할 수 있도록 대화 신호를 프로필 수준 속성(예: 총 대화, 주요 제품 관심, 평균 감정 점수)으로 집계 | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 데이터 수명 주기 관리 | 추천 | 대화 이벤트 데이터에 대한 보존 정책을 구성하고, 대화 기록 및 프로파일링에 대한 동의를 관리하며, 대화 기록에 대한 개인 정보 삭제 요청을 지원합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | PII, 감정 또는 의도 신호가 포함된 대화 데이터 필드에 레이블을 지정하고 중요한 대화 데이터가 승인되지 않은 대상에 도달하지 못하도록 거버넌스 정책을 적용합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 모니터링 및 가시성 | 추천 | 대화 이벤트 수집 파이프라인을 모니터링하고, 프로필 보강 성공률을 추적하고, 대화 개인화 품질에 영향을 줄 수 있는 데이터 흐름 실패에 대해 경고합니다 | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 보고 및 분석 | 포함됨 | 크로스 채널 대화 영향 분석을 위해 [!DNL Brand Concierge] 기본 제공 분석 및 [!DNL CJA]을(를) 사용하여 대화 성과, 고객 피드백, 전환 속성 및 에이전트 효과를 분석합니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
-이 계획은 응용 프로그램 함수 카탈로그에서 다음 함수를 실행합니다. 함수는 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
+이 계획에서는 응용 프로그램 기능 카탈로그에서 다음 기능을 수행합니다. 기능은 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
 
 ### [!DNL Brand Concierge]
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 에이전트 구성 | 1단계: 에이전트 구성 | 에이전트 전문 기술(제품 관리자, 사이트 자문) 및 기본 동작 설정을 사용하여 [!DNL Brand Concierge] 에이전트 Orchestrator 구성 |
 | 브랜드 거버넌스 설정 | 2단계: 브랜드 거버넌스 설정 | 브랜드 음성, 톤, 메시징 가드레일, 승인된 콘텐츠 경계 및 모든 대화 상호 작용을 형성하는 금지된 주제를 정의합니다 |
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 ### [!DNL Real-Time CDP]
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 실시간 프로필 조회 | 4단계: 대화형 경험 배포 | 실시간 고객 프로필 속성 및 세그먼트 멤버십에 액세스하여 알려진 고객 데이터를 기반으로 대화 응답을 개인화합니다 |
 | 프로필 보강 | 5단계: 프로필 보강 | 대화 행동 이벤트(의도 점수, 감정 트렌드, 제품 선호도)에서 파생된 계산된 속성으로 프로필을 보강합니다. |
@@ -312,7 +312,7 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 
 ### 1단계: 에이전트 구성
 
-**응용 프로그램 함수:** [!DNL Brand Concierge]: 에이전트 구성
+**응용 프로그램 기능:** [!DNL Brand Concierge]: 에이전트 구성
 
 에이전트 전문 기술(제품 관리자, 사이트 자문 또는 둘 다)을 선택하고, 기본 에이전트 동작을 구성하고, 프로필 액세스 및 이벤트 캡처를 위해 [!DNL Brand Concierge]과(와) AEP 간의 연결을 설정하는 등 핵심 [!DNL Brand Concierge] 에이전트 Orchestrator를 구성합니다.
 
@@ -350,10 +350,10 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A(제품 관리자)의 경우:**
+옵션 A(제품 관리자)의 **:**
 제품 관리자 전문화를 활성화하고 제품 카탈로그 데이터 소스에 대한 연결을 구성합니다. 응답당 최대 권장 사항 수, 제품 속성 표시 환경 설정 및 비교 처리 규칙을 포함하여 제품 권장 사항 매개 변수를 설정합니다.
 
-옵션 B의 **사이트 자문:**
+옵션 B의 경우 **사이트 자문:**
 사이트 자문 전문화를 활성화하고 사이트 콘텐츠 인덱스에 대한 연결을 구성합니다. 콘텐츠 범위 경계, 페이지 카테고리 처리 및 딥링크 생성 환경 설정을 포함한 탐색 매개 변수를 설정합니다.
 
 옵션 C의 **(결합):**
@@ -362,12 +362,12 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 **Experience League 설명서:**
 
 - [Brand Concierge 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)
+- [AI Assistant 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 - [AEP Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 
 ### 2단계: 브랜드 거버넌스 설정
 
-**응용 프로그램 함수:** [!DNL Brand Concierge]: Brand Governance 설정
+**응용 프로그램 기능:** [!DNL Brand Concierge]: Brand Governance 설정
 
 모든 대화 상호 작용을 형성하는 브랜드 거버넌스 가드레일을 구성합니다. 여기에는 브랜드 음성 및 색조 정의, 승인된 콘텐츠 경계, 금지된 주제, 응답 스타일 지침 및 에스컬레이션 규칙이 포함됩니다. 브랜드 거버넌스는 모든 AI 생성 응답이 브랜드 표준에 부합하도록 보장합니다.
 
@@ -408,11 +408,11 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 **Experience League 설명서:**
 
 - [Brand Concierge 브랜드 거버넌스](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [AI Assistant 작동 인사이트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)
+- [AI Assistant 작동 인사이트](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
 ### 3단계: 컨텐츠 통합
 
-**응용 프로그램 함수:** [!DNL Brand Concierge]: 콘텐츠 통합, 제품 관리자 구성, 사이트 자문 구성
+**응용 프로그램 기능:** [!DNL Brand Concierge]: 콘텐츠 통합, 제품 관리자 구성, 사이트 자문 구성
 
 브랜드에서 승인한 정확한 정보로 대화 응답을 기반으로 하는 콘텐츠 소스를 구성합니다. 여기에는 제품 카탈로그 통합, AEM 컨텐츠 연결, 기술 자료 가져오기 및 컨텐츠 새로 고침 일정이 포함됩니다.
 
@@ -450,10 +450,10 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A(제품 관리자)의 경우:**
+옵션 A(제품 관리자)의 **:**
 풍부한 제품 속성 매핑을 통한 제품 카탈로그 통합에 주력하십시오. 제안할 제품 수, 재고 부족 항목을 처리하는 방법, 제품 비교를 제공하는 방법, 고객 프로필 데이터(구매 내역, 검색 동작)를 추천 순위에 통합하는 방법 등을 포함하여 Product Advisor Agent의 추천 로직을 구성합니다.
 
-옵션 B의 **사이트 자문:**
+옵션 B의 경우 **사이트 자문:**
 페이지 계층 구조 매핑을 사용한 사이트 콘텐츠 색인화에 중점을 둡니다. 방문자 의도를 해석하는 방법, 우선 순위를 지정할 콘텐츠 카테고리, 모호한 탐색 요청을 처리하는 방법, 방문자의 현재 페이지 컨텍스트 및 세션 동작을 기반으로 제안을 조정하는 방법을 포함하여 사이트 자문 에이전트의 탐색 논리를 구성합니다.
 
 옵션 C의 **(결합):**
@@ -464,11 +464,11 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 - [Brand Concierge 콘텐츠 구성](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Brand Concierge 제품 관리자](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge 사이트 관리자](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 ### 4단계: 대화형 경험 배포
 
-**응용 프로그램 함수:** [!DNL Brand Concierge]: 대화형 경험 배포, 로우 코드 흐름 관리, 라이브 에이전트 핸드오프; [!DNL RT-CDP]: 실시간 프로필 조회
+**응용 프로그램 기능:** [!DNL Brand Concierge]: 대화형 경험 배포, 로우 코드 흐름 관리, 라이브 에이전트 핸드오프; [!DNL RT-CDP]: 실시간 프로필 조회
 
 채널 구성, 위젯 사용자 정의, 개인화를 위한 프로필 조회 통합, 라이브 에이전트 핸드오프 규칙 및 지속적인 콘텐츠 관리를 위한 로우 코드 도구를 포함하여 대상 디지털 속성에 대한 대화 경험을 배포합니다.
 
@@ -520,13 +520,13 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 
 - [Brand Concierge 배포](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
-- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)
-- [프로필 API 엔티티 엔드포인트](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/api/entities)
+- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [프로필 API 엔티티 엔드포인트](https://experienceleague.adobe.com/en/docs/experience-platform/profile/api/entities)
 - [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
 
 ### 5단계: 프로필 보강
 
-**응용 프로그램 함수:** [!DNL Brand Concierge]: 대화형 프로필 보강, [!DNL RT-CDP]: 프로필 보강, 대상 평가
+**응용 프로그램 기능:** [!DNL Brand Concierge]: 대화형 프로필 보강, [!DNL RT-CDP]: 프로필 보강, 대상 평가
 
 대화형 신호를 AEP 통합 고객 프로필에 다시 제공하는 캡처 및 보강 파이프라인을 구성합니다. 여기에는 대화 이벤트를 XDM에 매핑, 의도 및 감정 신호 추출, 대화 데이터에서 계산된 속성 생성, 대화 동작을 기반으로 대상 구축 등이 포함됩니다.
 
@@ -564,15 +564,15 @@ Product Advisor Agent 및 Site Advisory Agent가 모두 [!DNL Brand Concierge] O
 
 **Experience League 설명서:**
 
-- [계산된 속성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
-- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/ui)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
-- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
 
 ### 6단계: 분석 및 최적화
 
-**응용 프로그램 함수:** [!DNL Brand Concierge]: 대화형 분석
+**응용 프로그램 기능:** [!DNL Brand Concierge]: 대화형 분석
 
 Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정하고, 최적화 기회를 식별하고, KPI를 추적합니다. 여기에는 [!DNL Brand Concierge]개의 기본 제공 분석, 크로스 채널 대화 영향 분석을 위한 선택적 [!DNL CJA] 통합 및 지속적인 최적화 워크플로가 포함됩니다.
 
@@ -601,9 +601,9 @@ Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정
 **Experience League 설명서:**
 
 - [Brand Concierge analytics](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [CJA Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
-- [CJA 연결 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection)
-- [CJA 데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [CJA Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [CJA 연결 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [CJA 데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## 구현 시 고려 사항
 
@@ -612,11 +612,11 @@ Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정
 ### 보호 기능 및 제한 사항
 
 - [!DNL Brand Concierge] 대화 경험은 AI 응답 생성률 제한을 받습니다. 동시 대화 용량은 권한 계층에 따라 다릅니다.
-- 대화 중 실시간 프로필 조회는 샌드박스당 프로필 API 속도 제한을 받습니다. [실시간 고객 프로필 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- 대화형 이벤트 데이터 수집은 표준 AEP 스트리밍 수집 제한을 따릅니다. — [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
+- 대화 중 실시간 프로필 조회는 샌드박스당 프로필 API 속도 제한을 받습니다. [실시간 고객 프로필 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 대화형 이벤트 데이터 수집은 표준 AEP 스트리밍 수집 제한을 따릅니다. — [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
 - 제품 카탈로그 크기 및 콘텐츠 인덱스 볼륨에 [!DNL Brand Concierge] 콘텐츠 통합 제한이 적용됩니다.
-- 샌드박스당 최대 25개의 연산 속성이 대화 신호 집계에 적용됩니다. — [연산 속성 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
-- 샌드박스당 최대 4,000개의 세그먼트 정의가 대화 대상에 적용됩니다. — [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- 샌드박스당 최대 25개의 연산 속성이 대화 신호 집계에 적용됩니다. — [연산 속성 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- 샌드박스당 최대 4,000개의 세그먼트 정의가 대화 대상에 적용됩니다. — [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 ### 일반적인 함정
 
@@ -684,57 +684,57 @@ Analytics 대시보드 및 보고를 설정하여 대화 경험 성과를 측정
 - [Brand Concierge 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Brand Concierge 제품 관리자](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge 사이트 관리자](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)
+- [AI Assistant 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
 **[!DNL Adobe Experience Platform]**
 
-- [AEP 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home)
-- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
+- [AEP 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 - [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
 
 **데이터 수집 및 통합**
 
 - [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
 - [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
-- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)
-- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 **ID 및 프로필**
 
-- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
-- [계산된 속성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
+- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 
 **대상 및 세분화**
 
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
-- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 **데이터 거버넌스 및 개인 정보 보호**
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
-- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents)
-- [Privacy Service 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/home)
-- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Privacy Service 개요](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home)
+- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
 
 **모니터링 및 관찰 가능성**
 
-- [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home)
-- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
 
 **분석 및 보고**
 
-- [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA 연결 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)
-- [CJA 데이터 보기 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
+- [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA 연결 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [CJA 데이터 보기 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 
 **보호 기능**
 
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
-- [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)

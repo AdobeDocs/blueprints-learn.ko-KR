@@ -3,10 +3,10 @@ title: 일괄 아웃바운드 메시지 활성화
 description: 대상자를 평가하고 예약된 아웃바운드 메시지를 단일 배치 실행으로 전달하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8246'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 대상을 평가한 다음, 단일 배치 실행에서 모든 자격 있는 프로필에 예약된 아웃바운드 메시지(이메일, SMS, 푸시)를 전달합니다.
 
-**함수 체인:** 대상 평가 > 메시지 작성 > 캠페인 실행 > 보고
+**실행 계획:** 대상 평가 > 메시지 작성 > 캠페인 실행 > 보고
 
 ## 애플리케이션
 
@@ -94,11 +94,11 @@ ht-degree: 1%
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - 대상 평가, 동의 및 거버넌스 적용
 - **[!DNL Adobe Experience Platform] (AEP)** — 프로필 저장소, ID 서비스, 스키마, 데이터 세트, 데이터 수집
 
-## 기본 함수
+## 기본 기능
 
-이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
+이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 기능에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지를 나타냅니다.
 
-| 기본 함수 | 상태 | 제자리에 있어야 하는 사항 | Experience League 참조 |
+| 기본 기능 | 상태 | 제자리에 있어야 하는 사항 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 관리 및 거버넌스 | 가정 위치 | AJO 샌드박스가 활성 채널 구성으로 프로비저닝되었습니다. 하위 도메인 위임, IP 풀 할당 및 IP 웜업 전송 완료. 캠페인/여정 생성 권한이 할당된 사용자 역할. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
 | 데이터 모델링 및 준비 | 필수 | 세분화 및 개인화에 사용되는 속성(예: 이름, 이메일, 환경 설정, 계층)이 있는 XDM 개별 프로필 스키마. 캠페인 이후 전환 추적을 위해 대상 전환 작업(예: `commerce.purchases`, `web.webInteraction`)을 캡처하는 XDM ExperienceEvent 스키마. 두 스키마 모두에 대해 프로필 지원 데이터 세트입니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) |
@@ -106,7 +106,7 @@ ht-degree: 1%
 | ID 및 프로필 구성 | 가정 위치 | 이메일(및 모든 교차 장치 식별자)에 대한 ID 네임스페이스가 구성되어 있습니다. 전송 시 매핑, 수집 및 해결 가능한 개인화에 필요한 프로필 속성. 병합 정책이 구성되었습니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview) |
 | 대상 정의 및 세분화 | 필수 | 세그먼트 빌더 또는 대상 구성을 사용하여 RT-CDP에 정의된 대상. 0이 아닌 모집단으로 게시하고 평가하는 대상자입니다. RT-CDP 대상 평가를 통한 구현 1단계에서 다룹니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## 기능 지원
+## 지원 기능
 
 다음 기능은 이 사용 사례 패턴을 강화하지만 코어 실행에는 필요하지 않습니다.
 
@@ -120,11 +120,11 @@ ht-degree: 1%
 
 ## 애플리케이션 기능
 
-이 계획은 응용 프로그램 함수 카탈로그에서 다음 함수를 실행합니다. 함수는 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
+이 계획에서는 응용 프로그램 기능 카탈로그에서 다음 기능을 수행합니다. 기능은 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
 
 ### [!DNL Journey Optimizer]&#x200B;(AJO)
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 채널 구성 | 2단계: 채널 구성 | 하위 도메인, IP 풀, 발신자 설정 및 제외 목록을 포함한 채널 표면(이메일, SMS 또는 푸시)을 구성하거나 확인합니다 |
 | 메시지 작성 | 3단계: 메시지 작성 | 템플릿, 이메일 Designer, 개인화 표현식, 조건부 콘텐츠 블록 및 콘텐츠 조각을 사용하여 메시지 콘텐츠 만들기 |
@@ -136,7 +136,7 @@ ht-degree: 1%
 
 ### [!DNL Real-Time CDP]&#x200B;(RT-CDP)
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 대상 평가 | 1단계: 대상 평가 | 세그먼트 빌더 또는 대상 컴포지션을 사용하여 대상 규칙을 정의하고 평가 방법(일괄 처리, 스트리밍 또는 에지)을 선택한 다음 대상 모집단을 확인합니다 |
 | 동의 및 거버넌스 적용 | 1단계: 대상 평가 | 동의 환경 설정 및 데이터 사용 정책을 적용하여 동의한 프로필만 캠페인 메시지를 받도록 합니다. |
@@ -309,7 +309,7 @@ API로 트리거된 캠페인은 트리거되는 시스템 이벤트가 발생�
 
 ### 1단계: 대상 평가
 
-**응용 프로그램 함수:** RT-CDP: 대상 평가
+**응용 프로그램 기능:** RT-CDP: 대상 평가
 
 이 단계에서는 캠페인 메시지를 받을 타겟 대상 세그먼트를 정의하고 평가합니다. 프로필 속성, 동작 신호 및 제외 규칙을 기반으로 전송 대상 프로필을 결정합니다.
 
@@ -381,7 +381,7 @@ API로 트리거된 캠페인은 트리거되는 시스템 이벤트가 발생�
 
 ### 2단계: 채널 구성
 
-**응용 프로그램 함수:** AJO: 채널 구성
+**응용 프로그램 기능:** AJO: 채널 구성
 
 이 단계에서는 메시지의 전송 인프라(하위 도메인, IP 풀, 보낸 사람 ID, 회신 주소 및 구독 취소 설정)를 정의하는 채널 표면(사전 설정)을 확인하거나 만듭니다. 메시지 콘텐츠를 작성하거나 캠페인을 활성화하려면 먼저 유효한 채널 표면이 있어야 합니다.
 
@@ -440,7 +440,7 @@ API로 트리거된 캠페인은 트리거되는 시스템 이벤트가 발생�
 
 ### 3단계: 메시지 작성
 
-**응용 프로그램 함수:** AJO: 메시지 작성
+**응용 프로그램 기능:** AJO: 메시지 작성
 
 이 단계에서는 대상자에게 전달할 메시지 콘텐츠를 만듭니다. 여기에는 콘텐츠 템플릿 선택 또는 만들기, 메시지 레이아웃 디자인, 프로필 속성을 사용한 개인화 추가, 대상별 변형에 대한 조건부 콘텐츠 블록 구성, 재사용 가능한 콘텐츠 조각 만들기, 샘플 프로필로 메시지 미리 보기/테스트 등이 포함됩니다.
 
@@ -511,7 +511,7 @@ API로 트리거된 캠페인은 트리거되는 시스템 이벤트가 발생�
 
 ### 4단계: 캠페인 또는 여정 만들기
 
-**응용 프로그램 함수:** AJO: Campaign 실행(옵션 A 및 C) 또는 AJO: Journey Orchestration(옵션 B)
+**응용 프로그램 기능:** AJO: Campaign 실행(옵션 A 및 C) 또는 AJO: Journey Orchestration(옵션 B)
 
 이 단계에서는 대상자, 메시지 및 실행 메커니즘을 결과물 단위로 바인딩하는 캠페인이나 여정을 만듭니다. 이 세 가지 구현 옵션이 가장 크게 분기되는 부분입니다.
 
@@ -599,7 +599,7 @@ API로 트리거된 캠페인은 트리거되는 시스템 이벤트가 발생�
 
 ### 5단계: 보고 및 성능 분석
 
-**응용 프로그램 함수:** AJO: 보고 및 성능 분석
+**응용 프로그램 기능:** AJO: 보고 및 성능 분석
 
 이 단계는 라이브 보고서를 통해 실행 중에 게재 지표를 모니터링하고 내역 보고서를 통해 완료 후 캠페인 성과를 분석합니다. 필요한 경우 더 자세한 크로스 채널 분석을 위해 CJA 통합을 구성합니다.
 
@@ -799,7 +799,7 @@ API로 트리거된 캠페인은 트리거되는 시스템 이벤트가 발생�
 - [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
 - [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
 - [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [에지 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - [대상자 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-composition)
 - [Profile Query Language 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/pql/overview)
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | KPI 및 측정 공식 | 사용 사례 패턴은 결과를 측정하지만, 아키텍처 페이지는 결과를 측정하지 않음 |
 | 비즈니스 목표, 비즈니스 영향 | KBO 콘텐츠는 `/help/blueprints/business-objectives/` 아래에 있습니다. 패턴은 이를 참조합니다. |
 | 전술적 사용 사례 예 | &quot;장바구니 포기 알림&quot;, &quot;개인화된 홈페이지 주인공&quot; 등 — 패턴 콘텐츠입니다. |
-| 함수 체인(`A > B > C > D`) | 함수 체인 구성은 사용 사례 패턴 템플릿의 일부입니다 |
+| 기능(`A > B > C > D`) | 기능 구성은 사용 사례 패턴 템플릿의 일부입니다 |
 | 페르소나 내레이션 | &quot;마케터가 원하는 마리아...&quot; 스타일 시나리오는 아키텍처 참조가 아닌 패턴에 속합니다. |
 | 구현 옵션 | 다중 옵션 구현 지침(모범 사례, 작동 방법, 장점, 제한 사항)은 패턴 구성입니다 |
 | 기본/지원 함수 테이블 | 패턴 페이지 섹션입니다. |
@@ -47,7 +47,7 @@ ht-degree: 0%
 - &quot;KPI&quot;
 - &quot;비즈니스 영향&quot; / &quot;비즈니스 결과&quot;
 - &quot;전술적 사용 사례&quot; / &quot;예제 시나리오&quot;
-- &quot;기능 체인&quot;
+- &quot;기능&quot;
 - &quot;구현 옵션&quot;
 - &quot;최적 대상&quot;
 - &quot;장점 및 제한 사항&quot;

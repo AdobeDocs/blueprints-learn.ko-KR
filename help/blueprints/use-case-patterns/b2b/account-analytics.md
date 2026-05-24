@@ -3,7 +3,7 @@ title: B2B 분석
 description: 크로스 채널 고객 여정 분석에 B2B 계정 수준 정보를 포함하는 방법을 알아봅니다.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
@@ -90,7 +90,7 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 크로스 채널 고객 여정 분석에 B2B 계정 수준 정보를 포함합니다.
 
-**함수 체인:** B2B 데이터 연결 > 계정 데이터 보기 구성 > Workspace 분석 > 대시보드 게시
+**실행 계획:** B2B 데이터 연결 > 계정 데이터 보기 구성 > Workspace 분석 > 대시보드 게시
 
 ## 애플리케이션
 
@@ -99,11 +99,11 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 - **[!DNL Customer Journey Analytics]B2B edition** — 계정 기반 연결, B2B별 데이터 보기 컨테이너, 계정 수준 작업 영역 분석, 구매 그룹 분석, 기회 분석, B2B 세그멘테이션 및 B2B 속성과 확장된 전환 확인 기간을 제공합니다
 - **[!DNL Real-Time CDP]B2B edition** — 계정 프로필 통합, B2B ID 해결, B2B 스키마 클래스(계정, 영업 기회, 구매 그룹) 및 B2B 참여 데이터 수집을 위한 [!DNL Marketo Engage] 통합을 포함하는 B2B 데이터 기반을 제공합니다.
 
-## 기본 함수
+## 기본 기능
 
-이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
+이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 기능에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지를 나타냅니다.
 
-| 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
+| 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 관리 및 거버넌스 | 필수 | [!DNL CJA] B2B edition 및 [!DNL RT-CDP] B2B edition 권한으로 구성된 샌드박스. [!DNL CJA] 및 B2B 데이터 모델에 대한 액세스 권한이 있는 데이터 엔지니어, 애널리스트 및 마케팅 작업 사용자에게 제공된 역할입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home) |
 | 데이터 모델링 및 준비 | 필수 | B2B 클래스를 사용하여 구성된 B2B XDM 스키마: XDM 비즈니스 계정, XDM 비즈니스 영업 기회, XDM 비즈니스 계정 사용자 관계, XDM 비즈니스 영업 기회 사용자 관계 및 XDM 비즈니스 마케팅 목록 멤버. 계정 속성, 영업 기회 단계 및 구매 그룹 역할에 대한 필드 그룹을 정의해야 합니다. 프로필용으로 생성되어 활성화된 데이터 세트. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [B2B edition 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b) |
@@ -111,25 +111,25 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 | ID 및 프로필 구성 | 필수 | 개인-계정 관계를 확인하도록 구성된 B2B ID 해결입니다. 계정 ID, 개인 ID([!DNL Marketo] 리드 ID 또는 CRM 연락처 ID) 및 교차 장치 ID(ECID, 이메일)가 연결되어 있어야 합니다. ID 그래프는 B2B 데이터 모델에 내재된 다대다 개인 대 계정 매핑을 지원해야 합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [B2B ID 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b) |
 | 대상 정의 및 세분화 | 가정 위치 | 활성화를 위해 B2B 세그먼트가 [!DNL CJA]에서 AEP으로 다시 게시되는 경우 계정 수준 대상 정의를 사용할 수 있어야 합니다. 분석 전용 사용 사례의 경우 엄격한 사전 요구 사항은 아니지만 세그먼트 기반 분석에 권장됩니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home) |
 
-## 기능 지원
+## 지원 기능
 
 다음 기능은 이 사용 사례 패턴을 강화하지만 코어 실행에는 필요하지 않습니다.
 
-| 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
+| 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 계산/파생 속성 생성 | 추천 | 계정 프로필의 계산된 특성(예: 총 참여 점수, 마지막 활동 이후 일수, 기회 수)은 계정 수준 분석을 위해 [!DNL CJA]에서 사용할 수 있는 분석 차원을 보강합니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
 | 데이터 수명 주기 관리 | 추천 | B2B 데이터 세트, 특히 [!DNL Marketo Engage]의 동작 이벤트 데이터는 빠르게 증가할 수 있습니다. 데이터 세트 만료 정책은 스토리지를 관리하고 데이터 보존 요구 사항을 준수하는 데 도움이 됩니다. | [고급 데이터 수명 주기 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
 | 데이터 사용 레이블 지정 및 적용 | 추천 | B2B 데이터에는 중요한 비즈니스 정보(계약 가치, 경쟁 인텔리전스)가 포함되는 경우가 많습니다. 데이터 사용 레이블 및 거버넌스 정책은 분석 및 활성화 워크플로 전반에서 이 데이터가 적절하게 사용되도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
 | 모니터링 및 가시성 | 추천 | B2B 소스 커넥터([!DNL Marketo], [!DNL Salesforce])는 수집 상태에 대한 모니터링이 필요합니다. [!DNL CJA]의 연결 상태 모니터링은 분석을 위한 데이터 새로 고침을 보장합니다. 수집 실패에 대한 경고 규칙은 오래된 대시보드를 방지합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | 이 패턴은 그 자체로 분석 패턴입니다. 이 기능은 핵심 기능 체인이 보고 및 분석 기능을 전달함에 따라 본질적으로 포함되어 있다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 보고 및 분석 | 포함됨 | 이 패턴은 그 자체로 분석 패턴입니다. 이 기능은 핵심 실행 계획이 보고 및 분석 기능을 제공함에 따라 기본적으로 포함됩니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
-이 계획은 응용 프로그램 함수 카탈로그에서 다음 함수를 실행합니다. 함수는 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
+이 계획에서는 응용 프로그램 기능 카탈로그에서 다음 기능을 수행합니다. 기능은 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
 
 ### [!DNL Customer Journey Analytics] B2B edition
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 계정 기반 연결 | 1단계: B2B 데이터 연결 | 계정 또는 글로벌 계정을 조직 수준 분석을 위한 기본 식별자로 사용하여 연결 구성 |
 | B2B 데이터 보기 구성 | 2단계: 계정 데이터 보기 구성 | 표준 사용자, 세션 및 이벤트 컨테이너와 함께 B2B 관련 컨테이너(계정, 글로벌 계정, 기회, 구매 그룹)를 사용하여 데이터 보기를 정의합니다 |
@@ -144,7 +144,7 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 ### [!DNL Customer Journey Analytics] — 표준 함수
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 데이터 연결 | 1단계: B2B 데이터 연결 | 채널 간 분석을 위해 AEP B2B 데이터 세트를 [!DNL CJA] 연결에 바인딩 |
 | 데이터 보기 구성 | 2단계: 계정 데이터 보기 구성 | B2B 데이터 보기 내에서 표준 차원, 지표, 속성 및 지속성 설정 구성 |
@@ -153,7 +153,7 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 ### [!DNL Real-Time CDP] B2B edition
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 계정 프로필 통합 | 전제 조건(F2/F4) | 특수 XDM B2B 스키마 클래스를 사용하여 교차 소스 B2B 데이터를 통합 계정 프로필로 통합 |
 | B2B Id 확인 | 전제 조건(F4) | 여러 수준의 계정 계층 및 다대다 매핑을 지원하는 개인 대 계정 관계 해결 |
@@ -303,7 +303,7 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 ### 1단계: B2B 데이터 연결
 
-**응용 프로그램 함수:** [!DNL CJA] B2B: 계정 기반 연결, [!DNL CJA]: 데이터 연결
+**응용 프로그램 기능:** [!DNL CJA] B2B: 계정 기반 연결, [!DNL CJA]: 데이터 연결
 
 분석을 위해 AEP B2B 데이터 세트를 [!DNL CJA]에 바인딩하는 [!DNL CJA] 연결을 구성하십시오. 이 연결은 [!DNL CJA]&#x200B;(으)로 유입되는 데이터 세트, 기본 식별자 유형(계정 또는 글로벌 계정), 내역 및 스트리밍 데이터를 수집하는 방법을 정의합니다. 이 연결은 모든 후속 분석의 기초입니다.
 
@@ -372,7 +372,7 @@ B2B Analytics는 [!DNL CJA] B2B edition을 활용하여 사용자 수준 행동 
 
 ### 2단계: 계정 데이터 보기 구성
 
-**응용 프로그램 함수:** [!DNL CJA] B2B: B2B 데이터 보기 구성, [!DNL CJA]: 데이터 보기 구성
+**응용 프로그램 기능:** [!DNL CJA] B2B: B2B 데이터 보기 구성, [!DNL CJA]: 데이터 보기 구성
 
 분석에 연결 데이터가 표시되는 방식을 정의하는 데이터 보기를 구성합니다. B2B 분석의 경우 B2B별 컨테이너(계정, 영업 기회, 구매 그룹) 구성, B2B 스키마 필드를 차원 및 지표에 매핑, B2B에 적합한 전환 확인 기간을 사용하여 속성 모델 설정, B2B 비즈니스 로직에 대한 파생 필드 생성 등이 포함됩니다.
 
@@ -518,7 +518,7 @@ B2B KPI에 필요한 계산된 지표를 결정합니다.
 
 ### 4단계: 대시보드 게시
 
-**응용 프로그램 함수:** [!DNL CJA]: 대시보드 및 스코어카드 게시, [!DNL CJA]: 대상 게시
+**응용 프로그램 기능:** [!DNL CJA]: 대시보드 및 스코어카드 게시, [!DNL CJA]: 대상 게시
 
 관련자들에게 B2B 분석 통찰력을 제공하는 공유 가능한 대시보드 및 모바일 스코어카드를 만드십시오. 이 단계에서는 B2B 대상 활성화와 같은 다운스트림 사용 사례에서 활성화를 위해 [!DNL CJA] 정의된 B2B 대상을 AEP에 다시 게시하는 작업도 다룹니다.
 

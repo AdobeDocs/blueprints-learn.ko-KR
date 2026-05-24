@@ -3,7 +3,7 @@ title: Offer Decisioning
 description: 중앙 집중식 의사 결정 논리를 사용하여 여러 채널에서 프로필에 대한 차선책 오퍼 또는 콘텐츠를 선택하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8026'
 ht-degree: 2%
@@ -32,15 +32,15 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 
 **[개인화된 고객 경험 제공](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 콘텐츠, 오퍼 및 메시지를 개별 환경 설정, 동작 및 라이프사이클 단계에 맞게 맞춤화할 수 있습니다.
-**KPI:**&#x200B;개 참여, 전환율, 고객 만족도(CSAT)
+**KPI:** 참여, 전환율, 고객 만족도(CSAT)
 
 **[교차 판매 및 상향 판매 매출 촉진](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 행동 및 구매 내역을 기반으로 기존 고객에게 보완 및 프리미엄 제품 또는 서비스를 홍보합니다.
 **KPI:** 상향 판매/교차 판매 %, 증분 수익, 고객 생애 가치
 
-**[고객 충성도 및 라이프타임 값 증가](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[고객 충성도 및 라이프타임 가치 향상](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 고객 관계를 심화하고 충성도 프로그램, 보상 및 개인화된 참여를 통해 장기적인 가치를 극대화합니다.
-**KPI:** 고객 생애 가치, 유지, 상향 판매/교차 판매 %
+**KPI:** 고객 라이프타임 값, 유지, 상향 판매/교차 판매 %
 
 ## 예시 전술 사용 사례
 
@@ -70,13 +70,13 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 
 ## 사용 사례 패턴
 
-이 섹션에서는 offer decisioning에 대한 함수 체인 및 패턴 정의에 대해 설명합니다.
+이 섹션에서는 Offer Decisioning의 실행 계획 및 패턴 정의에 대해 설명합니다.
 
 **Offer Decisioning**
 
 중앙 집중식 의사 결정 논리를 사용하여 여러 채널에서 프로필에 대한 차선책 오퍼 또는 콘텐츠를 선택합니다.
 
-**함수 체인:** 대상 평가 > 오퍼 자격 > 순위 전략 > 의사 결정 실행 > 게재 > 보고
+**실행 계획:** 대상 평가 > 오퍼 자격 > 순위 전략 > 의사 결정 실행 > 게재 > 보고
 
 각 컴포지션이 어떻게 표시되는지 알아보려면 [구현 옵션](#implementation-options) 섹션을 참조하십시오.
 
@@ -88,11 +88,11 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 오퍼 자격 세그먼트에 대한 대상 평가, 자격 및 순위에 사용되는 프로필 데이터 및 계산된 속성
 - **[!DNL Adobe Experience Platform] (AEP)** - AJO과 RT-CDP를 모두 지원하는 통합 프로필 저장소, ID 확인 및 데이터 파운데이션
 
-## 기본 함수
+## 기본 기능
 
-이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
+이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 기능에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지를 나타냅니다.
 
-| 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
+| 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 관리 및 거버넌스 | 가정 위치 | Decisioning 권한이 활성화된 AJO 샌드박스 구현 팀에 할당된 오퍼 관리 역할(의사 결정 관리자, 오퍼 승인자). | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
 | 데이터 모델링 및 준비 | 필수 | 프로필 스키마에는 오퍼 자격 규칙에 사용되는 특성(예: 충성도 계층, 구매 내역, 구독 유형)이 포함되어야 합니다. 오퍼 노출 횟수, 클릭 수 및 전환을 추적하기 위한 오퍼 응답/상호 작용 스키마가 제자리에 있어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) |
@@ -100,27 +100,27 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 | ID 및 프로필 구성 | 가정 위치 | 오퍼가 게재되는 모든 채널에서 프로필을 확인할 수 있어야 합니다. 크로스 채널 오퍼의 일관성을 위해서는 통합 ID가 중요합니다. 이메일, 웹 및 모바일 컨텍스트에서 동일한 프로필을 인식해야 합니다. 실시간 웹/앱 게재를 위해서는 에지 활성 병합 정책이 필요합니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview) |
 | 대상 정의 및 세분화 | 필수 | 오퍼 자격 기준으로 사용되는 대상을 정의하고 평가해야 합니다(예: &quot;고가치 고객&quot;, &quot;평가판 사용자&quot;, &quot;충성도 골드 계층&quot;). 평가 방법은 게재 지연 시간(실시간 웹/앱에 대한 에지 평가, 이메일 캠페인에 대한 일괄 처리 또는 스트리밍)과 일치해야 합니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## 기능 지원
+## 지원 기능
 
 다음 기능은 이 사용 사례 패턴을 강화하지만 코어 실행에는 필요하지 않습니다.
 
-| 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
+| 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
 | 계산/파생 속성 생성 | 추천 | 고객 AI 성향 점수, 라이프타임 값 계산 및 참여 지표는 순위 전략 효율성을 크게 향상시킵니다. &quot;마지막 구매 이후 일 수&quot; 또는 &quot;90일 동안의 총 지출&quot;과 같은 계산된 속성을 사용하면 보다 정확한 자격 규칙 및 공식 기반 순위를 사용할 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview), [Customer AI 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | 데이터 수명 주기 관리 | 추천 | 오퍼 내역 및 의사 결정 이벤트 데이터는 시간이 지남에 따라 누적됩니다. 스토리지를 관리하고 데이터 보존 요구 사항을 준수하기 위해 오퍼 상호 작용 이벤트 데이터 세트에 대해 보존 정책(만료)을 구성해야 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home), [데이터 세트 만료](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | 데이터 사용 레이블 지정 및 적용 | 추천 | 거버넌스 레이블은 중요한 타겟팅 기준(예: 재무 상태, 상태)이 있는 오퍼가 데이터 사용 정책을 준수하도록 합니다. 자격 규칙에 사용된 필드의 레이블은 호환되지 않는 오퍼 타깃팅을 방지합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
 | 모니터링 및 가시성 | 추천 | 의사 결정 엔진 성능, 대체 비율 및 오퍼 게재 상태를 모니터링해야 합니다. 높은 대체 비율에 대한 경고는 자격 규칙 오구성 또는 데이터 새로 고침 문제를 나타낼 수 있습니다. | [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview), [가시성 통찰력 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | 오퍼 성능 보고는 기능 체인의 일부입니다(7단계). CJA 분석을 통해 크로스 채널 오퍼 효율성 측정, 매출 영향 속성 및 최적화 기회를 식별할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) |
+| 보고 및 분석 | 포함됨 | 오퍼 성능 보고는 실행 계획의 일부입니다(7단계). CJA 분석을 통해 크로스 채널 오퍼 효율성 측정, 매출 영향 속성 및 최적화 기회를 식별할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) |
 
 ## 애플리케이션 기능
 
-이 계획은 응용 프로그램 함수 카탈로그에서 다음 함수를 실행합니다. 함수는 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
+이 계획에서는 응용 프로그램 기능 카탈로그에서 다음 기능을 수행합니다. 기능은 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
 
 ### [!DNL Journey Optimizer]&#x200B;(AJO)
 
-다음 표에는 AJO 함수와 해당 함수가 구성된 구현 단계가 나열되어 있습니다.
+다음 표에는 AJO 기능 및 이러한 기능이 구성된 구현 단계가 나와 있습니다.
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 결정 | 3단계: 의사 결정 설정 | 오퍼 항목 만들기, 자격 규칙 정의, 등급 전략 구성, 대체 오퍼 만들기, 배치 정의 및 의사 결정 정책 빌드 |
 | 채널 구성 | 4단계: 채널 및 표면 구성 | 오퍼 게재를 위한 이메일, 웹, 인앱 또는 코드 기반 채널 표면 구성 |
@@ -131,9 +131,9 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 
 ### [!DNL Real-Time CDP]&#x200B;(RT-CDP)
 
-다음 표에는 RT-CDP 함수와 이러한 함수가 구성된 구현 단계가 나와 있습니다.
+다음 표에는 RT-CDP 기능과 이러한 기능이 구성되는 구현 단계가 나와 있습니다.
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 대상 평가 | 2단계: 대상 평가 | 오퍼 자격 규칙에 사용되는 대상을 정의하고 평가합니다. 적절한 평가 방법(일괄 처리, 스트리밍 또는 에지)을 선택합니다. |
 | 프로필 보강 | 1단계(지원): 계산된 속성 | 순위 전략 효율성을 개선하는 계산된 속성 및 성향 점수로 프로필을 보강합니다 |
@@ -330,7 +330,7 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 
 ### 2단계: 대상 평가 구성
 
-**응용 프로그램 함수:** RT-CDP: 대상 평가
+**응용 프로그램 기능:** RT-CDP: 대상 평가
 
 이 단계에서는 오퍼 자격 기준으로 사용되는 대상을 정의하고 평가합니다. 이러한 대상은 특정 오퍼에 적합한 고객 세그먼트를 결정합니다(예: &quot;고가치 고객&quot;은 프리미엄 오퍼에 적합한 고객, &quot;체험판 사용자&quot;는 전환 오퍼에 적합한 고객).
 
@@ -360,7 +360,7 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 **옵션 B의 경우(웹/앱 실시간):**
 Edge 평가가 필요합니다. 대상자는 간단한 속성 확인 또는 세그먼트 멤버십 조건을 사용해야 합니다. 세그먼트 규칙 표현식이 에지 세분화에 적합한지 확인하여 에지 적격성을 테스트합니다.
 
-옵션 C의 **여정 결정 노드:**
+옵션 C(여정 결정 노드)의 경우 **:**
 모든 평가 방법은 여정 입력 기준에 따라 작동합니다. 여정이 대상 기반 항목을 사용하는 경우 대상 평가 방법은 여정의 요구 사항과 일치합니다.
 
 #### Experience League 설명서
@@ -372,7 +372,7 @@ Edge 평가가 필요합니다. 대상자는 간단한 속성 확인 또는 세�
 
 ### 3단계: 의사 결정 설정
 
-**응용 프로그램 함수:** AJO: Decisioning
+**응용 프로그램 기능:** AJO: Decisioning
 
 이 단계는 오퍼 카탈로그, 자격 규칙, 등급 전략 및 의사 결정 정책을 작성하는 핵심 단계입니다. 이 단계는 모든 게재 옵션(A, B, C)이 공유하는 의사 결정 엔진 구성을 만듭니다.
 
@@ -443,7 +443,7 @@ Edge 평가가 필요합니다. 대상자는 간단한 속성 확인 또는 세�
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [배치 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -453,7 +453,7 @@ Edge 평가가 필요합니다. 대상자는 간단한 속성 확인 또는 세�
 
 ### 4단계: 채널 및 표면 구성
 
-**응용 프로그램 함수:** AJO: 채널 구성
+**응용 프로그램 기능:** AJO: 채널 구성
 
 이 단계는 오퍼가 게재될 채널 표면을 구성합니다. 구성은 사용 중인 구현 옵션에 따라 다릅니다.
 
@@ -494,7 +494,7 @@ Edge 평가가 필요합니다. 대상자는 간단한 속성 확인 또는 세�
 
 ### 5단계: 콘텐츠 및 게재 구성
 
-**응용 프로그램 함수:** AJO: 메시지 작성, AJO: 캠페인 실행
+**응용 프로그램 기능:** AJO: 메시지 작성, AJO: 캠페인 실행
 
 이 단계는 선택한 오퍼를 표시하는 메시지 템플릿 또는 경험 표면을 디자인한 다음 게재 메커니즘(캠페인, 여정 또는 코드 기반 경험)을 구성합니다.
 
@@ -564,7 +564,7 @@ Edge 평가가 필요합니다. 대상자는 간단한 속성 확인 또는 세�
 
 ### 6단계: 테스트 및 유효성 검사
 
-**응용 프로그램 함수:** AJO: Decisioning, AJO: 메시지 작성
+**응용 프로그램 기능:** AJO: Decisioning, AJO: 메시지 작성
 
 이 단계에서는 의사 결정 엔진이 테스트 프로필에 대해 올바른 오퍼를 반환하고 오퍼 콘텐츠가 각 게재 채널에서 제대로 렌더링되는지 확인합니다.
 
@@ -598,7 +598,7 @@ Edge 평가가 필요합니다. 대상자는 간단한 속성 확인 또는 세�
 
 ### 7단계: 보고 및 성능 모니터링 구성
 
-**응용 프로그램 함수:** AJO: 보고 및 성능 분석
+**응용 프로그램 기능:** AJO: 보고 및 성능 분석
 
 이 단계에서는 오퍼 선택 분포, 수락율, 전환 영향 및 대체 비율을 추적하는 보고를 설정합니다. 이 단계에서는 AJO 기본 보고서와 CJA 기반 크로스 채널 분석을 모두 다룹니다.
 
@@ -718,7 +718,7 @@ Hub Decisioning 은 전체 프로필에 액세스할 수 있지만 전송 시간
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [배치 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
