@@ -67,7 +67,7 @@ B2B 마케팅 팀은 개인 수준이 아닌 계정 수준에서 대상을 타�
 
 다음 시나리오에서는 이 패턴을 실제로 적용하는 방법을 보여 줍니다.
 
-- [!DNL LinkedIn]**의**&#x200B;계정 기반 광고 — [!DNL RT-CDP] B2B edition에서 활성화된 계정 목록을 사용하여 [!DNL LinkedIn]의 ICP(Ideal Customer Profile)와 스폰서 콘텐츠 및 InMail 캠페인이 일치하는 계정을 타겟팅합니다.
+- [!DNL LinkedIn]&#x200B;**의**&#x200B;계정 기반 광고 — [!DNL RT-CDP] B2B edition에서 활성화된 계정 목록을 사용하여 [!DNL LinkedIn]의 ICP(Ideal Customer Profile)와 스폰서 콘텐츠 및 InMail 캠페인이 일치하는 계정을 타겟팅합니다.
 - **[!DNL Marketo Engage]육성 프로그램 타깃팅** — 계정 수준 자격 조건을 기반으로 연결된 리드 및 연락처를 타깃팅된 육성 스트림에 등록하려면 계정 대상을 [!DNL Marketo Engage]에 활성화하십시오.
 - **CRM 계정 목록 동기화** — 영업 팀 가시성, 영역 할당 및 아웃바운드 전망 워크플로를 위해 자격 조건을 갖춘 계정 목록을 [!DNL Salesforce] 또는 [!DNL Microsoft Dynamics]에 푸시합니다.
 - **유료 미디어에 대한 계정 억제** - 기존 고객, 비공개 계정 또는 활성 영업 주기의 계정을 유료 획득 캠페인에서 억제하여 낭비되는 지출을 줄입니다.
@@ -105,7 +105,7 @@ B2B 마케팅 팀은 개인 수준이 아닌 계정 수준에서 대상을 타�
 다음 응용 프로그램을 사용하여 이 사용 사례 패턴을 구현합니다.
 
 - **[!DNL Real-Time CDP]B2B edition** — 계정 프로필 통합, B2B ID 해결, 계정 대상 평가, B2B별 대상 구성 및 계정 대상 활성화를 위한 핵심 플랫폼
-- **[!DNL Adobe Experience Platform](AEP)** — B2B XDM 데이터 모델링, CRM 및 마케팅 자동화 소스에서의 데이터 수집, ID 서비스 및 거버넌스를 위한 기본 인프라
+- **[!DNL Adobe Experience Platform] (AEP)** — B2B XDM 데이터 모델링, CRM 및 마케팅 자동화 소스에서의 데이터 수집, ID 서비스 및 거버넌스를 위한 기본 인프라
 - **[!DNL Marketo Engage]** — 활성화된 계정 대상자가 제공하는 리드 육성 프로그램, 점수 및 캠페인 실행을 위한 기본 B2B 마케팅 자동화 대상
 
 ## 기본 기능
