@@ -3,10 +3,10 @@ title: 사용 사례 카탈로그
 description: 업계 사용 사례를 세로로 탐색하여 구현 패턴 및 비즈니스 목표에 대한 링크와 함께 Adobe Experience Platform 및 애플리케이션 여정에 적합한 시작점을 찾습니다.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '4157'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 업계 사용 사례는 특정 분야의 조직이 Adobe Experience Platform 및 애플리케이션을 적용하여 측정 가능한 비즈니스 성과를 달성하는 방법을 보여 줍니다. 각 사용 사례에서는 구체적인 비즈니스 시나리오, 예상되는 영향 및 자세한 구현 지침을 제공하는 [사용 사례 패턴](/help/blueprints/use-case-patterns/overview.md)에 대한 링크를 설명합니다.
 
-산업별로 탐색하여 조직과 관련된 사용 사례를 찾은 다음, 의사 결정 지침, 함수 체인 및 Experience League 설명서를 포함한 구현 참조에 대한 패턴 링크를 따르십시오.
+산업별로 탐색하여 조직과 관련된 사용 사례를 찾은 다음, 의사 결정 지침, 실행 계획 및 Experience League 설명서를 포함한 구현 참조에 대한 패턴 링크를 따르십시오.
 
 | 업계 | 주요 테마 |
 | --- | --- |
@@ -31,7 +31,7 @@ ht-degree: 31%
 
 ## 사용 사례가 구현 지침에 연결되는 방법
 
-각 사용 사례는 **사용 사례 패턴**&#x200B;에 연결됩니다. 이는 사용 사례를 실행하는 데 필요한 함수 체인, 의사 결정 지점 및 구성 단계를 설명하는 반복 가능한 구현 접근 방식입니다. 사용 사례 패턴을 차례로 [주요 비즈니스 목표](/help/blueprints/business-objectives/overview.md)에 연결하여 구현 작업을 전략적 결과에 맞게 조정할 수 있습니다.
+각 사용 사례는 **사용 사례 패턴**&#x200B;에 연결됩니다. 이는 사용 사례를 실행하는 데 필요한 실행 계획, 의사 결정 지점 및 구성 단계를 설명하는 반복 가능한 구현 접근 방식입니다. 사용 사례 패턴을 차례로 [주요 비즈니스 목표](/help/blueprints/business-objectives/overview.md)에 연결하여 구현 작업을 전략적 결과에 맞게 조정할 수 있습니다.
 
 ```
 Industry Use Case → Use Case Pattern → Key Business Objective

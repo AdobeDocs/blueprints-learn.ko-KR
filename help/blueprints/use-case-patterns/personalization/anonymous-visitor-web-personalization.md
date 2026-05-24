@@ -3,7 +3,7 @@ title: 익명 방문자 웹 Personalization
 description: 세션 내 행동 신호를 기반으로 미확인된 방문자에게 개인화된 웹 콘텐츠를 전달하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -88,21 +88,21 @@ ht-degree: 1%
 
 ## 사용 사례 패턴
 
-다음은 이 사용 사례의 핵심 패턴 및 함수 체인에 대해 설명합니다.
+다음은 이 사용 사례에 대한 핵심 패턴 및 실행 계획에 대해 설명합니다.
 
 **익명 방문자 웹 Personalization**
 
 AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신호를 기반으로 개인화된 콘텐츠를 제공합니다.
 
-**함수 체인:** 웹 표면 구성 > 행동 규칙 평가 > 콘텐츠 게재 > 노출 추적 > 보고
+**실행 계획:** 웹 표면 구성 > 행동 규칙 평가 > 콘텐츠 게재 > 노출 추적 > 보고
 
 ## 애플리케이션
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer] (AJO)** — 웹 채널 표면 구성, 콘텐츠 작성(웹 및 코드 기반 경험), 캠페인 실행, 콘텐츠 실험(A/B 테스트), 의사 결정(동적 콘텐츠 선택) 및 보고
-- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - 세션 내 동작 신호를 기반으로 실시간 대상 평가를 위한 Edge 세그멘테이션, 익명 Edge 프로필 관리
-- **[!DNL Adobe Experience Platform] (AEP)** — 동작 신호 수집의 경우 [!DNL Web SDK], 실시간 데이터 라우팅 및 개인화 전달의 경우 [!DNL Edge Network], 데이터스트림 구성
+- **[!DNL Adobe Journey Optimizer](AJO)** — 웹 채널 표면 구성, 콘텐츠 작성(웹 및 코드 기반 경험), 캠페인 실행, 콘텐츠 실험(A/B 테스트), 의사 결정(동적 콘텐츠 선택) 및 보고
+- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - 세션 내 동작 신호를 기반으로 실시간 대상 평가를 위한 Edge 세그멘테이션, 익명 Edge 프로필 관리
+- **[!DNL Adobe Experience Platform](AEP)** — 동작 신호 수집의 경우 [!DNL Web SDK], 실시간 데이터 라우팅 및 개인화 전달의 경우 [!DNL Edge Network], 데이터스트림 구성
 
 ## 아키텍처
 
@@ -110,37 +110,37 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 ![익명 대상자 활성화 및 개인화를 위한 참조 아키텍처](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
 
-## 기본 함수
+## 기본 기능
 
-이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
+이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 기능에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지를 나타냅니다.
 
-| 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
+| 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 가정 위치 | 웹 채널 권한이 구성된 AJO 샌드박스 입니다. 구현 팀에 [!DNL Web SDK] 구현 권한 및 데이터스트림 액세스 권한이 부여되었습니다. 웹 채널 구성, 대상자 관리 및 캠페인 실행을 허용하는 역할이 규정된 사용자. | [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | 웹 행동 신호(페이지 보기, 클릭 수, 스크롤 깊이, 참조 데이터, UTM 매개 변수)를 캡처하는 경험 이벤트 스키마. 실시간 평가를 지원하려면 스키마에 표준 웹 인터랙션 필드 그룹이 포함되어야 하며 에지 프로필에 대해 활성화되어야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) |
-| 데이터 소스 및 수집 | 필수 | [!DNL AEP Edge Network]&#x200B;(으)로 데이터를 라우팅하도록 구성된 데이터 스트림을 사용하여 모든 대상 웹 속성에 [!DNL Web SDK]을(를) 구현해야 합니다. 데이터 스트림에는 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Journey Optimizer] 서비스가 활성화되어 있어야 합니다. 이는 중요한 종속성입니다. [!DNL Web SDK]이(가) 없으면 동작 신호 수집이나 경험 전달을 수행할 수 없습니다. | [Web SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home) |
-| ID 및 프로필 구성 | 필수 | 익명 방문자에 대한 기본 ID 네임스페이스로 구성된 ECID([!DNL Experience Cloud ID]). 가장자리에서 익명 프로필 데이터를 확인하려면 `isActiveOnEdge: true`(으)로 Edge 병합 정책을 구성해야 합니다. 샌드박스당 하나의 병합 정책만 에지에서 활성화할 수 있습니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home) |
-| 대상 정의 및 세분화 | 필수 | 세션 내 행동 신호를 기반으로 정의된 Edge 평가 대상 세그먼트. Edge 세그먼테이션은 1초 미만의 평가 지연에 필수입니다. 세그먼트 규칙은 에지 적격 세그먼트 규칙 표현식(단순 속성 확인 및 세그먼트 멤버십 — 시계열 쿼리나 복잡한 집계 없음)만 사용해야 합니다. | [Edge 세그멘테이션](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation) |
+| 관리 및 거버넌스 | 가정 위치 | 웹 채널 권한이 구성된 AJO 샌드박스 입니다. 구현 팀에 [!DNL Web SDK] 구현 권한 및 데이터스트림 액세스 권한이 부여되었습니다. 웹 채널 구성, 대상자 관리 및 캠페인 실행을 허용하는 역할이 규정된 사용자. | [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 데이터 모델링 및 준비 | 필수 | 웹 행동 신호(페이지 보기, 클릭 수, 스크롤 깊이, 참조 데이터, UTM 매개 변수)를 캡처하는 경험 이벤트 스키마. 실시간 평가를 지원하려면 스키마에 표준 웹 인터랙션 필드 그룹이 포함되어야 하며 에지 프로필에 대해 활성화되어야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| 데이터 소스 및 수집 | 필수 | [!DNL AEP Edge Network]&#x200B;(으)로 데이터를 라우팅하도록 구성된 데이터 스트림을 사용하여 모든 대상 웹 속성에 [!DNL Web SDK]을(를) 구현해야 합니다. 데이터 스트림에는 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Journey Optimizer] 서비스가 활성화되어 있어야 합니다. 이는 중요한 종속성입니다. [!DNL Web SDK]이(가) 없으면 동작 신호 수집이나 경험 전달을 수행할 수 없습니다. | [Web SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
+| ID 및 프로필 구성 | 필수 | 익명 방문자에 대한 기본 ID 네임스페이스로 구성된 ECID([!DNL Experience Cloud ID]). 가장자리에서 익명 프로필 데이터를 확인하려면 `isActiveOnEdge: true`(으)로 Edge 병합 정책을 구성해야 합니다. 샌드박스당 하나의 병합 정책만 에지에서 활성화할 수 있습니다. | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| 대상 정의 및 세분화 | 필수 | 세션 내 행동 신호를 기반으로 정의된 Edge 평가 대상 세그먼트. Edge 세그먼테이션은 1초 미만의 평가 지연에 필수입니다. 세그먼트 규칙은 에지 적격 세그먼트 규칙 표현식(단순 속성 확인 및 세그먼트 멤버십 — 시계열 쿼리나 복잡한 집계 없음)만 사용해야 합니다. | [Edge 세그멘테이션](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
-## 기능 지원
+## 지원 기능
 
 다음 기능은 이 사용 사례 패턴을 강화하지만 코어 실행에는 필요하지 않습니다.
 
-| 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
+| 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 해당 사항 없음 | 집계할 최소 내역 프로필 데이터가 있으므로 익명 방문자의 값이 제한됩니다. Edge 프로필이 여러 세션에서 이전 익명 방문의 의미 있는 행동 데이터를 수집하는 경우 적용할 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | 스토리지를 관리하고 개인정보 보호 요구 사항을 준수하려면 익명 에지 프로필에 대해 익명 프로필 만료를 구성해야 합니다. ECID 전용 프로필은 14일에서 365일 사이에 만료되도록 설정할 수 있습니다. 쿠키 동의 정책은 행동 데이터 수집에 적용되어야 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | 행동 데이터의 거버넌스 레이블은 특히 지역 타겟팅(S2 중요 지역 레이블) 및 디바이스 기반 개인화에 대한 규정 준수를 보장합니다. 레이블은 제한된 행동 데이터가 승인되지 않은 개인화 컨텍스트에서 사용되지 않도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
-| 모니터링 및 가시성 | 추천 | [!DNL Edge Network] 및 [!DNL Web SDK] 데이터 흐름 모니터링은 개인화 게재 문제를 탐지하는 데 도움이 됩니다. 데이터 스트림 오류, 수집 오류 및 에지 전달 예외 항목에 대한 경고를 구성합니다. 개인화 실패로 인해 방문자 경험이 저하되는 프로덕션 배포에 매우 중요합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | Personalization 성능 보고는 기능 체인의 일부입니다(5단계). CJA의 익명 방문자 개인화 효과 분석을 통해 AJO 기본 보고서에서 제공하는 것 이상으로 심도 있는 funnel 분석, 집단 비교 및 전환 영향 측정을 수행할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 계산/파생 속성 생성 | 해당 사항 없음 | 집계할 최소 내역 프로필 데이터가 있으므로 익명 방문자의 값이 제한됩니다. Edge 프로필이 여러 세션에서 이전 익명 방문의 의미 있는 행동 데이터를 수집하는 경우 적용할 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 데이터 수명 주기 관리 | 추천 | 스토리지를 관리하고 개인정보 보호 요구 사항을 준수하려면 익명 에지 프로필에 대해 익명 프로필 만료를 구성해야 합니다. ECID 전용 프로필은 14일에서 365일 사이에 만료되도록 설정할 수 있습니다. 쿠키 동의 정책은 행동 데이터 수집에 적용되어야 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | 행동 데이터의 거버넌스 레이블은 특히 지역 타겟팅(S2 중요 지역 레이블) 및 디바이스 기반 개인화에 대한 규정 준수를 보장합니다. 레이블은 제한된 행동 데이터가 승인되지 않은 개인화 컨텍스트에서 사용되지 않도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 모니터링 및 가시성 | 추천 | [!DNL Edge Network] 및 [!DNL Web SDK] 데이터 흐름 모니터링은 개인화 게재 문제를 탐지하는 데 도움이 됩니다. 데이터 스트림 오류, 수집 오류 및 에지 전달 예외 항목에 대한 경고를 구성합니다. 개인화 실패로 인해 방문자 경험이 저하되는 프로덕션 배포에 매우 중요합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 보고 및 분석 | 포함됨 | Personalization 성능 보고는 실행 계획(5단계)의 일부입니다. CJA의 익명 방문자 개인화 효과 분석을 통해 AJO 기본 보고서에서 제공하는 것 이상으로 심도 있는 funnel 분석, 집단 비교 및 전환 영향 측정을 수행할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
-이 계획은 응용 프로그램 함수 카탈로그에서 다음 함수를 실행합니다. 함수는 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
+이 계획에서는 응용 프로그램 기능 카탈로그에서 다음 기능을 수행합니다. 기능은 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
 
 ### [!DNL Journey Optimizer]&#x200B;(AJO)
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 채널 구성 | 1단계: 웹 표면 구성 | 대상 웹 속성에서 개인화된 콘텐츠가 전달될 위치를 정의하는 웹 채널 표면 구성 |
 | 메시지 작성 | 3단계: 콘텐츠 작성 및 변형 작성 | 웹 디자이너, 코드 기반 경험 편집기 또는 콘텐츠 템플릿을 사용하여 웹 표면에 대한 개인화된 콘텐츠 변형을 작성할 수 있습니다 |
@@ -151,7 +151,7 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 ### [!DNL Real-Time CDP]&#x200B;(RT-CDP)
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 대상 평가 | 2단계: 행동 대상 정의 | 실시간 개인화 타깃팅을 위해 세션 내 행동 신호를 사용하여 에지 기반 대상 세그먼트를 정의하고 평가합니다 |
 
@@ -207,8 +207,8 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 **Experience League:**
 
-- [웹 채널 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/get-started-web)
-- [에지 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [웹 채널 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
+- [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### 옵션 B: 실험 기반 웹 개인화
 
@@ -248,7 +248,7 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 **Experience League:**
 
-- [콘텐츠 실험 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [콘텐츠 실험 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [콘텐츠 실험 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 
@@ -291,7 +291,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 동작 신호를
 **Experience League:**
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [배치 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [배치 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [결정 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-activities)
 
@@ -335,7 +335,7 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 동작 신호를
 
 ### 1단계: 웹 표면 구성
 
-**응용 프로그램 함수:** AJO: 채널 구성
+**응용 프로그램 기능:** AJO: 채널 구성
 
 웹 사이트에서 개인화된 콘텐츠가 전달될 위치를 지정하는 웹 채널 표면을 정의합니다. 웹 표면은 특정 페이지 URL 또는 URL 패턴과 AJO이 콘텐츠를 삽입하거나 바꿀 수 있는 페이지에서의 위치(CSS 선택기 또는 코드 기반 경험 표면)를 식별합니다.
 
@@ -370,14 +370,14 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 동작 신호를
 
 **Experience League 설명서:**
 
-- [웹 채널 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/get-started-web)
-- [웹 경험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/create-web)
+- [웹 채널 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
+- [웹 경험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [코드 기반 경험 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [코드 기반 경험 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
 ### 2단계: 행동 대상자 정의
 
-**응용 프로그램 함수:** RT-CDP: 대상 평가
+**응용 프로그램 기능:** RT-CDP: 대상 평가
 
 개인화 타깃팅을 유도하는 세션 내 행동 신호를 기반으로 에지 평가 대상 세그먼트를 정의합니다. 이러한 대상은 각 개인화된 경험에 적합한 방문자를 결정합니다. 이 패턴은 방문자가 사이트를 탐색할 때 1초 이내에 개인화를 결정해야 하므로 Edge 평가가 필수입니다.
 
@@ -426,14 +426,14 @@ Decisioning 기반 개인화는 AJO Decisioning을 사용하여 동작 신호를
 
 **Experience League 설명서:**
 
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
-- [에지 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Profile Query Language 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/pql/overview)
-- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Profile Query Language 참조](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 ### 3단계: 콘텐츠 작성 및 변형 만들기
 
-**응용 프로그램 함수:** AJO: 메시지 작성, AJO: 콘텐츠 실험(옵션 B), AJO: 의사 결정(옵션 C)
+**응용 프로그램 기능:** AJO: 메시지 작성, AJO: 콘텐츠 실험(옵션 B), AJO: 의사 결정(옵션 C)
 
 대상 멤버십(옵션 A), 실험 할당(옵션 B) 또는 의사 결정 논리(옵션 C)를 기반으로 방문자에게 전달되는 개인화된 콘텐츠 변형을 만듭니다. 이 단계에서는 AJO 웹 디자이너 또는 코드 기반 경험 편집기를 사용한 컨텐츠 작성과 컨텐츠 선택 방법을 제어하는 실험 또는 의사 결정 구성을 다룹니다.
 
@@ -499,7 +499,7 @@ Decisioning 구성 요소 스택을 설정하고 캠페인에 통합합니다.
 
 **Experience League 설명서:**
 
-- [웹 경험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/create-web)
+- [웹 경험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [코드 기반 경험 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [개인화 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
@@ -510,7 +510,7 @@ Decisioning 구성 요소 스택을 설정하고 캠페인에 통합합니다.
 
 ### 4단계: 캠페인 및 게재 구성
 
-**응용 프로그램 함수:** AJO: 캠페인 실행
+**응용 프로그램 기능:** AJO: 캠페인 실행
 
 웹 표면(1단계), 대상 타기팅 또는 실험 구성(2~3단계) 및 콘텐츠 변형(3단계)을 제공 가능한 단위로 바인딩하는 AJO 웹 캠페인을 만들고 활성화합니다. 캠페인은 개인화된 콘텐츠가 방문자에게 제공되는 시기와 방법을 제어합니다.
 
@@ -549,12 +549,12 @@ Decisioning 구성 요소 스택을 설정하고 캠페인에 통합합니다.
 **Experience League 설명서:**
 
 - [캠페인 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [캠페인 시작하기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [캠페인 시작하기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [메시지에 오퍼 게재](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
 
 ### 5단계: 성과 보고 및 분석
 
-**응용 프로그램 함수:** AJO: 보고 및 성능 분석
+**응용 프로그램 기능:** AJO: 보고 및 성능 분석
 
 AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하고 선택적으로 CJA을 사용하여 분석을 확장하여 더 심층적인 크로스 채널 통찰력을 얻습니다. 이 단계에서는 라이브 및 내역 캠페인 보고서에 액세스하고, 실험 결과를 검토하고, 사용자 정의 분석 작업 공간을 구축하는 작업을 다룹니다.
 
@@ -596,7 +596,7 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 - [캠페인 라이브 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [캠페인 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [Customer Journey Analytics 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
+- [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 - [콘텐츠 실험의 통계 계산](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
 
 ## 구현 시 고려 사항
@@ -607,13 +607,13 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 
 구현 전 및 구현 중에 다음 보호 기능을 검토하십시오.
 
-- Edge 세그먼트는 단순 특성 검사 및 세그먼트 멤버십으로 제한됩니다. 시계열 쿼리 또는 복잡한 집계 없음 — [Edge 세그먼테이션 자격](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
-- 샌드박스당 Edge에서 하나의 병합 정책만 활성화할 수 있습니다. [프로필 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- 샌드박스당 최대 500개의 활성 라이브 캠페인 — [Journey Optimizer 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- 콘텐츠 실험당 최대 10개의 처리 변형 — [콘텐츠 실험 제한](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- 샌드박스당 최대 10,000개의 승인된 개인화된 오퍼(옵션 C) — [의사 결정 관리 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- 결정당 최대 30개 배치(옵션 C) — [Journey Optimizer 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+- Edge 세그먼트는 단순 특성 검사 및 세그먼트 멤버십으로 제한됩니다. 시계열 쿼리 또는 복잡한 집계 없음 — [Edge 세그먼테이션 자격](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- 샌드박스당 Edge에서 하나의 병합 정책만 활성화할 수 있습니다. [프로필 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 샌드박스당 최대 500개의 활성 라이브 캠페인 — [Journey Optimizer 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 콘텐츠 실험당 최대 10개의 처리 변형 — [콘텐츠 실험 제한](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 샌드박스당 최대 10,000개의 승인된 개인화된 오퍼(옵션 C) — [의사 결정 관리 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 결정당 최대 30개 배치(옵션 C) — [Journey Optimizer 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - AI 등급 모델은 교육을 위해 최소 1,000개의 전환 이벤트가 필요합니다(옵션 C)
 - [!DNL Edge Network] 응답 시간 SLA: 에지 평가 세그먼트의 경우 200ms 미만
 - 익명 프로필 만료: ECID 전용 프로필에 대해 14일에서 365일까지 구성 가능
@@ -681,30 +681,30 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 
 **웹 채널 및 코드 기반 경험**
 
-- [웹 채널 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/get-started-web)
-- [웹 경험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/create-web)
+- [웹 채널 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
+- [웹 경험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [코드 기반 경험 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [코드 기반 경험 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
 **대상 및 세분화**
 
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
-- [에지 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Profile Query Language 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/pql/overview)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Profile Query Language 참조](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
 
 **Personalization 및 컨텐츠**
 
 - [개인화 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization 구문](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [컨텐츠 조각을 사용한 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
 
 **콘텐츠 실험**
 
-- [콘텐츠 실험 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [콘텐츠 실험 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [콘텐츠 실험 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 - [통계적 계산](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
@@ -712,8 +712,8 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 **의사 결정 관리**
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [배치 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [배치 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [결정 규칙 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -723,44 +723,44 @@ AJO 기본 제공 보고서를 사용하여 개인화 성능을 모니터링하�
 
 **캠페인**
 
-- [캠페인 시작하기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [캠페인 시작하기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [캠페인 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 
 **[!DNL Web SDK]및 데이터 수집**
 
-- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
-- [웹 SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/overview)
-- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
-- [태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [웹 SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
+- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
 
 **ID 및 프로필**
 
-- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
-- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
+- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 **데이터 모델링**
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 **보고 및 분석**
 
 - [캠페인 라이브 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [캠페인 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [Customer Journey Analytics 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
-- [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
 
 **데이터 거버넌스 및 개인 정보 보호**
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
-- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home)
-- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
 
 **보호 기능**
 
-- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- [ID 서비스 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)
+- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [ID 서비스 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)

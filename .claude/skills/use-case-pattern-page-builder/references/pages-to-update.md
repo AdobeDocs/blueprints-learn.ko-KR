@@ -1,8 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 # 사용 사례 패턴을 추가할 때 업데이트할 페이지
@@ -64,5 +64,5 @@ ht-degree: 100%
 - [ ] 파일에서 kebab-대/소문자 명명 규칙을 사용합니다.
 - [ ] 모든 Experience League 링크가 올바른 URL입니다.
 - [ ] Adobe 제품 이름은 `[!DNL ...]` 구문을 사용합니다.
-- [ ] 함수 체인이 ` > ` 구분 기호 형식을 사용함
+- [ ] 실행 계획에서 ` > ` 구분 기호 형식을 사용함
 - [ ] 패턴 파일에 필요한 모든 섹션이 포함되어 있습니다(pattern-template.md 참조).

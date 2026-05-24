@@ -3,7 +3,7 @@ title: 행동 추천
 description: 선택 전략 및 순위 모델을 사용하여 항목 및 콘텐츠 권장 사항을 생성하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7545'
 ht-degree: 2%
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 행동 신호를 기반으로 AJO Decisioning 선택 전략 및 등급 모델을 사용하여 컨텍스트 기반의 콘텐츠를 제공하는 항목 수준 또는 콘텐츠 수준 권장 사항을 생성합니다.
 
-**함수 체인:** 동작 신호 수집 > 의사 결정 전략 평가 > 권장 사항 게재 > 보고
+**실행 계획:** 동작 신호 수집 > 의사 결정 전략 평가 > 권장 사항 게재 > 보고
 
 패턴 결합에 대한 지침은 구현 고려 사항 아래의 패턴 구성 섹션을 참조하십시오.
 
@@ -87,41 +87,41 @@ ht-degree: 2%
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer] (AJO) Decisioning** — 선택 전략, 순위 모델, 항목 카탈로그 및 동작 신호를 평가하고 각 방문자에 대해 가장 관련성이 높은 항목을 반환하는 결정 정책
-- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 행동 프로필 데이터 누적, 추천 범위에 대한 대상 평가 및 행동 선호도 점수에 대한 계산된 특성
-- **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK] 및 [!DNL Mobile SDK]을(를) 통한 동작 이벤트 수집, [!DNL Edge Network] 처리, 이벤트 및 카탈로그 데이터에 대한 XDM 스키마 관리
+- **[!DNL Adobe Journey Optimizer](AJO) Decisioning** — 선택 전략, 순위 모델, 항목 카탈로그 및 동작 신호를 평가하고 각 방문자에 대해 가장 관련성이 높은 항목을 반환하는 결정 정책
+- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 행동 프로필 데이터 누적, 추천 범위에 대한 대상 평가 및 행동 선호도 점수에 대한 계산된 특성
+- **[!DNL Adobe Experience Platform](AEP)** — [!DNL Web SDK] 및 [!DNL Mobile SDK]을(를) 통한 동작 이벤트 수집, [!DNL Edge Network] 처리, 이벤트 및 카탈로그 데이터에 대한 XDM 스키마 관리
 
-## 기본 함수
+## 기본 기능
 
-이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
+이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 기능에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지를 나타냅니다.
 
-| 기본 함수 | 상태 | 제자리에 있어야 하는 사항 | Experience League 참조 |
+| 기본 기능 | 상태 | 제자리에 있어야 하는 사항 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 가정 위치 | Decisioning 권한이 활성화된 AJO 샌드박스 항목 카탈로그 관리, 선택 전략 구성 및 채널 표면 관리에 대한 액세스 권한을 통해 프로비저닝된 사용자 역할입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | 항목/제품 식별자로 동작 신호(제품 보기, 장바구니에 추가, 구매, 콘텐츠 상호 작용)를 캡처하는 경험 이벤트 스키마. 추천 항목 세트에 대한 항목 카탈로그 스키마(제품 속성, 카테고리, 이미지, 가격). ID 필드가 있는 프로필 스키마. [!DNL Real-Time Customer Profile]에 대해 모든 스키마가 활성화되었습니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition), [데이터 집합 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create) |
-| 데이터 소스 및 수집 | 필수 | [!DNL Web SDK] 또는 [!DNL Mobile SDK]을(를) 통한 실시간 동작 이벤트 스트리밍은 매우 중요합니다. 권장 사항 품질은 새로운 동작 신호에 따라 다릅니다. 항목 카탈로그 데이터는 수집(일괄 처리 또는 스트리밍)해야 합니다. Edge 의사 결정을 위해 활성화된 AJO 서비스로 구성된 데이터스트림. | [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home), [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview), [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) |
-| ID 및 프로필 구성 | 필수 | 행동 프로필을 만들려면 행동 신호를 ID(ECID를 통해 알려지거나 익명)와 연결해야 합니다. 알려진 방문자 권장 사항의 경우 인증된 ID(CRM ID, 이메일)를 구성해야 합니다. 실시간 권장 사항 전달을 위해 Edge에서 병합 정책이 활성화됩니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview) |
-| 대상 정의 및 세분화 | 추천 | 대상은 권장 사항의 범위를 지정하거나(예: 프리미엄 구성원에게 프리미엄 제품을 권장) 필터링하는 데 사용할 수 있습니다. 권장 사항이 순전히 행동적인 경우에는 엄격히 필요하지 않습니다. 이메일 기반 권장 사항(옵션 C)이 타겟 대상자를 정의하는 데 필요합니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder) |
+| 관리 및 거버넌스 | 가정 위치 | Decisioning 권한이 활성화된 AJO 샌드박스 항목 카탈로그 관리, 선택 전략 구성 및 채널 표면 관리에 대한 액세스 권한을 통해 프로비저닝된 사용자 역할입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 데이터 모델링 및 준비 | 필수 | 항목/제품 식별자로 동작 신호(제품 보기, 장바구니에 추가, 구매, 콘텐츠 상호 작용)를 캡처하는 경험 이벤트 스키마. 추천 항목 세트에 대한 항목 카탈로그 스키마(제품 속성, 카테고리, 이미지, 가격). ID 필드가 있는 프로필 스키마. [!DNL Real-Time Customer Profile]에 대해 모든 스키마가 활성화되었습니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [스키마 구성 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition), [데이터 집합 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create) |
+| 데이터 소스 및 수집 | 필수 | [!DNL Web SDK] 또는 [!DNL Mobile SDK]을(를) 통한 실시간 동작 이벤트 스트리밍은 매우 중요합니다. 권장 사항 품질은 새로운 동작 신호에 따라 다릅니다. 항목 카탈로그 데이터는 수집(일괄 처리 또는 스트리밍)해야 합니다. Edge 의사 결정을 위해 활성화된 AJO 서비스로 구성된 데이터스트림. | [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview), [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| ID 및 프로필 구성 | 필수 | 행동 프로필을 만들려면 행동 신호를 ID(ECID를 통해 알려지거나 익명)와 연결해야 합니다. 알려진 방문자 권장 사항의 경우 인증된 ID(CRM ID, 이메일)를 구성해야 합니다. 실시간 권장 사항 전달을 위해 Edge에서 병합 정책이 활성화됩니다. | [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
+| 대상 정의 및 세분화 | 추천 | 대상은 권장 사항의 범위를 지정하거나(예: 프리미엄 구성원에게 프리미엄 제품을 권장) 필터링하는 데 사용할 수 있습니다. 권장 사항이 순전히 행동적인 경우에는 엄격히 필요하지 않습니다. 이메일 기반 권장 사항(옵션 C)이 타겟 대상자를 정의하는 데 필요합니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## 기능 지원
+## 지원 기능
 
 다음 기능은 이 사용 사례 패턴을 강화하지만 코어 실행에는 필요하지 않습니다.
 
 | 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 추천 | 카테고리 친화성 점수, 제품 상호 작용 빈도, 최근 구매 및 총 지출과 같은 계산된 속성은 추천 순위 품질을 향상시킵니다. [!DNL Customer AI] 성향 점수는 구매 가능성을 예측하여 관련성을 더욱 높일 수 있다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview), [Customer AI 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/intelligent-services/customer-ai/overview) |
-| 데이터 수명 주기 관리 | 추천 | 동작 이벤트 데이터에는 적절한 만료 정책이 있어야 합니다. 권장 사항 관련성은 오래된 데이터로 인해 저하됩니다. 동작 이벤트 데이터 세트에 데이터 세트 만료 정책을 설정하면 신선도가 보장되고 스토리지가 관리됩니다. 동의 적용은 행동 데이터의 규정 준수를 보장합니다. | [데이터 세트 만료](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | 행동 데이터의 거버넌스 레이블은 권장 사항에 대한 상호 작용 기록을 준수하여 사용할 수 있도록 합니다. 행동 데이터가 탐색 패턴, 구매 내역 또는 건강/금융 제품 관심 신호를 포함하는 경우 특히 중요합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
-| 모니터링 및 가시성 | 추천 | 권장 사항 배달 지연, 대체 비율 및 항목 카탈로그 수집 상태가 모니터링되어야 합니다. 행동 이벤트 수집 실패 및 의사 결정 오류에 대한 경고는 권장 사항 품질을 유지하는 데 도움이 됩니다. | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home), [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview) |
-| 보고 및 분석 | 포함됨 | 권장 사항 성능 보고는 Function Chain 4단계의 일부입니다. [!DNL Customer Journey Analytics] 표면 및 세그먼트 전반에 걸친 추천 효율성, 매출 영향 및 항목 수준 성능의 분석은 최적화 통찰력을 제공합니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) |
+| 계산/파생 속성 생성 | 추천 | 카테고리 친화성 점수, 제품 상호 작용 빈도, 최근 구매 및 총 지출과 같은 계산된 속성은 추천 순위 품질을 향상시킵니다. [!DNL Customer AI] 성향 점수는 구매 가능성을 예측하여 관련성을 더욱 높일 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [Customer AI 개요](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
+| 데이터 수명 주기 관리 | 추천 | 동작 이벤트 데이터에는 적절한 만료 정책이 있어야 합니다. 권장 사항 관련성은 오래된 데이터로 인해 저하됩니다. 동작 이벤트 데이터 세트에 데이터 세트 만료 정책을 설정하면 신선도가 보장되고 스토리지가 관리됩니다. 동의 적용은 행동 데이터의 규정 준수를 보장합니다. | [데이터 세트 만료](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | 행동 데이터의 거버넌스 레이블은 권장 사항에 대한 상호 작용 기록을 준수하여 사용할 수 있도록 합니다. 행동 데이터가 탐색 패턴, 구매 내역 또는 건강/금융 제품 관심 신호를 포함하는 경우 특히 중요합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview) |
+| 모니터링 및 가시성 | 추천 | 권장 사항 배달 지연, 대체 비율 및 항목 카탈로그 수집 상태가 모니터링되어야 합니다. 행동 이벤트 수집 실패 및 의사 결정 오류에 대한 경고는 권장 사항 품질을 유지하는 데 도움이 됩니다. | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
+| 보고 및 분석 | 포함됨 | 권장 사항 성능 보고는 실행 계획 4단계의 일부입니다. 표면 및 세그먼트 전반에 걸친 추천 효율성, 매출 영향 및 항목 수준 성능의 [!DNL Customer Journey Analytics] 분석은 최적화 통찰력을 제공합니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
 ## 애플리케이션 기능
 
-이 계획은 응용 프로그램 함수 카탈로그에서 다음 함수를 실행합니다. 함수는 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
+이 계획에서는 응용 프로그램 기능 카탈로그에서 다음 기능을 수행합니다. 기능은 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
 
 ### [!DNL Journey Optimizer]&#x200B;(AJO)
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 결정 | 품목 카탈로그 및 선택 전략 설정 | 항목 카탈로그(의사 결정 항목), 행동 순위 모델을 통한 선택 전략, 필터링 규칙 및 대체 권장 사항 구성 |
 | 채널 구성 | 채널 및 표면 구성 | 권장 사항이 렌더링될 웹(코드 기반 경험), 인앱, 콘텐츠 카드 또는 이메일 채널에 대한 게재 표면을 구성합니다 |
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 ### [!DNL Real-Time CDP]&#x200B;(RT-CDP)
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 대상 평가 | 대상 범위 지정(옵션 C) | 권장 사항의 범위를 지정하거나 이메일 권장 사항 캠페인에 대한 대상 모집단을 정의하는 데 사용되는 대상 세그먼트를 평가합니다 |
 | 프로필 보강 | 행동 신호 보강 | 추천 순위를 향상시키는 계산된 속성(카테고리 친화성 점수, 상호 작용 빈도)으로 프로필을 보강합니다 |
@@ -186,7 +186,7 @@ ht-degree: 2%
 **Experience League:**
 
 - [Edge Decisioning API를 사용하여 오퍼 게재](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api/offer-delivery-api/edge-decisioning-api)
-- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 
 ### 옵션 B: 모바일 앱 권장 사항
 
@@ -256,7 +256,7 @@ ht-degree: 2%
 
 **Experience League:**
 
-- [이메일 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/create-email)
+- [이메일 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
 - [메시지에 오퍼 게재](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
 
 ### 옵션 비교
@@ -288,7 +288,7 @@ ht-degree: 2%
 
 ### 1단계: 동작 이벤트 스키마 및 데이터 수집 구성
 
-**응용 프로그램 함수:** AEP: 데이터 모델링 및 준비(F2), AEP: 데이터 소스 및 수집(F3)
+**응용 프로그램 기능:** AEP: 데이터 모델링 및 준비(F2), AEP: 데이터 소스 및 수집(F3)
 
 이 단계에서는 동작 신호 및 항목 카탈로그 데이터를 캡처하는 XDM 스키마, 데이터 세트 및 데이터 수집 메커니즘을 설정합니다. 이 데이터 기반은 모든 권장 사항 논리의 기반이 됩니다.
 
@@ -323,15 +323,15 @@ ht-degree: 2%
 
 **Experience League 설명서:**
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
-- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
-- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
-- [두 스키마 간의 관계 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-api)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [두 스키마 간의 관계 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-api)
 
 ### 2단계: ID 및 프로필 구성
 
-**응용 프로그램 함수:** AEP: ID 및 프로필 구성(F4)
+**응용 프로그램 기능:** AEP: ID 및 프로필 구성(F4)
 
 이 단계에서는 동작 신호가 방문자 프로필과 올바르게 연결되고 실시간 추천 게재에 사용할 수 있도록 하는 ID 네임스페이스, 기본 ID 지정 및 병합 정책을 설정합니다.
 
@@ -365,14 +365,14 @@ ht-degree: 2%
 
 **Experience League 설명서:**
 
-- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
-- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-linking-logic)
+- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [아이덴티티 그래프 연결 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
 
 ### 단계 3: 품목 카탈로그 및 선택 전략 설정
 
-**응용 프로그램 함수:** AJO: Decisioning
+**응용 프로그램 기능:** AJO: Decisioning
 
 이 단계에서는 항목 카탈로그(결정 항목), 순위 지정을 위한 항목 속성과 동작 신호를 결합하는 선택 전략, 부적격 항목을 제외하는 필터링 규칙 및 콜드 스타트 프로필에 대한 대체 권장 사항을 구성합니다.
 
@@ -432,8 +432,8 @@ ht-degree: 2%
 **Experience League 설명서:**
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [배치 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [배치 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [결정 규칙 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -442,7 +442,7 @@ ht-degree: 2%
 
 ### 4단계: 채널 및 표면 구성
 
-**응용 프로그램 함수:** AJO: 채널 구성
+**응용 프로그램 기능:** AJO: 채널 구성
 
 이 단계는 권장 사항이 렌더링될 게재 표면을 구성합니다. 구성은 구현 옵션에 따라 크게 달라집니다.
 
@@ -460,27 +460,27 @@ ht-degree: 2%
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A의 경우(웹 실시간 권장 사항):**
+**옵션 A(웹 실시간 권장 사항)의 경우:**
 코드 기반 경험 표면 또는 웹 채널 표면을 구성합니다. 코드 기반 경험은 사용자 지정 권장 사항 렌더링(회전 메뉴, 그리드, 항목 카드)에 가장 많은 유연성을 제공합니다. 표면 URI는 페이지에서 권장 사항이 나타나는 위치를 식별합니다.
 
-**옵션 B(모바일 앱 권장 사항)의 경우:**
+옵션 B의 **경우(모바일 앱 권장 사항):**
 인앱 메시지 또는 콘텐츠 카드 표면을 구성합니다. 영구 추천 피드에 대해 컨텐츠 카드가 권장됩니다. 인앱 메시지는 상황별, 비헤이비어 트리거 권장 사항에 적합합니다.
 
-**옵션 C의 경우(전자 메일 동작 권장 사항):**
+옵션 C의 **경우(전자 메일 동작 권장 사항):**
 하위 도메인 위임, IP 풀 할당 및 발신자 설정으로 이메일 채널 표면을 구성합니다. 표면이 전달성의 유효성을 검사하는지 확인합니다.
 
 **UI 탐색:** 관리 > 채널 > 채널 표면 > 표면 만들기
 
 **Experience League 설명서:**
 
-- [채널 표면 설정](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [이메일 구성 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [SMS 채널 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [채널 표면 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [이메일 구성 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [SMS 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [푸시 알림 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### 5단계: 콘텐츠 및 게재 구성
 
-**응용 프로그램 함수:** AJO: 메시지 작성
+**응용 프로그램 기능:** AJO: 메시지 작성
 
 이 단계는 권장 항목이 방문자에게 표시되는 방식을 제어하는 권장 렌더링 템플릿을 정의합니다. 여기에는 항목 레이아웃 디자인, 항목 속성(이름, 이미지, 가격, 링크)을 가져오는 개인화 표현식 및 전체 권장 사항 경험 디자인이 포함됩니다.
 
@@ -508,13 +508,13 @@ ht-degree: 2%
 
 **옵션이 나뉘는 위치:**
 
-**옵션 A의 경우(웹 실시간 권장 사항):**
+**옵션 A(웹 실시간 권장 사항)의 경우:**
 코드 기반 경험 템플릿을 사용하여 권장 사항 렌더링을 디자인합니다. HTML/CSS/JavaScript을 사용하여 회전 메뉴, 그리드 또는 위젯 레이아웃을 만듭니다. Personalization 표현식은 의사 결정 응답 속성(항목 이름, 이미지 URL, 가격, 제품 URL)을 참조합니다. 노출 및 클릭 추적은 [!DNL Web SDK]에 의해 자동으로 처리됩니다.
 
-**옵션 B(모바일 앱 권장 사항)의 경우:**
+옵션 B의 **경우(모바일 앱 권장 사항):**
 항목 표시 논리를 사용하여 콘텐츠 카드 또는 인앱 메시지 템플릿을 구성합니다. 모바일 앱이 기본적으로 렌더링하는 JSON 기반 콘텐츠 구조를 사용합니다. 각 권장 항목에 대한 딥링크를 포함합니다.
 
-**옵션 C의 경우(전자 메일 동작 권장 사항):**
+옵션 C의 **경우(전자 메일 동작 권장 사항):**
 이메일 Designer을 사용하여 이메일 콘텐츠를 디자인합니다. 의사 결정 기반 콘텐츠 블록을 사용하여 추천 배치를 삽입합니다. 이메일 템플릿 내의 항목 속성에 대한 개인화 표현식을 구성합니다. 제목 줄 개인화는 상위 추천 항목을 참조할 수 있습니다.
 
 **UI 탐색:** 콘텐츠 관리 > 콘텐츠 템플릿; 캠페인/여정 > 콘텐츠 편집 > 이메일 Designer
@@ -534,12 +534,12 @@ ht-degree: 2%
 - [Personalization 구문](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [메시지에 오퍼 게재](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
-- [콘텐츠 미리보기 및 테스트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/preview-test/preview-test)
-- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [콘텐츠 미리보기 및 테스트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 
 ### 6단계: 대상자 범위 지정 및 캠페인/여정 설정(옵션 C만 해당)
 
-**응용 프로그램 함수:** RT-CDP: 대상 평가, AJO: Campaign 실행 또는 Journey Orchestration
+**응용 프로그램 기능:** RT-CDP: 대상 평가, AJO: Campaign 실행 또는 Journey Orchestration
 
 이메일 기반 권장 사항(옵션 C)의 경우, 이 단계는 타겟 대상자를 정의하고 권장 사항 이메일을 제공하는 캠페인 또는 여정을 구성합니다. 권장 사항이 페이지/화면 로드 시 실시간으로 제공되므로 옵션 A 및 B는 이 단계를 건너뜁니다.
 
@@ -573,13 +573,13 @@ ht-degree: 2%
 
 **Experience League 설명서:**
 
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
-- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [캠페인 라이브 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 
 ### 7단계: 보고 및 최적화 구성
 
-**응용 프로그램 함수:** AJO: 보고 및 성능 분석, S5: 보고 및 분석
+**응용 프로그램 기능:** AJO: 보고 및 성능 분석, S5: 보고 및 분석
 
 이 단계에서는 권장 사항 클릭스루, 전환 및 매출 지표에 대한 성능 모니터링을 설정합니다. 보고 인프라를 만들어 추천 효율성을 측정하고 최적화 기회를 식별합니다.
 
@@ -608,10 +608,10 @@ ht-degree: 2%
 - [캠페인 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [여정 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Customer Journey Analytics 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [연결 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection)
-- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
-- [계산된 지표 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [연결 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [계산된 지표 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
 
 ## 구현 시 고려 사항
 
@@ -619,17 +619,17 @@ ht-degree: 2%
 
 ### 보호 기능 및 제한 사항
 
-- 샌드박스당 최대 10,000개의 승인된 개인화된 오퍼(의사 결정 항목) — [의사 결정 관리 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+- 샌드박스당 최대 10,000개의 승인된 개인화된 오퍼(의사 결정 항목) — [의사 결정 관리 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - 의사 결정당 최대 30개 배치
 - 결정 요청당 최대 30개의 수집 범위
 - 오퍼 게재 응답 시간 SLA: 단일 범위 Edge 요청의 경우 P95에서 500ms 미만
 - AI 등급 모델은 교육을 위해 최소 1,000개의 전환 이벤트가 필요합니다
 - 오퍼 한도 카운터는 처리량이 많은 시나리오에서 최대 몇 초의 지연 시간을 가질 수 있습니다
 - Edge 의사 결정은 edge 프로필 스토어에서 사용할 수 있는 프로필 속성으로 제한됩니다
-- 샌드박스당 Edge에서 병합 정책을 하나만 활성화할 수 있습니다. [프로필 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- 샌드박스당 최대 25개의 활성 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
-- 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- 스트리밍 수집: HTTP 연결당 초당 최대 20,000개의 레코드 — [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
+- 샌드박스당 Edge에서 병합 정책을 하나만 활성화할 수 있습니다. [프로필 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 샌드박스당 최대 25개의 활성 연산 속성 — [연산 속성 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- 샌드박스당 최대 4,000개의 세그먼트 정의 — [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 스트리밍 수집: HTTP 연결당 초당 최대 20,000개의 레코드 — [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
 
 ### 일반적인 함정
 
@@ -694,12 +694,12 @@ ht-degree: 2%
 ### 의사 결정 관리
 
 - [의사 결정 관리 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [배치 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [의사 결정 규칙 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [배치 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [결정 규칙 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [개인화 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [대체 오퍼 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [컬렉션 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
-- [컬렉션 수식어 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-tags)
+- [컬렉션 수식어 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-tags)
 - [결정 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-activities)
 - [순위 전략](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/ranking/ranking-strategies)
 - [메시지에 오퍼 게재](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
@@ -707,43 +707,43 @@ ht-degree: 2%
 
 ### 데이터 수집 및 웹/모바일 SDK
 
-- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
-- [웹 SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/overview)
+- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [웹 SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
 - [모바일 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
-- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)
+- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
 
 ### XDM 및 데이터 모델링
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
-- [데이터 세트 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create)
-- [두 스키마 간의 관계 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-api)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [데이터 세트 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create)
+- [두 스키마 간의 관계 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-api)
 
 ### ID 및 프로필
 
-- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)
-- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
-- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
+- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [실시간 고객 프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 ### 대상자 및 세그멘테이션
 
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
-- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [에지 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [에지 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### 계산된 속성 및 프로필 보강
 
-- [계산된 속성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview)
-- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/ui)
-- [Customer AI 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/intelligent-services/customer-ai/overview)
+- [계산된 속성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [계산된 속성 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [Customer AI 개요](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview)
 
 ### 채널 구성
 
-- [이메일 구성 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [채널 표면 설정](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [이메일 구성 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [채널 표면 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
 - [하위 도메인 위임](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 
 ### 메시지 작성 및 개인화
@@ -752,38 +752,38 @@ ht-degree: 2%
 - [개인화 추가](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization 구문](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [다이내믹 콘텐츠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [콘텐츠 템플릿 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 
 ### 보고 및 분석
 
 - [캠페인 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [여정 글로벌 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Customer Journey Analytics 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
-- [계산된 지표 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [계산된 지표 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
 
 ### 데이터 거버넌스 및 라이프사이클
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview)
-- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home)
-- [데이터 세트 만료](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/ui/dataset-expiration)
+- [고급 데이터 수명주기 관리 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [데이터 세트 만료](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration)
 
 ### 모니터링 및 가시성
 
-- [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home)
-- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
 
 ### 가드레일
 
-- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
-- [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
-- [ID 서비스 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)
+- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [ID 서비스 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
 
 ### 튜토리얼 및 안내서
 
-- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
-- [태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)
-- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents)
+- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [동의 및 환경 설정 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)

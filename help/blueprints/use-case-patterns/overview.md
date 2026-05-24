@@ -4,7 +4,7 @@ description: 주요 비즈니스 목표를 달성하기 위한 Adobe Experience 
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 사용 사례 패턴
 
-사용 사례 패턴은 Adobe Experience Platform 및 애플리케이션에 대한 반복 가능한 구현 접근 방식을 정의합니다. 각 패턴은 특정 기능, 기능을 제공하는 기능 체인, 관련 애플리케이션 및 지원하는 [주요 비즈니스 목표](/help/blueprints/business-objectives/overview.md)를 설명합니다.
+사용 사례 패턴은 Adobe Experience Platform 및 애플리케이션에 대한 반복 가능한 구현 접근 방식을 정의합니다. 각 패턴은 특정 기능, 이를 제공하는 실행 계획, 관련 애플리케이션 및 지원하는 [주요 비즈니스 목표](/help/blueprints/business-objectives/overview.md)를 설명합니다.
 
 아래 표를 사용하여 구현 요구 사항과 일치하는 패턴을 찾은 다음 옵션, 단계, 의사 결정 지침 및 Experience League 설명서를 포함한 전체 구현 참조에 대한 링크를 따르십시오.
 
@@ -123,4 +123,4 @@ ht-degree: 0%
 
 - **개별 메시지가 여러 개의 오퍼 변형에서 실시간으로 선택되어야 합니까?**
    - 예→ [의사 결정 포함 크로스 채널 여정](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - → [여러 단계로 구성된 오케스트레이션된 여정 &#x200B;](campaign-management-orchestration/multi-step-orchestrated-journey.md) 없음
+   - → [여러 단계로 구성된 오케스트레이션된 여정 ](campaign-management-orchestration/multi-step-orchestrated-journey.md) 없음

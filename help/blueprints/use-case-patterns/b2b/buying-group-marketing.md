@@ -3,7 +3,7 @@ title: 구매 그룹 기반 마케팅 및 여정 관리
 description: B2B 마케팅 효과를 향상시키기 위해 구매 그룹으로 잠재 고객을 선별하는 계정 수준 여정을 개발하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -88,46 +88,46 @@ B2B 조직은 근본적인 과제에 직면해 있습니다. 구매 결정은 �
 
 B2B 마케팅 효과를 개선하기 위해 잠재 고객을 구매 그룹으로 분류하는 계정 수준 여정을 개발합니다.
 
-**기능 체인:** 계정 식별 > 구매 그룹 정의 > 잠재 고객 자격 > 계정 여정 실행 > 참여 점수 > 보고
+**실행 계획:** 계정 식별 > 구매 그룹 정의 > 잠재 고객 자격 > 계정 여정 실행 > 참여 점수 > 보고
 
 ## 애플리케이션
 
 이 사용 사례 패턴에는 다음 Adobe 애플리케이션이 사용됩니다.
 
-- **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])** — 계정 수준 여정을 조정하고, 역할 템플릿과 솔루션 관심사를 사용하여 구매 그룹을 관리하고, 개인 및 구매 그룹 수준에서 참여 점수를 매기고, 작성자 B2B 이메일 콘텐츠를 작성하고, SMS 메시지를 보내고, 판매 알림을 구성하고, B2B 분석 대시보드를 제공합니다.
-- **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])** — 소스 간 B2B 데이터에서 계정 프로필을 통합하고, 개인 대 계정 관계를 확인하고, 계정 수준 대상을 평가하고, B2B별 대상([!DNL Marketo Engage], [!DNL LinkedIn], CRM)을 구성하고, B2B 데이터 전반에 걸쳐 데이터 거버넌스를 적용합니다.
+- **[!DNL Journey Optimizer B2B Edition]([!DNL AJO B2B])** — 계정 수준 여정을 조정하고, 역할 템플릿과 솔루션 관심사를 사용하여 구매 그룹을 관리하고, 개인 및 구매 그룹 수준에서 참여 점수를 매기고, 작성자 B2B 이메일 콘텐츠를 작성하고, SMS 메시지를 보내고, 판매 알림을 구성하고, B2B 분석 대시보드를 제공합니다.
+- **[!DNL Real-Time CDP B2B Edition]([!DNL RT-CDP B2B])** — 소스 간 B2B 데이터에서 계정 프로필을 통합하고, 개인 대 계정 관계를 확인하고, 계정 수준 대상을 평가하고, B2B별 대상([!DNL Marketo Engage], [!DNL LinkedIn], CRM)을 구성하고, B2B 데이터 전반에 걸쳐 데이터 거버넌스를 적용합니다.
 
-## 기본 함수
+## 기본 기능
 
-이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 함수에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지 여부를 나타냅니다.
+이 사용 사례 패턴을 사용하려면 다음 기본 기능이 있어야 합니다. 각 기능에 대해 상태는 일반적으로 필요한지, 사전 구성되어 있다고 가정할지 또는 적용할 수 없는지를 나타냅니다.
 
-| 기본 함수 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
+| 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 필수 | 샌드박스가 [!DNL AJO B2B Edition] 및 [!DNL RT-CDP B2B Edition] 권한을 활성화한 상태로 프로비저닝되었습니다. 구매 그룹 관리, 계정 여정 및 CRM 통합 설정에 대한 적절한 권한이 있는 B2B 마케터, 영업 작업 및 관리자를 위해 구성된 역할입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
-| 데이터 모델링 및 준비 | 필수 | B2B 관련 클래스(XDM 비즈니스 계정, XDM 비즈니스 영업 기회, XDM 비즈니스 사용자(리드/연락처), XDM 비즈니스 캠페인 및 XDM 비즈니스 마케팅 목록)를 사용하여 구성된 B2B XDM 스키마. 계정 속성, 개인 속성 및 활동/참여 데이터에 대한 필드 그룹이 있어야 합니다. 각 스키마에 대해 생성되고 프로필이 활성화된 데이터 세트. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home), [B2B 스키마 클래스](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) |
-| 데이터 소스 및 수집 | 필수 | B2B 데이터 수집 파이프라인은 일반적으로 [!DNL Marketo Engage] 소스 커넥터 또는 [!DNL Salesforce]/[!DNL Dynamics] CRM 소스 커넥터를 통해 설정됩니다. 계정, 사용자, 기회, 캠페인 및 캠페인 멤버 데이터가 AEP 데이터 세트로 유입되어야 합니다. 참여 점수를 얻기 위해 행동 참여 데이터(웹 방문, 이메일 상호 작용, 콘텐츠 다운로드)도 수집해야 합니다. | [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home), [Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| ID 및 프로필 구성 | 필수 | 개인-계정 관계를 확인하도록 구성된 B2B ID 해결입니다. B2B 식별자의 ID 네임스페이스([!DNL Marketo] 개인 ID, [!DNL Salesforce] 리드/연락처 ID, 계정 ID)가 있어야 합니다. B2B 프로필 통합을 위해 구성된 병합 정책. 계정 프로필은 소스 간 데이터에서 통합되어야 합니다. | [Identity Service 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home), [B2B Identity Resolution](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
-| 대상 정의 및 세분화 | 필수 | 계정 속성, 개인 속성 및 활동 데이터를 사용하여 작성된 계정 수준 대상 정의입니다. 계정 대상은 구매 그룹 여정을 입력하는 계정을 식별합니다. 일괄 처리 평가는 B2B 계정 여정에 대해 충분하지만, 스트리밍 평가는 실시간 계정 자격 트리거에 사용할 수 있습니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home), [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/types/account-audiences) |
+| 관리 및 거버넌스 | 필수 | 샌드박스가 [!DNL AJO B2B Edition] 및 [!DNL RT-CDP B2B Edition] 권한을 활성화한 상태로 프로비저닝되었습니다. 구매 그룹 관리, 계정 여정 및 CRM 통합 설정에 대한 적절한 권한이 있는 B2B 마케터, 영업 작업 및 관리자를 위해 구성된 역할입니다. | [샌드박스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home), [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 데이터 모델링 및 준비 | 필수 | B2B 관련 클래스(XDM 비즈니스 계정, XDM 비즈니스 영업 기회, XDM 비즈니스 사용자(리드/연락처), XDM 비즈니스 캠페인 및 XDM 비즈니스 마케팅 목록)를 사용하여 구성된 B2B XDM 스키마. 계정 속성, 개인 속성 및 활동/참여 데이터에 대한 필드 그룹이 있어야 합니다. 각 스키마에 대해 생성되고 프로필이 활성화된 데이터 세트. | [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [B2B 스키마 클래스](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| 데이터 소스 및 수집 | 필수 | B2B 데이터 수집 파이프라인은 일반적으로 [!DNL Marketo Engage] 소스 커넥터 또는 [!DNL Salesforce]/[!DNL Dynamics] CRM 소스 커넥터를 통해 설정됩니다. 계정, 사용자, 기회, 캠페인 및 캠페인 멤버 데이터가 AEP 데이터 세트로 유입되어야 합니다. 참여 점수를 얻기 위해 행동 참여 데이터(웹 방문, 이메일 상호 작용, 콘텐츠 다운로드)도 수집해야 합니다. | [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| ID 및 프로필 구성 | 필수 | 개인-계정 관계를 확인하도록 구성된 B2B ID 해결입니다. B2B 식별자의 ID 네임스페이스([!DNL Marketo] 개인 ID, [!DNL Salesforce] 리드/연락처 ID, 계정 ID)가 있어야 합니다. B2B 프로필 통합을 위해 구성된 병합 정책. 계정 프로필은 소스 간 데이터에서 통합되어야 합니다. | [Identity Service 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [B2B Identity Resolution](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
+| 대상 정의 및 세분화 | 필수 | 계정 속성, 개인 속성 및 활동 데이터를 사용하여 작성된 계정 수준 대상 정의입니다. 계정 대상은 구매 그룹 여정을 입력하는 계정을 식별합니다. 일괄 처리 평가는 B2B 계정 여정에 대해 충분하지만, 스트리밍 평가는 실시간 계정 자격 트리거에 사용할 수 있습니다. | [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
 
-## 기능 지원
+## 지원 기능
 
 다음 기능은 이 사용 사례 패턴을 강화하지만 코어 실행에는 필요하지 않습니다.
 
-| 지원 함수 | 상태 | 중요한 이유 | Experience League 참조 |
+| 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 추천 | 계산된 속성은 개인 수준 참여 이벤트(이메일 열기, 콘텐츠 다운로드, 웨비나 출석)를 구매 그룹 점수 및 계정 자격 논리에 도움이 되는 계정 수준 참여 지표로 집계할 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
-| 데이터 수명 주기 관리 | 추천 | 동의 관리는 B2B 이메일 및 SMS 통신에 중요합니다. 데이터 세트 만료 정책은 임시 참여 데이터의 라이프사이클을 관리하고 데이터 보존 요구 사항을 준수하는 데 도움이 됩니다. | [고급 데이터 수명 주기 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
-| 데이터 사용 레이블 지정 및 적용 | 추천 | B2B 데이터에는 종종 민감한 회사 정보와 비즈니스 연락처의 개인 데이터가 포함됩니다. 데이터 거버넌스 정책은 특히 광고 플랫폼 또는 서드파티 시스템으로 활성화할 때 대상 간에 B2B 데이터를 호환하여 사용할 수 있도록 해줍니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
-| 모니터링 및 가시성 | 추천 | 모니터링을 통해 B2B 데이터 파이프라인(CRM/[!DNL Marketo] 동기화)이 정상이고, 계정 프로필이 업데이트되고, 계정 여정 실행이 실패 없이 진행 중인지 확인합니다. 소스 데이터 흐름 실패에 대한 경고는 데이터 통화를 유지 관리하는 데 중요합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
-| 보고 및 분석 | 포함됨 | [!DNL AJO B2B Edition] 내의 B2B 분석 대시보드는 구매 그룹 참여, 계정 여정 성능 및 파이프라인 지표를 제공합니다. [!DNL CJA B2B Edition]은(는) 계정 수준 작업 영역 분석, 구매 그룹 분석 및 영업 기회 상관 관계로 분석을 확장합니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 계산/파생 속성 생성 | 추천 | 계산된 속성은 개인 수준 참여 이벤트(이메일 열기, 콘텐츠 다운로드, 웨비나 출석)를 구매 그룹 점수 및 계정 자격 논리에 도움이 되는 계정 수준 참여 지표로 집계할 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 데이터 수명 주기 관리 | 추천 | 동의 관리는 B2B 이메일 및 SMS 통신에 중요합니다. 데이터 세트 만료 정책은 임시 참여 데이터의 라이프사이클을 관리하고 데이터 보존 요구 사항을 준수하는 데 도움이 됩니다. | [고급 데이터 수명 주기 관리](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 데이터 사용 레이블 지정 및 적용 | 추천 | B2B 데이터에는 종종 민감한 회사 정보와 비즈니스 연락처의 개인 데이터가 포함됩니다. 데이터 거버넌스 정책은 특히 광고 플랫폼 또는 서드파티 시스템으로 활성화할 때 대상 간에 B2B 데이터를 호환하여 사용할 수 있도록 해줍니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 모니터링 및 가시성 | 추천 | 모니터링을 통해 B2B 데이터 파이프라인(CRM/[!DNL Marketo] 동기화)이 정상이고, 계정 프로필이 업데이트되고, 계정 여정 실행이 실패 없이 진행 중인지 확인합니다. 소스 데이터 흐름 실패에 대한 경고는 데이터 통화를 유지 관리하는 데 중요합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 보고 및 분석 | 포함됨 | [!DNL AJO B2B Edition] 내의 B2B 분석 대시보드는 구매 그룹 참여, 계정 여정 성능 및 파이프라인 지표를 제공합니다. [!DNL CJA B2B Edition]은(는) 계정 수준 작업 영역 분석, 구매 그룹 분석 및 영업 기회 상관 관계로 분석을 확장합니다. | [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능
 
-이 계획은 응용 프로그램 함수 카탈로그에서 다음 함수를 실행합니다. 함수는 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
+이 계획에서는 응용 프로그램 기능 카탈로그에서 다음 기능을 수행합니다. 기능은 번호가 매겨진 단계가 아닌 구현 단계에 매핑됩니다.
 
 ### [!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 솔루션 관심 영역 구성 | 1단계: 솔루션 관심 및 구매 그룹 설정 | 제품 또는 서비스를 구매 그룹 자격 기준에 매핑하는 솔루션 관심사 정의 |
 | 구매 그룹 관리 | 1단계: 솔루션 관심 및 구매 그룹 설정 | 역할 템플릿, 사용자 매핑 및 솔루션 관심 분야 정의를 사용하여 구매 그룹을 만들고 관리합니다. |
@@ -142,7 +142,7 @@ B2B 마케팅 효과를 개선하기 위해 잠재 고객을 구매 그룹으로
 
 ### [!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])
 
-| 함수 | 구현 단계 | 설명 |
+| 기능 | 구현 단계 | 설명 |
 | --- | --- | --- |
 | 계정 프로필 통합 | 0단계: B2B 데이터 기반 | 특수 XDM B2B 스키마 클래스 및 필드 그룹을 사용하여 교차 소스 B2B 데이터를 통합 계정 프로필로 통합 |
 | B2B Id 확인 | 0단계: B2B 데이터 기반 | 기본 식별자를 사용하여 개인 대 계정 관계를 해결하고, 여러 수준의 계정 계층 구조 및 다대다 개인 대 계정 매핑을 지원합니다. |
@@ -204,8 +204,8 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **Experience League:**
 
-- [AJO B2B edition 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
-- [구매 그룹 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [AJO B2B edition 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [구매 그룹 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 
 ### 옵션 B: 분기 계정 여정이 있는 여러 솔루션 관심
 
@@ -239,8 +239,8 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **Experience League:**
 
-- [솔루션 관심 분야](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [계정 여정](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [솔루션 관심 분야](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [계정 여정](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
 
 ### 옵션 C: 자동화된 여정 진행을 통한 AI 지원 계정 자격
 
@@ -274,8 +274,8 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **Experience League:**
 
-- [계정 자격 조건](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [AJO B2B의 AI 지원](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
+- [계정 자격 조건](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [AJO B2B의 AI 지원](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
 
 ### 옵션 비교
 
@@ -309,7 +309,7 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 ### 0단계: B2B 데이터 기반
 
-**응용 프로그램 함수:** [!DNL RT-CDP B2B]: 계정 프로필 통합, B2B Id 확인, [!DNL Marketo Engage] 통합, B2B 데이터 거버넌스, 계정 대상 평가
+**응용 프로그램 기능:** [!DNL RT-CDP B2B]: 계정 프로필 통합, B2B Id 확인, [!DNL Marketo Engage] 통합, B2B 데이터 거버넌스, 계정 대상 평가
 
 이 단계는 [!DNL RT-CDP B2B Edition]에서 B2B 데이터 인프라를 설정합니다. CRM, 마케팅 자동화 및 기타 소스의 계정 데이터를 단일 계정 프로필로 통합하고, 개인-계정 관계를 해결하고, B2B 데이터 거버넌스를 구성하고, [!DNL AJO B2B Edition] 구매 그룹 관리에 사용되는 계정 수준 대상을 만듭니다.
 
@@ -346,14 +346,14 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 **Experience League 설명서:**
 
 - [RT-CDP B2B edition 개요](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
-- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
-- [Marketo Engage 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/types/account-audiences)
+- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [Marketo Engage 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
 - [B2B id 확인](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
 
 ### 1단계: 솔루션 관심 및 구매 그룹 설정
 
-**응용 프로그램 함수:** [!DNL AJO B2B]: 솔루션 관심사 구성, 구매 그룹 관리
+**응용 프로그램 기능:** [!DNL AJO B2B]: 솔루션 관심사 구성, 구매 그룹 관리
 
 이 단계에서는 구매 그룹 관리 모델의 핵심을 구성하는 솔루션 관심사(제품/서비스) 및 구매 그룹 템플릿을 정의합니다. 솔루션 관심사를 생성하고, 성향 요구 사항을 가진 역할 템플릿을 정의하고, 잠재 고객이 그룹 역할을 구매할 수 있는 자격을 부여하는 방법을 구성합니다.
 
@@ -402,14 +402,14 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **Experience League 설명서:**
 
-- [구매 그룹 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
-- [솔루션 관심 분야](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [역할 템플릿](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
-- [구매 그룹 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
+- [구매 그룹 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [솔루션 관심 분야](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [역할 템플릿](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
+- [구매 그룹 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
 
 ### 2단계: 잠재 고객 자격 및 참여 점수 책정
 
-**응용 프로그램 함수:** [!DNL AJO B2B]: 참여 점수, 계정 자격
+**응용 프로그램 기능:** [!DNL AJO B2B]: 참여 점수, 계정 자격
 
 이 단계에서는 구매 그룹 내에서 개인 수준 참여를 측정하는 참여 점수 모델을 설정하고 이를 구매 그룹 및 계정 수준 준비 점수로 롤업합니다. 채점 규칙을 구성하고, 자격 조건을 위한 참여 임계값을 정의하고, 선택적으로 AI 기반 계정 자격을 활성화합니다.
 
@@ -445,13 +445,13 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **Experience League 설명서:**
 
-- [참여 점수 책정](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [구매 그룹 단계](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [계정 자격 조건](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [참여 점수 책정](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [구매 그룹 단계](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [계정 자격 조건](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
 
 ### 3단계: 계정 여정 설계 및 실행
 
-**응용 프로그램 함수:** [!DNL AJO B2B]: 계정 Journey Orchestration, B2B 전자 메일 작성, SMS 채널 관리
+**응용 프로그램 기능:** [!DNL AJO B2B]: 계정 Journey Orchestration, B2B 전자 메일 작성, SMS 채널 관리
 
 이 단계에서는 구매 그룹 구성원에 대한 참여를 조정하는 계정 여정을 디자인하고 배포합니다. 시작 조건, 작업 노드(이메일, SMS), 조건 분기(구매 그룹 단계, 참여 점수, 역할 범위 기반), 대기 단계 및 종료 기준을 사용하여 계정 여정을 만듭니다.
 
@@ -511,15 +511,15 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **Experience League 설명서:**
 
-- [계정 여정 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [계정 여정 노드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [계정 여정 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [계정 여정 노드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [B2B 이메일 작성](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/email-authoring)
 - [AJO B2B의 SMS 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sms-authoring)
 - [이메일 작성을 위한 AI Assistant](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/ai-assistant-emails)
 
 ### 4단계: 판매 정렬 및 CRM 통합
 
-**응용 프로그램 함수:** [!DNL AJO B2B]: 영업 경고 구성, CRM 영업 인사이트; [!DNL RT-CDP B2B]: 계정 대상 구성, 계정 Audience Activation
+**응용 프로그램 기능:** [!DNL AJO B2B]: 영업 경고 구성, CRM 영업 인사이트; [!DNL RT-CDP B2B]: 계정 대상 구성, 계정 Audience Activation
 
 이 단계에서는 판매 경고 이메일을 구성하고, CRM 내 가시성을 위해 CRM Sales Insights를 배포하고, 원할 경우 B2B 대상([!DNL LinkedIn], [!DNL Marketo], CRM 시스템)으로 계정 대상을 활성화하여 마케팅과 판매 사이의 다리를 만듭니다.
 
@@ -559,12 +559,12 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 - [영업 경고 이메일](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [CRM 영업 인사이트](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
-- [대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
-- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin)
+- [대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### 5단계: 보고 및 최적화
 
-**응용 프로그램 함수:** [!DNL AJO B2B]: B2B Analytics 대시보드
+**응용 프로그램 기능:** [!DNL AJO B2B]: B2B Analytics 대시보드
 
 이 단계에서는 보고 및 분석 프레임워크를 설정하여 구매 그룹 성과, 계정 여정 효율성 및 파이프라인 영향을 측정합니다. [!DNL AJO B2B Edition]은(는) 기본 제공 analytics 대시보드를 제공합니다. [!DNL CJA B2B Edition]&#x200B;(라이선스가 있는 경우)은(는) 더 자세한 크로스 채널 계정 수준 인사이트를 통해 분석을 확장합니다.
 
@@ -590,9 +590,9 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 **Experience League 설명서:**
 
-- [B2B 분석 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [참여 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
-- [지능형 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
+- [B2B 분석 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
+- [참여 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [지능형 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [CJA B2B edition 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ## 구현 시 고려 사항
@@ -601,11 +601,11 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 ### 보호 기능 및 제한 사항
 
-- 최대 동시 여정 수 및 계정당 최대 여정 수를 포함한 [!DNL AJO B2B Edition] 계정 여정 제한은 [!DNL AJO B2B Edition] 제품 가드레일을 따릅니다. — [AJO B2B 가드레일](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
-- [!DNL RT-CDP B2B Edition]은(는) 최대 50개의 B2B 스키마 클래스를 지원하며 표준 프로필 및 세분화 가드레일 — [실시간 고객 프로필 가드레일](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- 최대 동시 여정 수 및 계정당 최대 여정 수를 포함한 [!DNL AJO B2B Edition] 계정 여정 제한은 [!DNL AJO B2B Edition] 제품 가드레일을 따릅니다. — [AJO B2B 가드레일](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [!DNL RT-CDP B2B Edition]은(는) 최대 50개의 B2B 스키마 클래스를 지원하며 표준 프로필 및 세분화 가드레일 — [실시간 고객 프로필 가드레일](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - 계정 대상 평가는 일괄 처리 일정에서 작동합니다. 실시간 계정 대상 업데이트는 모든 세그먼트 유형에 대해 지원되지 않습니다. [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- B2B 소스 커넥터 수집에는 최소 예약 간격(일반적으로 [!DNL Marketo]의 경우 15분, CRM 소스의 경우 변경)이 있습니다. — [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
-- 이메일 채널 표면은 샌드박스당 채널 유형당 10개로 제한됩니다. [Journey Optimizer 보호](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+- B2B 소스 커넥터 수집에는 최소 예약 간격(일반적으로 [!DNL Marketo]의 경우 15분, CRM 소스의 경우 변경)이 있습니다. — [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- 이메일 채널 표면은 샌드박스당 채널 유형당 10개로 제한됩니다. [Journey Optimizer 보호](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 ### 일반적인 함정
 
@@ -660,14 +660,14 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 ### [!DNL AJO B2B Edition]
 
-- [AJO B2B edition 설명서 홈](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
-- [구매 그룹 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
-- [솔루션 관심 분야](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [역할 템플릿](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
-- [구매 그룹 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
-- [구매 그룹 단계](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [계정 여정 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [계정 여정 노드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [AJO B2B edition 설명서 홈](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [구매 그룹 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [솔루션 관심 분야](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [역할 템플릿](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
+- [구매 그룹 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
+- [구매 그룹 단계](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [계정 여정 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [계정 여정 노드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [영업 경고 이메일](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [CRM 영업 인사이트](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
 
@@ -679,49 +679,49 @@ CRM 또는 [!DNL Marketo Engage]에서 수집된 리드에 대해 그룹 역할�
 
 ### B2B 분석 및 대시보드
 
-- [구매 그룹 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [참여 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
-- [지능형 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
+- [구매 그룹 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
+- [참여 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [지능형 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [CJA B2B edition 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### [!DNL RT-CDP B2B Edition]
 
 - [RT-CDP B2B edition 개요](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
-- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
-- [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/types/account-audiences)
-- [Marketo Engage 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [Marketo Engage 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 
 ### 데이터 기반
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
-- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
-- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
 
 ### 채널 구성
 
-- [이메일 구성 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [SMS 채널 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [이메일 구성 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [SMS 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 
 ### 데이터 거버넌스 및 개인 정보 보호
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
-- [고급 데이터 수명주기 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [고급 데이터 수명주기 관리](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
 
 ### 대상
 
-- [대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
-- [대상 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview)
-- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin)
+- [대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### 가드레일
 
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
-- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
+- [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 ### 튜토리얼 및 시작하기
 
-- [AJO B2B edition 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
+- [AJO B2B edition 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
 - [RT-CDP B2B edition 자습서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-tutorial)

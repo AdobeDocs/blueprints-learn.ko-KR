@@ -4,25 +4,20 @@ description: Adobe Experience Platform 및 애플리케이션에 대한 주요 �
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 333
 ht-degree: 4%
 
 ---
 
-# Customer experience orchestration 비즈니스 목표, 사용 사례 및 아키텍처 다이어그램
+# Customer Experience Orchestration 사용 사례 및 아키텍처 다이어그램
 
-이 사이트에는 Adobe Experience Platform 및 응용 프로그램을 통해 얻을 수 있는 기본 비즈니스 가치와 목표 예제를 요약한 **주요 비즈니스 목표**&#x200B;가 포함되어 있습니다. **사용 사례 패턴**&#x200B;은(는) 반복 가능한 구현 접근 방식을 통해 일반적인 플랫폼 및 응용 프로그램 기능을 설명합니다. **업계 사용 사례**&#x200B;은(는) 수직적 비즈니스 시나리오에 패턴을 적용합니다. **아키텍처 다이어그램 및 블루프린트**&#x200B;은(는) 시스템 통합 지점, 데이터 및 콘텐츠 흐름, 작업 순서를 보여 주는 시각적 아키텍처 및 데이터 흐름 참조 다이어그램으로, 솔루션 디자인에 대한 기술적 참조를 제공합니다. 이러한 계층을 통해 비즈니스 가치를 구현의 종속성 및 아키텍처에 연결할 수 있습니다.
+이 사이트에는 Adobe Experience Platform 및 응용 프로그램을 통해 얻을 수 있는 기본 비즈니스 가치와 목표 예제를 요약한 **주요 비즈니스 목표**&#x200B;가 포함되어 있습니다. **사용 사례 패턴**&#x200B;은(는) 반복 가능한 구현 접근 방식을 통해 일반적인 플랫폼 및 응용 프로그램 기능을 설명합니다. **업계 사용 사례 예**&#x200B;은(는) 수직적 비즈니스 시나리오에 패턴을 적용합니다. **아키텍처 다이어그램 및 블루프린트**&#x200B;은(는) 시스템 통합 지점, 데이터 및 콘텐츠 흐름, 작업 순서를 보여 주는 시각적 아키텍처 및 데이터 흐름 참조 다이어그램으로, 솔루션 디자인에 대한 기술적 참조를 제공합니다. 이러한 계층을 통해 비즈니스 가치를 구현의 종속성 및 아키텍처에 연결할 수 있습니다.
 
 ## 주요 비즈니스 목표
 
@@ -45,7 +40,7 @@ ht-degree: 4%
 
 ## 사용 사례 패턴
 
-특정 기능, 해당 기능을 제공하는 기능 체인 및 관련 애플리케이션에 대해 설명하는 반복 가능한 구현 접근 방식
+관련된 기능 및 애플리케이션 구성 요소를 통해 특정 결과를 도출하는 방법을 설명하는 반복 가능한 구현 접근 방식입니다.
 
 <table>
 <tr>
@@ -62,7 +57,7 @@ ht-degree: 4%
 
 [모든 사용 사례 패턴 보기](use-case-patterns/overview.md)
 
-## 업종별 탐색
+## 산업별 사용 사례 보기
 
 각각 구현 패턴 및 비즈니스 목표에 매핑된 특정 산업에 맞는 사용 사례입니다.
 
