@@ -112,4 +112,4 @@ ht-degree: 1%
 
 ## 관련 설명서
 
-구현 지침 및 추가 정보는 Adobe Experience League에서 [Brand Concierge 개요](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview)를 참조하십시오.
+구현 지침 및 추가 정보는 Adobe Experience League에서 [Brand Concierge 개요](https://experienceleague.adobe.com/ko/docs/brand-concierge/content/documentation/overview)를 참조하십시오.
