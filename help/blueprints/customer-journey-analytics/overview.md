@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 154
 ht-degree: 86%
@@ -41,4 +41,4 @@ Customer Journey Analytics를 통해 브랜드가 다양한 소통 채널 및 �
 
 ## Customer Journey Analytics 아키텍처
 
-![아키텍처 다이어그램](assets/CJA.svg){zoomable="yes"}
+![아키텍처 다이어그램](assets/CJA.png){zoomable="yes"}

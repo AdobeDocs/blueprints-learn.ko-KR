@@ -34,7 +34,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 735
 ht-degree: 37%
@@ -75,15 +75,15 @@ ht-degree: 37%
 
 아키텍처
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/RTCDP+Target.svg)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/RTCDP+Target.png)
 
 시퀀스 세부 사항
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/RTCDP+Target_flow.svg)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/RTCDP+Target_flow.png)
 
 아키텍처 개요
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/personalization_with_apps.svg)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](assets/personalization_with_apps.png)
 
 ## 관련 설명서
 

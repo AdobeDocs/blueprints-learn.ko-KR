@@ -3,7 +3,7 @@ title: 대상에 대한 대상자 활성화
 description: Adobe Real-Time CDP을 사용하여 타깃팅 또는 제외를 위해 대상 세그먼트를 평가하고 외부 대상에 게시하는 방법을 알아봅니다.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 다음 참조 아키텍처는 대상 및 프로필 데이터가 Real-Time CDP에서 클라우드 스토리지, 스트리밍 끝점 및 SaaS 애플리케이션을 포함한 엔터프라이즈 대상으로 이동하는 방식을 보여 줍니다.
 
-![Enterprise 대상에 대한 대상 및 프로필 활성화를 위한 참조 아키텍처](/help/blueprints/audience-activation/assets/known_activation.svg)
+![Enterprise 대상에 대한 대상 및 프로필 활성화를 위한 참조 아키텍처](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## 기본 기능
 

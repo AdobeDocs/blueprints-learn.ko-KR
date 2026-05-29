@@ -24,7 +24,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 265
 ht-degree: 86%
@@ -54,7 +54,7 @@ ht-degree: 86%
 
 ## 아키텍처
 
-![익명 Audience Activation 블루프린트에 대한 참조 아키텍처](assets/anonymous_activation.svg)
+![익명 Audience Activation 블루프린트에 대한 참조 아키텍처](assets/anonymous_activation.png)
 
 <br>
 

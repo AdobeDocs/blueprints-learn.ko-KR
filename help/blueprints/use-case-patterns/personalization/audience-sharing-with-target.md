@@ -6,7 +6,7 @@ short-description: RTCDP 프로필과 대상자를 Adobe Target과 통합합니�
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 33%
@@ -45,15 +45,15 @@ ht-degree: 33%
 
 아키텍처
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP+Target.svg)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
 
 시퀀스 세부 사항
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.svg)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
 
 아키텍처 개요
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/personalization_with_apps.svg)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/personalization_with_apps.png)
 
 ## 구현 패턴
 

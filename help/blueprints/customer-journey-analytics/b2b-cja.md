@@ -3,7 +3,7 @@ title: B2B Customer Journey Analytics 블루프린트
 description: 계정 기반 보고 및 여정 분석을 위해 Customer Journey Analytics의 B2B 계정, 기회 및 구매 그룹 데이터를 포함합니다.
 solution: Customer Journey Analytics
 exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Customer Journey Analytics B2B edition을 통해 B2B 조직을 위한 계정 기
 
 ## 아키텍처
 
-![여정 분석을 위해 통합된 B2B 계정 및 영업 기회 데이터가 있는 Customer Journey Analytics 아키텍처](assets/CJA.svg){zoomable="yes"}
+![여정 분석을 위해 통합된 B2B 계정 및 영업 기회 데이터가 있는 Customer Journey Analytics 아키텍처](assets/CJA.png){zoomable="yes"}
 
 CJA 연결을 통해 Experience Platform(B2B 및 이벤트 데이터 세트)에서 [!DNL Customer Journey Analytics]&#x200B;(으)로 데이터 흐름. B2B 차원은 데이터 보기에 표시되므로 계정, 기회 및 개인 수준에서 분석 및 대상을 구축할 수 있습니다.
 

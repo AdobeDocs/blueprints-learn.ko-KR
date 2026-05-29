@@ -3,7 +3,7 @@ title: 익명 방문자 웹 Personalization
 description: 세션 내 행동 신호를 기반으로 미확인된 방문자에게 개인화된 웹 콘텐츠를 전달하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -108,7 +108,7 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 다음 참조 아키텍처는 익명의 방문자 신호가 에지에서 수집되고, 대상 규칙에 대해 평가되며, 개인화된 콘텐츠를 전달하는 데 사용되는 방식을 보여 줍니다.
 
-![익명 대상자 활성화 및 개인화를 위한 참조 아키텍처](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+![익명 대상자 활성화 및 개인화를 위한 참조 아키텍처](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## 기본 기능
 
@@ -116,7 +116,7 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 | 기본 기능 | 상태 | 제자리에 있어야 하는 것 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 관리 및 거버넌스 | 가정 위치 | 웹 채널 권한이 구성된 AJO 샌드박스 입니다. 구현 팀에 [!DNL Web SDK] 구현 권한 및 데이터스트림 액세스 권한이 부여되었습니다. 웹 채널 구성, 대상자 관리 및 캠페인 실행을 허용하는 역할이 규정된 사용자. | [액세스 제어 개요](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 관리 및 거버넌스 | 가정 위치 | 웹 채널 권한이 구성된 AJO 샌드박스 입니다. 구현 팀에 [!DNL Web SDK] 구현 권한 및 데이터스트림 액세스 권한이 부여되었습니다. 웹 채널 구성, 대상자 관리 및 캠페인 실행을 허용하는 역할이 규정된 사용자. | [액세스 제어 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) |
 | 데이터 모델링 및 준비 | 필수 | 웹 행동 신호(페이지 보기, 클릭 수, 스크롤 깊이, 참조 데이터, UTM 매개 변수)를 캡처하는 경험 이벤트 스키마. 실시간 평가를 지원하려면 스키마에 표준 웹 인터랙션 필드 그룹이 포함되어야 하며 에지 프로필에 대해 활성화되어야 합니다. 해당 데이터 세트를 만들고 프로필이 활성화되어야 합니다. | [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) |
 | 데이터 소스 및 수집 | 필수 | [!DNL AEP Edge Network]&#x200B;(으)로 데이터를 라우팅하도록 구성된 데이터 스트림을 사용하여 모든 대상 웹 속성에 [!DNL Web SDK]을(를) 구현해야 합니다. 데이터 스트림에는 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Journey Optimizer] 서비스가 활성화되어 있어야 합니다. 이는 중요한 종속성입니다. [!DNL Web SDK]이(가) 없으면 동작 신호 수집이나 경험 전달을 수행할 수 없습니다. | [Web SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home) |
 | ID 및 프로필 구성 | 필수 | 익명 방문자에 대한 기본 ID 네임스페이스로 구성된 ECID([!DNL Experience Cloud ID]). 가장자리에서 익명 프로필 데이터를 확인하려면 `isActiveOnEdge: true`(으)로 Edge 병합 정책을 구성해야 합니다. 샌드박스당 하나의 병합 정책만 에지에서 활성화할 수 있습니다. | [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home) |
@@ -128,10 +128,10 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 | 지원 기능 | 상태 | 중요한 이유 | Experience League 참조 |
 | --- | --- | --- | --- |
-| 계산/파생 속성 생성 | 해당 사항 없음 | 집계할 최소 내역 프로필 데이터가 있으므로 익명 방문자의 값이 제한됩니다. Edge 프로필이 여러 세션에서 이전 익명 방문의 의미 있는 행동 데이터를 수집하는 경우 적용할 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 계산/파생 속성 생성 | 해당 사항 없음 | 집계할 최소 내역 프로필 데이터가 있으므로 익명 방문자의 값이 제한됩니다. Edge 프로필이 여러 세션에서 이전 익명 방문의 의미 있는 행동 데이터를 수집하는 경우 적용할 수 있습니다. | [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview) |
 | 데이터 수명 주기 관리 | 추천 | 스토리지를 관리하고 개인정보 보호 요구 사항을 준수하려면 익명 에지 프로필에 대해 익명 프로필 만료를 구성해야 합니다. ECID 전용 프로필은 14일에서 365일 사이에 만료되도록 설정할 수 있습니다. 쿠키 동의 정책은 행동 데이터 수집에 적용되어야 합니다. | [고급 데이터 수명 주기 관리 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home) |
 | 데이터 사용 레이블 지정 및 적용 | 추천 | 행동 데이터의 거버넌스 레이블은 특히 지역 타겟팅(S2 중요 지역 레이블) 및 디바이스 기반 개인화에 대한 규정 준수를 보장합니다. 레이블은 제한된 행동 데이터가 승인되지 않은 개인화 컨텍스트에서 사용되지 않도록 합니다. | [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home) |
-| 모니터링 및 가시성 | 추천 | [!DNL Edge Network] 및 [!DNL Web SDK] 데이터 흐름 모니터링은 개인화 게재 문제를 탐지하는 데 도움이 됩니다. 데이터 스트림 오류, 수집 오류 및 에지 전달 예외 항목에 대한 경고를 구성합니다. 개인화 실패로 인해 방문자 경험이 저하되는 프로덕션 배포에 매우 중요합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 모니터링 및 가시성 | 추천 | [!DNL Edge Network] 및 [!DNL Web SDK] 데이터 흐름 모니터링은 개인화 게재 문제를 탐지하는 데 도움이 됩니다. 데이터 스트림 오류, 수집 오류 및 에지 전달 예외 항목에 대한 경고를 구성합니다. 개인화 실패로 인해 방문자 경험이 저하되는 프로덕션 배포에 매우 중요합니다. | [Observability Insights 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/home) |
 | 보고 및 분석 | 포함됨 | Personalization 성능 보고는 실행 계획(5단계)의 일부입니다. CJA의 익명 방문자 개인화 효과 분석을 통해 AJO 기본 보고서에서 제공하는 것 이상으로 심도 있는 funnel 분석, 집단 비교 및 전환 영향 측정을 수행할 수 있습니다. | [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 애플리케이션 기능

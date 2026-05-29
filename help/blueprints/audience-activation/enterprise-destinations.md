@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 72%
@@ -39,7 +39,7 @@ ht-degree: 72%
 
 ## 아키텍처
 
-<img src="assets/known_activation.svg" alt="엔터프라이즈 활성화 시나리오를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="assets/known_activation.png" alt="엔터프라이즈 활성화 시나리오를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 관련 설명서
 

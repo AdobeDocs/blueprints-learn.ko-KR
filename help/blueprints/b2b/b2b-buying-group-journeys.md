@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
-source-wordcount: 2349
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Journey Optimizer B2B edition에서 제공하는 향상된 B2B 능력의 결과�
 
 다음 다이어그램에서와 같이 Forms나 LinkedIn 활성화를 통해 세부 정보를 수집하고 채팅 봇과의 상호 작용이 발생한 경우 솔루션 의도를 한정할 수 있습니다.
 
-![그룹 여정 구매](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![그룹 여정 구매](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 구매 그룹 완료율이 충분히 높으면 SQL 또는 SOL을 통해 영업 팀에 그룹을 공유하여 계정의 가망 고객을 완료된 판매로 변환합니다.
 
