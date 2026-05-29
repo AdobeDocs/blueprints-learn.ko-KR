@@ -4,11 +4,21 @@ description: Adobe Journey Optimizer B2B edition의 구매 그룹으로 이어�
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
 TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68id: d5e018de-9479-48a8-96a8-176c73166631id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 2322
@@ -77,11 +87,11 @@ B2B 리드 관리의 초점은 계정과 해당 리드에 있습니다. 기술 �
 >
 >Journey Optimizer B2B edition 라이선스에는 다음 항목이 포함되어야 합니다.
 ><ul><li>Experience Platform B2B에 연결된 Journey Optimizer B2B edition 인스턴스</li><li>RTCDP에 동기화된 Marketo Engage 인스턴스</li></ul>
-&gt;<br/>
-&gt;기존 Marketo Engage 고객의 경우 기존 인스턴스에 연결하는 것이 좋습니다.
-&gt;<br/><br/>
-&gt;프로필 풍부성을 향상시키는 솔루션에 사용할 수 있는 추가 확장이 있습니다.
-&gt;<ul><li>프로필을 보강하기 위한 RTCDP 추가 소스</li><li>Marketo Engage에 대한 RTCDP 대상</li></ul>
+>&gt;<br/>
+>&gt;기존 Marketo Engage 고객의 경우 기존 인스턴스에 연결하는 것이 좋습니다.
+>&gt;<br/><br/>
+>&gt;프로필 풍부성을 향상시키는 솔루션에 사용할 수 있는 추가 확장이 있습니다.
+>&gt;<ul><li>프로필을 보강하기 위한 RTCDP 추가 소스</li><li>Marketo Engage에 대한 RTCDP 대상</li></ul>
 
 이 솔루션을 구현하려면 _계정_ 및 _구매 그룹_&#x200B;의 개념과 영업 리드 자격을 확대하고 가속화하는 방법에 대한 명확한 이해가 필요합니다. 이러한 이해를 통해 원하는 구매 그룹 완성도 점수도 식별해야 합니다.
 
@@ -124,7 +134,7 @@ RTCDP 가드레일에 대한 자세한 내용은 [Real-Time CDP 가드레일 설
 
 * 모든 인스턴스는 동일한 IMS 조직에 있어야 합니다.
 * 하나의 Journey Optimizer B2B edition 인스턴스만 하나의 Experience Platform 샌드박스에 연결할 수 있습니다.
-* Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)에 [Marketo Source 커넥터를 구현하는 것이 좋습니다.
+* Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)에 Marketo Source 커넥터를 구현하는 것이 좋습니다.
 
 ## 구현
 
