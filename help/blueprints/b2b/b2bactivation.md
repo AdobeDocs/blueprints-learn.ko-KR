@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 52%
 
 * 계정, 기회 및 리드를 포함한 B2B 데이터에 대해 채널 간에 타겟팅 및 개인화를 위한 대상자 그룹을 만듭니다.
 * 타겟팅 및 개인화를 위해 모든 Experience Platform 대상에 대상자를 활성화합니다.
-* 계정 대상(예: 회사 목록)을 만들고 타기팅 및 판매 전달을 위해 클라우드 스토리지 대상에 회사 목록을 입력 또는 내보내기로 허용하는 LinkedIn과 같은 대상을 통해 해당 회사를 타기팅합니다.
+* 계정 대상(예: 회사 목록)을 만들고 LinkedIn 또는 클라우드 스토리지와 같은 대상을 통해 해당 회사를 타깃팅합니다. 자세한 내용, 요구 사항 및 계정 대상자 보호는 [Advertising 대상 및 파일 대상에 대한 B2B 계정 활성화](b2b-account-activation.md)를 참조하십시오.
 
 ## 애플리케이션
 

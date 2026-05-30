@@ -3,9 +3,9 @@ title: Advertising 대상 및 파일 대상에 대한 B2B 계정 활성화
 description: 계정 기반 참여를 사용하여 대상자를 만들고 대상을 통해 타깃팅하십시오.
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '735'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 4%
 * 계정 속성은 내보내기에 사용할 수 있습니다.
 * 사람들의 사건.
    * 최대 30일의 이벤트 전환 확인 기간, 이벤트 술어 순서 없음.
-   * AND / OR가 지원됩니다(&quot;A와 B가 발생해야 합니다.&quot;라고 할 수 있음).  그러나 &quot;A는 B보다 3일 전에 일어나야 한다&quot;)고 말할 수는 없다.
+   * AND / OR가 지원됩니다(&quot;A와 B가 발생해야 합니다&quot;라고 말할 수 있지만 &quot;A가 B보다 3일 전에 발생해야 합니다&quot;라고 말할 수 없음).
 * 클라우드 스토리지 대상의 경우 내보내기 예약은 &quot;세그먼트 평가 후&quot; 옵션을 지원합니다.
 * [B2B 프로필 및 세그멘테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
@@ -71,6 +71,7 @@ LinkedIn과 일치하는 대상에는 일치하는 구성원 300명의 최소 �
 
 ## 관련 설명서
 
+* [B2B 대상 및 프로필 활성화 블루프린트](b2bactivation.md) - 사람 수준 및 계정 수준 B2B 활성화를 모두 다루는 상위 블루프린트입니다.
 * [실시간 고객 데이터 플랫폼의 B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [계정 대상자 만들기 및 활성화 튜토리얼 비디오](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
 * [계정 대상자 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences)
