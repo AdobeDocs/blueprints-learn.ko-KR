@@ -56,14 +56,14 @@ ht-degree: 4%
    * 최대 30일의 이벤트 전환 확인 기간, 이벤트 술어 순서 없음.
    * AND / OR가 지원됩니다(&quot;A와 B가 발생해야 합니다&quot;라고 말할 수 있지만 &quot;A가 B보다 3일 전에 발생해야 합니다&quot;라고 말할 수 없음).
 * 클라우드 스토리지 대상의 경우 내보내기 예약은 &quot;세그먼트 평가 후&quot; 옵션을 지원합니다.
-* [B2B 프로필 및 세그멘테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [B2B 프로필 및 세그멘테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Real-time Customer Data Platform B2B edition, 계정 대상자 만들기 및 활성화를 위한 구현 단계
 
-* Real-time Customer Data Platform B2B edition의 구현 단계는 [Real-Time Customer Data Platform B2B 에디션 시작하기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) 설명서를 참조하십시오.
-* 계정 대상자 만들기 단계는 [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) 설명서를 참조하십시오.
-* 계정 Audience Activation 단계는 [계정 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences) 설명서를 참조하십시오.
-   * [(회사) LinkedIn 일치하는 대상 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings)에 대한 필수 매핑입니다.
+* Real-time Customer Data Platform B2B edition의 구현 단계는 [Real-Time Customer Data Platform B2B 에디션 시작하기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) 설명서를 참조하십시오.
+* 계정 대상자 만들기 단계는 [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences) 설명서를 참조하십시오.
+* 계정 Audience Activation 단계는 [계정 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-account-audiences) 설명서를 참조하십시오.
+   * [(회사) LinkedIn 일치하는 대상 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings)에 대한 필수 매핑입니다.
 
 ## 구현 시 고려 사항
 
@@ -72,8 +72,8 @@ LinkedIn과 일치하는 대상에는 일치하는 구성원 300명의 최소 �
 ## 관련 설명서
 
 * [B2B 대상 및 프로필 활성화 블루프린트](b2bactivation.md) - 사람 수준 및 계정 수준 B2B 활성화를 모두 다루는 상위 블루프린트입니다.
-* [실시간 고객 데이터 플랫폼의 B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [실시간 고객 데이터 플랫폼의 B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [계정 대상자 만들기 및 활성화 튜토리얼 비디오](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [계정 대상자 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
-* [계정 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - LinkedIn 대상 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+* [계정 대상자 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences)
+* [계정 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - LinkedIn 대상 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin)
