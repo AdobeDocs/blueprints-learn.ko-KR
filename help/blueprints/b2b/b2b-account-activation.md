@@ -63,7 +63,7 @@ ht-degree: 4%
 * Real-time Customer Data Platform B2B edition의 구현 단계는 [Real-Time Customer Data Platform B2B 에디션 시작하기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) 설명서를 참조하십시오.
 * 계정 대상자 만들기 단계는 [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) 설명서를 참조하십시오.
 * 계정 Audience Activation 단계는 [계정 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences) 설명서를 참조하십시오.
-   * [(회사) LinkedIn 일치하는 대상 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings)에 대한 필수 매핑입니다.
+   * [(회사) LinkedIn 일치하는 대상 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings)에 대한 필수 매핑입니다.
 
 ## 구현 시 고려 사항
 
