@@ -1,4 +1,7 @@
 .DS_Store
 help/workspace.code-workspace
 icon-generation-prompts.md
-.claude/
+# Claude Code: ignore temporary agent worktrees and machine-local settings,
+# but keep shared skills/agents/agent-memory under .claude/ tracked.
+**/.claude/worktrees/
+.claude/settings.local.json
