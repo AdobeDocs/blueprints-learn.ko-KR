@@ -3,20 +3,26 @@ title: Brand Concierge 대화 경험
 description: 디지털 속성을 고객 검색을 안내하는 AI 기반의 브랜드 안전 대화 경험으로 변환하는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: fe4353cfe34855ad91ccb5698e30030322246c08
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
 
 # Brand Concierge 대화 경험
 
-이 안내서에서는 [!DNL Adobe Experience Platform]&#x200B;(AEP) 및 [!DNL Real-Time Customer Data Platform]&#x200B;([!DNL RT-CDP])과(와) 통합된 [!DNL Adobe Brand Concierge]을(를) 사용하여 AI 기반 대화 경험에 대한 포괄적인 구현 참조를 제공합니다. 디지털 자산 전반에 브랜드 안전 대화 에이전트를 배포해야 하는 솔루션 설계자, 마케팅 엔지니어 및 구현 엔지니어를 위해 설계되었습니다.
-
-각 옵션을 선택할 시기에 대한 지침과 함께 제품 자문 챗봇에서 전체 사이트 탐색 도우미에 이르기까지 대화 경험을 배포하기 위한 모든 실행 가능한 접근 방식을 다룹니다. 이 계획에서는 에이전트 구성, 브랜드 거버넌스, 콘텐츠 통합, 배포 전략, 대화 신호로부터 프로필 강화 및 분석 최적화를 다룹니다.
+이 안내서에서는 [!DNL Adobe Experience Platform]&#x200B;(AEP) 및 [!DNL Real-Time Customer Data Platform]&#x200B;([!DNL RT-CDP])과(와) 통합된 [!DNL Adobe Brand Concierge]을(를) 사용하는 AI 기반 대화 경험에 대한 개요를 제공합니다. 디지털 자산 전반에 브랜드 안전 대화 에이전트를 배포해야 하는 솔루션 설계자, 마케팅 엔지니어 및 구현 엔지니어를 위해 설계되었습니다.
 
 [!DNL Brand Concierge]을(를) 통해 브랜드는 브랜드 음성을 이해하고 승인된 제품 카탈로그 및 콘텐츠에 액세스하며 실시간 프로필 데이터를 기반으로 개인화된 추천을 제공하고 의도 및 감정 신호를 통합 고객 프로필로 다시 캡처하는 지능형 대화 에이전트를 배포할 수 있습니다. 그 결과, 각 고객에 대한 조직의 이해를 풍부하게 하면서 자연스럽게 브랜드에 맞는 대화식 경험을 할 수 있습니다.
+
+## 사용 사례 패턴
+
+**Brand Concierge 대화 경험**
+
+디지털 속성을 자연스러운 대화 상자를 통해 고객 검색을 안내하고 의도 및 감정 신호로 프로필을 보강하며 개인화된 제품 추천을 제공하는 AI 기반의 브랜드 안전 대화 경험으로 전환합니다.
+
+**실행 계획:** 에이전트 구성 > Brand Governance 설정 > 콘텐츠 통합 > 대화형 경험 배포 > 프로필 강화 > 분석 및 최적화
 
 ## 사용 사례 개요
 
@@ -94,22 +100,14 @@ ht-degree: 1%
 | 대화의 영향을 받은 매출 | 전환 전 [!DNL Brand Concierge] 대화가 있었던 구매의 매출 | 대화-구매 여정에 대한 속성 분석 |
 | 해결 시간 | 대화 시작부터 해결 또는 핸드오프까지의 평균 기간 | 대화 이벤트 간 타임스탬프 분석 |
 
-## 사용 사례 패턴
-
-**Brand Concierge 대화 경험**
-
-디지털 속성을 자연스러운 대화 상자를 통해 고객 검색을 안내하고 의도 및 감정 신호로 프로필을 보강하며 개인화된 제품 추천을 제공하는 AI 기반의 브랜드 안전 대화 경험으로 전환합니다.
-
-**기능 체인:** 에이전트 구성 > 브랜드 거버넌스 설정 > 콘텐츠 통합 > 대화형 경험 배포 > 프로필 강화 > 분석 및 최적화
-
 ## 애플리케이션
 
 다음 응용 프로그램을 사용하여 이 사용 사례 패턴을 구현합니다.
 
 - **[!DNL Brand Concierge]** — 에이전트 orchestrator, Product Advisor Agent, 사이트 자문 에이전트, 브랜드 거버넌스 및 대화형 분석을 제공하는 AI 기반 대화형 경험 애플리케이션
-- **[!DNL Adobe Experience Platform] (AEP)** — XDM 스키마, ID 확인, 실시간 고객 프로필 및 대화 신호를 위한 데이터 수집 인프라를 제공하는 통합 데이터 기반
-- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — 개인화된 대화에 대한 실시간 프로필 조회, 대화 신호의 대상자 세분화 및 의도 및 감정 데이터를 통한 프로필 강화를 제공하는 고객 데이터 플랫폼
+- **[!DNL Adobe Experience Platform](AEP)** — XDM 스키마, ID 확인, 실시간 고객 프로필 및 대화 신호를 위한 데이터 수집 인프라를 제공하는 통합 데이터 기반
+- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — 개인화된 대화에 대한 실시간 프로필 조회, 대화 신호의 대상자 세분화 및 의도 및 감정 데이터를 통한 프로필 강화를 제공하는 고객 데이터 플랫폼
 
 ## 관련 설명서
 
-구현 지침 및 추가 정보는 Adobe Experience League에서 [Brand Concierge 개요](https://experienceleague.adobe.com/ko/docs/brand-concierge/content/documentation/overview)를 참조하십시오.
+구현 지침 및 추가 정보는 Adobe Experience League에서 [Brand Concierge 개요](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview)를 참조하십시오.
