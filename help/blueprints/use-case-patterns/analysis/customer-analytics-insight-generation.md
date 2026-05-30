@@ -108,70 +108,70 @@ ht-degree: 3%
 
 ### [!DNL Customer Journey Analytics] — 시작
 
-- [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA 보호 기능](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA 보호 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-admin/guardrails)
 
 ### 연결
 
-- [연결 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [연결 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [연결 관리](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [연결 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)
+- [연결 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection)
+- [연결 관리](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/manage-connections)
 
 ### 데이터 보기
 
-- [데이터 보기 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [구성 요소 설정 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [지속성 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [속성 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [형식 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [지표 중복 제거](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
-- [값 포함/제외](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
-- [세션 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
-- [파생 필드](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [데이터 보기 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
+- [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [구성 요소 설정 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [지속성 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [속성 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [형식 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [지표 중복 제거](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
+- [값 포함/제외](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
+- [세션 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [파생 필드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/derived-fields)
 
 ### Workspace 및 분석
 
-- [Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [프로젝트 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [자유 형식 테이블](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [플로우 시각화](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [폴아웃 시각화](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [코호트 테이블](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)
+- [프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [플로우 시각화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [폴아웃 시각화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)
 - [분류 차원](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
-- [프로젝트 공유](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [프로젝트 예약](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
-- [내보내기 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud)
+- [프로젝트 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [프로젝트 예약](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [내보내기 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/export/export-cloud)
 
 ### 안내식 분석
 
-- [안내식 분석 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [안내식 분석 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [트렌드 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [참여 빈도 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/frequency)
-- [유지 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
-- [활성 증가 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/user-growth/active)
-- [릴리스 영향 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/release)
-- [첫 번째 사용 영향 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/first-use)
-- [타임라인 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/streams/timeline)
+- [트렌드 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [참여 빈도 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/trends/frequency)
+- [유지 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [활성 증가 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/user-growth/active)
+- [릴리스 영향 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/impact/release)
+- [첫 번째 사용 영향 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/impact/first-use)
+- [타임라인 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/streams/timeline)
 
 ### 구성 요소
 
-- [필터 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [필터 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [계산된 지표 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [계산된 지표 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [계산된 지표 함수](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
-- [주석 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [필터 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [필터 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [계산된 지표 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [계산된 지표 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [계산된 지표 함수](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
+- [주석 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/annotations/overview)
 - [날짜 범위](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
-- [지표 구성 요소](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/apply-create-metrics)
+- [지표 구성 요소](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/apply-create-metrics)
 
 ### 대상자 게시
 
-- [대상 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [대상자 생성 및 게시](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
-- [대상자 관리](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
+- [대상 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [대상자 생성 및 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)
+- [대상자 관리](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/manage)
 
 ### 콘텐츠 분석
 
@@ -180,27 +180,27 @@ ht-degree: 3%
 
 ### 대시보드 및 스코어카드
 
-- [모바일 스코어카드 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [모바일 스코어카드 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [스코어카드 구성 및 조정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics 대시보드 — 경영진 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [요약 번호 시각화](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
+- [Adobe Analytics 대시보드 — 경영진 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [요약 번호 시각화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
 
 ### AEP 재단
 
-- [데이터 세트 개요](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
-- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Audience Portal 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+- [데이터 세트 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
+- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
+- [Audience Portal 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal)
 
 ### AJO 보고 통합
 
-- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA 통합 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 - [캠페인 이메일 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/campaign-global-report-cja-email)
 - [여정 이메일 보고서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/journey-global-report-cja-email)
 
 ### 튜토리얼 및 안내서
 
-- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)

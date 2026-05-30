@@ -101,14 +101,14 @@ B2B 조직은 근본적인 과제에 직면해 있습니다. 구매 결정은 �
 
 ### [!DNL AJO B2B Edition]
 
-- [AJO B2B edition 설명서 홈](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
-- [구매 그룹 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
-- [솔루션 관심 분야](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [역할 템플릿](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
-- [구매 그룹 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
-- [구매 그룹 단계](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [계정 여정 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [계정 여정 노드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [AJO B2B edition 설명서 홈](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
+- [구매 그룹 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [솔루션 관심 분야](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [역할 템플릿](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
+- [구매 그룹 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
+- [구매 그룹 단계](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [계정 여정 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [계정 여정 노드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [영업 경고 이메일](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [CRM 영업 인사이트](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
 
@@ -120,49 +120,49 @@ B2B 조직은 근본적인 과제에 직면해 있습니다. 구매 결정은 �
 
 ### B2B 분석 및 대시보드
 
-- [구매 그룹 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [참여 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
-- [지능형 대시보드](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
+- [구매 그룹 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
+- [참여 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [지능형 대시보드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [CJA B2B edition 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### [!DNL RT-CDP B2B Edition]
 
 - [RT-CDP B2B edition 개요](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
-- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
-- [Marketo Engage 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
+- [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/types/account-audiences)
+- [Marketo Engage 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 
 ### 데이터 기반
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
+- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
 
 ### 채널 구성
 
-- [이메일 구성 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [SMS 채널 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [이메일 구성 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [SMS 채널 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 
 ### 데이터 거버넌스 및 개인 정보 보호
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [고급 데이터 수명주기 관리](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
+- [고급 데이터 수명주기 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home)
 
 ### 대상
 
-- [대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
+- [대상 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview)
+- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### 가드레일
 
-- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [실시간 고객 프로필 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
 - [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- [수집 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [수집 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails)
+- [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/guardrails)
 
 ### 튜토리얼 및 시작하기
 
-- [AJO B2B edition 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [AJO B2B edition 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
 - [RT-CDP B2B edition 자습서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-tutorial)

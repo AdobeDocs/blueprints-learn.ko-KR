@@ -88,26 +88,26 @@ ht-degree: 0%
 
 **이벤트 전달**
 
-- [이벤트 전달 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [이벤트 전달 시작](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [이벤트 전달 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [이벤트 전달 비밀](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [이벤트 전달 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/overview)
+- [이벤트 전달 시작](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/getting-started)
+- [이벤트 전달 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/monitoring)
+- [이벤트 전달 비밀](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/event-forwarding/secrets)
 
 **이벤트 전달 확장**
 
-- [서버측 확장 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Meta 전환 API 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [AWS 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Google Ads Enhanced Conversions 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Mailchimp 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [서버측 확장 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/overview)
+- [Adobe Cloud Connector 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Meta 전환 API 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [AWS 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Snowflake 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Google Ads Enhanced Conversions 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Mailchimp 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **데이터 수집 및 Edge Network**
 
-- [데이터스트림 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [데이터스트림 개요](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [웹 SDK 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)
+- [데이터스트림 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview)
+- [웹 SDK 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)
+- [Edge Network 서버 API 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)
+- [태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)
