@@ -80,9 +80,9 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 
 이 사용 사례 패턴에는 다음 Adobe 애플리케이션이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — 오퍼 만들기, 자격 규칙, 순위 전략, 배치 및 의사 결정 정책을 위한 의사 결정 관리 엔진, 오퍼 게재를 위한 채널 구성 및 메시지 작성, 캠페인 및 여정 실행
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 오퍼 자격 세그먼트에 대한 대상 평가, 자격 및 순위에 사용되는 프로필 데이터 및 계산된 속성
-- **[!DNL Adobe Experience Platform](AEP)** - AJO과 RT-CDP를 모두 지원하는 통합 프로필 저장소, ID 확인 및 데이터 파운데이션
+- **[!DNL Adobe Journey Optimizer] (AJO)** — 오퍼 만들기, 자격 규칙, 순위 전략, 배치 및 의사 결정 정책을 위한 의사 결정 관리 엔진, 오퍼 게재를 위한 채널 구성 및 메시지 작성, 캠페인 및 여정 실행
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 오퍼 자격 세그먼트에 대한 대상 평가, 자격 및 순위에 사용되는 프로필 데이터 및 계산된 속성
+- **[!DNL Adobe Experience Platform] (AEP)** - AJO과 RT-CDP를 모두 지원하는 통합 프로필 저장소, ID 확인 및 데이터 파운데이션
 
 ## 관련 설명서
 

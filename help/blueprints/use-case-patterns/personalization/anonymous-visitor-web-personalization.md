@@ -98,9 +98,9 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 
 이 사용 사례 패턴에는 다음 응용 프로그램이 사용됩니다.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — 웹 채널 표면 구성, 콘텐츠 작성(웹 및 코드 기반 경험), 캠페인 실행, 콘텐츠 실험(A/B 테스트), 의사 결정(동적 콘텐츠 선택) 및 보고
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - 세션 내 동작 신호를 기반으로 실시간 대상 평가를 위한 Edge 세그멘테이션, 익명 Edge 프로필 관리
-- **[!DNL Adobe Experience Platform](AEP)** — 동작 신호 수집의 경우 [!DNL Web SDK], 실시간 데이터 라우팅 및 개인화 전달의 경우 [!DNL Edge Network], 데이터스트림 구성
+- **[!DNL Adobe Journey Optimizer] (AJO)** — 웹 채널 표면 구성, 콘텐츠 작성(웹 및 코드 기반 경험), 캠페인 실행, 콘텐츠 실험(A/B 테스트), 의사 결정(동적 콘텐츠 선택) 및 보고
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - 세션 내 동작 신호를 기반으로 실시간 대상 평가를 위한 Edge 세그멘테이션, 익명 Edge 프로필 관리
+- **[!DNL Adobe Experience Platform] (AEP)** — 동작 신호 수집의 경우 [!DNL Web SDK], 실시간 데이터 라우팅 및 개인화 전달의 경우 [!DNL Edge Network], 데이터스트림 구성
 
 ## 아키텍처
 
