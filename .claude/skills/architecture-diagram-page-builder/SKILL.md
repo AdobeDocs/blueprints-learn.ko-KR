@@ -174,7 +174,7 @@ ht-degree: 1%
 
 2. **사용 사례 패턴 링크** — 파일의 모든 패턴 링크는 `/help/blueprints/use-case-patterns/` 아래의 기존 Markdown 파일을 가리킵니다. `Read` 또는 glob을 사용하여 각 대상이 있는지 확인하십시오.
 
-3. **Experience League 링크** — `## Further reading` 섹션의 모든 URL이 `https://experienceleague.adobe.com/`(으)로 시작하는지 확인합니다.
+3. **Experience League 링크** — `## Further reading` 섹션의 모든 URL이 `https://experienceleague.adobe.com/ko`(으)로 시작하는지 확인합니다.
 
 4. **목차 항목 배치** — 새 항목은 올바른 하위 섹션 내에 있으며 4개의 공백 들여쓰기를 사용하며 경로는 생성된 파일 위치와 정확히 일치합니다.
 
