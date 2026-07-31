@@ -3,9 +3,9 @@ title: 행동 추천
 description: 선택 전략 및 순위 모델을 사용하여 항목 및 콘텐츠 권장 사항을 생성하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1652'
 ht-degree: 5%
 
 ---
@@ -36,19 +36,25 @@ ht-degree: 5%
 
 이 사용 사례 패턴에서는 다음 비즈니스 목표가 지원됩니다.
 
-### [교차 판매 및 상향 판매 매출 촉진](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+### 교차 판매 및 상향 판매 매출 촉진
+
+[교차 판매 및 상향 판매 매출 촉진](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
 
 행동 및 구매 내역을 기반으로 기존 고객에게 보완 및 프리미엄 제품 또는 서비스를 홍보합니다.
 
 **KPI:** 상향 판매/교차 판매 %, 증분 수익, 고객 생애 가치
 
-### [전환율 증가](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
+### 전환율 향상
+
+[전환율 향상](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 구매, 등록 또는 양식 제출과 같은 원하는 작업을 완료하는 방문자 및 잠재 고객의 비율을 향상시킵니다.
 
 **KPI:** 전환율, 잠재 고객 전환, 잠재 고객당 비용
 
-### [개인화된 고객 경험 제공](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+### 개인화된 고객 경험 전달
+
+[개인화된 고객 경험 전달](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 콘텐츠, 오퍼 및 메시지를 개별 환경 설정, 동작 및 라이프사이클 단계에 맞게 맞춤화할 수 있습니다.
 
