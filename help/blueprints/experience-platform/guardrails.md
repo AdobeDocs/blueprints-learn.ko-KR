@@ -5,22 +5,12 @@ solution: Experience Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 TQID: https://experienceleague.adobe.com/ZSHbFR3sEy4C-876IU3yN8U5vOUVvDWIP-O3l-wKm78
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2:
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-  - id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
-  - id: ee602049-8a18-43df-9299-a689a025a371
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: c132d929-fa62-4271-803e-b823be07b914id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2: id: d1823595-9241-4128-8a33-e4ac3bf08773id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74id: ee602049-8a18-43df-9299-a689a025a371
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
 source-wordcount: 486
 ht-degree: 14%
@@ -36,7 +26,7 @@ ht-degree: 14%
 | 보호 유형 | 설명 |
 |---|---|
 | 성능 보호(소프트 제한) | 성능 보호는 사용 사례의 범위와 관련된 사용 제한이며 일반적인 조건에서 예상되는 성능을 요약합니다. 초과되면 성능 저하와 지연이 발생할 수 있습니다. 성능 보호 기능은 아래 설명된 대로 각 솔루션에 대한 보호 섹션 아래의 Experience League 문서에 설명되어 있습니다. |
-| 정적 제한(엄격한 제한) | 이는 초과할 수 없는 시스템 적용 제한입니다. 정적 제한은 일반적으로 계약상으로 연결되며 고객 계약과 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions.html)에 요약되어 있습니다. |
+| 정적 제한(엄격한 제한) | 이는 초과할 수 없는 시스템 적용 제한입니다. 정적 제한은 일반적으로 계약상으로 연결되며 고객 계약과 [제품 설명](https://helpx.adobe.com/legal/product-descriptions.html)에 요약되어 있습니다. |
 
 >[!NOTE]
 >
@@ -52,14 +42,14 @@ ht-degree: 14%
 
 **Experience Platform 응용 프로그램**
 
-* [Real-Time CDP 보호 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=ko)
-* [보호 기능 공유 Customer Journey Analytics 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko#latency)
-* [Customer Journey Analytics 데이터 수집 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko)
+* [Real-Time CDP 보호 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
+* [보호 기능 공유 Customer Journey Analytics 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Customer Journey Analytics 데이터 수집 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer 보호 기능](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Experience Platform 서비스**
 
-* [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
+* [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
 * [[!DNL Edge Network] API 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [실시간 고객 프로필 및 세그멘테이션 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * [ID 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ko)
@@ -72,4 +62,4 @@ ht-degree: 14%
 
 다음 다이어그램은 Experience Platform 및 애플리케이션에서 사용 사례를 설계할 때 알아야 하는 기본 에지 및 허브의 관찰된 대기 시간을 보여 줍니다.
 
-![Experience Platform [!DNL Edge Network] 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network 및 허브 기본 대기 시간이 관찰됨"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.png "Experience Platform Edge Network 및 허브 기본 대기 시간이 관찰됨"){width="1000" zoomable="yes"}
