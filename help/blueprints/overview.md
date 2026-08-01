@@ -13,9 +13,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 312
 ht-degree: 4%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 4%
 <tr>
   <td>
     <a href="experience-platform/guardrails.md">
-      <img alt="Experience Platform 허브 및 Edge 아키텍처" src="experience-platform/assets/aep_edge_hub_latency_v1.svg" />
+      <img alt="Experience Platform 허브 및 Edge 아키텍처" src="experience-platform/assets/aep_edge_hub_latency_v1.png" />
     </a>
     <div>
       <a href="experience-platform/guardrails.md">

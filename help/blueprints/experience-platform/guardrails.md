@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
 source-wordcount: 486
 ht-degree: 14%
@@ -72,4 +72,4 @@ ht-degree: 14%
 
 다음 다이어그램은 Experience Platform 및 애플리케이션에서 사용 사례를 설계할 때 알아야 하는 기본 에지 및 허브의 관찰된 대기 시간을 보여 줍니다.
 
-![Experience Platform [!DNL Edge Network] 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network 및 허브 기본 대기 시간이 관찰됨"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] 및 허브 기본 대기 시간이 관찰되었습니다.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.png "Experience Platform Edge Network 및 허브 기본 대기 시간이 관찰됨"){width="1000" zoomable="yes"}
