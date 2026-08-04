@@ -105,7 +105,7 @@ ht-degree: 4%
 ### 인앱 및 콘텐츠 카드 채널
 
 - [인앱 채널 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-- [인앱 채널 사전 요구 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
+- [인앱 채널 사전 요구 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
 - [인앱 메시지 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/in-app/create-in-app)
 - [콘텐츠 카드 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/get-started-content-card)
 - [콘텐츠 카드 구성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/content-card-configuration)
