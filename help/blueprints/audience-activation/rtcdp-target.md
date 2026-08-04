@@ -60,7 +60,7 @@ ht-degree: 37%
 
 ### 참조 설명서
 
-* [실시간 고객 데이터 플랫폼을 위한 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
+* [실시간 고객 데이터 플랫폼을 위한 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
 * [Edge 데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
 
 ## 통합 패턴
