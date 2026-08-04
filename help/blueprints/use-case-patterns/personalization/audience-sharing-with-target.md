@@ -6,7 +6,7 @@ short-description: RTCDP 프로필과 대상자를 Adobe Target과 통합합니�
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: 045fac8362795eefcac0ef5202fe7a90cb6875da
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 33%
@@ -30,7 +30,7 @@ ht-degree: 33%
 
 ### 참조 설명서
 
-* [실시간 고객 데이터 플랫폼을 위한 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)
+* [실시간 고객 데이터 플랫폼을 위한 Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge 데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)
 
 ## 통합 패턴
@@ -45,11 +45,11 @@ ht-degree: 33%
 
 아키텍처
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP-Target.png)
 
 시퀀스 세부 사항
 
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
+![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP-Target_flow.png)
 
 아키텍처 개요
 
@@ -70,7 +70,7 @@ ht-degree: 33%
 
 기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 배치 대상자를 공유하는 작업을 지원합니다.
 
-[Adobe Target 커넥터 설명서 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Adobe Target 커넥터 설명서 참조](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [애플리케이션별 SDK 블루프린트 참조](/help/blueprints/experience-platform/deployment/appsdk.md)
 
 ## 구현 시 고려 사항
