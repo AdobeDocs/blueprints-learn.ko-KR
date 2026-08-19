@@ -1,16 +1,16 @@
 ---
-title: AJO B2B 유료 미디어 컨트롤러
+title: 계정 Journey Orchestration - 유료 미디어 컨트롤러
 description: 유료 미디어 대상에 대한 캠페인 및 계정 활성화의 우선 순위
 solution: Journey Optimizer B2B Edition
 exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
 
-# AJO B2B - 계정 Journey Orchestration - 유료 미디어 컨트롤러
+# 계정 Journey Orchestration - 유료 미디어 컨트롤러
 
 >[!TIP]
 >이 블루프린트는 B2B 활성화 및 마케팅에서 [사용 사례 패턴](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)(으)로도 사용할 수 있습니다.
@@ -71,14 +71,14 @@ ht-degree: 0%
 
 ## B2B AEP의 데이터 모델링
 
-데이터 기반 오케스트레이션을 사용할 때는 스키마 디자인이 중요합니다. AEP/RTCDP의 계정 및 사용자 프로필에는 **분할 경로 조건**&#x200B;에 사용된 특성(예: 추구 플래그, 솔루션 관심 분야, 성향, 의도 범주, 참여 점수)이 포함되어야 합니다. B2B 스키마(XDM 비즈니스 계정, XDM 개인 프로필, 관계형)는 계층 구조 및 데이터 소스를 나타내야 합니다. 자세한 내용은 [RTCDP B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) 및 [AJO B2B 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home)를 참조하십시오.
+데이터 기반 오케스트레이션을 사용할 때는 스키마 디자인이 중요합니다. AEP/RTCDP의 계정 및 사용자 프로필에는 **분할 경로 조건**&#x200B;에 사용된 특성(예: 추구 플래그, 솔루션 관심 분야, 성향, 의도 범주, 참여 점수)이 포함되어야 합니다. B2B 스키마(XDM 비즈니스 계정, XDM 개인 프로필, 관계형)는 계층 구조 및 데이터 소스를 나타내야 합니다. 자세한 내용은 [RTCDP B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) 및 [Journey Optimizer B2B edition 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)를 참조하십시오.
 
 **참고:** 여정의 분할 경로 로직은 프로필 및 지원되는 경우 관계형 데이터를 사용합니다. waterfall 논리에 필요한 필드를 여정에서 사용할 수 있는지 확인하십시오.
 
 ### 가드레일
 
-- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
-- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
+- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
+- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
 
 ## 구현
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 1. **AJO B2B에서 컨트롤러 여정을 만듭니다.**
 
    - **대상 읽기:** Real-Time CDP에서 적격 계정 대상을 선택합니다.
-   - **분할 경로:** 각 유료 미디어 대상에 대한 경로를 만들고, 경로 1부터 우선 순위로 시작하여 우선 순위로 진행합니다. 각 경로에 대해 특성을 추가하여 자격 기준을 설정합니다(예: &quot;In Pursuit audience&quot;, &quot;solution interest = X&quot;, &quot;persona = Y&quot;, &quot;intent category = Z&quot;). 계정은 분류 방식으로 분할 경로 노드 a를 통해 평가하여 기준을 충족하는 첫 번째 경로에 대해 자격이 부여됩니다.
+   - **분할 경로:** 각 유료 미디어 대상에 대한 경로를 만들고, 경로 1부터 우선 순위로 시작하여 우선 순위로 진행합니다. 각 경로에 대해 특성을 추가하여 자격 기준을 설정합니다(예: &quot;Pursuse audience&quot;, &quot;solution interest = X&quot;, &quot;persona = Y&quot;, &quot;intent category = Z&quot;). 계정은 분류 방식으로 분할 경로 노드 a를 통해 평가하여 기준을 충족하는 첫 번째 경로에 대해 자격이 부여됩니다.
    - **대상에 활성화:** 각 경로에 대해 올바른 LinkedIn(또는 기타) 캠페인/대상에 [대상에 활성화] 노드를 추가하십시오.
 
 2. **상호 배타성의 유효성을 검사합니다.**
@@ -131,6 +131,6 @@ ht-degree: 0%
 
 ## 관련 설명서
 
-- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b) — 제품 설명서입니다.
+- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — 제품 설명서입니다.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - 계정 대상자 및 활성화.
