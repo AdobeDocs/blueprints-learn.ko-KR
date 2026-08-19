@@ -71,14 +71,14 @@ ht-degree: 0%
 
 ## B2B AEP의 데이터 모델링
 
-데이터 기반 오케스트레이션을 사용할 때는 스키마 디자인이 중요합니다. AEP/RTCDP의 계정 및 사용자 프로필에는 **분할 경로 조건**&#x200B;에 사용된 특성(예: 추구 플래그, 솔루션 관심 분야, 성향, 의도 범주, 참여 점수)이 포함되어야 합니다. B2B 스키마(XDM 비즈니스 계정, XDM 개인 프로필, 관계형)는 계층 구조 및 데이터 소스를 나타내야 합니다. 자세한 내용은 [RTCDP B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) 및 [Journey Optimizer B2B edition 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)를 참조하십시오.
+데이터 기반 오케스트레이션을 사용할 때는 스키마 디자인이 중요합니다. AEP/RTCDP의 계정 및 사용자 프로필에는 **분할 경로 조건**&#x200B;에 사용된 특성(예: 추구 플래그, 솔루션 관심 분야, 성향, 의도 범주, 참여 점수)이 포함되어야 합니다. B2B 스키마(XDM 비즈니스 계정, XDM 개인 프로필, 관계형)는 계층 구조 및 데이터 소스를 나타내야 합니다. 자세한 내용은 [RTCDP B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) 및 [Journey Optimizer B2B edition 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)를 참조하십시오.
 
 **참고:** 여정의 분할 경로 로직은 프로필 및 지원되는 경우 관계형 데이터를 사용합니다. waterfall 논리에 필요한 필드를 여정에서 사용할 수 있는지 확인하십시오.
 
 ### 가드레일
 
-- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
-- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
+- **Journey Optimizer B2B edition** — 여정 제한, 노드 제한 및 대상 지원에 대한 자세한 내용은 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)을 참조하세요.
+- **Real-Time CDP** — 세분화 및 활성화 제한에 대해서는 [RTCDP 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)을 참조하십시오.
 
 ## 구현
 
@@ -131,6 +131,6 @@ ht-degree: 0%
 
 ## 관련 설명서
 
-- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — 제품 설명서입니다.
+- [구매 그룹 기반 마케팅 및 여정 관리 블루프린트](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B의 여정 및 구매 그룹 블루프린트입니다.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b) — 제품 설명서입니다.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - 계정 대상자 및 활성화.
