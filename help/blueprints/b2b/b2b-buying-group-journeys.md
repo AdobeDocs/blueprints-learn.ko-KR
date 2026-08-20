@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ RTCDP 가드레일에 대한 자세한 내용은 [Real-Time CDP 가드레일 설
 
    첫 번째 단계로 B2B 사용 사례 요구 사항에 맞게 디자인되고 데이터 소스를 다루는 경험 스키마를 일괄 처리 및 실시간으로 정의하고 만듭니다. 이 디자인은 비즈니스가 계정 및 개인 엔터티를 생각하는 방식과 지원하려는 사용 사례를 나타내야 합니다. 스키마가 B2B 스키마가 되려면 스키마가 [RTCDP B2B 스키마 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-b2b)에서 사용할 수 있는 구조를 따라야 합니다.
 
-   유용한 방법은 다이어그램에서 엔티티 이름을 가져와 동일한 방식으로 레이블을 지정하여 스키마에서 이러한 엔티티를 식별하는 것입니다. 일부 스키마가 RTCDP B2B에서 작동하려면 `sourceKey`과(와) 같은 특정 키가 필요합니다. 단기적으로는 계정 사용자 관계를 통한 계정과 사용자 간의 _다대다_ 관계가 Journey Optimizer B2B에서 지원되지 않습니다. 가장 좋은 시작점에 액셀러레이터 스크립트 사용:
+   유용한 방법은 다이어그램에서 엔티티 이름을 가져와 동일한 방식으로 레이블을 지정하여 스키마에서 이러한 엔티티를 식별하는 것입니다. 일부 스키마가 RTCDP B2B에서 작동하려면 `sourceKey`과(와) 같은 특정 키가 필요합니다.  가장 좋은 시작점에 액셀러레이터 스크립트 사용:
 
    * [RTCDP B2B 스키마 만들기 스크립트](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)를 사용하여 초기 스키마를 생성합니다.
    * 조직 요구 사항에 맞게 스키마를 완료하기 위해 생성된 스키마에 사용 사례별 필드를 추가합니다.
