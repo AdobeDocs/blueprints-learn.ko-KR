@@ -1,11 +1,11 @@
 ---
 title: 구매 그룹 기반 마케팅 및 여정 관리
 description: B2B 마케팅 효과를 향상시키기 위해 구매 그룹으로 잠재 고객을 선별하는 계정 수준 여정을 개발하는 방법에 대해 알아봅니다.
-solution: Journey Optimizer, Real-Time Customer Data Platform
+solution: Journey Optimizer B2B Edition, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: c0a9cba3d6a55fae8f149f7ca479625458cd1b22
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1572'
 ht-degree: 1%
 
 ---
@@ -99,9 +99,9 @@ B2B 조직은 근본적인 과제에 직면해 있습니다. 구매 결정은 �
 
 다음 리소스는 이 안내서에서 참조하는 애플리케이션 및 기능에 대한 추가 세부 정보를 제공합니다.
 
-### [!DNL AJO B2B Edition]
+### [!DNL Journey Optimizer B2B Edition]
 
-- [AJO B2B edition 설명서 홈](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
+- [Journey Optimizer B2B edition 설명서 홈](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
 - [구매 그룹 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 - [솔루션 관심 분야](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
 - [역할 템플릿](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
@@ -109,14 +109,14 @@ B2B 조직은 근본적인 과제에 직면해 있습니다. 구매 결정은 �
 - [구매 그룹 단계](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
 - [계정 여정 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
 - [계정 여정 노드](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
-- [영업 경고 이메일](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
-- [CRM 영업 인사이트](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
+- [영업 경고 이메일](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
+- [CRM 영업 인사이트](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
 
 ### B2B 이메일 및 콘텐츠
 
-- [B2B 이메일 작성](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/email-authoring)
-- [AJO B2B에서 SMS 작성](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sms-authoring)
-- [이메일 작성을 위한 AI Assistant](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/ai-assistant-emails)
+- [B2B 이메일 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
+- [B2B SMS 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
+- [이메일 작성을 위한 콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B 분석 및 대시보드
 
