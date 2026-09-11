@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Postman 설치
 description: 나중에 Postman에서 API를 호출하기 전에 Labs를 설치하고 컬렉션, 환경 및 작업 영역 인터페이스에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 이 실습이 끝나면 향후 실습에서 필요한 후속 api 호출을 수행할 수 있도록 Postman을 설치하고 기본 작업 공간 및 환경을 구성할 수 있습니다.
 
-&#x200B;> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >이 과정의 다양한 랩에 Postman이 필요합니다.  이미 Postman을 설치했더라도 이 실습을 완료하여 환경 파일 및 API 컬렉션이 설치되어 있고 제대로 설정되었는지 확인해야 합니다.
 

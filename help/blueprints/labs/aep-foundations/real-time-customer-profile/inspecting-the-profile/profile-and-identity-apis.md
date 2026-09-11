@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 프로필 및 ID API
 description: Postman의 Profile Entity API 및 Identity Service Cluster API를 사용하여 프로필 속성, 이벤트 및 연결된 ID를 조회합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 1%
@@ -80,17 +79,17 @@ ht-degree: 1%
 1. **엔터티 조회(특성)** 요청을 클릭하여 엽니다.
 1. **보내기** 단추를 클릭하여 호출 실행
 
-![보내기 전에 엔터티 조회(특성) 호출에 대한 Postman 요청 창](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "프로필 엔터티 조회(특성) API")
+   ![보내기 전에 엔터티 조회(특성) 호출에 대한 Postman 요청 창](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "프로필 엔터티 조회(특성) API")
 
-요청이 성공하면 `200 OK`(으)로 응답해야 하며 딥시트 모드 프로필에 대한 모든 특성이 포함된 결과가 표시됩니다.
+   요청이 성공하면 `200 OK`(으)로 응답해야 하며 딥시트 모드 프로필에 대한 모든 특성이 포함된 결과가 표시됩니다.
 
-![장치 모드 프로필에 대한 모든 특성을 포함하는 OK 응답](assets/profile-and-identity-apis-successful-attributes-api-response.png "성공한 프로필 엔터티(특성) API 응답")
+   ![장치 모드 프로필에 대한 모든 특성을 포함하는 OK 응답](assets/profile-and-identity-apis-successful-attributes-api-response.png "성공한 프로필 엔터티(특성) API 응답")
 
->[!NOTE]
->
->기본적으로 프로필 엔티티 요청에 병합 정책이 지정되지 않으면 샌드박스의 기본 병합 정책을 사용합니다
+   >[!NOTE]
+   >
+   >기본적으로 프로필 엔티티 요청에 병합 정책이 지정되지 않으면 샌드박스의 기본 병합 정책을 사용합니다
 
-엔티티 API를 사용하면 응답으로 반환되는 것을 변경하는 데 사용할 수 있는 다양한 쿼리 매개 변수가 있습니다.
+   엔티티 API를 사용하면 응답으로 반환되는 것을 변경하는 데 사용할 수 있는 다양한 쿼리 매개 변수가 있습니다.
 
 1. 엔터티 조회(특성) 요청에서 요청에 대한 **매개 변수** 옵션을 클릭합니다
 1. **필드**(이)라는 **키** 옆의 확인란을 선택하세요.
@@ -106,7 +105,7 @@ ht-degree: 1%
 
 ![이름, 성 및 활성 제품 필드만 표시하는 필터링된 200 OK 응답](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "필터가 활성화된 성공적인 프로필 엔터티 조회(특성) API 응답")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >축하합니다!  프로필 엔티티 API를 사용하여 프로필의 속성을 조회했습니다
 

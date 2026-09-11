@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 사전 작업
 description: 누락된 설명 및 중복 필드가 대상 빌더를 어떻게 혼동시킬 수 있는지를 강조 표시하여 청구 사용량 및 계획 이름에 대한 스키마 필드를 조사합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -22,15 +21,15 @@ ht-degree: 0%
 1. 새 대상 만들기
 1. 속성에서 &quot;usage&quot;를 검색합니다. &quot;i&quot;를 클릭하여 설명을 검토합니다(없음).
 
-![특성에서 사용 검색 - 설명이 표시되지 않음](assets/pre-work-search-usage-in-attributes.png)
+   ![특성에서 사용 검색 - 설명이 표시되지 않음](assets/pre-work-search-usage-in-attributes.png)
 
 
 
-&#x200B;3. 이벤트에서 &quot;사용량&quot;을 검색합니다.  &quot;i&quot;를 클릭하여 설명을 검토합니다(없음).
+3. 이벤트에서 &quot;사용량&quot;을 검색합니다.  &quot;i&quot;를 클릭하여 설명을 검토합니다(없음).
 
 ![이벤트에서 사용량 검색 - 설명이 표시되지 않음](assets/pre-work-search-usage-in-events.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >이 두 가지 모두 설명이 없으므로 마케터는 몇 가지 가정을 하고 잘못된 추측을 할 수 있습니다.
 >
@@ -41,7 +40,8 @@ ht-degree: 0%
 >- 특정 사용 사례에 권장/권장?
 >
 >이 정보를 설명으로 제공함으로써 우리는 그들을 더 잘 안내할 수 있다.
-> [!NOTE]
+
+>[!NOTE]
 >
 >&quot;청구&quot;를 검색해 보십시오.  프로필 속성으로 표시되지 않습니다.  &quot;청구 데이터 사용&quot; 필드와 함께 이벤트 유형 카드로 표시됩니다.
 >

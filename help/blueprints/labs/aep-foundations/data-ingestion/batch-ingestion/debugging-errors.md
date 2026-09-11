@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 디버깅 오류
 description: 미리보기 오류 진단을 사용하여 실패한 데이터 흐름을 조사하고 INGEST 형식 오류를 MAPPER 전환 경고와 구별합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -66,6 +65,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >이 오류는 매핑 중에 경고만 발생하므로 심각한 오류는 아닙니다. 이로 인해 데이터 흐름 실행이 실패하지 않으므로 이 랩에서는 이 오류를 수정하지 않습니다.

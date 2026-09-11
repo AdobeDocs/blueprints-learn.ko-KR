@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 콘텐츠 템플릿 작성 중
 description: HTML을 가져오고 이전에 만든 헤더 조각을 삽입하여 Adobe Journey Optimizer에서 재사용 가능한 이메일 템플릿을 구축하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -53,16 +52,16 @@ ht-degree: 0%
 
 1. **콘텐츠 관리 → 콘텐츠 템플릿**(으)로 이동합니다.
 
-![콘텐츠 관리로 이동한 다음 콘텐츠 템플릿으로 이동](assets/building-content-template-navigate-content-templates.png)
+   ![콘텐츠 관리로 이동한 다음 콘텐츠 템플릿으로 이동](assets/building-content-template-navigate-content-templates.png)
 
-&#x200B;2. **템플릿 만들기**&#x200B;를 클릭하고 다음을 입력하십시오.
+2. **템플릿 만들기**&#x200B;를 클릭하고 다음을 입력하십시오.
    - **이름:** `Promotional Template`
    - **설명:** `Promotional Template for phone products`
    - **채널:** `Email`
 
-![이름, 설명 및 전자 메일 채널을 사용하여 템플릿 양식 만들기](assets/building-content-template-create-template-form-fields.png)
+   ![이름, 설명 및 전자 메일 채널을 사용하여 템플릿 양식 만들기](assets/building-content-template-create-template-form-fields.png)
 
-&#x200B;3. **만들기**&#x200B;를 클릭합니다.
+3. **만들기**&#x200B;를 클릭합니다.
 
 ![프로모션 템플릿 만들기를 완료하기 위한 만들기 단추](assets/building-content-template-click-create-button.png)
 
@@ -71,9 +70,9 @@ ht-degree: 0%
 
 1. 제목란 `Promotional Template`을(를) 추가하고 이메일 본문에서 **을(를) 클릭하여**&#x200B;을(를) 열어 편집합니다.
 
-![제목 줄을 추가하고 편집할 전자 메일 본문을 여는 중](assets/building-content-template-add-subject-line-open-editor.png)
+   ![제목 줄을 추가하고 편집할 전자 메일 본문을 여는 중](assets/building-content-template-add-subject-line-open-editor.png)
 
-&#x200B;2. 다음 세 가지 옵션이 표시됩니다.
+2. 다음 세 가지 옵션이 표시됩니다.
    1. 처음부터 디자인
    2. 나만의 코드 작성
    3. HTML 가져오기
@@ -90,13 +89,13 @@ ht-degree: 0%
 
 1. 도구 키트 폴더 `promotional-template-final.html`에서 템플릿 html 파일 업로드
 
-![도구 키트 폴더에서 promotional-template-final.html 업로드](assets/building-content-template-upload-html-template-file.png)
+   ![도구 키트 폴더에서 promotional-template-final.html 업로드](assets/building-content-template-upload-html-template-file.png)
 
-&#x200B;2. 가져오기 단추를 클릭하여 템플릿을 **가져오기**&#x200B;합니다.
+2. 가져오기 단추를 클릭하여 템플릿을 **가져오기**&#x200B;합니다.
 
-![업로드된 HTML 템플릿을 가져오기 위한 가져오기 단추](assets/building-content-template-click-import-button.png)
+   ![업로드된 HTML 템플릿을 가져오기 위한 가져오기 단추](assets/building-content-template-click-import-button.png)
 
-&#x200B;3. 레이아웃이 렌더링될 때까지 기다립니다. 이미지 링크가 끊어지고 브랜딩이 누락된 것과 같은 문제가 표시됩니다. (자리 표시자 에셋이 있으므로 예상된 동작입니다.)
+3. 레이아웃이 렌더링될 때까지 기다립니다. 이미지 링크가 끊어지고 브랜딩이 누락된 것과 같은 문제가 표시됩니다. (자리 표시자 에셋이 있으므로 예상된 동작입니다.)
 
 ![끊어진 이미지 링크와 누락된 브랜딩 자리 표시자를 표시하는 렌더링된 템플릿](assets/building-content-template-rendered-template-broken-images.png)
 
@@ -127,7 +126,7 @@ Adobe Journey Optimizer의 본문 섹션 아래에 있는 &quot;**설정**&quot;
 
 ![왼쪽 사이드바에 파란색 점이 있는 머리글 조각이 라이브로 표시됨](assets/building-content-template-header-fragment-live-sidebar.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >여기에 조각이 표시되지 않으면 제대로 저장하지 않았으므로 다시 업로드해야 합니다.
 
@@ -139,25 +138,25 @@ Adobe Journey Optimizer의 본문 섹션 아래에 있는 &quot;**설정**&quot;
 
 1. 기존 콘텐츠 위에 **1:1 열**&#x200B;을(를) 끌어옵니다.
 
-![기존 템플릿 콘텐츠 위에 1:1 열 끌기](assets/building-content-template-drag-1-1-column-above-content.png)
+   ![기존 템플릿 콘텐츠 위에 1:1 열 끌기](assets/building-content-template-drag-1-1-column-above-content.png)
 
-이런 게 보이시네요
+   이런 게 보이시네요
 
-![콘텐츠 위에 새 열을 추가한 후 템플릿 레이아웃](assets/building-content-template-column-added-above-content.png)
+   ![콘텐츠 위에 새 열을 추가한 후 템플릿 레이아웃](assets/building-content-template-column-added-above-content.png)
 
-&#x200B;2. 배경은 현재 검정색인 템플릿 배경색을 사용합니다. **배경색을 흰색으로 설정합니다. 오른쪽 레일의 스타일 탭에서**&#x200B;을(를) 클릭하고 색상 선택기에서 흰색을 사용합니다.
+2. 배경은 현재 검정색인 템플릿 배경색을 사용합니다. **배경색을 흰색으로 설정합니다. 오른쪽 레일의 스타일 탭에서**&#x200B;을(를) 클릭하고 색상 선택기에서 흰색을 사용합니다.
 
-![색상 선택기를 사용하여 열 배경색을 흰색으로 설정](assets/building-content-template-set-background-color-white.png)
+   ![색상 선택기를 사용하여 열 배경색을 흰색으로 설정](assets/building-content-template-set-background-color-white.png)
 
-&#x200B;3. **조각**&#x200B;을 열고 **헤더** 조각에서 드래그합니다.
+3. **조각**&#x200B;을 열고 **헤더** 조각에서 드래그합니다.
 
-![헤더 조각을 조각 패널에서 템플릿으로 드래그하는 중](assets/building-content-template-drag-header-fragment-into-template.png)
+   ![헤더 조각을 조각 패널에서 템플릿으로 드래그하는 중](assets/building-content-template-drag-header-fragment-into-template.png)
 
-&#x200B;4. 헤더 조각은 아래와 같이 템플릿에 깔끔하게 정렬됩니다.
+4. 헤더 조각은 아래와 같이 템플릿에 깔끔하게 정렬됩니다.
 
-![헤더 조각이 템플릿 내에서 깔끔하게 정렬됨](assets/building-content-template-header-fragment-aligned-template.png)
+   ![헤더 조각이 템플릿 내에서 깔끔하게 정렬됨](assets/building-content-template-header-fragment-aligned-template.png)
 
-&#x200B;5. **저장** 단추를 클릭하여 템플릿을 저장한 다음 **뒤로**&#x200B;를 클릭합니다.
+5. **저장** 단추를 클릭하여 템플릿을 저장한 다음 **뒤로**&#x200B;를 클릭합니다.
 
 ![[뒤로]를 클릭하기 전에 템플릿을 저장하는 저장 단추](assets/building-content-template-click-save-button-template.png)
 

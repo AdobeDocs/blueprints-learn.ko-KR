@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 대상
 description: 활성 iPhone 14 줄 없이 프로필 대상을 만든 다음 프로필 기반 필드를 사용하여 일괄 처리에서 스트리밍 평가로 전환합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -90,80 +89,80 @@ iPhone 14인 활성 줄이 없는 모든 프로필을 찾는 대상을 만듭니
 
 1. &quot;*iPhone 14* 소유&quot; 대상을 열고 이름을 &quot;*iPhone 14 소유 일괄 처리*&quot;(으)로 변경합니다.
 
->[!WARNING]
->
->오늘은 UI에서 평가 방법을 변경할 수 없습니다. 이 대상자를 참조하는 모든 대상자도 삭제해야 합니다. 세그먼트 내에서 세그먼트를 사용하는 빌드 전략을 결정할 때 이 점을 염두에 두십시오.
+   >[!WARNING]
+   >
+   >오늘은 UI에서 평가 방법을 변경할 수 없습니다. 이 대상자를 참조하는 모든 대상자도 삭제해야 합니다. 세그먼트 내에서 세그먼트를 사용하는 빌드 전략을 결정할 때 이 점을 염두에 두십시오.
 
 
 
 2. 새 대상을 만듭니다. iPhone 14 대상 일괄 처리 소유&quot; 대상을 캔버스에 추가하고 규칙으로 변환을 클릭합니다.
 
-![소유하는 iPhone 14 일괄 처리 대상을 캔버스에 추가하고 규칙으로 변환](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)을 클릭합니다.
+   ![소유하는 iPhone 14 일괄 처리 대상을 캔버스에 추가하고 규칙으로 변환](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)을 클릭합니다.
 
-![캔버스에서 규칙으로 전환된 대상](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
-
-
-
-&#x200B;3. 오른쪽 하단 모서리에서 설명, 이름 및 평가 방법을 스트리밍으로 업데이트한 다음, 평가 방법 옆에 있는 폴더 아이콘을 클릭합니다. 다음이 표시됩니다.
-
-![폴더 아이콘을 클릭한 후 평가 방법이 스트리밍으로 설정됨](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+   ![캔버스에서 규칙으로 전환된 대상](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-명확하지는 않지만 조회 스키마에서 제품 이름을 사용하고 있기 때문입니다
+3. 오른쪽 하단 모서리에서 설명, 이름 및 평가 방법을 스트리밍으로 업데이트한 다음, 평가 방법 옆에 있는 폴더 아이콘을 클릭합니다. 다음이 표시됩니다.
+
+   ![폴더 아이콘을 클릭한 후 평가 방법이 스트리밍으로 설정됨](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+
+
+
+   명확하지는 않지만 조회 스키마에서 제품 이름을 사용하고 있기 때문입니다
+
+   >[!NOTE]
+   >
+   >조회를 사용할 때마다 평가 방법은 강제로 일괄 처리됩니다.
+   >
+   >경로를 보고 &quot;속성&quot;이 있는 경우 아무 곳에나 알 수 있습니다
+   >
+   >![속성이 들어 있는 경로는 평가 메서드를 일괄 처리로 강제 적용합니다](assets/build-audience-2-path-contains-properties-forces-batch.png)
+
+
+
+
+
+4. 이제 XDM 개인 프로필 스키마에서 가져온 제품 이름의 기존 값을 대체합니다.
+
+   다음 경로를 바꿉니다.
+
+   - XDM 개인 프로필 > Dep > 활성 제품 > 제품 ID 속성 > 제품 이름
+
+   새 경로 추가:
+
+   - XDM 개별 프로필 > Dep > 활성 제품 > 모델
+
+   ![제품 이름 경로를 XDM 개별 프로필 활성 제품 모델 경로로 바꾸기](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
+
+   ![XDM 개별 프로필 모델 경로를 참조하는 대상 규칙을 업데이트했습니다](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
+
+
+
+5. 평가 방법을 스트리밍으로 변경하고 폴더 아이콘을 클릭합니다
+
+   ![평가 방법을 스트리밍으로 변경하고 폴더 아이콘을 클릭합니다](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+
+
+
+6. 새로운 스트리밍 적격 대상에 대해 설명을 입력합니다.
+
+   - 대상을 &quot;*iPhone 14* 소유&quot; 대상으로 저장합니다.
+   - 대상에 대한 파란색 단추 **대상 활성화**&#x200B;를 클릭합니다.
+
+   ![스트리밍 가능 대상의 대상에 대상 활성화를 클릭합니다](assets/build-audience-2-activate-audience-to-destination.png)
+
+
+
+7. **스트리밍 DEP Webhook** 대상을 선택하고 **다음**&#x200B;을 클릭합니다.
+
+8. **다음** 및 **마침** 클릭
 
 >[!NOTE]
 >
->조회를 사용할 때마다 평가 방법은 강제로 일괄 처리됩니다.
->
->경로를 보고 &quot;속성&quot;이 있는 경우 아무 곳에나 알 수 있습니다
->
->![속성이 들어 있는 경로는 평가 메서드를 일괄 처리로 강제 적용합니다](assets/build-audience-2-path-contains-properties-forces-batch.png)
-
-
-
-
-
-&#x200B;4. 이제 XDM 개인 프로필 스키마에서 가져온 제품 이름의 기존 값을 대체합니다.
-
-다음 경로를 바꿉니다.
-
-- XDM 개인 프로필 > Dep > 활성 제품 > 제품 ID 속성 > 제품 이름
-
-새 경로 추가:
-
-- XDM 개별 프로필 > Dep > 활성 제품 > 모델
-
-![제품 이름 경로를 XDM 개별 프로필 활성 제품 모델 경로로 바꾸기](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
-
-![XDM 개별 프로필 모델 경로를 참조하는 대상 규칙을 업데이트했습니다](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
-
-
-
-&#x200B;5. 평가 방법을 스트리밍으로 변경하고 폴더 아이콘을 클릭합니다
-
-![평가 방법을 스트리밍으로 변경하고 폴더 아이콘을 클릭합니다](assets/build-audience-2-change-evaluation-method-to-streaming.png)
-
-
-
-&#x200B;6. 새로운 스트리밍 적격 대상에 대해 설명을 입력합니다.
-
-- 대상을 &quot;*iPhone 14* 소유&quot; 대상으로 저장합니다.
-- 대상에 대한 파란색 단추 **대상 활성화**&#x200B;를 클릭합니다.
-
-![스트리밍 가능 대상의 대상에 대상 활성화를 클릭합니다](assets/build-audience-2-activate-audience-to-destination.png)
-
-
-
-&#x200B;7. **스트리밍 DEP Webhook** 대상을 선택하고 **다음**&#x200B;을 클릭합니다.
-
-&#x200B;8. **다음** 및 **마침** 클릭
-
-&#x200B;> [!NOTE]
->
 >일괄 처리와 스트리밍 또는 Edge을 선택해야 하는 이유 고려 사항:
 >
->최신 보호 기능: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+>최신 보호 기능: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 
 >[!TIP]
 >

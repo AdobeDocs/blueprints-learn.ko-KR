@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 요약
 description: Adobe Journey Optimizer에서 조각, AI 도구 및 시뮬레이션을 사용하여 개인화된 브랜드 준수 캠페인을 구축하기 위한 주요 사항 및 완료 체크리스트를 검토하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -36,7 +35,7 @@ ht-degree: 0%
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**이 문서를 읽고 있으면 실습이 끝났음을 의미합니다.**
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 모델 표준 개체
 description: UI에서 개별 프로필 스키마를 만들고 인구 통계학적 세부 정보, 동의 및 환경 설정과 같은 표준 필드 그룹을 추가하고 트리밍합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 1. 왼쪽 레일에서 **스키마** 탭을 클릭합니다
 
-![왼쪽 레일 탐색의 스키마 탭](assets/model-standard-objects-schemas-tab-left-rail.png "왼쪽 레일을 사용하여 스키마로 이동")
+   ![왼쪽 레일 탐색의 스키마 탭](assets/model-standard-objects-schemas-tab-left-rail.png "왼쪽 레일을 사용하여 스키마로 이동")
 
 
 
@@ -36,13 +35,13 @@ ht-degree: 0%
 
 1. **스키마 만들기**&#x200B;를 클릭하여 시작
 
-![스키마 만들기 단추](assets/model-standard-objects-create-schema-button.png "스키마 만들기")
+   ![스키마 만들기 단추](assets/model-standard-objects-create-schema-button.png "스키마 만들기")
 
 
 
 1. **수동** 선택
 
-![수동 스키마 만들기 옵션 선택](assets/model-standard-objects-select-manual-option.png "수동 선택")
+   ![수동 스키마 만들기 옵션 선택](assets/model-standard-objects-select-manual-option.png "수동 선택")
 
 
 
@@ -68,24 +67,24 @@ XDM 개별 프로필 클래스 기반 스키마를 사용하면 프로필에 결
 
 1. 필드 그룹 섹션의 왼쪽 레일에서 **+(추가)**&#x200B;을(를) 클릭합니다.
 
-![왼쪽 레일에 필드 그룹 추가 단추](assets/model-standard-objects-add-field-group-button.png "필드 그룹 추가")
+   ![왼쪽 레일에 필드 그룹 추가 단추](assets/model-standard-objects-add-field-group-button.png "필드 그룹 추가")
 
 
 
 1. **인구 통계 세부 정보**&#x200B;를 검색하거나 목록을 검색하여 찾으십시오.
 
-- 필드 그룹을 찾으면 필드 그룹의 오른쪽에 있는 돋보기를 클릭하여 해당 구조를 확인합니다.  이 방법은 스키마를 실제로 추가하지 않고 추가하려는 항목을 미리 보는 데 유용합니다.
-- 검토를 마치면 미리보기를 닫습니다.
+   - 필드 그룹을 찾으면 필드 그룹의 오른쪽에 있는 돋보기를 클릭하여 해당 구조를 확인합니다.  이 방법은 스키마를 실제로 추가하지 않고 추가하려는 항목을 미리 보는 데 유용합니다.
+   - 검토를 마치면 미리보기를 닫습니다.
 
 
 
-![돋보기를 클릭하여 필드 그룹의 구조를 미리 봅니다](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "돋보기를 클릭하여 필드 그룹의 구조를 미리 봅니다")
+   ![돋보기를 클릭하여 필드 그룹의 구조를 미리 봅니다](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "돋보기를 클릭하여 필드 그룹의 구조를 미리 봅니다")
 
-![인구 통계 세부 정보 필드 그룹 구조 미리 보기](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![인구 통계 세부 정보 필드 그룹 구조 미리 보기](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
-&#x200B;3. 필드 그룹 옆의 확인란을 **확인**&#x200B;한 다음 **필드 그룹 추가** 단추를 클릭합니다.
+3. 필드 그룹 옆의 확인란을 **확인**&#x200B;한 다음 **필드 그룹 추가** 단추를 클릭합니다.
 
 ![인구 통계학적 세부 정보 필드 그룹을 선택하여 스키마에 추가](assets/model-standard-objects-select-demographic-details-field-group.png "인구 통계학적 세부 정보 필드 그룹을 선택하여 스키마에 추가")
 
@@ -126,24 +125,24 @@ Adobe 표준 필드 그룹에서 필드를 제거하려면 **관련 필드 관�
 1. 스키마에서 **person** 개체 선택
 1. 오른쪽 레일에서 **관련 필드 관리**&#x200B;를 클릭합니다.
 
-![인구 통계 세부 정보 필드 그룹의 사용자 개체에 대한 관련 필드 관리 옵션](assets/model-standard-objects-manage-related-fields-person-object.png "인구 통계 세부 정보 필드 그룹의 일부로 사용자 개체에 대한 관련 필드 관리")
+   ![인구 통계 세부 정보 필드 그룹의 사용자 개체에 대한 관련 필드 관리 옵션](assets/model-standard-objects-manage-related-fields-person-object.png "인구 통계 세부 정보 필드 그룹의 일부로 사용자 개체에 대한 관련 필드 관리")
 
 
 
 1. 사용자 왼쪽에 있는 V자형 화살표를 클릭하여 사용자 객체를 확장하고 이름 객체 왼쪽에 있는 V자형 화살표를 클릭하여 전체 이름 객체를 확장합니다. 다음 필드만 유지:
 
-- person.name.firstName
-- person.name.lastName
-- person.birthdayAndMonth
-- person.birthYear
+   - person.name.firstName
+   - person.name.lastName
+   - person.birthdayAndMonth
+   - person.birthYear
 
-완료되면 오른쪽 상단의 **확인** 단추를 클릭합니다.
+   완료되면 오른쪽 상단의 **확인** 단추를 클릭합니다.
 
-![선택한 인구 통계 세부 정보 사용자 필드를 표시하는 관련 필드 관리 대화 상자](assets/model-standard-objects-demographic-details-person-fields-dialog.png "인구 통계 세부 정보 사용자 개체의 관련 필드 관리")
+   ![선택한 인구 통계 세부 정보 사용자 필드를 표시하는 관련 필드 관리 대화 상자](assets/model-standard-objects-demographic-details-person-fields-dialog.png "인구 통계 세부 정보 사용자 개체의 관련 필드 관리")
 
->[!NOTE]
->
->**인구 통계학적 세부 정보**&#x200B;의 맨 위 확인란을 클릭하여 모든 하위 개체를 자동으로 선택 취소한 다음 필요한 개체만 다시 선택할 수 있습니다.
+   >[!NOTE]
+   >
+   >**인구 통계학적 세부 정보**&#x200B;의 맨 위 확인란을 클릭하여 모든 하위 개체를 자동으로 선택 취소한 다음 필요한 개체만 다시 선택할 수 있습니다.
 
 
 

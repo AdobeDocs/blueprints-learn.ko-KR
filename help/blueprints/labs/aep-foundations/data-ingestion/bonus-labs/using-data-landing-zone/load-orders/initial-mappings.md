@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 초기 매핑
 description: 계산된 필드 표현식을 사용하여 경험 이벤트 데이터 세트에 대한 필수 _id 및 타임스탬프 필드를 수동으로 매핑합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -31,23 +30,23 @@ ht-degree: 0%
 
 1. **\_id를 매핑하려면**&#x200B;에서 다음 계산된 필드 식을 쓰고 미리 보기를 클릭합니다
 
-```none
-concat(orderID, "-", lastOrderStatusUpdate)
-```
+   ```none
+   concat(orderID, "-", lastOrderStatusUpdate)
+   ```
 
-![매핑 _id에 대해 계산된 필드, 저장할 준비 완료](assets/initial-mappings-calculated-field-for-id-mapping.png "매핑 _id에 대해 계산된 필드는 이와 비슷합니다. 저장 을 클릭하여 계산된 필드를 저장합니다")
+   ![매핑 _id에 대해 계산된 필드, 저장할 준비 완료](assets/initial-mappings-calculated-field-for-id-mapping.png "매핑 _id에 대해 계산된 필드는 이와 비슷합니다. 저장 을 클릭하여 계산된 필드를 저장합니다")
 
-![계산된 필드를 _id 특성에 매핑](assets/initial-mappings-map-calculated-field-to-id.png "계산된 필드를 _id에 매핑")
+   ![계산된 필드를 _id 특성에 매핑](assets/initial-mappings-map-calculated-field-to-id.png "계산된 필드를 _id에 매핑")
 
 1. 대상 스키마의 **타임스탬프** 필드가 다음 계산된 필드에 매핑되어 있는지 확인하십시오.
 
-```none
-lastOrderStatusUpdate
-```
+   ```none
+   lastOrderStatusUpdate
+   ```
 
-![타임스탬프 매핑에 대해 계산된 필드 식 미리 보기](assets/initial-mappings-expression-preview.png "다음 식을 쓰고 미리 보기를 클릭합니다. 이 값은 대/소문자를 구분하므로 정확히 이 방법으로 작성해야 합니다.")
+   ![타임스탬프 매핑에 대해 계산된 필드 식 미리 보기](assets/initial-mappings-expression-preview.png "다음 식을 쓰고 미리 보기를 클릭합니다. 이 값은 대/소문자를 구분하므로 정확히 이 방법으로 작성해야 합니다.")
 
-![계산된 필드 식 &quot;inStore&quot;를 order._devbc.acqSource에 매핑](assets/initial-mappings-map-instore-expression-to-acqsource.png)
+   ![계산된 필드 식 &quot;inStore&quot;를 order._devbc.acqSource에 매핑](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
 1. 계산된 필드 식 **&quot;inStore&quot;**&#x200B;을(를) **order.\_devbc.acqSource**&#x200B;에 매핑합니다.
 
@@ -57,7 +56,7 @@ lastOrderStatusUpdate
 
 매핑 화면에서 **order에 매핑된** orderStatus **과(와) 같은 중복 매핑이 있다고 불평하는 경우.\_devbc.acqSource,** &quot;-&quot; 아이콘을 클릭하여 매핑을 제거합니다.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >여러 입력 필드를 동일한 출력 필드에 매핑할 수 없으므로 매핑이 모호해집니다. 그러나 단일 입력 필드를 XDM 스키마의 여러 출력 필드에 매핑할 수 있습니다.
 

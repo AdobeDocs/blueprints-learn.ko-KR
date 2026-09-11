@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 스트리밍 대상 설정
 description: Webhook 끝점, 거버넌스 정책, 대상 및 필드 매핑을 사용하여 HTTP API 스트리밍 대상을 구성하여 세그먼트 활성화를 테스트합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -55,15 +54,15 @@ Experience Platform UI에서 다음을 수행하여 대상 카탈로그로 이�
 1. 연결 유형 **없음**
 1. **대상에 연결**&#x200B;을 클릭합니다.
 
-![대상에 연결](assets/setup-streaming-destination-connect-to-destination.png "대상에 연결")
+   ![대상에 연결](assets/setup-streaming-destination-connect-to-destination.png "대상에 연결")
 
->[!NOTE]
->
->일반적으로 이 단계에서는 모든 인증 자격 증명을 추가하지만 이 웹후크에는 필요하지 않습니다.
+   >[!NOTE]
+   >
+   >일반적으로 이 단계에서는 모든 인증 자격 증명을 추가하지만 이 웹후크에는 필요하지 않습니다.
 
 
 
-&#x200B;3. 다음과 같이 대상의 구성 세부 정보를 입력합니다.
+3. 다음과 같이 대상의 구성 세부 정보를 입력합니다.
 
 - **이름** -> `Streaming DEP Webhook - [Your Initials]`
 - **설명** -> `[your webhook endpoint you copied above]`
@@ -92,7 +91,7 @@ Experience Platform UI에서 다음을 수행하여 대상 카탈로그로 이�
 >
 >Experience League의 거버넌스 정책에 대해 자세히 알아볼 수 있습니다
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## 대상자 선택
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 코드 기반 경험 채널 만들기
 description: 결정을 요청하는 웹, 모바일 또는 IoT 시스템에 JSON 오퍼 데이터를 반환하는 Adobe Journey Optimizer의 코드 기반 경험 채널을 구성합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -23,29 +22,29 @@ ht-degree: 0%
 2. 파란색 **채널 구성 만들기** 단추를 클릭합니다.
 3. &#39;채널 구성 세부 정보&#39; 페이지에서 채널 이름을 **jsonOffer\_cbe**&#x200B;로 지정합니다.
 
->[!NOTE]
->
->CBE는 *N* 플랫폼 수에 있는 모든 수의 클라이언트에서 호출할 수 있으므로 이 CBE의 이름을 위치에 일반적인 이름으로 지정하되, JSON 형식으로 오퍼를 반환한다는 점에 따라 지정합니다.
+   >[!NOTE]
+   >
+   >CBE는 *N* 플랫폼 수에 있는 모든 수의 클라이언트에서 호출할 수 있으므로 이 CBE의 이름을 위치에 일반적인 이름으로 지정하되, JSON 형식으로 오퍼를 반환한다는 점에 따라 지정합니다.
 
 4. **채널 선택** 드롭다운을 **코드 기반 환경으로 설정합니다.**
 
->[!WARNING]
->
->데모에 불필요한 복잡성을 추가하므로 이 랩에서는 마케팅 작업을 설정하지 않지만, 여러 시스템에서 CBE에 액세스할 수 있으므로 실제 사용 사례에서는 DULE 레이블이 강제 적용되도록 이 채널에 대해 가능한 모든 마케팅 작업을 설정해야 합니다.
+   >[!WARNING]
+   >
+   >데모에 불필요한 복잡성을 추가하므로 이 랩에서는 마케팅 작업을 설정하지 않지만, 여러 시스템에서 CBE에 액세스할 수 있으므로 실제 사용 사례에서는 DULE 레이블이 강제 적용되도록 이 채널에 대해 가능한 모든 마케팅 작업을 설정해야 합니다.
 
 5. &#39;코드 기반 경험 설정&#39; 영역에서 **Web** 상자를 선택하고 **단일 페이지** 옵션을 선택한 상태로 유지합니다.
 6. **페이지 URL** 텍스트 상자에 `https://connection5g.com/home` 텍스트를 입력하십시오
 7. **페이지의 위치** 텍스트 상자에 **jsonOfferContainer** 텍스트를 입력하십시오.
 
->[!NOTE]
->
->Edge에 전송되는 모든 경험 이벤트가 개인화된 오퍼에 대한 요청을 트리거하는 것은 아닙니다. 방금 구성한 선택 전략으로 이 CBE를 구성할 다음 섹션에서 여정을 만듭니다. &#39;페이지에서 위치&#39; 설정은 Experience Edge에 해당 CBE에 할당된 모든 오퍼를 반환하도록 지시하는 Experience Events에서 전달된 매개 변수의 이름입니다. 흔히 표면이라고도 합니다. 모바일 앱, 웹 페이지 또는 기타 IoT 장치든 간에 jsonOfferContainer 값이 Experience 이벤트를 통해 올바른 eventType과 함께 Edge에 전달되면 Edge은 지금까지 랩에서 구성된 논리를 실행하고 적절한 오퍼를 반환합니다.
+   >[!NOTE]
+   >
+   >Edge에 전송되는 모든 경험 이벤트가 개인화된 오퍼에 대한 요청을 트리거하는 것은 아닙니다. 방금 구성한 선택 전략으로 이 CBE를 구성할 다음 섹션에서 여정을 만듭니다. &#39;페이지에서 위치&#39; 설정은 Experience Edge에 해당 CBE에 할당된 모든 오퍼를 반환하도록 지시하는 Experience Events에서 전달된 매개 변수의 이름입니다. 흔히 표면이라고도 합니다. 모바일 앱, 웹 페이지 또는 기타 IoT 장치든 간에 jsonOfferContainer 값이 Experience 이벤트를 통해 올바른 eventType과 함께 Edge에 전달되면 Edge은 지금까지 랩에서 구성된 논리를 실행하고 적절한 오퍼를 반환합니다.
 
 8. &#39;형식&#39; 섹션에서 **JSON** 라디오 단추를 클릭합니다. 완료되면 CBE 채널 구성은 다음과 같이 표시됩니다.
 
-![JSON 형식이 선택된 코드 기반 경험 채널 구성이 완료되었습니다](assets/create-code-based-experience-channel-completed-config.png)
+   ![JSON 형식이 선택된 코드 기반 경험 채널 구성이 완료되었습니다](assets/create-code-based-experience-channel-completed-config.png)
 
-&#x200B;9. 모든 항목이 올바르게 표시되면 오른쪽 상단의 파란색 **제출** 단추를 클릭합니다.
+9. 모든 항목이 올바르게 표시되면 오른쪽 상단의 파란색 **제출** 단추를 클릭합니다.
 
 >[!TIP]
 >

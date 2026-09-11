@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 배포 지침
 description: DEP CLI를 사용하여 AJO Architecture Foundations 랩 팩의 스키마, 데이터 세트, 데이터 흐름 및 샘플 데이터를 샌드박스에 배포합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
@@ -67,15 +66,15 @@ CLI는 환경 파일이 가리키는 샌드박스에 배포되므로 이를 올�
 1. `envFiles/sample-env.json`을(를) 복사하고 새 이름을 지정하십시오(예: `my-env.json`).
 2. 파일을 열고 [Developer Console 설치](developer-console-setup.md)의 값을 사용하여 다음 필드를 채웁니다.
 
-| **필드** | **값** |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | 클라이언트 ID |
-| `CLIENT_SECRET` | 클라이언트 암호 |
-| `IMS_ORG` | 조직 ID |
-| `SCOPES` | Experience Platform API 및 Adobe Journey Optimizer API 범위를 모두 포함해야 합니다&#x200B;<br />*(예: cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
-| `SANDBOX_NAME` | 타깃팅하는 샌드박스는 비어 있고 유형이 `dev`이어야 합니다. |
+   | **필드** | **값** |
+   | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | 클라이언트 ID |
+   | `CLIENT_SECRET` | 클라이언트 암호 |
+   | `IMS_ORG` | 조직 ID |
+   | `SCOPES` | Experience Platform API 및 Adobe Journey Optimizer API 범위를 모두 포함해야 합니다&#x200B;<br />*(예: cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
+   | `SANDBOX_NAME` | 타깃팅하는 샌드박스는 비어 있고 유형이 `dev`이어야 합니다. |
 
-&#x200B;3. 파일 저장 및 닫기
+3. 파일 저장 및 닫기
 
 >[!NOTE]
 >
@@ -118,7 +117,8 @@ CLI는 환경 파일이 가리키는 샌드박스에 배포되므로 이를 올�
 >[!NOTE]
 >
 >단계 4와 5를 개별적으로 실행하는 대신 단계 6을 사용하십시오. 이 작업은 처리된 전달 대기와 동일한 작업을 한 번에 수행합니다.
-> [!NOTE]
+
+>[!NOTE]
 >
 >위의 모든 대기 시간은 CLI에 의해 자동으로 확인됩니다. 단계를 너무 일찍 실행하면 단계가 차단되고 기다리는 시간을 알려줍니다.
 

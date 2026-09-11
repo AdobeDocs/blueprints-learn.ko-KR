@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge 이벤트 보내기
 description: Postman을 통해 인증되지 않은 웹 이벤트를 Edge으로 보내고, 이벤트 전달, 프로필 수집, 대상 자격 조건 및 대상 활성화를 통해 추적합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
@@ -139,17 +138,17 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 1. **보기**&#x200B;를 클릭하여 프로필 조회
 1. 프로필을 열려면 **프로필 ID**&#x200B;를 클릭하십시오.
 
-![프로필을 검색하고 프로필 ID를 클릭하여 열기](assets/send-an-edge-event-lookup-profile.png)
+   ![프로필을 검색하고 프로필 ID를 클릭하여 열기](assets/send-an-edge-event-lookup-profile.png)
 
 
 
-&#x200B;3. 위쪽 탐색에서 **이벤트**&#x200B;를 클릭하면 방금 보낸 이벤트를 볼 수 있습니다
+3. 위쪽 탐색에서 **이벤트**&#x200B;를 클릭하면 방금 보낸 이벤트를 볼 수 있습니다
 
-![프로필의 이벤트 탭에서 이벤트를 봅니다](assets/send-an-edge-event-view-the-profile-event.png)
+   ![프로필의 이벤트 탭에서 이벤트를 봅니다](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. 위쪽 탐색에서 Audience Membership 탭을 검토하여 프로필이 Audiences에 적합한지 확인합니다.  다음이 표시됩니다.
+4. 위쪽 탐색에서 Audience Membership 탭을 검토하여 프로필이 Audiences에 적합한지 확인합니다.  다음이 표시됩니다.
 
 - 모든 이벤트 Edge(최근 15분 이내)
 - 모든 이벤트 스트리밍(지난 1시간 이내)

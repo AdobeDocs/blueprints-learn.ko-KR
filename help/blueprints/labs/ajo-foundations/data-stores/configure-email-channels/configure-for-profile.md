@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 프로필에 대한 구성
 description: 여정 및 오케스트레이션된 캠페인에 대한 AEP Profile personalEmail.address 특성을 사용하여 이메일 채널을 구성하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 8%
@@ -24,9 +23,9 @@ ht-degree: 8%
 1. **채널 관리 및 일반 설정** 메뉴에 있는 **채널 →**(으)→ 이동합니다.
 2. **구성 만들기** 단추를 클릭합니다.
 
-![채널 구성 만들기](assets/configure-for-profile-create-configuration-button.png)
+   ![채널 구성 만들기](assets/configure-for-profile-create-configuration-button.png)
 
-&#x200B;3. 만들기 마법사에서 다음 값을 설정합니다.
+3. 만들기 마법사에서 다음 값을 설정합니다.
    - **이름:** `Profile-Email`
    - **채널:** `Email`
    - **마케팅 액션:** `Email Targeting`
@@ -95,45 +94,45 @@ ht-degree: 8%
 
 1. **실행 세부 정보** 섹션을 완료합니다. **여정 및 작업** 탭 -> **실행 차원**&#x200B;에서 **프로필**&#x200B;을(를) **Source**(으)로 선택하고 **실행 주소** 섹션 아래의 **배달 주소**&#x200B;에 대한 편집 아이콘을 클릭합니다
 
-![실행 세부 정보](assets/configure-for-profile-execution-details-journey-tab.png)
+   ![실행 세부 정보](assets/configure-for-profile-execution-details-journey-tab.png)
 
-&#x200B;2. 폴더를 열려면 **개인 전자 메일**&#x200B;이라는 제목의 폴더를 클릭하세요.
+2. 폴더를 열려면 **개인 전자 메일**&#x200B;이라는 제목의 폴더를 클릭하세요.
 
-![게재 주소](assets/configure-for-profile-personal-email-folder.png)
+   ![게재 주소](assets/configure-for-profile-personal-email-folder.png)
 
-&#x200B;3. `Address` 필드에서 **확인란**&#x200B;을 클릭한 다음 **선택** 단추를 클릭합니다
+3. `Address` 필드에서 **확인란**&#x200B;을 클릭한 다음 **선택** 단추를 클릭합니다
 
-![게재 주소로 개인 전자 메일](assets/configure-for-profile-select-address-checkbox-journeys.png)
+   ![게재 주소로 개인 전자 메일](assets/configure-for-profile-select-address-checkbox-journeys.png)
 
-&#x200B;4. **프로필**&#x200B;의 경우 `personalEmail.address`이(가) 이제 **실행 주소** 섹션에서 **게재 주소**(으)로 구성됩니다
+4. **프로필**&#x200B;의 경우 `personalEmail.address`이(가) 이제 **실행 주소** 섹션에서 **게재 주소**(으)로 구성됩니다
 
-![게재 주소 구성됨](assets/configure-for-profile-delivery-address-configured-journeys.png)
+   ![게재 주소 구성됨](assets/configure-for-profile-delivery-address-configured-journeys.png)
 
-&#x200B;5. 오케스트레이션된 캠페인 탭을 클릭하고 활성화 확인란을 **확인**&#x200B;합니다.
+5. 오케스트레이션된 캠페인 탭을 클릭하고 활성화 확인란을 **확인**&#x200B;합니다.
 
-![오케스트레이션된 캠페인 구성](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![오케스트레이션된 캠페인 구성](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-&#x200B;6. 실행 차원 제목 아래에서 다음을 구성합니다.
+6. 실행 차원 제목 아래에서 다음을 구성합니다.
    - **한 번에 한 개의 메시지 배달:** `Target Dimension`
    - **프로필 대상 Dimension:** `dep-rel: Customer Account - customer_id`
 
-![Dimension 타깃팅](assets/configure-for-profile-target-dimension-settings.png)
+   ![Dimension 타깃팅](assets/configure-for-profile-target-dimension-settings.png)
 
-&#x200B;7. 실행 주소에서 다음을 구성합니다.
+7. 실행 주소에서 다음을 구성합니다.
    - **Source:** `Profile`
    - **게재 주소:** `click on the Edit icon`
 
-![실행 주소](assets/configure-for-profile-execution-address-source-profile.png)
+   ![실행 주소](assets/configure-for-profile-execution-address-source-profile.png)
 
-&#x200B;8. `Personal Email` 폴더를 검색하고 클릭하여 열기
+8. `Personal Email` 폴더를 검색하고 클릭하여 열기
 
-![개인 전자 메일 프로필 특성](assets/configure-for-profile-search-personal-email-folder.png)
+   ![개인 전자 메일 프로필 특성](assets/configure-for-profile-search-personal-email-folder.png)
 
-&#x200B;9. 개인 전자 메일 폴더에서 `Address` 필드를 선택하고 **선택**&#x200B;을(를) 클릭합니다.
+9. 개인 전자 메일 폴더에서 `Address` 필드를 선택하고 **선택**&#x200B;을(를) 클릭합니다.
 
-![게재 주소로 개인 전자 메일](assets/configure-for-profile-select-address-field-orchestrated.png)
+   ![게재 주소로 개인 전자 메일](assets/configure-for-profile-select-address-field-orchestrated.png)
 
-&#x200B;10. **오케스트레이션된 캠페인**&#x200B;의 경우 **dep-rel: 고객 계정 - customer\_id**&#x200B;이(가) **프로필** 및 `personalEmail.address`의 **Dimension**&#x200B;을(를) **게재 주소**&#x200B;로 하는 **실행 주소**&#x200B;을(를) 가진 **실행 차원**&#x200B;에 대한 **프로필 대상**&#x200B;로 구성됩니다.
+10. **오케스트레이션된 캠페인**&#x200B;의 경우 **dep-rel: 고객 계정 - customer\_id**&#x200B;이(가) **프로필** 및 `personalEmail.address`의 **Dimension**&#x200B;을(를) **게재 주소**&#x200B;로 하는 **실행 주소**&#x200B;을(를) 가진 **실행 차원**&#x200B;에 대한 **프로필 대상**&#x200B;로 구성됩니다.
 
 ![실행 차원이 구성됨](assets/configure-for-profile-orchestrated-execution-dimension-configured.png)
 
@@ -147,7 +146,7 @@ ht-degree: 8%
 1. 모든 세부 사항을 다시 검토하여 일치하는지 확인하십시오.
 1. 위로 스크롤하여 **제출**&#x200B;을 클릭합니다.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >이메일 채널 구성 처리에 최대 2시간이 소요되는 것으로 관찰되었습니다.  으악!
 >

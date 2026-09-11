@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 로그인 및 찾아보기
 description: Adobe Experience Platform에 로그인하고 스키마 섹션으로 이동하여 기존 스키마, 필드 그룹 및 데이터 유형을 찾습니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -43,7 +42,7 @@ ht-degree: 0%
 
 1. 왼쪽 레일에서 **스키마** 탭을 클릭합니다
 
-![왼쪽 레일 탐색의 스키마 탭](assets/login-and-browse-schemas-tab-left-rail.png "왼쪽 레일을 사용하여 스키마로 이동")
+   ![왼쪽 레일 탐색의 스키마 탭](assets/login-and-browse-schemas-tab-left-rail.png "왼쪽 레일을 사용하여 스키마로 이동")
 
 1. 상단 탐색에는 기존 스키마를 찾아볼 수 있는 옵션과 현재 XDM 레지스트리에 있는 필드 그룹 및 데이터 유형을 볼 수 있는 옵션이 표시됩니다.
 

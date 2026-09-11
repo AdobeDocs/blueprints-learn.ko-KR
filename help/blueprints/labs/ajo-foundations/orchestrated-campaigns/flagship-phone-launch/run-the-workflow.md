@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 워크플로우 실행
 description: 테스트 모드에서 오케스트레이션된 캠페인 워크플로우를 실행하고, 대상 차원 조인 누락으로 SMS 전송에서 일부 레코드가 삭제되는 이유를 해결하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -25,33 +24,33 @@ ht-degree: 0%
 
 1. 마지막 워크플로우는 작업을 마치면 다음과 같이 표시됩니다. 모든 것이 좋아 보이는지 다시 한 번 확인해 보세요. 다음을 볼 수 있습니다.
 
-![테스트를 위한 최종 워크플로 캔버스 준비 완료](assets/run-the-workflow-final-workflow-canvas.png)
+   ![테스트를 위한 최종 워크플로 캔버스 준비 완료](assets/run-the-workflow-final-workflow-canvas.png)
 
-&#x200B;2. 워크플로우를 중지하지 않은 경우 오른쪽 상단의 **중지** 단추를 클릭하여 지금 중지하십시오.
+2. 워크플로우를 중지하지 않은 경우 오른쪽 상단의 **중지** 단추를 클릭하여 지금 중지하십시오.
 
-![워크플로의 오른쪽 위에 있는 중지 단추](assets/run-the-workflow-click-stop-button.png)
+   ![워크플로의 오른쪽 위에 있는 중지 단추](assets/run-the-workflow-click-stop-button.png)
 
->[!NOTE]
->
->선택적으로 다시 시작 단추를 클릭할 수 있지만 워크플로우가 만들어진 후 활동을 추가했고 해당 캐시가 더 이상 유효하지 않기 때문에 오류가 표시될 수 있습니다.
-
-
-
-&#x200B;3. 다음으로 **시작** 단추를 클릭하여 워크플로우를 실행하고 테스트하고 끝까지 완료합니다.
-
-![워크플로 테스트를 실행하기 위한 시작 단추](assets/run-the-workflow-click-start-button.png)
+   >[!NOTE]
+   >
+   >선택적으로 다시 시작 단추를 클릭할 수 있지만 워크플로우가 만들어진 후 활동을 추가했고 해당 캐시가 더 이상 유효하지 않기 때문에 오류가 표시될 수 있습니다.
 
 
 
-&#x200B;4. **결과**(두 개의 결과가 있으므로 아래 표시된 대로 왼쪽 결과 사용)를 클릭한 다음 왼쪽 레일에서 **결과 미리 보기** 단추를 클릭하여 SMS 활동에 들어오는 결과를 검토하십시오.
+3. 다음으로 **시작** 단추를 클릭하여 워크플로우를 실행하고 테스트하고 끝까지 완료합니다.
 
-![SMS 활동 전에 왼쪽 결과 전환 선택됨](assets/run-the-workflow-select-result-transition.png)
-
-![오른쪽 레일의 결과 미리 보기 단추](assets/run-the-workflow-click-preview-results.png)
+   ![워크플로 테스트를 실행하기 위한 시작 단추](assets/run-the-workflow-click-start-button.png)
 
 
 
-&#x200B;5. **33개의 레코드**&#x200B;이 표시되고 타겟팅 차원이 고객 ID(프로필을 작성하려는 경우 가입 키)와 일치합니다.
+4. **결과**(두 개의 결과가 있으므로 아래 표시된 대로 왼쪽 결과 사용)를 클릭한 다음 왼쪽 레일에서 **결과 미리 보기** 단추를 클릭하여 SMS 활동에 들어오는 결과를 검토하십시오.
+
+   ![SMS 활동 전에 왼쪽 결과 전환 선택됨](assets/run-the-workflow-select-result-transition.png)
+
+   ![오른쪽 레일의 결과 미리 보기 단추](assets/run-the-workflow-click-preview-results.png)
+
+
+
+5. **33개의 레코드**&#x200B;이 표시되고 타겟팅 차원이 고객 ID(프로필을 작성하려는 경우 가입 키)와 일치합니다.
 
 고객 ID와 일치하는 타겟팅 차원이 있는 ![33개 레코드](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -61,35 +60,35 @@ ht-degree: 0%
 
 1. 이전 창을 닫고 **SMS 활동**&#x200B;을 클릭한 다음 오른쪽 레일에서 **테스트 실행** 단추를 클릭합니다
 
-![SMS 활동에 테스트 단추 실행](assets/run-the-workflow-click-run-test-sms.png)
+   ![SMS 활동에 테스트 단추 실행](assets/run-the-workflow-click-run-test-sms.png)
 
 
 
-&#x200B;2. 거의 즉시 새 단추가 **보고서 보기**(으)로 표시됩니다.  보고서 화면으로 실행하려면 **보고서 보기** 단추를 클릭하세요.
+2. 거의 즉시 새 단추가 **보고서 보기**(으)로 표시됩니다.  보고서 화면으로 실행하려면 **보고서 보기** 단추를 클릭하세요.
 
-![SMS 활동 테스트에 대한 보고서 단추 보기](assets/run-the-workflow-click-view-report.png)
+   ![SMS 활동 테스트에 대한 보고서 단추 보기](assets/run-the-workflow-click-view-report.png)
 
->[!NOTE]
->
->테스트 실행을 실행하는 데 시간이 다소 걸리므로 이 화면은 처음에 채워지지 않습니다. 결과를 보려면 몇 번 새로 고쳐야 할 수도 있습니다.
-
-
-
-&#x200B;3. 결과를 얻으면 100%가 타겟팅되었음을 알 수 있습니다.
-
-![100% 타겟팅된 SMS 테스트 전송 결과](assets/run-the-workflow-100-percent-targeted.png)
-
-*잠시 기다려 주세요...들어오는 결과가 33개였으니 4개의 기록은 어디로 갔습니까?*
+   >[!NOTE]
+   >
+   >테스트 실행을 실행하는 데 시간이 다소 걸리므로 이 화면은 처음에 채워지지 않습니다. 결과를 보려면 몇 번 새로 고쳐야 할 수도 있습니다.
 
 
 
-&#x200B;4. 워크플로우 캔버스로 돌아가서 SMS 활동으로 들어오는 전환 **결과**&#x200B;을(를) 클릭한 다음 오른쪽 레일에서 **결과 미리 보기**&#x200B;를 클릭합니다.
+3. 결과를 얻으면 100%가 타겟팅되었음을 알 수 있습니다.
 
-![SMS 테스트 후 전환 결과를 다시 검토](assets/run-the-workflow-recheck-transition-results.png)
+   ![100% 타겟팅된 SMS 테스트 전송 결과](assets/run-the-workflow-100-percent-targeted.png)
+
+   *잠시 기다려 주세요...들어오는 결과가 33개였으니 4개의 기록은 어디로 갔습니까?*
 
 
 
-&#x200B;5. 미리 보기 결과 화면에서 표의 맨 아래로 스크롤하면 **4개의 레코드**&#x200B;에 **빈 타깃팅 차원**&#x200B;이 있습니다.
+4. 워크플로우 캔버스로 돌아가서 SMS 활동으로 들어오는 전환 **결과**&#x200B;을(를) 클릭한 다음 오른쪽 레일에서 **결과 미리 보기**&#x200B;를 클릭합니다.
+
+   ![SMS 테스트 후 전환 결과를 다시 검토](assets/run-the-workflow-recheck-transition-results.png)
+
+
+
+5. 미리 보기 결과 화면에서 표의 맨 아래로 스크롤하면 **4개의 레코드**&#x200B;에 **빈 타깃팅 차원**&#x200B;이 있습니다.
 
 표 하단에 빈 타깃팅 차원이 있는 ![4개의 레코드](assets/run-the-workflow-4-records-missing-dimension.png)
 

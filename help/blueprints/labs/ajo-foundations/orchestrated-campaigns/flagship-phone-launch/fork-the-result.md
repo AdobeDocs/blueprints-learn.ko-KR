@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 결과 포크
 description: 대상자를 저장하고 SMS 메시지를 보내기 위한 결과를 분기하기 위해 오케스트레이션된 캠페인에 포크 활동을 추가하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -28,29 +27,29 @@ ht-degree: 0%
 
 1. 워크플로우 캔버스에서 대상자 작성 활동 후에 **+** **아이콘**&#x200B;을 클릭하고 **활동 포크**&#x200B;를 선택합니다
 
-![대상 작성 활동 뒤에 포크 활동 추가](assets/fork-the-result-add-fork-activity.png)
+   ![대상 작성 활동 뒤에 포크 활동 추가](assets/fork-the-result-add-fork-activity.png)
 
 
 
-&#x200B;2. 전환을 클릭한 다음 아래에 설명된 대로 이름을 할당하여 포크에서 각 전환의 이름을 업데이트합니다.
+2. 전환을 클릭한 다음 아래에 설명된 대로 이름을 할당하여 포크에서 각 전환의 이름을 업데이트합니다.
    - **상위** —> `Save Audience`
    - **아래쪽** —> `SMS`
 
-![대상 및 SMS 저장으로 이름이 변경된 포크 전환](assets/fork-the-result-rename-transitions.png)
+   ![대상 및 SMS 저장으로 이름이 변경된 포크 전환](assets/fork-the-result-rename-transitions.png)
 
 
 
-캔버스를 완료하면 다음과 같이 표시됩니다.
+   캔버스를 완료하면 다음과 같이 표시됩니다.
 
-포크 활동을 추가한 후 ![워크플로 캔버스](assets/fork-the-result-final-canvas.png)
+   포크 활동을 추가한 후 ![워크플로 캔버스](assets/fork-the-result-final-canvas.png)
 
->[!NOTE]
->
->포크 활동은 기본적으로 이전 활동의 결과를 두 개의 독립적인 분기로 복제하는 것입니다
+   >[!NOTE]
+   >
+   >포크 활동은 기본적으로 이전 활동의 결과를 두 개의 독립적인 분기로 복제하는 것입니다
 
 
 
-&#x200B;3. 워크플로 캔버스 맨 위에서 **저장**&#x200B;을 클릭합니다.
+3. 워크플로 캔버스 맨 위에서 **저장**&#x200B;을 클릭합니다.
 
 ![워크플로 캔버스 도구 모음의 저장 단추](assets/fork-the-result-click-save.png)
 

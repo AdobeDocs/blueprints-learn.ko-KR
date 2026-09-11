@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 사용자 정의 필드 그룹 만들기
 description: 스키마 레지스트리 API를 사용하여 사용자 정의 고객 계정 세부 정보 필드 그룹을 만들고 이후 스키마에서 사용하기 위해 해당 $id를 저장합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -69,17 +68,17 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 다음 형식을 사용하여 필드 그룹의 `title` 및 `description`을(를) 업데이트합니다. `Customer Account Details - Sandbox <your number here>`
+2. 다음 형식을 사용하여 필드 그룹의 `title` 및 `description`을(를) 업데이트합니다. `Customer Account Details - Sandbox <your number here>`
 
 
 
-![사용자 지정 필드 그룹에 대한 예제 제목 및 설명 입력](assets/create-custom-field-groups-field-group-title-description-example.png "필드 그룹 제목 및 설명 예제")
+   ![사용자 지정 필드 그룹에 대한 예제 제목 및 설명 입력](assets/create-custom-field-groups-field-group-title-description-example.png "필드 그룹 제목 및 설명 예제")
 
 
 
-&#x200B;3. `Send` 단추를 클릭하여 실행하십시오.  아래 스크린샷과 유사한 응답이 표시됩니다.
+3. `Send` 단추를 클릭하여 실행하십시오.  아래 스크린샷과 유사한 응답이 표시됩니다.
 
-&#x200B;4. 새로 만든 고객 계정 세부 정보 필드 그룹의 `$id` 값을 복사합니다.
+4. 새로 만든 고객 계정 세부 정보 필드 그룹의 `$id` 값을 복사합니다.
 
 ![사용자 지정 필드 그룹을 만든 후 API 응답 성공](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "2단계 - 사용자 지정 필드 그룹 만들기 성공")
 

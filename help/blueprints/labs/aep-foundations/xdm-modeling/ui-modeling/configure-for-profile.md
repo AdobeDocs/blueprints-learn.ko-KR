@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 프로필에 대한 구성
 description: 기본 및 개인 ID 필드를 표시하고, 스키마 관계를 만들고, 실시간 고객 프로필에 대한 스키마를 활성화하고, 프로필 통합 스키마를 검토합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -141,6 +140,7 @@ XDM 개별 프로필 클래스를 탐색한 다음 잠시 시간을 내어 XDM E
 >[!NOTE]
 >
 >표시된 스키마는 샌드박스에 있는 모든 프로필 지원 스키마에 대한 병합된 집계 보기입니다. 계층 XDM 구조 내의 유사한 필드는 함께 병합되지만 이름 및/또는 계층이 다른 필드는 전체 보기에 추가됩니다.
-> [!NOTE]
+
+>[!NOTE]
 >
 >XDM 개별 프로필 기반 클래스만 이름이 비슷한 필드 간에 병합을 수행합니다.

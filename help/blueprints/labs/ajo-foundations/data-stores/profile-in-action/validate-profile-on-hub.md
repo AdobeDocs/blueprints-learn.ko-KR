@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 허브에서 프로필 유효성 검사
 description: Real-Time Customer Profile Hub에서 프로필을 조회하고 스트리밍된 이벤트 후 이벤트 및 세그먼트 멤버십을 확인하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -53,9 +52,9 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 
 1. **특성** 헤더를 클릭하고 **JSON** 보기
 
-![segmentMembership을 표시하는 프로필 특성 JSON 보기](assets/validate-profile-on-hub-json-view.png)
+   ![segmentMembership을 표시하는 프로필 특성 JSON 보기](assets/validate-profile-on-hub-json-view.png)
 
-&#x200B;2. **segmentMembership**&#x200B;을(를) 찾습니다.  다음과 같아야 합니다(ID가 달라짐).
+2. **segmentMembership**&#x200B;을(를) 찾습니다.  다음과 같아야 합니다(ID가 달라짐).
 
 ```json
   "segmentMembership": {
@@ -75,7 +74,7 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 >
 >**segmentMembership을 읽는 방법**
 >
->[https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** AEP에서 지원하는 다양한 종류의 대상을 위한 맵 키입니다.  ups 키에는 규칙 빌더에서 생성된 대상자가 포함되어 있습니다.  다른 대상은 다른 키(예: AAM)에 포함됩니다.
 >

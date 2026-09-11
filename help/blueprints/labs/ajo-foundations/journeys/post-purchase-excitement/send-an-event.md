@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 이벤트 보내기
 description: Postman을 사용하여 시뮬레이트된 주문 배송 이벤트를 Edge으로 보내지 않고 허브로 바로 스트리밍하여 여정을 트리거할 수 있습니다.
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -51,7 +50,7 @@ API 요청을 만들려면 API 요청 본문에 다음 부분을 채워야 합�
 1. **dep: 주문(스트림)**&#x200B;에 대한 레코드를 찾고 데이터 흐름 링크를 클릭합니다.
 1. 오른쪽 레일 복사본에서 **데이터 흐름 ID** 값을 나중에 참조할 수 있는 위치에 저장합니다.
 
-&#x200B;> [!WARNING]
+>[!WARNING]
 >
 >행에서 빈 공간을 클릭합니다.  파란색 링크를 클릭하지 마십시오!
 
@@ -80,7 +79,7 @@ API 요청을 만들려면 API 요청 본문에 다음 부분을 채워야 합�
    - **녹색** —> `Dataflow ID`
      - 값은 GUID처럼 보입니다(http로 시작하지 않음).
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >아직 실행하지 마십시오!
 

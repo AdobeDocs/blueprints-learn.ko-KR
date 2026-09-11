@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 스키마 수정 - JSON 패치
 description: JSON PATCH API 호출을 사용하여 기존 테넌트 필드 그룹에 새 필드를 추가하고 스키마에 반영된 변경 사항을 확인합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -22,7 +21,7 @@ ht-degree: 0%
 아래 링크에서 JSON PATCH에 대해 자세히 알아볼 수 있지만, 이 실습에서는 이 작동 방식에 대한 개념이 있다고 가정합니다. 😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=ko#json-patch)
+- [Experience League API 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![누락된 계획 설명을 기존 스키마에 패치하는 다이어그램](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "누락된 필드 계획 설명에 패치")
 
@@ -48,11 +47,11 @@ ht-degree: 0%
 1. `XDM Schema Lab -> Customize Schema` 폴더에 있는 `Step 1 - Get Tenant Field groups` API 호출 선택
 1. `Send` 단추를 클릭하여 요청을 실행합니다.
 
-![1단계 - 테넌트 필드 그룹 가져오기 API 요청](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "1단계 - 테넌트 필드 그룹 가져오기")
+   ![1단계 - 테넌트 필드 그룹 가져오기 API 요청](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "1단계 - 테넌트 필드 그룹 가져오기")
 
->[!NOTE]
->
->사용자 지정 필드 그룹 내에서 `plan` 개체를 만들었습니다. XDM 스키마 레지스트리에서 사용자 지정 생성 개체를 &quot;테넌트&quot;라고 하므로 `/schemaregistry/tenant/mixins/` 경로를 사용하는 API 호출입니다.
+   >[!NOTE]
+   >
+   >사용자 지정 필드 그룹 내에서 `plan` 개체를 만들었습니다. XDM 스키마 레지스트리에서 사용자 지정 생성 개체를 &quot;테넌트&quot;라고 하므로 `/schemaregistry/tenant/mixins/` 경로를 사용하는 API 호출입니다.
 
 
 
@@ -129,32 +128,32 @@ ht-degree: 0%
 
 1. `XDM Schema Lab -> Customize Schema` 폴더에서 `Step 3 - Modify Tenant Field group` API 호출 클릭
 
-![3단계 - 테넌트 필드 그룹 API 호출 수정](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "3단계 - 테넌트 필드 그룹 수정")
+   ![3단계 - 테넌트 필드 그룹 API 호출 수정](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "3단계 - 테넌트 필드 그룹 수정")
 
 
 
-&#x200B;2. 다음 정보로 요청 본문을 업데이트합니다
+2. 다음 정보로 요청 본문을 업데이트합니다
 
-- **op** ->` add`
-- **경로** -> `path from previous step +`&#x200B;` the new field name`
-- **값** ->
-  - **제목** -> `Plan Description`
-  - **유형** -> `string`
-  - **설명** -> `High-level details about the plan`
+   - **op** ->` add`
+   - **경로** -> `path from previous step +`` the new field name`
+   - **값** ->
+     - **제목** -> `Plan Description`
+     - **유형** -> `string`
+     - **설명** -> `High-level details about the plan`
 
-완료되면 API 요청은 다음과 같이 표시됩니다
+   완료되면 API 요청은 다음과 같이 표시됩니다
 
-![planDescription 필드를 추가하는 완료된 JSON PATCH 요청 본문](assets/modify-schema-json-patch-step-3-final-call-example.png "3단계 - 최종 호출 예")
+   ![planDescription 필드를 추가하는 완료된 JSON PATCH 요청 본문](assets/modify-schema-json-patch-step-3-final-call-example.png "3단계 - 최종 호출 예")
 
->[!WARNING]
->
->경로에 새 필드 이름 **planDescription,**&#x200B;을(를) 포함해야 합니다.
+   >[!WARNING]
+   >
+   >경로에 새 필드 이름 **planDescription,**&#x200B;을(를) 포함해야 합니다.
 
 
 
-&#x200B;3. `Save`의 모든 기능이 정상인 경우 통화
+3. `Save`의 모든 기능이 정상인 경우 통화
 
-&#x200B;4. `Execute` PATCH 수행을 위한 호출
+4. `Execute` PATCH 수행을 위한 호출
 
 `200 OK `응답이 표시되고 이제 다음과 같이 필드 그룹의 `planDescription` 필드가 표시됩니다.
 

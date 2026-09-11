@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 개발자 콘솔 설정
 description: DEP CLI에 대한 OAuth 서버 간 자격 증명으로 Adobe Developer Console 프로젝트를 만들어 샌드박스에 인증합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 개발자 콘솔 설정
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >자신의 속도에 맞게 실습을 진행하는 경우에만 필요합니다. 라이브 교육 과정 또는 이벤트에 있는 경우 샌드박스가 이미 배포되었습니다.
 

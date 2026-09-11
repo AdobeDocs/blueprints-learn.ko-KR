@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 배포 지침
 description: DEP CLI를 사용하여 AEP Foundations 랩 팩의 스키마, 데이터 세트, 데이터 흐름 및 샘플 프로필 데이터를 샌드박스에 배포합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 1%
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 # 배포 지침
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >자신의 속도에 맞게 실습을 진행하는 경우에만 필요합니다. 라이브 교육 과정 또는 이벤트에 있는 경우 샌드박스가 이미 배포되었습니다.
 
@@ -58,17 +57,17 @@ AEP Foundations 랩 팩은 랩 전체에서 사용할 스키마, 데이터 세�
 CLI는 환경 파일이 가리키는 샌드박스에 배포되므로 이를 올바르게 설정한 후 실행해야 합니다.
 
 1. `envFiles/sample-env.json`을(를) 복사하고 새 이름을 지정하십시오(예: `my-env.json`).
-2. 파일을 열고 [Developer Console 설치](developer-console-setup.md)의 값을 사용하여 다음 필드를 채웁니다.
+1. 파일을 열고 [Developer Console 설치](developer-console-setup.md)의 값을 사용하여 다음 필드를 채웁니다.
 
-| **필드** | **값** |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | 클라이언트 ID |
-| `CLIENT_SECRET` | 클라이언트 암호 |
-| `IMS_ORG` | 조직 ID |
-| `SCOPES` | Experience Platform API 범위(openid, session, AdobeID, read_organizations, additional_info.projectedProductContext)가 포함되어야 합니다. |
-| `SANDBOX_NAME` | 타깃팅하는 샌드박스는 비어 있고 유형이 `dev`이어야 합니다. |
+   | **필드** | **값** |
+   | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | 클라이언트 ID |
+   | `CLIENT_SECRET` | 클라이언트 암호 |
+   | `IMS_ORG` | 조직 ID |
+   | `SCOPES` | Experience Platform API 범위(openid, session, AdobeID, read_organizations, additional_info.projectedProductContext)가 포함되어야 합니다. |
+   | `SANDBOX_NAME` | 타깃팅하는 샌드박스는 비어 있고 유형이 `dev`이어야 합니다. |
 
-&#x200B;3. 파일 저장 및 닫기
+1. 파일 저장 및 닫기
 
 >[!NOTE]
 >
@@ -90,7 +89,7 @@ CLI는 환경 파일이 가리키는 샌드박스에 배포되므로 이를 올�
 
 1단계는 실행하는 데 약 2분, 2단계는 약 6분이 소요되며, 3단계는 자체 기다림 없이 빠른 유효성 검사입니다. 단계 간의 60분과 15분 간격은 AEP이 백그라운드에서 데이터 전달을 완료하는 데 사용됩니다. 이 작업은 2시간 타임라인의 대부분을 차지합니다.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >CLI는 이러한 대기 시간을 자동으로 확인합니다. 한 단계를 너무 일찍 실행하면, 몇 분이 남았는지 차단하고 알려줍니다. 시계를 직접 추적할 필요는 없습니다.
 

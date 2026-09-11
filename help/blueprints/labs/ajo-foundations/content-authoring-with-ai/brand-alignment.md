@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 브랜드 정렬
 description: AJO의 AI 기반 브랜드 정렬 점수를 사용하여 브랜드 가이드라인과 비교하여 이메일 콘텐츠를 평가하고 AI 권장 사항을 적용하여 규정 준수를 개선하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -46,11 +45,11 @@ Adobe Journey Optimizer에는 **연결 5G**&#x200B;에 대해 게시된 브랜�
 2. 오른쪽 레일에서 **브랜드 정렬** 탭을 찾거나 사이드바에서 **% 아이콘**&#x200B;을 찾습니다.
 3. 을 클릭하여 패널을 엽니다.
 
-![사이드바의 브랜드 정렬 탭과 백분율 아이콘](assets/brand-alignment-open-panel-icon.png)
+   ![사이드바의 브랜드 정렬 탭과 백분율 아이콘](assets/brand-alignment-open-panel-icon.png)
 
-&#x200B;4. 올바른 브랜드가 적용되었는지 확인합니다.
+4. 올바른 브랜드가 적용되었는지 확인합니다.
    - **연결 5G**(기본값).
-&#x200B;5. **점수 평가**&#x200B;를 클릭합니다.
+5. **점수 평가**&#x200B;를 클릭합니다.
 
 **브랜드 점수 및 피드백 해석:** 잠시 후 콘텐츠에 대한 브랜드 준수 점수가 표시됩니다. 이 점수는 색상 표시기(녹색, 노란색, 빨간색) 및 평가 시간과 함께 등급(예: 높음, Medium 또는 낮음) 또는 백분율로 표시될 수 있습니다. 점수가 높으면 컨텐츠가 브랜드 가이드라인에 맞게 강력하게 조정되는 반면, 중간 또는 낮은 점수는 보통 또는 낮은 정렬을 나타냅니다.
 
@@ -103,23 +102,23 @@ Adobe Journey Optimizer에는 **연결 5G**&#x200B;에 대해 게시된 브랜�
 1. 이메일 내에서 플래그가 지정된 텍스트 블록 또는 이미지를 클릭합니다.
 2. 아래 표시된 대로 이전 연습에서 붙여 넣은 단락을 사용합니다.
 
-![붙여넣은 설명 단락의 플래그가 지정된 텍스트 블록](assets/brand-alignment-flagged-text-block.png)
+   ![붙여넣은 설명 단락의 플래그가 지정된 텍스트 블록](assets/brand-alignment-flagged-text-block.png)
 
-&#x200B;3. AI가 제공하는 제안 수정 사항을 사용하십시오. 아래 표시된 대로 아이콘을 클릭합니다.
+3. AI가 제공하는 제안 수정 사항을 사용하십시오. 아래 표시된 대로 아이콘을 클릭합니다.
 
-제안된 수정 사항을 적용하기 위한 ![AI 제안 아이콘](assets/brand-alignment-ai-suggestion-icon.png)
+   제안된 수정 사항을 적용하기 위한 ![AI 제안 아이콘](assets/brand-alignment-ai-suggestion-icon.png)
 
-&#x200B;4. 아래와 같이 **AI 수정** 단추를 클릭합니다.
+4. 아래와 같이 **AI 수정** 단추를 클릭합니다.
 
-![플래그가 지정된 지침에 대한 AI 단추로 수정](assets/brand-alignment-fix-with-ai-button.png)
+   ![플래그가 지정된 지침에 대한 AI 단추로 수정](assets/brand-alignment-fix-with-ai-button.png)
 
-&#x200B;5. 아래 그림과 같이 제안된 변경 사항이 녹색으로 강조 표시되고 제거된 텍스트가 취소선과 함께 빨간색으로 표시됩니다. 또한 점수가 업데이트되었습니다(이 경우 80%). 변경 내용을 적용하려면 **적용** 단추를 클릭하십시오.
+5. 아래 그림과 같이 제안된 변경 사항이 녹색으로 강조 표시되고 제거된 텍스트가 취소선과 함께 빨간색으로 표시됩니다. 또한 점수가 업데이트되었습니다(이 경우 80%). 변경 내용을 적용하려면 **적용** 단추를 클릭하십시오.
 
-![빨간색으로 표시된 제거된 텍스트가 있는 녹색으로 강조 표시된 제안된 변경 사항](assets/brand-alignment-apply-suggested-changes.png)
+   ![빨간색으로 표시된 제거된 텍스트가 있는 녹색으로 강조 표시된 제안된 변경 사항](assets/brand-alignment-apply-suggested-changes.png)
 
-&#x200B;6. 변경 사항은 새 텍스트와 함께 적용됩니다.
-&#x200B;7. 강조 표시된 모든 영역을 검토하고 AI를 사용하거나 수동으로 편집하여 콘텐츠를 수정하기 위해 필요한 업데이트를 수행합니다. 계속하기 전에 필요한 모든 변경 사항이 완료되었는지 확인하십시오.
-&#x200B;8. 변경 사항을 저장합니다.
+6. 변경 사항은 새 텍스트와 함께 적용됩니다.
+7. 강조 표시된 모든 영역을 검토하고 AI를 사용하거나 수동으로 편집하여 콘텐츠를 수정하기 위해 필요한 업데이트를 수행합니다. 계속하기 전에 필요한 모든 변경 사항이 완료되었는지 확인하십시오.
+8. 변경 사항을 저장합니다.
 
 ![플래그가 지정된 콘텐츠를 수정한 후 변경 내용 저장](assets/brand-alignment-save-changes.png)
 
@@ -131,16 +130,16 @@ Adobe Journey Optimizer에는 **연결 5G**&#x200B;에 대해 게시된 브랜�
 3. **점수 다시 평가**&#x200B;를 클릭합니다.
 4. 새 점수를 이전 점수와 비교합니다.
 
-![다시 평가된 브랜드 점수를 이전 점수와 비교](assets/brand-alignment-re-evaluate-score-comparison.png)
+   ![다시 평가된 브랜드 점수를 이전 점수와 비교](assets/brand-alignment-re-evaluate-score-comparison.png)
 
-예:
+   예:
 
-- 원래 점수: **56%**
-- 업데이트된 점수: **90%**
+   - 원래 점수: **56%**
+   - 업데이트된 점수: **90%**
 
-이는 업데이트가 이메일을 브랜드 표준과 성공적으로 일치시켰음을 나타냅니다.
+   이는 업데이트가 이메일을 브랜드 표준과 성공적으로 일치시켰음을 나타냅니다.
 
-&#x200B;5. **저장**&#x200B;을 클릭하여 전자 메일을 마무리하세요.
+5. **저장**&#x200B;을 클릭하여 전자 메일을 마무리하세요.
 
 ![전자 메일을 마무리하는 저장 단추](assets/brand-alignment-save-finalize-email.png)
 

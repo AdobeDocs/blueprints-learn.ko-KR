@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 데이터 스트림 만들기
 description: Adobe Experience Platform, Offer Decisioning 및 Journey Optimizer 서비스를 사용하여 데이터스트림을 만들고 구성하여 Edge 이벤트를 처리하는 방법에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -59,15 +58,15 @@ Edge 이벤트 처리를 활성화하는 데 필요한 서비스를 사용하여
 
 1. 화면 중간에 있는 파란색 **서비스 추가** 단추를 클릭합니다
 
-![데이터 스트림 구성 화면의 서비스 추가 단추](assets/create-datastream-add-service-button.png)
+   ![데이터 스트림 구성 화면의 서비스 추가 단추](assets/create-datastream-add-service-button.png)
 
-&#x200B;2. 다음 항목을 구성합니다.
+2. 다음 항목을 구성합니다.
    - **서비스** -> `Adobe Experience Platform`
    - **이벤트 데이터 세트** -> `dep: Web`
    - **프로필 데이터 세트** -> `dep: Customer Account`
    - **확인란 선택** -> `Offer Decisioning`
    - **확인란 선택** -> `Adobe Journey Optimizer`
-&#x200B;3. 완료되면 **저장** 클릭
+3. 완료되면 **저장** 클릭
 
 이벤트 및 프로필 데이터 세트 필드가 있는 ![Adobe Experience Platform 서비스 구성 대화 상자](assets/create-datastream-configure-aep-service.png)
 

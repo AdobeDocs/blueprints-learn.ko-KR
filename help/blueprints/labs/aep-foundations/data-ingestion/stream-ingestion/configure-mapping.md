@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 매핑 구성
 description: 일괄 처리 수집 랩에서 매핑 세트를 가져오고 스트리밍 소스의 날짜 형식과 일치하도록 계산된 날짜 필드를 업데이트합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 매핑 구성
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >일괄 처리 수집 랩을 성공적으로 완료한 경우에만 이 섹션을 따르십시오.  그렇지 않으면 일괄 처리 수집 랩에 있는 [데이터 매핑](../batch-ingestion/mapping-data/overview.md) 단계를 따르십시오.
 
@@ -27,7 +26,7 @@ ht-degree: 0%
 
 1. 매핑 화면에서 **매핑 가져오기** 단추를 클릭합니다.
 
-![매핑 화면의 매핑 가져오기 단추](assets/configure-mapping-import-mapping-button.png)
+   ![매핑 화면의 매핑 가져오기 단추](assets/configure-mapping-import-mapping-button.png)
 
 
 

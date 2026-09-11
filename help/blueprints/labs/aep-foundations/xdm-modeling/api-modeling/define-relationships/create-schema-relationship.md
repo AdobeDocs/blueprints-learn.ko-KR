@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 스키마 관계 만들기
 description: 스키마 레지스트리 API를 사용하여 고객 계정 스키마를 조회 계획 스키마에 연결하는 일대일 관계 설명자를 만듭니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -17,15 +16,15 @@ ht-degree: 0%
 
 1. `XDM Schema Lab -> Create Relationship Descriptors` 폴더에서 `Step 2 - Relationship Descriptor Customer Account To Plan` API 요청 클릭
 
->[!CAUTION]
->
->아직 요청을 실행하지 마십시오.
+   >[!CAUTION]
+   >
+   >아직 요청을 실행하지 마십시오.
 
-![2단계 - 계획 API 요청에 대한 관계 설명자 고객 계정](assets/create-schema-relationship-step-2-descriptor-request.png "2단계 - 계획에 대한 관계 설명자 고객 계정")
+   ![2단계 - 계획 API 요청에 대한 관계 설명자 고객 계정](assets/create-schema-relationship-step-2-descriptor-request.png "2단계 - 계획에 대한 관계 설명자 고객 계정")
 
 
 
-&#x200B;2. API 호출 본문에서 다음 속성을 업데이트합니다.
+2. API 호출 본문에서 다음 속성을 업데이트합니다.
 
 - `xdm:sourceSchema` 속성의 값을 [스키마 만들기](../build-schema/create-schema.md) 랩 단계에서 저장한 고객 계정 스키마의 `$id`(으)로 설정합니다.
 - `xdm:sourceProperty`의 값을 고객 계정 스키마에서 `planID` 필드의 경로로 설정합니다.
@@ -58,9 +57,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. `Save` 단추를 계속 사용하기 전에 요청을 저장하십시오.
+3. `Save` 단추를 계속 사용하기 전에 요청을 저장하십시오.
 
-&#x200B;4. `Send` 단추를 클릭하여 API를 실행하십시오.
+4. `Send` 단추를 클릭하여 API를 실행하십시오.
 
 이제 아래와 같은 `201 Created` 응답이 표시됩니다.
 

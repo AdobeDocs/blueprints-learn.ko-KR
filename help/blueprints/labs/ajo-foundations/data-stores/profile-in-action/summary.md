@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 요약
 description: 시뮬레이션된 웹 이벤트가 Edge Network, 실시간 프로필 및 Adobe Experience Platform의 데이터 레이크 레이어를 통해 어떻게 흐르는지 다시 살펴봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 2f2a2c92-0359-4101-973f-3cb012debb63
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 1%
@@ -23,7 +22,7 @@ ht-degree: 1%
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**이 문서를 읽고 있으면 실습이 끝났음을 의미합니다.**
 >

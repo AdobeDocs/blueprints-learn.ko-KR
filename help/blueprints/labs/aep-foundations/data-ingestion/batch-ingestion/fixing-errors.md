@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 오류 해결
 description: 날짜 형식 오류에 대한 계산된 필드 표현식을 수정한 다음 소스, ID 및 프로필 모니터링 지표를 사용하여 성공을 확인합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -19,17 +18,17 @@ ht-degree: 0%
 
 1. **person.birthDayAndMonth** XDM 필드를 채우는 계산된 필드 옆의 화살표 아이콘을 클릭합니다
 
-![birthDayAndMonth 수정 시 계산된 필드 식 편집기](assets/fixing-errors-update-the-calculated-expression.png)
+   ![birthDayAndMonth 수정 시 계산된 필드 식 편집기](assets/fixing-errors-update-the-calculated-expression.png)
 
 1. 아래의 계산된 필드 코드를 사용하여 식을 업데이트하고 **미리 보기**&#x200B;를 클릭합니다.
 
-```none
-concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
-```
+   ```none
+   concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
+   ```
 
->[!NOTE]
->
->데이터는 2자리 월과 2자리 일로 표시되어야 합니다(즉, 4월 27일은 04-27일로 표시됨). `mm` 및 `dd` 매개 변수는 0개의 패딩을 추가합니다.
+   >[!NOTE]
+   >
+   >데이터는 2자리 월과 2자리 일로 표시되어야 합니다(즉, 4월 27일은 04-27일로 표시됨). `mm` 및 `dd` 매개 변수는 0개의 패딩을 추가합니다.
 
 1. 모든 항목이 정상인 경우 **계산된 필드를 저장**
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge 이벤트 보내기
 description: 인증되지 않은 웹 이벤트를 Postman을 통해 Edge으로 보내고, 이벤트 전달, 프로필 수집 및 Edge 대상 자격 조건을 통해 진행되는지 확인합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -110,11 +109,11 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 1. **보기**&#x200B;를 클릭하여 프로필 조회
 1. 프로필을 열려면 **프로필 ID**&#x200B;를 클릭하십시오.
 
-![일치하는 프로필을 열기 위한 보기 링크가 있는 프로필 찾아보기 검색 결과](assets/send-an-edge-event-lookup-profile.png "프로필 조회")
+   ![일치하는 프로필을 열기 위한 보기 링크가 있는 프로필 찾아보기 검색 결과](assets/send-an-edge-event-lookup-profile.png "프로필 조회")
 
 1. 위쪽 탐색에서 **이벤트**&#x200B;를 클릭하면 방금 보낸 이벤트를 볼 수 있습니다
 
-![Edge으로 방금 보낸 경험 이벤트를 표시하는 프로필 이벤트 탭](assets/send-an-edge-event-view-profile-event.png "프로필 이벤트 보기")
+   ![Edge으로 방금 보낸 경험 이벤트를 표시하는 프로필 이벤트 탭](assets/send-an-edge-event-view-profile-event.png "프로필 이벤트 보기")
 
 1. 위쪽 탐색에서 Audience Membership 탭을 검토하여 프로필이 Audiences에 적합한지 확인합니다. 다음이 표시됩니다.
 

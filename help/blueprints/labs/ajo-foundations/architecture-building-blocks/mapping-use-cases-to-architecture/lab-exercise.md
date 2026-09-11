@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 실습
 description: 3개의 연결 5G 사용 사례를 올바른 AJO 아키텍처 구성 요소 및 오케스트레이션 엔진에 매핑하는 인쇄 가능한 통합 문서를 통해 작업합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -20,7 +19,7 @@ ht-degree: 0%
 - 아키텍처 통합 문서에 사용 사례 매핑 — [아래에 통합 문서 인쇄]
 - 펜, 연필 또는 형광펜
 
-파일 다운로드 — [Architecture Exercise.pdf에 기능 매핑](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
+파일 다운로드 — [Architecture Exercise.pdf에 기능 매핑](assets/lab-exercise-mapping-capabilities-to-architecture.pdf)
 
 **3개의 연결 5G 사용 사례에 대해 다음과 같은 작업을 수행할 수 있습니다.**
 

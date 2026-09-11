@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 주문 이벤트 스트리밍
 description: 샘플 주문 이벤트를 보내고 기존 고객 프로필에 연결하는 HTTP API 스트리밍 데이터 흐름 구축을 연습합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 558c21d1-f9b7-489b-9153-5f10d0b8448a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -30,6 +29,6 @@ ht-degree: 0%
 1. Postman에서 데이터를 성공적으로 스트리밍하고 이전에 만든 고객 계정 레코드에 연결하는 데 필요한 정보로 **주문 이벤트 만들기**&#x200B;를 채웁니다
 1. 주문이 프로필에 연결되어 있는지 확인합니다.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >행운을 빌어 Adobe Experience Platform 신들이 너와 함께 하길!

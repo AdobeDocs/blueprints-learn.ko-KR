@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 오류 모니터링 및 디버깅
 description: 스트리밍 통합 모니터링 대시보드를 사용하여 스트리밍 데이터 흐름의 INGEST, DCVS 및 MAPPER 오류를 식별하고 해석합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 1. **모니터링->종단 간 스트리밍**(으)로 이동하여 **데이터 흐름**&#x200B;을 찾습니다.
 
-![모니터링 섹션에서 스트리밍 데이터 흐름 찾기](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "모니터링에서 데이터 흐름 찾기")
+   ![모니터링 섹션에서 스트리밍 데이터 흐름 찾기](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "모니터링에서 데이터 흐름 찾기")
 
 
 
@@ -43,29 +42,29 @@ ht-degree: 0%
 
 1. 지침을 따르지 않아 데이터 흐름에 오류가 발생한 경우 다음과 같이 표시됩니다.
 
-![매핑 오류가 있는 스트리밍 데이터 흐름에 대해 보고된 오류](assets/monitoring-and-debugging-errors-failures-reported.png "보고된 오류")
+   ![매핑 오류가 있는 스트리밍 데이터 흐름에 대해 보고된 오류](assets/monitoring-and-debugging-errors-failures-reported.png "보고된 오류")
 
 
 
 1. 실패 를 클릭하면 다음 화면이 표시됩니다.
 
-![INGEST, DCVS 및 MAPPER 오류 정보를 표시하는 오류 진단 화면](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png "오류 진단 미리 보기")
+   ![INGEST, DCVS 및 MAPPER 오류 정보를 표시하는 오류 진단 화면](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png "오류 진단 미리 보기")
 
->[!NOTE]
->
->마이크로 배치가 성공하면 데이터 레이크에 레코드를 쓰는 데 시간이 필요하므로 15분 이상 걸릴 수 있습니다.
+   >[!NOTE]
+   >
+   >마이크로 배치가 성공하면 데이터 레이크에 레코드를 쓰는 데 시간이 필요하므로 15분 이상 걸릴 수 있습니다.
 
 
 
 1. 오류 메시지를 분석하고 **소스/대상 필드**&#x200B;을(를) 식별한 다음 코드를 찾습니다.
 
-- **XXXX 수집** - 데이터 손상 또는 서식 문제(예: 정규 표현식 형식을 따르지 않음)로 인해 심각한 오류가 발생합니다.
-- **DCVS XXXX** - 이 오류는 `required` 필드에 표시됩니다. 값이 없거나 잘못 매핑된 경우(열거형 목록 내에 없는 경우) 이러한 행은 건너뜁니다.
-- **MAPPER XXXX** - 경고이며 건너뛴 행이 없습니다. 그러나 값이 &quot;무효화&quot;되었을 수 있으므로 다운스트림 활동에 영향을 주지 않는지 확인해야 합니다.
+   - **XXXX 수집** - 데이터 손상 또는 서식 문제(예: 정규 표현식 형식을 따르지 않음)로 인해 심각한 오류가 발생합니다.
+   - **DCVS XXXX** - 이 오류는 `required` 필드에 표시됩니다. 값이 없거나 잘못 매핑된 경우(열거형 목록 내에 없는 경우) 이러한 행은 건너뜁니다.
+   - **MAPPER XXXX** - 경고이며 건너뛴 행이 없습니다. 그러나 값이 &quot;무효화&quot;되었을 수 있으므로 다운스트림 활동에 영향을 주지 않는지 확인해야 합니다.
 
 1. 오류를 복구하려면 **소스->데이터 흐름->데이터 흐름 이름->데이터 흐름 업데이트**(으)로 이동하여 매핑을 수정해야 합니다.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >먼저 JSON 샘플 파일을 삭제하고 다시 추가하여 다시 업로드해야 매퍼가 유효성 검사를 위해 새 복사본으로 새로 고쳐집니다.
 

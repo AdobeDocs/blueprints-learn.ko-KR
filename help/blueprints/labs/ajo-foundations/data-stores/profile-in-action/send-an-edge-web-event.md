@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge 웹 이벤트 보내기
 description: 데이터스트림 ID를 사용하여 Postman API 호출을 통해 시뮬레이션된 웹 이벤트를 Adobe Edge Network로 전송하는 방법에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -73,18 +72,18 @@ API 요청을 실행하려면 먼저 데이터 스트림 ID를 Postman 변수 �
 
 1. 오른쪽 상단의 **요청의 변수**&#x200B;를 클릭합니다.
 
-Postman 도구 모음의 ![요청에 있는 변수 옵션](assets/send-an-edge-web-event-click-variables-in-request.png)
+   Postman 도구 모음의 ![요청에 있는 변수 옵션](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. 페이지의 첫 번째 단계에서 **DATASTREAM_CONFIG** **Value**&#x200B;을(를) **데이터스트림 ID**(으)로 업데이트합니다.
+2. 페이지의 첫 번째 단계에서 **DATASTREAM_CONFIG** **Value**&#x200B;을(를) **데이터스트림 ID**(으)로 업데이트합니다.
 
-![DATASTREAM_CONFIG 변수가 데이터 스트림 ID로 업데이트됨](assets/send-an-edge-web-event-update-datastream-config-variable.png)
+   ![DATASTREAM_CONFIG 변수가 데이터 스트림 ID로 업데이트됨](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-&#x200B;3. 업데이트 **저장**(ctrl+s 또는 command+s)
-&#x200B;4. 환경 사이드바의 오른쪽 위 모서리에 있는 &#39;**X**&#39;을 클릭하여 사이드바를 닫습니다
+3. 업데이트 **저장**(ctrl+s 또는 command+s)
+4. 환경 사이드바의 오른쪽 위 모서리에 있는 &#39;**X**&#39;을 클릭하여 사이드바를 닫습니다
 
-![저장한 후 Postman 환경 사이드바 닫기](assets/send-an-edge-web-event-close-environment-sidebar.png)
+   ![저장한 후 Postman 환경 사이드바 닫기](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. 이제 모든 변수가 파란색이고 환경에 값이 있으므로 **웹 이벤트 만들기** 요청을 보낼 준비가 되었습니다.
+5. 이제 모든 변수가 파란색이고 환경에 값이 있으므로 **웹 이벤트 만들기** 요청을 보낼 준비가 되었습니다.
 
 ![모든 변수가 채워진 웹 이벤트 요청 만들기](assets/send-an-edge-web-event-request-ready-to-send.png)
 

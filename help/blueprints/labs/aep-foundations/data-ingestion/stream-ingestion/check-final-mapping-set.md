@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 최종 매핑 세트 확인
 description: 스트리밍 수집 매핑을 예상 최종 통과 및 계산된 필드 매핑 세트와 비교합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 ## 통과 매핑
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오.
 
@@ -62,7 +61,7 @@ ht-degree: 0%
 | concat(date\_part(&quot;mm&quot;, date(birth\_Date, &quot;yyyy-M-d&quot;)).toString(), &quot;-&quot;, date\_part(&quot;dd&quot;, date(birth\_Date, &quot;yyyy-M-d&quot;)).toString() | person.birthdayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;yyyy-M-d&quot;)) | person.birthYear |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오
 

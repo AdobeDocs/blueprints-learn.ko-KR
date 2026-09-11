@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 데이터 스트림 만들기
 description: 이벤트 전달 및 Adobe Experience Platform 서비스를 사용하여 데이터 스트림을 만들고 구성하여 들어오는 에지 이벤트를 라우팅합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
@@ -58,13 +57,13 @@ ht-degree: 1%
 
 1. **서비스 추가** 클릭
 
-![서비스 추가 단추가 강조 표시된 데이터스트림 세부 정보 페이지](assets/create-datastream-add-service-button.png "서비스 추가")
+   ![서비스 추가 단추가 강조 표시된 데이터스트림 세부 정보 페이지](assets/create-datastream-add-service-button.png "서비스 추가")
 
 1. 다음 항목을 구성합니다.
 
-- 서비스 -> 이벤트 전달
-- 속성 -> 이전 단계에서 생성한 속성을 선택합니다.  이름은 다음과 같이 지정해야 합니다. 이벤트 전달 속성 SB + \&lt;샌드박스 번호>
-- 환경 -> 개발
+   - 서비스 -> 이벤트 전달
+   - 속성 -> 이전 단계에서 생성한 속성을 선택합니다.  이름은 다음과 같이 지정해야 합니다. 이벤트 전달 속성 SB + \&lt;샌드박스 번호>
+   - 환경 -> 개발
 
 1. 완료되면 **저장** 클릭
 
@@ -80,17 +79,17 @@ ht-degree: 1%
 
 1. **서비스 추가** 클릭
 
-![Adobe Experience Platform 서비스를 추가하기 위해 [서비스 추가] 단추가 강조 표시된 데이터스트림 세부 정보 페이지](assets/create-datastream-add-second-service-button.png "새 서비스 추가")
+   ![Adobe Experience Platform 서비스를 추가하기 위해 [서비스 추가] 단추가 강조 표시된 데이터스트림 세부 정보 페이지](assets/create-datastream-add-second-service-button.png "새 서비스 추가")
 
 1. 다음 항목을 구성합니다.
 
-- 서비스 -> Adobe Experience Platform
-- 이벤트 데이터 세트 -> dep: 웹
-- 프로필 데이터 세트 -> dep: 고객 계정
-- 확인란 -> Edge 세그멘테이션 선택
-- 확인란 -> Personalization 대상 선택
+   - 서비스 -> Adobe Experience Platform
+   - 이벤트 데이터 세트 -> dep: 웹
+   - 프로필 데이터 세트 -> dep: 고객 계정
+   - 확인란 -> Edge 세그멘테이션 선택
+   - 확인란 -> Personalization 대상 선택
 
-![이벤트 데이터 세트, 프로필 데이터 세트 및 세분화 확인란이 설정된 Adobe Experience Platform 서비스 구성](assets/create-datastream-aep-service-config.png "서비스 구성")
+   ![이벤트 데이터 세트, 프로필 데이터 세트 및 세분화 확인란이 설정된 Adobe Experience Platform 서비스 구성](assets/create-datastream-aep-service-config.png "서비스 구성")
 
 1. 완료되면 **저장**&#x200B;을 클릭하세요.
 

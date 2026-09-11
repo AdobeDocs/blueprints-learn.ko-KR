@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 데이터 흐름 예약
 description: 채우기 활성화가 설정된 반복 15분 데이터 흐름 일정을 구성하고 UTC 시작 시간이 실행에 미치는 영향을 이해합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -47,7 +46,7 @@ ht-degree: 0%
 
 ![실행 안 함 상태의 새 데이터 흐름을 보여 주는 데이터 흐름 화면](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "데이터 흐름 소스 화면")
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >백엔드가 업데이트를 UI에 푸시하지 않으므로 상태 업데이트를 보려면 페이지를 계속 새로 고쳐야 합니다.
 

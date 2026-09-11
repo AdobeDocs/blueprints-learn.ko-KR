@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 요약
 description: 오퍼 스키마, 자격 조건, 순위, 선택 전략 및 CBE 테스트를 다루는 완료된 Adobe Journey Optimizer Decisioning 랩을 요약합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -25,7 +24,7 @@ ht-degree: 1%
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**이 문서를 읽고 있으면 실습이 끝났음을 의미합니다.**
 >

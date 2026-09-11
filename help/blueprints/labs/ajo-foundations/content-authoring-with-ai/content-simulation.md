@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 콘텐츠 시뮬레이션
 description: 샘플 프로필 데이터와 함께 Adobe Journey Optimizer의 시뮬레이션 도구를 사용하여 개인화된 필드, 콘텐츠 변형 및 대체 동작을 확인하는 방법에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -27,7 +26,7 @@ ht-degree: 0%
 
 ## 소개
 
-이 최종 모듈에서는 Adobe Journey Optimizer의 시뮬레이션 도구를 사용하여 **2개의 조건부 변형**&#x200B;으로 이메일을 테스트합니다.
+이 최종 모듈에서는 Adobe Journey Optimizer의 시뮬레이션 도구를 사용하여 **2개의 조건부 변형**으로 이메일을 테스트합니다.
 이렇게 하면 다양한 고객이 개인화된 메시지를 어떻게 경험할지 미리 볼 수 있으므로 캠페인을 시작하기 전에 정확성을 확보할 수 있습니다.
 
 툴킷에서 샘플 테스트 프로필 파일 **sample.csv**&#x200B;을 사용합니다.
@@ -51,9 +50,9 @@ ht-degree: 0%
    - **Jason** → 40세 미만
 2. **입력 데이터 업로드**&#x200B;를 클릭합니다.
 
-![시뮬레이션 패널의 입력 데이터 업로드 단추](assets/content-simulation-click-upload-input-data.png)
+   ![시뮬레이션 패널의 입력 데이터 업로드 단추](assets/content-simulation-click-upload-input-data.png)
 
-&#x200B;3. **sample.csv**&#x200B;을 선택하고 **계속**&#x200B;을 클릭합니다.
+3. **sample.csv**&#x200B;을 선택하고 **계속**&#x200B;을 클릭합니다.
 
 ![sample.csv 선택 및 계속 클릭](assets/content-simulation-choose-sample-csv-continue.png)
 

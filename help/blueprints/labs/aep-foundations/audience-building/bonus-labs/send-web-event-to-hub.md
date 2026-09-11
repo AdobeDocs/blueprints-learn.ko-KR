@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 허브로 웹 이벤트 보내기
 description: Postman을 사용하여 웹 이벤트를 허브에 직접 보내고, 이 이벤트가 프로필에 도달하고 스트리밍 세그먼트에 적합한지 확인하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -40,7 +39,7 @@ ht-degree: 0%
 1. 왼쪽 레일에서 **소스**(으)로 이동한 다음 위쪽 탐색에서 **계정**&#x200B;을 클릭합니다
 1. **dep: HTTP API \[raw]**&#x200B;를 검색하고, 행을 강조 표시하고 나중에 참조할 수 있는 위치에 **스트리밍 끝점**&#x200B;의 값을 복사하고 저장합니다.
 
- 계정 및 해당 스트리밍 끝점 복사&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ 계정 및 해당 스트리밍 끝점 복사](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## 웹 데이터 흐름 ID 찾기
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 완료 시 최종 API 요청은 다음과 같아야 합니다
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >아직 실행하지 마십시오!
 

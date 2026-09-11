@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 대상자 저장
 description: 오케스트레이션된 캠페인 워크플로우에서 차원을 변경하고, 중복을 제거하고, 대상자를 대상자 포털에 저장하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -25,25 +24,25 @@ ht-degree: 0%
 
 1. 워크플로우 캔버스에서 **대상자 저장** 분기의 **+** **아이콘**&#x200B;을 클릭하고 활동 목록에서 **차원 변경** 활동을 선택합니다
 
-![대상자 저장 분기에 차원 변경 활동을 추가](assets/save-the-audience-add-change-dimension.png)
+   ![대상자 저장 분기에 차원 변경 활동을 추가](assets/save-the-audience-add-change-dimension.png)
 
 
 
-&#x200B;2. 아래에 설명된 대로 변경 차원의 속성을 업데이트합니다.
+2. 아래에 설명된 대로 변경 차원의 속성을 업데이트합니다.
    - **레이블:** `Convert Line to Account`
    - **새 대상 차원:** `dep-rel: Customer Account`
 
-![차원 레이블 및 새 대상 차원 필드 변경](assets/save-the-audience-change-dimension-label.png)
+   ![차원 레이블 및 새 대상 차원 필드 변경](assets/save-the-audience-change-dimension-label.png)
 
-![고객 계정이 새 대상 차원으로 선택됨](assets/save-the-audience-select-customer-account.png)
+   ![고객 계정이 새 대상 차원으로 선택됨](assets/save-the-audience-select-customer-account.png)
 
->[!NOTE]
->
->**이 작업을 수행하는 이유는 무엇입니까?**  Real-Time Customer Profile(대상자를 저장하는 위치)에 참여하려면 dep-rel: 고객 계정 스키마에서만 참여하는 구성한 프로필 타겟 매핑을 사용해야 합니다.
+   >[!NOTE]
+   >
+   >**이 작업을 수행하는 이유는 무엇입니까?**  Real-Time Customer Profile(대상자를 저장하는 위치)에 참여하려면 dep-rel: 고객 계정 스키마에서만 참여하는 구성한 프로필 타겟 매핑을 사용해야 합니다.
 
 
 
-&#x200B;3. 완료되면 캔버스 모양이 다음과 같습니다.  작업 내용을 저장합니다!
+3. 완료되면 캔버스 모양이 다음과 같습니다.  작업 내용을 저장합니다!
 
 변경 차원 활동을 추가한 후 ![워크플로 캔버스](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -53,37 +52,37 @@ ht-degree: 0%
 
 1. 차원 변경 활동 뒤에 **+** **아이콘**&#x200B;을 클릭하고 활동 목록에서 **중복 제거** 활동을 선택합니다
 
-![차원 변경 후 중복 제거 활동 추가](assets/save-the-audience-add-deduplication-activity.png)
+   ![차원 변경 후 중복 제거 활동 추가](assets/save-the-audience-add-deduplication-activity.png)
 
 
 
-&#x200B;2. 중복 제거 활동의 레이블을 `Dedup customer id`(으)로 업데이트
+2. 중복 제거 활동의 레이블을 `Dedup customer id`(으)로 업데이트
 
-![중복 제거 활동 레이블이 중복 제거 고객 ID로 설정됨](assets/save-the-audience-deduplication-label.png)
-
-
-
-&#x200B;3. 이제 **+ 특성 추가** 단추를 클릭하고 **고객 ID**&#x200B;라는 스키마에서 필드를 선택합니다.
-
-![중복 제거 활동에 대한 특성 추가 단추](assets/save-the-audience-add-attribute-button.png)
-
-![스키마에서 선택한 고객 ID 필드](assets/save-the-audience-select-customer-id-field.png)
+   ![중복 제거 활동 레이블이 중복 제거 고객 ID로 설정됨](assets/save-the-audience-deduplication-label.png)
 
 
 
-&#x200B;4. 중복 제거 설정에서 다음 세트가 있는지 확인합니다.
+3. 이제 **+ 특성 추가** 단추를 클릭하고 **고객 ID**&#x200B;라는 스키마에서 필드를 선택합니다.
+
+   ![중복 제거 활동에 대한 특성 추가 단추](assets/save-the-audience-add-attribute-button.png)
+
+   ![스키마에서 선택한 고객 ID 필드](assets/save-the-audience-select-customer-id-field.png)
+
+
+
+4. 중복 제거 설정에서 다음 세트가 있는지 확인합니다.
    - **유지할 중복 항목:** `1`
    - **중복 제거 방법:** `Random selection`
 
-![보관 및 메서드를 중복하는 중복 제거 설정](assets/save-the-audience-deduplication-settings.png)
+   ![보관 및 메서드를 중복하는 중복 제거 설정](assets/save-the-audience-deduplication-settings.png)
 
->[!NOTE]
->
->중복 제거에 대한 다른 옵션을 사용하면 사용자 지정 논리를 지정할 수 있습니다.  대부분의 경우 중복 제거를 수행해야 하는 경우 테이블의 기본 키를 사용하여 수행합니다.
+   >[!NOTE]
+   >
+   >중복 제거에 대한 다른 옵션을 사용하면 사용자 지정 논리를 지정할 수 있습니다.  대부분의 경우 중복 제거를 수행해야 하는 경우 테이블의 기본 키를 사용하여 수행합니다.
 
 
 
-&#x200B;5. 완료되면 캔버스는 다음과 같이 표시됩니다. 이동하기 전에 오른쪽 상단의 **저장** 단추를 클릭하십시오.
+5. 완료되면 캔버스는 다음과 같이 표시됩니다. 이동하기 전에 오른쪽 상단의 **저장** 단추를 클릭하십시오.
 
 ![중복 제거 활동이 캔버스에 완전히 구성되었습니다](assets/save-the-audience-deduplication-configured.png)
 
@@ -93,9 +92,9 @@ ht-degree: 0%
 
 1. 중복 제거 활동 뒤에 있는 **+** 아이콘을 클릭하고 **대상자 저장** 활동을 선택합니다.
 
-![중복 제거 후 대상 저장 활동 추가](assets/save-the-audience-add-save-audience-activity.png)
+   ![중복 제거 후 대상 저장 활동 추가](assets/save-the-audience-add-save-audience-activity.png)
 
-&#x200B;2. 오른쪽 레일에서 활동의 속성을 다음으로 설정합니다.
+2. 오른쪽 레일에서 활동의 속성을 다음으로 설정합니다.
    - **대상 레이블**: `Apple Upgrade Eligible Customer Accounts`
    - **프로필 매핑 필드**: `dep-rel: Customer Account - customer id`
 
@@ -126,15 +125,15 @@ ht-degree: 0%
 
 1. 기본 대상 필드의 이름을 **Customer\_ID**(으)로 바꾸십시오.
 
-![Customer_ID로 이름이 변경된 Target 대상 필드](assets/save-the-audience-field-renamed.png)
+   ![Customer_ID로 이름이 변경된 Target 대상 필드](assets/save-the-audience-field-renamed.png)
 
->[!TIP]
->
->이제 사람이 읽을 수 있는 필드 이름 🎉이(가) 있습니다.
+   >[!TIP]
+   >
+   >이제 사람이 읽을 수 있는 필드 이름 🎉이(가) 있습니다.
 
 
 
-&#x200B;2. 워크플로우를 실행하려면 **시작** 단추를 클릭하세요. 이제 워크플로우는 다음과 같으며 카운트는 다음과 같습니다.
+2. 워크플로우를 실행하려면 **시작** 단추를 클릭하세요. 이제 워크플로우는 다음과 같으며 카운트는 다음과 같습니다.
    - 대상 작성: `65`
    - 줄을 계정으로 변환: `65`
    - 중복 제거 고객 ID: `46`

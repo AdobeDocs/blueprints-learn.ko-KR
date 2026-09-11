@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 스키마 만들기
 description: 스키마 레지스트리 API를 사용하여 프로필 클래스 및 표준 및 사용자 정의 필드 그룹 참조에서 고객 스키마를 조합합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -23,30 +22,30 @@ ht-degree: 0%
 
 1. `XDM Schema Lab -> Create Schema` 폴더에서 `Step 4 - Create Customer Account Schema` API 호출을 클릭합니다.
 
-![4단계 - Postman 컬렉션에서 고객 계정 스키마 API 호출 만들기](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
+   ![4단계 - Postman 컬렉션에서 고객 계정 스키마 API 호출 만들기](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
 
 
 
-&#x200B;2. 호출 본문을 열고 스키마 정의 방법 구조를 봅니다. 스키마는 항상 하나의 (1) 클래스와 하나 이상의 필드 그룹으로만 구성된다는 점을 기억하십시오.
+2. 호출 본문을 열고 스키마 정의 방법 구조를 봅니다. 스키마는 항상 하나의 (1) 클래스와 하나 이상의 필드 그룹으로만 구성된다는 점을 기억하십시오.
 
-&#x200B;3. 스키마 본문의 `title` 및 `description` 필드를 다음과 같이 채웁니다.
+3. 스키마 본문의 `title` 및 `description` 필드를 다음과 같이 채웁니다.
 
-- 제목 -> `Sample Customer Schema - <your sandbox number>`
-- 설명 -> `Sample Customer Schema - <your sandbox number>`
+   - 제목 -> `Sample Customer Schema - <your sandbox number>`
+   - 설명 -> `Sample Customer Schema - <your sandbox number>`
 
-&#x200B;4. `$ref` 필드를 완료한 이전 실습 섹션에서 저장한 `$ids`(으)로 채웁니다. [사용자 정의 필드 그룹 만들기](./create-custom-field-groups.md) 및 [프로필 클래스 가져오기](./get-profile-class.md). 다음 각 항목에 대해 $id가 있어야 합니다.
+4. `$ref` 필드를 완료한 이전 실습 섹션에서 저장한 `$ids`(으)로 채웁니다. [사용자 정의 필드 그룹 만들기](./create-custom-field-groups.md) 및 [프로필 클래스 가져오기](./get-profile-class.md). 다음 각 항목에 대해 $id가 있어야 합니다.
 
-- 클래스 -> XDM 개별 프로필
-- 필드 그룹 -> 인구 통계 세부 정보
-- 필드 그룹 -> 개인 연락처 세부 정보
-- 필드 그룹 -> 동의 및 환경 설정 세부 정보
-- 필드 그룹(사용자 정의) -> 고객 계정 세부 정보
+   - 클래스 -> XDM 개별 프로필
+   - 필드 그룹 -> 인구 통계 세부 정보
+   - 필드 그룹 -> 개인 연락처 세부 정보
+   - 필드 그룹 -> 동의 및 환경 설정 세부 정보
+   - 필드 그룹(사용자 정의) -> 고객 계정 세부 정보
 
-![클래스 및 필드 그룹 참조를 추가하기 전에 스키마 요청 본문 비우기](assets/create-schema-empty-schema-api-body.png "스키마 API 본문 비우기")
+   ![클래스 및 필드 그룹 참조를 추가하기 전에 스키마 요청 본문 비우기](assets/create-schema-empty-schema-api-body.png "스키마 API 본문 비우기")
 
 
 
-&#x200B;5. 최종 본문을 검토하고 이와 유사한지 확인합니다.
+5. 최종 본문을 검토하고 이와 유사한지 확인합니다.
 
 ![제목, 설명 및 모든 $ref 값이 채워진 완료된 스키마 요청 본문](assets/create-schema-example-of-final-body-payload.png "최종 본문 페이로드의 예")
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 계산된 필드
 description: 계산된 필드 표현식을 만들어 누락된 SMS 동의 값을 채우고 생년월일을 일, 월 및 년 필드로 분할합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -27,17 +26,17 @@ sms\_optIn 필드는 고객 계정 스키마의 필수 필드입니다. 스트�
 
 1. **새 필드 형식** 아이콘을 클릭하여 계산된 필드를 만든 다음 **계산된 필드 추가**&#x200B;를 선택합니다. 누락된 모든 값에 대해 동의는 제공되지 않은 것으로 간주되며 **&quot;n&quot;**(으)로 표시됩니다. 계산된 필드를 통한 변환이 이 새 매핑에 대한 입력이므로 계산된 필드는 왼쪽 열에 나타납니다.
 
-![계산된 필드 추가 옵션이 선택된 새 필드 유형 아이콘 메뉴](assets/calculated-fields-add-a-calculated-field.png "계산된 필드 추가")
+   ![계산된 필드 추가 옵션이 선택된 새 필드 유형 아이콘 메뉴](assets/calculated-fields-add-a-calculated-field.png "계산된 필드 추가")
 
 
 
 1. 계산된 필드 만들기 대화 상자에서 다음 식을 추가한 다음 **미리 보기**&#x200B;를 클릭합니다
 
-```none
-iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
-```
+   ```none
+   iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
+   ```
 
-![sms_optIn 표현식 및 미리 보기 결과를 사용하여 계산된 필드 만들기 대화 상자](assets/calculated-fields-sms-optin-calculated-field.png "sms_optIn 계산된 필드")
+   ![sms_optIn 표현식 및 미리 보기 결과를 사용하여 계산된 필드 만들기 대화 상자](assets/calculated-fields-sms-optin-calculated-field.png "sms_optIn 계산된 필드")
 
 
 
@@ -55,13 +54,13 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 1. 이제 오른쪽 창에 대상 스키마 패널이 열려 있습니다. 검색 상자에 **sms** 입력
 1. **val** 필드 선택
 
-![계산된 필드 매핑에 대해 sms.val 필드가 선택된 대상 스키마 패널](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+   ![계산된 필드 매핑에 대해 sms.val 필드가 선택된 대상 스키마 패널](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
-최종 매핑은 다음과 같아야 합니다.
+   최종 매핑은 다음과 같아야 합니다.
 
-![sms_optin 계산 필드가 대상 스키마에 매핑된 최종 매핑 화면](assets/calculated-fields-final-mapping-screen.png)
+   ![sms_optin 계산 필드가 대상 스키마에 매핑된 최종 매핑 화면](assets/calculated-fields-final-mapping-screen.png)
 
 
 
@@ -84,21 +83,21 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 1. 새 계산된 필드를 추가하여 프로필 생년월일을 캡처합니다.
 1. 계산된 필드에 다음 코드를 사용합니다.
 
->[!NOTE]
->
->위의 코드만 복사하는 대신, 코드 조각을 별도로 실행하여 여러 행이 허용되지 않으므로 한 줄에 더 복잡한 계산된 필드를 만들도록 구성된 방법을 확인하여 발생한 상황을 이해하십시오. 다음을 시도해 보십시오.
->
->1. `date(birth_Date,"M/d/yyyy")`
->2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
->3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
->4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
->   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
+   >[!NOTE]
+   >
+   >위의 코드만 복사하는 대신, 코드 조각을 별도로 실행하여 여러 행이 허용되지 않으므로 한 줄에 더 복잡한 계산된 필드를 만들도록 구성된 방법을 확인하여 발생한 상황을 이해하십시오. 다음을 시도해 보십시오.
+   >
+   >1. `date(birth_Date,"M/d/yyyy")`
+   >2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
+   >3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
+   >4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
+   >   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
 
 
 
 1. 미리보기 를 클릭하면 다음 결과가 표시됩니다. 모든 항목이 정상인 경우 **저장**&#x200B;을 클릭하세요.
 
-![생년월일 계산 필드 식의 결과 미리 보기](assets/calculated-fields-birth-day-month-preview.png)
+   ![생년월일 계산 필드 식의 결과 미리 보기](assets/calculated-fields-birth-day-month-preview.png)
 
 
 
@@ -112,9 +111,9 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 
 1. 아래 코드를 사용하여 프로필의 출생 연도를 캡처할 새 계산된 필드를 만듭니다
 
-```none
-date_part("yyyy",date(birth_Date,"M/d/yyyy"))
-```
+   ```none
+   date_part("yyyy",date(birth_Date,"M/d/yyyy"))
+   ```
 
 1. 계산된 필드를 **person.birthYear**&#x200B;의 대상 위치에 매핑합니다
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 여정 작성
 description: 배송된 주문 이벤트에 응답하고, ETA 배송에 대한 사용자 지정 작업을 호출하고, 개인화된 이메일을 보내는 단일 여정을 빌드합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
@@ -88,21 +87,21 @@ ht-degree: 0%
 
 1. 왼쪽 창에서 **작업 메뉴**&#x200B;를 확장한 다음 캔버스로 드래그하여 orderShipped 이벤트 다음에 만든 **GetShippingDetails** 작업을 취소하면 됩니다.
 
-![orderShipped 이벤트 뒤에 GetShippingDetails 사용자 지정 작업을 캔버스로 드래그하십시오](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
+   ![orderShipped 이벤트 뒤에 GetShippingDetails 사용자 지정 작업을 캔버스로 드래그하십시오](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
-&#x200B;2. 오른쪽 레일의 액세스 및 개인정보 보호 구성 —> 마케팅 작업 드롭다운에서 값이 **없음**&#x200B;으로 설정되어 있는지 확인합니다.
+2. 오른쪽 레일의 액세스 및 개인정보 보호 구성 —> 마케팅 작업 드롭다운에서 값이 **없음**&#x200B;으로 설정되어 있는지 확인합니다.
 
-![액세스 및 개인 정보 구성에서 마케팅 액션 드롭다운이 없음으로 설정됨](assets/build-journey-set-marketing-action-to-none.png)
+   ![액세스 및 개인 정보 구성에서 마케팅 액션 드롭다운이 없음으로 설정됨](assets/build-journey-set-marketing-action-to-none.png)
 
-&#x200B;3. 끝점 구성 —> 쿼리 매개 변수 메뉴에서 orderid 옆에 있는 **연필 아이콘**&#x200B;을 클릭합니다
+3. 끝점 구성 —> 쿼리 매개 변수 메뉴에서 orderid 옆에 있는 **연필 아이콘**&#x200B;을 클릭합니다
 
-![끝점 구성에서 orderid 쿼리 매개 변수를 편집하는 연필 아이콘](assets/build-journey-edit-orderid-query-parameter.png)
+   ![끝점 구성에서 orderid 쿼리 매개 변수를 편집하는 연필 아이콘](assets/build-journey-edit-orderid-query-parameter.png)
 
-&#x200B;4. 표시되는 모달에서 **컨텍스트** -> **주문됨** -> **주문**&#x200B;을 확장한 다음 **주문 ID(orderID)**&#x200B;를 선택하고 **확인**&#x200B;을 클릭합니다
+4. 표시되는 모달에서 **컨텍스트** -> **주문됨** -> **주문**&#x200B;을 확장한 다음 **주문 ID(orderID)**&#x200B;를 선택하고 **확인**&#x200B;을 클릭합니다
 
-![orderShipped 주문 컨텍스트 필드에서 주문 ID(orderID)를 선택합니다](assets/build-journey-select-order-id-context-field.png)
+   ![orderShipped 주문 컨텍스트 필드에서 주문 ID(orderID)를 선택합니다](assets/build-journey-select-order-id-context-field.png)
 
-&#x200B;5. 오른쪽 레일로 돌아가서 시간 초과 또는 오류 옵션이 **선택 취소됨**&#x200B;인지 확인한 다음 **저장 단추**&#x200B;를 클릭하십시오.
+5. 오른쪽 레일로 돌아가서 시간 초과 또는 오류 옵션이 **선택 취소됨**&#x200B;인지 확인한 다음 **저장 단추**&#x200B;를 클릭하십시오.
 
 ![시간 초과 또는 오류 옵션이 선택 취소되고 [저장] 단추가 강조 표시됨](assets/build-journey-uncheck-timeout-or-error.png)
 
@@ -112,17 +111,17 @@ ht-degree: 0%
 
 1. 작업 메뉴에서 GetShippingDetails 작업 다음에 **Action** 작업을 캔버스로 끌어 놓습니다
 
-![GetShippingDetails 작업 후 작업 노드를 캔버스로 끌어서 놓습니다](assets/build-journey-drag-email-action-onto-canvas.png)
+   ![GetShippingDetails 작업 후 작업 노드를 캔버스로 끌어서 놓습니다](assets/build-journey-drag-email-action-onto-canvas.png)
 
-&#x200B;2. 마케팅 액션에 대해 **전자 메일**&#x200B;을 선택한 다음 **추가**&#x200B;을 선택합니다.
+2. 마케팅 액션에 대해 **전자 메일**&#x200B;을 선택한 다음 **추가**&#x200B;을 선택합니다.
 
-![마케팅 작업으로 전자 메일을 선택하고 추가](assets/build-journey-select-email-marketing-action.png)
+   ![마케팅 작업으로 전자 메일을 선택하고 추가](assets/build-journey-select-email-marketing-action.png)
 
-&#x200B;3. 오른쪽 레일에서 **작업 구성**&#x200B;을 클릭합니다.
+3. 오른쪽 레일에서 **작업 구성**&#x200B;을 클릭합니다.
 
-![오른쪽 레일에서 작업 단추 구성](assets/build-journey-click-configure-action.png)
+   ![오른쪽 레일에서 작업 단추 구성](assets/build-journey-click-configure-action.png)
 
-&#x200B;4. **전자 메일 채널 구성**&#x200B;을(를) `Profile-Email`(으)로 설정한 다음 **콘텐츠 편집**&#x200B;을 클릭합니다.
+4. **전자 메일 채널 구성**&#x200B;을(를) `Profile-Email`(으)로 설정한 다음 **콘텐츠 편집**&#x200B;을 클릭합니다.
 
 ![콘텐츠 편집 링크를 사용하여 프로필 전자 메일로 설정된 전자 메일 채널 구성](assets/build-journey-set-profile-email-channel-configuration.png)
 
@@ -134,62 +133,62 @@ ht-degree: 0%
 
 1. 제목 줄을 `Order Shipped`(으)로 업데이트한 다음 **전자 메일 본문 편집 단추**&#x200B;를 클릭합니다.
 
-![제목 줄이 전자 메일 본문 편집 단추와 함께 제공되는 주문으로 업데이트됨](assets/build-journey-update-subject-line-order-shipped.png)
+   ![제목 줄이 전자 메일 본문 편집 단추와 함께 제공되는 주문으로 업데이트됨](assets/build-journey-update-subject-line-order-shipped.png)
 
-&#x200B;2. 상단 표시줄에서 **처음부터 디자인** 콘텐츠 블록을 클릭합니다.
+2. 상단 표시줄에서 **처음부터 디자인** 콘텐츠 블록을 클릭합니다.
 
-![상단 막대의 스크래치 콘텐츠 블록에서 디자인](assets/build-journey-click-design-from-scratch.png)
+   ![상단 막대의 스크래치 콘텐츠 블록에서 디자인](assets/build-journey-click-design-from-scratch.png)
 
-&#x200B;3. 구조 컨테이너 아래의 왼쪽 막대에서 **1:1 열**&#x200B;을(를) 캔버스로 끌어서 놓습니다.
+3. 구조 컨테이너 아래의 왼쪽 막대에서 **1:1 열**&#x200B;을(를) 캔버스로 끌어서 놓습니다.
 
-![1:1 열 구조 요소를 전자 메일 캔버스로 끌어서 놓습니다](assets/build-journey-drag-1-1-column-onto-canvas.png)
+   ![1:1 열 구조 요소를 전자 메일 캔버스로 끌어서 놓습니다](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-&#x200B;4. 그런 다음 콘텐츠 컨테이너에서 **Text** 구성 요소를 **1:1 열**(으)로 드래그합니다
+4. 그런 다음 콘텐츠 컨테이너에서 **Text** 구성 요소를 **1:1 열**(으)로 드래그합니다
 
-![Text 구성 요소를 1:1 열로 끌어옵니다](assets/build-journey-drag-text-component-into-column.png)
+   ![Text 구성 요소를 1:1 열로 끌어옵니다](assets/build-journey-drag-text-component-into-column.png)
 
-&#x200B;5. 텍스트 구성 요소를 클릭하고 **현재 텍스트를 삭제**&#x200B;한 다음 **Personalization 추가** 아이콘을 클릭합니다.
+5. 텍스트 구성 요소를 클릭하고 **현재 텍스트를 삭제**&#x200B;한 다음 **Personalization 추가** 아이콘을 클릭합니다.
 
-![기본 텍스트를 삭제한 후 Personalization 아이콘 추가](assets/build-journey-click-add-personalization-icon.png)
+   ![기본 텍스트를 삭제한 후 Personalization 아이콘 추가](assets/build-journey-click-add-personalization-icon.png)
 
-&#x200B;6. 왼쪽 레일에서 **컨텍스트 특성** 폴더를 클릭한 다음 **Journey Orchestration** -> **작업**&#x200B;을 통해 이동하고 **GetShippingDetails**&#x200B;을(를) 선택합니다.
+6. 왼쪽 레일에서 **컨텍스트 특성** 폴더를 클릭한 다음 **Journey Orchestration** -> **작업**&#x200B;을 통해 이동하고 **GetShippingDetails**&#x200B;을(를) 선택합니다.
 
-![컨텍스트 특성 - Journey Orchestration - 작업에서 GetShippingDetails를 선택합니다](assets/build-journey-select-getshippingdetails-contextual-attribute.png)
+   ![컨텍스트 특성 - Journey Orchestration - 작업에서 GetShippingDetails를 선택합니다](assets/build-journey-select-getshippingdetails-contextual-attribute.png)
 
-&#x200B;7. 이제 메일의 본문에서 **아래 JSON을 Personalization**&#x200B;편집기&#x200B;**에 복사하여 붙여넣기**&#x200B;합니다.
+7. 이제 메일의 본문에서 **아래 JSON을 Personalization**&#x200B;편집기&#x200B;**에 복사하여 붙여넣기**&#x200B;합니다.
 
-```json
-{{profile.person.name.firstName}}, your order has shipped
-ETA: 
-Tracking Number: 
-```
+   ```json
+   {{profile.person.name.firstName}}, your order has shipped
+   ETA: 
+   Tracking Number: 
+   ```
 
-&#x200B;8. 다음과 같이 개인화 필드를 추가합니다(**왼쪽 레일의 필드 옆에 있는 더하기 &#39;+&#39; 기호를 클릭합니다**).
+8. 다음과 같이 개인화 필드를 추가합니다(**왼쪽 레일의 필드 옆에 있는 더하기 &#39;+&#39; 기호를 클릭합니다**).
    - **ETA:** `eta`
    - **추적 번호:** `tracking_number`
 
-![전자 메일에 ETA 및 추적 번호 개인화 필드 추가됨](assets/build-journey-add-eta-tracking-number-fields.png)
+   ![전자 메일에 ETA 및 추적 번호 개인화 필드 추가됨](assets/build-journey-add-eta-tracking-number-fields.png)
 
->[!NOTE]
->
->**+ 기호**&#x200B;을(를) 클릭하여 레일에서 캔버스로 개인화 특성을 추가합니다.  커서 위치에 배치되므로 &quot;줄 바꿈&quot;을 적절히 하십시오
+   >[!NOTE]
+   >
+   >**+ 기호**&#x200B;을(를) 클릭하여 레일에서 캔버스로 개인화 특성을 추가합니다.  커서 위치에 배치되므로 &quot;줄 바꿈&quot;을 적절히 하십시오
 
->[!NOTE]
->
->이메일은 컨텍스트 속성(ETA 및 추적 번호)과 프로필 속성(이름)의 조합을 사용합니다. 다른 프로필 속성을 추가하려면 프로필 속성 탭을 클릭하고 표시되는 모든 항목을 선택할 수 있습니다.
->
->![프로필 특성을 추가하기 위한 프로필 특성 탭](assets/build-journey-profile-attributes-tab.png)
+   >[!NOTE]
+   >
+   >이메일은 컨텍스트 속성(ETA 및 추적 번호)과 프로필 속성(이름)의 조합을 사용합니다. 다른 프로필 속성을 추가하려면 프로필 속성 탭을 클릭하고 표시되는 모든 항목을 선택할 수 있습니다.
+   >
+   >![프로필 특성을 추가하기 위한 프로필 특성 탭](assets/build-journey-profile-attributes-tab.png)
 
-&#x200B;9. 화면 맨 아래에서 **유효성 검사** 단추를 클릭하고 오류가 없는지 확인합니다
+9. 화면 맨 아래에서 **유효성 검사** 단추를 클릭하고 오류가 없는지 확인합니다
 
-![화면 아래쪽에 오류가 표시되지 않는 유효성 검사 단추](assets/build-journey-click-validate-button.png)
+   ![화면 아래쪽에 오류가 표시되지 않는 유효성 검사 단추](assets/build-journey-click-validate-button.png)
 
-&#x200B;10. 모든 항목이 정상인 경우 오른쪽 상단의 **저장 단추**&#x200B;를 클릭하십시오.
-&#x200B;11. 그런 다음 오른쪽 상단의 **저장** 단추를 다시 클릭하고 왼쪽 상단의 **\&lt;- 왼쪽 화살표**&#x200B;를 클릭합니다
+10. 모든 항목이 정상인 경우 오른쪽 상단의 **저장 단추**&#x200B;를 클릭하십시오.
+11. 그런 다음 오른쪽 상단의 **저장** 단추를 다시 클릭하고 왼쪽 상단의 **\&lt;- 왼쪽 화살표**&#x200B;를 클릭합니다
 
 ![오른쪽 상단과 왼쪽 상단의 저장 단추와 뒤로 화살표](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. 마지막으로 왼쪽 상단의 **\&lt; 뒤로 아이콘**&#x200B;을 클릭하여 여정 캔버스로 돌아갑니다
+12. 마지막으로 왼쪽 상단의 **\&lt; 뒤로 아이콘**&#x200B;을 클릭하여 여정 캔버스로 돌아갑니다
 
 ![여정 캔버스로 돌아가려면 왼쪽 상단의 뒤로 아이콘](assets/build-journey-back-icon-to-journey-canvas.png)
 
@@ -207,19 +206,19 @@ Tracking Number:
 
 1. **전자 메일 매개 변수**(으)로 스크롤한 다음 **매개 변수 재정의 사용** 아이콘을 클릭합니다.
 
-![전자 메일 매개 변수 아래의 매개 변수 재정의 아이콘 사용](assets/build-journey-enable-parameter-override.png)
+   ![전자 메일 매개 변수 아래의 매개 변수 재정의 아이콘 사용](assets/build-journey-enable-parameter-override.png)
 
-&#x200B;2. 빈 텍스트 상자를 클릭한 다음 왼쪽 레일에서 **Context** -> **orderShipped** -> **\_dep**(으)로 드릴다운하고 **personalEmail** 필드를 클릭합니다.  그런 다음 **확인 단추**&#x200B;를 클릭합니다
+2. 빈 텍스트 상자를 클릭한 다음 왼쪽 레일에서 **Context** -> **orderShipped** -> **\_dep**(으)로 드릴다운하고 **personalEmail** 필드를 클릭합니다.  그런 다음 **확인 단추**&#x200B;를 클릭합니다
 
-![orderShipped 컨텍스트 _dep에서 personalEmail 필드를 선택합니다](assets/build-journey-select-personalemail-context-field.png)
+   ![orderShipped 컨텍스트 _dep에서 personalEmail 필드를 선택합니다](assets/build-journey-select-personalemail-context-field.png)
 
->[!WARNING]
->
->이는 위험한 작업이므로 프로덕션 환경에서 사용할 필요가 없는 경우 사용하지 마십시오.  이렇게 하면 여정이 메시지를 실행하기 위해 프로필에서 찾는 기본 위치가 재정의됩니다.
+   >[!WARNING]
+   >
+   >이는 위험한 작업이므로 프로덕션 환경에서 사용할 필요가 없는 경우 사용하지 마십시오.  이렇게 하면 여정이 메시지를 실행하기 위해 프로필에서 찾는 기본 위치가 재정의됩니다.
 
 
 
-&#x200B;3. 오른쪽 상단의 **저장 단추**&#x200B;를 클릭한 다음 왼쪽 상단의 **뒤로 화살표** \&lt;-를 클릭하여 여정 **닫기**&#x200B;합니다
+3. 오른쪽 상단의 **저장 단추**&#x200B;를 클릭한 다음 왼쪽 상단의 **뒤로 화살표** \&lt;-를 클릭하여 여정 **닫기**&#x200B;합니다
 
 ![여정을 닫으려면 저장 단추와 뒤로 화살표](assets/build-journey-save-and-close-journey.png)
 

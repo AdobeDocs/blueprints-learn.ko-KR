@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 대상
 description: 오늘 iPhone 14를 주문한 프로필을 찾는 스트리밍 대상을 빌드하여 이벤트 소스 선택 및 배열 컨테이너를 살펴봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -48,9 +47,9 @@ iPhone 14에 대해 주문한 프로필만 찾는 대상자를 만듭니다
 
 >[!NOTE]
 >
->&#x200B;* 주문 &quot;폴더&quot;에 &quot;i&quot;가 없습니다. 설명은 채워져 있지만 없지만, 작성자는 설명을 사용하려고 하거나 설명을 알고 싶을 수 있으므로 이는 마케터에게 혼란의 원인이 될 수 있습니다.
->&#x200B;* 이벤트 유형 은 많지 않은 한 필드이므로 이벤트 카드의 &quot;i&quot;는 유형이 무엇인지 반복하기만 합니다.
->&#x200B;* 값이 병합된 프로필의 2% 이상에 있는 경우에만 요약 데이터가 표시됩니다. 또한 문자열에서 필터링할 때 모든 자동 완성을 유도합니다.
+>* 주문 &quot;폴더&quot;에 &quot;i&quot;가 없습니다. 설명은 채워져 있지만 없지만, 작성자는 설명을 사용하려고 하거나 설명을 알고 싶을 수 있으므로 이는 마케터에게 혼란의 원인이 될 수 있습니다.
+>* 이벤트 유형 은 많지 않은 한 필드이므로 이벤트 카드의 &quot;i&quot;는 유형이 무엇인지 반복하기만 합니다.
+>* 값이 병합된 프로필의 2% 이상에 있는 경우에만 요약 데이터가 표시됩니다. 또한 문자열에서 필터링할 때 모든 자동 완성을 유도합니다.
 
 
 
@@ -58,7 +57,7 @@ Order Placed Event Type 카드를 사용하여 캔버스로 드래그합니다.
 
 ![Order Placed 이벤트 유형 카드를 캔버스로 드래그하십시오](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**선택 사항:**
 >
@@ -247,7 +246,7 @@ iPhone 14 추가
 >
 >컨테이너는 이벤트 변수 또는 배열 요소를 참조하는 방법입니다. 이 블로그에서 이 요소의 파생에 대해 자세히 읽어볼 수 있지만, 단순성을 위해 배열의 단일 요소가 두 조건을 모두 충족하는지 아니면 조건이 두 요소에 분산될 수 있는지 지정할 수 있습니다.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=ko](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=ko)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
 
 >[!WARNING]
 >

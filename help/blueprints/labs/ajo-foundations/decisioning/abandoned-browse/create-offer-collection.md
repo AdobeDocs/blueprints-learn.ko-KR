@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 오퍼 컬렉션 만들기
 description: 선택 전략으로 함께 평가할 수 있도록 속성 기반 규칙을 사용하여 관련 오퍼 항목을 컬렉션으로 그룹화합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 0a54f4dc-2112-474a-8383-9dd1497c3c74
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -24,31 +23,31 @@ ht-degree: 0%
 1. 필요한 경우 왼쪽 레일에서 **Decisioning**&#x200B;을 확장한 다음 **카탈로그**&#x200B;를 클릭합니다. 이전 섹션에서 만든 네 개의 오퍼가 표시됩니다.
 2. 오퍼 이름의 바로 왼쪽에 있는 **컬렉션**&#x200B;을 클릭합니다.
 
-카탈로그 페이지의 ![컬렉션 탭](assets/create-offer-collection-collections-tab.png)
+   카탈로그 페이지의 ![컬렉션 탭](assets/create-offer-collection-collections-tab.png)
 
-&#x200B;3. 새 컬렉션을 만들려면 파란색 **컬렉션 만들기**&#x200B;를 클릭하세요.
-&#x200B;4. 컬렉션 이름을 **iPhone 17 컬렉션**&#x200B;으로 지정합니다.
-&#x200B;5. &#39;컬렉션 규칙&#39; 섹션에서 **_결정 항목을 만들려면_** 텍스트를 포함하는 텍스트 상자를 클릭합니다. 클릭하면 규칙을 만드는 옵션이 나타납니다.
+3. 새 컬렉션을 만들려면 파란색 **컬렉션 만들기**&#x200B;를 클릭하세요.
+4. 컬렉션 이름을 **iPhone 17 컬렉션**&#x200B;으로 지정합니다.
+5. &#39;컬렉션 규칙&#39; 섹션에서 **_결정 항목을 만들려면_** 텍스트를 포함하는 텍스트 상자를 클릭합니다. 클릭하면 규칙을 만드는 옵션이 나타납니다.
 
-결정 항목을 만들기 위해 ![컬렉션 규칙 텍스트 상자가 열림](assets/create-offer-collection-create-decision-item.png)
+   결정 항목을 만들기 위해 ![컬렉션 규칙 텍스트 상자가 열림](assets/create-offer-collection-create-decision-item.png)
 
-&#x200B;6. **특성 선택** 단추를 클릭한 다음 **장치 > 만들기**&#x200B;를 클릭하여 오퍼 항목 스키마를 탐색합니다. **저장,**&#x200B;을 클릭하면 &#39;Make&#39; 특성이 이제 결정 규칙에 있습니다.
+6. **특성 선택** 단추를 클릭한 다음 **장치 > 만들기**&#x200B;를 클릭하여 오퍼 항목 스키마를 탐색합니다. **저장,**&#x200B;을 클릭하면 &#39;Make&#39; 특성이 이제 결정 규칙에 있습니다.
 
-![장치 만들기 특성이 컬렉션 규칙에 추가됨](assets/create-offer-collection-select-make-attribute.png)
+   ![장치 만들기 특성이 컬렉션 규칙에 추가됨](assets/create-offer-collection-select-make-attribute.png)
 
->[!NOTE]
->
->사용할 수 있는 옵션은 오퍼 항목을 만들 때 사용한 것과 동일한 구성 가능한 필드입니다. 컬렉션은 오퍼 항목의 그룹이므로 그룹화하는 규칙은 해당 속성에 따라 다르다는 것이 좋습니다.
+   >[!NOTE]
+   >
+   >사용할 수 있는 옵션은 오퍼 항목을 만들 때 사용한 것과 동일한 구성 가능한 필드입니다. 컬렉션은 오퍼 항목의 그룹이므로 그룹화하는 규칙은 해당 속성에 따라 다르다는 것이 좋습니다.
 
-&#x200B;7. &#39;Equals&#39; 연산자를 그대로 두고 값 필드에 **iPhone** 텍스트를 입력하면 항목 수가 4로 변경되어 모든 오퍼 항목이 해당 기준을 충족함을 나타냅니다
+7. &#39;Equals&#39; 연산자를 그대로 두고 값 필드에 **iPhone** 텍스트를 입력하면 항목 수가 4로 변경되어 모든 오퍼 항목이 해당 기준을 충족함을 나타냅니다
 
-![iPhone 기준과 일치하는 4개의 오퍼 항목을 표시하는 컬렉션 규칙](assets/create-offer-collection-four-matching-offers.png)
+   ![iPhone 기준과 일치하는 4개의 오퍼 항목을 표시하는 컬렉션 규칙](assets/create-offer-collection-four-matching-offers.png)
 
->[!NOTE]
->
->**컬렉션 미리 보기** 단추를 클릭하여 기준을 충족하는 오퍼 항목을 볼 수도 있습니다.
+   >[!NOTE]
+   >
+   >**컬렉션 미리 보기** 단추를 클릭하여 기준을 충족하는 오퍼 항목을 볼 수도 있습니다.
 
-&#x200B;8. 네 개의 오퍼 항목을 모두 선택한 상태에서 파란색 **만들기** 단추를 클릭합니다. 이렇게 하면 새로 만든 컬렉션을 보여 주는 페이지로 이동합니다.
+8. 네 개의 오퍼 항목을 모두 선택한 상태에서 파란색 **만들기** 단추를 클릭합니다. 이렇게 하면 새로 만든 컬렉션을 보여 주는 페이지로 이동합니다.
 
 ![새로 만든 iPhone 17 컬렉션 페이지](assets/create-offer-collection-created-collection-page.png)
 

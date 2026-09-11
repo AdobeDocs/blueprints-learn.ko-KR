@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 확인 및 유효성 검사
 description: UI에서 수집된 데이터 세트를 미리 보고 SQL 쿼리를 실행하여 일괄 수집된 레코드 및 중첩된 스키마 필드를 확인합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -20,13 +19,13 @@ ht-degree: 0%
 1. **데이터 세트** 클릭
 1. 만든 데이터 세트 이름을 **찾기**&#x200B;하고 **클릭**&#x200B;합니다.
 
-![데이터 세트 창에서 데이터 세트 이름 찾기 및 클릭](assets/verification-and-validation-access-dataset-in-datasets-pane.png "데이터 세트 창에서 데이터 세트에 액세스")
+   ![데이터 세트 창에서 데이터 세트 이름 찾기 및 클릭](assets/verification-and-validation-access-dataset-in-datasets-pane.png "데이터 세트 창에서 데이터 세트에 액세스")
 
 
 
 1. 오른쪽 상단 모서리에서 **데이터 세트 미리 보기**&#x200B;를 클릭합니다.
 
-![데이터 집합 화면의 오른쪽 상단 모서리에 있는 데이터 집합 단추 위치 미리 보기](assets/verification-and-validation-preview-dataset-button-location.png "데이터 집합 미리 보기는 오른쪽 상단 모서리에 있습니다")
+   ![데이터 집합 화면의 오른쪽 상단 모서리에 있는 데이터 집합 단추 위치 미리 보기](assets/verification-and-validation-preview-dataset-button-location.png "데이터 집합 미리 보기는 오른쪽 상단 모서리에 있습니다")
 
 
 
@@ -45,7 +44,7 @@ ht-degree: 0%
 1. 미리 보기 **닫기**
 1. 데이터 집합 화면에서 **테이블 이름**&#x200B;의 복사 아이콘을 클릭합니다. 아래 예제 화면에서 테이블 이름은 `customer_account_sm`입니다.
 
-![데이터 집합 화면에서 테이블 이름 옆에 있는 복사 아이콘](assets/verification-and-validation-copy-table-name.png "테이블 이름 복사")
+   ![데이터 집합 화면에서 테이블 이름 옆에 있는 복사 아이콘](assets/verification-and-validation-copy-table-name.png "테이블 이름 복사")
 
 
 
@@ -53,21 +52,21 @@ ht-degree: 0%
 
 1. **쿼리 만들기**&#x200B;를 클릭합니다
 
-![쿼리 섹션에 쿼리 만들기 단추](assets/verification-and-validation-access-the-query-editor.png)
+   ![쿼리 섹션에 쿼리 만들기 단추](assets/verification-and-validation-access-the-query-editor.png)
 
 
 
 1. 복사한 후 **편집기**&#x200B;에 다음 SQL 쿼리를 붙여 넣습니다. `<table_name>`을(를) 6단계에서 얻은 값으로 바꾸십시오.
 
-```sql
-SELECT * FROM <table_name>
-```
+   ```sql
+   SELECT * FROM <table_name>
+   ```
 
 
 
 1. **재생** 단추를 누릅니다.
 
-![SQL 쿼리 및 재생 단추가 있는 쿼리 편집기 인터페이스](assets/verification-and-validation-query-editor-interface.png "쿼리 편집기 인터페이스")
+   ![SQL 쿼리 및 재생 단추가 있는 쿼리 편집기 인터페이스](assets/verification-and-validation-query-editor-interface.png "쿼리 편집기 인터페이스")
 
 
 

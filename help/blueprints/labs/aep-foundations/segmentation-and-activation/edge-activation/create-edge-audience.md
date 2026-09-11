@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge 대상 만들기
 description: 각 항목이 실시간 수신 이벤트에 응답하는 방식을 비교하는 것과 동일한 일괄 처리와 함께 Edge 평가 대상을 빌드하고 게시합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -42,7 +41,7 @@ ht-degree: 0%
 1. **대상**(으)로 이동하여 **Experience Platform** 폴더를 클릭합니다.
 1. 이름이 **dep: 모든 이벤트 스트리밍(시간 내)**&#x200B;인 대상을 캔버스로 드래그하여 놓습니다.
 
-![dep: 모든 이벤트 스트리밍(시간 내) 대상을 규칙 빌더 캔버스로 드래그하는 중](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![dep: 모든 이벤트 스트리밍(시간 내) 대상을 규칙 빌더 캔버스로 드래그하는 중](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 

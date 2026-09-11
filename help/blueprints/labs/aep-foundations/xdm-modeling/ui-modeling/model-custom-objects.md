@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 사용자 지정 개체 모델링
 description: 스키마 편집기에서 열거형 값을 포함하여 사용자 지정 계정, 계획, customerID 필드 및 개체를 작성하여 표준 필드 그룹에 상당하는 값이 없는 데이터를 모델링합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,11 +35,11 @@ ht-degree: 0%
 
 1. 스키마 상단에 있는 **+ (추가)** 단추를 클릭하여 새 필드를 추가합니다.
 
-![사용자 지정 필드를 추가하려면 스키마 맨 위에 있는 (+) 추가 단추](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![사용자 지정 필드를 추가하려면 스키마 맨 위에 있는 (+) 추가 단추](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
->[!NOTE]
->
->오른쪽 레일이 열리면 몇 가지 필드를 작성할 수 있습니다
+   >[!NOTE]
+   >
+   >오른쪽 레일이 열리면 몇 가지 필드를 작성할 수 있습니다
 
 
 
@@ -73,14 +72,14 @@ ht-degree: 0%
 
 1. 방금 만든 계정 개체 아래에 표시되는 다음 필드를 추가합니다.
 
-| 필드 이름 | 표시 이름 | 유형 |
-| ------------ | ------------- | ---------- |
-| *createDate* | *만든 날짜* | *DateTime* |
-| *endDate* | *종료 날짜* | *DateTime* |
+   | 필드 이름 | 표시 이름 | 유형 |
+   | ------------ | ------------- | ---------- |
+   | *createDate* | *만든 날짜* | *DateTime* |
+   | *endDate* | *종료 날짜* | *DateTime* |
 
->[!NOTE]
->
->새 필드를 추가하는 동안 **할당 대상** 옵션이 이미 채워져 있고 계정 개체에 사용한 필드 그룹을 참조합니다.
+   >[!NOTE]
+   >
+   >새 필드를 추가하는 동안 **할당 대상** 옵션이 이미 채워져 있고 계정 개체에 사용한 필드 그룹을 참조합니다.
 
 
 
@@ -88,28 +87,28 @@ ht-degree: 0%
 
 
 
-![계정 개체 및 하위 필드가 추가된 고객 계정 스키마](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![계정 개체 및 하위 필드가 추가된 고객 계정 스키마](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
 1. 계정 개체에 사용자 정의 필드를 하나 더 추가합니다. 계정 개체 옆에 있는 **+(추가)** 단추를 클릭합니다.  다음 필드를 만듭니다.
 
-| 필드 이름 | 표시 이름 | 유형 | 열거 |
-| ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | *Source 획득* | *문자열* | *웹 :: 웹&#x200B;*<br />*매장 :: 매장* |
+   | 필드 이름 | 표시 이름 | 유형 | 열거 |
+   | ----------- | ----------------- | -------- | --------------------------------------- |
+   | *acqSource* | *Source 획득* | *문자열* | *웹 :: 웹&#x200B;*<br />*매장 :: 매장* |
 
-이 필드에는 표준화된 값이 필요하므로 필드 속성 내에서 **열거형 및 제안 값** 옵션을 사용하십시오. 수집 시 이 필드에 대한 유효성 검사와 친숙한 레이블을 추가하려면 **Enum** 라디오 단추를 선택하십시오. 아래와 같이 열거형 값을 추가합니다.
+   이 필드에는 표준화된 값이 필요하므로 필드 속성 내에서 **열거형 및 제안 값** 옵션을 사용하십시오. 수집 시 이 필드에 대한 유효성 검사와 친숙한 레이블을 추가하려면 **Enum** 라디오 단추를 선택하십시오. 아래와 같이 열거형 값을 추가합니다.
 
-- *웹 :: 웹*
-- *inStore :: 스토어에서*
+   - *웹 :: 웹*
+   - *inStore :: 스토어에서*
 
 
 
-![획득 Source 필드에 대해 추가된 Enum 값 웹 및 inStore](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
+   ![획득 Source 필드에 대해 추가된 Enum 값 웹 및 inStore](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
->[!NOTE]
->
->열거형 및 제안 값의 목표는 최종 사용자가 보다 쉽게 세분화할 수 있도록 하는 것입니다. 열거형은 데이터 수집 시 유효성 검사를 시행하지만 제안된 값은 시행하지 않습니다. 이 기능에 대해 자세히 알아보려면 여기 -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ko#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ko#enums-and-suggested-values) 설명서에서 자세히 읽어보십시오.
+   >[!NOTE]
+   >
+   >열거형 및 제안 값의 목표는 최종 사용자가 보다 쉽게 세분화할 수 있도록 하는 것입니다. 열거형은 데이터 수집 시 유효성 검사를 시행하지만 제안된 값은 시행하지 않습니다. 이 기능에 대해 자세히 알아보려면 여기 -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values) 설명서에서 자세히 읽어보십시오.
 
 
 

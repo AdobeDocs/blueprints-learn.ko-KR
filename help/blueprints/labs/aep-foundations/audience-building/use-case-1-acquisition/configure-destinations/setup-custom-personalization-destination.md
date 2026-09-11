@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 사용자 지정 Personalization 대상 설정
 description: 사용자 지정 Personalization 대상을 구성하여 서드파티 개인화 시스템에서 실시간으로 사용할 수 있도록 Edge Network에 프로필 속성을 보냅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 46073f7c-00f4-4a4f-9fa3-8827ef15ec4a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 사용자 지정 Personalization 대상 설정
 
-[사용자 지정 Personalization 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization)을 사용하면 타사에서 사용할 수 있도록 대상을 Edge에서 사용할 수 있으며, 일반적으로 Network Server API를 사용하여 개인 맞춤화에 사용할 수 있습니다.
+[사용자 지정 Personalization 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)을 사용하면 타사에서 사용할 수 있도록 대상을 Edge에서 사용할 수 있으며, 일반적으로 Network Server API를 사용하여 개인 맞춤화에 사용할 수 있습니다.
 
 이 랩에서는 프로필 속성을 Edge에 보낼 수 있도록 사용자 지정 Personalization 대상을 구성합니다.
 
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Target을 사용하여 개인화하려면 [Adobe Target 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2)을 사용합니다. 동작은 사용자 지정 Personalization과 동일합니다.
+>Adobe Target을 사용하여 개인화하려면 [Adobe Target 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2)을 사용합니다. 동작은 사용자 지정 Personalization과 동일합니다.
 
 1. 왼쪽 레일에서 **대상**&#x200B;을 클릭합니다.
 1. 상단 레일에서 **카탈로그** 클릭
@@ -105,7 +104,7 @@ ht-degree: 0%
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | 플랜 이름 |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >**\_tenantName**&#x200B;을(를) 테넌트 이름으로 바꾸십시오.
 
@@ -121,7 +120,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->프로필 특성에는 중요한 데이터가 포함될 수 있으므로 특성이 Edge에 있으면 해당 특성을 검색하려면 모든 [Edge Network Server API](https://experienceleague.adobe.com/ko/docs/experience-platform/edge-network-server-api/overview)호출이 인증된 컨텍스트에서 수행되어야 합니다.
+>프로필 특성에는 중요한 데이터가 포함될 수 있으므로 특성이 Edge에 있으면 해당 특성을 검색하려면 모든 [Edge Network Server API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)호출이 인증된 컨텍스트에서 수행되어야 합니다.
 
 
 ### 리뷰
@@ -132,4 +131,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[자동 적용](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/auto-enforcement)에서 [데이터 사용 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/policies/overview)을 확인할 지점입니다. 만든 규칙으로 마케팅 작업을 확인하고 오류가 발생합니다.
+>[자동 적용](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)에서 [데이터 사용 정책](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)을 확인할 지점입니다. 만든 규칙으로 마케팅 작업을 확인하고 오류가 발생합니다.

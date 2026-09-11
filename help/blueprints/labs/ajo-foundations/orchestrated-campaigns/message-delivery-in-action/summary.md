@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 요약
 description: 대상자를 포크하고 프로필 기반 및 관계형 기반 이메일 채널 간에 이메일 게재 결과를 비교하는 오케스트레이션된 캠페인을 다시 빌드합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 11249940-469f-4ba6-bd36-1f2bb7b388a9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -26,7 +25,7 @@ ht-degree: 1%
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**이 문서를 읽고 있으면 실습이 끝났음을 의미합니다.**
 >

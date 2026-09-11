@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 프로필 스트리밍
 description: Postman, 스트리밍 끝점 및 데이터 흐름 ID를 사용하여 고객 프로필 레코드를 HTTP API를 통해 Adobe Experience Platform으로 보냅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -79,18 +78,18 @@ curl --location '' \
 
 1. **스트리밍 끝점** 값을 복사하여 로컬 컴퓨터에 저장합니다(이전 섹션의 단계에서 탐색하지 않았다고 가정). 다른 곳으로 이동한 경우 소스->계정에서 찾을 수 있습니다.
 
->[!NOTE]
->
->다른 곳으로 이동한 경우 다음을 수행하여 이 페이지에 액세스할 수 있습니다.
->
->- 왼쪽 레일에서 **소스** 클릭
->- **계정** 탭에 있는지 확인하고 **스트리밍 수집 - \&lt;이니셜>**&#x200B;이라는 제목으로 만든 계정을 클릭하십시오.
+   >[!NOTE]
+   >
+   >다른 곳으로 이동한 경우 다음을 수행하여 이 페이지에 액세스할 수 있습니다.
+   >
+   >- 왼쪽 레일에서 **소스** 클릭
+   >- **계정** 탭에 있는지 확인하고 **스트리밍 수집 - \&lt;이니셜>**&#x200B;이라는 제목으로 만든 계정을 클릭하십시오.
 
->[!NOTE]
->
->이 값이 표시되지 않으면 해당 행을 클릭하여 선택한 데이터 흐름 행이 없는지 확인합니다.  파란색 링크를 클릭하지 마십시오
+   >[!NOTE]
+   >
+   >이 값이 표시되지 않으면 해당 행을 클릭하여 선택한 데이터 흐름 행이 없는지 확인합니다.  파란색 링크를 클릭하지 마십시오
 
-![계정 세부 정보의 오른쪽에 표시되는 스트리밍 끝점 URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   ![계정 세부 정보의 오른쪽에 표시되는 스트리밍 끝점 URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -106,34 +105,34 @@ Postman 애플리케이션으로 전환하고 방금 수집한 정보로 고객 
 
 1. Postman을 열고 **데이터 수집 랩 -> 고객 계정 만들기** API 요청으로 이동한 다음 엽니다
 
-![Postman에서 열린 고객 계정 API 요청 만들기](assets/stream-a-profile-create-customer-account-api-request.png)
+   ![Postman에서 열린 고객 계정 API 요청 만들기](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
 1. 이전에 저장한 **스트리밍 끝점** 값을 복사하여 요청의 URL에 붙여넣습니다.
 
-![고객 계정 만들기 요청 URL에 붙여넣은 스트리밍 끝점 값](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
+   ![고객 계정 만들기 요청 URL에 붙여넣은 스트리밍 끝점 값](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
 
 
 
 1. 이전에 저장한 데이터 흐름 ID 값을 **x-adobe-flow-id** 헤더 값에 복사하여 붙여 넣으십시오
 
-![x-adobe-flow-id 헤더 값에 붙여넣은 데이터 흐름 ID](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
+   ![x-adobe-flow-id 헤더 값에 붙여넣은 데이터 흐름 ID](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
 
 
 
 1. 요청 본문에서 다음과 같은 속성을 업데이트합니다.
 
-- **이름** -> 내 이름
-- **성** -> 성
-- **전자 메일** -> 전자 메일 주소
-- **birth_Date** -> YYYY-MM-DD
+   - **이름** -> 내 이름
+   - **성** -> 성
+   - **전자 메일** -> 전자 메일 주소
+   - **birth_Date** -> YYYY-MM-DD
 
-**5. 요청**&#x200B;개 저장
+   **5. 요청**&#x200B;개 저장
 
 1. **보내기** 단추를 클릭하여 고객 계정 프로필에서 스트리밍할 요청을 실행합니다.
 
-![Postman에서 보낼 준비가 된 최종 고객 계정 만들기 요청](assets/stream-a-profile-final-create-customer-account-request.png)
+   ![Postman에서 보낼 준비가 된 최종 고객 계정 만들기 요청](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 

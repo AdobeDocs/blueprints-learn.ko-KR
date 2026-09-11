@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 스키마 보기
 description: Experience Platform UI와 스키마 API 가져오기 호출을 통해 새로 생성된 고객 스키마를 봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -19,9 +18,9 @@ ht-degree: 0%
 
 1. 브라우저를 열고 `Schema -> Browse` 섹션으로 다시 이동합니다.
 
->[!NOTE]
->
->방금 UI를 만들었으며 스키마 레지스트리를 다시 쿼리해야 하므로 UI를 새로 고쳐 표시합니다
+   >[!NOTE]
+   >
+   >방금 UI를 만들었으며 스키마 레지스트리를 다시 쿼리해야 하므로 UI를 새로 고쳐 표시합니다
 
 2. 스키마 `Sample Customer Schema - <your sandbox number>` 검색
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 허브로 주문 이벤트 보내기
 description: API를 통해 주문 이벤트를 허브에 스트리밍하고, 스트리밍 주문 세그먼트를 작성하고, 대상에 활성화하고, 프로필 결과를 확인하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -93,7 +92,7 @@ Order Placed 이벤트 유형 카드를 찾아 캔버스로 드래그합니다.
 1. 왼쪽 레일에서 **소스**(으)로 이동한 다음 위쪽 탐색에서 **계정**&#x200B;을 클릭합니다
 1. **dep: HTTP API \[raw]**&#x200B;를 검색하고, 행을 강조 표시하고 나중에 참조할 수 있는 위치에 **스트리밍 끝점**&#x200B;의 값을 복사하고 저장합니다.
 
- 계정 및 해당 스트리밍 끝점 복사&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ 계정 및 해당 스트리밍 끝점 복사](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## 데이터 흐름 ID 찾기
 
@@ -115,7 +114,7 @@ Order Placed 이벤트 유형 카드를 찾아 캔버스로 드래그합니다.
 
 완료 시 최종 API 요청은 다음과 같아야 합니다
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >아직 실행하지 마십시오!
 

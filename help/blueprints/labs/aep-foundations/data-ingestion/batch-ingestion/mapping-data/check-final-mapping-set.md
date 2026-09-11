@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 최종 매핑 세트 확인
 description: 고객 계정 스키마에 대한 단순 및 계산된 필드 매핑을 예상 최종 매핑 세트와 비교합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 최종 매핑 세트 확인
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >스트리밍 수집 랩에서 이동하는 경우 아래 링크를 클릭하여 해당 랩의 다음 단계로 진행하십시오.
 >
@@ -52,7 +51,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오.
 
@@ -66,6 +65,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString(), &quot;-&quot;, date\_part(&quot;day&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString() | person.birthdayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;M/d/yyyy&quot;)) | person.birthYear |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오

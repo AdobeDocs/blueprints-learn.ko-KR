@@ -1,10 +1,10 @@
 ---
 title: 식별
-description: LID 방법론의 두 부분으로 구성된 식별 단계인 나머지 테이블 유형에 레이블을 지정하고 주요 ID 필드를 식별하는 방법에 대해 알아봅니다.
-doc-type: article
+description: LID 방법론의 두 부분으로 구성된 식별 단계 - 나머지 테이블 유형에 레이블을 지정하고 주요 ID 필드를 식별하는 방법에 대해 알아봅니다.
+doc-type: overview-page
 solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
-source-git-commit: 8fba6e953de0e588af5398b21554ebad085899fd
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

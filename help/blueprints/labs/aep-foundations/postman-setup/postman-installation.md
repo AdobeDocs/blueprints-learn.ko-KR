@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Postman 설치
 description: Bootcamp API Labs를 시작하기 전에 Postman을 설치하고 컬렉션, 환경 및 인터페이스를 숙지하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: 012878d9-fe87-4178-8b36-40b267b06760
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Postman 설치
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >이 과정의 다양한 랩에 Postman이 필요합니다.  Postman이 이미 설치되어 있더라도 이 실습을 통해 환경 파일 및 API 컬렉션이 설치되고 올바르게 설정되었는지 확인해야 합니다.
 

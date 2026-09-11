@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 의사 결정 및 CBE 활용
 description: Postman을 사용하여 테스트 프로필에 대한 경험 이벤트를 보내고 자격, 등급 및 빈도 제한이 올바른 오퍼를 반환하는지 확인합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
@@ -34,7 +33,7 @@ AEP에서 이러한 프로필 찾기
 1. 필요한 경우 왼쪽 레일에서 **고객** 항목을 확장하고 **프로필**&#x200B;을 클릭합니다
 1. **찾아보기** 탭을 클릭하면 이미 만들었거나 이전 Labs의 일부로 만든 모든 프로필 중에서 이 세 개의 프로필이 표시됩니다.
 
-Postman 컬렉션에서 각 프로필에 대한 해당 경험 이벤트 찾기
+   Postman 컬렉션에서 각 프로필에 대한 해당 경험 이벤트 찾기
 
 1. 필요한 경우 Postman을 엽니다.
 1. **EDGE\_REGION** 및 **DATASTREAM\_CONFIG** 환경 변수가 계속 설정되어 있는지 확인하십시오. 다시 설정해야 하는 경우 &#39;가져오기 환경 및 컬렉션&#39; 랩의 단계를 검토하십시오.
@@ -44,7 +43,7 @@ Postman 컬렉션에서 각 프로필에 대한 해당 경험 이벤트 찾기
 
 ## 경험 이벤트에서 보내기
 
-&#x200B;> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >이 섹션의 시작 텍스트 설명을 건너뛰지 마십시오!
 
@@ -69,48 +68,48 @@ Bob의 프로필로 시작합니다.
 1. **Bob - Page Bottom 데이터 수집** 요청을 클릭합니다.
 2. **Body** 탭을 클릭하고 IdentityMap의 customerID 네임스페이스와 같이 인증되었음을 나타내는 매개 변수와 &#39;phones\:apple\:iphone 17\:overview&#39;의 pagename에 전달되는 &#39;web.webPageDetails.name&#39; 매개 변수가 전달되는 것을 확인합니다.
 
-![Bob - Postman의 Page Bottom 데이터 수집 요청 본문](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
+   ![Bob - Postman의 Page Bottom 데이터 수집 요청 본문](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
 
-&#x200B;3. 페이지 보기를 보내려면 오른쪽 상단의 **보내기**&#x200B;를 클릭하세요. 다음과 유사한 응답이 반환됩니다
+3. 페이지 보기를 보내려면 오른쪽 상단의 **보내기**&#x200B;를 클릭하세요. 다음과 유사한 응답이 반환됩니다
 
-![Bob의 Page Bottom 데이터 수집 이벤트를 보낸 후 받은 응답](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
+   ![Bob의 Page Bottom 데이터 수집 이벤트를 보낸 후 받은 응답](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
 
-&#x200B;4. 적절한 응답을 받으면 **보내기**&#x200B;를 다시 클릭하여 동일한 페이지 하단 이벤트를 두 번째로 다시 보냅니다. 잠시 기다린 다음 Bob 프로필에 대한 세 번째 데이터 수집 호출을 보냅니다. 총 3개의 페이지 하단 호출을 전송했습니다.
+4. 적절한 응답을 받으면 **보내기**&#x200B;를 다시 클릭하여 동일한 페이지 하단 이벤트를 두 번째로 다시 보냅니다. 잠시 기다린 다음 Bob 프로필에 대한 세 번째 데이터 수집 호출을 보냅니다. 총 3개의 페이지 하단 호출을 전송했습니다.
 
-이 시점에서 시스템은 이러한 히트를 처리하고 Bob을 &quot;dep: iPhone 17에 관심이 있음&quot; 스트리밍 세그먼트에 추가합니다. 작업이 완료되면 Bob이 여정에 포함됩니다. 여정에 들어오면 Bob이 여정 및 세그먼트로 들어가는 것이 Bob의 Edge Profile Store에 투영되는 데 몇 분이 소요됩니다.
+   이 시점에서 시스템은 이러한 히트를 처리하고 Bob을 &quot;dep: iPhone 17에 관심이 있음&quot; 스트리밍 세그먼트에 추가합니다. 작업이 완료되면 Bob이 여정에 포함됩니다. 여정에 들어오면 Bob이 여정 및 세그먼트로 들어가는 것이 Bob의 Edge Profile Store에 투영되는 데 몇 분이 소요됩니다.
 
-&#x200B;5. AJO UI로 돌아가서 왼쪽 레일에서 **프로필**&#x200B;을 클릭한 다음 **찾아보기** 탭을 클릭합니다.
-&#x200B;6. 값이 **287415903**&#x200B;인 **customerID** 네임스페이스를 사용하여 Bob의 프로필을 검색합니다.
+5. AJO UI로 돌아가서 왼쪽 레일에서 **프로필**&#x200B;을 클릭한 다음 **찾아보기** 탭을 클릭합니다.
+6. 값이 **287415903**&#x200B;인 **customerID** 네임스페이스를 사용하여 Bob의 프로필을 검색합니다.
 
-![customerID 네임스페이스를 사용하여 Bob의 프로필 검색](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
+   ![customerID 네임스페이스를 사용하여 Bob의 프로필 검색](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
 
-&#x200B;7. **보기**&#x200B;를 클릭하여 Bob의 프로필을 엽니다(Bob의 프로필 색상은 스크린샷에 표시된 것과 다를 수 있음).
+7. **보기**&#x200B;를 클릭하여 Bob의 프로필을 엽니다(Bob의 프로필 색상은 스크린샷에 표시된 것과 다를 수 있음).
 
-![Bob의 프로필 페이지가 AJO에서 열림](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
+   ![Bob의 프로필 페이지가 AJO에서 열림](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
 
-&#x200B;8. Bob의 프로필이 열리면 **대상 멤버십** 탭을 클릭하면 Bob이 이제 AEP Hub의 관점에서 &#39;dep: iPhone 17에 관심이 있음&#39; 세그먼트의 멤버임을 알 수 있습니다.
-&#x200B;9. **특성,**&#x200B;을 클릭한 다음 **Edge** 라디오 단추를 선택하여 Edge 보기로 전환합니다.
+8. Bob의 프로필이 열리면 **대상 멤버십** 탭을 클릭하면 Bob이 이제 AEP Hub의 관점에서 &#39;dep: iPhone 17에 관심이 있음&#39; 세그먼트의 멤버임을 알 수 있습니다.
+9. **특성,**&#x200B;을 클릭한 다음 **Edge** 라디오 단추를 선택하여 Edge 보기로 전환합니다.
 
-![프로필 보기를 전환할 수 있는 Edge 라디오 단추가 있는 특성 탭](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
+   ![프로필 보기를 전환할 수 있는 Edge 라디오 단추가 있는 특성 탭](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
 
->[!WARNING]
->
->라디오 단추를 Edge으로 전환하려면 속성 탭을 클릭해야 하는 UI 버그가 있습니다.
+   >[!WARNING]
+   >
+   >라디오 단추를 Edge으로 전환하려면 속성 탭을 클릭해야 하는 UI 버그가 있습니다.
 
 
 
-&#x200B;10. **대상 멤버십,**&#x200B;을 다시 클릭하면 해당 단계를 빠르게 수행한 경우, Edge이 선택되었고 Bob이 대상 멤버십이 없음을 표시합니다
+10. **대상 멤버십,**&#x200B;을 다시 클릭하면 해당 단계를 빠르게 수행한 경우, Edge이 선택되었고 Bob이 대상 멤버십이 없음을 표시합니다
 
 ![아직 대상 멤버십이 없는 Bob의 프로필 Edge 보기](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. 새 여정 탭에서 만든 브라우저로 이동한 다음 클릭합니다. 한 프로필이 여정에 들어갔고 이제 CBE 노드에 있음을 알 수 있습니다.
+11. 새 여정 탭에서 만든 브라우저로 이동한 다음 클릭합니다. 한 프로필이 여정에 들어갔고 이제 CBE 노드에 있음을 알 수 있습니다.
 
 ![입력한 Bob의 프로필과 CBE 노드를 보여 주는 여정 캔버스](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 이 시점에서 Bob이 여정에 들어갔고 Edge 프로젝션은 현재 Edge에서 Bob의 프로필을 업데이트하는 프로젝션을 어셈블하고 있습니다.
 
-&#x200B;12. Postman으로 다시 전환하고 Bob의 경험 이벤트 호출 중 두 번째 호출인 **Bob - 페이지 상단 가져오기**&#x200B;를 클릭합니다.
-&#x200B;13. **보내기**&#x200B;를 클릭합니다. 어떻게 해야 합니까?
+12. Postman으로 다시 전환하고 Bob의 경험 이벤트 호출 중 두 번째 호출인 **Bob - 페이지 상단 가져오기**&#x200B;를 클릭합니다.
+13. **보내기**&#x200B;를 클릭합니다. 어떻게 해야 합니까?
     - Bob의 Edge 프로필이 아직 업데이트되지 않은 경우 데이터 수집 호출에서 받은 것과 매우 유사한 응답을 받게 됩니다. 이 경우 1~2분 정도 기다린 후 Bob의 Page Top Fetch 호출을 다시 전송해 보십시오.
     - Bob의 Edge 프로필이 업데이트된 경우 보고에 사용되는 추가 정보와 함께 이전에 구성된 JSON이 포함된 응답을 받게 됩니다. 그러나 계속하기 전에, Bob이 제시해야 하는 iPhone 17의 제안은 무엇입니까?
 
@@ -118,19 +117,19 @@ Bob의 프로필로 시작합니다.
 
 ![Bob에 대해 반환된 기본 계층 오퍼를 표시하는 Postman 응답](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-&#x200B;14. 이 Postman 요청은 이 오퍼에 대한 디스플레이 알림을 자동으로 전송하므로 AJO은 이미 이 오퍼에 대해 하나 이상의 노출을 기록했습니다. 두 번째 노출을 보내려면 **보내기**&#x200B;를 다시 클릭하세요. 기본 오퍼가 다시 반환되었는지 확인합니다.
-&#x200B;15. 기본, Pro 및 Ultra 계층 모델에는 세 가지 노출 횟수의 주파수 캡이 적용된다는 점을 상기하십시오. 기본 계층에서 세 번째 응답을 받고 다른 노출을 기록하려면 **보내기**&#x200B;를 세 번째로 클릭합니다.
-&#x200B;16. **보내기**&#x200B;를 네 번째로 클릭합니다. 어떻게 해야 합니까? 기본 계층 오퍼의 빈도 상한에 도달하고 응답에서 일반 오퍼를 받게 됩니다.
+14. 이 Postman 요청은 이 오퍼에 대한 디스플레이 알림을 자동으로 전송하므로 AJO은 이미 이 오퍼에 대해 하나 이상의 노출을 기록했습니다. 두 번째 노출을 보내려면 **보내기**&#x200B;를 다시 클릭하세요. 기본 오퍼가 다시 반환되었는지 확인합니다.
+15. 기본, Pro 및 Ultra 계층 모델에는 세 가지 노출 횟수의 주파수 캡이 적용된다는 점을 상기하십시오. 기본 계층에서 세 번째 응답을 받고 다른 노출을 기록하려면 **보내기**&#x200B;를 세 번째로 클릭합니다.
+16. **보내기**&#x200B;를 네 번째로 클릭합니다. 어떻게 해야 합니까? 기본 계층 오퍼의 빈도 상한에 도달하고 응답에서 일반 오퍼를 받게 됩니다.
 
 ![빈도 상한에 도달한 후 반환된 일반 오퍼를 표시하는 Postman 응답](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. **보내기**&#x200B;를 다시 클릭하면 일반 계층 오퍼가 표시됩니다. 100번 더 보내기 를 클릭할 수 있으며, 빈도 캡핑이 재설정될 다음 날까지 동일한 오퍼를 다시 받을 수 있습니다.
+17. **보내기**&#x200B;를 다시 클릭하면 일반 계층 오퍼가 표시됩니다. 100번 더 보내기 를 클릭할 수 있으며, 빈도 캡핑이 재설정될 다음 날까지 동일한 오퍼를 다시 받을 수 있습니다.
 
 >[!WARNING]
 >
 >AJO에서는 그 날이 자정 GMT에 재설정된다는 것을 기억하십시오. 자정 GMT 이후에 다른 Fetch 호출을 전송하려면 대신 기본 계층 오퍼 반환이 표시됩니다.
 
-&#x200B;18. Journey Orchestration UI로 돌아가서 만든 **iPhone 17 찾아보기 중단** 여정을 클릭합니다. 여정이 라이브이고 게시되었으므로 통계가 표시됩니다. 1개의 프로필이 여정에 들어갔고 현재 CBE 노드에 있음을 알 수 있습니다.
+18. Journey Orchestration UI로 돌아가서 만든 **iPhone 17 찾아보기 중단** 여정을 클릭합니다. 여정이 라이브이고 게시되었으므로 통계가 표시됩니다. 1개의 프로필이 여정에 들어갔고 현재 CBE 노드에 있음을 알 수 있습니다.
 
 ![현재 CBE 노드에 있는 하나의 프로필을 표시하는 여정 보고](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
@@ -147,15 +146,15 @@ Bob의 프로필로 시작합니다.
 3. 세 프로필이 스트리밍 세그먼트에 대한 자격이 될 때까지 몇 분 정도 기다린 후 여정을 입력한 다음 CBE를 Edge 프로필에 투영하도록 합니다.
 4. Page Top Fetch 호출에서 필요한 만큼 여러 번 전송하여 Decisioning 규칙 및 등급 공식이 예상대로 작동하는지 확인합니다.
 
-**의사 결정 프로필: 필요한 동작**
+   **의사 결정 프로필: 필요한 동작**
 
-| 이름 | 성 | 첫 번째 오퍼 | 두 번째 오퍼 | 세 번째 오퍼 | 네 번째 오퍼 |
-| ---------- | ------------ | --------- | --------- | --------- | --------- |
-| Bob | 기본 | 기본 | 일반 | 일반 | 일반 |
-| 피터 | 전문가 | Pro | 기본 | 일반 | 일반 |
-| 우르술라 | Ultimate | Ultra | Pro | 기본 | 일반 |
+   | 이름 | 성 | 첫 번째 오퍼 | 두 번째 오퍼 | 세 번째 오퍼 | 네 번째 오퍼 |
+   | ---------- | ------------ | --------- | --------- | --------- | --------- |
+   | Bob | 기본 | 기본 | 일반 | 일반 | 일반 |
+   | 피터 | 전문가 | Pro | 기본 | 일반 | 일반 |
+   | 우르술라 | Ultimate | Ultra | Pro | 기본 | 일반 |
 
-&#x200B;5. 완료되면 여정으로 돌아갑니다. 3개의 프로필이 모두 여정에 들어갔고 CBE 노드에 있음을 알 수 있습니다.
+5. 완료되면 여정으로 돌아갑니다. 3개의 프로필이 모두 여정에 들어갔고 CBE 노드에 있음을 알 수 있습니다.
 
 >[!NOTE]
 >

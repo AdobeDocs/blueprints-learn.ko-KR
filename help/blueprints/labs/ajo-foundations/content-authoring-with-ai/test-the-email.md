@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 이메일 테스트
 description: Adobe Journey Optimizer에서 증명 이메일을 보내고 확인하여 활성화하기 전에 개인화된 콘텐츠 및 조건부 변형을 확인하는 방법에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,27 +32,27 @@ ht-degree: 0%
 1. **콘텐츠 시뮬레이션**&#x200B;을 클릭합니다.
 2. **콘텐츠 변형 시뮬레이션**&#x200B;을 선택합니다.
 
-![콘텐츠 시뮬레이션을 클릭하고 콘텐츠 변형 시뮬레이션을 선택합니다](assets/content-simulation-click-simulate-content-variation.png)
+   ![콘텐츠 시뮬레이션을 클릭하고 콘텐츠 변형 시뮬레이션을 선택합니다](assets/content-simulation-click-simulate-content-variation.png)
 
-시뮬레이션 패널이 열립니다.
+   시뮬레이션 패널이 열립니다.
 
-&#x200B;3. **증명 보내기**&#x200B;를 클릭합니다.
+3. **증명 보내기**&#x200B;를 클릭합니다.
 
-![시뮬레이션 패널의 증명 보내기](assets/test-the-email-click-send-proof-button.png)
+   ![시뮬레이션 패널의 증명 보내기](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. 개인 이메일 주소를 추가합니다.
+4. 개인 이메일 주소를 추가합니다.
 
->[!NOTE]
->
->회사 이메일이 샌드박스에서 이메일을 차단하는 경우가 가끔 있습니다. 개인 이메일을 사용하는 것이 좋습니다.
+   >[!NOTE]
+   >
+   >회사 이메일이 샌드박스에서 이메일을 차단하는 경우가 가끔 있습니다. 개인 이메일을 사용하는 것이 좋습니다.
 
 
 
-&#x200B;5. 두 변형을 모두 선택합니다.
-&#x200B;6. 제목 줄 접두사 추가
+5. 두 변형을 모두 선택합니다.
+6. 제목 줄 접두사 추가
    1. 변형 1: 40 이상
    2. 변형 2: 40 미만
-&#x200B;7. **증명 보내기**&#x200B;를 클릭합니다. 녹색 확인 메시지 &quot;**증명을 보냈습니다**&quot;가 표시됩니다.
+7. **증명 보내기**&#x200B;를 클릭합니다. 녹색 확인 메시지 &quot;**증명을 보냈습니다**&quot;가 표시됩니다.
 
 ![증명을 성공적으로 보냈음을 나타내는 녹색 확인 메시지](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

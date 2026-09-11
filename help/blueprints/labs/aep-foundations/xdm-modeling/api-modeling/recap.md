@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 요약
 description: JSON 패치를 통해 고객 계정 스키마를 만들고 ID를 표시하며 조회 관계를 구축하는 등 API 모델링 랩 단계를 검토하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >먼저 축하합니다! API를 통해 빌드하는 것은 쉽지 않지만, 작동 방식을 이해하면 시스템 전반을 이해하는 데 도움이 됩니다. 쿠도스!
 

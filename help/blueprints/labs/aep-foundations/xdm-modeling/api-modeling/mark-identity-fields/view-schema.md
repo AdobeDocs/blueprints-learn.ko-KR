@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 스키마 보기
 description: UI 및 API를 통해 스키마의 ID 설명자를 보고, 해결된 스키마 응답과 해결되지 않은 스키마 응답에 대해 Accept 헤더 옵션을 비교합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -28,13 +27,13 @@ ht-degree: 0%
 
 1. `Step 3 - Get Customer Account Schema and its descriptors` API를 클릭하여 선택합니다.
 
-![3단계 - 설명자가 있는 고객 계정 스키마 가져오기 API 요청](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "3단계 - 설명자가 있는 고객 계정 스키마 가져오기")
+   ![3단계 - 설명자가 있는 고객 계정 스키마 가져오기 API 요청](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "3단계 - 설명자가 있는 고객 계정 스키마 가져오기")
 
 
 
 1. 요청의 URL에서 `<replace me>`을(를) 아래와 같이 이전 섹션(스키마 만들기)에서 호출 끝까지 저장한 `$meta:altId`(으)로 바꿉니다
 
-![altId가 URL에 추가된 최종 5단계 요청](assets/view-schema-final-step-5-request.png "최종 5단계 요청")
+   ![altId가 URL에 추가된 최종 5단계 요청](assets/view-schema-final-step-5-request.png "최종 5단계 요청")
 
 
 
@@ -61,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->여기에서 다양한 Accept 헤더에 대해 자세히 읽어볼 수 있습니다. -> [Experience League 스키마 API 끝점](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=ko#lookup)
+>여기에서 다양한 Accept 헤더에 대해 자세히 읽어볼 수 있습니다. -> [Experience League 스키마 API 끝점](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 
