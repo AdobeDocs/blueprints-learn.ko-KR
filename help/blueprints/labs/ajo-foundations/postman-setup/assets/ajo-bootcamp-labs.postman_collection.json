@@ -1,0 +1,1124 @@
+{
+  "info": {
+    "_postman_id": "1ebaf407-b23a-4d18-9234-09d5972f0280",
+    "name": "AJO Bootcamp (Labs)",
+    "description": "Set of Postman calls for the Data Platform Workshop",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27209882"
+  },
+  "item": [
+    {
+      "name": "Profile & Journey Labs",
+      "item": [
+        {
+          "name": "Create Web Event",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "dataStreamId",
+                "value": "",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"event\": {\n        \"xdm\": {\n            \"_id\": \"{{$randomUUID}}\",\n            \"timestamp\": \"{{$isoTimestamp}}\",\n            \"eventType\": \"web.webpagedetails.pageViews\",\n            \"web\": {\n                \"webPageDetails\": {\n                    \"name\": \"iPhone 17\"\n                }\n            },\n            \"identityMap\": {\n                \"email\": [\n                    {\n                        \"id\": \"henry.creel@emailsim.io\",\n                        \"primary\": true\n                    }\n                ],\n                \"ecid\": [\n                    {\n                        \"id\": \"83284624341756587728281096462541849724\"\n                    }\n                ]\n            }\n        }\n    }\n}"
+            },
+            "url": {
+              "raw": "https://edge.adobedc.net/ee/{{EDGE_REGION}}/v2/interact?dataStreamId={{DATASTREAM_CONFIG}}",
+              "protocol": "https",
+              "host": [
+                "edge",
+                "adobedc",
+                "net"
+              ],
+              "path": [
+                "ee",
+                "{{EDGE_REGION}}",
+                "v2",
+                "interact"
+              ],
+              "query": [
+                {
+                  "key": "dataStreamId",
+                  "value": "{{DATASTREAM_CONFIG}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Ship Order Event",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "exec": [
+                  "//Ensure flow id is set before executing\r",
+                  "if (pm.request.headers.get(\"x-adobe-flow-id\").length < 1)\r",
+                  "{\r",
+                  "     throw new Error(\"You forgot to update the header 'x-adobe-flow-id' in your request\")\r",
+                  "}\r",
+                  "//Ensure email is set before executing\r",
+                  "let body = pm.request.body.raw ? JSON.parse(pm.request.body.raw) : {};\r",
+                  "if (!body._dxp.personalEmail)\r",
+                  "{\r",
+                  "     throw new Error(\"You forgot to update the 'email' in the body of your request\")\r",
+                  "}"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "x-adobe-flow-id",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"eventType\": \"orders.shipped\",\n    \"timestamp\": \"{{$isoTimestamp}}\",\n    \"_id\": \"{{$randomUUID}}\",\n    \"_dxp\": {\n        \"personalEmail\": \"henry.creel@emailsim.io\"\n    },\n    \"order\": {\n        \"orderID\": \"{{$randomUUID}}\"\n    },\n    \"shipping\": {\n        \"shipDate\": \"{{$isoTimestamp}}\"\n    }\n}"
+            },
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {},
+            "exec": [
+              ""
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {},
+            "exec": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Decisioning Lab",
+      "item": [
+        {
+          "name": "Bob - Page Bottom Data Collection (Connection 5G iPhone 17 Page)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "followRedirects": true,
+            "disableUrlEncoding": false,
+            "disableCookies": false
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Insomnia/2023.5.7-adobe"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\n      \"xdm\": {\n        \"eventType\": \"web.webpagedetails.pageViews\",\n\t\t\t\t\"identityMap\":{\n\t\t\t\t\t\t\"ECID\":[\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"34566216966446312560595171785271630085\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"ambiguous\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":false\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t],\n\t\t\t\t\t \"customerID\":[\n\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"287415903\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"authenticated\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t ]\n\t\t\t\t},\n        \"web\": {\n          \"webPageDetails\": {\n\t\t\t\t\t\t\"name\":\"phones:apple:iphone 17:overview\",\n            \"URL\": \"https://connection5g.com/phones/apple/iphone17.html\"\n          },\n          \"webReferrer\": {\n            \"URL\": \"https://www.google.com/\"\n          }\n        },\n        \"device\": {\n          \"screenHeight\": 960,\n          \"screenWidth\": 1707,\n          \"screenOrientation\": \"landscape\"\n        },\n        \"environment\": {\n          \"type\": \"browser\",\n          \"browserDetails\": {\n            \"viewportWidth\": 1692,\n            \"viewportHeight\": 150\n          }\n        },\n        \"placeContext\": {\n          \"localTimezoneOffset\": 360,\n          \"localTime\": \"{{$isoTimestamp}}\"\n        },\n        \"timestamp\": \"{{$isoTimestamp}}\"\n\t\t\t}\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://edge.adobedc.net/ee/{{EDGE_REGION}}/v1/interact?configId={{DATASTREAM_CONFIG}}",
+              "protocol": "https",
+              "host": [
+                "edge",
+                "adobedc",
+                "net"
+              ],
+              "path": [
+                "ee",
+                "{{EDGE_REGION}}",
+                "v1",
+                "interact"
+              ],
+              "query": [
+                {
+                  "key": "configId",
+                  "value": "{{DATASTREAM_CONFIG}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Bob - Page Top Fetch (Connection 5G Homepage)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "\r",
+                  "// Parse the response from Request A\r",
+                  "const jsonData = pm.response.json();\r",
+                  "\r",
+                  "// Helper: safe array check\r",
+                  "function isArray(x) { return Array.isArray(x); }\r",
+                  "\r",
+                  "// 1) Find the handle entry with type \"personalization:decisions\"\r",
+                  "const decisionHandle = isArray(jsonData.handle)\r",
+                  "  ? jsonData.handle.find(function (h) { return h && h.type === \"personalization:decisions\"; })\r",
+                  "  : null;\r",
+                  "\r",
+                  "if (!decisionHandle || !isArray(decisionHandle.payload)) {\r",
+                  "  console.log(\"No personalization:decisions section found.\");\r",
+                  "} else {\r",
+                  "  // 2) Find the first payload that has id, scope, and scopeDetails\r",
+                  "  const matchedObject = decisionHandle.payload.find(function (obj) {\r",
+                  "    return obj && obj.id && obj.scope && obj.scopeDetails;\r",
+                  "  });\r",
+                  "//console.log(matchedObject);\r",
+                  "\r",
+                  "  if (!matchedObject) {\r",
+                  "    console.log(\"No matching payload object with id, scope, and scopeDetails found.\");\r",
+                  "  } else {\r",
+                  "\r",
+                  "    const matchedObjectNoItems = {\r",
+                  "      id: matchedObject.id,\r",
+                  "      scope: matchedObject.scope,\r",
+                  "      scopeDetails: matchedObject.scopeDetails,\r",
+                  "    };\r",
+                  "    //console.log(matchedObjectNoItems);\r",
+                  "\r",
+                  "    // 3) Extract tokens from an item (supports item.token or item.data.content[].trackingToken)\r",
+                  "    function extractTokensFromItem(item) {\r",
+                  "      var tokens = [];\r",
+                  "\r",
+                  "      // Some responses use item.token\r",
+                  "      if (item && typeof item.token === \"string\" && item.token.length) {\r",
+                  "        tokens.push(item.token);\r",
+                  "      }\r",
+                  "\r",
+                  "      // Others embed tokens under item.data.content[].trackingToken\r",
+                  "      var content = item && item.data && item.data.content;\r",
+                  "      if (isArray(content)) {\r",
+                  "        for (var i = 0; i < content.length; i++) {\r",
+                  "          var c = content[i];\r",
+                  "          if (c && typeof c.trackingToken === \"string\" && c.trackingToken.length) {\r",
+                  "            tokens.push(c.trackingToken);\r",
+                  "          }\r",
+                  "        }\r",
+                  "      }\r",
+                  "\r",
+                  "      // Deduplicate\r",
+                  "      var seen = {};\r",
+                  "      var unique = [];\r",
+                  "      for (var j = 0; j < tokens.length; j++) {\r",
+                  "        var t = tokens[j];\r",
+                  "        if (!seen[t]) {\r",
+                  "          seen[t] = true;\r",
+                  "          unique.push(t);\r",
+                  "        }\r",
+                  "      }\r",
+                  "      return unique;\r",
+                  "    }\r",
+                  "\r",
+                  "    // 4) Build propositionAction from the first item\r",
+                  "    var firstItem = isArray(matchedObject.items) ? matchedObject.items[0] : null;\r",
+                  "    var propositionAction = null;\r",
+                  "\r",
+                  "    if (firstItem && firstItem.id) {\r",
+                  "      var tokens = extractTokensFromItem(firstItem);\r",
+                  "      if (tokens.length > 0) {\r",
+                  "        propositionAction = {\r",
+                  "          id: firstItem.id,\r",
+                  "          tokens: tokens\r",
+                  "        };\r",
+                  "      } else {\r",
+                  "        console.warn(\"Found item but no tokens present (item.token or content[].trackingToken missing).\");\r",
+                  "      }\r",
+                  "    } else {\r",
+                  "      console.warn(\"No items found in the matched proposition to build propositionAction.\");\r",
+                  "    }\r",
+                  "\r",
+                  "    // 5) Generate ISO timestamp\r",
+                  "    var isoTimestamp = new Date().toISOString();\r",
+                  "\r",
+                  "    // 6) Build full XDM event body (standard WebSDK event + dynamic proposition + propositionAction)\r",
+                  "    var decisioningNode = {\r",
+                  "      propositions: [matchedObjectNoItems],\r",
+                  "      propositionEventType: {\r",
+                  "        display: 1\r",
+                  "      }\r",
+                  "    };\r",
+                  "\r",
+                  "    // Append propositionAction only if present\r",
+                  "    if (propositionAction) {\r",
+                  "      decisioningNode.propositionAction = propositionAction;\r",
+                  "    }\r",
+                  "\r",
+                  "    var requestBody = {\r",
+                  "      events: [\r",
+                  "        {\r",
+                  "          xdm: {\r",
+                  "            eventType: \"decisioning.propositionDisplay\",\r",
+                  "            identityMap: {\r",
+                  "              ECID: [\r",
+                  "                {\r",
+                  "                  id: \"34566216966446312560595171785271630085\",\r",
+                  "                  authenticatedState: \"ambiguous\",\r",
+                  "                  primary: false\r",
+                  "                }\r",
+                  "              ],\r",
+                  "              customerID: [\r",
+                  "                {\r",
+                  "                  id: \"287415903\",\r",
+                  "                  authenticatedState: \"authenticated\",\r",
+                  "                  primary: true\r",
+                  "                }\r",
+                  "              ]\r",
+                  "            },\r",
+                  "            _experience: {\r",
+                  "              decisioning: decisioningNode\r",
+                  "            },\r",
+                  "            web: {\r",
+                  "              webPageDetails: {\r",
+                  "                URL: \"https://connection5g.com/home\"\r",
+                  "              },\r",
+                  "              webReferrer: {\r",
+                  "                URL: \"https://www.google.com/\"\r",
+                  "              }\r",
+                  "            },\r",
+                  "            device: {\r",
+                  "              screenHeight: 960,\r",
+                  "              screenWidth: 1707,\r",
+                  "              screenOrientation: \"landscape\"\r",
+                  "            },\r",
+                  "            environment: {\r",
+                  "              type: \"browser\",\r",
+                  "              browserDetails: {\r",
+                  "                viewportWidth: 1692,\r",
+                  "                viewportHeight: 150\r",
+                  "              }\r",
+                  "            },\r",
+                  "            placeContext: {\r",
+                  "              localTimezoneOffset: 360,\r",
+                  "              localTime: isoTimestamp\r",
+                  "            },\r",
+                  "            timestamp: isoTimestamp\r",
+                  "          }\r",
+                  "        }\r",
+                  "      ]\r",
+                  "    };\r",
+                  "\r",
+                  "    // 7) Use environment variable for configId in the request URL\r",
+                  "    var edge_region = pm.environment.get(\"EDGE_REGION\");\r",
+                  "    var configId = pm.environment.get(\"DATASTREAM_CONFIG\");\r",
+                  "    if (!configId || !edge_region) {\r",
+                  "      console.error(\"Missing environment variable: DATASTREAM_CONFIG or EDGE_REGION\");\r",
+                  "    } else {\r",
+                  "      // 8) Send the second request to Adobe Edge\r",
+                  "      pm.sendRequest(\r",
+                  "        {\r",
+                  "          url: \"https://edge.adobedc.net/ee/\"+edge_region+\"/v1/interact?configId=\" + encodeURIComponent(configId),\r",
+                  "          method: \"POST\",\r",
+                  "          header: {\r",
+                  "            \"Content-Type\": \"application/json\"\r",
+                  "          },\r",
+                  "          body: {\r",
+                  "            mode: \"raw\",\r",
+                  "            raw: JSON.stringify(requestBody)\r",
+                  "          }\r",
+                  "        },\r",
+                  "        function (err, res) {\r",
+                  "          if (err) {\r",
+                  "            console.error(\"Second request error:\", err);\r",
+                  "          } else {\r",
+                  "            // Safely try to log JSON; fall back to text if parsing fails\r",
+                  "            try {\r",
+                  "              var j = res.json();\r",
+                  "              console.log(\"Second request response (JSON):\", j);\r",
+                  "            } catch (e) {\r",
+                  "              console.log(\"Second request response (text):\", res.text());\r",
+                  "            }\r",
+                  "          }\r",
+                  "        }\r",
+                  "      );\r",
+                  "    }\r",
+                  "   }\r",
+                  "}"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "followRedirects": true,
+            "disableUrlEncoding": false,
+            "disableCookies": false
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Insomnia/2023.5.7-adobe"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\n      \"xdm\": {\n        \"eventType\": \"decisioning.propositionFetch\",\n\t\t\t\t\"identityMap\":{\n\t\t\t\t\t\t\"ECID\":[\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"34566216966446312560595171785271630085\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"ambiguous\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":false\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t],\n\t\t\t\t\t \"customerID\":[\n\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"287415903\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"authenticated\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t ]\n\t\t\t\t},\n        \"web\": {\n          \"webPageDetails\": {\n            \"URL\": \"https://connection5g.com/home\"\n          },\n          \"webReferrer\": {\n            \"URL\": \"https://www.google.com/\"\n          }\n        },\n        \"device\": {\n          \"screenHeight\": 960,\n          \"screenWidth\": 1707,\n          \"screenOrientation\": \"landscape\"\n        },\n        \"environment\": {\n          \"type\": \"browser\",\n          \"browserDetails\": {\n            \"viewportWidth\": 1692,\n            \"viewportHeight\": 150\n          }\n        },\n        \"placeContext\": {\n          \"localTimezoneOffset\": 360,\n          \"localTime\": \"{{$isoTimestamp}}\"\n        },\n        \"timestamp\": \"{{$isoTimestamp}}\"\n      },\n      \"query\": {\n        \"personalization\": {\n          \"schemas\": [\n            \"https://ns.adobe.com/personalization/default-content-item\",\n            \"https://ns.adobe.com/personalization/html-content-item\",\n            \"https://ns.adobe.com/personalization/json-content-item\",\n            \"https://ns.adobe.com/personalization/redirect-item\",\n            \"https://ns.adobe.com/personalization/ruleset-item\",\n            \"https://ns.adobe.com/personalization/message/in-app\",\n            \"https://ns.adobe.com/personalization/message/content-card\",\n            \"https://ns.adobe.com/personalization/dom-action\"\n          ],\n          \"decisionScopes\": [\n            \"__view__\"\n          ],\n          \"surfaces\": [\n            \"web://connection5g.com/home#jsonOfferContainer\"\n          ]\n        }\n      }\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://edge.adobedc.net/ee/{{EDGE_REGION}}/v1/interact?configId={{DATASTREAM_CONFIG}}",
+              "protocol": "https",
+              "host": [
+                "edge",
+                "adobedc",
+                "net"
+              ],
+              "path": [
+                "ee",
+                "{{EDGE_REGION}}",
+                "v1",
+                "interact"
+              ],
+              "query": [
+                {
+                  "key": "configId",
+                  "value": "{{DATASTREAM_CONFIG}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Peter - Page Bottom Data Collection (Connection 5G iPhone 17 Page)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "followRedirects": true,
+            "disableUrlEncoding": false,
+            "disableCookies": false
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Insomnia/2023.5.7-adobe"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\n      \"xdm\": {\n        \"eventType\": \"web.webpagedetails.pageViews\",\n\t\t\t\t\"identityMap\":{\n\t\t\t\t\t\t\"ECID\":[\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"22344522145769262754334953788432801285\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"ambiguous\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":false\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t],\n\t\t\t\t\t \"customerID\":[\n\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"105946728\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"authenticated\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t ]\n\t\t\t\t},\n        \"web\": {\n          \"webPageDetails\": {\n\t\t\t\t\t\t\"name\":\"phones:apple:iphone 17:overview\",\n            \"URL\": \"https://connection5g.com/phones/apple/iphone17.html\"\n          },\n          \"webReferrer\": {\n            \"URL\": \"https://www.google.com/\"\n          }\n        },\n        \"device\": {\n          \"screenHeight\": 960,\n          \"screenWidth\": 1707,\n          \"screenOrientation\": \"landscape\"\n        },\n        \"environment\": {\n          \"type\": \"browser\",\n          \"browserDetails\": {\n            \"viewportWidth\": 1692,\n            \"viewportHeight\": 150\n          }\n        },\n        \"placeContext\": {\n          \"localTimezoneOffset\": 360,\n          \"localTime\": \"{{$isoTimestamp}}\"\n        },\n        \"timestamp\": \"{{$isoTimestamp}}\"\n\t\t\t}\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://edge.adobedc.net/ee/{{EDGE_REGION}}/v1/interact?configId={{DATASTREAM_CONFIG}}",
+              "protocol": "https",
+              "host": [
+                "edge",
+                "adobedc",
+                "net"
+              ],
+              "path": [
+                "ee",
+                "{{EDGE_REGION}}",
+                "v1",
+                "interact"
+              ],
+              "query": [
+                {
+                  "key": "configId",
+                  "value": "{{DATASTREAM_CONFIG}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Peter - Page Top Fetch (Connection 5G Homepage)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "\r",
+                  "// Parse the response from Request A\r",
+                  "const jsonData = pm.response.json();\r",
+                  "\r",
+                  "// Helper: safe array check\r",
+                  "function isArray(x) { return Array.isArray(x); }\r",
+                  "\r",
+                  "// 1) Find the handle entry with type \"personalization:decisions\"\r",
+                  "const decisionHandle = isArray(jsonData.handle)\r",
+                  "  ? jsonData.handle.find(function (h) { return h && h.type === \"personalization:decisions\"; })\r",
+                  "  : null;\r",
+                  "\r",
+                  "if (!decisionHandle || !isArray(decisionHandle.payload)) {\r",
+                  "  console.log(\"No personalization:decisions section found.\");\r",
+                  "} else {\r",
+                  "  // 2) Find the first payload that has id, scope, and scopeDetails\r",
+                  "  const matchedObject = decisionHandle.payload.find(function (obj) {\r",
+                  "    return obj && obj.id && obj.scope && obj.scopeDetails;\r",
+                  "  });\r",
+                  "//console.log(matchedObject);\r",
+                  "\r",
+                  "  if (!matchedObject) {\r",
+                  "    console.log(\"No matching payload object with id, scope, and scopeDetails found.\");\r",
+                  "  } else {\r",
+                  "\r",
+                  "    const matchedObjectNoItems = {\r",
+                  "      id: matchedObject.id,\r",
+                  "      scope: matchedObject.scope,\r",
+                  "      scopeDetails: matchedObject.scopeDetails,\r",
+                  "    };\r",
+                  "    //console.log(matchedObjectNoItems);\r",
+                  "\r",
+                  "    // 3) Extract tokens from an item (supports item.token or item.data.content[].trackingToken)\r",
+                  "    function extractTokensFromItem(item) {\r",
+                  "      var tokens = [];\r",
+                  "\r",
+                  "      // Some responses use item.token\r",
+                  "      if (item && typeof item.token === \"string\" && item.token.length) {\r",
+                  "        tokens.push(item.token);\r",
+                  "      }\r",
+                  "\r",
+                  "      // Others embed tokens under item.data.content[].trackingToken\r",
+                  "      var content = item && item.data && item.data.content;\r",
+                  "      if (isArray(content)) {\r",
+                  "        for (var i = 0; i < content.length; i++) {\r",
+                  "          var c = content[i];\r",
+                  "          if (c && typeof c.trackingToken === \"string\" && c.trackingToken.length) {\r",
+                  "            tokens.push(c.trackingToken);\r",
+                  "          }\r",
+                  "        }\r",
+                  "      }\r",
+                  "\r",
+                  "      // Deduplicate\r",
+                  "      var seen = {};\r",
+                  "      var unique = [];\r",
+                  "      for (var j = 0; j < tokens.length; j++) {\r",
+                  "        var t = tokens[j];\r",
+                  "        if (!seen[t]) {\r",
+                  "          seen[t] = true;\r",
+                  "          unique.push(t);\r",
+                  "        }\r",
+                  "      }\r",
+                  "      return unique;\r",
+                  "    }\r",
+                  "\r",
+                  "    // 4) Build propositionAction from the first item\r",
+                  "    var firstItem = isArray(matchedObject.items) ? matchedObject.items[0] : null;\r",
+                  "    var propositionAction = null;\r",
+                  "\r",
+                  "    if (firstItem && firstItem.id) {\r",
+                  "      var tokens = extractTokensFromItem(firstItem);\r",
+                  "      if (tokens.length > 0) {\r",
+                  "        propositionAction = {\r",
+                  "          id: firstItem.id,\r",
+                  "          tokens: tokens\r",
+                  "        };\r",
+                  "      } else {\r",
+                  "        console.warn(\"Found item but no tokens present (item.token or content[].trackingToken missing).\");\r",
+                  "      }\r",
+                  "    } else {\r",
+                  "      console.warn(\"No items found in the matched proposition to build propositionAction.\");\r",
+                  "    }\r",
+                  "\r",
+                  "    // 5) Generate ISO timestamp\r",
+                  "    var isoTimestamp = new Date().toISOString();\r",
+                  "\r",
+                  "    // 6) Build full XDM event body (standard WebSDK event + dynamic proposition + propositionAction)\r",
+                  "    var decisioningNode = {\r",
+                  "      propositions: [matchedObjectNoItems],\r",
+                  "      propositionEventType: {\r",
+                  "        display: 1\r",
+                  "      }\r",
+                  "    };\r",
+                  "\r",
+                  "    // Append propositionAction only if present\r",
+                  "    if (propositionAction) {\r",
+                  "      decisioningNode.propositionAction = propositionAction;\r",
+                  "    }\r",
+                  "\r",
+                  "    var requestBody = {\r",
+                  "      events: [\r",
+                  "        {\r",
+                  "          xdm: {\r",
+                  "            eventType: \"decisioning.propositionDisplay\",\r",
+                  "            identityMap: {\r",
+                  "              ECID: [\r",
+                  "                {\r",
+                  "                  id: \"22344522145769262754334953788432801285\",\r",
+                  "                  authenticatedState: \"ambiguous\",\r",
+                  "                  primary: false\r",
+                  "                }\r",
+                  "              ],\r",
+                  "              customerID: [\r",
+                  "                {\r",
+                  "                  id: \"105946728\",\r",
+                  "                  authenticatedState: \"authenticated\",\r",
+                  "                  primary: true\r",
+                  "                }\r",
+                  "              ]\r",
+                  "            },\r",
+                  "            _experience: {\r",
+                  "              decisioning: decisioningNode\r",
+                  "            },\r",
+                  "            web: {\r",
+                  "              webPageDetails: {\r",
+                  "                URL: \"https://connection5g.com/home\"\r",
+                  "              },\r",
+                  "              webReferrer: {\r",
+                  "                URL: \"https://www.google.com/\"\r",
+                  "              }\r",
+                  "            },\r",
+                  "            device: {\r",
+                  "              screenHeight: 960,\r",
+                  "              screenWidth: 1707,\r",
+                  "              screenOrientation: \"landscape\"\r",
+                  "            },\r",
+                  "            environment: {\r",
+                  "              type: \"browser\",\r",
+                  "              browserDetails: {\r",
+                  "                viewportWidth: 1692,\r",
+                  "                viewportHeight: 150\r",
+                  "              }\r",
+                  "            },\r",
+                  "            placeContext: {\r",
+                  "              localTimezoneOffset: 360,\r",
+                  "              localTime: isoTimestamp\r",
+                  "            },\r",
+                  "            timestamp: isoTimestamp\r",
+                  "          }\r",
+                  "        }\r",
+                  "      ]\r",
+                  "    };\r",
+                  "\r",
+                  "    // 7) Use environment variable for configId in the request URL\r",
+                  "    var edge_region = pm.environment.get(\"EDGE_REGION\");\r",
+                  "    var configId = pm.environment.get(\"DATASTREAM_CONFIG\");\r",
+                  "    if (!configId || !edge_region) {\r",
+                  "      console.error(\"Missing environment variable: DATASTREAM_CONFIG or EDGE_REGION\");\r",
+                  "    } else {\r",
+                  "      // 8) Send the second request to Adobe Edge\r",
+                  "      pm.sendRequest(\r",
+                  "        {\r",
+                  "          url: \"https://edge.adobedc.net/ee/\"+edge_region+\"/v1/interact?configId=\" + encodeURIComponent(configId),\r",
+                  "          method: \"POST\",\r",
+                  "          header: {\r",
+                  "            \"Content-Type\": \"application/json\"\r",
+                  "          },\r",
+                  "          body: {\r",
+                  "            mode: \"raw\",\r",
+                  "            raw: JSON.stringify(requestBody)\r",
+                  "          }\r",
+                  "        },\r",
+                  "        function (err, res) {\r",
+                  "          if (err) {\r",
+                  "            console.error(\"Second request error:\", err);\r",
+                  "          } else {\r",
+                  "            // Safely try to log JSON; fall back to text if parsing fails\r",
+                  "            try {\r",
+                  "              var j = res.json();\r",
+                  "              console.log(\"Second request response (JSON):\", j);\r",
+                  "            } catch (e) {\r",
+                  "              console.log(\"Second request response (text):\", res.text());\r",
+                  "            }\r",
+                  "          }\r",
+                  "        }\r",
+                  "      );\r",
+                  "    }\r",
+                  "   }\r",
+                  "}"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "followRedirects": true,
+            "disableUrlEncoding": false,
+            "disableCookies": false
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Insomnia/2023.5.7-adobe"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\n      \"xdm\": {\n        \"eventType\": \"decisioning.propositionFetch\",\n\t\t\t\t\"identityMap\":{\n\t\t\t\t\t\t\"ECID\":[\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"22344522145769262754334953788432801285\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"ambiguous\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":false\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t],\n\t\t\t\t\t \"customerID\":[\n\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"105946728\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"authenticated\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t ]\n\t\t\t\t},\n        \"web\": {\n          \"webPageDetails\": {\n            \"URL\": \"https://connection5g.com/home\"\n          },\n          \"webReferrer\": {\n            \"URL\": \"https://www.google.com/\"\n          }\n        },\n        \"device\": {\n          \"screenHeight\": 960,\n          \"screenWidth\": 1707,\n          \"screenOrientation\": \"landscape\"\n        },\n        \"environment\": {\n          \"type\": \"browser\",\n          \"browserDetails\": {\n            \"viewportWidth\": 1692,\n            \"viewportHeight\": 150\n          }\n        },\n        \"placeContext\": {\n          \"localTimezoneOffset\": 360,\n          \"localTime\": \"{{$isoTimestamp}}\"\n        },\n        \"timestamp\": \"{{$isoTimestamp}}\"\n      },\n      \"query\": {\n        \"personalization\": {\n          \"schemas\": [\n            \"https://ns.adobe.com/personalization/default-content-item\",\n            \"https://ns.adobe.com/personalization/html-content-item\",\n            \"https://ns.adobe.com/personalization/json-content-item\",\n            \"https://ns.adobe.com/personalization/redirect-item\",\n            \"https://ns.adobe.com/personalization/ruleset-item\",\n            \"https://ns.adobe.com/personalization/message/in-app\",\n            \"https://ns.adobe.com/personalization/message/content-card\",\n            \"https://ns.adobe.com/personalization/dom-action\"\n          ],\n          \"decisionScopes\": [\n            \"__view__\"\n          ],\n          \"surfaces\": [\n            \"web://connection5g.com/home#jsonOfferContainer\"\n          ]\n        }\n      }\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://edge.adobedc.net/ee/{{EDGE_REGION}}/v1/interact?configId={{DATASTREAM_CONFIG}}",
+              "protocol": "https",
+              "host": [
+                "edge",
+                "adobedc",
+                "net"
+              ],
+              "path": [
+                "ee",
+                "{{EDGE_REGION}}",
+                "v1",
+                "interact"
+              ],
+              "query": [
+                {
+                  "key": "configId",
+                  "value": "{{DATASTREAM_CONFIG}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Ursula - Page Bottom Data Collection (Connection 5G iPhone 17 Page)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "followRedirects": true,
+            "disableUrlEncoding": false,
+            "disableCookies": false
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Insomnia/2023.5.7-adobe"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\n      \"xdm\": {\n        \"eventType\": \"web.webpagedetails.pageViews\",\n\t\t\t\t\"identityMap\":{\n\t\t\t\t\t\t\"ECID\":[\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"35615467908312308343036144243711275069\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"ambiguous\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":false\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t],\n\t\t\t\t\t \"customerID\":[\n\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"730682145\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"authenticated\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t ]\n\t\t\t\t},\n        \"web\": {\n          \"webPageDetails\": {\n\t\t\t\t\t\t\"name\":\"phones:apple:iphone 17:overview\",\n            \"URL\": \"https://connection5g.com/phones/apple/iphone17.html\"\n          },\n          \"webReferrer\": {\n            \"URL\": \"https://www.google.com/\"\n          }\n        },\n        \"device\": {\n          \"screenHeight\": 960,\n          \"screenWidth\": 1707,\n          \"screenOrientation\": \"landscape\"\n        },\n        \"environment\": {\n          \"type\": \"browser\",\n          \"browserDetails\": {\n            \"viewportWidth\": 1692,\n            \"viewportHeight\": 150\n          }\n        },\n        \"placeContext\": {\n          \"localTimezoneOffset\": 360,\n          \"localTime\": \"{{$isoTimestamp}}\"\n        },\n        \"timestamp\": \"{{$isoTimestamp}}\"\n\t\t\t}\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://edge.adobedc.net/ee/{{EDGE_REGION}}/v1/interact?configId={{DATASTREAM_CONFIG}}",
+              "protocol": "https",
+              "host": [
+                "edge",
+                "adobedc",
+                "net"
+              ],
+              "path": [
+                "ee",
+                "{{EDGE_REGION}}",
+                "v1",
+                "interact"
+              ],
+              "query": [
+                {
+                  "key": "configId",
+                  "value": "{{DATASTREAM_CONFIG}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Ursula - Page Top Fetch (Connection 5G Homepage)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "\r",
+                  "// Parse the response from Request A\r",
+                  "const jsonData = pm.response.json();\r",
+                  "\r",
+                  "// Helper: safe array check\r",
+                  "function isArray(x) { return Array.isArray(x); }\r",
+                  "\r",
+                  "// 1) Find the handle entry with type \"personalization:decisions\"\r",
+                  "const decisionHandle = isArray(jsonData.handle)\r",
+                  "  ? jsonData.handle.find(function (h) { return h && h.type === \"personalization:decisions\"; })\r",
+                  "  : null;\r",
+                  "\r",
+                  "if (!decisionHandle || !isArray(decisionHandle.payload)) {\r",
+                  "  console.log(\"No personalization:decisions section found.\");\r",
+                  "} else {\r",
+                  "  // 2) Find the first payload that has id, scope, and scopeDetails\r",
+                  "  const matchedObject = decisionHandle.payload.find(function (obj) {\r",
+                  "    return obj && obj.id && obj.scope && obj.scopeDetails;\r",
+                  "  });\r",
+                  "//console.log(matchedObject);\r",
+                  "\r",
+                  "  if (!matchedObject) {\r",
+                  "    console.log(\"No matching payload object with id, scope, and scopeDetails found.\");\r",
+                  "  } else {\r",
+                  "\r",
+                  "    const matchedObjectNoItems = {\r",
+                  "      id: matchedObject.id,\r",
+                  "      scope: matchedObject.scope,\r",
+                  "      scopeDetails: matchedObject.scopeDetails,\r",
+                  "    };\r",
+                  "    //console.log(matchedObjectNoItems);\r",
+                  "\r",
+                  "    // 3) Extract tokens from an item (supports item.token or item.data.content[].trackingToken)\r",
+                  "    function extractTokensFromItem(item) {\r",
+                  "      var tokens = [];\r",
+                  "\r",
+                  "      // Some responses use item.token\r",
+                  "      if (item && typeof item.token === \"string\" && item.token.length) {\r",
+                  "        tokens.push(item.token);\r",
+                  "      }\r",
+                  "\r",
+                  "      // Others embed tokens under item.data.content[].trackingToken\r",
+                  "      var content = item && item.data && item.data.content;\r",
+                  "      if (isArray(content)) {\r",
+                  "        for (var i = 0; i < content.length; i++) {\r",
+                  "          var c = content[i];\r",
+                  "          if (c && typeof c.trackingToken === \"string\" && c.trackingToken.length) {\r",
+                  "            tokens.push(c.trackingToken);\r",
+                  "          }\r",
+                  "        }\r",
+                  "      }\r",
+                  "\r",
+                  "      // Deduplicate\r",
+                  "      var seen = {};\r",
+                  "      var unique = [];\r",
+                  "      for (var j = 0; j < tokens.length; j++) {\r",
+                  "        var t = tokens[j];\r",
+                  "        if (!seen[t]) {\r",
+                  "          seen[t] = true;\r",
+                  "          unique.push(t);\r",
+                  "        }\r",
+                  "      }\r",
+                  "      return unique;\r",
+                  "    }\r",
+                  "\r",
+                  "    // 4) Build propositionAction from the first item\r",
+                  "    var firstItem = isArray(matchedObject.items) ? matchedObject.items[0] : null;\r",
+                  "    var propositionAction = null;\r",
+                  "\r",
+                  "    if (firstItem && firstItem.id) {\r",
+                  "      var tokens = extractTokensFromItem(firstItem);\r",
+                  "      if (tokens.length > 0) {\r",
+                  "        propositionAction = {\r",
+                  "          id: firstItem.id,\r",
+                  "          tokens: tokens\r",
+                  "        };\r",
+                  "      } else {\r",
+                  "        console.warn(\"Found item but no tokens present (item.token or content[].trackingToken missing).\");\r",
+                  "      }\r",
+                  "    } else {\r",
+                  "      console.warn(\"No items found in the matched proposition to build propositionAction.\");\r",
+                  "    }\r",
+                  "\r",
+                  "    // 5) Generate ISO timestamp\r",
+                  "    var isoTimestamp = new Date().toISOString();\r",
+                  "\r",
+                  "    // 6) Build full XDM event body (standard WebSDK event + dynamic proposition + propositionAction)\r",
+                  "    var decisioningNode = {\r",
+                  "      propositions: [matchedObjectNoItems],\r",
+                  "      propositionEventType: {\r",
+                  "        display: 1\r",
+                  "      }\r",
+                  "    };\r",
+                  "\r",
+                  "    // Append propositionAction only if present\r",
+                  "    if (propositionAction) {\r",
+                  "      decisioningNode.propositionAction = propositionAction;\r",
+                  "    }\r",
+                  "\r",
+                  "    var requestBody = {\r",
+                  "      events: [\r",
+                  "        {\r",
+                  "          xdm: {\r",
+                  "            eventType: \"decisioning.propositionDisplay\",\r",
+                  "            identityMap: {\r",
+                  "              ECID: [\r",
+                  "                {\r",
+                  "                  id: \"35615467908312308343036144243711275069\",\r",
+                  "                  authenticatedState: \"ambiguous\",\r",
+                  "                  primary: false\r",
+                  "                }\r",
+                  "              ],\r",
+                  "              customerID: [\r",
+                  "                {\r",
+                  "                  id: \"730682145\",\r",
+                  "                  authenticatedState: \"authenticated\",\r",
+                  "                  primary: true\r",
+                  "                }\r",
+                  "              ]\r",
+                  "            },\r",
+                  "            _experience: {\r",
+                  "              decisioning: decisioningNode\r",
+                  "            },\r",
+                  "            web: {\r",
+                  "              webPageDetails: {\r",
+                  "                URL: \"https://connection5g.com/home\"\r",
+                  "              },\r",
+                  "              webReferrer: {\r",
+                  "                URL: \"https://www.google.com/\"\r",
+                  "              }\r",
+                  "            },\r",
+                  "            device: {\r",
+                  "              screenHeight: 960,\r",
+                  "              screenWidth: 1707,\r",
+                  "              screenOrientation: \"landscape\"\r",
+                  "            },\r",
+                  "            environment: {\r",
+                  "              type: \"browser\",\r",
+                  "              browserDetails: {\r",
+                  "                viewportWidth: 1692,\r",
+                  "                viewportHeight: 150\r",
+                  "              }\r",
+                  "            },\r",
+                  "            placeContext: {\r",
+                  "              localTimezoneOffset: 360,\r",
+                  "              localTime: isoTimestamp\r",
+                  "            },\r",
+                  "            timestamp: isoTimestamp\r",
+                  "          }\r",
+                  "        }\r",
+                  "      ]\r",
+                  "    };\r",
+                  "\r",
+                  "    // 7) Use environment variable for configId in the request URL\r",
+                  "    var edge_region = pm.environment.get(\"EDGE_REGION\");\r",
+                  "    var configId = pm.environment.get(\"DATASTREAM_CONFIG\");\r",
+                  "    if (!configId || !edge_region) {\r",
+                  "      console.error(\"Missing environment variable: DATASTREAM_CONFIG or EDGE_REGION\");\r",
+                  "    } else {\r",
+                  "      // 8) Send the second request to Adobe Edge\r",
+                  "      pm.sendRequest(\r",
+                  "        {\r",
+                  "          url: \"https://edge.adobedc.net/ee/\"+edge_region+\"/v1/interact?configId=\" + encodeURIComponent(configId),\r",
+                  "          method: \"POST\",\r",
+                  "          header: {\r",
+                  "            \"Content-Type\": \"application/json\"\r",
+                  "          },\r",
+                  "          body: {\r",
+                  "            mode: \"raw\",\r",
+                  "            raw: JSON.stringify(requestBody)\r",
+                  "          }\r",
+                  "        },\r",
+                  "        function (err, res) {\r",
+                  "          if (err) {\r",
+                  "            console.error(\"Second request error:\", err);\r",
+                  "          } else {\r",
+                  "            // Safely try to log JSON; fall back to text if parsing fails\r",
+                  "            try {\r",
+                  "              var j = res.json();\r",
+                  "              console.log(\"Second request response (JSON):\", j);\r",
+                  "            } catch (e) {\r",
+                  "              console.log(\"Second request response (text):\", res.text());\r",
+                  "            }\r",
+                  "          }\r",
+                  "        }\r",
+                  "      );\r",
+                  "    }\r",
+                  "   }\r",
+                  "}"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "followRedirects": true,
+            "disableUrlEncoding": false,
+            "disableCookies": false
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Insomnia/2023.5.7-adobe"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\n      \"xdm\": {\n        \"eventType\": \"decisioning.propositionFetch\",\n\t\t\t\t\"identityMap\":{\n\t\t\t\t\t\t\"ECID\":[\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"35615467908312308343036144243711275069\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"ambiguous\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":false\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t],\n\t\t\t\t\t \"customerID\":[\n\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\"id\":\"730682145\",\n\t\t\t\t\t\t\t\t\t\t\"authenticatedState\":\"authenticated\",\n\t\t\t\t\t\t\t\t\t\t\"primary\":true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t ]\n\t\t\t\t},\n        \"web\": {\n          \"webPageDetails\": {\n            \"URL\": \"https://connection5g.com/home\"\n          },\n          \"webReferrer\": {\n            \"URL\": \"https://www.google.com/\"\n          }\n        },\n        \"device\": {\n          \"screenHeight\": 960,\n          \"screenWidth\": 1707,\n          \"screenOrientation\": \"landscape\"\n        },\n        \"environment\": {\n          \"type\": \"browser\",\n          \"browserDetails\": {\n            \"viewportWidth\": 1692,\n            \"viewportHeight\": 150\n          }\n        },\n        \"placeContext\": {\n          \"localTimezoneOffset\": 360,\n          \"localTime\": \"{{$isoTimestamp}}\"\n        },\n        \"timestamp\": \"{{$isoTimestamp}}\"\n      },\n      \"query\": {\n        \"personalization\": {\n          \"schemas\": [\n            \"https://ns.adobe.com/personalization/default-content-item\",\n            \"https://ns.adobe.com/personalization/html-content-item\",\n            \"https://ns.adobe.com/personalization/json-content-item\",\n            \"https://ns.adobe.com/personalization/redirect-item\",\n            \"https://ns.adobe.com/personalization/ruleset-item\",\n            \"https://ns.adobe.com/personalization/message/in-app\",\n            \"https://ns.adobe.com/personalization/message/content-card\",\n            \"https://ns.adobe.com/personalization/dom-action\"\n          ],\n          \"decisionScopes\": [\n            \"__view__\"\n          ],\n          \"surfaces\": [\n            \"web://connection5g.com/home#jsonOfferContainer\"\n          ]\n        }\n      }\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://edge.adobedc.net/ee/{{EDGE_REGION}}/v1/interact?configId={{DATASTREAM_CONFIG}}",
+              "protocol": "https",
+              "host": [
+                "edge",
+                "adobedc",
+                "net"
+              ],
+              "path": [
+                "ee",
+                "{{EDGE_REGION}}",
+                "v1",
+                "interact"
+              ],
+              "query": [
+                {
+                  "key": "configId",
+                  "value": "{{DATASTREAM_CONFIG}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
