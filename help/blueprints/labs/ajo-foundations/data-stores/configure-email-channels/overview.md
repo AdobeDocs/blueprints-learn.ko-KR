@@ -1,0 +1,29 @@
+---
+hold: true
+title: 이메일 채널 구성
+description: 오케스트레이션된 캠페인에 대해 AEP 프로필 속성을 사용하는 구성과 관계형 스키마 속성을 사용하는 두 개의 이메일 채널 구성을 구성합니다.
+doc-type: overview-page
+solution: Experience Platform
+exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
+source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
+
+---
+
+
+# 이메일 채널 구성
+
+## 랩 개요
+
+이 비디오에서는 이 실습에서 사용되는 두 개의 이메일 채널 구성을 만드는 방법에 대해 알아봅니다. 하나는 AEP 프로필 속성을 사용하고 다른 하나는 관계형 스키마 속성을 실행 주소로 사용합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3486540/)
+
+## 학습 목표
+
+- 오케스트레이션된 캠페인에 대한 AEP 프로필 속성을 사용하여 이메일 채널 구성
+- 오케스트레이션된 캠페인에 대한 관계형 스키마 속성을 사용하여 이메일 채널 구성
+
+다음 실습에서는 이메일 채널을 사용하여 한 구성을 다른 구성과 비교하여 사용하는 뉘앙스를 이해할 수 있습니다.
