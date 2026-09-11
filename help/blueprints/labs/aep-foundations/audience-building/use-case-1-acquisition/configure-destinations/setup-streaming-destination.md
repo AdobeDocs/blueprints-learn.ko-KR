@@ -91,7 +91,7 @@ Experience Platform UI에서 다음을 수행하여 대상 카탈로그로 이�
 >
 >Experience League의 거버넌스 정책에 대해 자세히 알아볼 수 있습니다
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions)
 
 ## 대상자 선택
 

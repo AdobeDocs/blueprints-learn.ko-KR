@@ -69,4 +69,4 @@ ht-degree: 0%
 
 이제 스키마 및 관계 UI 탐색이 얼마나 쉬운지 확인했습니다.  특정 스키마를 선택하고 관계로 이동하여 Campaign 오케스트레이션에서 데이터를 이해하고 사용하는 데 도움이 될 수 있습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/data-management/get-started-schemas)에서 더 읽을 수 있습니다.

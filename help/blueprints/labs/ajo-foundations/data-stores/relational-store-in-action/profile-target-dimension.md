@@ -108,4 +108,4 @@ ht-degree: 0%
 
 이제 스키마를 탐색하고, 속성을 ID로 표시하고, 프로필 대상 Dimension을 만드는 것이 얼마나 쉬운지 확인했습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)에서 더 읽을 수 있습니다.

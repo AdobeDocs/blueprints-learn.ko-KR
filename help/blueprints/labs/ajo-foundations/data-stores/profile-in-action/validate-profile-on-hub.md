@@ -74,7 +74,7 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 >
 >**segmentMembership을 읽는 방법**
 >
->[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** AEP에서 지원하는 다양한 종류의 대상을 위한 맵 키입니다.  ups 키에는 규칙 빌더에서 생성된 대상자가 포함되어 있습니다.  다른 대상은 다른 키(예: AAM)에 포함됩니다.
 >

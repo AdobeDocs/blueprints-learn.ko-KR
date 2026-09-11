@@ -21,7 +21,7 @@ ht-degree: 0%
 아래 링크에서 JSON PATCH에 대해 자세히 알아볼 수 있지만, 이 실습에서는 이 작동 방식에 대한 개념이 있다고 가정합니다. 😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
+- [Experience League API 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=ko#json-patch)
 
 ![누락된 계획 설명을 기존 스키마에 패치하는 다이어그램](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "누락된 필드 계획 설명에 패치")
 

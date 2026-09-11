@@ -80,4 +80,4 @@ ht-degree: 0%
 
 이제 관계형 스키마에서 올바른 타겟팅 차원을 선택하여 캠페인에서 대상 작성 활동을 사용하는 것이 얼마나 쉬운지 확인했습니다. 그런 다음 대상 작성 기준을 구체화하는 조건을 추가하고 새로 고침 옵션을 사용하여 예상 행 수를 확인했습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)에서 더 읽을 수 있습니다.
