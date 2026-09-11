@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 플래그십 폰 출시
 description: 플래그십 폰 출시 후 SMS 업그레이드 오퍼를 통해 계정 소유자와 개별 회선을 타깃팅하는 오케스트레이션된 캠페인 구축에 대한 개요를 살펴보십시오.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

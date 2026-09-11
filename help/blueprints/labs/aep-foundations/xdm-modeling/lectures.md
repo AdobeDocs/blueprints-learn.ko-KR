@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 강의
 description: XDM(Experience Data Model) 프레임워크 및 고급 XDM 개념을 설명하는 소개 비디오를 시청하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: fe99bc54-0fa1-4793-86e5-b61424ea6afb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

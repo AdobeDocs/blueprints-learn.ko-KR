@@ -1,11 +1,10 @@
 ---
-hold: true
 title: UI 모델링
 description: 소스 데이터를 XDM 표준 및 사용자 지정 개체에 매핑하고 스키마 UI를 사용하여 프로필용으로 스키마를 빌드하고 구성하는 방법에 대해 알아봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 66c3a386-7292-49e4-a75a-619e73c2a14d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%

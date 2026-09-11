@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 사용 사례
 description: 순차적 및 동적 대상 기능을 사용하여 구매 후 1주일 내에 주문을 취소하는 고객을 타겟팅하는 고객 지원 사용 사례를 정의합니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: aeef5e97-e66d-4332-bfde-38736343ea9d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

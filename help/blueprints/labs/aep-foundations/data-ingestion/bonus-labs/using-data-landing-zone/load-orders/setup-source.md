@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 소스 설정
 description: 데이터 랜딩 영역에 이전 주문 JSON 파일을 업로드하고 주문 스키마를 타겟팅하는 새 데이터 흐름을 구성합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 046d50ad-687e-4cdb-a8b1-3c55ab39b68e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%

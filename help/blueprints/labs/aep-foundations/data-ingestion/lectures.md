@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 강의
 description: Adobe Experience Platform의 일괄 처리 및 스트리밍 데이터 수집 아키텍처, 데이터 흐름 프레임워크 및 복잡한 데이터에 대한 데이터 준비에 대한 비디오 강의를 시청하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: fabcd658-2a40-4014-8135-1a6ce5d76c13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

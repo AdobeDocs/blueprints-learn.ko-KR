@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 비정규화
 description: LID 방법론의 비정규화 규칙을 적용하여 ERD의 브리지 및 종속 테이블을 상위 프로필, 이벤트 및 조회 테이블로 다시 접습니다.
 doc-type: article
 solution: Experience Platform
 exl-id: c98c9f58-03bc-4b28-becb-f84f3de04300
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%

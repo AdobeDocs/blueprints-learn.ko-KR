@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 액세스 토큰
 description: Postman에서 OAuth 서버 간 액세스 토큰을 생성하고 AEP API 호출 인증에 필요한 헤더를 이해합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%

@@ -1,12 +1,11 @@
 ---
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
 
 ---
 ﻿---
-hold: true
 title: 개요
 description: 브랜드, 브랜드 지침, 여정 및 템플릿에 대해 알아보고 Adobe Journey Optimizer의 콘텐츠 제작 도구를 탐색하는 방법에 대해 알아봅니다.
 doc-type: overview-page

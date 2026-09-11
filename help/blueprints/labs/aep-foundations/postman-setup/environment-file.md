@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 환경 파일
 description: Postman 환경 파일을 가져오고 부트캠프의 API 호출에 필요한 개발자 프로젝트 및 샌드박스 변수를 채웁니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%

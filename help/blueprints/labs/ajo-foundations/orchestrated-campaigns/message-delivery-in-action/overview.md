@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 작동 중인 메시지 게재
 description: 기본 계획 구성원을 타겟팅하고 AEP 프로필과 관계형 스키마 이메일 채널 간의 게재 동작을 비교하는 오케스트레이션된 캠페인 구축에 대한 개요를 확인합니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%

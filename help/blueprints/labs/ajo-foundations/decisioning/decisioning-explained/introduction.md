@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 소개
 description: AJO Decisioning이 기존 Offer Decisioning 엔진과 어떻게 다른지 소개하고 이 교육 과정에서 다룬 기본 요소를 간략하게 설명합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 43c915d9-56a2-409d-939a-e69baba01dfa
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%

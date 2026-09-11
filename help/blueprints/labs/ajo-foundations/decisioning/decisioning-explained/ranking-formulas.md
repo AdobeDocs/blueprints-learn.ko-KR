@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 등급 수식
 description: 수식 순위를 매겨 조건부 수학 표현식을 사용하여 프로필당 의사 결정 항목의 우선 순위 점수를 동적으로 조정하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 08183f1a-8db6-43c5-8b2e-05fa3d9c0f8d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 로그인 및 찾아보기
 description: 샌드박스 자격 증명으로 Adobe Experience Platform에 로그인하고 빠른 액세스 패널에서 플랫폼을 시작하는 방법에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%

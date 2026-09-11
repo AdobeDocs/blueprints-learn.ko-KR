@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 개요
 description: 실습형 랩을 통해 Adobe Journey Optimizer의 아키텍처, 여정 오케스트레이션, 오케스트레이션 캠페인, 의사 결정 및 실시간 고객 프로필을 살펴봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 1%

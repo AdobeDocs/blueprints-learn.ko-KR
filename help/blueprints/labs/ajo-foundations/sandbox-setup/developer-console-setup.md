@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Developer Console 설정
 description: DEP CLI에서 사용하는 Experience Platform 및 Journey Optimizer API에 대한 OAuth 서버 간 자격 증명으로 Adobe Developer Console 프로젝트를 만듭니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 8b8f2a3e-2f4a-4b0e-9c5a-6e0c2b7a1d4f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 레이블
 description: 관계형 데이터 웨어하우스 테이블에 LID 방법론의 일부로 XDM 개별 프로필, 경험 이벤트 또는 조회 클래스로 레이블을 지정합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 332ead7a-ca6e-4e30-bb35-8419c060c596
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

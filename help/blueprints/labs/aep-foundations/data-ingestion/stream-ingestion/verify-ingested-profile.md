@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 수집된 프로필 확인
 description: 기본 ID 네임스페이스를 사용하여 프로필 브라우저에서 스트리밍된 프로필을 조회하여 성공적인 수집을 확인합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%

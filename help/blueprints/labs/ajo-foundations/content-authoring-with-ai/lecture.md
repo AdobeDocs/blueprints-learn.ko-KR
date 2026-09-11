@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 강의
 description: 4계층 콘텐츠 구조 모델, AJO 및 AEM 콘텐츠 통합 패턴, 규모에 맞는 개인화를 위한 AI 지원 콘텐츠 거버넌스를 살펴보십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: 1ac39a70-51f8-426e-97cf-1ff08450d326
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%

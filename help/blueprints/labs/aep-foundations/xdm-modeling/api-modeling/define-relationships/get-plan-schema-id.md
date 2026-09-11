@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 계획 스키마 ID 가져오기
 description: 테넌트 스키마 레지스트리 API를 쿼리하여 관계 설명자에 사용할 계획 조회 스키마의 $id를 찾아 저장합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%

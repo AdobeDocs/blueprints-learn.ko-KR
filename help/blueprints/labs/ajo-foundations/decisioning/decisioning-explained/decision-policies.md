@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 의사 결정 정책
 description: 의사 결정 정책이 게재 채널에 선택 전략을 적용하는 방법과 개별 및 그룹화된 조합 방법이 오퍼 순서를 변경하는 방법을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 21dc67fd-76ac-4b82-ae78-be024c7bfc55
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%

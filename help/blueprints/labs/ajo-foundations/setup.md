@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 설정
 description: AJO Foundations 랩을 시작하기 전에 필요한 샌드박스 배포 및 Postman 구성 단계를 완료합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%

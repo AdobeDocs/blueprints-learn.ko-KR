@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 소스 설정
 description: HTTP API 스트리밍 계정을 만들고 데이터 흐름을 구성하여 고객 계정 JSON 데이터를 프로필 사용 데이터 세트로 스트리밍합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%

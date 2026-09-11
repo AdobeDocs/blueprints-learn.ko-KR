@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 실시간 고객 프로필 강의
 description: Adobe Journey Optimizer 여정의 기반이 되는 실시간 고객 프로필 데이터 저장소 아키텍처에 대한 비디오 강의를 시청하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: 1b38bf23-155b-4be7-9752-24adb0647dff
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%

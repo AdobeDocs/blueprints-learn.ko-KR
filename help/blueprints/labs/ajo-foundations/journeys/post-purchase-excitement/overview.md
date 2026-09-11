@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 구매 후 흥분
 description: 서드파티 API의 다이내믹 추적 세부 정보를 사용하여 배송 여정 이메일을 트리거하는 이벤트 기반 구매 후 추적을 빌드하는 방법을 알아봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%

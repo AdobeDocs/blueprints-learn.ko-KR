@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 매핑 만들기
 description: 이전 랩 기술을 적용하여 데이터 랜딩 영역 소스 파일을 대상 XDM 스키마에 독립적으로 매핑합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%

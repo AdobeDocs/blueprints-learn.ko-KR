@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 찾아보기 중단됨
 description: 채널 간에 개인화되고 자격 조건을 인식하는 전화 오퍼를 제공하는 엔드 투 엔드 포기 찾아보기 의사 결정 워크플로우를 빌드하는 방법을 알아봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

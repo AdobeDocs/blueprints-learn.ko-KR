@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 의사 결정 항목 만들기
 description: 의사 결정 항목 속성이 자격 설정과 어떻게 다른지, 또한 의사 결정 항목 및 노출 횟수와 의사 결정 이벤트에 대한 조직 수준의 가드레일을 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 28752ac1-118c-41d9-af6a-9907f854df1e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

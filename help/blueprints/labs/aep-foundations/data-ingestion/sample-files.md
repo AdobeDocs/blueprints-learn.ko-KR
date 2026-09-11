@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 샘플 파일
 description: AEP Foundations 데이터 수집 labs 전체에서 사용되는 샘플 데이터 파일을 다운로드합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 77be94b8-81f2-4372-a724-d0e5b12f5f9d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%

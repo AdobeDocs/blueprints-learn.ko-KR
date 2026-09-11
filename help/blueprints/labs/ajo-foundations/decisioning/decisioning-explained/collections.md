@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 컬렉션
 description: 컬렉션당 500개 항목 가드레일을 포함하여 속성 또는 메타데이터 규칙을 사용하여 의사 결정 항목을 컬렉션으로 그룹화하는 방법에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: b155ceb1-476f-4401-8158-f8abe7eb2f27
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 1%

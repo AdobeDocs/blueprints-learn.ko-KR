@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 필요 조건
 description: 데이터 모델링 랩을 시작하기 전에 LID 방법론의 교육 시나리오, 학습 목표 및 필수 워크시트를 검토하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: ba582b0b-37a8-4cbb-ba1d-43594f3dd17b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

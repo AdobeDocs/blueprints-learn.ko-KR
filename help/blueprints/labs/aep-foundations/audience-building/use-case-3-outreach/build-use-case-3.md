@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 빌드 사용 사례
 description: 컨테이너 변수를 사용하여 1주일 내에 동일한 주문에 대해 주문된 이벤트와 주문이 취소된 이벤트를 일치시키는 배치 대상을 작성합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 1부 - 나머지 테이블 유형
 description: 개별 프로필, 경험 이벤트 및 조회 ERD에서 비정규화가 필요한 브리지 테이블 및 테이블을 식별하고 레이블을 지정합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 742b58fa-3feb-4275-ab45-eb8d3aade22c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: ID 필드 표시
 description: ID 설명자가 XDM 스키마 레지스트리 API를 사용하여 스키마 필드를 기본 또는 비기본 ID로 표시하는 방법에 대해 알아봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

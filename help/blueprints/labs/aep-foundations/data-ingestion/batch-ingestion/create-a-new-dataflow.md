@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 새 데이터 흐름 만들기
 description: 기존 데이터 세트에 대해 배치 소스 데이터 흐름을 만들고 이전 데이터 흐름에서 매핑을 가져와서 설정 속도를 높입니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge 활성화
 description: Edge, 스트리밍 및 일괄 처리 활성화 속도가 어떻게 다른지 알아보고, 에지 세그먼트를 만들고 이벤트 전달을 구성하기 위한 랩 단계를 미리 봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%

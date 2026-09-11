@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 프로필 기본 사항
 description: 프로필 결합 스키마를 탐색하고 UI에서 프로필을 조회하고 해당 속성, ID 맵 및 ID 그래프 관계를 검사합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 0%

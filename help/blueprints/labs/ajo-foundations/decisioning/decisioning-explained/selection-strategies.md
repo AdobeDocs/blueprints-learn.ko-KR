@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 선택 전략
 description: 선택 전략의 세 가지 구성 요소와 항목 수준 대 전략 수준 자격 요건 및 순위 지정 방법이 함께 작동하는 방식에 대해 알아봅니다.
 doc-type: article
 solution: Experience Platform
 exl-id: d15cc038-f012-4988-b033-7080fb065110
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 표준 필드 그룹 가져오기
 description: 글로벌 스키마 레지스트리 API를 쿼리하여 고객 프로필 스키마를 구축하는 데 필요한 표준 XDM 필드 그룹의 $id를 찾아 저장합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%

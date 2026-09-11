@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 이메일 채널 구성
 description: 오케스트레이션된 캠페인에 대해 AEP 프로필 속성을 사용하는 구성과 관계형 스키마 속성을 사용하는 두 개의 이메일 채널 구성을 구성합니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 주문 로드
 description: 중첩된 JSON 주문 데이터를 일괄 수집하고 개체 복사 매핑을 사용하여 복잡한 필드-XDM 매핑을 간소화하는 방법에 대해 알아봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: df69545b-75e7-44da-95bb-a2d044934bf2
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%

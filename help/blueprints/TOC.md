@@ -6,7 +6,7 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 15%
@@ -145,12 +145,12 @@ ht-degree: 15%
       + [Journey Optimizer와 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
     + 더 이상 사용되지 않는 블루프린트{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ko/docs/campaign-standard){target="_blank"}
-        + [Adobe [!DNL Campaign Standard]이(가) 있는 Real-Time CDP](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+        + [Adobe [!DNL Campaign Standard]이(가) 있는 Real-Time CDP](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
-+ {hide-from-toc}실습 랩{#labs}
++ 실습형 랩{#labs}
   + [실습형 Labs 개요](/help/blueprints/labs/overview.md)
   + 실습형 워크숍{#workshops}
     + AEP 재단{#aep-foundations}

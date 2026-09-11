@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 사용 사례를 아키텍처에 매핑
 description: 실제 마케팅 사용 사례를 기반으로 오케스트레이션된 캠페인과 여정 중 선택하기 위한 구조화된 프레임워크를 적용하는 방법에 대해 알아봅니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 650e13e9-35d9-44a5-895f-8a7844e0614f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

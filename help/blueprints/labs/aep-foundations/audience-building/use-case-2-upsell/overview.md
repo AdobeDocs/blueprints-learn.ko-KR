@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 사용 사례
 description: 활성화를 위해 대상자 집계 접근 방식을 비교하여, 최종 전화 플랜 없이 데이터 사용량이 많은 고객을 타겟팅하는 업셀 사용 사례를 정의합니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

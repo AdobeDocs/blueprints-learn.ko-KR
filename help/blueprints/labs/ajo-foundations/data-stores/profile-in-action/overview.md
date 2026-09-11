@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 실행 중인 프로필
 description: 데이터스트림 만들기, 테스트 이벤트 보내기, 프로필 및 세그먼트 데이터 유효성 검사 등 Edge Network에서 Adobe Experience Platform으로 웹 페이지 방문 시뮬레이션 개요를 살펴보십시오.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 랩 개요
 description: 스키마 매핑 및 통과 수정 사항부터 데이터 흐름 디버깅 및 유효성 검사에 이르기까지 데이터 수집 Labs에 대한 목표와 계획을 검토하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: 04decc87-65d2-40b4-8c14-e2f7e911304d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%

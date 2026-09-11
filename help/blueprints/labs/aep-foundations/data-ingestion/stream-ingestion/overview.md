@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 스트림 수집
 description: 스트리밍 소스를 통해 스트리밍 인렛 및 REST API를 사용하여 고객 계정 데이터를 데이터 레이크 및 프로필에 로드합니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

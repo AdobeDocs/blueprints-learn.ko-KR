@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 프로필 클래스 가져오기
 description: 사용자 지정 스키마에서 사용하기 위해 XDM 개인 프로필 클래스의 $id를 검색하고 저장하려면 전역 스키마 레지스트리 API를 호출하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: d87c21a2-dad4-4666-b917-cdf8e16058d4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

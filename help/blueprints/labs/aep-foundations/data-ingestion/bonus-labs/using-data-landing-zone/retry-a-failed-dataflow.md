@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 실패한 데이터 흐름 다시 시도
 description: 새 데이터 흐름에서 업데이트된 매핑 규칙에 대해 소스 데이터가 다시 처리되도록 실패한 데이터 흐름 실행을 다시 시도하십시오.
 doc-type: article
 solution: Experience Platform
 exl-id: 83ecf037-e524-4887-b833-5ed96af40419
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
