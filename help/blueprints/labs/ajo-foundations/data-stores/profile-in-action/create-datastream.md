@@ -61,13 +61,13 @@ Edge 이벤트 처리를 활성화하는 데 필요한 서비스를 사용하여
 
 ![데이터 스트림 구성 화면의 서비스 추가 단추](assets/create-datastream-add-service-button.png)
 
-2. 다음 항목을 구성합니다.
+&#x200B;2. 다음 항목을 구성합니다.
    - **서비스** -> `Adobe Experience Platform`
    - **이벤트 데이터 세트** -> `dep: Web`
    - **프로필 데이터 세트** -> `dep: Customer Account`
    - **확인란 선택** -> `Offer Decisioning`
    - **확인란 선택** -> `Adobe Journey Optimizer`
-3. 완료되면 **저장** 클릭
+&#x200B;3. 완료되면 **저장** 클릭
 
 이벤트 및 프로필 데이터 세트 필드가 있는 ![Adobe Experience Platform 서비스 구성 대화 상자](assets/create-datastream-configure-aep-service.png)
 

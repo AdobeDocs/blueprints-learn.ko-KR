@@ -37,43 +37,43 @@ ht-degree: 0%
 
 ![전자 메일 세부 정보 창](assets/add-email-activities-email-details-pane.png)
 
-2. **전자 메일** 활동에 대해 **프로필 특성을 사용하는 전자 메일**(으)로 레이블 이름을 바꾸고 **전자 메일 편집**&#x200B;을 클릭합니다. 이메일 본문 생성은 테스트 목적으로만 사용됩니다
+&#x200B;2. **전자 메일** 활동에 대해 **프로필 특성을 사용하는 전자 메일**(으)로 레이블 이름을 바꾸고 **전자 메일 편집**&#x200B;을 클릭합니다. 이메일 본문 생성은 테스트 목적으로만 사용됩니다
 
 ![전자 메일 활동 레이블 이름을 바꾸고 전자 메일 편집을 클릭합니다](assets/add-email-activities-rename-and-edit-email.png)
 
-3. **작업** 탭을 선택하고 드롭다운에서 **프로필-이메일** 채널 구성을 선택합니다.
+&#x200B;3. **작업** 탭을 선택하고 드롭다운에서 **프로필-이메일** 채널 구성을 선택합니다.
 
 ![작업 탭에서 프로필-전자 메일 채널 구성 선택](assets/add-email-activities-select-profile-email-channel.png)
 
-4. 그런 다음 **콘텐츠 편집**&#x200B;을 클릭하여 일부 테스트 콘텐츠를 추가합니다.
+&#x200B;4. 그런 다음 **콘텐츠 편집**&#x200B;을 클릭하여 일부 테스트 콘텐츠를 추가합니다.
 
 ![테스트 콘텐츠를 추가하려면 콘텐츠 편집을 클릭합니다](assets/add-email-activities-edit-content.png)
 
-5. **제목 줄**(&quot;기본 계획 구성원을 위한 업그레이드 오퍼&quot;)을 제공하고 **이메일 본문 편집** 단추를 클릭하십시오.
+&#x200B;5. **제목 줄**(&quot;기본 계획 구성원을 위한 업그레이드 오퍼&quot;)을 제공하고 **이메일 본문 편집** 단추를 클릭하십시오.
 
 ![제목 줄 추가 및 전자 메일 본문 편집](assets/add-email-activities-subject-line-edit-body.png)
 
-6. 이 테스트에는 **직접 코드 작성** HTML 옵션을 선택할 수 있는 다양한 옵션이 있습니다.
+&#x200B;6. 이 테스트에는 **직접 코드 작성** HTML 옵션을 선택할 수 있는 다양한 옵션이 있습니다.
 
 ![자신의 HTML 옵션 코드 지정](assets/add-email-activities-code-your-own-html.png)
 
-7. **이메일 Designer**&#x200B;에서 &quot;업그레이드 오퍼 사용 가능!&quot; 테스트 행을 삽입합니다. 표시된 대로 `</body></html>` 태그 바로 앞에서 **저장**&#x200B;을 클릭합니다.
+&#x200B;7. **이메일 Designer**&#x200B;에서 &quot;업그레이드 오퍼 사용 가능!&quot; 테스트 행을 삽입합니다. 표시된 대로 `</body></html>` 태그 바로 앞에서 **저장**&#x200B;을 클릭합니다.
 
 ![전자 메일 Designer에 테스트 줄을 삽입하고 저장을 클릭하세요](assets/add-email-activities-email-designer-save.png)
 
-8. 오른쪽 아래 모서리에 확인 메시지가 나타날 때까지 기다립니다.
+&#x200B;8. 오른쪽 아래 모서리에 확인 메시지가 나타날 때까지 기다립니다.
 
 ![확인 메시지가 표시됩니다](assets/add-email-activities-confirmation-message.png)
 
-9. 종료하려면 **전자 메일 Designer** 옆에 있는 **왼쪽 화살표**&#x200B;를 클릭하십시오
+&#x200B;9. 종료하려면 **전자 메일 Designer** 옆에 있는 **왼쪽 화살표**&#x200B;를 클릭하십시오
 
 ![왼쪽 화살표를 클릭하여 전자 메일 Designer을 종료합니다](assets/add-email-activities-exit-email-designer.png)
 
-10. 확인 대화 상자가 나타나면 **저장 및 닫기** 단추를 클릭합니다.
+&#x200B;10. 확인 대화 상자가 나타나면 **저장 및 닫기** 단추를 클릭합니다.
 
 ![저장 및 닫기 단추가 있는 확인 대화 상자](assets/add-email-activities-save-and-close-dialog.png)
 
-11. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
+&#x200B;11. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
 
 ![Campaign 캔버스로 다시 이동](assets/add-email-activities-back-to-campaign-canvas.png)
 

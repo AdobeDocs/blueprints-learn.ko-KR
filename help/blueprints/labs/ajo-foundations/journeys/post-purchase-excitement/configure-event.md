@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ![구성 아래의 이벤트 타일에 있는 관리 단추](assets/configure-event-open-events-manage.png)
 
-2. 오른쪽 상단에서 **이벤트 만들기** 단추를 클릭합니다.
+&#x200B;2. 오른쪽 상단에서 **이벤트 만들기** 단추를 클릭합니다.
 
 ![오른쪽 상단의 이벤트 만들기 단추](assets/configure-event-click-create-event-button.png)
 
-3. 다음과 같이 이벤트의 설정을 업데이트합니다.
+&#x200B;3. 다음과 같이 이벤트의 설정을 업데이트합니다.
    - **이름** = `orderShipped`
    - **유형** = `Unitary`
    - **이벤트 ID 유형** = `Rule based`
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 단일 형식 및 dep로 구성된 ![orderShipped 이벤트: Orders v.1 스키마](assets/configure-event-set-name-type-schema.png)
 
-4. `Fields` 입력란에서 **연필 아이콘**&#x200B;을 클릭합니다.
+&#x200B;4. `Fields` 입력란에서 **연필 아이콘**&#x200B;을 클릭합니다.
 
 필드 입력 상자의 ![연필 아이콘](assets/configure-event-click-fields-pencil-icon.png)
 
-5. 이벤트에 추가할 다음 필드를 선택하고 완료되면 **확인** 단추를 클릭하십시오.
+&#x200B;5. 이벤트에 추가할 다음 필드를 선택하고 완료되면 **확인** 단추를 클릭하십시오.
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
@@ -63,19 +63,19 @@ ht-degree: 0%
 
 
 
-6. `Event Id condition input`에서 **연필 아이콘**&#x200B;을 클릭하세요.
+&#x200B;6. `Event Id condition input`에서 **연필 아이콘**&#x200B;을 클릭하세요.
 
 이벤트 ID 조건 입력의 ![연필 아이콘](assets/configure-event-click-event-id-condition-pencil.png)
 
-7. **`Event Type` 필드를 캔버스로 드래그**
+&#x200B;7. **`Event Type` 필드를 캔버스로 드래그**
 
 ![이벤트 유형 필드를 조건 캔버스로 끌어서 놓습니다](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-8. 표시되는 선택 상자에서 제목이 **orders.shipped.**&#x200B;인 값을 찾아 확인합니다. 그런 다음 **확인** 단추를 클릭합니다.
+&#x200B;8. 표시되는 선택 상자에서 제목이 **orders.shipped.**&#x200B;인 값을 찾아 확인합니다. 그런 다음 **확인** 단추를 클릭합니다.
 
 선택 상자에서 ![orders.shipped 값이 선택됨](assets/configure-event-select-orders-shipped-value.png)
 
-9. 그런 다음 네임스페이스 및 프로필 식별자의 마지막 두 값을 아래에 표시된 값으로 업데이트합니다.
+&#x200B;9. 그런 다음 네임스페이스 및 프로필 식별자의 마지막 두 값을 아래에 표시된 값으로 업데이트합니다.
    - **네임스페이스** —> `Email`
    - **프로필 식별자** —> `personalEmail`
 

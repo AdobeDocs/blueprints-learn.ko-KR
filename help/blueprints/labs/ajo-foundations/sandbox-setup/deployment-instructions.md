@@ -75,7 +75,7 @@ CLI는 환경 파일이 가리키는 샌드박스에 배포되므로 이를 올�
 | `SCOPES` | Experience Platform API 및 Adobe Journey Optimizer API 범위를 모두 포함해야 합니다&#x200B;<br />*(예: cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
 | `SANDBOX_NAME` | 타깃팅하는 샌드박스는 비어 있고 유형이 `dev`이어야 합니다. |
 
-3. 파일 저장 및 닫기
+&#x200B;3. 파일 저장 및 닫기
 
 >[!NOTE]
 >
@@ -118,7 +118,6 @@ CLI는 환경 파일이 가리키는 샌드박스에 배포되므로 이를 올�
 >[!NOTE]
 >
 >단계 4와 5를 개별적으로 실행하는 대신 단계 6을 사용하십시오. 이 작업은 처리된 전달 대기와 동일한 작업을 한 번에 수행합니다.
-
 > [!NOTE]
 >
 >위의 모든 대기 시간은 CLI에 의해 자동으로 확인됩니다. 단계를 너무 일찍 실행하면 단계가 차단되고 기다리는 시간을 알려줍니다.

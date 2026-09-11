@@ -87,19 +87,19 @@ ht-degree: 0%
 
 왼쪽 탐색에 Assets 옵션이 있는 ![콘텐츠 관리 섹션](assets/building-content-fragments-content-management-assets-nav.png)
 
-2. Assets 관리 섹션 아래의 **Assets**&#x200B;을(를) 클릭합니다.
+&#x200B;2. Assets 관리 섹션 아래의 **Assets**&#x200B;을(를) 클릭합니다.
 
 ![Assets 관리 섹션 아래의 Assets 옵션](assets/building-content-fragments-assets-under-assets-management.png)
 
-3. **&quot;폴더 만들기&quot;** 단추를 클릭하여 폴더를 만듭니다.
+&#x200B;3. **&quot;폴더 만들기&quot;** 단추를 클릭하여 폴더를 만듭니다.
 
 ![Assets 영역에서 폴더 만들기 단추](assets/building-content-fragments-click-create-folder-button.png)
 
-4. 이름과 성 같은 이름을 지정합니다. 예: Nish\_Pithia\_LabAssets(기억할 수 있는 항목)
+&#x200B;4. 이름과 성 같은 이름을 지정합니다. 예: Nish\_Pithia\_LabAssets(기억할 수 있는 항목)
 
 ![이름과 성을 사용하여 새 자산 폴더의 이름 지정](assets/building-content-fragments-name-asset-folder.png)
 
-5. **새 조각 만들기:** 콘텐츠 관리에서 **조각**&#x200B;을 클릭하고 새 조각을 만듭니다.
+&#x200B;5. **새 조각 만들기:** 콘텐츠 관리에서 **조각**&#x200B;을 클릭하고 새 조각을 만듭니다.
 
    새 조각을 만드는 콘텐츠 관리의 ![조각 옵션](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -113,35 +113,35 @@ ht-degree: 0%
 
    ![헤더 조각 이름, 설명 및 시각적 조각 유형 필드](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. 오른쪽 상단의 **만들기 단추**&#x200B;를 클릭합니다.
+&#x200B;6. 오른쪽 상단의 **만들기 단추**&#x200B;를 클릭합니다.
 
 ![새 조각 대화 상자의 오른쪽 맨 위에 있는 만들기 단추](assets/building-content-fragments-click-create-button-top-right.png)
 
 빈 조각 생성자 화면이 열립니다.
 
-7. 구조 아래의 1:1 열 을 클릭하고 아래와 같이 캔버스를 드래그합니다. (애니메이션 그래픽을 보려면 아래 이미지를 클릭하십시오.)
+&#x200B;7. 구조 아래의 1:1 열 을 클릭하고 아래와 같이 캔버스를 드래그합니다. (애니메이션 그래픽을 보려면 아래 이미지를 클릭하십시오.)
 
 ![1:1 열 구조를 조각 캔버스로 드래그하는 애니메이션 데모](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
-8. 그런 다음 방금 추가한 1:1 행에서 &quot;**image**&quot;을(를) 드래그합니다
+&#x200B;8. 그런 다음 방금 추가한 1:1 행에서 &quot;**image**&quot;을(를) 드래그합니다
 
 ![이미지 구성 요소를 1:1 행으로 드래그](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. 제공한 로고 이미지를 업로드합니다. **&quot;미디어 가져오기 단추&quot;**&#x200B;를 클릭합니다
+&#x200B;9. 제공한 로고 이미지를 업로드합니다. **&quot;미디어 가져오기 단추&quot;**&#x200B;를 클릭합니다
 
 ![로고 이미지를 업로드하기 위한 미디어 가져오기 단추](assets/building-content-fragments-click-import-media-button.png)
 
-10. **로고 업로드:** 이미지의 도구 키트 폴더에서 로고(*C5G-Logo.png*)를 업로드하고 다음을 클릭합니다.
+&#x200B;10. **로고 업로드:** 이미지의 도구 키트 폴더에서 로고(*C5G-Logo.png*)를 업로드하고 다음을 클릭합니다.
 
 ![업로드할 도구 키트 폴더에서 C5G-Logo.png 선택](assets/building-content-fragments-upload-logo-select-file.png)
 
 ![로고 업로드를 선택한 후 다음 클릭](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. 만든 **자산 폴더**&#x200B;를 선택한 다음 **가져오기**&#x200B;를 클릭합니다. 파일이 폴더에 저장됩니다.
+&#x200B;11. 만든 **자산 폴더**&#x200B;를 선택한 다음 **가져오기**&#x200B;를 클릭합니다. 파일이 폴더에 저장됩니다.
 
 ![만든 자산 폴더를 선택하고 가져오기를 클릭합니다](assets/building-content-fragments-select-asset-folder-import.png)
 
-12. 로고는 바르게 배치되었지만, 로고가 너무 커서 크기를 조정해야 합니다. 로고 크기를 조정하려면 속성을 업데이트합니다. **스타일 탭**&#x200B;을 클릭하고 아래와 같이 슬라이더를 드래그하여 너비를 40%로 설정합니다.
+&#x200B;12. 로고는 바르게 배치되었지만, 로고가 너무 커서 크기를 조정해야 합니다. 로고 크기를 조정하려면 속성을 업데이트합니다. **스타일 탭**&#x200B;을 클릭하고 아래와 같이 슬라이더를 드래그하여 너비를 40%로 설정합니다.
 
 >[!NOTE]
 >
@@ -151,15 +151,15 @@ ht-degree: 0%
 
 ![스타일 탭 너비 슬라이더를 40%로 설정하여 로고 크기 조정](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. **&quot;저장&quot;**&#x200B;을 클릭하면 조각이 저장됩니다. 확인 시 녹색 막대 알림이 표시됩니다.
+&#x200B;13. **&quot;저장&quot;**&#x200B;을 클릭하면 조각이 저장됩니다. 확인 시 녹색 막대 알림이 표시됩니다.
 
 조각을 저장한 후 ![녹색 확인 막대](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. 저장된 조각이 초안 모드에 있습니다. 사용하기 전에 게시해야 합니다. **뒤로** 단추를 클릭합니다.
+&#x200B;14. 저장된 조각이 초안 모드에 있습니다. 사용하기 전에 게시해야 합니다. **뒤로** 단추를 클릭합니다.
 
 ![게시하기 전에 초안 조각을 남기기 위한 뒤로 단추](assets/building-content-fragments-click-back-button-draft.png)
 
-15. &quot;**게시**&quot; 단추를 클릭합니다. &quot;조각 게시 중. 시간이 걸릴 수 있습니다. 완료되면 알려 드리겠습니다.&quot; 확인 시. 조각을 템플릿 만들기에 사용할 준비가 되었습니다.
+&#x200B;15. &quot;**게시**&quot; 단추를 클릭합니다. &quot;조각 게시 중. 시간이 걸릴 수 있습니다. 완료되면 알려 드리겠습니다.&quot; 확인 시. 조각을 템플릿 만들기에 사용할 준비가 되었습니다.
 
 ![게시 단추 및 게시 조각 확인 메시지](assets/building-content-fragments-click-publish-fragment-button.png)
 

@@ -26,7 +26,7 @@ ht-degree: 10%
 
 ![채널 구성 만들기](assets/configure-for-profile-create-configuration-button.png)
 
-3. 만들기 마법사에서 다음 값을 설정합니다.
+&#x200B;3. 만들기 마법사에서 다음 값을 설정합니다.
    - **이름:** `Relational-Email`
    - **채널:** `Email`
    - **마케팅 액션:** `Email Targeting`
@@ -101,27 +101,27 @@ ht-degree: 10%
 
 ![오케스트레이션된 캠페인 구성](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-2. 실행 차원에서 다음을 구성합니다.
+&#x200B;2. 실행 차원에서 다음을 구성합니다.
    - **한 번에 한 개의 메시지 배달:** `Target Dimension `
    - **프로필 대상 Dimension:** `dep-rel: Customer Account - customer_id`
 
 ![실행 차원](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-3. 실행 주소에서 다음을 구성합니다.
+&#x200B;3. 실행 주소에서 다음을 구성합니다.
    - **Source:** `Target Dimension`
    - **게재 주소:** `click on the Edit button`
 
 ![Dimension 타깃팅](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-4. 팝업에서 **딥렐: 고객 계정** 폴더를 클릭합니다.
+&#x200B;4. 팝업에서 **딥렐: 고객 계정** 폴더를 클릭합니다.
 
 ![게재 주소 구성](assets/configure-for-relational-customer-account-folder.png)
 
-5. **전자 메일**&#x200B;을 선택하고 **선택** 단추를 클릭합니다.
+&#x200B;5. **전자 메일**&#x200B;을 선택하고 **선택** 단추를 클릭합니다.
 
 ![배달 주소로 전자 메일 보내기](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-6. 완료되면 최종 실행 세부 사항이 아래 스크린샷과 같이 표시됩니다
+&#x200B;6. 완료되면 최종 실행 세부 사항이 아래 스크린샷과 같이 표시됩니다
 
 ![실행 차원이 구성됨](assets/configure-for-relational-execution-details-final-result.png)
 

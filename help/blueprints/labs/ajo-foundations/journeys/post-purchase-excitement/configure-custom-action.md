@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ![오른쪽 상단의 작업 만들기 단추](assets/configure-custom-action-click-create-action-button.png)
 
-2. 표시되는 구성 패널에서 다음과 같이 다음 기본 값을 업데이트합니다.
+&#x200B;2. 표시되는 구성 패널에서 다음과 같이 다음 기본 값을 업데이트합니다.
    - **이름**: `GetShippingDetails`
    - **설명**: `Call third party to get Shipping ETA and Tracking Number`
    - **작업 유형**: `Custom`
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 
 
-2. **아래 페이로드를 [페이로드] 상자에 복사하여 붙여 넣기**
+&#x200B;2. **아래 페이로드를 [페이로드] 상자에 복사하여 붙여 넣기**
 
 ```json
 {
@@ -94,7 +94,7 @@ ht-degree: 0%
 >이는 위의 Mockaroo 종단점이 반환해야 하는 것과 동일한 JSON 구조입니다.
 
 
-3. 응답 페이로드가 표시됩니다. **저장** 단추를 클릭합니다.
+&#x200B;3. 응답 페이로드가 표시됩니다. **저장** 단추를 클릭합니다.
 
 ![저장 단추에 응답 페이로드가 표시됨](assets/configure-custom-action-save-response-payload.png)
 
@@ -112,13 +112,13 @@ ht-degree: 0%
 
 
 
-2. **쿼리 매개 변수** 탭을 클릭하고 `orderId`의 값을 **123**(으)로 업데이트하십시오.
+&#x200B;2. **쿼리 매개 변수** 탭을 클릭하고 `orderId`의 값을 **123**(으)로 업데이트하십시오.
 
 orderId 값이 123으로 설정된 ![쿼리 매개 변수 탭](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-3. **보내기 단추**&#x200B;를 클릭하면 모두 잘 작동하면 아래와 같이 응답 코드 200과 페이로드 미리 보기가 표시됩니다.
+&#x200B;3. **보내기 단추**&#x200B;를 클릭하면 모두 잘 작동하면 아래와 같이 응답 코드 200과 페이로드 미리 보기가 표시됩니다.
 
 ![테스트 요청을 보낸 후 응답 코드 200 및 페이로드 미리 보기](assets/configure-custom-action-response-200-preview.png)
 
@@ -137,7 +137,7 @@ orderId 값이 123으로 설정된 ![쿼리 매개 변수 탭](assets/configure-
 
 
 
-4. **취소** 단추를 클릭하여 작업 화면으로 돌아간 다음 오른쪽 상단 레일에서 위로 스크롤하여 **저장** 단추를 클릭합니다
+&#x200B;4. **취소** 단추를 클릭하여 작업 화면으로 돌아간 다음 오른쪽 상단 레일에서 위로 스크롤하여 **저장** 단추를 클릭합니다
 
 >[!TIP]
 >

@@ -57,7 +57,7 @@ lastOrderStatusUpdate
 
 매핑 화면에서 **order에 매핑된** orderStatus **과(와) 같은 중복 매핑이 있다고 불평하는 경우.\_devbc.acqSource,** &quot;-&quot; 아이콘을 클릭하여 매핑을 제거합니다.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >여러 입력 필드를 동일한 출력 필드에 매핑할 수 없으므로 매핑이 모호해집니다. 그러나 단일 입력 필드를 XDM 스키마의 여러 출력 필드에 매핑할 수 있습니다.
 

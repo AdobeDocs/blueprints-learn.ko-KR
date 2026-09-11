@@ -31,7 +31,7 @@ Edge 네트워크 프로필 저장소에 프로필이 존재하지 않는지 확
 
 
 
-2. 대상자 멤버십 탭을 클릭합니다.  **blank**&#x200B;이(가) 됩니다.
+&#x200B;2. 대상자 멤버십 탭을 클릭합니다.  **blank**&#x200B;이(가) 됩니다.
 
 ![Edge 프로필의 대상 멤버십 탭 비우기](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

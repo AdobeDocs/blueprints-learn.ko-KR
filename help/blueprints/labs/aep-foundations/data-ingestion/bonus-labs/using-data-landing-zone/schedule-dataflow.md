@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![실행 안 함 상태의 새 데이터 흐름을 보여 주는 데이터 흐름 화면](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "데이터 흐름 소스 화면")
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >백엔드가 업데이트를 UI에 푸시하지 않으므로 상태 업데이트를 보려면 페이지를 계속 새로 고쳐야 합니다.
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 매핑 구성
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >일괄 처리 수집 랩을 성공적으로 완료한 경우에만 이 섹션을 따르십시오.  그렇지 않으면 일괄 처리 수집 랩에 있는 [데이터 매핑](../batch-ingestion/mapping-data/overview.md) 단계를 따르십시오.
 

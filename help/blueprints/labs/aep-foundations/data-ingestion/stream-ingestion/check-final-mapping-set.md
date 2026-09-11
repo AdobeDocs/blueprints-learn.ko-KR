@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 통과 매핑
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | concat(date\_part(&quot;mm&quot;, date(birth\_Date, &quot;yyyy-M-d&quot;)).toString(), &quot;-&quot;, date\_part(&quot;dd&quot;, date(birth\_Date, &quot;yyyy-M-d&quot;)).toString() | person.birthdayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;yyyy-M-d&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오
 

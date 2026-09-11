@@ -55,14 +55,14 @@ ht-degree: 0%
 
 ![콘텐츠 관리로 이동한 다음 콘텐츠 템플릿으로 이동](assets/building-content-template-navigate-content-templates.png)
 
-2. **템플릿 만들기**&#x200B;를 클릭하고 다음을 입력하십시오.
+&#x200B;2. **템플릿 만들기**&#x200B;를 클릭하고 다음을 입력하십시오.
    - **이름:** `Promotional Template`
    - **설명:** `Promotional Template for phone products`
    - **채널:** `Email`
 
 ![이름, 설명 및 전자 메일 채널을 사용하여 템플릿 양식 만들기](assets/building-content-template-create-template-form-fields.png)
 
-3. **만들기**&#x200B;를 클릭합니다.
+&#x200B;3. **만들기**&#x200B;를 클릭합니다.
 
 ![프로모션 템플릿 만들기를 완료하기 위한 만들기 단추](assets/building-content-template-click-create-button.png)
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ![제목 줄을 추가하고 편집할 전자 메일 본문을 여는 중](assets/building-content-template-add-subject-line-open-editor.png)
 
-2. 다음 세 가지 옵션이 표시됩니다.
+&#x200B;2. 다음 세 가지 옵션이 표시됩니다.
    1. 처음부터 디자인
    2. 나만의 코드 작성
    3. HTML 가져오기
@@ -92,11 +92,11 @@ ht-degree: 0%
 
 ![도구 키트 폴더에서 promotional-template-final.html 업로드](assets/building-content-template-upload-html-template-file.png)
 
-2. 가져오기 단추를 클릭하여 템플릿을 **가져오기**&#x200B;합니다.
+&#x200B;2. 가져오기 단추를 클릭하여 템플릿을 **가져오기**&#x200B;합니다.
 
 ![업로드된 HTML 템플릿을 가져오기 위한 가져오기 단추](assets/building-content-template-click-import-button.png)
 
-3. 레이아웃이 렌더링될 때까지 기다립니다. 이미지 링크가 끊어지고 브랜딩이 누락된 것과 같은 문제가 표시됩니다. (자리 표시자 에셋이 있으므로 예상된 동작입니다.)
+&#x200B;3. 레이아웃이 렌더링될 때까지 기다립니다. 이미지 링크가 끊어지고 브랜딩이 누락된 것과 같은 문제가 표시됩니다. (자리 표시자 에셋이 있으므로 예상된 동작입니다.)
 
 ![끊어진 이미지 링크와 누락된 브랜딩 자리 표시자를 표시하는 렌더링된 템플릿](assets/building-content-template-rendered-template-broken-images.png)
 
@@ -127,7 +127,7 @@ Adobe Journey Optimizer의 본문 섹션 아래에 있는 &quot;**설정**&quot;
 
 ![왼쪽 사이드바에 파란색 점이 있는 머리글 조각이 라이브로 표시됨](assets/building-content-template-header-fragment-live-sidebar.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >여기에 조각이 표시되지 않으면 제대로 저장하지 않았으므로 다시 업로드해야 합니다.
 
@@ -145,19 +145,19 @@ Adobe Journey Optimizer의 본문 섹션 아래에 있는 &quot;**설정**&quot;
 
 ![콘텐츠 위에 새 열을 추가한 후 템플릿 레이아웃](assets/building-content-template-column-added-above-content.png)
 
-2. 배경은 현재 검정색인 템플릿 배경색을 사용합니다. **배경색을 흰색으로 설정합니다. 오른쪽 레일의 스타일 탭에서**&#x200B;을(를) 클릭하고 색상 선택기에서 흰색을 사용합니다.
+&#x200B;2. 배경은 현재 검정색인 템플릿 배경색을 사용합니다. **배경색을 흰색으로 설정합니다. 오른쪽 레일의 스타일 탭에서**&#x200B;을(를) 클릭하고 색상 선택기에서 흰색을 사용합니다.
 
 ![색상 선택기를 사용하여 열 배경색을 흰색으로 설정](assets/building-content-template-set-background-color-white.png)
 
-3. **조각**&#x200B;을 열고 **헤더** 조각에서 드래그합니다.
+&#x200B;3. **조각**&#x200B;을 열고 **헤더** 조각에서 드래그합니다.
 
 ![헤더 조각을 조각 패널에서 템플릿으로 드래그하는 중](assets/building-content-template-drag-header-fragment-into-template.png)
 
-4. 헤더 조각은 아래와 같이 템플릿에 깔끔하게 정렬됩니다.
+&#x200B;4. 헤더 조각은 아래와 같이 템플릿에 깔끔하게 정렬됩니다.
 
 ![헤더 조각이 템플릿 내에서 깔끔하게 정렬됨](assets/building-content-template-header-fragment-aligned-template.png)
 
-5. **저장** 단추를 클릭하여 템플릿을 저장한 다음 **뒤로**&#x200B;를 클릭합니다.
+&#x200B;5. **저장** 단추를 클릭하여 템플릿을 저장한 다음 **뒤로**&#x200B;를 클릭합니다.
 
 ![[뒤로]를 클릭하기 전에 템플릿을 저장하는 저장 단추](assets/building-content-template-click-save-button-template.png)
 

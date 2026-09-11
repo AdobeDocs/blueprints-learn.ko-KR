@@ -60,18 +60,18 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 
 
-2. **채널 구성 만들기**&#x200B;를 클릭합니다.
+&#x200B;2. **채널 구성 만들기**&#x200B;를 클릭합니다.
 
 ![채널 구성 만들기 단추](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
-3. 다음 값으로 SMS 채널 구성 설정 을 입력합니다.
+&#x200B;3. 다음 값으로 SMS 채널 구성 설정 을 입력합니다.
    - **이름:** `Relational-SMS-Multi-Entity`
    - **채널:** `Mobile Message`
    - **마케팅 액션:** `SMS Targeting`
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >사용자에게 권한이 없다는 오류 메시지가 표시되면 무시하고 계속합니다.
 
@@ -97,13 +97,13 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 
 
-2. **사용** 확인란이 선택되었는지 확인
+&#x200B;2. **사용** 확인란이 선택되었는지 확인
 
 ![오케스트레이션된 캠페인에 대해 사용 확인란이 선택됨](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
-3. 다음 하위 섹션 **실행 차원** 아래에서 다음을 설정하십시오.
+&#x200B;3. 다음 하위 섹션 **실행 차원** 아래에서 다음을 설정하십시오.
    - **메시지 배달 단위:** `Target + Secondary Dimension`
    - **프로필 대상 Dimension:** `dep-rel: Customer Account - customer_id`
    - **보조 Dimension:** `Customer Line`
@@ -118,13 +118,13 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 
 
-4. 실행 주소 제목 아래에서 **보조 Dimension**&#x200B;에 대한 라디오 단추를 선택한 다음 **SMS 실행 필드**&#x200B;에서 편집 단추를 클릭합니다
+&#x200B;4. 실행 주소 제목 아래에서 **보조 Dimension**&#x200B;에 대한 라디오 단추를 선택한 다음 **SMS 실행 필드**&#x200B;에서 편집 단추를 클릭합니다
 
 ![편집 필드가 있는 보조 Dimension으로 설정된 실행 주소](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
-5. 팝업에서 스키마 **dep-rel: 고객 전화**&#x200B;을 클릭하고 **휴대폰**&#x200B;을 선택합니다.
+&#x200B;5. 팝업에서 스키마 **dep-rel: 고객 전화**&#x200B;을 클릭하고 **휴대폰**&#x200B;을 선택합니다.
 
 ![dep-rel에 대한 스키마 팝업: 고객 라인 스키마](assets/configure-sms-channel-customer-line-schema-popup.png)
 
@@ -132,7 +132,7 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 
 
-6. 아래에서 최종 실행 세부 정보 섹션이 일치하는지 확인
+&#x200B;6. 아래에서 최종 실행 세부 정보 섹션이 일치하는지 확인
 
 ![필요한 설정과 일치하는 최종 실행 세부 정보 구성](assets/configure-sms-channel-final-execution-details.png)
 
@@ -146,7 +146,7 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 
 
-2. 계속 진행하기 전에 채널 구성 인벤토리 페이지에서 상태가 **활성**(으)로 표시되는지 확인하십시오.
+&#x200B;2. 계속 진행하기 전에 채널 구성 인벤토리 페이지에서 상태가 **활성**(으)로 표시되는지 확인하십시오.
 
 ![채널 구성 상태가 활성으로 표시됨](assets/configure-sms-channel-active-status.png)
 
@@ -156,7 +156,7 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 
 
-3. 상태가 활성으로 바뀌면 완료됩니다!
+&#x200B;3. 상태가 활성으로 바뀌면 완료됩니다!
 
 >[!TIP]
 >

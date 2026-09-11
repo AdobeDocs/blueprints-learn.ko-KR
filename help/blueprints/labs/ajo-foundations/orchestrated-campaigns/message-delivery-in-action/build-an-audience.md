@@ -25,31 +25,31 @@ ht-degree: 0%
 
 ![타깃팅 활동에서 대상 작성 선택](assets/build-an-audience-select-build-audience-activity.png)
 
-2. **대상자 작성** 활동은 오른쪽의 세부 정보 창을 열고 검색 아이콘을 클릭하여 **타깃팅 차원**&#x200B;을(를) 선택합니다.
+&#x200B;2. **대상자 작성** 활동은 오른쪽의 세부 정보 창을 열고 검색 아이콘을 클릭하여 **타깃팅 차원**&#x200B;을(를) 선택합니다.
 
 ![타깃팅 차원 선택](assets/build-an-audience-select-targeting-dimension.png)
 
-3. 목록에서 `dep-rel: Customer Account`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
+&#x200B;3. 목록에서 `dep-rel: Customer Account`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
 
 ![dep-rel: 고객 계정 스키마 선택](assets/build-an-audience-select-customer-account-schema.png)
 
-4. **타깃팅 차원**&#x200B;이 구성되면 대상 만들기를 클릭하여 관계형 스키마에서 대상을 빌드하는 프로세스를 시작합니다
+&#x200B;4. **타깃팅 차원**&#x200B;이 구성되면 대상 만들기를 클릭하여 관계형 스키마에서 대상을 빌드하는 프로세스를 시작합니다
 
 ![대상자 만들기 단추 클릭](assets/build-an-audience-create-audience-button.png)
 
-5. 대상자 세부 정보 만들기 창이 열리고 **조건 추가**&#x200B;를 클릭합니다.
+&#x200B;5. 대상자 세부 정보 만들기 창이 열리고 **조건 추가**&#x200B;를 클릭합니다.
 
 ![대상 만들기 창에서 조건 추가를 클릭합니다](assets/build-an-audience-add-condition.png)
 
-6. 아래로 스크롤하여 `dep-rel: Plan Lookup` 옆에 있는 **>**&#x200B;을(를) 클릭하여 확장합니다.
+&#x200B;6. 아래로 스크롤하여 `dep-rel: Plan Lookup` 옆에 있는 **>**&#x200B;을(를) 클릭하여 확장합니다.
 
 ![dep-rel 확장: 계획 조회](assets/build-an-audience-expand-plan-lookup.png)
 
-7. `dep-rel: Plan Name`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
+&#x200B;7. `dep-rel: Plan Name`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
 
 ![딥렐 선택: 계획 이름](assets/build-an-audience-select-plan-name.png)
 
-8. 사용자 지정 조건 패널에서 연산자를 &quot;같음&quot;으로 두고 값에 대해 드롭다운에서 [기본]을 선택합니다.
+&#x200B;8. 사용자 지정 조건 패널에서 연산자를 &quot;같음&quot;으로 두고 값에 대해 드롭다운에서 [기본]을 선택합니다.
 
 ![플랜 이름이 기본과 같은 사용자 지정 조건](assets/build-an-audience-plan-name-equals-basic.png)
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 
 
-9. 사용자 지정 조건이 구성되면 새로 고침 아이콘을 클릭하여 개수를 계산하고 확인합니다. 결과를 계산하는 데 도움이 되는 두 가지 위치가 있습니다
+&#x200B;9. 사용자 지정 조건이 구성되면 새로 고침 아이콘을 클릭하여 개수를 계산하고 확인합니다. 결과를 계산하는 데 도움이 되는 두 가지 위치가 있습니다
 
 ![새로 고침 아이콘을 클릭하여 예상 행 수를 계산합니다](assets/build-an-audience-refresh-row-counts.png)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 
 
-10. 개수(**38**)는 지정한 조건과 일치하는 관계형 저장소의 행 수를 나타냅니다. **대상자 만들기** 창을 종료하려면 **확인**&#x200B;을 클릭하세요.
+&#x200B;10. 개수(**38**)는 지정한 조건과 일치하는 관계형 저장소의 행 수를 나타냅니다. **대상자 만들기** 창을 종료하려면 **확인**&#x200B;을 클릭하세요.
 
 ![행 수 확인 및 대상 창 만들기 종료](assets/build-an-audience-confirm-row-count.png)
 

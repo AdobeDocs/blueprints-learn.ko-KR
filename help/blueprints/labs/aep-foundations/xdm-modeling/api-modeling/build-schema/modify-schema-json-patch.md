@@ -133,10 +133,10 @@ ht-degree: 0%
 
 
 
-2. 다음 정보로 요청 본문을 업데이트합니다
+&#x200B;2. 다음 정보로 요청 본문을 업데이트합니다
 
 - **op** ->` add`
-- **경로** -> `path from previous step +`` the new field name`
+- **경로** -> `path from previous step +`&#x200B;` the new field name`
 - **값** ->
   - **제목** -> `Plan Description`
   - **유형** -> `string`
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 
 
-3. `Save`의 모든 기능이 정상인 경우 통화
+&#x200B;3. `Save`의 모든 기능이 정상인 경우 통화
 
-4. `Execute` PATCH 수행을 위한 호출
+&#x200B;4. `Execute` PATCH 수행을 위한 호출
 
 `200 OK `응답이 표시되고 이제 다음과 같이 필드 그룹의 `planDescription` 필드가 표시됩니다.
 

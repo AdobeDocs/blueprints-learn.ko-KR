@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 이벤트 유효성 검사
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >결국 데이터가 데이터 레이크에 표시됩니다.  **최대 60분**&#x200B;이 소요될 수 있습니다.  프로필에 대해 데이터 세트가 활성화되어 있으므로 이벤트는 프로필 조각을 생성합니다.
 >
@@ -31,16 +31,16 @@ ht-degree: 0%
 
 ![쿼리 섹션에서 쿼리 화면 만들기](assets/validate-event-on-data-lake-create-query.png)
 
-2. 이 SQL을 복사하여 쿼리에 붙여넣기
+&#x200B;2. 이 SQL을 복사하여 쿼리에 붙여넣기
 
 ```sql
 SELECT identityMap['email'][0].id, * FROM dep_web
 where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 ```
 
-3. **실행** 쿼리
+&#x200B;3. **실행** 쿼리
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >**저장**: 데이터가 데이터 레이크에 표시됩니다.  **최대 60분**&#x200B;이 소요될 수 있습니다.
 >

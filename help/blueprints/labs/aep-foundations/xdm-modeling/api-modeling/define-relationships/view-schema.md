@@ -32,15 +32,15 @@ ht-degree: 0%
 
 
 
-2. 요청의 URL에서 `<replace me>`을(를) 아래와 같이 이전 섹션 [스키마 만들기](../build-schema/create-schema.md)에서 저장한 `$meta:altId`(으)로 바꿉니다
+&#x200B;2. 요청의 URL에서 `<replace me>`을(를) 아래와 같이 이전 섹션 [스키마 만들기](../build-schema/create-schema.md)에서 저장한 `$meta:altId`(으)로 바꿉니다
 
 URL에 meta:altId이 추가된 ![4단계 요청](assets/view-schema-final-step-4-request.png "마지막 4단계 요청")
 
 
 
-3. `Save` 단추를 사용하여 요청 저장
+&#x200B;3. `Save` 단추를 사용하여 요청 저장
 
-4. `Send` 단추를 클릭하여 요청을 실행합니다.
+&#x200B;4. `Send` 단추를 클릭하여 요청을 실행합니다.
 
 이제 `200 OK` 응답이 표시되고 XDM JSON 구조의 렌즈를 통해 ID를 보기 위해 만든 스키마 끝으로 이동할 수 있습니다.
 

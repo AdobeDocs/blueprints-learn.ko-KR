@@ -75,16 +75,16 @@ API 요청을 실행하려면 먼저 데이터 스트림 ID를 Postman 변수 �
 
 Postman 도구 모음의 ![요청에 있는 변수 옵션](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-2. 페이지의 첫 번째 단계에서 **DATASTREAM_CONFIG** **Value**&#x200B;을(를) **데이터스트림 ID**(으)로 업데이트합니다.
+&#x200B;2. 페이지의 첫 번째 단계에서 **DATASTREAM_CONFIG** **Value**&#x200B;을(를) **데이터스트림 ID**(으)로 업데이트합니다.
 
 ![DATASTREAM_CONFIG 변수가 데이터 스트림 ID로 업데이트됨](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-3. 업데이트 **저장**(ctrl+s 또는 command+s)
-4. 환경 사이드바의 오른쪽 위 모서리에 있는 &#39;**X**&#39;을 클릭하여 사이드바를 닫습니다
+&#x200B;3. 업데이트 **저장**(ctrl+s 또는 command+s)
+&#x200B;4. 환경 사이드바의 오른쪽 위 모서리에 있는 &#39;**X**&#39;을 클릭하여 사이드바를 닫습니다
 
 ![저장한 후 Postman 환경 사이드바 닫기](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-5. 이제 모든 변수가 파란색이고 환경에 값이 있으므로 **웹 이벤트 만들기** 요청을 보낼 준비가 되었습니다.
+&#x200B;5. 이제 모든 변수가 파란색이고 환경에 값이 있으므로 **웹 이벤트 만들기** 요청을 보낼 준비가 되었습니다.
 
 ![모든 변수가 채워진 웹 이벤트 요청 만들기](assets/send-an-edge-web-event-request-ready-to-send.png)
 

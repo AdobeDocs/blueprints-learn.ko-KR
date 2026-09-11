@@ -106,7 +106,7 @@ ht-degree: 1%
 
 ![이름, 성 및 활성 제품 필드만 표시하는 필터링된 200 OK 응답](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "필터가 활성화된 성공적인 프로필 엔터티 조회(특성) API 응답")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >축하합니다!  프로필 엔티티 API를 사용하여 프로필의 속성을 조회했습니다
 

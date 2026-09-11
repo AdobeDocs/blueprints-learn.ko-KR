@@ -41,7 +41,7 @@ SMS 메시지를 만드는 ![Personalization 단추](assets/compose-the-sms-clic
 
 
 
-2. 아래 텍스트를 복사하여 SMS 메시지 본문에 붙여넣습니다.
+&#x200B;2. 아래 텍스트를 복사하여 SMS 메시지 본문에 붙여넣습니다.
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -53,7 +53,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-3. 왼쪽 레일에서 **대상 특성** 옵션을 사용하여 아래 **phone\_make** 및 **phone\_model**(이)라는 메시지의 두 필드를 업데이트합니다.  완료되면 메시지가 스크린샷과 일치해야 합니다.
+&#x200B;3. 왼쪽 레일에서 **대상 특성** 옵션을 사용하여 아래 **phone\_make** 및 **phone\_model**(이)라는 메시지의 두 필드를 업데이트합니다.  완료되면 메시지가 스크린샷과 일치해야 합니다.
 
 ![휴대폰 제조사 및 모델이 개인화된 최종 SMS 메시지](assets/compose-the-sms-final-message-text.png)
 
@@ -63,13 +63,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-4. 편집기에서 **유효성 검사**&#x200B;를 클릭하고 유효성 검사 오류가 없는지 확인한 다음 **저장** 단추를 클릭하십시오
+&#x200B;4. 편집기에서 **유효성 검사**&#x200B;를 클릭하고 유효성 검사 오류가 없는지 확인한 다음 **저장** 단추를 클릭하십시오
 
 ![메시지 편집기의 유효성 검사 및 저장 단추](assets/compose-the-sms-validate-and-save.png)
 
 
 
-5. 워크플로우 캔버스로 돌아가려면 **뒤로 화살표(\&lt;-)**&#x200B;를 클릭하십시오.
+&#x200B;5. 워크플로우 캔버스로 돌아가려면 **뒤로 화살표(\&lt;-)**&#x200B;를 클릭하십시오.
 
 ![뒤로 화살표를 클릭하여 워크플로 캔버스로 돌아가기](assets/compose-the-sms-return-to-canvas.png)
 

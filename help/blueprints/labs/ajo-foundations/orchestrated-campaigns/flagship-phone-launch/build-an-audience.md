@@ -29,7 +29,7 @@ ht-degree: 0%
 
 
 
-2. 오른쪽 레일에 빌드 대상 속성이 표시됩니다. 레이블을 업데이트하여 다음을 지정하십시오. `Active Lines with Apple`
+&#x200B;2. 오른쪽 레일에 빌드 대상 속성이 표시됩니다. 레이블을 업데이트하여 다음을 지정하십시오. `Active Lines with Apple`
 
 ![대상 레이블을 Apple의 활성 줄로 설정](assets/build-an-audience-set-label.png)
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ![타깃팅 차원 상자의 검색 아이콘](assets/build-an-audience-search-targeting-dimension.png)
 
-2. 팝업에서 이름이 **dep-rel: Customer Line**&#x200B;인 테이블을 검색하여 선택한 다음 **확인** 단추를 클릭합니다.
+&#x200B;2. 팝업에서 이름이 **dep-rel: Customer Line**&#x200B;인 테이블을 검색하여 선택한 다음 **확인** 단추를 클릭합니다.
 
 ![dep-rel: Customer Line 테이블을 선택하고 확인을 클릭합니다](assets/build-an-audience-select-customer-line-table.png)
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![오른쪽 레일에서 대상 만들기 단추](assets/build-an-audience-click-create-audience.png)
 
-2. **조건 추가** 단추를 클릭합니다.
+&#x200B;2. **조건 추가** 단추를 클릭합니다.
 
 ![대상 정의에 대한 조건 추가 단추](assets/build-an-audience-click-add-condition.png)
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ![조건 1이 true와 같은 활성 줄로 설정됨](assets/build-an-audience-condition-active-line-true.png)
 
-2. **새로 고침** 아이콘을 클릭하여 조건에 대한 적격 수를 확인합니다.
+&#x200B;2. **새로 고침** 아이콘을 클릭하여 조건에 대한 적격 수를 확인합니다.
 
 ![새로 고침 아이콘으로 조건 1](assets/build-an-audience-condition-1-refresh-count.png)에 대해 241개의 올바른 수를 표시합니다.
 
@@ -99,13 +99,13 @@ ht-degree: 0%
 ![dep-rel: > 아이콘을 클릭하여 제품 [조회] 스키마를 선택합니다](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-2. 이름이 **만들기**&#x200B;인 필드를 찾은 다음 세 점을 클릭하고 **값 분포**&#x200B;를 선택합니다.
+&#x200B;2. 이름이 **만들기**&#x200B;인 필드를 찾은 다음 세 점을 클릭하고 **값 분포**&#x200B;를 선택합니다.
 
 ![만들기 필드에 대한 값 배포 옵션](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-3. 다양한 값을 확인합니다. `Apple`만 필요하며 100개의 다른 철자가 없습니다. **Apple 필드**&#x200B;를 클릭하여 선택한 다음 오른쪽 상단의 **특성 및 값 선택 단추**&#x200B;를 클릭합니다.
+&#x200B;3. 다양한 값을 확인합니다. `Apple`만 필요하며 100개의 다른 철자가 없습니다. **Apple 필드**&#x200B;를 클릭하여 선택한 다음 오른쪽 상단의 **특성 및 값 선택 단추**&#x200B;를 클릭합니다.
 
 ![특성 및 값 선택 단추로 선택한 Apple 값](assets/build-an-audience-select-apple-attribute-value.png)
 
@@ -115,12 +115,12 @@ ht-degree: 0%
 
 
 
-4. 아래 표시된 조건과 함께 `Make` 필드가 자동으로 추가됩니다.
+&#x200B;4. 아래 표시된 조건과 함께 `Make` 필드가 자동으로 추가됩니다.
    - **연산자:** `Equal to`
    - **값:** `Apple`
    - **대/소문자 구분:** `Enabled`
 
-5. **계산 아이콘**&#x200B;을 클릭하면 85가 표시됩니다.
+&#x200B;5. **계산 아이콘**&#x200B;을 클릭하면 85가 표시됩니다.
 
 ![조건 2 계산된 개수 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 
 
-2. **65**&#x200B;의 최종 수가 표시되면 화면 오른쪽 상단의 **확인** 단추를 클릭한 다음 오른쪽 상단의 **저장** 단추를 클릭하여 작업을 저장합니다.
+&#x200B;2. **65**&#x200B;의 최종 수가 표시되면 화면 오른쪽 상단의 **확인** 단추를 클릭한 다음 오른쪽 상단의 **저장** 단추를 클릭하여 작업을 저장합니다.
 
 
 

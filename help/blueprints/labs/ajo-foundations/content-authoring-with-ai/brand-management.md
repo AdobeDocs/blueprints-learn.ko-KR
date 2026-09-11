@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 **브랜드** 기능을 사용하면 모든 마케팅
 
 ![연결 5G 브랜드 가이드라인 PDF이 도구 키트 폴더에서 열림](assets/brand-management-open-brand-guideline-pdf.png)
 
-2. Connection 5G에 사용되는 컨텐츠를 이해하려면 다음 문서를 검토하십시오.
+&#x200B;2. Connection 5G에 사용되는 컨텐츠를 이해하려면 다음 문서를 검토하십시오.
    - 목소리 톤
    - 색상 및 비주얼 스타일
    - 작성 스타일 및 메시지 예제
@@ -66,35 +66,35 @@ Adobe Journey Optimizer의 **브랜드** 기능을 사용하면 모든 마케팅
 
 ![브랜드 섹션에서 브랜드 만들기 단추](assets/brand-management-click-create-brand-button.png)
 
-3. **이름** 필드에 `Connection 5G Brand Guidelines`을(를) 입력하십시오.
-4. 업로드 영역에서 **Connection5g Brand Guidelines.pdf** 파일을 끌어서 놓습니다(또는 **파일 선택**&#x200B;을 클릭하고 컴퓨터에서 선택).
+&#x200B;3. **이름** 필드에 `Connection 5G Brand Guidelines`을(를) 입력하십시오.
+&#x200B;4. 업로드 영역에서 **Connection5g Brand Guidelines.pdf** 파일을 끌어서 놓습니다(또는 **파일 선택**&#x200B;을 클릭하고 컴퓨터에서 선택).
 
 ![Connection5g 브랜드 지침 PDF을 업로드 영역으로 끌어다 놓습니다](assets/brand-management-upload-brand-guideline-pdf.png)
 
-5. 추출을 시작하려면 **브랜드 만들기**&#x200B;를 클릭하세요.
+&#x200B;5. 추출을 시작하려면 **브랜드 만들기**&#x200B;를 클릭하세요.
 
 AJO이 파일을 분석하는 동안 진행 화면이 표시됩니다. 문서 크기에 따라 몇 분 정도 소요될 수 있습니다.
 
 ![AJO에서 브랜드 지침 파일을 분석하는 동안 진행률 화면 표시](assets/brand-management-extraction-progress-screen.png)
 
-6. 추출이 완료되면:
+&#x200B;6. 추출이 완료되면:
    - 맨 위에 녹색 확인 표시줄이 나타납니다.
    - 브랜드 구성 화면으로 자동 리디렉션됩니다.
    - 이제 콘텐츠 및 시각적 만들기 표준이 업로드된 브랜드 지침 파일을 기반으로 자동으로 채워집니다.
 
 ![추출이 완료된 후 채워진 브랜드 구성 화면](assets/brand-management-brand-configuration-populated.png)
 
-7. 브랜드 지침을 게시하려면 **게시** 단추를 클릭하십시오.
+&#x200B;7. 브랜드 지침을 게시하려면 **게시** 단추를 클릭하십시오.
 
 ![브랜드 지침에 대한 게시 단추](assets/brand-management-click-publish-button.png)
 
-8. 확인하려면 &quot;게시&quot; 버튼을 눌러 확인합니다.
+&#x200B;8. 확인하려면 &quot;게시&quot; 버튼을 눌러 확인합니다.
 
 ![브랜드 지침에 대한 게시 확인 대화 상자](assets/brand-management-confirm-publish-dialog.png)
 
 브랜드가 성공적으로 게시되었음을 나타내는 녹색 확인 표시줄이 페이지 하단에 나타납니다.
 
-9. 기본 브랜드 페이지에서 [뒤로]를 클릭하면 이제 브랜드가 라이브임을 확인할 수 있습니다. 이 페이지에는 레이블이 **&quot;Live&quot;**&#x200B;인 녹색 점이 표시됩니다.
+&#x200B;9. 기본 브랜드 페이지에서 [뒤로]를 클릭하면 이제 브랜드가 라이브임을 확인할 수 있습니다. 이 페이지에는 레이블이 **&quot;Live&quot;**&#x200B;인 녹색 점이 표시됩니다.
 
 ![녹색 라이브 상태 레이블이 있는 새 브랜드를 표시하는 브랜드 목록](assets/brand-management-brand-live-status-label.png)
 
@@ -155,19 +155,19 @@ AJO이 파일을 분석하는 동안 진행 화면이 표시됩니다. 문서 �
 
 ![새로 만든 연결 5G 브랜드 카드를 클릭하는 중](assets/brand-management-click-created-brand-card.png)
 
-2. **브랜드 편집**&#x200B;을 클릭합니다. 확인 탭이 나타납니다. 확인하려면 **브랜드 편집**&#x200B;을 다시 클릭하십시오.
+&#x200B;2. **브랜드 편집**&#x200B;을 클릭합니다. 확인 탭이 나타납니다. 확인하려면 **브랜드 편집**&#x200B;을 다시 클릭하십시오.
 
 ![브랜드 편집 단추 및 확인 탭](assets/brand-management-click-edit-brand-button.png)
 
-3. **브랜드 정보** 탭으로 이동합니다.
+&#x200B;3. **브랜드 정보** 탭으로 이동합니다.
 
 ![편집하는 동안 브랜드 정보 탭으로 이동](assets/brand-management-about-the-brand-tab-edit.png)
 
-4. **안내 원칙**, **비전** 또는 유사한 수준의 설명에 대한 섹션을 찾습니다.
+&#x200B;4. **안내 원칙**, **비전** 또는 유사한 수준의 설명에 대한 섹션을 찾습니다.
 
 ![브랜드 정보 탭의 지침 원칙 및 비전 섹션](assets/brand-management-guiding-principles-vision-section.png)
 
-5. 다음 텍스트를 추가합니다.
+&#x200B;5. 다음 텍스트를 추가합니다.
 
 **비전:**
 
@@ -179,7 +179,7 @@ AJO이 파일을 분석하는 동안 진행 화면이 표시됩니다. 문서 �
 
 ![브랜드에 비전 및 시장 포지셔닝 텍스트 추가](assets/brand-management-vision-market-positioning-added.png)
 
-6. **저장**&#x200B;을 클릭합니다. **저장** 단추가 표시되지 않으면 먼저 **개요** 탭을 클릭한 다음 **저장**&#x200B;을 클릭합니다.
+&#x200B;6. **저장**&#x200B;을 클릭합니다. **저장** 단추가 표시되지 않으면 먼저 **개요** 탭을 클릭한 다음 **저장**&#x200B;을 클릭합니다.
 
 >[!TIP]
 >
@@ -194,15 +194,15 @@ AJO이 파일을 분석하는 동안 진행 화면이 표시됩니다. 문서 �
 
 ![제외 규칙을 추가하기 위해 쓰기 스타일 탭을 열었습니다](assets/brand-management-writing-style-tab-exclusion.png)
 
-2. **브랜드 커뮤니케이션 스타일** 섹션에 있는지 확인하십시오.
+&#x200B;2. **브랜드 커뮤니케이션 스타일** 섹션에 있는지 확인하십시오.
 
 작성 스타일 탭의 ![브랜드 커뮤니케이션 스타일 섹션](assets/brand-management-brand-communication-style-section.png)
 
-3. **금지** 영역에서 **더하기** 아이콘을 클릭하여 새 규칙을 추가합니다.
+&#x200B;3. **금지** 영역에서 **더하기** 아이콘을 클릭하여 새 규칙을 추가합니다.
 
 새 규칙을 추가할 수 없는 영역 아래에 ![더하기 아이콘](assets/brand-management-add-donts-rule-plus-icon.png)
 
-4. 규칙을 다음과 같이 구성합니다.
+&#x200B;4. 규칙을 다음과 같이 구성합니다.
    - **제외:** `Be pushy`
 
 >[!NOTE]
@@ -213,15 +213,15 @@ AJO이 파일을 분석하는 동안 진행 화면이 표시됩니다. 문서 �
 
 **요소:** 단추
 
-5. **추가**&#x200B;를 클릭합니다.
+&#x200B;5. **추가**&#x200B;를 클릭합니다.
 
 ![푸시 제외 규칙에 대한 추가 단추](assets/brand-management-click-add-rule-button.png)
 
-6. 새 Don&#39;t 규칙이 목록에 `Be pushy`(으)로 표시되는지 확인합니다.
+&#x200B;6. 새 Don&#39;t 규칙이 목록에 `Be pushy`(으)로 표시되는지 확인합니다.
 
 ![규칙 목록에서 규칙을 확인하지 않음](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
-7. **저장**&#x200B;을 클릭합니다.
+&#x200B;7. **저장**&#x200B;을 클릭합니다.
 
 이 규칙은 AI Assistant 또는 작성자가 이메일 버튼 복사 작업을 하는 모든 곳에 적용되며, CTA를 연결 5G 톤과 일치시킵니다.
 
@@ -242,13 +242,13 @@ AJO이 파일을 분석하는 동안 진행 화면이 표시됩니다. 문서 �
 
 ![오른쪽 상단의 게시 단추](assets/brand-management-click-publish-top-right.png)
 
-3. 업데이트된 Brand Guidelines for Connection 5G를 게시하려고 함을 설명하는 확인 대화 상자가 나타납니다. 확인하려면 **게시**&#x200B;를 다시 클릭하세요.
+&#x200B;3. 업데이트된 Brand Guidelines for Connection 5G를 게시하려고 함을 설명하는 확인 대화 상자가 나타납니다. 확인하려면 **게시**&#x200B;를 다시 클릭하세요.
 
 ![업데이트된 브랜드 지침을 게시하는 확인 대화 상자](assets/brand-management-confirm-publish-updated-guidelines.png)
 
-4. 녹색 확인 표시줄이 나타날 때까지 기다립니다.
-5. 브랜드 목록으로 돌아가려면 **뒤로**&#x200B;를 클릭하십시오.
-6. **연결 5G 브랜드 지침**&#x200B;에 대한 새 카드가 &#39;라이브&#39; 및 &#39;사용 가능&#39; 상태로 표시되는지 확인하십시오.
+&#x200B;4. 녹색 확인 표시줄이 나타날 때까지 기다립니다.
+&#x200B;5. 브랜드 목록으로 돌아가려면 **뒤로**&#x200B;를 클릭하십시오.
+&#x200B;6. **연결 5G 브랜드 지침**&#x200B;에 대한 새 카드가 &#39;라이브&#39; 및 &#39;사용 가능&#39; 상태로 표시되는지 확인하십시오.
 
 ![실시간 상태를 표시하는 연결 5G 브랜드 지침 카드](assets/brand-management-brand-guidelines-card-live-status.png)
 

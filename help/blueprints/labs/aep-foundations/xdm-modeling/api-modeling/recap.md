@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >먼저 축하합니다! API를 통해 빌드하는 것은 쉽지 않지만, 작동 방식을 이해하면 시스템 전반을 이해하는 데 도움이 됩니다. 쿠도스!
 

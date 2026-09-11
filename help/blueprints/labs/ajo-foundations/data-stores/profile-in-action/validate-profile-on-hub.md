@@ -55,7 +55,7 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 
 ![segmentMembership을 표시하는 프로필 특성 JSON 보기](assets/validate-profile-on-hub-json-view.png)
 
-2. **segmentMembership**&#x200B;을(를) 찾습니다.  다음과 같아야 합니다(ID가 달라짐).
+&#x200B;2. **segmentMembership**&#x200B;을(를) 찾습니다.  다음과 같아야 합니다(ID가 달라짐).
 
 ```json
   "segmentMembership": {

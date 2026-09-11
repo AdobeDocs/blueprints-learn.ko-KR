@@ -37,21 +37,21 @@ ht-degree: 0%
 
 ![Journey Optimizer이 선택된 앱 아이콘 메뉴](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
 
-2. 데이터 관리 메뉴에서 **스키마**&#x200B;를 클릭하고 **찾아보기** 탭을 선택했는지 확인하십시오.
-3. 이름이 `dep-rel: Customer Account`인 스키마 검색
+&#x200B;2. 데이터 관리 메뉴에서 **스키마**&#x200B;를 클릭하고 **찾아보기** 탭을 선택했는지 확인하십시오.
+&#x200B;3. 이름이 `dep-rel: Customer Account`인 스키마 검색
 
 ![dep-rel: 고객 계정에 대한 스키마 검색](assets/profile-target-dimension-search-schema.png)
 
-4. 이름을 클릭하여 스키마를 연 다음 **customer\_id** 필드를 클릭합니다.
+&#x200B;4. 이름을 클릭하여 스키마를 연 다음 **customer\_id** 필드를 클릭합니다.
 
 ![customer_id가 선택된 스키마 필드 목록](assets/profile-target-dimension-select-customer-id-field.png)
 
-5. 오른쪽 레일에서 **ID**, **확인란을 선택하고**&#x200B;라는 ID 네임스페이스를 선택합니다. **customerID**
+&#x200B;5. 오른쪽 레일에서 **ID**, **확인란을 선택하고**&#x200B;라는 ID 네임스페이스를 선택합니다. **customerID**
 
 ![customerID 네임스페이스가 선택된 ID 확인란](assets/profile-target-dimension-choose-identity-namespace.png)
 
-6. 스키마를 저장하려면 **저장** 단추를 클릭하십시오. 확인 메시지가 표시됩니다
-7. 스키마 UI를 종료하려면 왼쪽 레일에서 **취소** 단추 또는 **스키마**&#x200B;를 클릭하십시오.
+&#x200B;6. 스키마를 저장하려면 **저장** 단추를 클릭하십시오. 확인 메시지가 표시됩니다
+&#x200B;7. 스키마 UI를 종료하려면 왼쪽 레일에서 **취소** 단추 또는 **스키마**&#x200B;를 클릭하십시오.
 
 >[!CAUTION]
 >
@@ -67,15 +67,15 @@ ht-degree: 0%
 
 ![구성을 선택한 관리 메뉴](assets/profile-target-dimension-configurations-menu.png)
 
-2. **프로필 대상 Dimension**&#x200B;을(를) 선택하고 **관리**&#x200B;를 클릭합니다.
+&#x200B;2. **프로필 대상 Dimension**&#x200B;을(를) 선택하고 **관리**&#x200B;를 클릭합니다.
 
 ![관리 옵션이 있는 프로필 대상 Dimension 구성](assets/profile-target-dimension-manage-configuration.png)
 
-3. 프로필 대상 Dimension 창이 열리고 **만들기**&#x200B;를 클릭합니다.
+&#x200B;3. 프로필 대상 Dimension 창이 열리고 **만들기**&#x200B;를 클릭합니다.
 
 ![만들기 단추가 있는 프로필 대상 Dimension 창](assets/profile-target-dimension-create-button.png)
 
-4. 드롭다운에서 스키마 `dep-rel: Customer Account`을(를) 선택합니다.
+&#x200B;4. 드롭다운에서 스키마 `dep-rel: Customer Account`을(를) 선택합니다.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ![스키마 드롭다운을 사용하여 프로필 대상 Dimension 양식을 만듭니다](assets/profile-target-dimension-select-schema-dropdown.png)
 
-5. **ID 값**&#x200B;에 대해 `/customer_id`을(를) 선택합니다.
+&#x200B;5. **ID 값**&#x200B;에 대해 `/customer_id`을(를) 선택합니다.
 
 /customer_id가 선택된 ![ID 값 드롭다운](assets/profile-target-dimension-select-identity-value.png)
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 
 
-6. 프로필 대상 Dimension을 만들려면 **저장** 단추를 클릭하십시오. 그런 다음 레코드가 나타납니다.
+&#x200B;6. 프로필 대상 Dimension을 만들려면 **저장** 단추를 클릭하십시오. 그런 다음 레코드가 나타납니다.
 
 ![목록에 저장된 프로필 대상 Dimension 레코드](assets/profile-target-dimension-saved-record.png)
 

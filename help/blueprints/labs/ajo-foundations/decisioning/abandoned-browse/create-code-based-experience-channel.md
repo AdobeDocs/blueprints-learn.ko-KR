@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![JSON 형식이 선택된 코드 기반 경험 채널 구성이 완료되었습니다](assets/create-code-based-experience-channel-completed-config.png)
 
-9. 모든 항목이 올바르게 표시되면 오른쪽 상단의 파란색 **제출** 단추를 클릭합니다.
+&#x200B;9. 모든 항목이 올바르게 표시되면 오른쪽 상단의 파란색 **제출** 단추를 클릭합니다.
 
 >[!TIP]
 >

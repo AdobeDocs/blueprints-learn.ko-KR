@@ -29,7 +29,7 @@ ht-degree: 0%
 
 
 
-2. 아래에 설명된 대로 변경 차원의 속성을 업데이트합니다.
+&#x200B;2. 아래에 설명된 대로 변경 차원의 속성을 업데이트합니다.
    - **레이블:** `Convert Line to Account`
    - **새 대상 차원:** `dep-rel: Customer Account`
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 
 
-3. 완료되면 캔버스 모양이 다음과 같습니다.  작업 내용을 저장합니다!
+&#x200B;3. 완료되면 캔버스 모양이 다음과 같습니다.  작업 내용을 저장합니다!
 
 변경 차원 활동을 추가한 후 ![워크플로 캔버스](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -57,13 +57,13 @@ ht-degree: 0%
 
 
 
-2. 중복 제거 활동의 레이블을 `Dedup customer id`(으)로 업데이트
+&#x200B;2. 중복 제거 활동의 레이블을 `Dedup customer id`(으)로 업데이트
 
 ![중복 제거 활동 레이블이 중복 제거 고객 ID로 설정됨](assets/save-the-audience-deduplication-label.png)
 
 
 
-3. 이제 **+ 특성 추가** 단추를 클릭하고 **고객 ID**&#x200B;라는 스키마에서 필드를 선택합니다.
+&#x200B;3. 이제 **+ 특성 추가** 단추를 클릭하고 **고객 ID**&#x200B;라는 스키마에서 필드를 선택합니다.
 
 ![중복 제거 활동에 대한 특성 추가 단추](assets/save-the-audience-add-attribute-button.png)
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 
 
-4. 중복 제거 설정에서 다음 세트가 있는지 확인합니다.
+&#x200B;4. 중복 제거 설정에서 다음 세트가 있는지 확인합니다.
    - **유지할 중복 항목:** `1`
    - **중복 제거 방법:** `Random selection`
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 
 
-5. 완료되면 캔버스는 다음과 같이 표시됩니다. 이동하기 전에 오른쪽 상단의 **저장** 단추를 클릭하십시오.
+&#x200B;5. 완료되면 캔버스는 다음과 같이 표시됩니다. 이동하기 전에 오른쪽 상단의 **저장** 단추를 클릭하십시오.
 
 ![중복 제거 활동이 캔버스에 완전히 구성되었습니다](assets/save-the-audience-deduplication-configured.png)
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ![중복 제거 후 대상 저장 활동 추가](assets/save-the-audience-add-save-audience-activity.png)
 
-2. 오른쪽 레일에서 활동의 속성을 다음으로 설정합니다.
+&#x200B;2. 오른쪽 레일에서 활동의 속성을 다음으로 설정합니다.
    - **대상 레이블**: `Apple Upgrade Eligible Customer Accounts`
    - **프로필 매핑 필드**: `dep-rel: Customer Account - customer id`
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 
 
-2. 워크플로우를 실행하려면 **시작** 단추를 클릭하세요. 이제 워크플로우는 다음과 같으며 카운트는 다음과 같습니다.
+&#x200B;2. 워크플로우를 실행하려면 **시작** 단추를 클릭하세요. 이제 워크플로우는 다음과 같으며 카운트는 다음과 같습니다.
    - 대상 작성: `65`
    - 줄을 계정으로 변환: `65`
    - 중복 제거 고객 ID: `46`

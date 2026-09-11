@@ -27,14 +27,14 @@ ht-degree: 0%
 
 
 
-2. 호출 본문을 열고 스키마 정의 방법 구조를 봅니다. 스키마는 항상 하나의 (1) 클래스와 하나 이상의 필드 그룹으로만 구성된다는 점을 기억하십시오.
+&#x200B;2. 호출 본문을 열고 스키마 정의 방법 구조를 봅니다. 스키마는 항상 하나의 (1) 클래스와 하나 이상의 필드 그룹으로만 구성된다는 점을 기억하십시오.
 
-3. 스키마 본문의 `title` 및 `description` 필드를 다음과 같이 채웁니다.
+&#x200B;3. 스키마 본문의 `title` 및 `description` 필드를 다음과 같이 채웁니다.
 
 - 제목 -> `Sample Customer Schema - <your sandbox number>`
 - 설명 -> `Sample Customer Schema - <your sandbox number>`
 
-4. `$ref` 필드를 완료한 이전 실습 섹션에서 저장한 `$ids`(으)로 채웁니다. [사용자 정의 필드 그룹 만들기](./create-custom-field-groups.md) 및 [프로필 클래스 가져오기](./get-profile-class.md). 다음 각 항목에 대해 $id가 있어야 합니다.
+&#x200B;4. `$ref` 필드를 완료한 이전 실습 섹션에서 저장한 `$ids`(으)로 채웁니다. [사용자 정의 필드 그룹 만들기](./create-custom-field-groups.md) 및 [프로필 클래스 가져오기](./get-profile-class.md). 다음 각 항목에 대해 $id가 있어야 합니다.
 
 - 클래스 -> XDM 개별 프로필
 - 필드 그룹 -> 인구 통계 세부 정보
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 
 
-5. 최종 본문을 검토하고 이와 유사한지 확인합니다.
+&#x200B;5. 최종 본문을 검토하고 이와 유사한지 확인합니다.
 
 ![제목, 설명 및 모든 $ref 값이 채워진 완료된 스키마 요청 본문](assets/create-schema-example-of-final-body-payload.png "최종 본문 페이로드의 예")
 

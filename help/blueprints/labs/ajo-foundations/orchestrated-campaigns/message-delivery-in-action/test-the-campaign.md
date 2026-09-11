@@ -31,7 +31,7 @@ ht-degree: 0%
 
 
 
-2. 모든 캠페인 활동의 테스트 실행이 시작됩니다. 결과를 확인합니다.
+&#x200B;2. 모든 캠페인 활동의 테스트 실행이 시작됩니다. 결과를 확인합니다.
 
 ![캠페인 활동 실행 테스트 진행 중](assets/test-the-campaign-verify-execution-results.png)
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 ![프로필 특성 활동을 사용하여 전자 메일 테스트 실행](assets/test-the-campaign-run-test-profile-attribute.png)
 
-2. 확인 메시지를 기다린 다음 **보고서 보기**&#x200B;를 클릭하여 전자 메일 테스트의 세부 정보를 확인합니다
+&#x200B;2. 확인 메시지를 기다린 다음 **보고서 보기**&#x200B;를 클릭하여 전자 메일 테스트의 세부 정보를 확인합니다
 
 ![보고서 보기를 클릭하여 전자 메일 테스트 세부 정보를 봅니다](assets/test-the-campaign-view-report-1.png)
 
-3. 이메일 보고서 페이지에는 캠페인 통계 및 실행 상태가 표시됩니다. 이메일 테스트는 오류가 없는지 확인하는 활동이며 이메일을 보내지 않습니다. 일반적으로 완료하는 데 약 \~**5**&#x200B;분이 소요됩니다.
+&#x200B;3. 이메일 보고서 페이지에는 캠페인 통계 및 실행 상태가 표시됩니다. 이메일 테스트는 오류가 없는지 확인하는 활동이며 이메일을 보내지 않습니다. 일반적으로 완료하는 데 약 \~**5**&#x200B;분이 소요됩니다.
 
 ![캠페인 통계가 포함된 전자 메일 보고서 페이지](assets/test-the-campaign-campaign-statistics-1.png)
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 
 
-4. 이메일 테스트가 완료되면 결과가 표시됩니다. 오류가 일부 있습니다. 이유를 알아보려면 **자세히 보기**&#x200B;를 클릭하세요.
+&#x200B;4. 이메일 테스트가 완료되면 결과가 표시됩니다. 오류가 일부 있습니다. 이유를 알아보려면 **자세히 보기**&#x200B;를 클릭하세요.
 
 ![추가 링크 보기 시 오류율](assets/test-the-campaign-error-rate-view-more.png)
 
-5. 이유 상태: `Email address not found in profile`
+&#x200B;5. 이유 상태: `Email address not found in profile`
 
 ![이유: 프로필에서 전자 메일 주소를 찾을 수 없음](assets/test-the-campaign-email-not-found-reason.png)
 
@@ -81,11 +81,11 @@ ht-degree: 0%
 
 ![Target Dimension 활동을 사용하여 전자 메일 테스트 실행](assets/test-the-campaign-run-test-target-dimension.png)
 
-2. 확인 메시지를 기다린 다음 **보고서 보기**&#x200B;를 클릭하여 전자 메일 테스트의 세부 정보를 확인합니다
+&#x200B;2. 확인 메시지를 기다린 다음 **보고서 보기**&#x200B;를 클릭하여 전자 메일 테스트의 세부 정보를 확인합니다
 
 ![보고서 보기를 클릭하여 전자 메일 테스트 세부 정보를 봅니다](assets/test-the-campaign-view-report-2.png)
 
-3. 이메일 테스트가 완료되면 결과가 표시됩니다. 이 경우 오류가 발생하지 않습니다
+&#x200B;3. 이메일 테스트가 완료되면 결과가 표시됩니다. 이 경우 오류가 발생하지 않습니다
 
 ![오류가 없는 캠페인 통계](assets/test-the-campaign-campaign-statistics-2.png)
 

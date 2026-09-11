@@ -86,6 +86,6 @@ Azure 저장소 탐색기로 돌아가서 이전 단계에서 비워 둔 **Blob 
 
 ![데이터 랜딩 영역 계정을 표시하는 Azure 저장소 탐색기](assets/overview-successfully-connected-account.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >축하합니다!  Azure 저장소 탐색기를 구성했습니다.

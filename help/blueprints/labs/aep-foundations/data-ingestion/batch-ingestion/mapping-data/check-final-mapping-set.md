@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 최종 매핑 세트 확인
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >스트리밍 수집 랩에서 이동하는 경우 아래 링크를 클릭하여 해당 랩의 다음 단계로 진행하십시오.
 >
@@ -52,7 +52,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오.
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString(), &quot;-&quot;, date\_part(&quot;day&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString() | person.birthdayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;M/d/yyyy&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >계속하기 전에 최종 매핑이 아래에 표시된 것과 일치하는지 확인하십시오

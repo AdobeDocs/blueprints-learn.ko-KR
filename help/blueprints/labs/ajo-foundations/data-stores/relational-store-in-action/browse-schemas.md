@@ -45,20 +45,20 @@ ht-degree: 0%
 
 
 
-2. **스키마 선택** 클릭
-3. 팝업에서 `dep-rel: Customer Account`을(를) 선택한 다음 **확인**&#x200B;을 클릭합니다
+&#x200B;2. **스키마 선택** 클릭
+&#x200B;3. 팝업에서 `dep-rel: Customer Account`을(를) 선택한 다음 **확인**&#x200B;을 클릭합니다
 
 ![dep-rel이 있는 스키마 팝업 선택: 고객 계정 선택](assets/browse-schemas-select-schema-popup.png)
 
 
 
-4. ERD에서 **3개 점**&#x200B;을 클릭하고 **관련 엔터티 표시**&#x200B;를 선택합니다.
+&#x200B;4. ERD에서 **3개 점**&#x200B;을 클릭하고 **관련 엔터티 표시**&#x200B;를 선택합니다.
 
 ![ERD 상황에 맞는 메뉴에 관련 엔터티 옵션 표시](assets/browse-schemas-show-related-entities.png)
 
 
 
-5. dep-rel: 고객 계정과 직접 관련된 모든 테이블을 사용하여 ERD를 봅니다. 선택적으로 ERD를 PNG 파일로 다운로드할 수 있습니다.
+&#x200B;5. dep-rel: 고객 계정과 직접 관련된 모든 테이블을 사용하여 ERD를 봅니다. 선택적으로 ERD를 PNG 파일로 다운로드할 수 있습니다.
 
 ![고객 계정과 관련된 테이블을 표시하는 엔터티 관계 다이어그램](assets/browse-schemas-erd-diagram.png)
 

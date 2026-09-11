@@ -55,6 +55,6 @@ ht-degree: 0%
 
 ![201 기본 ID 설명자를 만든 후 응답을 만들었습니다](assets/create-primary-identity-201-created-response.png "기본 ID 설명자를 만들었습니다")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >축하합니다!  스키마에 기본 ID 설명자를 방금 만들었습니다.

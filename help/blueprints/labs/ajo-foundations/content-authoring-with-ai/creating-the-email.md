@@ -41,56 +41,56 @@ ht-degree: 0%
 
 ![여정 관리에서 캠페인 만들기 단추](assets/creating-the-email-click-create-campaign-button.png)
 
-3. &quot;**오케스트레이션 - 마케팅**&quot;을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
+&#x200B;3. &quot;**오케스트레이션 - 마케팅**&quot;을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
 
 ![오케스트레이션 선택 - 마케팅 및 확인 클릭](assets/creating-the-email-select-orchestration-marketing.png)
 
-4. 캠페인 이름을 `Flagship Phone Launch Branded`(으)로 지정합니다. **저장** 단추를 누릅니다.
+&#x200B;4. 캠페인 이름을 `Flagship Phone Launch Branded`(으)로 지정합니다. **저장** 단추를 누릅니다.
 
 ![Campaign Stagle Phone Launch 브랜드의 이름을 지정하고 저장을 클릭합니다](assets/creating-the-email-name-campaign-save.png)
 
-5. **+ 기호**&#x200B;를 클릭하고 **대상자 읽기** 활동을 선택하십시오.
+&#x200B;5. **+ 기호**&#x200B;를 클릭하고 **대상자 읽기** 활동을 선택하십시오.
 
 ![대상자 읽기 활동을 선택하려면 더하기 기호](assets/creating-the-email-click-plus-read-audience.png)
 
-6. 다음 단계는 **&quot;대상자 읽기&quot;** 상자를 선택하고 **대상자 폴더 아이콘**&#x200B;을 클릭합니다
+&#x200B;6. 다음 단계는 **&quot;대상자 읽기&quot;** 상자를 선택하고 **대상자 폴더 아이콘**&#x200B;을 클릭합니다
 
 ![대상 상자 및 대상 폴더 읽기 아이콘](assets/creating-the-email-read-audience-folder-icon.png)
 
-7. **dep: iPhone 17** 대상자를 선택하고 &quot;**대상자 추가**&quot; 단추를 클릭하십시오.
+&#x200B;7. **dep: iPhone 17** 대상자를 선택하고 &quot;**대상자 추가**&quot; 단추를 클릭하십시오.
 
 ![iPhone 17 대상에 관심 항목 선택 및 대상 추가 클릭](assets/creating-the-email-select-audience-add-button.png)
 
-8. 엔터티 - **dep-rel: 고객 계정 - customer\_id**(또는 이 부분에서는 중요하지 않음)을 선택합니다.
-9. **+ 기호**&#x200B;를 클릭하여 **전자 메일 활동**&#x200B;을 추가한 다음 채널 활동에서 **전자 메일**&#x200B;을(를) 선택하십시오.
+&#x200B;8. 엔터티 - **dep-rel: 고객 계정 - customer\_id**(또는 이 부분에서는 중요하지 않음)을 선택합니다.
+&#x200B;9. **+ 기호**&#x200B;를 클릭하여 **전자 메일 활동**&#x200B;을 추가한 다음 채널 활동에서 **전자 메일**&#x200B;을(를) 선택하십시오.
 
 ![채널 활동에서 전자 메일 활동 추가](assets/creating-the-email-add-email-channel-activity.png)
 
-10. **전자 메일 편집**&#x200B;을 클릭합니다.
+&#x200B;10. **전자 메일 편집**&#x200B;을 클릭합니다.
 
 ![캠페인 전자 메일 활동에 대한 전자 메일 옵션 편집](assets/creating-the-email-click-edit-email.png)
 
-11. **작업 탭**&#x200B;을 클릭하고 **내** 전자 메일 구성을 선택합니다. 샌드박스에서 이를 관계형 이메일로 표시할 수 있습니다. (임의 선택)
+&#x200B;11. **작업 탭**&#x200B;을 클릭하고 **내** 전자 메일 구성을 선택합니다. 샌드박스에서 이를 관계형 이메일로 표시할 수 있습니다. (임의 선택)
 
 전자 메일 구성이 선택된 ![작업 탭](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. **콘텐츠 탭**&#x200B;을 클릭합니다.
+&#x200B;12. **콘텐츠 탭**&#x200B;을 클릭합니다.
 
 전자 메일 편집기의 ![콘텐츠 탭](assets/creating-the-email-click-content-tab.png)
 
-13. **콘텐츠 템플릿 적용**&#x200B;을 클릭합니다.
+&#x200B;13. **콘텐츠 템플릿 적용**&#x200B;을 클릭합니다.
 
 ![전자 메일 편집기에서 콘텐츠 템플릿 옵션 적용](assets/creating-the-email-click-apply-content-template.png)
 
-14. 만든 템플릿 **&quot;프로모션 템플릿&quot;**&#x200B;을(를) 선택하고 **확인**&#x200B;을(를) 클릭합니다
+&#x200B;14. 만든 템플릿 **&quot;프로모션 템플릿&quot;**&#x200B;을(를) 선택하고 **확인**&#x200B;을(를) 클릭합니다
 
 ![프로모션 템플릿 선택 및 확인 클릭](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. **전자 메일 본문 편집**&#x200B;을 클릭합니다.
+&#x200B;15. **전자 메일 본문 편집**&#x200B;을 클릭합니다.
 
 ![템플릿을 적용한 후 이메일 본문 옵션 편집](assets/creating-the-email-click-edit-email-body.png)
 
-16. 새 머리글, 영웅, 바닥글 및 콘텐츠 블록이 올바르게 표시되는지 확인합니다.
+&#x200B;16. 새 머리글, 영웅, 바닥글 및 콘텐츠 블록이 올바르게 표시되는지 확인합니다.
 
 ![전자 메일에 머리글, 영웅, 바닥글 및 콘텐츠 블록이 올바르게 표시됨](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
@@ -103,23 +103,23 @@ ht-degree: 0%
 
 ![자리 표시자 영웅 배너 이미지 클릭](assets/creating-the-email-click-broken-hero-banner-image.png)
 
-2. 임시 소스 URL을 제거합니다.
+&#x200B;2. 임시 소스 URL을 제거합니다.
 
 ![이미지에서 임시 소스 URL 제거](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. **미디어 가져오기**&#x200B;를 클릭합니다
+&#x200B;3. **미디어 가져오기**&#x200B;를 클릭합니다
 
 ![영웅 이미지에 대한 미디어 가져오기 단추](assets/creating-the-email-click-import-media.png)
 
-4. 도구 키트에서 `hero.png`을(를) 업로드합니다. (파일을 드래그할 수 있습니다)
+&#x200B;4. 도구 키트에서 `hero.png`을(를) 업로드합니다. (파일을 드래그할 수 있습니다)
 
 ![도구 키트 폴더에서 hero.png 업로드](assets/creating-the-email-upload-hero-png-file.png)
 
-5. **다음,****에셋에 대한 폴더 선택** 및 **가져오기** 누르기
+&#x200B;5. **다음,**&#x200B;**에셋에 대한 폴더 선택** 및 **가져오기** 누르기
 
 ![자산 폴더를 선택하고 대표 이미지 가져오기를 클릭합니다](assets/creating-the-email-select-folder-import-hero.png)
 
-6. 이메일 템플릿이 정상적으로 준비 중입니다. 다음과 같이 표시됩니다. 작업을 저장하려면 **&quot;저장&quot;**&#x200B;을 클릭합니다.
+&#x200B;6. 이메일 템플릿이 정상적으로 준비 중입니다. 다음과 같이 표시됩니다. 작업을 저장하려면 **&quot;저장&quot;**&#x200B;을 클릭합니다.
 
 ![저장하기 전에 새 영웅 이미지로 전자 메일 템플릿을 업데이트했습니다](assets/creating-the-email-save-updated-email-template.png)
 

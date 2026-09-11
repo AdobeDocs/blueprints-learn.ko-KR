@@ -29,14 +29,14 @@ ht-degree: 0%
 
 
 
-2. 왼쪽 탐색 레일에서 **캠페인**&#x200B;을 선택합니다.
-3. 그런 다음 오른쪽 상단의 **캠페인 만들기** 단추를 클릭합니다
+&#x200B;2. 왼쪽 탐색 레일에서 **캠페인**&#x200B;을 선택합니다.
+&#x200B;3. 그런 다음 오른쪽 상단의 **캠페인 만들기** 단추를 클릭합니다
 
 ![캠페인 탐색에서 캠페인 만들기 단추](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-4. 표시되는 모달에서 **오케스트레이션 - 마케팅**&#x200B;을 선택하고 **확인**&#x200B;을 클릭합니다.
+&#x200B;4. 표시되는 모달에서 **오케스트레이션 - 마케팅**&#x200B;을 선택하고 **확인**&#x200B;을 클릭합니다.
 
 ![오케스트레이션 - 마케팅 선택 후 확인 클릭](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ![이름 및 병합 정책으로 채워진 캠페인 설정](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-2. 계속하려면 **저장** 단추를 클릭하십시오.
+&#x200B;2. 계속하려면 **저장** 단추를 클릭하십시오.
 
 
 

@@ -25,7 +25,7 @@ ht-degree: 1%
 
 
 
-2. **시작** 단추 클릭
+&#x200B;2. **시작** 단추 클릭
 
 ![시작 단추를 클릭하여 Assurance 세션 구성을 시작합니다](assets/monitor-your-event-click-start-button.png)
 
@@ -40,21 +40,21 @@ ht-degree: 1%
 
 ![세션 이름과 URL을 입력한 후 [다음]을 클릭합니다](assets/monitor-your-event-click-next-button.png)
 
-4. 나중에 참조할 수 있는 위치에 링크를 복사합니다.
+&#x200B;4. 나중에 참조할 수 있는 위치에 링크를 복사합니다.
 
-5. **완료** 단추를 클릭합니다.
+&#x200B;5. **완료** 단추를 클릭합니다.
 
 ![Assurance 세션 링크를 복사하고 완료](assets/monitor-your-event-copy-link.png)를 클릭합니다.
 
 
 
-6. **설정**(으)로 이동
+&#x200B;6. **설정**(으)로 이동
 
 ![Assurance 세션의 설정 탭으로 이동](assets/monitor-your-event-navigate-to-settings.png "설정 클릭")
 
 
 
-7. **+** 단추를 클릭한 다음 **완료**&#x200B;를 클릭하여 **이벤트 트랜잭션** 및 **Edge Delivery**&#x200B;을(를) 사용하도록 설정합니다.
+&#x200B;7. **+** 단추를 클릭한 다음 **완료**&#x200B;를 클릭하여 **이벤트 트랜잭션** 및 **Edge Delivery**&#x200B;을(를) 사용하도록 설정합니다.
 
 ![이벤트 트랜잭션 및 Edge Delivery을 사용하도록 설정한 다음 완료](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)를 클릭합니다.
 
@@ -63,14 +63,14 @@ ht-degree: 1%
 
 Postman -> 웹 이벤트 만들기 Edge(인증 없음) -> 헤더로 이동
 
-1. Assurance에서 복사한 링크를 사용하여 **x-adobe-aep-validation-token**&#x200B;을 헤더에 추가합니다. Assurance에서 복사한 링크에서 = 뒤에 있는 **ID** 값을 가져옵니다. 예: [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. Assurance에서 복사한 링크를 사용하여 **x-adobe-aep-validation-token**&#x200B;을 헤더에 추가합니다. Assurance에서 복사한 링크에서 = 뒤에 있는 **ID** 값을 가져옵니다. 예: [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. 전체 URL이 아닌 [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) 값만 사용합니다.
 
 ![Postman에서 Assurance 세션 ID를 사용하여 x-adobe-aep-validation-token 헤더를 추가합니다](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
 
 
-3. Postman에서 **웹 이벤트 만들기 Edge(인증 없음)** 요청을 저장하고 실행합니다.
+&#x200B;3. Postman에서 **웹 이벤트 만들기 Edge(인증 없음)** 요청을 저장하고 실행합니다.
 
 
 
