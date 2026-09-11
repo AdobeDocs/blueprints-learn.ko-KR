@@ -32,4 +32,4 @@ ht-degree: 1%
 
 이제 캠페인 캔버스에서 포크 활동을 사용하여 유입되는 동일한 데이터의 동일한 분기를 만드는 것이 얼마나 쉬운지 확인했습니다. 포크 활동의 분기는 다음 단계에서 사용됩니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)에서 더 읽을 수 있습니다.
