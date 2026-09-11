@@ -163,7 +163,7 @@ iPhone 14인 활성 줄이 없는 모든 프로필을 찾는 대상을 만듭니
 >
 >일괄 처리와 스트리밍 또는 Edge을 선택해야 하는 이유 고려 사항:
 >
->최신 보호 기능: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+>최신 보호 기능: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 
 >[!TIP]
 >

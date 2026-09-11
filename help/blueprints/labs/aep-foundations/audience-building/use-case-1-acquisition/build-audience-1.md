@@ -247,7 +247,7 @@ iPhone 14 추가
 >
 >컨테이너는 이벤트 변수 또는 배열 요소를 참조하는 방법입니다. 이 블로그에서 이 요소의 파생에 대해 자세히 읽어볼 수 있지만, 단순성을 위해 배열의 단일 요소가 두 조건을 모두 충족하는지 아니면 조건이 두 요소에 분산될 수 있는지 지정할 수 있습니다.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=ko](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=ko)
 
 >[!WARNING]
 >

@@ -109,7 +109,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->열거형 및 제안 값의 목표는 최종 사용자가 보다 쉽게 세분화할 수 있도록 하는 것입니다. 열거형은 데이터 수집 시 유효성 검사를 시행하지만 제안된 값은 시행하지 않습니다. 이 기능에 대해 자세히 알아보려면 여기 -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values) 설명서에서 자세히 읽어보십시오.
+>열거형 및 제안 값의 목표는 최종 사용자가 보다 쉽게 세분화할 수 있도록 하는 것입니다. 열거형은 데이터 수집 시 유효성 검사를 시행하지만 제안된 값은 시행하지 않습니다. 이 기능에 대해 자세히 알아보려면 여기 -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ko#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ko#enums-and-suggested-values) 설명서에서 자세히 읽어보십시오.
 
 
 

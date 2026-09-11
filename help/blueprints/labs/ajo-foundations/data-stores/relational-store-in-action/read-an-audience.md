@@ -185,4 +185,4 @@ ht-degree: 0%
 
 이제 Campaign을 만들고, 대상 읽기 활동을 프로필 대상 Dimension과 함께 수행하여 관계형 스키마를 활용하는 방법을 보았습니다. 분할 활동을 사용하여 조건에 따라 대상자를 분할했습니다. 마지막으로 테스트 모드는 프로필과 관계형 스키마 간의 데이터 일관성이 중요하다는 것을 이해하는 데 도움이 되었습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)에서 더 읽을 수 있습니다.
