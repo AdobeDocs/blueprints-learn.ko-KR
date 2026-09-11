@@ -24,7 +24,7 @@ ht-degree: 0%
 | ----------------------- | ------------------------- |
 | orderStatus | eventType |
 | lastOrderStatusUpdate | timestamp |
-| products\[\*] | productListItems\\*] |
+| products\[\*] | productListItems\\*&rbrack; |
 | products\[\*].productID | productListItems\[\*].SKU |
 
 >[!NOTE]
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 | Source 열 | XDM 열 | 액션 |
 | -------------------------- | ----------------------------------- | -------------------------------------- |
-| products\[\*] | productListItems\\*] | `Add` |
+| products\[\*] | productListItems\\*&rbrack; | `Add` |
 | products\[\*].productID | productListItems\[\*].SKU | `Add` |
 | products\[\*].productID | productListItems\[\*].\_id | `No change` |
 | products\[\*].make | productListItems\[\*].\_devbc.make | `Change` |
