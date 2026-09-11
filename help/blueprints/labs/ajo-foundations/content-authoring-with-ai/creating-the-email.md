@@ -69,27 +69,27 @@ ht-degree: 0%
 
 ![캠페인 전자 메일 활동에 대한 전자 메일 옵션 편집](assets/creating-the-email-click-edit-email.png)
 
-11. **작업 탭**&#x200B;을 클릭하고 **내** 전자 메일 구성을 선택합니다. 샌드박스에서 이를 관계형 이메일로 표시할 수 있습니다. (임의 선택)
+&#x200B;11. **작업 탭**&#x200B;을 클릭하고 **내** 전자 메일 구성을 선택합니다. 샌드박스에서 이를 관계형 이메일로 표시할 수 있습니다. (임의 선택)
 
 전자 메일 구성이 선택된 ![작업 탭](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. **콘텐츠 탭**&#x200B;을 클릭합니다.
+&#x200B;12. **콘텐츠 탭**&#x200B;을 클릭합니다.
 
 전자 메일 편집기의 ![콘텐츠 탭](assets/creating-the-email-click-content-tab.png)
 
-13. **콘텐츠 템플릿 적용**&#x200B;을 클릭합니다.
+&#x200B;13. **콘텐츠 템플릿 적용**&#x200B;을 클릭합니다.
 
 ![전자 메일 편집기에서 콘텐츠 템플릿 옵션 적용](assets/creating-the-email-click-apply-content-template.png)
 
-14. 만든 템플릿 **&quot;프로모션 템플릿&quot;**&#x200B;을(를) 선택하고 **확인**&#x200B;을(를) 클릭합니다
+&#x200B;14. 만든 템플릿 **&quot;프로모션 템플릿&quot;**&#x200B;을(를) 선택하고 **확인**&#x200B;을(를) 클릭합니다
 
 ![프로모션 템플릿 선택 및 확인 클릭](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. **전자 메일 본문 편집**&#x200B;을 클릭합니다.
+&#x200B;15. **전자 메일 본문 편집**&#x200B;을 클릭합니다.
 
 ![템플릿을 적용한 후 이메일 본문 옵션 편집](assets/creating-the-email-click-edit-email-body.png)
 
-16. 새 머리글, 영웅, 바닥글 및 콘텐츠 블록이 올바르게 표시되는지 확인합니다.
+&#x200B;16. 새 머리글, 영웅, 바닥글 및 콘텐츠 블록이 올바르게 표시되는지 확인합니다.
 
 ![전자 메일에 머리글, 영웅, 바닥글 및 콘텐츠 블록이 올바르게 표시됨](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
    ![도구 키트 폴더에서 hero.png 업로드](assets/creating-the-email-upload-hero-png-file.png)
 
-5. **다음,****에셋에 대한 폴더 선택** 및 **가져오기** 누르기
+5. **다음,**&#x200B;**에셋에 대한 폴더 선택** 및 **가져오기** 누르기
 
    ![자산 폴더를 선택하고 대표 이미지 가져오기를 클릭합니다](assets/creating-the-email-select-folder-import-hero.png)
 

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 
 
-3. 이벤트에서 &quot;사용량&quot;을 검색합니다.  &quot;i&quot;를 클릭하여 설명을 검토합니다(없음).
+&#x200B;3. 이벤트에서 &quot;사용량&quot;을 검색합니다.  &quot;i&quot;를 클릭하여 설명을 검토합니다(없음).
 
 ![이벤트에서 사용량 검색 - 설명이 표시되지 않음](assets/pre-work-search-usage-in-events.png)
 

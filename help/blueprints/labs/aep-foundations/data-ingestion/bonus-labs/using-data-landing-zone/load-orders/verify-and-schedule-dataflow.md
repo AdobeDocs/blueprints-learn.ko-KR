@@ -42,7 +42,7 @@ ht-degree: 7%
 | 22 | billingCity | billing.address.city |
 | 23 | billingState | billing.address.state |
 | 24 | billingZip | billing.address.postalCode |
-| 25 | products\[\*] | productListItems\\*] |
+| 25 | products\[\*] | productListItems\\*&rbrack; |
 | 26 | products\[\*].productID | - productListItems\[\*].\_id - productListItems\[\*].SKU |
 | 27 | products\[\*].make | productListItems\[\*].\_devbc.make |
 | 28 | products\[\*].model | productListItems\[\*].\_devbc.model |

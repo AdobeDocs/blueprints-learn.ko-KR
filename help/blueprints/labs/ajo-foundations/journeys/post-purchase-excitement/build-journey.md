@@ -188,7 +188,7 @@ ht-degree: 0%
 
 ![오른쪽 상단과 왼쪽 상단의 저장 단추와 뒤로 화살표](assets/build-journey-save-and-back-arrow.png)
 
-12. 마지막으로 왼쪽 상단의 **\&lt; 뒤로 아이콘**&#x200B;을 클릭하여 여정 캔버스로 돌아갑니다
+&#x200B;12. 마지막으로 왼쪽 상단의 **\&lt; 뒤로 아이콘**&#x200B;을 클릭하여 여정 캔버스로 돌아갑니다
 
 ![여정 캔버스로 돌아가려면 왼쪽 상단의 뒤로 아이콘](assets/build-journey-back-icon-to-journey-canvas.png)
 

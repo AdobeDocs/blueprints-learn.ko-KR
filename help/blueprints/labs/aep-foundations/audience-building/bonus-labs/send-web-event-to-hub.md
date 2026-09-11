@@ -39,7 +39,7 @@ ht-degree: 0%
 1. 왼쪽 레일에서 **소스**(으)로 이동한 다음 위쪽 탐색에서 **계정**&#x200B;을 클릭합니다
 1. **dep: HTTP API \[raw]**&#x200B;를 검색하고, 행을 강조 표시하고 나중에 참조할 수 있는 위치에 **스트리밍 끝점**&#x200B;의 값을 복사하고 저장합니다.
 
- 계정 및 해당 스트리밍 끝점 복사](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ 계정 및 해당 스트리밍 끝점 복사&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## 웹 데이터 흐름 ID 찾기
 

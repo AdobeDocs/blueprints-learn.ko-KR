@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ![저장 및 닫기 단추가 있는 확인 대화 상자](assets/add-email-activities-save-and-close-dialog.png)
 
-11. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
+&#x200B;11. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
 
 ![Campaign 캔버스로 다시 이동](assets/add-email-activities-back-to-campaign-canvas.png)
 

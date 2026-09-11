@@ -48,7 +48,7 @@ Adobe Journey Optimizer의 Personalization을 사용하면 개별 프로필, 동
 
    ![전자 메일 텍스트 도구 모음의 개인화 아이콘](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. **이름****** 검색합니다.
+4. **이름**&#x200B;**&#x200B;** 검색합니다.
 
    ![개인화 패널에서 이름 특성을 검색하는 중](assets/personalization-and-content-experimentation-search-first-name-field.png)
 

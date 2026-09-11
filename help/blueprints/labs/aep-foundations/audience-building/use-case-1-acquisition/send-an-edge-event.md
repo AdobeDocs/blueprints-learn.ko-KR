@@ -142,13 +142,13 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 
 
 
-3. 위쪽 탐색에서 **이벤트**&#x200B;를 클릭하면 방금 보낸 이벤트를 볼 수 있습니다
+&#x200B;3. 위쪽 탐색에서 **이벤트**&#x200B;를 클릭하면 방금 보낸 이벤트를 볼 수 있습니다
 
    ![프로필의 이벤트 탭에서 이벤트를 봅니다](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-4. 위쪽 탐색에서 Audience Membership 탭을 검토하여 프로필이 Audiences에 적합한지 확인합니다.  다음이 표시됩니다.
+&#x200B;4. 위쪽 탐색에서 Audience Membership 탭을 검토하여 프로필이 Audiences에 적합한지 확인합니다.  다음이 표시됩니다.
 
 - 모든 이벤트 Edge(최근 15분 이내)
 - 모든 이벤트 스트리밍(지난 1시간 이내)

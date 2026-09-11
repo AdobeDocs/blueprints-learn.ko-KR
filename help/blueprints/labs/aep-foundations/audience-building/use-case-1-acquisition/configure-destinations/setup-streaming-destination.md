@@ -62,7 +62,7 @@ Experience Platform UI에서 다음을 수행하여 대상 카탈로그로 이�
 
 
 
-3. 다음과 같이 대상의 구성 세부 정보를 입력합니다.
+&#x200B;3. 다음과 같이 대상의 구성 세부 정보를 입력합니다.
 
 - **이름** -> `Streaming DEP Webhook - [Your Initials]`
 - **설명** -> `[your webhook endpoint you copied above]`
