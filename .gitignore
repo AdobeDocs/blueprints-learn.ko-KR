@@ -5,3 +5,4 @@ icon-generation-prompts.md
 # but keep shared skills/agents/agent-memory under .claude/ tracked.
 **/.claude/worktrees/
 .claude/settings.local.json
+.claude/settings.json
