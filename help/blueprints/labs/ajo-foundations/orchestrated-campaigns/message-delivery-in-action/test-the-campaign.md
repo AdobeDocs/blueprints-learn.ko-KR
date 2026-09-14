@@ -108,4 +108,4 @@ ht-degree: 0%
 
 이제 흐름과 동작을 파악하기 위해 만든 캠페인을 테스트하는 방법을 살펴보았습니다. 여기에서는 테스트 흐름 실행 중에 이메일 채널 구성에 대해 서로 다른 설정을 사용하는 뉘앙스를 잘 이해했습니다.
 
-관심이 있는 경우 캠페인 테스트 모드 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)에 대해 자세히 알아보세요.
+관심이 있는 경우 캠페인 테스트 모드 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)에 대해 자세히 알아보세요.

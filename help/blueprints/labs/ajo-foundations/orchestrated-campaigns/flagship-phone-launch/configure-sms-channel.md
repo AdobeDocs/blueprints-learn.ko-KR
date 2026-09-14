@@ -165,4 +165,4 @@ ht-degree: 0%
 
 이제 SMS 채널을 구성하는 방법을 확인했습니다.  이 구성은 API 기반 SMS이므로 공급자에 따라 다른 인증 방법을 사용할 수 있습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)에서 더 읽을 수 있습니다.
