@@ -4,31 +4,29 @@ description: SAS URL을 사용하여 Azure Storage Explorer를 설치하고 구�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 
 # 데이터 랜딩 영역 사용
 
 ## 필요 조건
 
-Azure Storage Explorer를 다운로드하지 않은 경우 이 실습의 요구 사항이므로 지금 다운로드하십시오.  아래 링크에서 다운로드를 찾을 수 있습니다.
+Azure Storage Explorer를 다운로드하지 않은 경우 이 실습의 요구 사항이므로 지금 다운로드하십시오.  아래 링크에서 다운로드를 찾습니다.
 
 [Azure 스토리지 탐색기 다운로드](https://azure.microsoft.com/en-us/blog/microsoft-azure-data-lake-storage-adls-in-storage-explorer-public-preview/)
 
 1. 애플리케이션 설치
-1. 첫 번째 실행 시 최종 사용자 사용권 계약에 동의
+1. 애플리케이션을 처음 열면 최종 사용자 라이센스 계약에 동의합니다.
 
 ![Azure 저장소 탐색기의 최종 사용자 사용권 계약 화면](assets/overview-end-user-license-agreement-screen.png "최종 사용자 사용권 계약 화면")
 
 
 ## Experience Platform을 사용하여 Azure Storage Explorer 구성
 
-1. Azure 저장소 탐색기를 열고 **리소스 선택 아이콘**&#x200B;을 클릭한 다음 **ADLS Gen 2 컨테이너 또는 디렉터리**&#x200B;를 선택합니다.
+1. Azure 저장소 탐색기를 열고 **리소스 선택 아이콘**&#x200B;을 클릭한 다음 **ADLS Gen2 컨테이너 또는 디렉터리**&#x200B;를 선택합니다.
 
    ![Azure 저장소 탐색기에서 리소스로 ADLS Gen2 컨테이너 또는 디렉터리 선택](assets/overview-choose-the-resource-as-shown-above.png)
 
@@ -50,7 +48,7 @@ Azure Storage Explorer를 다운로드하지 않은 경우 이 실습의 요구 
 
 
 
-1. Adobe Experience Platform으로 이동하고 다음을 수행하여 데이터 랜딩 영역으로 이동합니다.
+1. Adobe Experience Platform으로 이동한 다음 다음을 수행하여 데이터 랜딩 영역으로 이동합니다.
 
    - **소스 -> 카탈로그**(으)로 이동
    - 소스에서 **클라우드 저장소** 선택
@@ -85,6 +83,6 @@ Azure Storage Explorer를 다운로드하지 않은 경우 이 실습의 요구 
 
 ![데이터 랜딩 영역 계정을 표시하는 Azure 저장소 탐색기](assets/overview-successfully-connected-account.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다!  Azure 저장소 탐색기를 구성했습니다.

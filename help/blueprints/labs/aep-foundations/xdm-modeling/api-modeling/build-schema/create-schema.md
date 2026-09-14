@@ -4,13 +4,11 @@ description: 스키마 레지스트리 API를 사용하여 프로필 클래스 �
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 
 # 스키마 만들기
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**호출을 실행하지 않음...아직**
+>**아직 통화를 실행하지 않음**
 
 1. `XDM Schema Lab -> Create Schema` 폴더에서 `Step 4 - Create Customer Account Schema` API 호출을 클릭합니다.
 
@@ -33,7 +31,7 @@ ht-degree: 0%
    - 제목 -> `Sample Customer Schema - <your sandbox number>`
    - 설명 -> `Sample Customer Schema - <your sandbox number>`
 
-4. `$ref` 필드를 완료한 이전 실습 섹션에서 저장한 `$ids`(으)로 채웁니다. [사용자 정의 필드 그룹 만들기](./create-custom-field-groups.md) 및 [프로필 클래스 가져오기](./get-profile-class.md). 다음 각 항목에 대해 $id가 있어야 합니다.
+4. `$ref` 필드를 완료한 이전 실습 섹션에서 저장한 `$ids`(으)로 채웁니다. [사용자 지정 필드 그룹 만들기](./create-custom-field-groups.md) 및 [프로필 클래스 가져오기](./get-profile-class.md). 다음 각 항목에 대한 $id가 있습니다.
 
    - 클래스 -> XDM 개별 프로필
    - 필드 그룹 -> 인구 통계 세부 정보
@@ -76,8 +74,8 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->`$id` 및 `$meta:altId`을(를) 어딘가에 저장할 때까지 계속하지 마십시오.  향후 실습 단계에서 필요할 것입니다.
+>`$id` 및 `$meta:altId`을(를) 어딘가에 저장할 때까지 계속하지 마십시오.  이는 향후 실습 단계에서 필요합니다.
 
->[!TIP]
+>[!SUCCESS]
 >
 >**축하합니다! API**&#x200B;만 사용하여 스키마를 만들었습니다.

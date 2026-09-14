@@ -4,13 +4,11 @@ description: 스키마 레지스트리 API를 사용하여 고객 계정 스키�
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # 기본 ID 만들기
 
@@ -50,10 +48,10 @@ ht-degree: 0%
 
 1. `Save` 단추를 계속 사용하기 전에 요청을 저장하십시오.
 
-1. `Send` 단추를 클릭하여 API를 실행하십시오. 이제 아래와 같은 `201 Created` 응답이 표시됩니다.
+1. `Send` 단추를 클릭하여 API를 실행하십시오. 이제 아래와 같이 `201 Created` 응답이 표시됩니다.
 
 ![201 기본 ID 설명자를 만든 후 응답을 만들었습니다](assets/create-primary-identity-201-created-response.png "기본 ID 설명자를 만들었습니다")
 
->[!TIP]
+>[!SUCCESS]
 >
->축하합니다!  스키마에 기본 ID 설명자를 방금 만들었습니다.
+>축하합니다!  스키마에 기본 ID 설명자를 만들었습니다.

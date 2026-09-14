@@ -1,16 +1,14 @@
 ---
 title: API를 사용한 자동화
-description: 스키마, 필드 그룹, ID 및 관계 설명자, 데이터 세트를 한 번에 자동 생성하는 Postman 컬렉션을 실행합니다.
+description: 스키마, 필드 그룹, ID 및 관계 설명자, 데이터 세트 생성을 한 번의 실행으로 자동화하는 Postman 컬렉션을 실행합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 
 # API를 사용한 자동화
 
@@ -50,13 +48,13 @@ API를 사용하여 배포를 자동화하는 방법을 확인하려면 다음 �
 
 
 
-1. API 호출이 순서대로 실행되기 시작하는 것을 볼 수 있으며 완료되면 32개의 통과한 테스트가 표시됩니다.
+1. API 호출이 순서대로 실행되기 시작하는 것을 볼 수 있고, 완료되면 32개의 통과한 테스트가 표시됩니다.
 
    ![32개의 테스트를 통과한 성공적인 자동화 실행](assets/automate-with-apis-successful-automation-32-passed-tests.png "성공적인 자동화")
 
 
 
-1. Experience Platform UI로 이동하면 접두사가 **postman:**&#x200B;인 프로필에 대해 만들어지고 활성화된 두 개의 스키마와 두 개의 데이터 세트가 표시됩니다
+1. Experience Platform UI로 이동하면 **postman:** 접두사가 있는 프로필에 대해 만들고 활성화된 두 개의 스키마와 두 개의 데이터 세트가 표시됩니다
 
 ![postman이 있는 프로필에 대해 만들고 활성화한 두 개의 스키마: 접두사](assets/automate-with-apis-schemas-created-in-ui.png "자동화 스키마")
 
@@ -64,6 +62,6 @@ API를 사용하여 배포를 자동화하는 방법을 확인하려면 다음 �
 
 ![postman으로 만든 데이터 세트 두 개: 자동화된 스키마와 일치하는 접두사](assets/automate-with-apis-datasets-created-in-ui.png "자동화 데이터 세트")
 
->[!TIP]
+>[!SUCCESS]
 >
->축하합니다!  ID 네임스페이스, 필드 그룹, 스키마, ID/관계 설명자의 배포를 자동화하고 프로필에 대한 스키마를 활성화했으며 스키마를 사용하여 데이터 세트를 생성할 수 있습니다
+>축하합니다!  ID 네임스페이스, 필드 그룹, 스키마, ID/관계 설명자의 배포를 자동화하고 프로필에 대한 스키마를 활성화했으며 스키마를 사용하여 데이터 세트를 생성했습니다

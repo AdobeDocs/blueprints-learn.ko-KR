@@ -4,19 +4,17 @@ description: 오케스트레이션된 캠페인에서 사용할 Twilio 기반 SM
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 
 # SMS 채널 구성
 
 ## 목표
 
-다음 단계 세트에서 SMS 채널을 구성합니다. 나중에 캠페인을 구축할 때 개별 라인 소유자에게 메시지를 보낼 수 있도록 해야 합니다.
+다음 단계 세트에서는 SMS 채널을 구성합니다. 이 단계는 캠페인을 구축할 때 나중에 개별 라인 소유자에게 메시지를 보낼 수 있도록 필요합니다.
 
 
 
@@ -32,7 +30,7 @@ ht-degree: 0%
 
 ## SMS API 자격 증명 정의
 
-AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터를 만드는 것부터 시작합니다.
+먼저 AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용하는 API 커넥터를 만듭니다.
 
 1. SMS 공급자에서 **Twilio**&#x200B;을(를) 선택합니다.
 1. 자신의 [Twilio 체험판 계정](https://www.twilio.com/try-twilio)을(를) 사용하여 다음 API 자격 증명 세부 정보를 입력하십시오.
@@ -43,7 +41,7 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 >[!NOTE]
 >
->이 단계를 시작하기 전에 확인된 전화 번호로 무료 Twilio 체험판 계정이 필요합니다. [twilio.com/try-twilio](https://www.twilio.com/try-twilio)에 등록한 다음 Twilio 콘솔 대시보드에서 계정 SID와 인증 토큰을 찾습니다.
+>이 단계를 시작하기 전에 확인된 전화 번호로 무료 Twilio 체험판 계정이 필요합니다. [twilio.com/try-twilio](https://www.twilio.com/try-twilio)에 등록한 다음 Twilio 콘솔 대시보드에서 계정 SID와 인증 토큰을 찾습니다. 전체 연습은 Twilio의 [시작 안내서](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)를 참조하십시오.
 
 ![Twilio 공급업체에 대한 SMS API 자격 증명 필드](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -113,7 +111,7 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
    >[!NOTE]
    >
-   >이것은 오케스트레이션된 캠페인에 메시지를 보낼 때 프로필 대상 Dimension에 일치하는 레코드당 하나의 메시지를 전달해야 함을 알려줍니다.
+   >이 설정은 메시지를 보낼 때 프로필 대상 Dimension에 일치하는 레코드당 하나의 메시지를 전달해야 한다는 오케스트레이션된 캠페인을 알려줍니다.
 
 
 
@@ -151,7 +149,7 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
    >[!CAUTION]
    >
-   >상태가 **활성**&#x200B;이 될 때까지 기다립니다. 그렇지 않으면 이후의 랩 단계가 심각하게 실패합니다.
+   >상태가 **활성**&#x200B;이 될 때까지 기다립니다. 그렇지 않으면 이후의 랩 단계가 실패합니다.
 
 
 
@@ -165,6 +163,6 @@ AJO에서 아웃바운드 SMS 요청을 전송하는 데 사용할 API 커넥터
 
 ## 요약
 
-이제 SMS 채널을 성공적으로 구성하는 방법을 보았습니다.  이는 API 기반 SMS이므로 공급자에 따라 다른 인증 방법을 사용할 수 있습니다.
+이제 SMS 채널을 구성하는 방법을 확인했습니다.  이 구성은 API 기반 SMS이므로 공급자에 따라 다른 인증 방법을 사용할 수 있습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)에서 더 읽을 수 있습니다.

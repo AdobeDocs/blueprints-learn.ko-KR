@@ -1,9 +1,8 @@
 ---
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 5%
-
+source-wordcount: '475'
+ht-degree: 4%
 ---
 ﻿---
 title: 개요
@@ -24,11 +23,15 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 - **데이터 저장소 — 동작 중인 관계 저장소** **—>** [프로필 대상 Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **데이터 저장소 — 전자 메일 채널 구성 —>** [관계형 구성](../data-stores/configure-email-channels/configure-for-relational.md)
 
-이 실습을 완료하지 않았다면 계속하기 전에 지금 완료하십시오.
+이러한 실습을 완료하지 않은 경우 계속하기 전에 지금 완료하십시오.
+
+>[!CAUTION]
+>
+>이 실습에는 샌드박스에서 Adobe에게 위임된 하위 도메인이 필요합니다. 자습하고 아직 없으면 [설정](../setup.md)을 참조하세요.
 
 ## 랩 개요
 
-이 비디오에서는 Connection 5G 브랜드, 구축 조각, 템플릿 및 AI 지원 이메일, 시뮬레이션 및 증명 전송을 통한 유효성 검사 등 이 실습형 랩의 세 가지 작업에 대해 알아봅니다.
+이 비디오에서는 이 실습실의 3가지 부분, 즉 연결 5G 브랜드 설정, 조각 및 템플릿 작성, AI 지원 이메일 만들기, 시뮬레이션 및 증명 전송을 통한 유효성 검사 등을 살펴봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
@@ -69,7 +72,7 @@ AJO의 브랜드는 고유한 ID(예: 연결 5G)를 나타냅니다. 각 브랜�
 - 작성 스타일 및 색조
 - 음성 규칙
 - 법적 요구 사항
-- 색상, 이미지 및 도상학 등 시각적 표준
+- 시각적 표준(색상, 이미지, 도상학)
 
 ### &#x200B;3. 여정
 
@@ -94,7 +97,7 @@ AJO의 브랜드는 고유한 ID(예: 연결 5G)를 나타냅니다. 각 브랜�
 
 1. 브라우저에서 Adobe Journey Optimizer을 엽니다.
 1. 자격 증명으로 로그인합니다.
-1. 메인 대시보드에 착륙합니다.
+1. 기본 대시보드가 나타납니다.
 
 ### 메인 탐색 메뉴 찾기
 
@@ -114,7 +117,7 @@ AJO의 브랜드는 고유한 ID(예: 연결 5G)를 나타냅니다. 각 브랜�
 - 콘텐츠 템플릿
 - 조각
 
-각 버튼을 클릭하고 UI에 익숙해집니다. 이 실습실은 각 단원을 자세히 살펴봅니다.
+UI에 익숙해지려면 각 UI를 선택합니다. 이 실습실은 각 단원을 자세히 살펴봅니다.
 
 ![탐색 메뉴의 Assets, 콘텐츠 템플릿 및 조각을 포함한 콘텐츠 만들기 도구](assets/overview-content-creation-tools-navigation-menu.png)
 

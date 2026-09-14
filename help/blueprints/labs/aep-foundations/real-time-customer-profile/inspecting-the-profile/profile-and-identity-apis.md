@@ -4,21 +4,19 @@ description: Postman의 Profile Entity API 및 Identity Service Cluster API를 �
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1143'
 ht-degree: 1%
-
 ---
-
 
 # 프로필 및 ID API
 
 ## 프로필 엔티티 API
 
-프로필 API를 활용하는 방법을 파악하는 것은 실시간 고객 프로필 작업에 있어 매우 중요합니다. 또한 콜센터에서 키오스크에 이르기까지 시스템 통합에 대한 무한한 가능성을 노출하면서 빠른 분류와 디버그를 위한 기능을 잠금 해제합니다.
+프로필 API를 활용하는 방법을 파악하는 것은 실시간 고객 프로필 작업에 있어 매우 중요합니다. 또한 콜센터에서 키오스크에 이르기까지 가능한 다양한 시스템 통합에 노출되면서 빠른 분류 및 디버그 기능의 잠금을 해제합니다.
 
-가장 중요한 API 중 하나는 프로필 엔티티 API입니다.  이 API를 사용하면 UI에서 확인한 것처럼 개별 프로필을 조회할 수 있지만 매개 변수를 사용하여 프로필의 특성 또는 이벤트를 보려는 여부를 나타냅니다.
+가장 중요한 API 중 하나는 프로필 엔티티 API입니다. 이 API를 사용하면 UI에서 확인한 것처럼 개별 프로필을 조회할 수 있습니다. 프로필은 매개 변수를 사용하여 프로필의 속성 또는 이벤트를 볼지 여부를 나타냅니다.
 
 다음은 프로필 엔티티 API의 GET 메서드에 대한 전체 사양입니다
 
@@ -40,7 +38,7 @@ ht-degree: 1%
 
 ### 조회할 엔티티 식별
 
-대부분의 요청은 `entityId` 및 `entityIdNS`을(를) 사용하여 이미 해당 XID를 알고 있어야 하는 대신 이메일 주소, CRM ID 또는 충성도 ID와 같은 알려진 ID 값으로 엔티티를 식별합니다. XID는 ID를 나타내기 위해 ID 서비스에서 내부적으로 생성하고 할당하는 base64 인코딩 식별자입니다. 네임스페이스와 ID 값을 하나의 압축 토큰으로 통합합니다(자세한 내용은 [기본 XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ko) 참조).
+대부분의 요청은 `entityId` 및 `entityIdNS`을(를) 사용하여 이미 해당 XID를 알고 있어야 하는 것이 아니라 이메일 주소, CRM ID 또는 충성도 ID와 같은 알려진 ID 값으로 엔티티를 식별합니다. XID는 ID를 나타내기 위해 ID 서비스에서 내부적으로 생성하고 할당하는 base64 인코딩 식별자입니다. 네임스페이스와 ID 값을 하나의 압축 토큰으로 통합합니다(자세한 내용은 [기본 XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ko) 참조).
 
 | 매개 변수 | 유형 | 설명 | 예 |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -89,7 +87,7 @@ ht-degree: 1%
    >
    >기본적으로 프로필 엔티티 요청에 병합 정책이 지정되지 않으면 샌드박스의 기본 병합 정책을 사용합니다
 
-   엔티티 API를 사용하면 응답으로 반환되는 것을 변경하는 데 사용할 수 있는 다양한 쿼리 매개 변수가 있습니다.
+   Entity API를 사용하여 쿼리 매개 변수를 사용하여 응답에 반환되는 사항을 변경합니다.
 
 1. 엔터티 조회(특성) 요청에서 요청에 대한 **매개 변수** 옵션을 클릭합니다
 1. **필드**(이)라는 **키** 옆의 확인란을 선택하세요.
@@ -99,13 +97,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->`mergePolicyId`을(를) 지정하는 매개 변수도 있습니다.  다른 API를 이용하거나 UI를 사용하여 ID를 조회하여 이에 대한 값을 찾을 수 있습니다.
+>`mergePolicyId`을(를) 지정하는 매개 변수도 있습니다. 이에 대한 값을 찾으려면 다른 API를 사용하거나 UI를 사용하여 ID를 조회합니다.
 
 성공적인 요청은 `200 OK`(으)로 응답해야 하며 방금 활성화한 매개 변수 필터에 지정된 필드인 이름, 성 및 활성 제품 배열만 표시됩니다.
 
 ![이름, 성 및 활성 제품 필드만 표시하는 필터링된 200 OK 응답](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "필터가 활성화된 성공적인 프로필 엔터티 조회(특성) API 응답")
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다!  프로필 엔티티 API를 사용하여 프로필의 속성을 조회했습니다
 
@@ -124,25 +122,25 @@ ht-degree: 1%
 
 ![자격 증명 모드 프로필에 대한 모든 이벤트를 포함하는 OK 응답](assets/profile-and-identity-apis-successful-events-api-response.png "성공한 프로필 엔터티 조회(이벤트) API 응답")
 
-프로필 속성을 조회할 때와 마찬가지로 엔티티 API에는 응답으로 반환되는 것을 변경하는 데 사용할 수 있는 쿼리 매개 변수가 더 많습니다.
+프로필 속성을 조회할 때 엔티티 API에는 응답으로 반환되는 것을 변경하는 훨씬 더 많은 쿼리 매개 변수가 있습니다.
 
-매개 변수 섹션에서 활성화하고 요청을 실행하여 몇 가지 매개 변수를 시도할 수 있습니다.  사용해 보고 어떻게 작동하는지 알아보십시오!
+매개 변수 섹션에서 활성화하고 요청을 실행하여 몇 가지 매개 변수를 시도하십시오. 작동 방식을 확인하십시오.
 
 ![매개 변수 섹션에서 추가 쿼리 매개 변수가 활성화된 엔터티 조회(이벤트) 요청](assets/profile-and-identity-apis-entity-lookup-events-query-params.png "경험 이벤트에 대한 프로필 엔터티 조회")
 
 **샘플 쿼리 매개 변수 정의**
 
 | 키 | 값 | 설명 |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \&lt;blank> | 제공된 경우 조회를 수행하는 데 사용되는 병합 정책을 전환할 수 있습니다. 랩의 경우 비워 두면 샌드박스 기본 병합 정책을 사용하게 됩니다 |
-| 필드 | eventType,timestamp,identityMap | 지정된 필드에 값이 있는지 여부에 관계없이 각 이벤트의 이러한 필드만 표시합니다 |
-| 속성 | eventType=&quot;order.placed&quot; | 프로필의 이벤트를 &quot;order.placed&quot; 유형의 이벤트로만 필터링합니다. |
-| orderby | +타임스탬프 | 이벤트를 내림차순으로 정렬합니다 |
-| 제한 | 5 | 응답에는 5개의 이벤트만 표시됩니다. |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \&lt;blank> | 조회에 사용되는 병합 정책을 전환합니다. 비워 두면 샌드박스의 기본 병합 정책을 사용합니다 |
+| 필드 | eventType,timestamp,identityMap | 값이 있는지 여부에 관계없이 각 이벤트의 이러한 필드만 표시합니다. |
+| 속성 | eventType=&quot;order.placed&quot; | 지정된 유형의 이벤트만 필터링합니다 |
+| orderby | +타임스탬프 | 오름차순으로 이벤트 정렬 |
+| 제한 | 5 | 응답에서 5개의 이벤트만 표시 |
 
 >[!NOTE]
 >
->모든 쿼리 매개 변수 옵션에 대한 자세한 내용은 여기 -> [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)를 참조하세요.
+>모든 쿼리 매개 변수 옵션에 대해 자세히 알아보세요. -> [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 

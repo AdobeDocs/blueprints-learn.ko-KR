@@ -4,13 +4,11 @@ description: UI에서 수집된 데이터 세트를 미리 보고 SQL 쿼리를 
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 
 # 확인 및 유효성 검사
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**데이터 집합 미리 보기**&#x200B;는 이 데이터 집합에서 가장 최근에 성공한 일괄 처리를 표시합니다. 이전 배치를 볼 수 없습니다. 또한 배열 및 맵과 같은 복잡한 데이터는 현재 볼 수 없으며 빈 열로 표시됩니다. 당황하지 마세요! 보다 포괄적인 보기를 얻으려면 아래에 설명된 대로 SQL을 사용하여 데이터 세트를 탐색해야 합니다.
+>**데이터 집합 미리 보기**&#x200B;는 이 데이터 집합에서 가장 최근에 성공한 일괄 처리를 표시합니다. 이전 배치를 볼 수 없습니다. 또한 배열 및 맵과 같은 복잡한 데이터는 현재 볼 수 없으며 빈 열로 표시됩니다. 보다 포괄적인 보기를 얻으려면 아래에 설명된 대로 SQL을 사용하여 데이터 세트를 탐색해야 합니다.
 
 
 
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 
 
-1. 복사한 후 **편집기**&#x200B;에 다음 SQL 쿼리를 붙여 넣습니다. `<table_name>`을(를) 6단계에서 얻은 값으로 바꾸십시오.
+1. **편집기**&#x200B;에서 다음 SQL 쿼리를 복사하여 붙여 넣으십시오. `<table_name>`을(를) 6단계에서 얻은 값으로 바꾸십시오.
 
    ```sql
    SELECT * FROM <table_name>
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 1. 결과 **미리 보기**
 
-1. 또한 다음 SQL 쿼리를 실행하여 데이터와 함께 XDM 스키마를 검색합니다.
+1. 데이터와 함께 XDM 스키마를 검색하려면 다음 SQL 쿼리도 실행합니다.
 
 ```sql
 SELECT to_json(shippingAddress) FROM <table_name>
@@ -84,6 +82,6 @@ SELECT to_json(shippingAddress) FROM <table_name>
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다!  실시간 고객 프로필의 샘플 세트를 정상적으로 수집 및 생성했습니다

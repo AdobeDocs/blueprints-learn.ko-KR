@@ -4,13 +4,11 @@ description: 서드파티 API의 다이내믹 추적 세부 정보를 사용하�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '326'
 ht-degree: 0%
-
 ---
-
 
 # 구매 후 흥분
 
@@ -20,13 +18,16 @@ ht-degree: 0%
 >
 >이 실습을 시작하기 전에 아래 실습을 완료해야 합니다.
 
-이 실습을 시작하기 전에 다음 실습을 완료해야 합니다.
-
+- **Postman 설치** **—>** [Postman 설치](../../postman-setup/postman-installation.md)
 - **데이터 저장소 — 동작 중인 관계 저장소** **—>** [프로필 대상 Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **데이터 저장소 — 전자 메일 채널 구성 —>** [프로필에 대한 구성](../../data-stores/configure-email-channels/configure-for-profile.md)
-  *(완료하는 데 최대 3시간 소요될 수 있음)*
+  *(이 단계를 완료하는 데 최대 3시간 소요)*
 
 아직 완료하지 않았다면 지금 완료하십시오
+
+>[!CAUTION]
+>
+>이 실습에는 샌드박스에서 Adobe에게 위임된 하위 도메인이 필요합니다. 자습하고 아직 없으면 [설정](../../setup.md)을 참조하세요.
 
 ## 랩 개요
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 **키 설명선:**
 
-- 처음 주문하면 사람들이 주문만 한 확인을 기다리지 않으려 하기 때문에 일반적으로 트랜잭션 메시지로 구현됩니다.
+- 고객이 주문 후 확인을 기다리지 않으려고 하기 때문에 초기 주문 확인은 일반적으로 트랜잭션 메시지로 구현됩니다.
 - 배송된 주문 알림은 트랜잭션 메시지를 사용하여 구현할 수도 있지만 여정에 빌드하여 사용자 지정 작업에서 배송 정보를 검색하고 고객 커뮤니케이션을 향상시킬 수 있습니다.
 
 >[!NOTE]

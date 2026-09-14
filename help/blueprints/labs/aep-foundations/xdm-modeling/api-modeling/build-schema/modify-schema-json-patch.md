@@ -4,24 +4,22 @@ description: JSON PATCH API 호출을 사용하여 기존 테넌트 필드 그�
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # 스키마 수정 - JSON 패치
 
 ## 개요
 
-스키마를 작성한 후 `plan` 개체(`planDescription`)에 필드를 추가하는 것을 잊었거나 몇 달 후에 요청을 받았으므로 다시 와서 필드를 추가해야 한다고 잠시 가정해 봅니다.  이 작업을 수행하려면 스키마를 새 필드로 업데이트하는 `PATCH` 작업을 수행하면 됩니다.
+스키마를 빌드한 후에는 `planDescription`(이)라는 `plan` 개체에 추가 필드를 추가해야 합니다. 이 문제는 스키마를 만들 때 추가하는 것을 잊어버렸거나 몇 달 후 제출된 요청이기 때문에 발생할 수 있습니다. 이 작업을 수행하려면 스키마를 새 필드로 업데이트하는 `PATCH` 작업을 실행합니다.
 
-아래 링크에서 JSON PATCH에 대해 자세히 알아볼 수 있지만, 이 실습에서는 이 작동 방식에 대한 개념이 있다고 가정합니다. 😄
+아래 링크에서 JSON PATCH에 대해 자세히 알아보십시오. 이 실습의 경우 작동 방식에 대한 일반적인 이해를 갖추고 있다고 가정해 보겠습니다.
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=ko#json-patch)
+- [Experience League API 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![누락된 계획 설명을 기존 스키마에 패치하는 다이어그램](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "누락된 필드 계획 설명에 패치")
 
@@ -29,16 +27,16 @@ ht-degree: 0%
 >
 >다음 사항을 기억하십시오.
 >
->- 스키마는 하나의 (1) 클래스와 하나 이상의 필드 그룹으로 구성됩니다
->- 필드 그룹에 먼저 추가하지 않으면 스키마에 직접 새 필드를 추가할 수 없습니다. 이렇게 하면 해당 필드 그룹을 사용하는 모든 스키마에서 필드를 다시 사용할 수 있습니다.
+>- 스키마는 하나의 클래스와 하나 이상의 필드 그룹으로 구성됩니다
+>- 스키마에 필드를 추가하기 전에 필드 그룹에 새 필드를 추가해야 합니다. 이 제한 사항은 해당 필드 그룹을 사용하는 모든 스키마에서 필드를 재사용할 수 있도록 합니다.
 
 
 
-스키마에 새 필드를 추가하려면 다음 작업을 순서대로 수행해야 합니다.  다음은 다음 랩 단계에서 수행하는 작업입니다.
+스키마에 새 필드를 추가하려면 다음 작업을 순서대로 수행해야 합니다. 이 프로세스는 다음 랩 단계에서 수행하는 것입니다.
 
 - 새 속성을 추가할 필드 그룹을 식별합니다
 - 필드 그룹을 업데이트하기 위해 JSON PATCH 호출을 구성합니다.
-- JSON PATCH 호출을 실행하여 스키마가 상속할 필드 그룹을 업데이트합니다.
+- JSON PATCH 호출을 실행하여 (스키마가 상속하는) 필드 그룹을 업데이트합니다.
 
 
 
@@ -57,17 +55,17 @@ ht-degree: 0%
 
 1. 응답에서 이전에 제목이 `Customer Account Details - Sandbox <your number here> `인 사용자 정의 필드 그룹의 스키마 ID를 검색합니다.
 
-1. `$meta:altId`을(를) 복사하고 다음 단계에서 필요할 수 있으므로 안전한 곳에 저장하십시오.
+1. `$meta:altId`을(를) 복사하고 다음 단계에서 필요한 대로 안전한 곳에 저장하십시오.
 
 ![API 응답에서 사용자 지정 고객 계정 세부 정보 필드 그룹 찾기](assets/modify-schema-json-patch-search-field-group-response.jpeg "고객 계정 세부 정보 필드 그룹의 응답을 검색합니다")
 
 >[!CAUTION]
 >
->복사할 올바른 필드 그룹을 선택하십시오!  이름이 비슷한 `dep: Customer Account Details`이(가) 있어 **사용하지**&#x200B;합니다.
+>복사할 올바른 필드 그룹을 선택하십시오! 이름이 비슷한 필드 그룹 `dep: Customer Account Details`을(를) 사용하지 마십시오
 
 >[!WARNING]
 >
->`$meta:altId `을(를) 어딘가에 저장할 때까지 계속하지 마십시오.  향후 실습 단계에서 필요할 것입니다
+>향후 실습 단계를 위해 `$meta:altId`이(가) 필요하므로 계속하기 전에 어딘가에 저장하십시오.
 
 
 
@@ -119,7 +117,7 @@ ht-degree: 0%
 ```
 
 - **op(작업)** -> PATCH에서 수행해야 하는 작업에 대한 지침을 제공합니다.
-- **경로** -> 만들거나 업데이트하거나 삭제할 경로입니다(즉, 새 필드의 위치에 대한 JSON 포인터).
+- **경로** -> 만들거나 업데이트하거나 삭제할 경로(즉, 새 필드의 위치에 대한 JSON 포인터)입니다.
 - **값** -> 선택적 필드이며 기존 필드를 만들거나 바꿀 때만 사용됩니다.
 
 
@@ -135,7 +133,7 @@ ht-degree: 0%
 2. 다음 정보로 요청 본문을 업데이트합니다
 
    - **op** ->` add`
-   - **경로** -> `path from previous step +`&#x200B;` the new field name`
+   - **경로** -> `path from previous step +`` the new field name`
    - **값** ->
      - **제목** -> `Plan Description`
      - **유형** -> `string`
@@ -155,11 +153,11 @@ ht-degree: 0%
 
 4. `Execute` PATCH 수행을 위한 호출
 
-`200 OK `응답이 표시되고 이제 다음과 같이 필드 그룹의 `planDescription` 필드가 표시됩니다.
+다음과 같이 필드 그룹에 `200 OK` 응답과 `planDescription` 필드가 표시됩니다.
 
 ![planDescription으로 필드 그룹을 패치한 후 OK 응답](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "3단계 - 200단계 OK 성공 PATCH")
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다! JSON PATCH을 사용하여 필드 그룹/스키마를 업데이트했습니다
 
@@ -167,6 +165,6 @@ ht-degree: 0%
 
 ## UI에서 변경 사항 보기
 
-UI를 통해 스키마를 검색하고 새로 추가된 필드를 확인합니다.  멋지지?
+UI를 통해 스키마를 검색하고 새로 추가된 필드를 봅니다.
 
 ![Experience Platform UI의 JSON 패치 후 스키마에 표시되는 계획 설명 필드](assets/modify-schema-json-patch-plan-description-added-to-field-group.png "계획 설명이 고객 계정 세부 정보 - 샌드박스 \&lt;사용자 번호> 필드 그룹에 추가되었습니다. 스키마 JSON") 수정
