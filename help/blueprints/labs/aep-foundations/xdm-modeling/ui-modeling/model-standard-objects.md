@@ -82,7 +82,7 @@ Adobe Experience Platform에는 스키마에 추가하고 사용자 지정할 �
 
 
 
-3. 필드 그룹 옆의 확인란을 **확인**&#x200B;한 다음 **필드 그룹 추가** 단추를 클릭합니다.
+&#x200B;3. 필드 그룹 옆의 확인란을 **확인**&#x200B;한 다음 **필드 그룹 추가** 단추를 클릭합니다.
 
 ![인구 통계학적 세부 정보 필드 그룹을 선택하여 스키마에 추가](assets/model-standard-objects-select-demographic-details-field-group.png "인구 통계학적 세부 정보 필드 그룹을 선택하여 스키마에 추가")
 

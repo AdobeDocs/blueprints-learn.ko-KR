@@ -133,7 +133,7 @@ ht-degree: 0%
 2. 다음 정보로 요청 본문을 업데이트합니다
 
    - **op** ->` add`
-   - **경로** -> `path from previous step +`` the new field name`
+   - **경로** -> `path from previous step +`&#x200B;` the new field name`
    - **값** ->
      - **제목** -> `Plan Description`
      - **유형** -> `string`
