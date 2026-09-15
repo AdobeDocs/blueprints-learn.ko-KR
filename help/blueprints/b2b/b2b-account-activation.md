@@ -60,19 +60,19 @@ ht-degree: 1%
 
 계정 대상을 디자인하고 활성화할 때 다음 가드레일을 참조하십시오.
 
-- [Real-Time Customer Data Platform B2B edition 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [계정 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [프로필 및 세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [스트리밍 세분화 자격 기준 업데이트](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Real-Time Customer Data Platform B2B edition 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [계정 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [프로필 및 세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- [스트리밍 세분화 자격 기준 업데이트](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ## Real-Time Customer Data Platform B2B edition, 계정 대상자 만들기 및 활성화를 위한 구현 단계
 
-- Real-Time Customer Data Platform B2B edition의 구현 단계는 [Real-Time Customer Data Platform B2B edition 시작하기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en) 설명서를 참조하십시오.
-- 계정 대상자 만들기 단계는 [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en) 설명서를 참조하십시오.
-- 계정 대상자 활성화 단계는 [계정 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) 설명서를 참조하십시오.
+- Real-Time Customer Data Platform B2B edition의 구현 단계는 [Real-Time Customer Data Platform B2B edition 시작하기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en) 설명서를 참조하십시오.
+- 계정 대상자 만들기 단계는 [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences?lang=en) 설명서를 참조하십시오.
+- 계정 대상자 활성화 단계는 [계정 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) 설명서를 참조하십시오.
 
-  - [LinkedIn 일치하는 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)에 대한 매핑이 필요합니다.
+  - [LinkedIn 일치하는 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)에 대한 매핑이 필요합니다.
 
 ## 구현 시 고려 사항
 
@@ -81,11 +81,11 @@ LinkedIn 일치하는 대상에는 최소 대상 크기 요구 사항(예: 일�
 ## 관련 설명서
 
 - [B2B 대상 및 프로필 활성화 블루프린트](b2bactivation.md) - 사람 수준 및 계정 수준 B2B 활성화를 모두 다루는 상위 블루프린트입니다.
-- [Real-Time Customer Data Platform의 B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
-- [계정 대상자 만들기 및 활성화 - 튜토리얼 비디오](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
-- [계정 대상자 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [계정 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Adobe Experience Platform - LinkedIn 대상 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
-- [Real-Time CDP B2B edition의 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Real-Time CDP B2B edition으로 아키텍처 업그레이드](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [대상 가드 레일](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Real-Time Customer Data Platform의 B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
+- [계정 대상자 만들기 및 활성화 - 튜토리얼 비디오](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [계정 대상자 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [계정 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Adobe Experience Platform - LinkedIn 대상 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
+- [Real-Time CDP B2B edition의 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
+- [Real-Time CDP B2B edition으로 아키텍처 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [대상 가드 레일](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails)
