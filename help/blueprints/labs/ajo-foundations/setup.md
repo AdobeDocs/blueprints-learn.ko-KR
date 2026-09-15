@@ -44,7 +44,7 @@ Labs를 시작하기 전에 위의 Postman 구성을 완료합니다. 자습형 
 
 ### 위임된 하위 도메인
 
-[이메일 채널 구성](data-stores/configure-email-channels/overview.md) 랩 및 이에 따라 달라지는 모든 항목([작업 중 메시지 게재](orchestrated-campaigns/message-delivery-in-action/overview.md), [구매 후 흥분](journeys/post-purchase-excitement/overview.md) 및 [AJO 브랜드](content-authoring-with-ai/overview.md))에는 이메일을 보내기 위해 Adobe에 위임된 하위 도메인이 필요합니다. 도메인이 없는 경우 도메인 등록자(예: Namechap)에 등록합니다. 그런 다음 하위 도메인(예: `email.yourdomain.com`)을 Adobe에 위임하려면 Adobe의 [하위 도메인 위임 지침](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)을 따르십시오.
+[이메일 채널 구성](data-stores/configure-email-channels/overview.md) 랩 및 이에 따라 달라지는 모든 항목([작업 중 메시지 게재](orchestrated-campaigns/message-delivery-in-action/overview.md), [구매 후 흥분](journeys/post-purchase-excitement/overview.md) 및 [AJO 브랜드](content-authoring-with-ai/overview.md))에는 이메일을 보내기 위해 Adobe에 위임된 하위 도메인이 필요합니다. 도메인이 없는 경우 도메인 등록자(예: Namechap)에 등록합니다. 그런 다음 하위 도메인(예: `email.yourdomain.com`)을 Adobe에 위임하려면 Adobe의 [하위 도메인 위임 지침](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)을 따르십시오.
 
 >[!NOTE]
 >
