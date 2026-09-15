@@ -4,15 +4,21 @@ description: AEP Foundations 부트캠프 랩을 시작하기 전에 필요한 �
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '183'
 ht-degree: 1%
 ---
 
 # 설정
 
 AEP Foundations Labs를 시작하기 전에 아래 설정 단계를 완료하십시오. 어떤 단계가 필요한지는 이 부트캠프를 어떻게 수강하느냐에 따라 다릅니다.
+
+## 요구 사항 및 액세스
+
+- API 호출을 수행하는 Labs를 시작하기 전에 [Postman 설정](#postman-setup)을 완료하십시오.
+- 외부 대상에 이벤트를 보내는 Edge 활성화 및 대상 활성화 실험실에는 [webhook.site](https://webhook.site/)에 액세스해야 합니다.
+- LID 방법론 연습에서는 통합 문서를 인쇄하기 위해 프린터가 필요하며 이를 완성하기 위해 펜이나 연필이 필요합니다. [LID 방법론 필수 구성 요소](lid-methodology/prerequisites.md)를 참조하십시오.
 
 ## 샌드박스 설정
 

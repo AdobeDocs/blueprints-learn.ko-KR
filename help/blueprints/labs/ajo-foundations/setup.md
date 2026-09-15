@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -34,13 +34,17 @@ AJO Foundations Labs를 시작하기 전에 아래 설정 단계를 완료하십
 - [환경 파일 가져오기](postman-setup/import-environment-file.md)
 - [API 컬렉션 가져오기](postman-setup/import-api-collection.md)
 
+## 온디맨드 준비
+
+Labs를 시작하기 전에 위의 Postman 구성을 완료합니다. 자습형 학습자에는 전자 메일 종속 실습에 대해 위임된 하위 도메인이 필요하고, 플래그십 휴대폰 실행 실습에 대해 SMS 자격 증명이 필요합니다.
+
 ## 채널 사전 요구 사항
 
 이 부트캠프의 후반부에 있는 두 개의 랩은 자습형 학습자만 준비해야 하는 외부 계정에 따라 다릅니다. 라이브 교육 과정이나 이벤트에 있는 경우 이미 프로비저닝되어 있습니다.
 
 ### 위임된 하위 도메인
 
-[이메일 채널 구성](data-stores/configure-email-channels/overview.md) 랩 및 이에 따라 달라지는 모든 항목([작업 중 메시지 게재](orchestrated-campaigns/message-delivery-in-action/overview.md), [구매 후 흥분](journeys/post-purchase-excitement/overview.md) 및 [AJO 브랜드](content-authoring-with-ai/overview.md))에는 이메일을 보내기 위해 Adobe에 위임된 하위 도메인이 필요합니다. 도메인이 없는 경우 도메인 등록자(예: Namechap)에 등록합니다. 그런 다음 하위 도메인(예: `email.yourdomain.com`)을 Adobe에 위임하려면 Adobe의 [하위 도메인 위임 지침](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)을 따르십시오.
+[이메일 채널 구성](data-stores/configure-email-channels/overview.md) 랩 및 이에 따라 달라지는 모든 항목([작업 중 메시지 게재](orchestrated-campaigns/message-delivery-in-action/overview.md), [구매 후 흥분](journeys/post-purchase-excitement/overview.md) 및 [AJO 브랜드](content-authoring-with-ai/overview.md))에는 이메일을 보내기 위해 Adobe에 위임된 하위 도메인이 필요합니다. 도메인이 없는 경우 도메인 등록자(예: Namechap)에 등록합니다. 그런 다음 하위 도메인(예: `email.yourdomain.com`)을 Adobe에 위임하려면 Adobe의 [하위 도메인 위임 지침](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)을 따르십시오.
 
 >[!NOTE]
 >

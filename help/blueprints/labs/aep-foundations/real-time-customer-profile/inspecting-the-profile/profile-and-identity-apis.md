@@ -4,13 +4,17 @@ description: Postman의 Profile Entity API 및 Identity Service Cluster API를 �
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1154'
 ht-degree: 1%
 ---
 
 # 프로필 및 ID API
+
+>[!IMPORTANT]
+>
+>프로필 및 ID API 연습을 시작하기 전에 [Postman 설정](../../setup.md)을 완료하십시오.
 
 ## 프로필 엔티티 API
 

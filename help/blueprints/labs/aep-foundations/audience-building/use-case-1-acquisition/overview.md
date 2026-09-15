@@ -1,16 +1,14 @@
 ---
-title: 사용 사례
+title: 사용 사례 #1 - Acquisition
 description: 디바이스를 주문하거나 소유하지 않은 iPhone 14 페이지 방문자를 타겟팅하는 획득 사용 사례를 정의하고 대상 구축 접근 방식을 계획합니다.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # 사용 사례 #1 - 획득
 
@@ -25,6 +23,10 @@ ht-degree: 0%
 **사용 사례 정의**
 
 iPhone 14 제품 페이지를 방문했으며 iPhone 14에 대한 주문이 없거나 활성 iPhone 14가 없는 모든 프로필을 활성화합니다.
+
+>[!IMPORTANT]
+>
+>이 실습을 시작하기 전에 [Postman 설정](../../setup.md)을 완료합니다. 또한 활성화된 대상 데이터를 캡처하려면 [webhook.site](https://webhook.site/)에 액세스해야 합니다.
 
 
 

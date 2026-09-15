@@ -4,15 +4,17 @@ description: API를 통해 주문 이벤트를 허브에 스트리밍하고, 스
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
 
-
 # 허브로 주문 이벤트 보내기
+
+>[!IMPORTANT]
+>
+>이 실습을 시작하기 전에 [Postman 설정](../../postman-setup/postman-installation.md)을 완료합니다. [획득 사용 사례](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)에서 만든 [webhook.site](https://webhook.site/) 및 **스트리밍 DEP Webhook** 대상에 액세스해야 합니다.
 
 ## Hub와 Edge으로 스트리밍
 
@@ -92,7 +94,7 @@ Order Placed 이벤트 유형 카드를 찾아 캔버스로 드래그합니다.
 1. 왼쪽 레일에서 **소스**(으)로 이동한 다음 위쪽 탐색에서 **계정**&#x200B;을 클릭합니다
 1. **dep: HTTP API \[raw]**&#x200B;를 검색하고, 행을 강조 표시하고 나중에 참조할 수 있는 위치에 **스트리밍 끝점**&#x200B;의 값을 복사하고 저장합니다.
 
- 계정 및 해당 스트리밍 끝점 복사&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ 계정 및 해당 스트리밍 끝점 복사](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## 데이터 흐름 ID 찾기
 

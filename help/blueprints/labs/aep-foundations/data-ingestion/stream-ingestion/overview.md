@@ -4,13 +4,11 @@ description: 스트리밍 소스를 통해 스트리밍 인렛 및 REST API를 �
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # 스트림 수집
 
@@ -22,6 +20,10 @@ ht-degree: 0%
 - 다른 데이터 흐름에서 매핑 세트를 가져오는 중
 - UI에서 데이터 흐름 ID 및 데이터 세트 ID를 가져오는 중
 - REST API를 사용하여 이벤트 수집
+
+>[!IMPORTANT]
+>
+>이 실습을 시작하기 전에 [Postman 설정](../../setup.md)을 완료합니다.
 
 >[!NOTE]
 >

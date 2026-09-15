@@ -4,9 +4,9 @@ description: 실습형 랩을 통해 Adobe Journey Optimizer의 아키텍처, �
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 1%
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 필요 조건
 
-이 부트캠프를 원하는 속도로 진행하는 경우 두 개의 랩에 외부 계정이 미리 준비되어야 합니다. **전자 메일 채널 구성**&#x200B;에는 Adobe에 위임하는 하위 도메인이 필요하고 **플래그십 휴대폰 실행**&#x200B;에는 SMS 자격 증명이 필요합니다. 자세한 내용은 [설치](setup.md)를 참조하세요.
+이 부트캠프를 원하는 대로 진행하는 경우 실습을 시작하기 전에 [Postman 설정](setup.md#postman-setup)을 완료하십시오. **전자 메일 채널 구성** 및 종속 실습에는 Adobe에 위임된 하위 도메인이 필요하며 **플래그십 휴대폰 시작**&#x200B;에는 SMS 자격 증명이 필요합니다. 자세한 내용은 [설치](setup.md)를 참조하세요.
 
 
 ## 소개

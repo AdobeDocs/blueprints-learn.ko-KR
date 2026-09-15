@@ -4,15 +4,17 @@ description: Postman을 사용하여 웹 이벤트를 허브에 직접 보내고
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
 
-
 # 허브로 웹 이벤트 보내기
+
+>[!IMPORTANT]
+>
+>이 실습을 시작하기 전에 [Postman 설정](../../postman-setup/postman-installation.md)을 완료합니다. 관련 [외부 대상 활성화 워크플로](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)의 [webhook.site](https://webhook.site/)에도 액세스해야 합니다.
 
 ## Postman 열기
 
@@ -39,7 +41,7 @@ ht-degree: 0%
 1. 왼쪽 레일에서 **소스**(으)로 이동한 다음 위쪽 탐색에서 **계정**&#x200B;을 클릭합니다
 1. **dep: HTTP API \[raw]**&#x200B;를 검색하고, 행을 강조 표시하고 나중에 참조할 수 있는 위치에 **스트리밍 끝점**&#x200B;의 값을 복사하고 저장합니다.
 
- 계정 및 해당 스트리밍 끝점 복사&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ 계정 및 해당 스트리밍 끝점 복사](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## 웹 데이터 흐름 ID 찾기
 
@@ -85,9 +87,8 @@ ht-degree: 0%
    1. 모든 이벤트 Edge(15분 이내)
       1. Edge 평가와 함께 저장된 모든 대상자는 스트리밍 데이터가 유입될 때 허브에서 평가됩니다
    2. dep: 모든 이벤트 스트리밍(시간 내)
-1. 새 세그먼트가 없는 경우 웹후크에 아무 것도 표시되지 않을 수 있습니다.
-1. 이벤트 전달에서 아무 것도 전송되지 않습니다.
-   1. 왜요? 이 이벤트는 Edge이 아닌 허브로 이동되었으므로 이벤트가 이벤트 전달을 위한 것으로나 Assurance에 표시되지 않습니다.
+1. 이 Hub 이벤트는 웹후크로 전송되지 않습니다.
+   1. 이벤트 전달은 허브에 직접 전송된 이벤트가 아니라 Edge에 전송된 이벤트를 처리합니다. [외부 대상 활성화 워크플로](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)를 사용하여 webhook.site에서 이벤트를 캡처합니다.
 1. 최소 30분 후, 다음과 같이 데이터 세트를 확인할 수도 있습니다.
    1. 아래 테이블 이름을 샌드박스의 이름으로 변경합니다.  이를 찾으려면 데이터 집합 목록으로 이동하여 &quot;`dest`&quot;에서 필터링하고 데이터 집합을 열고 오른쪽 레일에서 테이블 이름을 복사합니다.
 
