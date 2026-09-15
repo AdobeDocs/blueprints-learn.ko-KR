@@ -8,7 +8,7 @@ ht-degree: 8%
 
 *출처: Adobe ExSourced 작성 안내서(크롤링 2006년 2월 26일) + 블루프린트-학습.en*
 
----
+&#x200B;---
 
 ## 메타데이터 계층
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 2. 사용 안내서의 TOC.md
 3. 저장소 루트의 metadata.md(가장 낮은 우선 순위)
 
----
+&#x200B;---
 
 ## 문서 수준 필드
 
@@ -68,7 +68,7 @@ ht-degree: 8%
 | `source-git-url` | Source 저장소 URL. | 전체 GitHub URL |
 | `cloud` | 문서 수준에서 클라우드 범주 재정의. | 제목 대/소문자, cloud.yml과 일치해야 함 |
 
----
+&#x200B;---
 
 ## TOC.md 필드
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 | `role` | 안내서의 기본 대상 역할입니다. | 아티클 `role`과(와) 동일한 값, 쉼표로 구분 |
 | `index` | 안내서가 인덱싱되는지 여부입니다. | `yes`/`no` |
 
----
+&#x200B;---
 
 ## 저장소 수준 metadata.md 필드
 
@@ -97,7 +97,7 @@ ht-degree: 8%
 | `git-repo` | GitHub 저장소 URL; &quot;이 페이지 편집&quot; 및 &quot;문제 로그&quot; 단추를 활성화합니다. |
 | `index` | 기본 색인 설정 |
 
----
+&#x200B;---
 
 ## 유효한 솔루션 값(대/소문자 구분)
 
@@ -122,7 +122,7 @@ ht-degree: 8%
 
 여러 값: 쉼표로 구분, 예: `Real-Time Customer Data Platform, Campaign`
 
----
+&#x200B;---
 
 ## 유효한 제품 값(`product` 필드 — 분석 추적)
 
@@ -136,7 +136,7 @@ ht-degree: 8%
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## 유효한 역할 값
 
@@ -148,7 +148,7 @@ ht-degree: 8%
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## 주요 유효성 검사 규칙
 

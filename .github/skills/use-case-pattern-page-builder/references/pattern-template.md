@@ -8,18 +8,18 @@ ht-degree: 48%
 
 이 파일에는 사용 사례 패턴 페이지에 대한 전체 Markdown 템플릿이 들어 있습니다. 새 패턴을 생성할 때 모든 `{{placeholder}}` 값을 실제 콘텐츠로 바꾸십시오.
 
----
+&#x200B;---
 
 ## 템플릿
 
-````markdown
+&grave;&grave;&grave;&grave;markdown
 ---
 title: {{Pattern Title}}
 description: {{One-sentence description of what this pattern teaches}}
 solution: {{Comma-separated Adobe solutions}}
 exl-id: {{generate-uuid-placeholder}}
 ---
-# {{Pattern title}}
+&#x200B;# {{Pattern title}}
 
 This guide provides an overview of {{pattern name}} using {{solutions with [!DNL ...] formatting}}. It is designed for solution architects, marketing technologists, and implementation engineers who need to {{primary capability description}}.
 
@@ -91,18 +91,18 @@ The following Adobe applications are used in this use case pattern.
 
 The following resources provide additional detail on the capabilities used in this pattern. Group the reference links to primary Experience League documents under descriptive subheadings.
 
-### {{Topic group}}
+### &lbrace;Topic group&rbrace;
 
-- [{{Link text}}]({{URL}})
-- [{{Link text}}]({{URL}})
+- [{{Link text}}] ({{URL}})
+- [{{Link text}}] ({{URL}})
 
-### {{Topic group}}
+### &lbrace;Topic group&rbrace;
 
-- [{{Link text}}]({{URL}})
-- [{{Link text}}]({{URL}})
-````
+- [{{Link text}}] ({{URL}})
+- [{{Link text}}] ({{URL}})
+&grave;&grave;&grave;&grave;
 
----
+&#x200B;---
 
 ## 이 템플릿 사용에 대한 참고 사항
 
