@@ -4,13 +4,11 @@ description: Postman, 스트리밍 끝점 및 데이터 흐름 ID를 사용하�
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # 프로필 스트리밍
 
@@ -72,7 +70,7 @@ curl --location '' \
 
 ## 필수 값 수집
 
-데이터를 스트리밍하려면 먼저 위에 나열된 필수 값(즉, 특히 스트리밍 끝점 URL 및 본문 콘텐츠 &#39;헤더&#39; 값)을 수집해야 합니다.
+데이터를 스트리밍하기 전에 위에 나열된 필수 값(특히, 스트리밍 끝점 URL 및 본문 콘텐츠 &#39;헤더&#39; 값)을 수집합니다.
 
 다음 단계를 수행하십시오.
 
@@ -101,7 +99,7 @@ curl --location '' \
 
 ## API 요청 업데이트
 
-Postman 애플리케이션으로 전환하고 방금 수집한 정보로 고객 계정 만들기 요청을 업데이트합니다.
+Postman 애플리케이션으로 전환하고 수집한 정보로 고객 계정 만들기 요청을 업데이트합니다.
 
 1. Postman을 열고 **데이터 수집 랩 -> 고객 계정 만들기** API 요청으로 이동한 다음 엽니다
 
@@ -136,7 +134,7 @@ Postman 애플리케이션으로 전환하고 방금 수집한 정보로 고객 
 
 
 
-1. Adobe Experience Platform에서 성공적으로 수신했음을 나타내는 `200 OK` 응답을 수신해야 합니다.
+1. Adobe Experience Platform에서 성공적으로 수신했음을 나타내는 `200 OK` 응답을 받습니다
 
 샘플 200 OK 응답
 
@@ -151,8 +149,8 @@ Postman 애플리케이션으로 전환하고 방금 수집한 정보로 고객 
 
 >[!NOTE]
 >
->응답에서 **xactionId**&#x200B;을(를) 확인합니다.  수집된 레코드가 표시되지 않는 오류가 발생하는 경우 지원 팀이 환경 문제를 디버깅하는 데 사용하는 추적기 글머리 기호이므로 항상 고객 지원 티켓의 일부로 제공해야 합니다
+>응답에서 **xactionId**&#x200B;을(를) 확인합니다.  수집된 레코드가 표시되지 않는 오류가 발생하는 경우 지원 팀이 환경 문제를 디버깅하는 데 사용하는 주요 참조이므로 항상 고객 지원 티켓의 일부로 제공해야 합니다
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다!  프로필 레코드에서 Adobe Experience Platform으로 스트리밍했습니다.

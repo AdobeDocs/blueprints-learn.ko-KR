@@ -4,21 +4,19 @@ description: 관계형 스키마 필드에 ID 레이블을 지정하고 프로�
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # 프로필 대상 Dimension
 
 ## 목표
 
-다음 단계 세트에서 UI를 탐색하여 스키마를 보고 ID를 설정합니다. 그런 다음 Profile Target Dimension을 설정합니다. 이 유형은 캠페인이 타겟팅하고 게재를 위해 AEP 프로필과 조정하는 엔티티 유형입니다.
+다음 단계 세트에서 UI를 탐색하여 스키마를 보고 ID를 설정합니다. 그런 다음 프로필 대상 Dimension을 설정합니다. 이 유형은 캠페인이 타겟팅하고 게재할 AEP 프로필과 조정하는 엔티티 유형입니다.
 
-## 중요한 이유
+## 이 구성이 중요한 이유
 
 프로필 대상 Dimension을 사용하여 실시간 고객 프로필과 관계 스토어 간 데이터를 조인하는 방법을 Adobe Journey Optimizer에 알려 줍니다. 이 구성의 구성 요소는 다음과 같습니다.
 
@@ -28,7 +26,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->이 구성을 제대로 구성하지 않으면 대상을 읽거나 공유할 수 없으며 오케스트레이션된 캠페인에서 메시지를 보낼 수도 없습니다
+>대상자를 읽거나 공유하거나 오케스트레이션된 캠페인에서 메시지를 보내려면 먼저 이 구성을 사용해야 합니다
 
 ## ID 레이블 지정
 
@@ -58,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->저장 후 다음 단계의 프로필 대상 Dimension 드롭다운에 표시되기까지 몇 분(5분 미만)이 소요됩니다.
+>저장 후 몇 분(5분 미만) 정도 걸린 후 다음 단계에서 프로필 대상 Dimension 드롭다운에 표시됩니다.
 
 ## 프로필 대상 Dimension 만들기
 
@@ -100,7 +98,7 @@ ht-degree: 0%
 >
 >생성된 레코드의 이름은 스키마 이름 *(dep-rel: Customer Account)*&#x200B;과(와) ID *(customer\_id)*(으)로 레이블이 지정된 필드의 연결입니다.
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다! 랩에서 프로필 대상 Dimension 만들기 단계를 완료합니다.
 

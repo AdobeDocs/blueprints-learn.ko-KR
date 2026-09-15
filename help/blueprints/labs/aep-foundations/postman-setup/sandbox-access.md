@@ -4,17 +4,15 @@ description: Labs를 시작하기 전에 Postman 환경이 할당된 Experience 
 doc-type: article
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
-
 ---
-
 
 # 샌드박스 액세스
 
-계속하기 전에 액세스가 합법적인지 다시 한 번 확인하십시오. 다음 단계를 수행하십시오.
+계속하기 전에 액세스 권한이 유효한지 다시 확인하십시오. 다음 단계를 수행하십시오.
 
 1. 제목이 `Check Sandbox Access`인 폴더를 열고 제목이 `Retrieve Your Sandbox`인 호출을 클릭합니다.
 1. Postman의 오른쪽 위 모서리에 환경 드롭다운 상자가 표시됩니다.  `AEP Bootcamp` 환경을 선택하십시오.
@@ -32,6 +30,6 @@ ht-degree: 0%
 >
 >**name** 값은 postman 환경의 sandbox\_name 변수와 일치해야 합니다.
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다!  Experience Platform API 사용을 시작할 준비가 되었습니다.

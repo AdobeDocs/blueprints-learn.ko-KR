@@ -4,19 +4,17 @@ description: 부트캠프의 Postman API 컬렉션을 가져오고 해당 환경
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 
 # API 컬렉션 가져오기
 
 ## 목표
 
-이 단계에서는 부트캠프 전체에서 수행해야 하는 다양한 요청이 모두 포함된 API 컬렉션을 가져옵니다.  이러한 API 요청은 방금 가져온 환경 파일에 따라 다릅니다.
+이 단계에서는 부트캠프 전체에서 수행해야 하는 모든 다양한 요청이 포함된 API 컬렉션을 가져옵니다.  이러한 API 요청은 방금 가져온 환경 파일에 따라 다릅니다.
 
 
 
@@ -26,13 +24,13 @@ ht-degree: 0%
 
    파일 다운로드 — [AJO Bootcamp(Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-2. 이전과 마찬가지로 **가져오기** 단추를 클릭합니다.
+2. 이전과 같이 **가져오기** 단추를 클릭합니다.
 3. **AJO Bootcamp(Labs).postman\_collection.json** 파일의 로컬 URL을 [가져오기] 양식 텍스트 상자에 붙여 넣거나 [가져오기] 대화 상자에 놓습니다.  그러면 자동 가져오기가 트리거됩니다.
 4. 가져오기 프로세스가 완료되면 왼쪽 탐색 모음에서 **컬렉션**&#x200B;을 클릭하고 **AJO Bootcamp(Labs)** 폴더를 확장하면 새로 가져온 컬렉션이 표시됩니다
 
 ![postman 컬렉션 가져오기 확인](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다!  부트캠프의 Postman 컬렉션을 정상적으로 가져왔습니다.
 
@@ -42,7 +40,7 @@ ht-degree: 0%
 
 가져온 컬렉션에는 부트캠프 전체에서 Labs에 필요한 모든 API 호출이 포함되어 있습니다.  각 랩은 고유한 요청 세트가 있는 특정 폴더로 구성됩니다.
 
-각 폴더에 대한 자세한 내용은 아래에서 확인할 수 있습니다.
+각 폴더에 대한 자세한 내용은 아래에 나와 있습니다.
 
 - **프로필 및 여정 Labs** - 웹 이벤트 및 배송 확인을 시뮬레이션하는 이벤트를 보내는 요청 집합이 포함되어 있습니다.
 - **Decisioning Labs** - 일반적으로 AEP Web SDK 태그가 지정된 사이트에서 발견되는 위쪽 및 아래쪽 페이지 호출을 모방하는 방문자 3명에 대한 요청이 포함됩니다.

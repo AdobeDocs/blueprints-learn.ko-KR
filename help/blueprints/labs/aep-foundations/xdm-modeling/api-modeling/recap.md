@@ -4,13 +4,11 @@ description: JSON 패치를 통해 고객 계정 스키마를 만들고 ID를 �
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '351'
 ht-degree: 0%
-
 ---
-
 
 # 요약
 
@@ -18,20 +16,20 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
->[!TIP]
+>[!SUCCESS]
 >
->먼저 축하합니다! API를 통해 빌드하는 것은 쉽지 않지만, 작동 방식을 이해하면 시스템 전반을 이해하는 데 도움이 됩니다. 쿠도스!
+>축하합니다! 이것이 어떻게 작용하는지를 이해하면 시스템 전체를 이해하는 데 도움이 된다.
 
 
 
 ## 고객 계정 스키마를 만들었습니다.
 
-Adobe에서 만든 필드 그룹과 사용자 지정 필드 그룹(즉, 테넌트)을 모두 `$ref`하여 스키마를 만들었습니다.  또한 스키마가 나타내야 하는 클래스를 `$ref`합니다(예: XDM 개인 프로필).
+Adobe에서 만든 필드 그룹과 사용자 지정 필드 그룹(테넌트)을 모두 `$ref`하여 스키마를 만들었습니다. 스키마가 나타내야 하는 클래스(즉, XDM 개인 프로필)도 `$ref`합니다.
 
 ![$ref를 통해 필드 그룹 및 클래스를 참조하는 고객 계정 스키마](assets/recap-customer-account-schema.png "고객 계정 스키마")
 
 
-## JSON 패치에는 고객 계정 스키마가 있습니다.
+## 고객 계정 스키마에 JSON 패치 적용
 
 JSON Patch 메서드를 사용하여 고객 계정 스키마를 수정하여 계획 개체에 새 필드를 추가했습니다. 스키마 자체를 패치하지 않고 [사용자 지정 필드 그룹 만들기](build-schema/create-custom-field-groups.md)에서 정의한 `Customer Account Details`이라는 `$ref` 사용자 지정 필드 그룹을 패치했습니다.
 
@@ -40,7 +38,7 @@ JSON Patch 메서드를 사용하여 고객 계정 스키마를 수정하여 계
 
 ## 표시된 ID 필드
 
-이 단계에서는 고객 계정 스키마 내의 `_devbc.customerID` 및 `personalEmail.address` 필드 모두에 대해 `Identity Descriptors`을(를) 만들기 위해 동일한 `POST` 호출 중 두 개를 수행했습니다.
+고객 계정 스키마 내의 `_devbc.customerID` 및 `personalEmail.address` 필드 모두에 대해 `Identity Descriptors`을(를) 만들려면 동일한 `POST` 호출 중 두 개를 수행했습니다.
 
 1. `_devbc.customerID` 필드가 **기본** ID로 설정되었습니다.
 1. `personalEmail.address` 필드가 **기본 필드로 설정되지 않음**
@@ -49,7 +47,7 @@ JSON Patch 메서드를 사용하여 고객 계정 스키마를 수정하여 계
 
 ## 조회 관계를 만들었습니다.
 
-마지막 단계는 Paper lab의 XDM ERD에서 고객 계정과 계획 스키마 간의 관계를 생성하는 것이었습니다.  이 경우 관계 설명자(즉, `Customer Account` 스키마를 `dep: Plan [Lookup]` 스키마와 연결하는 방법)와 고객 계정 스키마의 참조 ID 설명자를 모두 만들어야 했습니다.
+마지막 단계는 Paper lab의 XDM ERD에서 고객 계정과 계획 스키마 간의 관계를 생성하는 것이었습니다. 이 경우 관계 설명자(즉, `Customer Account` 스키마를 `dep: Plan [Lookup]` 스키마와 연결하는 방법)와 고객 계정 스키마의 참조 ID 설명자를 모두 만들어야 합니다.
 
 ![계획 조회 스키마에 고객 계정을 연결하는 관계 설명자 및 참조 ID 설명자](assets/recap-relationship-reference-identity-descriptors.png "관계 및 참조 ID 설명자")
 

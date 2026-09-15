@@ -4,17 +4,15 @@ description: 스키마 찾아보기, 프로필 대상 Dimension 구성, AEP 대�
 doc-type: article
 solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '102'
 ht-degree: 1%
-
 ---
-
 
 # 요약
 
-이 실습을 통해 다음과 같은 활동을 수행했습니다.
+이 실습에서는 다음 활동을 수행했습니다.
 
 - 검색한 스키마 및 스키마 간의 관계를 조회함
 - 프로필 대상 Dimension 설정
@@ -26,6 +24,6 @@ ht-degree: 1%
 
 
 
->[!TIP]
+>[!SUCCESS]
 >
->축하합니다, 이제 다음 실험실로 가서 그 실험도 할 수 있습니다!
+>축하합니다. 이제 다음 연구실로 진행할 수 있습니다!

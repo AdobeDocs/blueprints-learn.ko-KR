@@ -2,17 +2,15 @@
 user-guide-title: Customer Experience Orchestration 비즈니스 목표, 사용 사례, 아키텍처 다이어그램 및 블루프린트
 breadcrumb-title: 사용 사례 및 블루프린트
 user-guide-description: Adobe Experience Platform 및 애플리케이션에 대한 주요 비즈니스 목표, 사용 사례 패턴 및 업계 사용 사례를 살펴봅니다. 시각적 아키텍처 다이어그램 및 블루프린트는 비즈니스 가치를 구현에 연결하는 시스템 통합, 데이터 흐름 및 솔루션 설계에 대한 기술 참조를 제공합니다.
-product: adobe experience platform
+product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1169'
 ht-degree: 15%
-
 ---
-
 
 # Customer experience orchestration 블루프린트 {#architecture}
 
@@ -211,7 +209,6 @@ ht-degree: 15%
             + [스키마 보기](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/define-relationships/view-schema.md)
           + [요약](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/recap.md)
         + 보너스 랩{#aep-xdm-bonus}
-          + [개요](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/overview.md)
           + [API를 사용한 자동화](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/automate-with-apis.md)
       + 데이터 수집{#aep-ingestion}
         + [강의](/help/blueprints/labs/aep-foundations/data-ingestion/lectures.md)
@@ -240,7 +237,6 @@ ht-degree: 15%
           + [오류 모니터링 및 디버깅](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/monitoring-and-debugging-errors.md)
           + [확인 및 유효성 검사](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/verification-and-validation.md)
         + 보너스 랩{#aep-ingestion-bonus}
-          + [개요](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/overview.md)
           + [CreateDate에 대한 MAPPER 오류 수정](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/fix-mapper-errors-for-createdate.md)
           + [주문 이벤트 스트리밍](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/stream-an-order-event.md)
           + 데이터 랜딩 영역 사용{#aep-ingestion-dlz}
@@ -287,7 +283,6 @@ ht-degree: 15%
           + [빌드 사용 사례 3](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/build-use-case-3.md)
           + [비판적 사고 검토](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/critical-thinking-review.md)
         + 보너스 랩{#aep-audiences-bonus}
-          + [개요](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/overview.md)
           + [허브로 주문 이벤트 보내기](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-order-event-to-hub.md)
           + [허브로 웹 이벤트 보내기](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-web-event-to-hub.md)
           + [이벤트 모니터링](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/monitor-your-event.md)

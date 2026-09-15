@@ -4,13 +4,11 @@ description: AEP Foundations 부트캠프 랩을 시작하기 전에 필요한 �
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '124'
 ht-degree: 1%
-
 ---
-
 
 # 설정
 
@@ -20,9 +18,9 @@ AEP Foundations Labs를 시작하기 전에 아래 설정 단계를 완료하십
 
 >[!NOTE]
 >
->라이브 교육 과정 또는 이벤트에 있는 경우 샌드박스가 이미 배포되었습니다. 이 섹션을 건너뛰고 바로 아래 Postman 설정으로 이동하십시오.
+>라이브 교육 과정 또는 이벤트에 있는 경우 샌드박스가 이미 배포된 상태입니다. 이 섹션을 건너뛰고 바로 아래 Postman 설정으로 이동합니다.
 
-원하는 속도로 이 부트캠프를 진행하고 있으며 아직 랩 자산이 배포된 작업 샌드박스가 없는 경우 먼저 다음을 완료하십시오.
+랩 자산이 배포된 작업 샌드박스가 없는 경우 다음 단계를 완료하십시오.
 
 - [Developer Console 설정](sandbox-setup/developer-console-setup.md)
 - [배포 지침](sandbox-setup/deployment-instructions.md)

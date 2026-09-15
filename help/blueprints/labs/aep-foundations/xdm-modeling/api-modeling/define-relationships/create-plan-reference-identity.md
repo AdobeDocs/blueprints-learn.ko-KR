@@ -4,13 +4,11 @@ description: 스키마 레지스트리 API를 사용하여 조회 스키마에�
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # 계획 참조 ID 만들기
 
@@ -63,12 +61,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->참조 ID 설명자는 항상 조회 스키마(예: sourceSchema)에서 정의됩니다
+>참조 ID 설명자는 항상 조회 스키마(즉, sourceSchema)에서 정의됩니다
 
 >[!NOTE]
 >
->참조 ID 설명자는 스키마 UI에서 관계를 만들 때 백엔드에 자동으로 만들어집니다. **API를 사용하여 스키마를 만들 때만 명시적으로 만들어야 합니다**
+>참조 ID 설명자는 스키마 UI에서 관계를 만들 때 서버에 자동으로 만들어집니다. **API를 사용하여 스키마를 만들 때만 명시적으로 만들면 됩니다**
 
->[!TIP]
+>[!SUCCESS]
 >
->멋지다! `dep: Lookup Plan` 스키마를 `Customer Account` 스키마와 연결하는 데 필요한 모든 설명자를 만들었고 일괄 처리 세분화 중 참조되도록 설정했습니다
+>멋지다! `dep: Lookup Plan` 스키마를 `Customer Account` 스키마와 연결하여 일괄 처리 세분화 중에 참조되도록 하려면 필요한 설명자를 모두 만들었습니다

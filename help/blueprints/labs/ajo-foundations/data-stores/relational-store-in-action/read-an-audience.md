@@ -4,13 +4,11 @@ description: 오케스트레이션된 캠페인에서 프로필 대상 Dimension
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
-
 ---
-
 
 # 대상자 읽기
 
@@ -172,16 +170,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->대상자 읽기에서 **9**&#x200B;개의 프로필이 표시되었습니다. Source에 필터를 빌드했고 Source 필드가 관계형 저장소에 존재하므로 이를 확인하려면 프로필 저장소에서 관계형 저장소로 연결해야 했습니다. Campaign Target Dimension을 통해 관계형 스키마와 조인된 경우 일치하는 프로필은 총 **7**&#x200B;개입니다. 일치하는 이 **7** 고객 ID는 관계형 데이터를 사용하려는 다음 활동에서 사용할 수 있습니다. 모든 **7** 고객 ID의 `Source`이(가) **&quot;In Store&quot;**(으)로 설정되어 있습니다. 이는 분할 흐름을 통해 명백합니다.
+>대상자 읽기에 **9**&#x200B;개의 프로필이 표시되었습니다. Source에서 필터를 빌드했으며 Source 필드가 관계형 저장소에 있으므로 이를 확인하려면 관계형 저장소에 프로필 저장소를 참여해야 합니다. Campaign Target Dimension을 통해 관계형 스키마에 가입하면 총 **7**&#x200B;개의 프로필만 일치합니다. 일치하는 이 **7** 고객 ID는 관계형 데이터를 사용하려는 다음 활동에서 사용할 수 있습니다. 모든 **7** 고객 ID의 `Source`이(가) **&quot;In Store&quot;**(으)로 설정되어 있습니다. 이는 분할 흐름을 통해 명백합니다.
 >
 >따라서 데이터 강화를 위해 AEP 프로필과 관련 프로필을 함께 사용할 때는 데이터 일관성을 유지하는 것이 중요합니다.
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다. 이로써 관계형 스키마와 함께 대상 읽기 활동 사용에 대한 실습이 완료됩니다.
 
 ## 요약
 
-이제 Campaign을 만들고, 대상 읽기 활동을 프로필 대상 Dimension과 함께 수행하여 관계형 스키마를 활용하는 방법을 보았습니다. 분할 활동을 사용하여 조건에 따라 대상자를 분할했습니다. 마지막으로 테스트 모드는 프로필과 관계형 스키마 간의 데이터 일관성이 중요하다는 것을 이해하는 데 도움이 되었습니다.
+이제 Campaign을 만들고, 대상 읽기 활동을 프로필 대상 Dimension과 함께 수행하여 관계형 스키마를 사용하는 것을 보았습니다. 분할 활동을 사용하여 조건에 따라 대상자를 분할했습니다. 마지막으로 테스트 모드는 프로필과 관계형 스키마 간의 데이터 일관성이 중요하다는 것을 이해하는 데 도움이 되었습니다.
 
 관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)에서 더 읽을 수 있습니다.

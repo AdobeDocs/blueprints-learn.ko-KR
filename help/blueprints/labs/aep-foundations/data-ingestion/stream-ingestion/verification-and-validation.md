@@ -4,13 +4,11 @@ description: UI에서 스트리밍된 데이터 세트를 미리 보고 SQL 쿼�
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # 확인 및 유효성 검사
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**데이터 집합 미리 보기**&#x200B;에는 데이터 집합의 처음 몇 행만 표시됩니다. 배열 개체를 볼 수 없습니다.
+>**데이터 집합 미리 보기**&#x200B;에는 데이터 집합의 처음 몇 개 행만 표시됩니다. 배열 개체를 볼 수 없습니다.
 
 
 
@@ -56,13 +54,13 @@ ht-degree: 0%
 
 
 
-1. **향상된 쿼리 편집기**&#x200B;에 대한 토글을 전환합니다.
+1. **향상된 쿼리 편집기** 토글 사용
 
    ![향상된 쿼리 편집기 토글을 사용하는 쿼리 편집기 인터페이스](assets/verification-and-validation-enhanced-query-editor-toggle.png "쿼리 편집기 인터페이스")
 
 
 
-1. 복사한 후 **편집기**&#x200B;에 다음 SQL 쿼리를 붙여 넣습니다. `<table_name>`을(를) 2단계에서 얻은 값으로 바꾸십시오.
+1. **편집기**&#x200B;에서 다음 SQL 쿼리를 복사하여 붙여 넣으십시오. `<table_name>`을(를) 2단계에서 얻은 값으로 바꾸십시오.
 
    ```sql
    SELECT * FROM <table_name>
@@ -82,12 +80,12 @@ ht-degree: 0%
 
 
 
-1. `postalCode` **노드**&#x200B;의 데이터에 액세스하려면 다음을 입력할 수 있습니다.
+1. `postalCode` **노드**&#x200B;의 데이터에 액세스하려면 다음을 입력하십시오.
 
 ```sql
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >축하합니다!  실시간 고객 프로필의 샘플 세트를 정상적으로 수집 및 생성했습니다

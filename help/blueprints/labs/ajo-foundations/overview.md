@@ -4,20 +4,18 @@ description: 실습형 랩을 통해 Adobe Journey Optimizer의 아키텍처, �
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '272'
 ht-degree: 1%
-
 ---
-
 
 # 개요
 
 ## 학습 내용
 
 1. **Adobe Journey Optimizer 아키텍처 및 기능:**
-   - Adobe Experience Platform을 기반으로 AJO을 빌드하는 방법과 개인화 스택에서 적합한 위치를 이해합니다
+   - AJO이 Adobe Experience Platform을 기반으로 기본적으로 구축되는 방식과 개인화 도구 간 위치를 이해합니다
    - 오케스트레이션된 실시간 고객 여정을 지원하는 핵심 기능 살펴보기
 1. **데이터 저장소:**
    - AJO 내의 실시간 고객 프로필과 관계형 스토어 간 차이점
@@ -51,8 +49,13 @@ ht-degree: 1%
 - CDP, 마케팅 자동화 또는 기타 Martech 플랫폼에 대한 노출
 
 
+## 필요 조건
+
+이 부트캠프를 원하는 속도로 진행하는 경우 두 개의 랩에 외부 계정이 미리 준비되어야 합니다. **전자 메일 채널 구성**&#x200B;에는 Adobe에 위임하는 하위 도메인이 필요하고 **플래그십 휴대폰 실행**&#x200B;에는 SMS 자격 증명이 필요합니다. 자세한 내용은 [설치](setup.md)를 참조하세요.
+
+
 ## 소개
 
-이 비디오에서는 Adobe Journey Optimizer을 소개하고 규모에 따른 개인화의 의미, 달성이 어려운 이유, Adobe Experience Platform을 기반으로 구축된 AJO이 이러한 문제를 해결하는 방법을 설명합니다.
+이 비디오에서는 Adobe Journey Optimizer을 소개하고 대규모 개인화의 의미, 달성이 어려운 이유, AJO이 이러한 문제를 해결하는 방법을 설명합니다. AJO은 기본적으로 Adobe Experience Platform을 기반으로 구축됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486223/)

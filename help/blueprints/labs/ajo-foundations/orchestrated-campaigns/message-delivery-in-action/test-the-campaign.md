@@ -4,19 +4,17 @@ description: 테스트 모드에서 오케스트레이션된 캠페인을 실행
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 
 # 캠페인 테스트
 
 ## 목표
 
-다음 단계 세트에서는 캠페인을 게시하기 전에 예상대로 캠페인 기능을 확인하기 위해 테스트 모드에서 캠페인을 실행합니다. 이 경우 테스트 모드는 실제로 이메일을 보내지는 않지만 전체 흐름을 확인하고 문제를 조기에 식별하는 데 도움이 됩니다.
+다음 단계 세트에서는 테스트 모드에서 캠페인을 실행하여 캠페인을 게시하기 전에 캠페인 기능을 예상대로 확인합니다. 이 경우 테스트 모드는 이메일을 보내지는 않지만 전체 흐름을 확인하고 문제를 조기에 식별하는 데 도움이 됩니다.
 
 ## 워크플로우 시작
 
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 
 
-2. 모든 캠페인 활동의 테스트 실행이 시작됩니다. 결과를 확인합니다.
+2. 모든 캠페인 활동의 테스트 실행이 시작됩니다. 결과 확인
 
 ![캠페인 활동 실행 테스트 진행 중](assets/test-the-campaign-verify-execution-results.png)
 
@@ -52,11 +50,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >최종 테스트 결과를 보려면 페이지를 몇 번 새로 고쳐야 할 수 있습니다.
+   >필요한 경우 페이지를 몇 번 새로 고쳐 최종 테스트 결과를 확인합니다.
 
 
 
-4. 이메일 테스트가 완료되면 결과가 표시됩니다. 오류가 일부 있습니다. 이유를 알아보려면 **자세히 보기**&#x200B;를 클릭하세요.
+4. 이메일 테스트가 완료되면 결과가 표시됩니다. 오류가 일부 있습니다. 이유를 보려면 **자세히 보기**&#x200B;를 클릭하세요.
 
    ![추가 링크 보기 시 오류율](assets/test-the-campaign-error-rate-view-more.png)
 
@@ -84,7 +82,7 @@ ht-degree: 0%
 
    ![보고서 보기를 클릭하여 전자 메일 테스트 세부 정보를 봅니다](assets/test-the-campaign-view-report-2.png)
 
-3. 이메일 테스트가 완료되면 결과가 표시됩니다. 이 경우 오류가 발생하지 않습니다
+3. 이메일 테스트가 완료되면 결과가 표시됩니다. 이 경우 오류가 없습니다
 
 ![오류가 없는 캠페인 통계](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -100,7 +98,7 @@ ht-degree: 0%
 
 캠페인에 대한 **테스트 모드**&#x200B;를 중지하려면 **중지** 단추를 클릭하십시오.
 
->[!TIP]
+>[!SUCCESS]
 >
 >두 이메일 채널 구성은 동일한 캠페인 내에서 테스트되었으며 AEP 프로필 속성을 사용하는 것과 이메일 채널 구성에서 Target Dimension을 사용하는 것 간에 차이가 관찰되었습니다.
 >
@@ -110,4 +108,4 @@ ht-degree: 0%
 
 이제 흐름과 동작을 파악하기 위해 만든 캠페인을 테스트하는 방법을 살펴보았습니다. 여기에서는 테스트 흐름 실행 중에 이메일 채널 구성에 대해 서로 다른 설정을 사용하는 뉘앙스를 잘 이해했습니다.
 
-필요한 경우 캠페인 테스트 모드 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)에 대해 자세히 읽어볼 수 있습니다.
+관심이 있는 경우 캠페인 테스트 모드 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)에 대해 자세히 알아보세요.
