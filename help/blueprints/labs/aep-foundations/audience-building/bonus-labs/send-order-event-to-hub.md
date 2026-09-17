@@ -4,15 +4,17 @@ description: API를 통해 주문 이벤트를 허브에 스트리밍하고, 스
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
 
-
 # 허브로 주문 이벤트 보내기
+
+>[!IMPORTANT]
+>
+>이 실습을 시작하기 전에 [Postman 설정](../../postman-setup/postman-installation.md)을 완료합니다. [획득 사용 사례](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)에서 만든 [webhook.site](https://webhook.site/) 및 **스트리밍 DEP Webhook** 대상에 액세스해야 합니다.
 
 ## Hub와 Edge으로 스트리밍
 

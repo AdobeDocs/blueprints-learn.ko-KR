@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -33,6 +33,10 @@ AJO Foundations Labs를 시작하기 전에 아래 설정 단계를 완료하십
 - [Postman 설치](postman-setup/postman-installation.md)
 - [환경 파일 가져오기](postman-setup/import-environment-file.md)
 - [API 컬렉션 가져오기](postman-setup/import-api-collection.md)
+
+## 온디맨드 준비
+
+Labs를 시작하기 전에 위의 Postman 구성을 완료합니다. 자습형 학습자에는 전자 메일 종속 실습에 대해 위임된 하위 도메인이 필요하고, 플래그십 휴대폰 실행 실습에 대해 SMS 자격 증명이 필요합니다.
 
 ## 채널 사전 요구 사항
 

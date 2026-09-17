@@ -7,20 +7,24 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 TQID: https://experienceleague.adobe.com/eCN6p4FgOY5k3JqjlMx55YJjYMChqTiwxH-LWagH7pk
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+    internal-label: Personalization
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 82%
-
+source-wordcount: '352'
+ht-degree: 67%
 ---
-
 # B2B Analytics, 활성화 및 마케팅 블루프린트
 
 데이터 기반 마케팅의 세계에서는 B2B 대상자와 프로필을 중심으로 활성화해야 성공할 수 있습니다. 그러나 많은 브랜드가 여전히 일관되지 않은 도달 및 개인화 전략으로 채널 중심 활성화에 노력을 기울입니다.
@@ -31,6 +35,8 @@ ht-degree: 82%
 |---|---|---|
 | **[B2B 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=ko)** | <ul><li>고객 여정 분석에 B2B 계정 정보 포함</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B 대상자 활성화](b2bactivation.md)** | <ul><li>웹, 이메일, 광고 채널에서 B2B 대상자 타겟팅</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B 에디션</li></ul> |
+| **[B2B 대상 및 프로필 활성화](b2b-audience-profile-activation.md)** | <ul><li>채널 및 대상에 걸쳐 통합 B2B 프로필에서 사람 및 계정 대상자를 만들고 활성화합니다</li></ul> | <ul><li>Adobe Real-Time Customer Data Platform B2B edition</li><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Customer Journey Analytics B2B edition</li></ul> |
+| **[B2B 계정 활성화](b2b-account-activation.md)** | <ul><li>타겟팅, 판매 지원 및 분석을 위해 광고 대상 및 클라우드 스토리지에 계정 대상자 활성화</li></ul> | <ul><li>Adobe Real-Time Customer Data Platform B2B edition</li></ul> |
 | **[그룹 기반 마케팅 및 여정 관리 구매](/help/blueprints/b2b/b2b-buying-group-journeys.md)** | <ul><li>영업 기회 검증을 위한 마케팅 활동의 효과를 높이는 구매 그룹에 대한 잠재 고객 자격을 부여하는 계정 여정을 설계 및 구축합니다.</li></ul> | <ul><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Real-time Customer Data Platform B2B 에디션</li><li>Adobe Marketo Engage</li></ul> |
 | **[Marketo Engage와 Workfront 통합 블루프린트: 개요](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>B2B 마케팅 캠페인 기획, 개발, 실행 최적화</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
 | **[Marketo Engage와 Workfront 통합 블루프린트: 가져오기 및 만들기](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>B2B 마케팅 캠페인 요청을 캠페인 개발 실행으로 가져오는 프로세스 자동화하기</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

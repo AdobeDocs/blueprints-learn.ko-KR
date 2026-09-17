@@ -4,13 +4,11 @@ description: Edge, 스트리밍 및 일괄 처리 활성화 속도가 어떻게 
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 
 # Edge 활성화
 
@@ -23,6 +21,10 @@ Adobe은 다양한 요구 사항을 해결하기 위해 세 가지 활성화 속
 1. 일괄 처리
 
 이벤트 전달, Edge 대상 및 Edge Personalization과 함께 Adobe Edge를 사용하여 를 활성화하는 방법에 대해 알아봅니다. 그런 다음 허브에서 Edge 및 외부 대상으로 스트리밍 대상을 사용하는 방법을 보여 줍니다.
+
+>[!IMPORTANT]
+>
+>이 실습을 시작하기 전에 [Postman 설정](../../setup.md)을 완료합니다. 외부 대상으로 전송된 이벤트를 캡처하려면 [webhook.site](https://webhook.site/)에도 액세스해야 합니다.
 
 >[!NOTE]
 >
