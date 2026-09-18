@@ -2,14 +2,12 @@
 title: 전환율 향상
 description: 구매, 등록 또는 양식 제출과 같은 원하는 작업을 완료하는 방문자 및 잠재 고객의 비율을 향상시키는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 2%
-
+ht-degree: 8%
 ---
-
-
 # 전환율 향상
 
 구매, 등록 또는 양식 제출과 같은 원하는 작업을 완료하는 방문자 및 잠재 고객의 비율을 향상시킵니다. 이 목표는 고객 여정의 모든 접점을 최적화하여 개인화된 경험과 시기 적절한 메시지를 통해 마찰을 줄이고 조치를 취하는 데 중점을 둡니다.
@@ -28,7 +26,7 @@ ht-degree: 2%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
 | [익명 방문자 웹 Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | 개인화 | 알 수 없는 방문자에 대한 웹 경험을 개인화하여 사이트 내 전환을 개선합니다. |
 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | 개인화 | 프로필 데이터를 기반으로 알려진 방문자에게 개인화된 콘텐츠 및 오퍼를 전달하여 전환을 유도합니다 |
