@@ -32,6 +32,6 @@ ht-degree: 0%
 
 ## 추가 읽기
 
-- [Journey Optimizer 보고](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/reports/sharing-overview)
-- [Customer Journey Analytics 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Customer Journey Analytics 대상 게시](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Journey Optimizer 보고](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/reports/sharing-overview)
+- [Customer Journey Analytics 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Customer Journey Analytics 대상 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)

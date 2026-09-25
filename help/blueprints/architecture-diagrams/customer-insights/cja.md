@@ -48,6 +48,6 @@ Adobe Customer Journey Analytics은 Adobe Experience Platform 및 기타 소스�
 
 ## 추가 읽기
 
-- [Customer Journey Analytics 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Customer Journey Analytics 연결](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Customer Journey Analytics 대상 게시](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Customer Journey Analytics 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Customer Journey Analytics 연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection)
+- [Customer Journey Analytics 대상 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)

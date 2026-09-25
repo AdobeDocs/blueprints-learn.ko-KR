@@ -54,10 +54,10 @@ ht-degree: 5%
 
 B2B 대상 및 프로필을 디자인할 때 다음 보호 기능 및 자격 요건 설명서를 참조하십시오.
 
-- [Real-Time Customer Data Platform B2B edition 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Real-Time CDP B2B edition에 대한 세그멘테이션 사용 사례](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)
-- [프로필 및 세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [스트리밍 세분화 자격 기준 업데이트](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Real-Time Customer Data Platform B2B edition 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Real-Time CDP B2B edition에 대한 세그멘테이션 사용 사례](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/segmentation/b2b)
+- [프로필 및 세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- [스트리밍 세분화 자격 기준 업데이트](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ### 다중 인스턴스 및 IMS 조직 지원
 
@@ -76,33 +76,33 @@ B2B 대상 및 프로필을 디자인할 때 다음 보호 기능 및 자격 요
 
 #### Experience Platform 프로필 및 세그멘테이션 보호
 
-Experience Platform 프로필 및 세그멘테이션 보호 기능을 보려면 [프로필 및 세그멘테이션 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)을 참조하세요.
+Experience Platform 프로필 및 세그멘테이션 보호 기능을 보려면 [프로필 및 세그멘테이션 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)을 참조하세요.
 
 계정, 리드 또는 기회와 같은 B2B 엔터티를 포함하는 세그먼트는 다중 엔터티 관계에 의존하며 **batch**&#x200B;에서 평가됩니다. 반대로 B2B 엔터티를 통합하지 않는 사람 및 이벤트로 제한된 대상에 대해서는 **스트리밍 세분화**&#x200B;이 지원됩니다. 실시간에 가까운 B2B 활성화 시나리오의 경우 일괄 평가된 B2B 대상을 지원되는 스트리밍 또는 에지 대상에 대한 입력으로 사용하는 것이 좋습니다.
 
 #### Experience Platform - Marketo Engage Source 커넥터
 
-- [여기](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) 설명서를 참조하세요.
+- [여기](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) 설명서를 참조하세요.
 
 #### Experience Platform - Marketo 대상 커넥터
 
-- [여기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection) 설명서를 참조하세요.
+- [여기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection) 설명서를 참조하세요.
 
 #### 대상 가드 레일
 
-- 각 대상에 대한 특정 지침은 대상 설명서를 참조하십시오. [대상 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails).
+- 각 대상에 대한 특정 지침은 대상 설명서를 참조하십시오. [대상 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails).
 - Facebook, Google Customer Match &amp; DV360, Microsoft Bing, The Trade Desk, Amazon Ads, Bombora, Demandbase 등과 같은 광고 대상의 경우 스키마 및 ID 전략에서 선택한 식별자(이메일, 모바일 광고 ID, 주소 필드, 계정 ID)가 해당 대상에 대해 지원되는 ID 및 매핑 기능과 일치하는지 확인하십시오.
 
 ## 구현 단계
 
-Real-Time Customer Data Platform의 B2B edition을 구현하고 구성하는 방법에 대한 지침은 Real-Time CDP B2B edition 설명서([Real-Time Customer Data Platform의 B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview))를 참조하십시오.
+Real-Time Customer Data Platform의 B2B edition을 구현하고 구성하는 방법에 대한 지침은 Real-Time CDP B2B edition 설명서([Real-Time Customer Data Platform의 B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview))를 참조하십시오.
 
 두 가지 구현 패턴은 일반적입니다.
 
 - Marketo Engage(및 연결된 CRM)의 B2B 데이터 및 프로필을 RTCDP B2B edition으로 수집합니다.
 - 관련 소스 커넥터를 사용하여 CRM 또는 기타 B2B 시스템에서 RTCDP B2B edition으로 직접 B2B 데이터를 수집합니다.
 
-RTCDP B2B 아키텍처 업그레이드의 일부로, 이전에 사용된 일부 패턴은 이제 B2B 엔티티에 대해 더 이상 사용되지 않습니다. 자세한 내용은 자세한 설명서 [여기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)를 참조하세요.
+RTCDP B2B 아키텍처 업그레이드의 일부로, 이전에 사용된 일부 패턴은 이제 B2B 엔티티에 대해 더 이상 사용되지 않습니다. 자세한 내용은 자세한 설명서 [여기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)를 참조하세요.
 
 ## 구현 시 고려 사항
 
@@ -116,13 +116,13 @@ RTCDP B2B 아키텍처 업그레이드의 일부로, 이전에 사용된 일부 
 
 ## 관련 설명서
 
-- [Real-Time Customer Data Platform의 B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-- [Real-Time Customer Data Platform B2B edition 시작하기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
-- [Real-Time Customer Data Platform B2B edition 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Real-Time Customer Data Platform B2B edition의 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Real-Time CDP B2B edition으로 아키텍처 업그레이드](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform)
-- [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
-- [Adobe Experience Platform - Marketo Source 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Adobe Experience Platform - Marketo 대상 커넥터](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
-- [대상 가드 레일](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Real-Time Customer Data Platform의 B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+- [Real-Time Customer Data Platform B2B edition 시작하기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Real-Time Customer Data Platform B2B edition 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Real-Time Customer Data Platform B2B edition의 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
+- [Real-Time CDP B2B edition으로 아키텍처 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Adobe Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform)
+- [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/home)
+- [Adobe Experience Platform - Marketo Source 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Adobe Experience Platform - Marketo 대상 커넥터](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
+- [대상 가드 레일](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails)

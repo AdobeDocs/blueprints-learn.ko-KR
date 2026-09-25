@@ -34,6 +34,6 @@ ht-degree: 0%
 
 ## 추가 읽기
 
-- [Adobe Real-Time CDP 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Adobe Real-Time CDP 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- [Adobe Real-Time CDP 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
+- [대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Adobe Real-Time CDP 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)
