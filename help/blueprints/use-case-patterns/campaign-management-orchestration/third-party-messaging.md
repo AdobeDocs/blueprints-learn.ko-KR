@@ -1,15 +1,13 @@
 ---
-title: Journey Optimizer - 서드파티 메시지 블루프린트
+title: Journey Optimizer - 서드파티 메시징 블루프린트
 description: Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하여 개인화된 통신을 전송하는 방법을 보여 줍니다.
 solution: Journey Optimizer
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 62%
-
+ht-degree: 58%
 ---
-
-# 서드파티 메시지 블루프린트
+# 타사 메시징 블루프린트
 
 Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하여 개인화된 통신을 전송하는 방법을 보여 줍니다.
 
@@ -17,7 +15,7 @@ Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하�
 
 ## 아키텍처
 
-<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-third-party-messaging.png" alt="Journey Optimizer 블루프린트 참조 아키텍처" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -37,9 +35,9 @@ Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하�
 
 ## 가드레일
 
-[Journey Optimizer Guarrails 제품 링크](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ko)
+[Journey Optimizer Guarrails 제품 링크](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ko)
+[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -73,7 +71,7 @@ Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하�
 1. 외부 데이터 소스를 구성합니다
 1. 서드파티 애플리케이션에 대한 사용자 정의 작업 구성
 
-### 모바일 푸시 구성(선택 사항. 서드파티에서 토큰을 수집할 수 있음)
+### 모바일 푸시 구성(타사에서 토큰을 수집할 수 있으므로 선택 사항)
 
 1. Experience Platform Mobile SDK를 구현하여 푸시 토큰 및 로그인 정보를 수집하고 이를 알려진 고객 프로필에 다시 연결합니다.
 1. 다음 확장을 사용하여 Adobe 태그를 활용하고 모바일 속성을 만들 수 있습니다.
@@ -90,6 +88,6 @@ Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하�
 
 * [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)
-* [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)
-* [Journey Optimizer 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ko)
+* [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html)
+* [Journey Optimizer 설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)
