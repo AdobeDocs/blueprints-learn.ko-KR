@@ -3,14 +3,12 @@ title: 주요 비즈니스 목표
 description: Adobe Experience Platform 사용 사례 패턴이 조직이 달성하는 데 도움이 되는 주요 비즈니스 목표에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: ebebdf85-3ca0-4d8d-a14e-3808dfe43382
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
-
 ---
-
-
 # 주요 비즈니스 목표
 
 주요 비즈니스 목표는 조직이 디지털 경험 이니셔티브를 통해 달성하고자 하는 전략적 결과를 정의합니다. 각 목표는 이러한 결과를 제공하기 위해 Adobe Experience Platform 및 애플리케이션을 구현하는 방법을 설명하는 하나 이상의 [사용 사례 패턴](/help/blueprints/use-case-patterns/overview.md)에 매핑됩니다.

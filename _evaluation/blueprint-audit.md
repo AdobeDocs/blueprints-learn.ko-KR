@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3507'
 ht-degree: 6%
-
 ---
 # 블루프린트 감사 및 권장 사항
 
@@ -16,6 +15,9 @@ ht-degree: 6%
 권장 사항이 검토되면 별도의 후속 계획으로 작성됩니다.
 
 ## 요약
+
+의사 결정 관리 및 Campaign v7 컨텐츠가 이제 사용되지 않습니다. 아래의 이전 행은 다음으로 유지됩니다.
+이러한 결정 및 승인된 리디렉션을 문서화합니다.
 
 **감사된 총 문서 수:** 43
 
@@ -51,7 +53,7 @@ ht-degree: 6%
 | `b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md` | **새로 작성** | `use-case-patterns/b2b/campaign-intake-and-creation.md` |
 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | **새로 작성** | `use-case-patterns/b2b/campaign-review-and-approval.md` |
 
-> **초기 전환 상태 — writer-coordination 게이트** 기존 &quot;B2B 활성화 및 마케팅&quot;> [TOC.md](../help/blueprints/TOC.md)의 아키텍처 다이어그램 영역에서 하위 섹션(95~106행) **그대로 유지> 전환 중**. 각 블루프린트 전환 및 기존 패턴 재배치에는 다음이 필요합니다.> 콘텐츠가 마이그레이션되기 전에 소유 작성기에서 사인오프합니다. 새로운 `b2b/` 사용 사례 패턴> 섹션은 를 사용하여 페이지별로 마이그레이션이 발생하는 동안 기존 블루프린트 섹션과 공존합니다.> 두 페이지 사이를 상호 연결합니다.
+> **B2B 처리가 완료되었습니다.** 감사 권장 사항은 대상/프로필 및 계정 활성화 아키텍처 페이지를 유지하고, 나머지 B2B 아키텍처 페이지를 폐기하고, 폐기된 URL을 B2B 카테고리 개요로 리디렉션하는 데 사용되었습니다.
 
 위치 변경 및 새 패턴이 모두 도착한 경우:
 
@@ -60,7 +62,7 @@ ht-degree: 6%
 - [use-case-patterns/overview.md](../help/blueprints/use-case-patterns/overview.md)에서 B2B 범주 테이블을 가져옵니다.
 - 재배치된 패턴은 `audience-building-activation`에서 제거됩니다.
   `campaign-management-orchestration` 및 `analysis` 개요 테이블입니다. 이전 URL은 유지됩니다.
-[migration-redirects.csv](migration-redirects.csv)에서 리디렉션을 통해 활성 상태입니다.
+  [migration-redirects.csv](migration-redirects.csv)에서 리디렉션을 통해 활성 상태입니다.
 
 ### 식별된 중복 항목 (9)
 
@@ -79,7 +81,10 @@ ht-degree: 6%
 | `customer-journeys/decision-management/decision-management-edge.md` | `use-case-patterns/personalization/offer-decisioning.md` |
 | `customer-journeys/decision-management/decision-management-hub.md` | `use-case-patterns/personalization/offer-decisioning.md` |
 
-> 참고: `decision-management-edge.md`과(와) `decision-management-hub.md`이(가) 모두 같은 항목에 매핑됩니다.> 기존 `offer-decisioning.md` 패턴입니다. 두 블루프린트를 하나로 통합하는 것이 좋습니다.> deployment-options 다이어그램 또는 edge-vs-hub 배포로 기존 패턴 확대> 변형입니다. 작성기 검토를 위한 플래그입니다.
+> 참고: `decision-management-edge.md`과(와) `decision-management-hub.md`이(가) 모두 같은 항목에 매핑됩니다.
+> 기존 `offer-decisioning.md` 패턴입니다. 두 블루프린트를 하나로 통합하는 것이 좋습니다.
+> deployment-options 다이어그램 또는 edge-vs-hub 배포로 기존 패턴 확대
+> 변형입니다. 작성기 검토를 위한 플래그입니다.
 
 ### 작성자 패턴(신규 8개 + 분할에서 2개 = 총 10개)
 
@@ -123,20 +128,20 @@ Marketo + Workfront 패턴(`intake-and-create`, `review-and-approve-blueprint`)�
 ```
 # Pattern blueprints — if deleted, redirect to the new pattern URL
 # (slugs are placeholders; finalize when each pattern is authored)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview → use-case-patterns/campaign-orchestration-patterns/<new-pattern-slug>
 
 # Duplicate blueprints — if deleted, redirect to the existing pattern URL
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/b2b-cja → use-case-patterns/b2b-patterns/account-analytics  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-journeys → use-case-patterns/campaign-orchestration-patterns/event-triggered-messaging
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-campaigns → use-case-patterns/campaign-orchestration-patterns/batch-outbound-message-activation
@@ -144,7 +149,7 @@ Marketo + Workfront 패턴(`intake-and-create`, `review-and-approve-blueprint`)�
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/decision-management/decision-management-hub → use-case-patterns/personalization-patterns/offer-decisioning
 
 # Optional one-off — if customer-journey-analytics/analysis.md is relocated to experience-platform/
-/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overview/analysis
+/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overviews/analysis
 ```
 
 위의 행 중 하나를 활성 리디렉션으로 변환할 때 쉼표로 구분된 형식으로 변환 `source,dest`
@@ -191,7 +196,7 @@ CJA이 아닌 쿼리 서비스. `experience-platform/` 폴더로 재배치하는
 
 | 경로 | 제목 | 요약 | dominant_type | 추천 | proposed_pattern_category | proposed_pattern_title | proposed_diagram_title | duplicate_of | pattern_score | diagram_score | 참고 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| help/blueprints/experience-platform/experience-cloud.md | Adobe Experience Cloud 아키텍처 다이어그램 | Experience Cloud 애플리케이션 및 서비스가 AEP 기반에 통합되는 방식을 보여 주는 엔터프라이즈 아키텍처. | 다이어그램 | 다이어그램 |  |  | Experience Cloud 아키텍처 개요 |  | 0 | 3 | 재정의 3(비즈니스 목표 없음). 세 가지 상호 보완적인 다이어그램(마케팅 구조, 통합, 기업 환경). 컨트롤 그룹: 예상대로 |
+| help/blueprints/experience-platform/experience-cloud.md | Adobe Experience Cloud 아키텍처 다이어그램 | Experience Cloud 애플리케이션 및 서비스가 AEP 기반에 통합되는 방법을 보여 주는 엔터프라이즈 아키텍처입니다. | 다이어그램 | 다이어그램 |  |  | Experience Cloud 아키텍처 개요 |  | 0 | 3 | 재정의 3(비즈니스 목표 없음). 세 가지 상호 보완적인 다이어그램(마케팅 구조, 통합, 기업 환경). 컨트롤 그룹: 예상대로 |
 | help/blueprints/experience-platform/platform-applications.md | Adobe Experience Platform 및 애플리케이션 아키텍처 다이어그램 | Experience Platform이 다른 Experience Cloud 애플리케이션과 어떻게 관련되는지를 보여 주는 아키텍처 다이어그램입니다. | 다이어그램 | 다이어그램 |  |  | AEP 및 애플리케이션 아키텍처 |  | 0 | 3 | 재정의 3. 두 개의 개요/세부 다이어그램, 구현 지침 없음. 통합-학습 문서에 대한 교차 링크입니다. 컨트롤 그룹: 예상대로 |
 | help/blueprints/experience-platform/platform-data-flow.md | Adobe Experience Platform 데이터 흐름 아키텍처 다이어그램 | Experience Platform 내부 및 외부 수집 및 이그레스 경로를 보여 주는 데이터 흐름 아키텍처 다이어그램입니다. | 다이어그램 | 다이어그램 |  |  | AEP 데이터 흐름 아키텍처 |  | 0 | 3 | 재정의 3. 데이터 수집 문서에 대한 단일 데이터 흐름 다이어그램. 순수 아키텍처 아티팩트. 컨트롤 그룹: 예상대로 |
 | help/blueprints/experience-platform/guardrails.md | Experience Platform 및 애플리케이션 가드레일 | AEP 및 애플리케이션에 대한 시스템 제한, 성능 기대치 및 지연 보호 기능. | 다이어그램 | 다이어그램 |  |  | AEP 및 애플리케이션 보호 및 지연 |  | 0 | 3 | 재정의 3. 지연 다이어그램과 참조 테이블. 설계 중심(Edge와 Hub). 제한 설명서(방법 아님). 컨트롤 그룹: 예상대로 |
@@ -209,7 +214,7 @@ CJA이 아닌 쿼리 서비스. `experience-platform/` 폴더로 재배치하는
 | help/blueprints/b2b/b2bactivation.md | B2B 대상자 및 프로필 활성화 블루프린트 | 계정 및 프로필 데이터를 사용하여 웹, 이메일 및 광고 채널에서 계정 기반 B2B 대상을 활성화합니다. | 패턴 | 복제 |  |  |  | help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md | 3 | 1 | 재정의 2: 동등한 패턴이 존재합니다. 블루프린트는 더 좁은 아키텍처 중심의 하위 집합입니다. |
 | help/blueprints/b2b/b2b-account-activation.md | Advertising 대상 및 파일 대상에 대한 B2B 계정 활성화 | 계정 대상자 만들기 및 활성화를 사용하여 LinkedIn 및 클라우드 스토리지 대상을 통해 B2B 계정을 타깃팅합니다. | 다이어그램 | 다이어그램 |  |  | B2B 계정 Audience Activation |  | 1 | 2 | 최소한의 비즈니스 프레임, KPI 없음, 최소한의 이야기. 아키텍처 다이어그램이 있고 LinkedIn/클라우드 스토리지 토폴로지가 설명되어 있습니다. 다이어그램으로 유지 |
 | help/blueprints/b2b/b2b-buying-group-journeys.md | 구매 그룹 기반 마케팅 및 여정 관리 블루프린트 | 정의된 역할과 솔루션 관심사를 가진 구매 그룹으로 이어질 수 있는 계정 여정을 설계합니다. | 패턴 | 복제 |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md | 5 | 2 | 재정의 2: 동등한 패턴이 존재합니다. 블루프린트에는 풍부한 패턴 콘텐츠가 있지만 기존 패턴이 더 포괄적입니다. |
-| help/blueprints/b2b/b2b-journeys-with-marketo.md | Marketo 데이터 블루프린트를 사용하는 B2B 여정 | 구매 그룹 여정 및 계정 참여를 조정하기 위해 Journey Optimizer B2B edition과 Marketo 데이터를 배포합니다. | 패턴 | 패턴 | b2b | Marketo 데이터 통합을 통한 B2B 계정 여정 |  |  | 4 | 1 | 강력한 비즈니스 프레임. 나열된 KPI, 여러 구현 옵션, 광범위한 고려 사항(>30개 라인). Marketo 데이터 통합 깊이 (XDM 구성, ID 결합, 필드 차단)에 의해 기존 패턴과 구별됩니다. 새 b2b/ 카테고리로 이동합니다. |
+| help/blueprints/b2b/b2b-journeys-with-marketo.md | Marketo 데이터 블루프린트를 사용하는 B2B 여정 | 구매 그룹 여정 및 계정 참여를 조정하기 위해 Marketo 데이터와 함께 Journey Optimizer B2B Edition을 배포합니다. | 패턴 | 패턴 | b2b | Marketo 데이터 통합을 통한 B2B 계정 여정 |  |  | 4 | 1 | 강력한 비즈니스 프레임. 나열된 KPI, 여러 구현 옵션, 광범위한 고려 사항(>30개 라인). Marketo 데이터 통합 깊이 (XDM 구성, ID 결합, 필드 차단)에 의해 기존 패턴과 구별됩니다. 새 b2b/ 카테고리로 이동합니다. |
 | help/blueprints/b2b/ajo-b2b-paid-media-controller.md | AJO B2B - 계정 Journey Orchestration - 유료 미디어 컨트롤러 | waterfall 논리를 사용하여 B2B 유료 미디어 캠페인을 오케스트레이션하여 캠페인에 계정을 할당하고 대상에 활성화합니다. | 패턴 | 패턴 | b2b | Waterfall 분할 경로 논리를 통한 B2B 유료 미디어 오케스트레이션 |  |  | 4 | 2 | 강력한 비즈니스 프레임. 명시적 KPI, 여러 구현 옵션, 사전 요구 사항, 30줄 이상의 서술형 기존 구매 그룹 패턴과는 다릅니다(양육이 아닌 유료 미디어 우선 순위에 중점). 새 b2b/ 카테고리로 이동합니다. |
 | help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md | Marketo Engage와 Workfront 통합 블루프린트 개요 | Marketo Engage 및 Workfront을 Fusion과 함께 사용하여 캠페인 계획에서 실행 자동화에 대한 개요입니다. | 탐색 | 탐색 |  |  |  |  |  |  | 재정의 1: overview.md라는 파일. 마이그레이션에서 제외됩니다. |
 | help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md | 가져오기 및 만들기 블루프린트 | Workfront Forms 및 Marketo Engage 프로그램 템플릿을 사용하여 B2B 마케팅 캠페인 요청 수신 생성을 자동화합니다. | 패턴 | 패턴 | b2b | Campaign 요청 접수 및 자동화된 프로그램 만들기 |  |  | 4 | 1 | 캠페인 속도에 대한 강력한 비즈니스 프레임. 암시적 KPI(오류/재작업 감소), 워크플로우 단계 >30라인, 준비 체크리스트. 새 b2b/ 카테고리로 이동하는 경로(Marketo+Workfront 운영 체제는 주로 B2B임). |
@@ -221,7 +226,7 @@ CJA이 아닌 쿼리 서비스. `experience-platform/` 폴더로 재배치하는
 | help/blueprints/customer-journey-analytics/cja-ajo.md | Journey Optimizer 블루프린트가 포함된 Customer Journey Analytics | CJA에서 AJO 전달 및 상호 작용 데이터를 분석하고 CJA 대상을 AJO에 게시합니다. | 다이어그램 | 다이어그램 |  |  | CJA-AJO 통합 및 분석 |  | 1 | 3 | 강력한 아키텍처 중심. 최소한의 이야기. 고유 컨텐츠: 양방향 CJA-AJO 데이터 공유 패턴. |
 | help/blueprints/customer-journey-analytics/analysis.md | 데이터 분석 및 인텔리전스 블루프린트 | Experience Platform 쿼리 서비스를 사용하여 데이터 레이크 데이터를 탐색적으로 분석할 수 있습니다. | 다이어그램 | 다이어그램 |  |  | Experience Platform Query Service 및 BI 도구 통합 |  | 1 | 3 | CJA 전용 이 아닌 쿼리 서비스를 다룹니다. CJA 폴더에 잘못 배치될 수 있습니다. experience-platform/으로 재배치되는 것이 좋습니다. 강력한 설계 대상(PostgreSQL, BI 도구). |
 | help/blueprints/customer-journeys/overview.md | 고객 여정 블루프린트 | 최신 마케팅 플랫폼은 여정 전반에 걸쳐 이벤트 기반 캠페인 및 브랜드 주도 캠페인을 지원합니다. | 탐색 | 탐색 |  |  |  |  |  |  | 재정의 1: overview.md. 여정 하위 범주에 대한 TOC. Journey Optimizer 및 Campaign 위치 지정에 대해 설명합니다. |
-| help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md | Journey Optimizer 블루프린트 | 채널 전반의 이벤트 기반 1:1 프로필 오케스트레이션 및 대상 기반 브랜드 커뮤니케이션. | 탐색 | 탐색 |  |  |  |  |  |  | 재정의 1: overview.md. 사용 사례 탭 및 통합 패턴이 있는 랜딩 페이지. |
+| help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md | Journey Optimizer 블루프린트 | 채널 전반에 걸친 이벤트 중심의 1:1 프로필 오케스트레이션 및 대상 기반 브랜드 커뮤니케이션. | 탐색 | 탐색 |  |  |  |  |  |  | 재정의 1: overview.md. 사용 사례 탭 및 통합 패턴이 있는 랜딩 페이지. |
 | help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md | Journey Optimizer - 트리거된 메시징 및 Adobe Experience Platform 블루프린트 | 실시간 이벤트 기반 워크플로우는 고객 행동을 기반으로 개인화된 다단계 경험을 제공합니다. | 패턴 | 복제 |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md | 4 | 2 | 주의해서 2를 재정의: 에이전트가 중복될 수 있지만 불확정으로 플래그가 지정되었습니다. 축소하기 전에 범위 정렬을 확인하십시오. 아키텍처 고려 사항은 고유할 수 있으며(프로필 신선도, 세그먼트 자격 타이밍) 다이어그램에 보존할 가치가 있을 수 있습니다. |
 | help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md | Journey Optimizer - Campaign 오케스트레이션 | 아웃바운드 채널 간 예약된 대상 기반 다단계 통신(이메일, SMS, 푸시, DM). | 패턴 | 복제 |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md | 3 | 2 | 재정의 2: 동일한 패턴. 여러 아키텍처 다이어그램. 다이어그램으로 유지 고유 컨텐츠: 관계형 데이터베이스/대상 포털/스키니 프로필 아키텍처 세부 정보. |
 | help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md | Journey Optimizer - 서드파티 메시지 블루프린트 | Journey Optimizer과 서드파티 메시징 시스템의 통합 기능을 보여 줍니다. | 혼합 | 분할 | campaign-management-오케스트레이션 | Journey Optimizer과 서드파티 메시징 통합 | 타사 메시징 아키텍처 |  | 2 | 2 | 동점→ 나뉜다 다이어그램(시스템 간 토폴로지) + 패턴 콘텐츠(구현 단계, 통합 제한: 전달자 인증, 정적 IP 없음, 속도 제한). 둘 다 보존할 가치가 있어. |
@@ -233,4 +238,4 @@ CJA이 아닌 쿼리 서비스. `experience-platform/` 폴더로 재배치하는
 | help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md | Journey Optimizer와 Adobe Campaign v8 블루프린트 | 1:1 경험을 위한 Campaign v8 트랜잭션 메시징과 함께 AJO 오케스트레이션을 보여 줍니다. | 다이어그램 | 다이어그램 |  |  | Journey Optimizer - Campaign v8 트랜잭션 메시지 통합 |  | 1 | 2 | 통합 커넥터. 다이어그램 + 구현 단계 + 기술 제한(4,000msg/5분 스로틀, 이벤트 시작 전용). AJO 및 Campaign v8 패턴에 대한 상호 링크. |
 | help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md | Campaign v7 블루프린트 | 더 이상 사용되지 않는 기능: 배치 기반 메시징, 온보딩, 리마케팅, DM, 간단한 트랜잭션 메시지. | 탐색 | 탐색 |  |  |  |  |  |  | 더 이상 사용되지 않는 제품(v8에 대한 프론트메터 링크). 최소 콘텐츠(아키텍처 다이어그램만 해당). 마이그레이션하지 마십시오. |
 | help/blueprints/customer-journeys/campaign-v7/rtcdp-and-campaign-v7.md | Real-Time CDP과 Campaign v7 및 Campaign Standard 통합 패턴 | 개인화된 대화를 위해 RTCDP 및 Campaign v7/Standard와 실시간 고객 프로필을 통합하는 방법을 소개합니다. | 다이어그램 | 다이어그램 |  |  | RTCDP - Campaign v7/Standard 대상자 및 프로필 교환 |  | 1 | 2 | 사용하지 않음. 통합 커넥터. 다이어그램 + 포괄적인 구현 단계. 새로운 패턴으로 마이그레이션하지 말고 그대로 두십시오. |
-| help/blueprints/customer-journeys/campaign-v7/ajo-and-campaign-v7.md | Journey Optimizer와 Adobe Campaign v7 블루프린트 | 1:1 경험을 위한 Campaign v7 트랜잭션 메시지와 함께 AJO 오케스트레이션을 보여 줍니다. | 다이어그램 | 다이어그램 |  |  | Journey Optimizer - Campaign v7 트랜잭션 메시지 통합 |  | 1 | 2 | 사용하지 않음. 통합 커넥터. 다이어그램 + 구현 단계 + 제한. 이주하지 말고 그대로 두어라. |
+| help/blueprints/customer-journeys/campaign-v7/ajo-and-campaign-v7.md | Journey Optimizer와 Adobe Campaign v7 블루프린트 | 1:1 경험을 위한 AJO v7 트랜잭션 메시지와 함께 Campaign 오케스트레이션을 보여 줍니다. | 다이어그램 | 다이어그램 |  |  | Journey Optimizer - Campaign v7 트랜잭션 메시지 통합 |  | 1 | 2 | 사용하지 않음. 통합 커넥터. 다이어그램 + 구현 단계 + 제한. 이주하지 말고 그대로 두어라. |

@@ -4,13 +4,11 @@ description: 연령과 같은 프로필 속성에 따라 오퍼 우선 순위 �
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 
 # 순위 공식 만들기
 
@@ -144,7 +142,7 @@ ht-degree: 0%
 >- **플랜 ID = 1**&#x200B;인 1990년생 사용자는 가장 높은 순위를 기록했더라도 Ultra 및 Pro 오퍼가 제거됩니다. Ultra 및 Pro 계층에는 추가 조건이 있으므로 기본 및 일반 오퍼만 표시됩니다. **계획 ID 2 또는 3**&#x200B;을(를) 가진 사용자만 볼 수 있습니다.
 >- 제네릭 오퍼에 빈도 제한 규칙이 없으므로 **1970** 출생 연도 사용자는 Ultra 오퍼를 볼 수 없습니다. 해당 우선 순위 점수가 제네릭의 상향 점수보다 낮기 때문입니다.
 
-&#x200B;5. 모든 규칙과 기본 우선 순위 점수가 있는 상태에서 맨 위로 스크롤한 후 오른쪽 위의 파란색 **만들기** 단추를 클릭합니다.
+1. 모든 규칙과 기본 우선 순위 점수가 있는 상태에서 맨 위로 스크롤한 후 오른쪽 위의 파란색 **만들기** 단추를 클릭합니다.
 
 >[!TIP]
 >

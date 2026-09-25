@@ -2,14 +2,12 @@
 title: 마케팅 기술 통합 및 현대화
 description: 확장 가능한 통합 플랫폼으로 마이그레이션하여 도구 단편화 및 기술적 부담을 줄이는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 5ab6071e-e1b3-488a-b7ed-3153c9bf6cdb
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
-
 # 마케팅 기술 통합 및 현대화
 
 확장성이 뛰어난 통합 플랫폼으로 마이그레이션하여 툴 조각화 및 기술적 부담 감소 이 목표는 포인트 솔루션을 데이터, 거버넌스 및 워크플로우를 공유하는 통합 플랫폼으로 통합하여 마케팅 기술 스택을 단순화하는 데 중점을 둡니다.
@@ -28,6 +26,6 @@ ht-degree: 2%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
 | [이벤트 전달](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | 대상 구축 및 활성화 | 통합 서버측 이벤트 배포 레이어로 지점 간 통합 대체 |

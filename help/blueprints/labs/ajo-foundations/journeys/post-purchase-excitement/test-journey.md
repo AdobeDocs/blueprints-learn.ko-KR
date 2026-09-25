@@ -4,13 +4,11 @@ description: 여정 테스트 모드 시뮬레이터를 사용하여 주문 출�
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 
 # 테스트 여정
 
@@ -105,16 +103,16 @@ ht-degree: 0%
 
 
 
-&#x200B;8. 브라우저 **탭**&#x200B;을 **닫기**
-&#x200B;9. 오른쪽 상단의 **테스트 모드 닫기**
+1. 브라우저 **탭**&#x200B;을 **닫기**
+1. 오른쪽 상단의 **테스트 모드 닫기**
 
    ![오른쪽 상단의 테스트 모드 닫기 단추](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. 오른쪽 상단의 여정 **게시**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 여정 **게시**&#x200B;를 클릭합니다.
 
-오른쪽 상단의 여정에 대한 ![게시 단추](assets/test-journey-publish-journey.png)
+   오른쪽 상단의 여정에 대한 ![게시 단추](assets/test-journey-publish-journey.png)
 
-&#x200B;11. 왼쪽 상단의 \&lt;- 화살표를 클릭하여 **여정**&#x200B;을 **닫기**
+1. 왼쪽 상단의 \&lt;- 화살표를 클릭하여 **여정**&#x200B;을 **닫기**
 
 ![여정을 닫으려면 왼쪽 위의 뒤로 화살표](assets/test-journey-close-journey-back-arrow.png)
 

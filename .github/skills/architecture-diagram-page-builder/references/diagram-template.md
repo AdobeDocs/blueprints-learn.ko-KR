@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 ---
 # 아키텍처 다이어그램 페이지 템플릿
@@ -28,13 +28,13 @@ solution: {Comma-separated Adobe solutions, e.g. Experience Platform, Journey Op
 
 {1-2 sentence explanation of what the diagram shows and why it matters.}
 
-<img src="assets/{filename-1}" alt="{Alt text for diagram 1}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 1}](assets/{filename-1}){width="1000" zoomable="yes"}
 
 ## {Diagram 2 section title}
 
 {1-2 sentence explanation.}
 
-<img src="assets/{filename-2}" alt="{Alt text for diagram 2}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 2}](assets/{filename-2}){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 
@@ -70,7 +70,7 @@ The architecture above supports the following use case patterns:
 
 - **한 개의 H1** — 페이지 제목. `title` Frontmatter와 정확히 일치합니다.
 - **다이어그램당 1개의 H2.** 도표 구역 안에서는 H3를 사용하지 말고, 1-2 문장 인트로와 이미지에 맞추어라.
-- **`<img>`포함** — 인라인 스타일과 `class="modal-image"`이(가) 필요합니다. Experience League 모달-확대/축소 상호 작용을 촉진합니다.
+- **Markdown 이미지 포함** — 설명하는 대체 텍스트를 제공하고 다이어그램에 `{width="1000" zoomable="yes"}`을(를) 사용합니다.
 - **이미지 경로** — 항상 `assets/{filename}`(페이지의 주제 폴더를 기준으로 함). 절대 경로를 사용하지 마십시오.
 - **Adobe 제품 이름** — 본문 텍스트와 글머리 기호로 `[!DNL ...]`을(를) 래핑합니다. 예: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`
 - **사용 사례 패턴 링크** — 항상 절대 `/help/blueprints/use-case-patterns/{category}/{file}.md` 양식을 사용하므로 링크가 이 콘텐츠를 포함할 수 있는 모든 페이지에서 확인됩니다.

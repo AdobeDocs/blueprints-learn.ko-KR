@@ -4,13 +4,11 @@ description: 누락된 설명 및 중복 필드가 대상 빌더를 어떻게 �
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 
 # 사전 작업
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 이벤트에서 &quot;사용량&quot;을 검색합니다.  &quot;i&quot;를 클릭하여 설명을 검토합니다(없음).
+1. 이벤트에서 &quot;사용량&quot;을 검색합니다.  &quot;i&quot;를 클릭하여 설명을 검토합니다(없음).
 
 ![이벤트에서 사용량 검색 - 설명이 표시되지 않음](assets/pre-work-search-usage-in-events.png)
 

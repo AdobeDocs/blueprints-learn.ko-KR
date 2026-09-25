@@ -1,17 +1,15 @@
 ---
 title: Marketo 데이터 블루프린트를 사용하는 B2B 여정
-description: Marketo Engage 데이터를 사용하여 Journey Optimizer B2B edition을 신속하게 배포하기 위한 블루프린트입니다.
+description: Marketo Engage 데이터를 사용하여 Journey Optimizer B2B Edition을 신속하게 배포하기 위한 블루프린트입니다.
 solution: Journey Optimizer B2B Edition
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2069'
 ht-degree: 2%
-
 ---
-
 # Marketo 데이터 블루프린트를 사용하는 B2B 여정
 
-이 포괄적인 안내서에서는 Marketo Engage과 Adobe Journey Optimizer B2B edition을 통합하는 프로세스에 대해 간략히 설명합니다. 여기에는 사용자 지정 스키마 구성, 프로필 및 계정 수집, 구매 그룹에 대한 개인화된 여정 오케스트레이션 등이 포함됩니다. 이 블루프린트는 Marketo Engage 데이터를 사용함으로써 여러 채널에서 정확한 타겟팅과 참여를 보장하여 더 적합한 수요를 창출하고 고객 경험을 향상시킵니다.
+이 포괄적인 안내서에서는 Marketo Engage과 Adobe Journey Optimizer B2B Edition을 통합하는 프로세스에 대해 간략히 설명합니다. 여기에는 사용자 지정 스키마 구성, 프로필 및 계정 수집, 구매 그룹에 대한 개인화된 여정 오케스트레이션 등이 포함됩니다. 이 블루프린트는 Marketo Engage 데이터를 사용함으로써 여러 채널에서 정확한 타겟팅과 참여를 보장하여 더 적합한 수요를 창출하고 고객 경험을 향상시킵니다.
 
 ## 사용 사례
 
@@ -35,11 +33,7 @@ ht-degree: 2%
 | 통합 | 설명 |
 | :-- | :--- |
 | [Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) | Adobe Experience Platform은 Marketo에서 데이터를 쉽게 수집할 수 있도록 하여 해당 서비스를 사용하여 데이터를 구조화하고 레이블을 지정하고 향상시킬 수 있는 기능을 제공합니다. |
-| [Journey Optimizer B2B edition - Marketo Engage 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions) | 목록 멤버십을 관리하고 캠페인을 요청하기 위한 사람 기반 작업을 사용하여 Journey Optimizer B2B edition의 Account-Based Marketing과 Marketo Engage의 리드 기반 작업을 동기화합니다. |
-
-## 아키텍처
-
-![Marketo 데이터를 사용하는 Journey Optimizer B2B edition용 솔루션 아키텍처](/help/blueprints/b2b/assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
+| [Journey Optimizer B2B Edition - Marketo Engage 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions) | 목록 멤버십을 관리하고 캠페인을 요청하기 위한 사람 기반 작업을 사용하여 Journey Optimizer B2B Edition의 Account-Based Marketing과 Marketo Engage의 리드 기반 노력을 동기화합니다. |
 
 ## 구현 단계
 
@@ -48,21 +42,21 @@ ht-degree: 2%
    * 플랫폼 UI에서 [템플릿](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/templates) 사용
 1. 여정 결정 및 이메일 개인화를 위한 구매, 라이선스 또는 이벤트 등록과 같은 비즈니스 엔티티를 나타내는 데 필요한 관계형 스키마를 만듭니다.
 1. [XDM 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}을 완료합니다.
-   * Journey Optimizer B2B edition에서 기본적으로 선택되는 표준 XDM 필드 집합(_관리되는 필드_)을 검토하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;에서 XDM 구성으로 이동하여 관리되는 필드 집합을 검토하십시오.
-      * **[!UICONTROL 표준]** 탭을 선택한 다음 XDM 개인 프로필과 XDM 비즈니스 계정 모두에 대해 **[!UICONTROL 관리 필드 편집]**&#x200B;을 클릭합니다.
-      * 선택한 필드의 현재 목록을 보려면 **[!UICONTROL 선택한 필드만 표시]** 옵션을 선택하십시오.
-      * 필요에 따라 필드를 추가하거나 제거합니다.
-         * `workEmail.address`은(는) 개인 데이터 집합에 필요합니다.
-         * `accountName`은(는) 계정 데이터 집합에 필요합니다.
+   * Journey Optimizer B2B Edition에서 기본적으로 선택되는 표준 XDM 필드 집합(_관리되는 필드_)을 검토하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 구성]**&#x200B;에서 XDM 구성으로 이동하여 관리되는 필드 집합을 검토하십시오.
+     * **[!UICONTROL 표준]** 탭을 선택한 다음 XDM 개인 프로필과 XDM 비즈니스 계정 모두에 대해 **[!UICONTROL 관리 필드 편집]**&#x200B;을 클릭합니다.
+     * 선택한 필드의 현재 목록을 보려면 **[!UICONTROL 선택한 필드만 표시]** 옵션을 선택하십시오.
+     * 필요에 따라 필드를 추가하거나 제거합니다.
+       * `workEmail.address`은(는) 개인 데이터 집합에 필요합니다.
+       * `accountName`은(는) 계정 데이터 집합에 필요합니다.
    * 여정에서 _개인 프로필 업데이트_ 및 _계정 프로필 업데이트_ 작업에 사용할 XDM 필드 집합을 구성하십시오. 이러한 필드를 _업데이트할 수 있는 필드_&#x200B;이라고도 합니다.
-      * _[!UICONTROL 표준]_ 탭에서 XDM 개인 프로필과 XDM 비즈니스 계정 모두에 대해 **[!UICONTROL 업데이트할 수 있는 필드 편집]**&#x200B;을 클릭합니다.
-      * 업데이트할 스키마, 데이터 세트 및 필드를 선택합니다.
+     * _[!UICONTROL 표준]_ 탭에서 XDM 개인 프로필과 XDM 비즈니스 계정 모두에 대해 **[!UICONTROL 업데이트할 수 있는 필드 편집]**&#x200B;을 클릭합니다.
+     * 업데이트할 스키마, 데이터 세트 및 필드를 선택합니다.
    * 여정에서 사용할 관계형 스키마 및 필드를 구성합니다.
-      * **[!UICONTROL 관계형]** 탭을 선택하고 **[!UICONTROL 관계형 XDM 스키마 선택]**&#x200B;을 클릭합니다.
-      * 사용할 스키마, 네임스페이스 및 필드를 선택합니다.
+     * **[!UICONTROL 관계형]** 탭을 선택하고 **[!UICONTROL 관계형 XDM 스키마 선택]**&#x200B;을 클릭합니다.
+     * 사용할 스키마, 네임스페이스 및 필드를 선택합니다.
    * 여정에서 사용할 경험 이벤트를 구성합니다.
-      * **[!UICONTROL 이벤트]** 탭을 선택한 다음 **[!UICONTROL 경험 이벤트 선택]**&#x200B;을 클릭합니다.
-      * 사용할 경험 이벤트 및 필드를 선택합니다.
+     * **[!UICONTROL 이벤트]** 탭을 선택한 다음 **[!UICONTROL 경험 이벤트 선택]**&#x200B;을 클릭합니다.
+     * 사용할 경험 이벤트 및 필드를 선택합니다.
 1. [Marketo Engage 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 구성합니다.
    * 데이터 사전을 사용하여 원본 커넥터에 대한 [가져오기 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/ui/mapping#import-mapping)을(를) 정의합니다.
    * [구현 고려 사항](#implementation-considerations)을 고려하기 전에 프로필을 활성화하지 않는 것이 좋습니다.
@@ -79,23 +73,23 @@ ht-degree: 2%
 
 ## 권장 설정
 
-구현을 간소화하고 Adobe Journey Optimizer B2B edition과의 호환성을 보장하려면 다음 설정을 권장합니다.
+구현을 간소화하고 Adobe Journey Optimizer B2B Edition과의 호환성을 보장하려면 다음 설정을 권장합니다.
 
 * **기본 ID 필드 사용:**
-   * _전자 메일_ 및 _b2b_ person_은(는) ID 결합 및 대상 활성화를 지원하기 위해 개인 스키마에서 ID 필드로 유지되어야 합니다.
+  * _전자 메일_ 및 _b2b_ person_은(는) ID 결합 및 대상 활성화를 지원하기 위해 개인 스키마에서 ID 필드로 유지되어야 합니다.
 * **Marketo Source 커넥터에 대한 기본 매핑을 사용합니다.**
-   * Adobe에서 제공하는 기본 필드 매핑을 활용하여 데이터 수집을 단순화하고 구성 오버헤드를 줄일 수 있습니다.
+  * Adobe에서 제공하는 기본 필드 매핑을 활용하여 데이터 수집을 단순화하고 구성 오버헤드를 줄일 수 있습니다.
 * **AJO B2B에 대한 기본 매핑 사용:**
-   * Journey Optimizer B2B edition용 [표준 필드 매핑](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping)을(를) 채택하여 구매 그룹 논리 및 여정 오케스트레이션과의 호환성을 보장합니다.
+  * 구매 그룹 논리 및 여정 오케스트레이션과의 호환성을 보장하려면 Journey Optimizer B2B Edition용 [표준 필드 매핑](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping)을 채택하십시오.
 * **전자 메일을 제외한 모든 필드의 필드 업데이트 차단:**
-   * Marketo Engage에서 _전자 메일_&#x200B;을 제외한 모든 필드에 대해 Adobe Experience Platform에서 [업데이트 차단](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field)하도록 필드 관리를 구성하십시오. 이렇게 하면 ID 확인을 계속 활성화하면서 데이터 무결성을 유지하는 데 도움이 됩니다.
+  * Marketo Engage에서 _전자 메일_&#x200B;을 제외한 모든 필드에 대해 Adobe Experience Platform에서 [업데이트 차단](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field)하도록 필드 관리를 구성하십시오. 이렇게 하면 ID 확인을 계속 활성화하면서 데이터 무결성을 유지하는 데 도움이 됩니다.
 * **전자 메일을 고유한 ID 네임스페이스로 사용하여 ID 연결 규칙을 구현합니다**
-   * _전자 메일_&#x200B;을(를) 고유한 ID 네임스페이스로 명시적으로 사용하도록 Adobe Experience Platform에서 [ID 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)을(를) 구성하십시오. 이러한 규칙을 사용하면 _전자 메일_이 있는 데이터 원본에서 프로필이 정확하게 결합되어 강력한 ID 확인을 사용할 수 있습니다. Adobe의 모범 사례에 따라 이메일의 우선 순위를 안정적이고 전역적으로 고유한 식별자로 지정하는 연결 규칙을 정의하여 일관된 개인 정보 보호 ID 그래프를 유지합니다.
-이 설정은 배포의 용이성과 데이터 거버넌스 간의 균형을 제공하여 B2B 여정을 오케스트레이션하기 위한 안정적인 기반을 보장합니다.
+  * _전자 메일_&#x200B;을(를) 고유한 ID 네임스페이스로 명시적으로 사용하도록 Adobe Experience Platform에서 [ID 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)을(를) 구성하십시오. 이러한 규칙을 사용하면 _전자 메일_이 있는 데이터 원본에서 프로필이 정확하게 결합되어 강력한 ID 확인을 사용할 수 있습니다. Adobe의 모범 사례에 따라 이메일의 우선 순위를 안정적이고 전역적으로 고유한 식별자로 지정하는 연결 규칙을 정의하여 일관된 개인 정보 보호 ID 그래프를 유지합니다.
+    이 설정은 배포의 용이성과 데이터 거버넌스 간의 균형을 제공하여 B2B 여정을 오케스트레이션하기 위한 안정적인 기반을 보장합니다.
 
 ## 구현 시 고려 사항
 
-Adobe Journey Optimizer B2B edition을 구현할 때 실시간 고객 데이터 플랫폼에서 제공하는 ID 결합 기능을 이해하는 것이 중요합니다. 이 플랫폼은 개인 및 계정 수준 모두에서 ID 결합을 수행하여 고객 데이터를 통합적으로 볼 수 있도록 합니다.
+Adobe Journey Optimizer B2B Edition 구현 시 실시간 고객 데이터 플랫폼에서 제공하는 ID 결합 기능을 이해하는 것이 중요합니다. 이 플랫폼은 개인 및 계정 수준 모두에서 ID 결합을 수행하여 고객 데이터를 통합적으로 볼 수 있도록 합니다.
 
 ### 주요 사항
 
@@ -105,7 +99,7 @@ Adobe Journey Optimizer B2B edition을 구현할 때 실시간 고객 데이터 
 * **이메일에 대한 고려 사항**: 프로필 조각을 병합하기 위한 식별자로 이메일을 사용하는 것을 철저히 평가하는 것이 중요합니다. 유익할 수 있지만, 정체성 붕괴의 위험은 장점과 비교하여 신중하게 고려되어야 한다. 한 가지 단점은 식별자로 이메일이 없으면 AJO B2B에서 만든 외부 대상 멤버십이 기존 프로필에 통합되지 않는다는 것입니다.
 * **Marketo 사용자 통합**: AJO B2B는 여러 Marketo 레코드가 단일 프로필로 병합될 때 리드 ID가 가장 낮은 Marketo 사용자를 사용합니다.
 
-이러한 점을 염두에 두면 Adobe Journey Optimizer B2B edition에서 ID 결합을 구성하는 방법에 대해 정보에 입각한 결정을 내릴 수 있으므로 정확하고 신뢰할 수 있는 고객 프로필을 확보할 수 있습니다.
+이러한 점을 염두에 두면 Adobe Journey Optimizer B2B Edition에서 ID 결합을 구성하는 방법에 대해 정보에 입각한 결정을 내릴 수 있으므로 정확하고 신뢰할 수 있는 고객 프로필을 확보할 수 있습니다.
 
 ### ID 결합 결과 평가
 
@@ -206,8 +200,8 @@ order by
 
 Marketo Engage을 사용하는 B2B 여정에 적용되는 가드레일에 대한 포괄적인 이해는 다음 공식 설명서를 참조하십시오.
 
-* [Adobe Journey Optimizer B2B edition - 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
-Journey Optimizer B2B edition에 대한 특정 보호 및 사용 매개 변수를 포함합니다.
+* [Adobe Journey Optimizer B2B Edition - 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
+Journey Optimizer B2B Edition에 대한 특정 보호 및 사용 매개 변수를 포함합니다.
 * [Adobe Experience Platform 배포 가드레일](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Adobe Experience Platform 솔루션 전반의 일반적인 아키텍처 및 배포 가드레일을 다룹니다.
 * [Adobe Marketo Engage - 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
@@ -224,5 +218,5 @@ Real-Time Customer Data Platform 내의 데이터 수집, 세그먼테이션 및
 * [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
 * [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/home)
 * [Adobe Experience Platform - Marketo Source 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-* [Adobe Journey Optimizer B2B edition 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
-* [XDM 필드 관리(Journey Optimizer B2B edition)](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)
+* [Adobe Journey Optimizer B2B Edition 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
+* [XDM 필드 관리(Journey Optimizer B2B Edition)](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)

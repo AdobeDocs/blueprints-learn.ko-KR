@@ -4,13 +4,11 @@ description: 오케스트레이션된 Campaign에서 다양한 이메일 채널 
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # 이메일 활동 추가
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 ![저장 및 닫기 단추가 있는 확인 대화 상자](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
+1. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
 
 ![Campaign 캔버스로 다시 이동](assets/add-email-activities-back-to-campaign-canvas.png)
 

@@ -3,13 +3,11 @@ title: 지원 및 판매 시나리오를 위한 실시간 프로필 액세스
 description: 직원이 관여하는 지원 및 영업의 맥락을 제공하는 [!UICONTROL Real-time Customer Profile] 확인 블루프린트입니다.
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # 지원 및 판매 시나리오를 위한 실시간 프로필 액세스
 
 지원 및 판매 시나리오를 위한 실시간 프로필 액세스 블루프린트는 외부 애플리케이션이 Adobe Experience Platform의 [!UICONTROL 실시간 고객 프로필]에 액세스하는 방법을 보여 줍니다.
@@ -25,10 +23,6 @@ ht-degree: 66%
 ## 사용 사례
 
 * 지원 및 영업 경험 등 직원이 관여하는 상호 작용에 대해 보다 자세한 고객의 맥락을 제공합니다. Experience Platform에서 프로필 확인 기능을 사용하면 담당자가 소비자에 대해 실시간 고객 프로필에 저장된 최근 구매, 캠페인 상호 작용, 성향, 대상자 멤버십 및 기타 속성과 인사이트 등 더 많은 맥락을 확인할 수 있습니다.
-
-## 아키텍처
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="고객 활동 허브 블루프린트를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## 가드레일
 

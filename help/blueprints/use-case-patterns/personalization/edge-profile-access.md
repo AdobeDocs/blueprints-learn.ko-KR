@@ -3,13 +3,11 @@ title: 웹 및 모바일 Personalization용 실시간 Edge 프로필 액세스
 description: '[!UICONTROL 실시간 고객 프로필] 실시간 웹 및 모바일 개인화에 대한 컨텍스트를 제공하기 위해 가장자리에서 액세스합니다.'
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1933'
 ht-degree: 11%
-
 ---
-
 # 웹 및 모바일 Personalization용 실시간 Edge 프로필 액세스
 
 웹 및 모바일 Edge에 대한 실시간 Personalization 프로필 액세스 블루프린트는 웹 및 모바일 애플리케이션이 가장자리에 있는 Adobe Experience Platform의 [!UICONTROL 실시간 고객 프로필]에 액세스하여 처리량이 높고 대기 시간이 짧은 개인화를 수행하는 방법을 보여 줍니다.
@@ -50,7 +48,7 @@ ht-degree: 11%
 
 ## 아키텍처 다이어그램
 
-<img src="/help/blueprints/audience-activation/assets/real-time-edge-lookup.svg" alt="웹 및 모바일 Personalization용 Edge 프로필 액세스에 대한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_edge_profile_access.png" alt="실시간 Edge 프로필 액세스를 위한 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## 가드레일
 
@@ -69,7 +67,7 @@ Edge 개인화는 실시간 고객 데이터 플랫폼의 [사용자 지정 Pers
 * 이 접근 방식은 대상 멤버십을 기반으로 한 Edge 개인화에 짧은 대기 시간과 최상의 성능을 제공합니다.
 * 실시간 에지 세분화를 사용하려면 웹/모바일 SDK 구현이 필요합니다.
 * Web SDK 및 Mobile SDK **에서만 대상 멤버십을 기반으로 한 개인화를 지원합니다**.
-* SDK 기반 구현은 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오](/help/blueprints/experience-platform/deployment/websdk.md).
+* SDK 기반 구현은 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md).
 * Mobile SDK 구현의 경우 [Adobe Journey Optimizer - Decisioning 확장](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)이 Mobile SDK에 설치되어 있어야 합니다.
 
 ### 패턴 2: Edge Network Server API를 사용한 속성 기반 개인화(프로필 속성에 필요)

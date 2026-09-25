@@ -6,20 +6,23 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d63e7dbc225a99171dc6b0e7491b517757a5c6d8
+    internal-label: Implementation
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '370'
 ht-degree: 4%
-
 ---
-
 # Customer Experience Orchestration 사용 사례 및 아키텍처 다이어그램
 
 이 사이트에는 Adobe Experience Platform 및 응용 프로그램을 통해 얻을 수 있는 기본 비즈니스 가치와 목표 예제를 요약한 **주요 비즈니스 목표**&#x200B;가 포함되어 있습니다. **사용 사례 패턴**&#x200B;은(는) 반복 가능한 구현 접근 방식을 통해 일반적인 플랫폼 및 응용 프로그램 기능을 설명합니다. **업계 사용 사례 예**&#x200B;은(는) 수직적 비즈니스 시나리오에 패턴을 적용합니다. **아키텍처 다이어그램 및 블루프린트**&#x200B;은(는) 시스템 통합 지점, 데이터 및 콘텐츠 흐름, 작업 순서를 보여 주는 시각적 아키텍처 및 데이터 흐름 참조 다이어그램으로, 솔루션 디자인에 대한 기술적 참조를 제공합니다. 이러한 계층을 통해 비즈니스 가치를 구현의 종속성 및 아키텍처에 연결할 수 있습니다.
@@ -93,34 +96,36 @@ ht-degree: 4%
 <table>
 <tr>
   <td>
-    <a href="experience-platform/guardrails.md">
-      <img alt="Experience Platform 허브 및 Edge 아키텍처" src="experience-platform/assets/aep_edge_hub_latency_v1.png" />
+    <a href="architecture-diagrams/architecture-overviews/guardrails.md">
+      <img alt="Experience Platform 허브 및 Edge 아키텍처" src="architecture-diagrams/architecture-overviews/assets/aep_edge_hub_latency.png" />
     </a>
     <div>
-      <a href="experience-platform/guardrails.md">
+      <a href="architecture-diagrams/architecture-overviews/guardrails.md">
     <strong>Experience Platform 허브 및 Edge 아키텍처 및 보호 기능 다이어그램</strong>
     </a>
     </div>
   </td>
    <td>
-    <a href="experience-platform/deployment/websdk.md">
-      <img alt="Edge 시퀀스 다이어그램" src="experience-platform/deployment/assets/web_sdk_sequence.svg" />
+    <a href="architecture-diagrams/architecture-overviews/websdk.md">
+      <img alt="Edge 시퀀스 다이어그램" src="architecture-diagrams/architecture-overviews/assets/sdk_sequence_diagram.png" />
     </a>
     <div>
-      <a href="experience-platform/deployment/websdk.md">
+      <a href="architecture-diagrams/architecture-overviews/websdk.md">
     <strong>웹 SDK 및 Edge Network 시퀀스 다이어그램</strong>
     </a>
     </div>
   </td>
   <td>
-    <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
-      <img alt="Journey Optimizer 개요 다이어그램" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
+    <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <img alt="Journey Optimizer 개요 다이어그램" src="architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-architecture.png" />
     </a>
     <div>
-      <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
     <strong>Adobe Journey Optimizer 개요 다이어그램</strong>
     </a>
     </div>
   </td>
 </tr>
 </table>
+
+[모든 아키텍처 다이어그램 및 블루프린트 보기](architecture-diagrams/overview.md)

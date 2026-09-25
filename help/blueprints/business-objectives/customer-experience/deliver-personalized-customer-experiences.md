@@ -2,14 +2,12 @@
 title: 개인화된 고객 경험 제공
 description: 콘텐츠, 오퍼 및 메시지를 개별 환경 설정, 동작 및 라이프사이클 단계에 맞게 조정하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 442567ac-ee71-4907-841b-1fd06e1522ae
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 3%
-
+ht-degree: 12%
 ---
-
-
 # 개인화된 고객 경험 전달
 
 콘텐츠, 오퍼 및 메시지를 개별 환경 설정, 동작 및 라이프사이클 단계에 맞게 맞춤화할 수 있습니다. 이 목표는 실시간 고객 데이터 및 의사 결정을 사용하여 고객 여정의 모든 채널 및 접점에서 관련성 있고 상황에 맞는 경험을 제공하는 데 중점을 둡니다.
@@ -28,7 +26,7 @@ ht-degree: 3%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
 | [익명 방문자 웹 Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | 개인화 | 세션 내 행동 신호를 기반으로 미확인된 방문자에게 개인화된 웹 콘텐츠 전달 |
 | [알려진 방문자 웹/앱 Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | 개인화 | 전체 프로필 및 세그먼트 데이터를 사용하여 인증된 방문자에 대한 웹 및 앱 경험을 개인화합니다 |

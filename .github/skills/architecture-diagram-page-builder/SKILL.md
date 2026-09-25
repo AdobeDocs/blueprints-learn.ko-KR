@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: Adobe Experience Platform 블루프린트 저장소에 대한 새 아키텍처 다이어그램 페이지 만들기 안내서입니다. 새로운 최상위 아키텍처 다이어그램, 통합 아키텍처 페이지 또는 애플리케이션 아키텍처 개요를 추가할 때 이 기술을 사용하십시오. 아키텍처 페이지는 심층적인 사용 사례(사용 사례 패턴 빌더에 속함)가 아닌 최상위 수준의 AEP 및 애플리케이션 아키텍처와 주요 통합 지점을 다룹니다. 페이지 정보 수집, Markdown 파일 생성, 올바른 항목 폴더에 배치, TOC.md 업데이트와 같은 전체 워크플로를 처리합니다.
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1568'
 ht-degree: 1%
 ---
 
@@ -119,8 +119,8 @@ ht-degree: 1%
    - 도표의 목적을 설명하는 1-2개의 문장
    - 표준 규칙을 사용하여 포함된 이미지:
 
-     ```html
-     <img src="assets/{filename}" alt="{Alt Text}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+     ```markdown
+     ![{Alt Text}](assets/{filename}){width="1000" zoomable="yes"}
      ```
 
 6. **`## Use case patterns supported`** — 글머리 기호 목록입니다. 각 글머리 기호:
@@ -147,12 +147,11 @@ ht-degree: 1%
 
 | 주제 폴더 | 목차 하위 섹션 |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}`(아키텍처 개요의 하위 섹션) |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 시작 형식(4칸 들여쓰기 + `+`):
 
@@ -186,6 +185,6 @@ ht-degree: 1%
 
 - 기존 페이지의 규칙에 따라 항상 본문 텍스트와 글머리 기호로 묶은 Adobe 제품 이름에 `[!DNL ...]` 구문을 사용하십시오.
 - 아키텍처 다이어그램은 일반적으로 SVG(선명하고 크기 조절에 선호됨)이지만 래스터 소스 아트워크에는 PNG를 사용할 수 있습니다.
-- `<img>` 포함 인라인 스타일 문자열(`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) 및 `class="modal-image"`이 필요합니다. 이 문자열을 사용하면 Experience League 모달 확대/축소 상호 작용을 사용할 수 있습니다.
-- 사용자가 아직 존재하지 않는 완전히 새로운 주제 폴더의 페이지를 만드는 경우 TOC.md에 `+ Architecture Diagrams and Blueprints{#architecture-diagrams}` 아래에 새로운 최상위 하위 섹션이 필요하다는 경고를 표시하십시오. 사용자의 명시적 승인을 통해 이를 별도의 단계로 처리합니다.
+- 설명 대체 텍스트, 상대 `assets/{filename}` 경로 및 다이어그램 확대/축소에 `{width="1000" zoomable="yes"}`을(를) 사용하는 Markdown 이미지를 사용합니다.
+- 사용자가 아직 존재하지 않는 완전히 새로운 주제 폴더의 페이지를 만드는 경우 `architecture-diagram-category-builder` 스킬을 대신 사용하여 명명 규칙 적용, TOC.md 하위 섹션 만들기, 범주 `overview.md` 및 랜딩 페이지 카드 그리드를 처리합니다. 이 스킬 내에서 새 주제 폴더를 만들지 마십시오.
 - 아키텍처 다이어그램이 *단일 사용 사례 전체*&#x200B;을(를) 광범위하게 문서화하는 경우(KPI, 비즈니스 목표, 기능 포함) 사용자를 `use-case-pattern-builder`(아키텍처 페이지가 아님)으로 리디렉션하십시오.

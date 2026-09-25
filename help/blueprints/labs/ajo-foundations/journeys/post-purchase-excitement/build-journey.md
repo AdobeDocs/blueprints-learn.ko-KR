@@ -4,13 +4,11 @@ description: 배송된 주문 이벤트에 응답하고, ETA 배송에 대한 �
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # 여정 작성
 
@@ -159,8 +157,8 @@ ht-degree: 0%
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
-   ETA: 
-   Tracking Number: 
+   ETA:
+   Tracking Number:
    ```
 
 8. 다음과 같이 개인화 필드를 추가합니다(**왼쪽 레일의 필드 옆에 있는 더하기 &#39;+&#39; 기호를 클릭합니다**).
@@ -188,7 +186,7 @@ ht-degree: 0%
 
 ![오른쪽 상단과 왼쪽 상단의 저장 단추와 뒤로 화살표](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. 마지막으로 왼쪽 상단의 **\&lt; 뒤로 아이콘**&#x200B;을 클릭하여 여정 캔버스로 돌아갑니다
+1. 마지막으로 왼쪽 상단의 **\&lt; 뒤로 아이콘**&#x200B;을 클릭하여 여정 캔버스로 돌아갑니다
 
 ![여정 캔버스로 돌아가려면 왼쪽 상단의 뒤로 아이콘](assets/build-journey-back-icon-to-journey-canvas.png)
 

@@ -6,13 +6,11 @@ short-description: RTCDP 프로필과 대상자를 Adobe Target과 통합합니�
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 045fac8362795eefcac0ef5202fe7a90cb6875da
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 33%
-
+source-wordcount: '1045'
+ht-degree: 32%
 ---
-
 
 # Target을 사용하는 알려진 고객 Personalization
 
@@ -41,20 +39,6 @@ ht-degree: 33%
 | **Edge 접근 방식을 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 일괄 대상자 공유** | - Edge 네트워크를 통해 Real-time Customer Data Platform에서 Target으로 스트리밍 및 배치 대상자를 공유합니다. <br>- 실시간으로 평가되는 대상에는 웹 SDK 및 Edge Network 구현이 필요합니다. | - Target의 웹/모바일 SDK 또는 Edge API 구현은 Target에 스트리밍 및 일괄 RTCDP 대상을 공유하는 데 필요하지 않지만 실시간 에지 세그먼트 평가를 활성화하는 데 필요합니다. <br>- AT.js를 사용하는 경우 ECID ID 네임스페이스에 대한 프로필 통합만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스 조회를 수행하려면 웹 SDK/Edge API를 배포해야 하며 각 ID는 ID 맵에서 ID로 설정해야 합니다. <br>- Target 대상은 Real-time Customer Data Platform 대상에 구성해야 합니다. RTCDP의 기본 프로덕션 샌드박스만 지원됩니다. <br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다. |
 | **대상 공유 서비스 접근 방식을 통해 Real-time Customer Data Platform에서 Target 및 Audience Manager으로 대상 공유 스트리밍 및 일괄 처리** | - 이 통합 패턴은 Audience Manager의 서드파티 데이터 및 대상의 추가 보강이 필요한 경우 활용할 수 있습니다. | - 웹/모바일 SDK은 Target에 스트리밍 및 배치 대상을 공유하는 데 필요하지 않지만 실시간 에지 세그먼트 평가를 활성화하는 데 필요합니다. <br>- AT.js를 사용하는 경우 ECID ID 네임스페이스에 대한 프로필 통합만 지원합니다. <br>- Edge에서 사용자 지정 ID 네임스페이스 조회를 수행하려면 웹 SDK/Edge API를 배포해야 하며 각 ID는 ID 맵에서 ID로 설정해야 합니다. <br>- 대상 공유 서비스를 통한 대상 프로젝션을 구축해야 합니다. <br>- Target과 통합하려면 Experience Platform 인스턴스와 동일한 IMS 조직이어야 합니다. <br>- 기본 프로덕션 샌드박스의 대상자만 핵심 서비스를 공유하는 대상을 지원합니다. |
 
-## Adobe Target으로 실시간, 스트리밍, 배치 대상자 공유하기
-
-아키텍처
-
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP-Target.png)
-
-시퀀스 세부 사항
-
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/RTCDP-Target_flow.png)
-
-아키텍처 개요
-
-![온라인/오프라인 웹 Personalization 블루프린트에 대한 참조 아키텍처](/help/blueprints/audience-activation/assets/personalization_with_apps.png)
-
 ## 구현 패턴
 
 알려진 고객 개인화는 몇 가지 구현 방법을 통해 지원됩니다.
@@ -62,7 +46,7 @@ ht-degree: 33%
 ### 웹/모바일 SDK 또는 [!DNL Edge Network] API를 사용하는 구현 패턴 1 - [!DNL Edge Network]&#x200B;(권장 방법)
 
 * 웹/모바일 SDK에서 [!DNL Edge Network]을(를) 사용 중입니다. 실시간 Edge 세분화를 사용하려면 Web/Mobile SDK 또는 Edge API 구현 방법이 필요합니다.
-* SDK 기반 구현은 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오](/help/blueprints/experience-platform/deployment/websdk.md).
+* SDK 기반 구현은 [Experience Platform 웹 및 모바일 SDK 블루프린트를 참조하십시오](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md).
 * Mobile SDK에서 사용하려면 [Adobe Journey Optimizer - Decisioning 확장](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)이 설치되어 있어야 합니다.
 * [Edge 프로필을 사용한 Adobe Target의 API 기반 구현은  [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)를 참조하십시오.
 
@@ -71,7 +55,7 @@ ht-degree: 33%
 기존 애플리케이션별 SDK를 사용합니다(예: AT.js, AppMeasurement.js). 이 구현 방법은 실시간 Edge 세그먼트 평가를 지원하지 않습니다. 그러나 이 구현 방법은 Experience Platform 허브에서 스트리밍 및 배치 대상자를 공유하는 작업을 지원합니다.
 
 [Adobe Target 커넥터 설명서 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[애플리케이션별 SDK 블루프린트 참조](/help/blueprints/experience-platform/deployment/appsdk.md)
+[Experience Platform 웹 SDK 블루프린트 참조](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
 
 ## 구현 시 고려 사항
 

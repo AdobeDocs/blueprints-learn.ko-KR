@@ -2,14 +2,12 @@
 title: 고객 유지 기능 향상
 description: 가치 중심의 경험과 지속적인 관계 형성을 통해 기존 고객의 참여도와 갱신을 유지하는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 806e0d2e-71e4-4a50-9de0-a4fae1170b55
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
-
-
 # 고객 유지 능력 향상
 
 가치 중심의 경험과 지속적인 관계 관리를 통해 기존 고객의 참여와 갱신을 유지합니다. 이 목표는 위험이 있는 고객을 식별하고, 시기 적절한 개입을 제공하고, 지속적인 참여를 유지하여 이탈을 줄이고 장기적인 관계를 유지하는 데 중점을 둡니다.
@@ -28,7 +26,7 @@ ht-degree: 3%
 
 다음 사용 사례 패턴은 이러한 비즈니스 목표를 지원합니다.
 
-| 패턴 | 범주 | 이 목표를 지원하는 방법 |
+| 패턴 | 카테고리 | 이 목표를 지원하는 방법 |
 | --- | --- | --- |
 | [여러 단계로 조정된 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | 캠페인 관리 및 오케스트레이션 | 개인화된 개입으로 멀티 터치 유지 여정을 통해 위험 상태의 고객에 대한 지원 |
 | [Decisioning을 사용한 크로스 채널 여정](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | 캠페인 관리 및 오케스트레이션 | 최적의 재참여 컨텐츠 및 채널을 선택하기 위한 실시간 의사 결정을 통해 보존 여정 조정 |

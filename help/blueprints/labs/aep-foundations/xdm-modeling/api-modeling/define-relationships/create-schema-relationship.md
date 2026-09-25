@@ -4,13 +4,11 @@ description: 스키마 레지스트리 API를 사용하여 고객 계정 스키�
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
-
 ---
-
 
 # 스키마 관계 만들기
 
@@ -57,9 +55,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. `Save` 단추를 계속 사용하기 전에 요청을 저장하십시오.
+1. `Save` 단추를 계속 사용하기 전에 요청을 저장하십시오.
 
-&#x200B;4. `Send` 단추를 클릭하여 API를 실행하십시오.
+1. `Send` 단추를 클릭하여 API를 실행하십시오.
 
 이제 아래와 같은 `201 Created` 응답이 표시됩니다.
 

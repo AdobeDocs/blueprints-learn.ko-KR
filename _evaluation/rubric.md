@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # 블루프린트 평가 지침
 
@@ -21,7 +20,7 @@ ht-degree: 0%
 정식 셰이프: `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **아키텍처 다이어그램** — 시스템의 기능을 나타내는 비주얼 다이어그램입니다.
 통합 및 데이터 흐름. 최소한의 이야기, 도표는 인공물이다.
-정식 예: [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
+정식 예: [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md).
 
 ## 채점
 
@@ -89,7 +88,7 @@ audiences).
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`, `conversational-experience` 또는 `(new) <name>` 레이블이 지정된 새 범주.
    - `proposed_pattern_title` — 기존 패턴을 따르는 짧은 작업 지향 제목
-이름 지정 스타일입니다.
+     이름 지정 스타일입니다.
 6. `Diagram` 및 `Split` 권장 사항에 대해 다음을 제안합니다.
    - `proposed_diagram_title` — 일반적으로 비즈니스 프레이밍의 기존 제목을 트리밍합니다.
 7. 블루프린트의 범위를 기존 패턴 카탈로그와 비교하여 발견된 모든 중복 항목을 캡처합니다.

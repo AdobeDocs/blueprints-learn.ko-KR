@@ -1,9 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # 블루프린트 문서 참조 — 세부 안내서
 
@@ -122,9 +121,9 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 
 ## 이 저장소의 참조 예
 
-- **시나리오 블루프린트(긴 양식)**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **탭 및 테이블이 있는 개요/허브**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **보호 기능 중심**: `help/blueprints/experience-platform/guardrails.md`
+- **시나리오 블루프린트(긴 양식)**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **탭 및 테이블이 있는 개요/허브**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **보호 기능 중심**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **탐색**: `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 이러한 매개 변수는 섹션 순서, 프론트메터, 다이어그램 배치 및 Experience League 링크 사용에 대한 패턴으로 사용됩니다.

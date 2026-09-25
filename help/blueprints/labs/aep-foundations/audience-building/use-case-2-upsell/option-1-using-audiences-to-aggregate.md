@@ -1,16 +1,14 @@
 ---
-title: 옵션
+title: 옵션 #1 - using Audiences to aggregate
 description: 스트리밍 평가를 활성화하기 위해 청구 사용 이벤트 및 비정규화된 플랜 데이터에 대한 대상 내 합계 및 평균 합계를 사용하는 대상을 빌드합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '813'
 ht-degree: 0%
-
 ---
-
 
 # 옵션 #1 - Audiences를 사용하여 집계
 
@@ -108,15 +106,15 @@ Audiences의 합계를 사용하면 Audience 규칙의 이벤트를 집계할 �
 
 
 
-&#x200B;5. 대상 —> Experience Platform 를 클릭합니다. 플랜 이름 옆에 청구 사용량 합계 > 140GB 및 청구 사용량 평균 >= 20GB를 드래그합니다.
+1. 대상 —> Experience Platform 를 클릭합니다. 플랜 이름 옆에 청구 사용량 합계 > 140GB 및 청구 사용량 평균 >= 20GB를 드래그합니다.
 
    ![플랜 이름 옆에 있는 청구 사용량 대상을 끌어옵니다](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-&#x200B;6. 의사 코드 를 설명에 복사합니다.
+1. 의사 코드 를 설명에 복사합니다.
 
-&#x200B;7. 스트리밍이 될 수 있는지 확인합니다. **스트리밍할 수 없습니다**. 일부 변경:
+1. 스트리밍이 될 수 있는지 확인합니다. **스트리밍할 수 없습니다**. 일부 변경:
 
    >[!NOTE]
    >
@@ -126,7 +124,7 @@ Audiences의 합계를 사용하면 Audience 규칙의 이벤트를 집계할 �
 
 
 
-&#x200B;8. **플랜 이름(플랜 이름)**&#x200B;을(를) 다음으로 바꾸기: XDM 개인 프로필 > Devbc > 플랜 세부 정보 > **플랜 이름**
+1. **플랜 이름(플랜 이름)**&#x200B;을(를) 다음으로 바꾸기: XDM 개인 프로필 > Devbc > 플랜 세부 정보 > **플랜 이름**
 
    ![플랜 이름(플랜 이름)을 비정규화된 플랜 이름 필드로 바꾸기](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +140,7 @@ Audiences의 합계를 사용하면 Audience 규칙의 이벤트를 집계할 �
 
 
 
-&#x200B;9. 이제 스트리밍으로 저장할 수 있는지 확인합니다. 대상을 &quot;*청구 데이터 사용량이 많지만 Ultimate 요금제는 없음*&quot;으로 저장
+1. 이제 스트리밍으로 저장할 수 있는지 확인합니다. 대상을 &quot;*청구 데이터 사용량이 많지만 Ultimate 요금제는 없음*&quot;으로 저장
 
 >[!NOTE]
 >

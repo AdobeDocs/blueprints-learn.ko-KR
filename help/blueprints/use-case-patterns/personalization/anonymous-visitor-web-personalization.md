@@ -3,13 +3,11 @@ title: 익명 방문자 웹 Personalization
 description: 세션 내 행동 신호를 기반으로 미확인된 방문자에게 개인화된 웹 콘텐츠를 전달하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1706'
 ht-degree: 4%
-
 ---
-
 # 익명 방문자 웹 개인화
 
 이 안내서에서는 세션 내 동작 신호를 기반으로 익명(미확인) 방문자에게 개인화된 웹 콘텐츠를 전달하기 위해 [!DNL Adobe Journey Optimizer]&#x200B;(AJO), [!DNL Adobe Real-Time Customer Data Platform]&#x200B;(RT-CDP) 및 [!DNL Adobe Experience Platform]&#x200B;(AEP)을 사용하는 익명 방문자 웹 개인화 사용 사례 패턴에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.
@@ -101,12 +99,6 @@ AJO 웹 채널을 통해 미확인된 방문자에 대한 세션 내 행동 신�
 - **[!DNL Adobe Journey Optimizer] (AJO)** — 웹 채널 표면 구성, 콘텐츠 작성(웹 및 코드 기반 경험), 캠페인 실행, 콘텐츠 실험(A/B 테스트), 의사 결정(동적 콘텐츠 선택) 및 보고
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - 세션 내 동작 신호를 기반으로 실시간 대상 평가를 위한 Edge 세그멘테이션, 익명 Edge 프로필 관리
 - **[!DNL Adobe Experience Platform] (AEP)** — 동작 신호 수집의 경우 [!DNL Web SDK], 실시간 데이터 라우팅 및 개인화 전달의 경우 [!DNL Edge Network], 데이터스트림 구성
-
-## 아키텍처
-
-다음 참조 아키텍처는 익명의 방문자 신호가 에지에서 수집되고, 대상 규칙에 대해 평가되며, 개인화된 콘텐츠를 전달하는 데 사용되는 방식을 보여 줍니다.
-
-![익명 대상자 활성화 및 개인화를 위한 참조 아키텍처](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## 관련 설명서
 

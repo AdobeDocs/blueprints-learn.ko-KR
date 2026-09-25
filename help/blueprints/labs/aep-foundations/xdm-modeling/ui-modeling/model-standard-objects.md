@@ -4,7 +4,7 @@ description: UI에서 개별 프로필 스키마를 만들고 인구 통계학�
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Adobe Experience Platform에는 스키마에 추가하고 사용자 지정할 �
 
 
 
-&#x200B;3. 필드 그룹 옆의 확인란을 **확인**&#x200B;한 다음 **필드 그룹 추가** 단추를 클릭합니다.
+1. 필드 그룹 옆의 확인란을 **확인**&#x200B;한 다음 **필드 그룹 추가** 단추를 클릭합니다.
 
 ![인구 통계학적 세부 정보 필드 그룹을 선택하여 스키마에 추가](assets/model-standard-objects-select-demographic-details-field-group.png "인구 통계학적 세부 정보 필드 그룹을 선택하여 스키마에 추가")
 
