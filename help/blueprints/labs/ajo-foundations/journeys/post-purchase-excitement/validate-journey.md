@@ -117,7 +117,7 @@ limit 50
 
 >[!NOTE]
 >
->각 필드의 의미에 대해 궁금한 점은 AJO 스키마 사전을 확인하고 드롭다운을 여정 단계 이벤트 스키마로 변경하십시오. [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
+>각 필드의 의미에 대해 궁금한 점은 AJO 스키마 사전을 확인하고 드롭다운을 여정 단계 이벤트 스키마로 변경하십시오. [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
 
 
 

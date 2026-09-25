@@ -156,7 +156,7 @@ iPhone 14 제품 페이지를 방문한 대상 작성
 >
 >몇 가지 이유로 간단한 요구 사항을 여러 대상으로 분할했습니다. 스트리밍에 대한 요구 사항이지만 이 두 가지 요구 사항은 Audience를 일괄 처리로 바꿉니다. 스트리밍 자격 규칙에 대한 자세한 내용은 여기 를 참조하십시오.
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ko](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ko)
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ iPhone 14 제품 페이지를 방문한 대상 작성
 >
 >대상 내에서 대상을 사용할 때 AEP은 가능한 경우 순서를 지정하려고 시도한다는 것을 이해해야 합니다. 이를 수행할 수 없는 경계 사례가 있습니다. 예: 대상자 대상을 사용하는 경우 24시간마다 프로필 결격이 발생합니다.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ko](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ko)
 
 
 
