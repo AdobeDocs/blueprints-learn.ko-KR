@@ -4,7 +4,7 @@ description: 오케스트레이션된 캠페인에서 프로필 대상 Dimension
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -126,45 +126,45 @@ ht-degree: 0%
 
 ![타깃팅 차원 열에서 선택한 Source 특성](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;11. Source 열에 대한 개별 값은 드롭다운에서 사용할 수 있습니다. **사용자 지정 조건**&#x200B;에 대해 드롭다운에서 &quot;**&quot; 저장소의**&quot;을(를) 선택하고 **확인**&#x200B;을(를) 클릭하여 종료합니다.
+1. Source 열에 대한 개별 값은 드롭다운에서 사용할 수 있습니다. **사용자 지정 조건**&#x200B;에 대해 드롭다운에서 &quot;**&quot; 저장소의**&quot;을(를) 선택하고 **확인**&#x200B;을(를) 클릭하여 종료합니다.
 
-![사용자 지정 조건이 스토어에서 &#x200B;](assets/read-an-audience-set-in-store-condition.png)(으)로 설정됨
+   ![사용자 지정 조건이 스토어에서 ](assets/read-an-audience-set-in-store-condition.png)(으)로 설정됨
 
-&#x200B;12. **분할** 활동의 세부 정보 창으로 돌아가면 첫 번째 분할에 대한 설정이 완료됩니다. 두 번째 분할에 **세그먼트 추가**&#x200B;를 클릭합니다.
+1. **분할** 활동의 세부 정보 창으로 돌아가면 첫 번째 분할에 대한 설정이 완료됩니다. 두 번째 분할에 **세그먼트 추가**&#x200B;를 클릭합니다.
 
-![분할 활동 세부 정보 창에서 세그먼트 추가 단추](assets/read-an-audience-add-segment-button.png)
+   ![분할 활동 세부 정보 창에서 세그먼트 추가 단추](assets/read-an-audience-add-segment-button.png)
 
-이름이 **Result**&#x200B;인 새 세그먼트가 만들어집니다
+   이름이 **Result**&#x200B;인 새 세그먼트가 만들어집니다
 
-![Result라는 새 세그먼트](assets/read-an-audience-new-result-segment.png)
+   ![Result라는 새 세그먼트](assets/read-an-audience-new-result-segment.png)
 
-&#x200B;13. 필터 조건을 설정하려면 &quot;**결과**&quot;의 이름을 &quot;**저장소에 없음**&quot;(으)로 변경하고 **필터 만들기**&#x200B;를 클릭하십시오.
+1. 필터 조건을 설정하려면 &quot;**결과**&quot;의 이름을 &quot;**저장소에 없음**&quot;(으)로 변경하고 **필터 만들기**&#x200B;를 클릭하십시오.
 
-![필터 옵션을 사용하여 [저장소에 없음]으로 이름이 변경된 세그먼트](assets/read-an-audience-rename-not-in-store-segment.png)
+   ![필터 옵션을 사용하여 [저장소에 없음]으로 이름이 변경된 세그먼트](assets/read-an-audience-rename-not-in-store-segment.png)
 
-&#x200B;14. **필터 만들기** 창에서 **조건 추가**&#x200B;를 클릭합니다. 위와 동일한 방법을 따르고 **>**&#x200B;을(를) 클릭하여 **타깃팅 차원**&#x200B;을(를) 확장한 다음 목록에서 `Source`을(를) 선택하고 **확인**&#x200B;을(를) 클릭합니다
+1. **필터 만들기** 창에서 **조건 추가**&#x200B;를 클릭합니다. 위와 동일한 방법을 따르고 **>**&#x200B;을(를) 클릭하여 **타깃팅 차원**&#x200B;을(를) 확장한 다음 목록에서 `Source`을(를) 선택하고 **확인**&#x200B;을(를) 클릭합니다
 
-![관계형 저장소 열을 표시하도록 대상 차원이 확장됨](assets/read-an-audience-expand-targeting-dimension.png)
+   ![관계형 저장소 열을 표시하도록 대상 차원이 확장됨](assets/read-an-audience-expand-targeting-dimension.png)
 
-![타깃팅 차원 열에서 선택한 Source 특성](assets/read-an-audience-select-source-attribute.png)
+   ![타깃팅 차원 열에서 선택한 Source 특성](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;15. **사용자 지정 조건**&#x200B;의 경우 드롭다운에서 &quot;**&quot; 저장소의**&quot;를 선택하고 연산자의 경우 &quot;**같지 않음**&quot;을 선택합니다. 종료하려면 **확인**&#x200B;을 클릭하세요.
+1. **사용자 지정 조건**&#x200B;의 경우 드롭다운에서 &quot;**&quot; 저장소의**&quot;를 선택하고 연산자의 경우 &quot;**같지 않음**&quot;을 선택합니다. 종료하려면 **확인**&#x200B;을 클릭하세요.
 
-![사용자 지정 조건이 스토어에서 다음과 같지 않도록 설정됨](assets/read-an-audience-set-not-in-store-condition.png)
+   ![사용자 지정 조건이 스토어에서 다음과 같지 않도록 설정됨](assets/read-an-audience-set-not-in-store-condition.png)
 
-&#x200B;16. **분할** 활동의 세부 정보 창으로 돌아가면 두 분할에 대한 설정이 완료됩니다. **테스트 모드**&#x200B;에서 캠페인을 실행하려면 **시작**&#x200B;을 클릭하세요.
+1. **분할** 활동의 세부 정보 창으로 돌아가면 두 분할에 대한 설정이 완료됩니다. **테스트 모드**&#x200B;에서 캠페인을 실행하려면 **시작**&#x200B;을 클릭하세요.
 
-![분할을 구성한 후 테스트 모드에서 캠페인을 실행하기 위한 시작 단추](assets/read-an-audience-start-test-mode-second-run.png)
+   ![분할을 구성한 후 테스트 모드에서 캠페인을 실행하기 위한 시작 단추](assets/read-an-audience-start-test-mode-second-run.png)
 
-&#x200B;17. 테스트 실행이 시작되고 완료 시 결과가 표시됩니다. 관계형 스키마에서 일치하는 대상 차원이 **7**&#x200B;뿐이므로 분할 작업(**7** 및 **0**) 후에도 동일한 카운트가 관찰됩니다
+1. 테스트 실행이 시작되고 완료 시 결과가 표시됩니다. 관계형 스키마에서 일치하는 대상 차원이 **7**&#x200B;뿐이므로 분할 작업(**7** 및 **0**) 후에도 동일한 카운트가 관찰됩니다
 
-![7과(와) 0](assets/read-an-audience-verify-split-counts.png)의 개수를 표시하는 분할 활동 결과
+   ![7과(와) 0](assets/read-an-audience-verify-split-counts.png)의 개수를 표시하는 분할 활동 결과
 
-&#x200B;18. 각 결과 상자를 클릭하고 결과를 보려면 **결과 미리 보기**&#x200B;를 클릭하십시오.
+1. 각 결과 상자를 클릭하고 결과를 보려면 **결과 미리 보기**&#x200B;를 클릭하십시오.
 
-![각 분할 결과 상자에 대한 결과 미리 보기 옵션](assets/read-an-audience-preview-split-results.png)
+   ![각 분할 결과 상자에 대한 결과 미리 보기 옵션](assets/read-an-audience-preview-split-results.png)
 
-&#x200B;19. 캠페인의 **테스트 모드**&#x200B;를 중지하려면 **중지**&#x200B;를 클릭하십시오.
+1. 캠페인의 **테스트 모드**&#x200B;를 중지하려면 **중지**&#x200B;를 클릭하십시오.
 
 ![마지막 테스트 모드 실행을 종료하는 중지 단추](assets/read-an-audience-stop-test-mode-final.png)
 
@@ -182,4 +182,4 @@ ht-degree: 0%
 
 이제 Campaign을 만들고, 대상 읽기 활동을 프로필 대상 Dimension과 함께 수행하여 관계형 스키마를 사용하는 것을 보았습니다. 분할 활동을 사용하여 조건에 따라 대상자를 분할했습니다. 마지막으로 테스트 모드는 프로필과 관계형 스키마 간의 데이터 일관성이 중요하다는 것을 이해하는 데 도움이 되었습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)에서 더 읽을 수 있습니다.

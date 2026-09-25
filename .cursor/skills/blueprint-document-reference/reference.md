@@ -1,9 +1,8 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # 블루프린트 문서 참조 — 세부 안내서
 
@@ -15,7 +14,7 @@ ht-degree: 1%
 | **시나리오 블루프린트** | 단일 사용 사례: 아키텍처, 단계, 보호 기능 | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **목차** | 탐색, 컨텐츠 템플릿으로 사용하지 않음 | `help/blueprints/TOC.md` |
 
-&#x200B;---
+---
 
 ## 전체 섹션 참조
 
@@ -46,7 +45,7 @@ ht-degree: 1%
 - **블루프린트 시나리오** 또는 **통합 패턴**: 시나리오 이름, 간단한 설명 및 시나리오 블루프린트에 연결된 테이블입니다.
 - **필수 구성 요소**, **보호 기능**, **관련 설명서**: 위와 같습니다. 간결하게 유지하십시오.
 
-&#x200B;---
+---
 
 ## Adobe Experience League - 에이전트 지침
 
@@ -65,7 +64,7 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 | 컨텐츠 유형 | 기본 URL | 예제 경로 |
 |--------------|----------|--------------|
 | Experience Platform 문서 | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/ko/docs/` | `/en/`을(를) 사용하는 위와 동일한 구조입니다. |
+| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | `/en/`을(를) 사용하는 위와 동일한 구조입니다. |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | 웹 SDK | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | Edge Network 서버 API | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -77,7 +76,7 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 
 ### Markdown으로 링크 서식 지정
 
-- **설명 링크 텍스트**: `[Create schemas](https://experienceleague.adobe.com/ko...)`이(가) &quot;여기를 클릭&quot;하지 않습니다.
+- **설명 링크 텍스트**: `[Create schemas](https://experienceleague.adobe.com/...)`이(가) &quot;여기를 클릭&quot;하지 않습니다.
 - **텍스트 형식의 제품 이름**: Adobe 스타일에 따라 `[!DNL Product Name]`을(를) 사용합니다(예: `[!DNL Real-time Customer Profile]`).
 - **외부 링크**: 템플릿 또는 파이프라인에 필요한 경우에만 `{target="_blank"}`을(를) 추가합니다(리포지토리의 기존 블루프린트를 확인).
 
@@ -98,19 +97,19 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ko)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
-&#x200B;---
+---
 
 ## 보고서 및 목차
 
@@ -118,13 +117,13 @@ Experience League의 긴 절차를 블루프린트에 붙여넣지 마십시오.
 - **Assets**: 블루프린트(예: `assets/`, `images/`) 또는 공유 폴더(예: `experience-platform/assets/`)와 함께 찾습니다.
 - **TOC**: 블루프린트 페이지를 추가, 이름 변경 또는 이동할 때 `help/blueprints/TOC.md`을(를) 편집합니다. `user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role` 및 `+` 계층 구조를 유지합니다.
 
-&#x200B;---
+---
 
 ## 이 저장소의 참조 예
 
-- **시나리오 블루프린트(긴 양식)**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **탭 및 테이블이 있는 개요/허브**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **보호 기능 중심**: `help/blueprints/experience-platform/guardrails.md`
+- **시나리오 블루프린트(긴 양식)**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **탭 및 테이블이 있는 개요/허브**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **보호 기능 중심**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **탐색**: `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 이러한 매개 변수는 섹션 순서, 프론트메터, 다이어그램 배치 및 Experience League 링크 사용에 대한 패턴으로 사용됩니다.

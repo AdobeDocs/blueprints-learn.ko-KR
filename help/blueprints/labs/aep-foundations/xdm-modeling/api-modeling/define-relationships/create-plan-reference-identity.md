@@ -4,7 +4,7 @@ description: 스키마 레지스트리 API를 사용하여 조회 스키마에�
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. `Save` 단추를 계속 사용하기 전에 요청을 저장하십시오.
+1. `Save` 단추를 계속 사용하기 전에 요청을 저장하십시오.
 
-&#x200B;4. `Send` 단추를 클릭하여 API를 실행하십시오.
+1. `Send` 단추를 클릭하여 API를 실행하십시오.
 
 이제 아래와 같은 `201 Created` 응답이 표시됩니다.
 

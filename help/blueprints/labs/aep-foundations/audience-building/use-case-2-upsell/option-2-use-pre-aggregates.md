@@ -1,16 +1,14 @@
 ---
-title: 옵션
+title: 옵션 #2 - use pre-aggregates
 description: 대상 규칙 내에서 이벤트를 집계하는 대신 업스트림으로 계산된 사전 집계된 사용 속성을 사용하여 전체 스트리밍 대상을 빌드합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 
 # 옵션 #2 - 사전 집계 사용
 
@@ -36,15 +34,15 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 프로필에서 플랜 이름을 검색하고 추가합니다(XDM 개인 프로필 > Devbc > 플랜 세부 정보 > 플랜 이름). &quot;Ultimate&quot;와 같지 않음 선택
+1. 프로필에서 플랜 이름을 검색하고 추가합니다(XDM 개인 프로필 > Devbc > 플랜 세부 정보 > 플랜 이름). &quot;Ultimate&quot;와 같지 않음 선택
 
    ![플랜 이름 선택이 Ultimate과 같지 않음](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. 설명을 입력합니다.  평가 방법이 스트리밍인지 확인합니다.
+1. 설명을 입력합니다.  평가 방법이 스트리밍인지 확인합니다.
 
-&#x200B;5. 대상을 &quot;*청구 데이터 사용량이 많지만 Agg(Ultimate 플랜)는 없음*&quot;으로 저장
+1. 대상을 &quot;*청구 데이터 사용량이 많지만 Agg(Ultimate 플랜)는 없음*&quot;으로 저장
 
 >[!NOTE]
 >

@@ -1,15 +1,13 @@
 ---
 title: 사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트
-description: 데이터 과학 기반의 통찰력을  [!DNL Experience Platform] 에 수집하여 실시간 고객 프로필을 보강하는 방법을 알아봅니다.
+description: 데이터 과학 기반의 통찰력을 [!DNL Experience Platform]에 수집하여 실시간 고객 프로필을 보강하는 방법을 알아봅니다.
 solution: Data Collection
 kt: 7203
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 64%
-
+source-wordcount: '421'
+ht-degree: 63%
 ---
-
 # 프로필 강화를 위한 맞춤형 데이터 과학 블루프린트
 
 프로필 강화를 위한 사용자 지정 데이터 과학 블루프린트는 데이터를 사용하여 모델을 교육하고 배포하고 평가하여 데이터 과학 및 기계 학습 도구에서 [!DNL Experience Platform] 및 [!DNL Real-Time Customer Data Platform]에 기계 학습 통찰력을 제공하는 방법을 보여 줍니다.
@@ -22,13 +20,9 @@ ht-degree: 64%
 * 모델 기반 인사이트와 속성으로 [!UICONTROL Real-time Customer Profile]을 강화하여 개인화를 개선하고 여정을 최적화합니다.
 * 모델을 훈련하고 점수를 산출하여 고객 생애 가치, 전환 또는 이탈 가능성, 제품 및 콘텐츠 선호도, 참여도 점수와 같은 고객 인사이트를 도출합니다.
 
-## 아키텍처
-
-<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="사용자 정의 데이터 과학을 통한 프로필 강화 블루프린트용 참조 아키텍처" style="width:90%; border:1px solid #4a4a4a" />
-
 ## 가드레일
 
-* 데이터 과학 결과를 [!DNL Experience Platform]&#x200B;(으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](/help/blueprints/experience-platform/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
+* 데이터 과학 결과를 [!DNL Experience Platform]&#x200B;(으)로 수집하는 데 필요한 세부 보호 기능 및 종단 간 지연 시간을 알아보려면 실시간 고객 프로필에서 [배포 보호 기능 문서](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md)에 참조된 데이터 수집 보호 기능 및 지연 시간 다이어그램을 참조하십시오.
 
 ## 구현 시 고려 사항
 

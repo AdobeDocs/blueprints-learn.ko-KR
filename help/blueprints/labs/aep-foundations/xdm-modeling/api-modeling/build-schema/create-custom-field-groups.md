@@ -4,13 +4,11 @@ description: 스키마 레지스트리 API를 사용하여 사용자 정의 고�
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # 사용자 정의 필드 그룹 만들기
 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 다음 형식을 사용하여 필드 그룹의 `title` 및 `description`을(를) 업데이트합니다. `Customer Account Details - Sandbox <your number here>`
+1. 다음 형식을 사용하여 필드 그룹의 `title` 및 `description`을(를) 업데이트합니다. `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +74,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. `Send` 단추를 클릭하여 실행하십시오.  아래 스크린샷과 유사한 응답이 표시됩니다.
+1. `Send` 단추를 클릭하여 실행하십시오.  아래 스크린샷과 유사한 응답이 표시됩니다.
 
-&#x200B;4. 새로 만든 고객 계정 세부 정보 필드 그룹의 `$id` 값을 복사합니다.
+1. 새로 만든 고객 계정 세부 정보 필드 그룹의 `$id` 값을 복사합니다.
 
 ![사용자 지정 필드 그룹을 만든 후 API 응답 성공](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "2단계 - 사용자 지정 필드 그룹 만들기 성공")
 

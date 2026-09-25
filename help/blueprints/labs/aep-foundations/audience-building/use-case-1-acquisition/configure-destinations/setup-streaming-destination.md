@@ -4,13 +4,11 @@ description: Webhook 끝점, 거버넌스 정책, 대상 및 필드 매핑을 �
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
-
 ---
-
 
 # 스트리밍 대상 설정
 
@@ -62,7 +60,7 @@ Experience Platform UI에서 다음을 수행하여 대상 카탈로그로 이�
 
 
 
-&#x200B;3. 다음과 같이 대상의 구성 세부 정보를 입력합니다.
+1. 다음과 같이 대상의 구성 세부 정보를 입력합니다.
 
 - **이름** -> `Streaming DEP Webhook - [Your Initials]`
 - **설명** -> `[your webhook endpoint you copied above]`
@@ -91,7 +89,7 @@ Experience Platform UI에서 다음을 수행하여 대상 카탈로그로 이�
 >
 >Experience League의 거버넌스 정책에 대해 자세히 알아볼 수 있습니다
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## 대상자 선택
 

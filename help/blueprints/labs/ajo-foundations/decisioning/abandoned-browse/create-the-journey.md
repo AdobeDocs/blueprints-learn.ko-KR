@@ -4,13 +4,11 @@ description: JSON 오퍼를 자격 있는 프로필에 제공하기 위해 코�
 doc-type: article
 solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
-
 ---
-
 
 # 여정 만들기
 
@@ -77,67 +75,67 @@ ht-degree: 0%
 >
 >대체 오퍼는 최종 사용자가 오퍼에 부적격한 경우(또는 부적격한 경우)에만 적용되므로 선택 사항입니다. 이 경우 선택 전략은 모든 방문자를 위한 것이었고 CBE 노드에 도달할 사람은 여정에 들어온 사람뿐입니다. 인증은 여정 진입을 위한 요구 사항입니다(여정에 설정된 네임스페이스는 인증된 경우에만 보유함). 또한 등급 공식에 대체 오퍼를 구축했으므로 이 대체 오퍼를 설정할 필요가 없습니다.
 
-&#x200B;11. 결정 정책을 검토하려면 파란색 **다음** 단추를 클릭하십시오.
+1. 결정 정책을 검토하려면 파란색 **다음** 단추를 클릭하십시오.
 
-![만들기 전에 결정 정책에 대한 단계 검토](assets/create-the-journey-review-decision-policy.png)
+   ![만들기 전에 결정 정책에 대한 단계 검토](assets/create-the-journey-review-decision-policy.png)
 
-&#x200B;12. 모든 항목이 올바르게 표시되면 파란색 **만들기** 단추를 클릭하십시오. 작성된 후에는 표현식 편집기 페이지로 돌아갑니다.
-&#x200B;13. 아래 화면과 유사한 화면이 표시됩니다. 그렇지 않은 경우 **결정 정책**&#x200B;을 다시 클릭하면 결정 정책이 나타납니다.
+1. 모든 항목이 올바르게 표시되면 파란색 **만들기** 단추를 클릭하십시오. 작성된 후에는 표현식 편집기 페이지로 돌아갑니다.
+1. 아래 화면과 유사한 화면이 표시됩니다. 그렇지 않은 경우 **결정 정책**&#x200B;을 다시 클릭하면 결정 정책이 나타납니다.
 
-![결정 정책을 표시하는 식 편집기가 삽입할 준비가 되었습니다](assets/create-the-journey-decision-policy-ready.png)
+   ![결정 정책을 표시하는 식 편집기가 삽입할 준비가 되었습니다](assets/create-the-journey-decision-policy-ready.png)
 
-&#x200B;14. **+ 정책 삽입** 단추를 클릭하면 ForEach 루프가 코드 편집기에 나타납니다.
+1. **+ 정책 삽입** 단추를 클릭하면 ForEach 루프가 코드 편집기에 나타납니다.
 
-![의사 결정 정책을 삽입한 후 코드 편집기에 각 루프가 삽입됨](assets/create-the-journey-foreach-loop-inserted.png)
+   ![의사 결정 정책을 삽입한 후 코드 편집기에 각 루프가 삽입됨](assets/create-the-journey-foreach-loop-inserted.png)
 
->[!NOTE]
->
->각 루프에 대해 가 필요한 이유 우리의 경우에는, 우리는 단지 하나의 제안을 반환합니다. 그러나 여러 오퍼를 반환할 수 있는 이전 단계를 고려하십시오. 기능을 고려할 때, 여기서 루프 메커니즘은 의미가 있습니다.
+   >[!NOTE]
+   >
+   >각 루프에 대해 가 필요한 이유 우리의 경우에는, 우리는 단지 하나의 제안을 반환합니다. 그러나 여러 오퍼를 반환할 수 있는 이전 단계를 고려하십시오. 기능을 고려할 때, 여기서 루프 메커니즘은 의미가 있습니다.
 
-&#x200B;15. 루프 범위 내에 유효한 JSON을 추가하여 최종 사용자에게 제공해야 하는 휴대폰의 제조사, 모델 및 계층을 반환합니다. 빈도 제한 또한 적용되므로 trackingToken을 응답에 추가해야 합니다. 자세한 내용은 뒷부분의 지침을 참조하십시오. 시간을 절약하려면 다음 코드 행을 복사하여 For Each 루프 내의 코드 편집기에 붙여넣으면 됩니다.
+1. 루프 범위 내에 유효한 JSON을 추가하여 최종 사용자에게 제공해야 하는 휴대폰의 제조사, 모델 및 계층을 반환합니다. 빈도 제한 또한 적용되므로 trackingToken을 응답에 추가해야 합니다. 자세한 내용은 뒷부분의 지침을 참조하십시오. 시간을 절약하려면 다음 코드 행을 복사하여 For Each 루프 내의 코드 편집기에 붙여넣으면 됩니다.
 
-```javascript
-{
-     "make":"",
-     "model":"",
-     "tier":"",
-     "trackingToken":""
- },
-```
+   ```javascript
+   {
+        "make":"",
+        "model":"",
+        "tier":"",
+        "trackingToken":""
+    },
+   ```
 
-![ForEach 루프 내에 make, model, tier 및 trackingToken 필드가 있는 초기 JSON](assets/create-the-journey-initial-json-in-loop.png)
+   ![ForEach 루프 내에 make, model, tier 및 trackingToken 필드가 있는 초기 JSON](assets/create-the-journey-initial-json-in-loop.png)
 
->[!NOTE]
->
->표준 오퍼 XDM 스키마, 특히 제조업체, 모델 및 계층에 속성을 추가했음을 상기하십시오. 그런 다음 오퍼가 생성될 때 이러한 속성을 입력했습니다. 이제 이러한 속성을 선택한 오퍼의 값으로 채워지는 변수로 추가합니다. trackingToken 필드는 클릭 및 노출을 추적하는 데 사용되는 시스템 생성 값입니다.
+   >[!NOTE]
+   >
+   >표준 오퍼 XDM 스키마, 특히 제조업체, 모델 및 계층에 속성을 추가했음을 상기하십시오. 그런 다음 오퍼가 생성될 때 이러한 속성을 입력했습니다. 이제 이러한 속성을 선택한 오퍼의 값으로 채워지는 변수로 추가합니다. trackingToken 필드는 클릭 및 노출을 추적하는 데 사용되는 시스템 생성 값입니다.
 
-&#x200B;16. &#39;make&#39; 노드의 **&quot;&quot;** 사이에 커서를 놓습니다. 결정 정책 메뉴에서 **\_dep > 장치 > 만들기** 노드로 이동하여 오퍼를 삽입합니다.  **만들기** 요소의 **+** 아이콘을 클릭하면 편집기가 채워집니다.
+1. &#39;make&#39; 노드의 **&quot;&quot;** 사이에 커서를 놓습니다. 결정 정책 메뉴에서 **\_dep > 장치 > 만들기** 노드로 이동하여 오퍼를 삽입합니다.  **만들기** 요소의 **+** 아이콘을 클릭하면 편집기가 채워집니다.
 
-![JSON 편집기에 채워진 결정 정책에서 특성을 만듭니다](assets/create-the-journey-populate-make-attribute.png)
+   ![JSON 편집기에 채워진 결정 정책에서 특성을 만듭니다](assets/create-the-journey-populate-make-attribute.png)
 
-&#x200B;17. 유사한 방식으로 **model** 및 **tier** 특성을 추가하십시오.
-&#x200B;18. 루트 수준으로 돌아가려면 특성 탐색에서 **결정 정책**&#x200B;을 클릭하십시오.
-&#x200B;19. **\_experience > decisioning > decisioning 항목 > 추적 토큰** 경로를 통해 추적 토큰 값으로 이동하여 trackingToken 특성을 채웁니다.
-&#x200B;20. 마지막으로 전체 코드를 대괄호(**\[]**) 집합에 포함시킵니다. 최종 JSON 코드는 다음과 같아야 합니다.
+1. 유사한 방식으로 **model** 및 **tier** 특성을 추가하십시오.
+1. 루트 수준으로 돌아가려면 특성 탐색에서 **결정 정책**&#x200B;을 클릭하십시오.
+1. **\_experience > decisioning > decisioning 항목 > 추적 토큰** 경로를 통해 추적 토큰 값으로 이동하여 trackingToken 특성을 채웁니다.
+1. 마지막으로 전체 코드를 대괄호(**\[]**) 집합에 포함시킵니다. 최종 JSON 코드는 다음과 같아야 합니다.
 
-![CBE 응답을 위해 대괄호로 묶인 최종 JSON 코드](assets/create-the-journey-final-json-code.png)
+   ![CBE 응답을 위해 대괄호로 묶인 최종 JSON 코드](assets/create-the-journey-final-json-code.png)
 
->[!WARNING]
->
->전체 결정 항목 주위에 대괄호 &quot;\[ ]&quot;를 포함해야 합니다. 혼란스러우신가요? #20단계를 다시 참조하십시오.
+   >[!WARNING]
+   >
+   >전체 결정 항목 주위에 대괄호 &quot;\[ ]&quot;를 포함해야 합니다. 혼란스러우신가요? #20단계를 다시 참조하십시오.
 
 
 
-&#x200B;21. 모든 항목이 위의 스크린샷으로 표시되면 오른쪽 상단의 **저장 및 닫기**&#x200B;를 클릭하여 코드를 저장합니다. 그러면 코드 기반 경험 페이지로 돌아갑니다.
-&#x200B;22. 여정 이름 옆에 있는 뒤로 화살표 **\&lt;** 아이콘을 클릭하면 캔버스로 돌아갑니다.
+1. 모든 항목이 위의 스크린샷으로 표시되면 오른쪽 상단의 **저장 및 닫기**&#x200B;를 클릭하여 코드를 저장합니다. 그러면 코드 기반 경험 페이지로 돌아갑니다.
+1. 여정 이름 옆에 있는 뒤로 화살표 **\&lt;** 아이콘을 클릭하면 캔버스로 돌아갑니다.
 
-![코드 기반 여정 편집기에서 돌아간 후 경험 캔버스](assets/create-the-journey-return-to-canvas.png)
+   ![코드 기반 여정 편집기에서 돌아간 후 경험 캔버스](assets/create-the-journey-return-to-canvas.png)
 
-&#x200B;23. 파란색 **저장** 단추를 클릭하여 CBE 작업 노드를 저장합니다. 이제 여정은 다음과 같습니다.
+1. 파란색 **저장** 단추를 클릭하여 CBE 작업 노드를 저장합니다. 이제 여정은 다음과 같습니다.
 
-![완료된 CBE 작업 노드를 표시하는 여정 캔버스](assets/create-the-journey-completed-canvas.png)
+   ![완료된 CBE 작업 노드를 표시하는 여정 캔버스](assets/create-the-journey-completed-canvas.png)
 
-&#x200B;24. 여정이 완료되면 오른쪽 상단의 파란색 **게시** 단추를 클릭하고 확인 상자가 나타나면 다시 **게시**&#x200B;합니다. 잠시 후 여정이 라이브됩니다!
+1. 여정이 완료되면 오른쪽 상단의 파란색 **게시** 단추를 클릭하고 확인 상자가 나타나면 다시 **게시**&#x200B;합니다. 잠시 후 여정이 라이브됩니다!
 
 ![게시 및 라이브 iPhone 17 찾아보기 여정 중단](assets/create-the-journey-published-live.png)
 

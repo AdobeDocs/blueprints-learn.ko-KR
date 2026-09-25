@@ -4,13 +4,11 @@ description: 들어오는 경험 이벤트를 Webhook 종단점으로 전달하�
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
-
 ---
-
 
 # 속성 만들기
 
@@ -208,7 +206,7 @@ ht-degree: 0%
 
 
 
-&#x200B;4. 작업이 완료되면 규칙에 작업이 추가된 것을 볼 수 있습니다. 계속하려면 **저장**&#x200B;을 클릭하세요.
+1. 작업이 완료되면 규칙에 작업이 추가된 것을 볼 수 있습니다. 계속하려면 **저장**&#x200B;을 클릭하세요.
 
 ![저장 단추가 강조 표시된 구성된 작업을 표시하는 규칙 편집기](assets/create-property-save-rule-button.png "규칙 저장")
 

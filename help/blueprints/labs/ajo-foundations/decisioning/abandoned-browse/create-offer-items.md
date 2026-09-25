@@ -4,13 +4,11 @@ description: 의사 결정 패키지에서 사용할 우선순위, 자격 규칙
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
-
 ---
-
 
 # 오퍼 항목 만들기
 
@@ -84,7 +82,7 @@ ht-degree: 0%
 >
 >실제로 그리고 더 복잡한 오퍼의 경우, 오퍼 항목이 올바르게 생성되었는지 확인할 수 있는 적절한 승인 프로세스가 있어야 합니다. 이 실습에서 시간을 절약하기 위해 생성하는 모든 오퍼 항목을 승인하면 됩니다.
 
-&#x200B;12. 오퍼 항목 제목 옆에 있는 **왼쪽 화살표**&#x200B;를 클릭하여 &#39;오퍼&#39; 페이지로 돌아오면 iphone:17\:generic 오퍼가 표시됩니다.
+1. 오퍼 항목 제목 옆에 있는 **왼쪽 화살표**&#x200B;를 클릭하여 &#39;오퍼&#39; 페이지로 돌아오면 iphone:17\:generic 오퍼가 표시됩니다.
 
 ## 기본 모델 오퍼 항목 만들기
 
@@ -150,7 +148,7 @@ ht-degree: 0%
 
 ![Ultra 계층 오퍼 항목에 대한 구성을 완료했습니다](assets/create-offer-items-ultra-offer-final-config.png)
 
-&#x200B;11. 모든 설정이 올바른지 확인한 후 이 오퍼 항목을 저장하고 승인합니다. 이제 각각 고유한 우선 순위를 가진 네 개의 오퍼 항목을 모두 볼 수 있습니다.
+1. 모든 설정이 올바른지 확인한 후 이 오퍼 항목을 저장하고 승인합니다. 이제 각각 고유한 우선 순위를 가진 네 개의 오퍼 항목을 모두 볼 수 있습니다.
 
 ![고유한 우선 순위를 가진 네 개의 오퍼 항목을 모두 나열하는 오퍼 페이지](assets/create-offer-items-all-four-offers-priority.png)
 

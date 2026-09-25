@@ -3,20 +3,18 @@ title: B2B 활용 사례
 description: B2B 조직이 Adobe Experience Platform을 사용하여 파이프라인을 가속화하고 리드 품질을 개선하며 고객 확장을 유도하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
-
 ---
-
 # B2B 활용 사례
 
 B2B 조직은 Adobe Experience Platform을 사용하여 계정 및 개인 수준 데이터를 통합함으로써 마케팅 및 영업 팀이 구매 여정의 모든 단계에서 조정된 관련 경험을 제공할 수 있습니다. 파이프라인 가속화에서 고객 확장에 이르기까지 이러한 사용 사례는 B2B 팀이 복잡한 데이터를 측정 가능한 비즈니스 성과로 만드는 방법을 보여줍니다.
 
 >[!NOTE]
 >
->계정 기반 활성화 및 구매 그룹 관리를 포함한 B2B 관련 아키텍처 블루프린트는 [B2B 활성화 및 마케팅 블루프린트](/help/blueprints/b2b/overview.md)를 참조하십시오.
+>계정 기반 활성화 및 구매 그룹 관리를 포함한 B2B 관련 아키텍처 블루프린트는 [B2B 활성화 및 마케팅 블루프린트](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)를 참조하십시오.
 
 ## Account-Based Marketing Personalization
 

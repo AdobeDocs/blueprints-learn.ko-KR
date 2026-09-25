@@ -4,13 +4,11 @@ description: 시작 및 종료 카운트, 이메일 게재 보고 및 단계 이
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 
 # 여정 확인
 
@@ -55,7 +53,7 @@ ht-degree: 0%
 
 3개의 외부 이벤트
 
-&#x200B;5. 왼쪽 레일에서 **전자 메일** 탭을 클릭합니다.
+1. 왼쪽 레일에서 **전자 메일** 탭을 클릭합니다.
    - **이메일 - 전송 성능**
      - **배달됨** 및 **전송됨**&#x200B;에 대한 일부 값이 표시됩니다(개수는 보낸 이벤트 수, 오류 등에 따라 다릅니다).
      - 이전에 문제가 발생하지 않은 한 오류가 없기를 바랍니다.
@@ -64,7 +62,7 @@ ht-degree: 0%
 
    ![전송 성능 및 통계를 표시하는 전자 메일 탭](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. **전자 메일 받은 편지함**&#x200B;에서 전자 메일을 받았는지 확인하세요(아래와 비슷함).
+1. **전자 메일 받은 편지함**&#x200B;에서 전자 메일을 받았는지 확인하세요(아래와 비슷함).
    - *,*&#x200B;주문하신 제품은 ETA: *10/17/2026* 추적 번호: *051009364*
 
    >[!NOTE]
@@ -81,7 +79,7 @@ ht-degree: 0%
 
 
 
-&#x200B;7. *30~60분 후*&#x200B;에는 다음과 같이 데이터 레이크에서 데이터 집합을 확인할 수도 있습니다. **쿼리** -> **쿼리 만들기** -> **SQL 복사/붙여넣기** -> **실행**
+1. *30~60분 후*&#x200B;에는 다음과 같이 데이터 레이크에서 데이터 집합을 확인할 수도 있습니다. **쿼리** -> **쿼리 만들기** -> **SQL 복사/붙여넣기** -> **실행**
 
 >[!NOTE]
 >
@@ -119,7 +117,7 @@ limit 50
 
 >[!NOTE]
 >
->각 필드의 의미에 대해 궁금한 점은 AJO 스키마 사전을 확인하고 드롭다운을 여정 단계 이벤트 스키마로 변경하십시오. [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+>각 필드의 의미에 대해 궁금한 점은 AJO 스키마 사전을 확인하고 드롭다운을 여정 단계 이벤트 스키마로 변경하십시오. [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 

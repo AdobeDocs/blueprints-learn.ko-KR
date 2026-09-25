@@ -1,16 +1,14 @@
 ---
-title: 대상
+title: 대상자 작성 #3
 description: iPhone 14 제품 페이지 방문자의 대상을 작성하고 대상 대상을 사용하여 다른 대상과 결합하여 스트리밍 활성화를 활성화합니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # 대상 #3 작성
 
@@ -134,17 +132,17 @@ iPhone 14 제품 페이지를 방문한 대상 작성
 
 
 
-&#x200B;5. 설명을 입력합니다.
+1. 설명을 입력합니다.
 
-&#x200B;6. 스트리밍으로 변경
+1. 스트리밍으로 변경
 
-&#x200B;7. &quot;*방문한 iPhone 14 페이지는 소유/주문하지 않음*&quot;(으)로 저장
+1. &quot;*방문한 iPhone 14 페이지는 소유/주문하지 않음*&quot;(으)로 저장
 
-&#x200B;8. 대상에 대한 파란색 단추 **대상 활성화**&#x200B;를 클릭합니다.
+1. 대상에 대한 파란색 단추 **대상 활성화**&#x200B;를 클릭합니다.
 
-&#x200B;9. **스트리밍 DEP Webhook** 대상을 선택하고 다음을 클릭합니다.
+1. **스트리밍 DEP Webhook** 대상을 선택하고 다음을 클릭합니다.
 
-&#x200B;10. 다음 을 클릭하고 마침 을 클릭합니다.
+1. 다음 을 클릭하고 마침 을 클릭합니다.
 
 >[!NOTE]
 >
@@ -158,7 +156,7 @@ iPhone 14 제품 페이지를 방문한 대상 작성
 >
 >몇 가지 이유로 간단한 요구 사항을 여러 대상으로 분할했습니다. 스트리밍에 대한 요구 사항이지만 이 두 가지 요구 사항은 Audience를 일괄 처리로 바꿉니다. 스트리밍 자격 규칙에 대한 자세한 내용은 여기 를 참조하십시오.
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ko](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ko)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
 
 >[!NOTE]
 >
@@ -168,7 +166,7 @@ iPhone 14 제품 페이지를 방문한 대상 작성
 >
 >대상 내에서 대상을 사용할 때 AEP은 가능한 경우 순서를 지정하려고 시도한다는 것을 이해해야 합니다. 이를 수행할 수 없는 경계 사례가 있습니다. 예: 대상자 대상을 사용하는 경우 24시간마다 프로필 결격이 발생합니다.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ko](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ko)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
 
 
