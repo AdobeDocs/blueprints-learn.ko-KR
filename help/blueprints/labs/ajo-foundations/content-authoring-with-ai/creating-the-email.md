@@ -112,7 +112,7 @@ ht-degree: 0%
 
    ![도구 키트 폴더에서 hero.png 업로드](assets/creating-the-email-upload-hero-png-file.png)
 
-5. **다음,****에셋에 대한 폴더 선택** 및 **가져오기** 누르기
+5. **다음,**&#x200B;**에셋에 대한 폴더 선택** 및 **가져오기** 누르기
 
    ![자산 폴더를 선택하고 대표 이미지 가져오기를 클릭합니다](assets/creating-the-email-select-folder-import-hero.png)
 

@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. Source 열에 대한 개별 값은 드롭다운에서 사용할 수 있습니다. **사용자 지정 조건**&#x200B;에 대해 드롭다운에서 &quot;**&quot; 저장소의**&quot;을(를) 선택하고 **확인**&#x200B;을(를) 클릭하여 종료합니다.
 
-   ![사용자 지정 조건이 스토어에서 ](assets/read-an-audience-set-in-store-condition.png)(으)로 설정됨
+   ![사용자 지정 조건이 스토어에서 &#x200B;](assets/read-an-audience-set-in-store-condition.png)(으)로 설정됨
 
 1. **분할** 활동의 세부 정보 창으로 돌아가면 첫 번째 분할에 대한 설정이 완료됩니다. 두 번째 분할에 **세그먼트 추가**&#x200B;를 클릭합니다.
 

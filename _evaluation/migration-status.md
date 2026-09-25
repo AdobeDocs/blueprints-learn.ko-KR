@@ -112,10 +112,10 @@ B2B 섹션이 더 이상 일시 중지되지 않습니다. 게시된 아키텍�
 
 ## 미해결 질문(감사 결과)
 
-2. **`journey-optimizer-journeys.md`**(이)가 `event-triggered-messaging`의 불확실한 복제본으로 플래그가 지정되었습니다. 트리밍하기 전에 범위를 확인하십시오.
-3. **`customer-journey-analytics/analysis.md`**(으)로 표시되는 콘텐츠는 CJA이 아닌 Experience Platform 쿼리 서비스에 대한 것입니다. `experience-platform/`(으)로 재배치하는 것이 좋습니다.
-4. **`customer-success-stories.md`**(으)로 링크 전용 페이지입니다. 탐색 분류를 확인하십시오.
-5. 완료된 B2B 아키텍처 처리로 대체된 기록 TOC 앵커 질문입니다.
+&#x200B;2. **`journey-optimizer-journeys.md`**(이)가 `event-triggered-messaging`의 불확실한 복제본으로 플래그가 지정되었습니다. 트리밍하기 전에 범위를 확인하십시오.
+&#x200B;3. **`customer-journey-analytics/analysis.md`**(으)로 표시되는 콘텐츠는 CJA이 아닌 Experience Platform 쿼리 서비스에 대한 것입니다. `experience-platform/`(으)로 재배치하는 것이 좋습니다.
+&#x200B;4. **`customer-success-stories.md`**(으)로 링크 전용 페이지입니다. 탐색 분류를 확인하십시오.
+&#x200B;5. 완료된 B2B 아키텍처 처리로 대체된 기록 TOC 앵커 질문입니다.
 
 ## 다시 시작하는 방법
 

@@ -60,7 +60,7 @@ ht-degree: 1%
 
 Postman -> 웹 이벤트 만들기 Edge(인증 없음) -> 헤더로 이동
 
-1. Assurance에서 복사한 링크를 사용하여 **x-adobe-aep-validation-token**&#x200B;을 헤더에 추가합니다. Assurance에서 복사한 링크에서 = 뒤에 있는 **ID** 값을 가져옵니다. 예: [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. Assurance에서 복사한 링크를 사용하여 **x-adobe-aep-validation-token**&#x200B;을 헤더에 추가합니다. Assurance에서 복사한 링크에서 = 뒤에 있는 **ID** 값을 가져옵니다. 예: [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. 전체 URL이 아닌 [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) 값만 사용합니다.
 
    ![Postman에서 Assurance 세션 ID를 사용하여 x-adobe-aep-validation-token 헤더를 추가합니다](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
