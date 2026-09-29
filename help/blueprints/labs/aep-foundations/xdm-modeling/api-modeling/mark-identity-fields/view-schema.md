@@ -61,7 +61,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->여기에서 다양한 Accept 헤더에 대해 자세히 읽어볼 수 있습니다. -> [Experience League 스키마 API 끝점](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
+>여기에서 다양한 Accept 헤더에 대해 자세히 읽어볼 수 있습니다. -> [Experience League 스키마 API 끝점](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=ko#lookup)
 
 
 
