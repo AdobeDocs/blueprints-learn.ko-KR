@@ -4,7 +4,10 @@ description: 테스트 모드에서 오케스트레이션된 캠페인을 실행
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -108,4 +111,4 @@ ht-degree: 0%
 
 이제 흐름과 동작을 파악하기 위해 만든 캠페인을 테스트하는 방법을 살펴보았습니다. 여기에서는 테스트 흐름 실행 중에 이메일 채널 구성에 대해 서로 다른 설정을 사용하는 뉘앙스를 잘 이해했습니다.
 
-관심이 있는 경우 캠페인 테스트 모드 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)에 대해 자세히 알아보세요.
+관심이 있는 경우 캠페인 테스트 모드 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)에 대해 자세히 알아보세요.

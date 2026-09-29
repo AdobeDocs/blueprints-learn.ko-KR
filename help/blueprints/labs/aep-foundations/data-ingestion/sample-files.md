@@ -4,13 +4,14 @@ description: AEP Foundations 데이터 수집 labs 전체에서 사용되는 샘
 doc-type: article
 solution: Experience Platform
 exl-id: 77be94b8-81f2-4372-a724-d0e5b12f5f9d
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
-
 ---
-
 
 # 샘플 파일
 

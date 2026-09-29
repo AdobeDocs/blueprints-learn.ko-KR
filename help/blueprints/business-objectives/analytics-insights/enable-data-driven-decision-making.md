@@ -3,13 +3,16 @@ title: 데이터 중심의 의사 결정 활성화
 description: 전략을 안내하기 위해 셀프서비스 분석, 실시간 고객 인사이트 및 AI 기반 예측을 통해 팀에 권한을 부여하는 방법을 알아봅니다.
 solution: Experience Platform, Customer Journey Analytics
 exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 3%
-
 ---
-
 # 데이터 중심의 의사 결정 활성화
 
 셀프서비스 분석, 실시간 고객 인사이트 및 AI 기반 예측을 통해 팀에 권한을 부여하여 전략을 안내합니다. 이 목표는 조직 전체의 의사 결정자가 고객 및 성능 데이터를 액세스하여 조치를 취할 수 있도록 하는 데 중점을 둡니다.

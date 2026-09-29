@@ -4,13 +4,14 @@ description: 전체 주문 매핑 세트를 확인하고 출력을 미리 본 �
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
-
 ---
-
 
 # 데이터 흐름 확인 및 예약
 
@@ -42,7 +43,7 @@ ht-degree: 7%
 | 22 | billingCity | billing.address.city |
 | 23 | billingState | billing.address.state |
 | 24 | billingZip | billing.address.postalCode |
-| 25 | products\[\*] | productListItems\\*&rbrack; |
+| 25 | products\[\*] | productListItems\\*] |
 | 26 | products\[\*].productID | - productListItems\[\*].\_id - productListItems\[\*].SKU |
 | 27 | products\[\*].make | productListItems\[\*].\_devbc.make |
 | 28 | products\[\*].model | productListItems\[\*].\_devbc.model |

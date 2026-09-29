@@ -3,13 +3,18 @@ title: 미디어 및 엔터테인먼트 사용 사례
 description: 미디어 및 엔터테인먼트 조직이 Adobe Experience Platform을 사용하여 콘텐츠 검색을 개인화하고, 구독자의 이탈을 줄이고, 고객 참여를 늘리는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 0%
-
 ---
-
 # 미디어 및 엔터테인먼트 사용 사례
 
 미디어 및 엔터테인먼트 조직은 Adobe Experience Platform을 사용하여 스트리밍 플랫폼, 콘텐츠 라이브러리 및 구독자 계정의 대상 데이터를 각 뷰어 또는 리스너의 단일 보기로 통합합니다. 이 토대를 통해 개인화된 컨텐츠 검색, 사전 예방적 가입자 유지 및 참여 전략을 통해 대상자가 더 많이 다시 찾아올 수 있습니다.

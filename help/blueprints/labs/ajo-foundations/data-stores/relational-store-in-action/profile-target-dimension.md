@@ -4,7 +4,10 @@ description: 관계형 스키마 필드에 ID 레이블을 지정하고 프로�
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -106,4 +109,4 @@ ht-degree: 0%
 
 이제 스키마를 탐색하고, 속성을 ID로 표시하고, 프로필 대상 Dimension을 만드는 것이 얼마나 쉬운지 확인했습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)에서 더 읽을 수 있습니다.

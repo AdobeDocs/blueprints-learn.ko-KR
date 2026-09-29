@@ -4,13 +4,14 @@ description: 프로필 속성 및 Handlebars 구문을 사용하여 이메일 �
 doc-type: article
 solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
-
 ---
-
 
 # Personalization 및 콘텐츠 실험
 
@@ -48,7 +49,7 @@ Adobe Journey Optimizer의 Personalization을 사용하면 개별 프로필, 동
 
    ![전자 메일 텍스트 도구 모음의 개인화 아이콘](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. **이름**&#x200B;**&#x200B;** 검색합니다.
+4. **이름****** 검색합니다.
 
    ![개인화 패널에서 이름 특성을 검색하는 중](assets/personalization-and-content-experimentation-search-first-name-field.png)
 

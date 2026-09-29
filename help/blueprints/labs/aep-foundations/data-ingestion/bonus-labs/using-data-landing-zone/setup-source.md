@@ -4,13 +4,14 @@ description: 샘플 고객 계정 파일을 데이터 랜딩 영역에 업로드
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
-
 ---
-
 
 # 소스 설정
 
@@ -75,7 +76,7 @@ ht-degree: 0%
 1. 드롭다운 목록에서 **dep: 고객 계정** 스키마를 선택합니다.
 1. **프로필 데이터 집합** 토글 상자를 켭니다.
 (이 기능을 켜지 않으면 프로필 저장소는 이 데이터 세트에 입력되는 새 데이터를 모니터링할 수 없으므로 이 데이터를 프로필로 수집하지 않습니다.)
-1. **부분 수집 사용**&#x200B;을 켭니다.
+1. **부분 수집 사용**을 켭니다.
 (이 기능을 켜지 않으면 레코드 중 하나에 오류가 있으면 수집이 실패할 수 있습니다.)
 1. 데이터 흐름 이름을 **고객 계정 일괄 처리 수집 - \&lt;이니셜>**(으)로 설정합니다.
 1. 모든 경고 설정 **소스 데이터 흐름 시작/성공/실패**

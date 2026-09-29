@@ -3,13 +3,18 @@ title: 의료 서비스 사용 사례
 description: 의료 기관에서 Adobe Experience Platform을 사용하여 환자 참여를 향상시키고, 진료 조정을 능률화하고, 더 나은 건강 결과를 도출하는 방법에 대해 알아보십시오.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3589'
 ht-degree: 0%
-
 ---
-
 # 의료 서비스 사용 사례
 
 의료 조직은 Adobe Experience Platform을 사용하여 통합 환자 프로필을 구축하고 모든 접점에서 개인화되고 시기적절한 커뮤니케이션을 제공합니다. 진료 팀은 임상, 행동 및 선호도 데이터를 한 곳에서 연결하여 환자의 개인 정보 보호 및 규정 준수에 대한 최고 기준을 유지하면서 환자를 보다 효과적으로 참여시킬 수 있습니다.

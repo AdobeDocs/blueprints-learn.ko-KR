@@ -3,7 +3,12 @@ title: Campaign v8 블루프린트, Campaign 및 플랫폼
 description: Campaign v8의 블루프린트에 대해 알아봅니다.
 solution: Campaign,Campaign v8
 version: Campaign v8
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 29%
@@ -134,11 +139,11 @@ Adobe Campaign v8은 이메일 및 DM(Direct Mail)과 같은 기존 마케팅 �
 
 ## 구현 단계
 
-[Adobe Campaign v8 구현](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ko) 시작 안내서를 참조하세요.
+[Adobe Campaign v8 구현](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html) 시작 안내서를 참조하세요.
 
 ## 관련 설명서
 
-- [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko)
+- [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html)
 - [Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/launch.html?lang=ko)
-- [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)
+- [Experience Platform 태그 설명서](https://experienceleague.adobe.com/docs/launch.html)
+- [Experience Platform Mobile SDK 설명서](https://experienceleague.adobe.com/docs/mobile.html)

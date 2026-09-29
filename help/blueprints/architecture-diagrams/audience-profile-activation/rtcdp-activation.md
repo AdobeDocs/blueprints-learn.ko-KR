@@ -2,7 +2,12 @@
 title: Adobe Real-Time CDP 활성화
 description: Adobe Real-Time CDP에서 광고, 소셜, 클라우드 스토리지 및 엔터프라이즈 대상으로 대상 및 프로필 데이터를 활성화하기 위한 아키텍처 참조.
 solution: Real-Time Customer Data Platform, Experience Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -34,6 +39,6 @@ ht-degree: 0%
 
 ## 추가 읽기
 
-- [Adobe Real-Time CDP 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
-- [대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Adobe Real-Time CDP 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)
+- [Adobe Real-Time CDP 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Adobe Real-Time CDP 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)

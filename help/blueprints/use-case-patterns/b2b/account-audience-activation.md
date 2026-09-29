@@ -3,13 +3,14 @@ title: B2B Audience Activation
 description: 웹, 이메일 및 광고 채널에서 계정 기반 B2B 대상자를 활성화하는 방법을 알아봅니다.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
-
 ---
-
 # B2B 대상 활성화
 
 이 안내서에서는 [!DNL Adobe Real-Time Customer Data Platform]&#x200B;([!DNL RT-CDP]) B2B edition을 사용하여 웹, 전자 메일, 광고 및 CRM 채널에서 계정 수준 대상을 빌드, 평가 및 활성화하는 B2B 대상 활성화 사용 사례 패턴에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.
@@ -75,7 +76,7 @@ B2B 마케팅 팀은 개인 수준이 아닌 계정 수준에서 대상을 타�
 
 다음 시나리오에서는 이 패턴을 실제로 적용하는 방법을 보여 줍니다.
 
-- [!DNL LinkedIn]&#x200B;**의**&#x200B;계정 기반 광고 — [!DNL RT-CDP] B2B edition에서 활성화된 계정 목록을 사용하여 [!DNL LinkedIn]의 ICP(Ideal Customer Profile)와 스폰서 콘텐츠 및 InMail 캠페인이 일치하는 계정을 타겟팅합니다.
+- [!DNL LinkedIn]**의**&#x200B;계정 기반 광고 — [!DNL RT-CDP] B2B edition에서 활성화된 계정 목록을 사용하여 [!DNL LinkedIn]의 ICP(Ideal Customer Profile)와 스폰서 콘텐츠 및 InMail 캠페인이 일치하는 계정을 타겟팅합니다.
 - **[!DNL Marketo Engage]육성 프로그램 타깃팅** — 계정 수준 자격 조건을 기반으로 연결된 리드 및 연락처를 타깃팅된 육성 스트림에 등록하려면 계정 대상을 [!DNL Marketo Engage]에 활성화하십시오.
 - **CRM 계정 목록 동기화** — 영업 팀 가시성, 영역 할당 및 아웃바운드 전망 워크플로를 위해 자격 조건을 갖춘 계정 목록을 [!DNL Salesforce] 또는 [!DNL Microsoft Dynamics]에 푸시합니다.
 - **유료 미디어에 대한 계정 억제** - 기존 고객, 비공개 계정 또는 활성 영업 주기의 계정을 유료 획득 캠페인에서 억제하여 낭비되는 지출을 줄입니다.
@@ -105,7 +106,7 @@ B2B 마케팅 팀은 개인 수준이 아닌 계정 수준에서 대상을 타�
 다음 응용 프로그램을 사용하여 이 사용 사례 패턴을 구현합니다.
 
 - **[!DNL Real-Time CDP]B2B edition** — 계정 프로필 통합, B2B ID 해결, 계정 대상 평가, B2B별 대상 구성 및 계정 대상 활성화를 위한 핵심 플랫폼
-- **[!DNL Adobe Experience Platform] (AEP)** — B2B XDM 데이터 모델링, CRM 및 마케팅 자동화 소스에서의 데이터 수집, ID 서비스 및 거버넌스를 위한 기본 인프라
+- **[!DNL Adobe Experience Platform](AEP)** — B2B XDM 데이터 모델링, CRM 및 마케팅 자동화 소스에서의 데이터 수집, ID 서비스 및 거버넌스를 위한 기본 인프라
 - **[!DNL Marketo Engage]** — 활성화된 계정 대상자가 제공하는 리드 육성 프로그램, 점수 및 캠페인 실행을 위한 기본 B2B 마케팅 자동화 대상
 
 ## 관련 설명서
@@ -115,65 +116,65 @@ B2B 마케팅 팀은 개인 수준이 아닌 계정 수준에서 대상을 타�
 **[!DNL RT-CDP]B2B edition**
 
 - [Real-Time CDP B2B edition 개요](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
-- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
-- [계정 대상자](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/types/account-audiences)
-- [RT-CDP B2B edition 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
+- [Real-Time CDP의 B2B 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [계정 대상자](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [RT-CDP B2B edition 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 **대상 평가 및 세분화**
 
-- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home)
-- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder)
-- [대상자 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-composition)
-- [스트리밍 세분화](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [세그먼테이션 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)
+- [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [대상자 구성](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [스트리밍 세분화](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [세그먼테이션 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 **대상 및 활성화**
 
-- [대상 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home)
-- [대상 카탈로그](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview)
-- [Marketo Engage 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
-- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/social/linkedin)
-- [Salesforce CRM 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Microsoft Dynamics 365 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
-- [Amazon 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
-- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [일괄 처리 대상에 대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [활성화 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails)
+- [대상 개요](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [대상 카탈로그](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Marketo Engage 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
+- [LinkedIn 일치하는 대상 대상 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Salesforce CRM 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
+- [Microsoft Dynamics 365 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
+- [Amazon 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [스트리밍 대상에 대상 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [일괄 처리 대상에 대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [활성화 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 **데이터 원본 및 커넥터**
 
-- [소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
-- [Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Salesforce 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/crm/salesforce)
+- [소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Salesforce 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/crm/salesforce)
 
 **데이터 모델링 및 ID**
 
-- [XDM 시스템 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)
-- [ID 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)
-- [프로필 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)
-- [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)
+- [XDM 시스템 개요](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [ID 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [프로필 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 **데이터 거버넌스 및 개인 정보 보호**
 
-- [데이터 거버넌스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/home)
+- [데이터 거버넌스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview)
 - [동의 및 환경 설정](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **모니터링 및 관찰 가능성**
 
-- [경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)
-- [대상 데이터 흐름 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [소스 데이터 흐름 모니터링](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/monitor)
+- [경고 개요](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [대상 데이터 흐름 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [소스 데이터 흐름 모니터링](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/monitor)
 - [라이선스 사용 대시보드](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **보고 및 분석**
 
-- [CJA 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
-- [연결 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)
-- [데이터 보기 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
+- [CJA 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [연결 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [데이터 보기 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
 **튜토리얼 및 가이드**
 
 - [Real-Time CDP B2B edition 시작하기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro)
-- [B2B 소스에 대한 스키마 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)
-- [샌드박스 도구](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/sandbox-tooling-api/overview)
+- [B2B 소스에 대한 스키마 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [샌드박스 도구](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/sandbox-tooling-api/overview)

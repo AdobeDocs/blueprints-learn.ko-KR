@@ -3,13 +3,18 @@ title: 자동차 사용 사례
 description: 자동차 조직에서 Adobe Experience Platform을 사용하여 차량 구매 여정을 개인화하고, 서비스 유지율을 개선하고, 소유자 충성도를 구축하는 방법을 살펴보십시오.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 4%
-
 ---
-
 # 자동차 사용 사례
 
 자동차 조직은 Adobe Experience Platform을 사용하여 대리점 상호 작용, 온라인 차량 조사, 서비스 기록 및 커넥티드 카 시스템의 고객 데이터를 각 소유자의 단일 보기로 통합합니다. 이 토대를 통해 초기 차량 연구부터 구매, 서비스 및 충성도에 이르기까지 전체 소유권 라이프사이클 동안 개인화된 경험을 사용할 수 있습니다.

@@ -3,13 +3,16 @@ title: 분석 및 보고 개선
 description: 통합 대시보드 및 셀프서비스 도구를 통해 보다 빠르고 실용적인 마케팅 통찰력을 위해 보고 기능을 향상시키는 방법을 알아봅니다.
 solution: Experience Platform, Customer Journey Analytics
 exl-id: 9a663191-c89a-41f6-9a10-f99101880ac9
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 3%
-
 ---
-
 # 분석 및 보고 개선
 
 통합 대시보드 및 셀프서비스 도구를 통해 보다 빠르고 실행 가능한 마케팅 통찰력을 위해 보고 기능을 향상시킵니다. 이 목표는 팀에 트렌드, 기회 및 문제를 보다 신속하게 식별할 수 있는 포괄적인 크로스 채널 분석을 제공하는 데 중점을 둡니다.

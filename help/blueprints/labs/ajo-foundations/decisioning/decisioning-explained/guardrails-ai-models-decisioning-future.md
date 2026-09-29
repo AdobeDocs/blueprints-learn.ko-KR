@@ -4,13 +4,14 @@ description: 주요 의사 결정 가드레일, AI 등급 모델이 수식과 �
 doc-type: article
 solution: Experience Platform
 exl-id: 90902f6e-ba3c-4852-ab82-ad852698b227
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 
 # 보호, AI 모델 및 의사 결정의 미래
 

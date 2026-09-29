@@ -4,13 +4,14 @@ description: 데이터스트림 만들기, 테스트 이벤트 보내기, 프로
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
-
 ---
-
 
 # 실행 중인 프로필
 

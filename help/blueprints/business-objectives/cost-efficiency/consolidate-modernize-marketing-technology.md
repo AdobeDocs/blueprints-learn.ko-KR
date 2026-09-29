@@ -3,7 +3,12 @@ title: 마케팅 기술 통합 및 현대화
 description: 확장 가능한 통합 플랫폼으로 마이그레이션하여 도구 단편화 및 기술적 부담을 줄이는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 5ab6071e-e1b3-488a-b7ed-3153c9bf6cdb
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 3%

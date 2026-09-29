@@ -4,13 +4,14 @@ description: 프로필 결합 스키마를 탐색하고 UI에서 프로필을 �
 doc-type: article
 solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 0%
-
 ---
-
 
 # 프로필 기본 사항
 

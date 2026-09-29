@@ -4,13 +4,14 @@ description: 이벤트 전달에서 속성, 데이터 요소, 규칙 및 데이�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: da3d1c7f-3642-4de7-a297-fc36d09e7336
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
-
 ---
-
 
 # 이벤트 전달 설정
 

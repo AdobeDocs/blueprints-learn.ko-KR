@@ -3,13 +3,18 @@ title: 리드 생성 늘리기
 description: 양식, 이벤트, 콘텐츠 및 멀티채널 참여를 통해 판매 파이프라인에 대한 보다 적합한 리드를 생성하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 6%
-
 ---
-
 # 리드 생성 늘리기
 
 양식, 이벤트, 콘텐츠 및 멀티채널 참여를 통해 판매 파이프라인에 대해 보다 적합한 리드를 생성합니다. 이 목표는 타깃팅된 지원 및 최적화된 전환 경로를 통해 funnel에 유입되는 자격을 갖춘 잠재 고객의 수를 늘리는 데 중점을 둡니다.

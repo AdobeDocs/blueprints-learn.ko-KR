@@ -1,7 +1,10 @@
 ---
 title: 가져오기 및 만들기 블루프린트
 description: 접수 및 만들기 - Marketo Engage 및 Workfront 통합
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 86%

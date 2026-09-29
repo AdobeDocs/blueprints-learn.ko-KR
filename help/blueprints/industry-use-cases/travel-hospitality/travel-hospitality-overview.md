@@ -3,13 +3,18 @@ title: 여행 및 접대 사용 사례
 description: 여행 및 접대 조직이 Adobe Experience Platform을 사용하여 예약 경험을 개인화하고, 포기된 예약을 복구하고, 게스트 충성도를 구축하는 방법을 살펴보십시오.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3744'
 ht-degree: 0%
-
 ---
-
 # 여행 및 접대 사용 사례
 
 여행 및 접대 조직은 Adobe Experience Platform을 사용하여 예약 엔진, 충성도 프로그램, 속성 관리 시스템 및 디지털 터치포인트의 게스트 데이터를 각 여행자의 단일 보기로 통합합니다. 이 통합 파운데이션을 통해 개인화된 경험을 통해 예약을 유도하고, 중단된 예약을 복구하며, 재방문을 유도하는 게스트 충성도를 구축할 수 있습니다.

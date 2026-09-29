@@ -4,13 +4,14 @@ description: 의사 결정 작업을 수행하기 전에 Experience Edge이 기�
 doc-type: article
 solution: Experience Platform
 exl-id: 031ea8eb-a366-48f8-ac4f-4cafb45d38f4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%
-
 ---
-
 
 # Experience Edge
 

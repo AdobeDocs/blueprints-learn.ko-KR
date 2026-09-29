@@ -4,13 +4,14 @@ description: 등급 및 자격 규칙에 사용할 표준 오퍼 XDM 스키마�
 doc-type: article
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # 오퍼 속성 만들기
 

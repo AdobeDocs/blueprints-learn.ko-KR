@@ -2,10 +2,12 @@
 title: 설정
 description: AJO Foundations 랩을 시작하기 전에 필요한 샌드박스 배포 및 Postman 구성 단계를 완료합니다.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 1%
@@ -44,7 +46,7 @@ Labs를 시작하기 전에 위의 Postman 구성을 완료합니다. 자습형 
 
 ### 위임된 하위 도메인
 
-[이메일 채널 구성](data-stores/configure-email-channels/overview.md) 랩 및 이에 따라 달라지는 모든 항목([작업 중 메시지 게재](orchestrated-campaigns/message-delivery-in-action/overview.md), [구매 후 흥분](journeys/post-purchase-excitement/overview.md) 및 [AJO 브랜드](content-authoring-with-ai/overview.md))에는 이메일을 보내기 위해 Adobe에 위임된 하위 도메인이 필요합니다. 도메인이 없는 경우 도메인 등록자(예: Namechap)에 등록합니다. 그런 다음 하위 도메인(예: `email.yourdomain.com`)을 Adobe에 위임하려면 Adobe의 [하위 도메인 위임 지침](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)을 따르십시오.
+[이메일 채널 구성](data-stores/configure-email-channels/overview.md) 랩 및 이에 따라 달라지는 모든 항목([작업 중 메시지 게재](orchestrated-campaigns/message-delivery-in-action/overview.md), [구매 후 흥분](journeys/post-purchase-excitement/overview.md) 및 [AJO 브랜드](content-authoring-with-ai/overview.md))에는 이메일을 보내기 위해 Adobe에 위임된 하위 도메인이 필요합니다. 도메인이 없는 경우 도메인 등록자(예: Namechap)에 등록합니다. 그런 다음 하위 도메인(예: `email.yourdomain.com`)을 Adobe에 위임하려면 Adobe의 [하위 도메인 위임 지침](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)을 따르십시오.
 
 >[!NOTE]
 >

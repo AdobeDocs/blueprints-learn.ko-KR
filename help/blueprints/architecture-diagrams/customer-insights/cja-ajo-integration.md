@@ -2,7 +2,14 @@
 title: Adobe Customer Journey Analytics 및 Adobe Journey Optimizer 통합
 description: Adobe Customer Journey Analytics에서 Adobe Journey Optimizer 캠페인 및 여정 통찰력을 분석하고 여정 실행을 위해 대상자를 다시 게시하기 위한 아키텍처입니다.
 solution: Customer Journey Analytics, Journey Optimizer, Experience Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -32,6 +39,6 @@ ht-degree: 0%
 
 ## 추가 읽기
 
-- [Journey Optimizer 보고](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/reports/sharing-overview)
-- [Customer Journey Analytics 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Customer Journey Analytics 대상 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Journey Optimizer 보고](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/reports/sharing-overview)
+- [Customer Journey Analytics 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Customer Journey Analytics 대상 게시](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)

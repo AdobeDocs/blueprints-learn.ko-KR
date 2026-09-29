@@ -4,13 +4,14 @@ description: HTTP API 스트리밍 계정을 만들고 데이터 흐름을 구�
 doc-type: article
 solution: Experience Platform
 exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
-
 ---
-
 
 # 소스 설정
 

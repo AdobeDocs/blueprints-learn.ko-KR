@@ -3,13 +3,18 @@ title: 통신 사용 사례
 description: 통신 조직이 Adobe Experience Platform을 사용하여 이탈을 줄이고, 장치를 구동하고, 업그레이드를 계획하고, 고객 참여를 개선하는 방법을 살펴봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3527'
 ht-degree: 0%
-
 ---
-
 # 통신 사용 사례
 
 통신 조직은 Adobe Experience Platform을 사용하여 각 가입자에 대한 통합 보기를 구축하고 이탈을 줄이고 계획 및 장치 업그레이드를 늘리며 장기적인 고객 관계를 강화하는 개인화된 경험을 제공합니다. 네트워크 사용 데이터, 청구 정보 및 고객 상호 작용을 연결함으로써 통신사는 가입자 요구를 예측하고 선호하는 채널을 통해 적시에 가입할 수 있습니다.

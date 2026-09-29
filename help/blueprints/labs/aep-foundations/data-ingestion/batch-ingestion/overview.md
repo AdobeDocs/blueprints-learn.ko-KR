@@ -4,13 +4,14 @@ description: 매핑 및 데이터 품질 오류를 수정하는 동안 일괄 �
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 76830e79-8fc0-4fda-98b1-2c1de19e8158
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
-
 ---
-
 
 # 일괄 처리 수집
 

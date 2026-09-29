@@ -4,13 +4,14 @@ description: 배송된 주문 이벤트가 프로필에 수집된 후 예상 대
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 
 # 수집된 이벤트 유효성 확인
 

@@ -4,13 +4,14 @@ description: LID 방법론의 두 부분으로 구성된 식별 단계 - 나머�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
-
 ---
-
 
 # 식별
 

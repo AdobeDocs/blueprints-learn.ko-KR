@@ -4,13 +4,14 @@ description: Edge 프로필 스토어 및 대상 멤버십 탭을 확인하여 E
 doc-type: article
 solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
-
 ---
-
 
 # Edge에서 프로필 유효성 검사
 

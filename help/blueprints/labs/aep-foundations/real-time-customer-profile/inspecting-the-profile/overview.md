@@ -4,7 +4,10 @@ description: 실시간 고객 프로필 내에서 프로필 데이터 탐색 및
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0dc44337-0b5a-44b7-9169-ac3599d985af
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%

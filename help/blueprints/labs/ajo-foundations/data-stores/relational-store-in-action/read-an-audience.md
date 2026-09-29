@@ -4,7 +4,10 @@ description: 오케스트레이션된 캠페인에서 프로필 대상 Dimension
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -128,7 +131,7 @@ ht-degree: 0%
 
 1. Source 열에 대한 개별 값은 드롭다운에서 사용할 수 있습니다. **사용자 지정 조건**&#x200B;에 대해 드롭다운에서 &quot;**&quot; 저장소의**&quot;을(를) 선택하고 **확인**&#x200B;을(를) 클릭하여 종료합니다.
 
-   ![사용자 지정 조건이 스토어에서 &#x200B;](assets/read-an-audience-set-in-store-condition.png)(으)로 설정됨
+   ![사용자 지정 조건이 스토어에서 ](assets/read-an-audience-set-in-store-condition.png)(으)로 설정됨
 
 1. **분할** 활동의 세부 정보 창으로 돌아가면 첫 번째 분할에 대한 설정이 완료됩니다. 두 번째 분할에 **세그먼트 추가**&#x200B;를 클릭합니다.
 
@@ -182,4 +185,4 @@ ht-degree: 0%
 
 이제 Campaign을 만들고, 대상 읽기 활동을 프로필 대상 Dimension과 함께 수행하여 관계형 스키마를 사용하는 것을 보았습니다. 분할 활동을 사용하여 조건에 따라 대상자를 분할했습니다. 마지막으로 테스트 모드는 프로필과 관계형 스키마 간의 데이터 일관성이 중요하다는 것을 이해하는 데 도움이 되었습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)에서 더 읽을 수 있습니다.

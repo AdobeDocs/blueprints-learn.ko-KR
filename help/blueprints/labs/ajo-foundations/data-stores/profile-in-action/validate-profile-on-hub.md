@@ -4,13 +4,14 @@ description: Real-Time Customer Profile Hub에서 프로필을 조회하고 스�
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 
 # 허브에서 프로필 유효성 검사
 
@@ -74,7 +75,7 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 >
 >**segmentMembership을 읽는 방법**
 >
->[https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** AEP에서 지원하는 다양한 종류의 대상을 위한 맵 키입니다.  ups 키에는 규칙 빌더에서 생성된 대상자가 포함되어 있습니다.  다른 대상은 다른 키(예: AAM)에 포함됩니다.
 >
