@@ -4,13 +4,14 @@ description: 규모에 맞게 개인화를 다루고 실시간 고객 프로필�
 doc-type: article
 solution: Experience Platform
 exl-id: dbe4b648-67a7-41f9-9110-380b3bb7d014
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
-
 ---
-
 
 # 강의
 

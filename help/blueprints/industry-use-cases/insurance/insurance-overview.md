@@ -3,13 +3,18 @@ title: 보험 이용 사례
 description: 보험 조직에서 Adobe Experience Platform을 사용하여 정책 관리를 개인화하고, 청구 경험을 개선하고, 고객 유지를 유도하는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2543'
 ht-degree: 0%
-
 ---
-
 # 보험 이용 사례
 
 보험 조직은 Adobe Experience Platform을 사용하여 보험 관리, 청구 및 참여 시스템 전반에서 보험 계약자 데이터를 통합하여 고객 관계의 모든 단계에서 개인화된 커뮤니케이션을 제공합니다. 보험 회사는 행동 신호를 정책 및 청구 정보와 연결하여 적절한 서비스, 시기 적절한 서비스 업데이트, 보존 및 라이프타임 가치를 창출하는 의미 있는 지원 등을 통해 고객에게 적극적으로 알릴 수 있습니다.

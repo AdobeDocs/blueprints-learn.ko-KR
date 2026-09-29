@@ -4,13 +4,14 @@ description: 선택 전략의 세 가지 구성 요소와 항목 수준 대 전�
 doc-type: article
 solution: Experience Platform
 exl-id: d15cc038-f012-4988-b033-7080fb065110
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
-
 ---
-
 
 # 선택 전략
 

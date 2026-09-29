@@ -3,13 +3,16 @@ title: 여러 단계로 조정된 여정
 description: 대기, 조건 및 시간 경과에 따른 여러 메시지 작업을 사용하는 분기, 다중 터치 여정을 통해 프로필을 안내하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 5%
-
 ---
-
 # 여러 단계로 조정된 여정
 
 이 안내서에서는 [!DNL Adobe Journey Optimizer]&#x200B;(AJO) 및 [!DNL Real-Time Customer Data Platform]&#x200B;(RT-CDP)을 사용하여 시간에 따라 여러 메시지를 전달하는 분기, 다중 터치 고객 여정을 오케스트레이션하는 여러 단계 오케스트레이션된 여정 사용 사례 패턴에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.

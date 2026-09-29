@@ -4,13 +4,14 @@ description: 다음 실습을 계속하기 전에 두 이메일 채널 구성이
 doc-type: article
 solution: Experience Platform
 exl-id: 37a079c1-2d5f-4586-b3d1-a6402d8b795f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
-
 ---
-
 
 # 활성 상태 대기 중
 

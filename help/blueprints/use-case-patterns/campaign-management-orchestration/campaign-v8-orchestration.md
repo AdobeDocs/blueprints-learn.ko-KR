@@ -3,7 +3,12 @@ title: Campaign v8 블루프린트, Campaign 및 플랫폼
 description: Campaign v8의 블루프린트에 대해 알아봅니다.
 solution: Campaign,Campaign v8
 version: Campaign v8
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 29%

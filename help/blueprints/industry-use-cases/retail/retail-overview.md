@@ -3,13 +3,18 @@ title: 소매 사용 사례
 description: 소매 조직이 Adobe Experience Platform을 사용하여 쇼핑 경험을 개인화하고, 버려진 카트를 복구하고, 고객 충성도를 유도하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # 소매 사용 사례
 
 소매 조직은 Adobe Experience Platform을 사용하여 온라인 스토어, 실제 위치 및 충성도 프로그램의 고객 데이터를 각 쇼핑객에 대한 단일 보기로 통합합니다. 이 파운데이션을 통해 개인화된 쇼핑 경험, 적시 매출액 회수를 위한 지원 및 고객이 다시 돌아오도록 하는 충성도 전략을 실현할 수 있습니다.

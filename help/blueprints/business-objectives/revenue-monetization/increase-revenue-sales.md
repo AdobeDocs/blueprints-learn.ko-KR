@@ -3,13 +3,18 @@ title: 매출 및 판매 증대
 description: 최적화된 디지털 채널, 캠페인 및 고객 여정을 통해 매출 성장을 견인하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 6%
-
 ---
-
 # 매출 및 판매 증대
 
 최적화된 디지털 채널, 캠페인 및 고객 여정을 통해 매출 성장을 촉진합니다. 이 목표는 획득에서 보존에 이르는 모든 수익 창출 활동을 포괄하며, 데이터 기반 타겟팅 및 다중 채널 참여를 활용하여 트랜잭션 양과 가치를 극대화합니다.

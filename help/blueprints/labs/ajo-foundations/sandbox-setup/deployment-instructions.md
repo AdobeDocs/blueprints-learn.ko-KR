@@ -4,13 +4,14 @@ description: DEP CLI를 사용하여 AJO Architecture Foundations 랩 팩의 스
 doc-type: article
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
-
 ---
-
 
 # 배포 지침
 

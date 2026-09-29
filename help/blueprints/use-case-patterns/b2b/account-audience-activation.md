@@ -3,13 +3,14 @@ title: B2B Audience Activation
 description: 웹, 이메일 및 광고 채널에서 계정 기반 B2B 대상자를 활성화하는 방법을 알아봅니다.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
-
 ---
-
 # B2B 대상 활성화
 
 이 안내서에서는 [!DNL Adobe Real-Time Customer Data Platform]&#x200B;([!DNL RT-CDP]) B2B edition을 사용하여 웹, 전자 메일, 광고 및 CRM 채널에서 계정 수준 대상을 빌드, 평가 및 활성화하는 B2B 대상 활성화 사용 사례 패턴에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.

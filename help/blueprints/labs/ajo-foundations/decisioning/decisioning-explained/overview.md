@@ -4,13 +4,14 @@ description: 가상의 전화 출시를 위해 플레잉 카드와 스티커 메
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9098cf13-86ac-41d9-b0f2-0f8d988267df
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
-
 ---
-
 
 # Decisioning 설명
 

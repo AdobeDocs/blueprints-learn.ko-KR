@@ -4,7 +4,10 @@ description: Labs를 시작하기 전에 Postman 환경이 할당된 Experience 
 doc-type: article
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%

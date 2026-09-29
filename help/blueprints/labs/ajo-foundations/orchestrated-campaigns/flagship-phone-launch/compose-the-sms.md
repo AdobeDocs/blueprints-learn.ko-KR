@@ -4,13 +4,14 @@ description: 관계형 스토어의 전화 및 모델 특성을 사용하여 오
 doc-type: article
 solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
-
 ---
-
 
 # SMS 구성
 

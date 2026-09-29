@@ -3,7 +3,14 @@ title: 전환율 향상
 description: 구매, 등록 또는 양식 제출과 같은 원하는 작업을 완료하는 방문자 및 잠재 고객의 비율을 향상시키는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 8%

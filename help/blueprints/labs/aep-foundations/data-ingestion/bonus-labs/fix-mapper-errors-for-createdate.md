@@ -4,13 +4,14 @@ description: 빈 필드로 변환되던 잘못된 형식의 createDate 값으로
 doc-type: article
 solution: Experience Platform
 exl-id: e3f7ef23-6fd1-4f7a-8dc7-db82445322b0
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
-
 ---
-
 
 # CreateDate에 대한 MAPPER 오류 수정
 

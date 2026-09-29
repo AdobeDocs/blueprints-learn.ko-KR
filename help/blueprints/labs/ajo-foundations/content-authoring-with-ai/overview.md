@@ -4,7 +4,10 @@ description: 브랜드, 브랜드 지침, 여정 및 템플릿에 대해 알아�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
-source-git-commit: 05f7ecfb00f92af29838452abf4069758bb6f1b3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%

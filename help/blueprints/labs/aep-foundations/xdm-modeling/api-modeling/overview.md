@@ -4,13 +4,14 @@ description: 클래스, 필드 그룹, ID, 관계 및 참조 설명자를 포괄
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f0ae0459-719c-4602-8dfa-e5819658f0b0
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
-
 ---
-
 
 # API 모델링
 

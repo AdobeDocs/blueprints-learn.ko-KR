@@ -3,13 +3,16 @@ title: 구매 그룹 기반 마케팅 및 여정 관리
 description: B2B 마케팅 효과를 향상시키기 위해 구매 그룹으로 잠재 고객을 선별하는 계정 수준 여정을 개발하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer B2B Edition, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: c0a9cba3d6a55fae8f149f7ca479625458cd1b22
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 1%
-
 ---
-
 # 구매 그룹 기반 마케팅 및 여정 관리
 
 이 안내서에서는 [!DNL Adobe Journey Optimizer B2B Edition] 및 [!DNL Real-Time CDP B2B Edition]을(를) 사용하여 구매 그룹 관리와 함께 계정 수준 여정 오케스트레이션을 구현하는 구매 그룹 기반 마케팅 및 여정 관리 사용 사례 패턴에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.
@@ -101,7 +104,7 @@ B2B 조직은 근본적인 과제에 직면해 있습니다. 구매 결정은 �
 
 ### [!DNL Journey Optimizer B2B Edition]
 
-- [Journey Optimizer B2B edition 설명서 홈](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
+- [Journey Optimizer B2B Edition 설명서 홈](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/guide-overview)
 - [구매 그룹 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 - [솔루션 관심 분야](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
 - [역할 템플릿](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
@@ -116,7 +119,7 @@ B2B 조직은 근본적인 과제에 직면해 있습니다. 구매 결정은 �
 
 - [B2B 이메일 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
 - [B2B SMS 작성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
-- [이메일 작성을 위한 콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
+- [이메일 작성을 위한 콘텐츠 생성](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B 분석 및 대시보드
 

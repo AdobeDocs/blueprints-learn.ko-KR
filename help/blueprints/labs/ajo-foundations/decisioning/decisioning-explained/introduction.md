@@ -4,13 +4,14 @@ description: AJO Decisioning이 기존 Offer Decisioning 엔진과 어떻게 다
 doc-type: article
 solution: Experience Platform
 exl-id: 43c915d9-56a2-409d-939a-e69baba01dfa
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
-
 ---
-
 
 # 소개
 

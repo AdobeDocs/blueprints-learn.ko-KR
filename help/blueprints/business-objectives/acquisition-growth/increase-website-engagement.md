@@ -3,7 +3,14 @@ title: 웹 사이트 참여 증가
 description: 사이트에서 보낸 시간, 세션당 페이지 수 및 관련 경험을 통한 웹 컨텐츠와의 상호 작용을 향상시키는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 41d03772-678a-4039-b470-6053c39e53aa
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 10%

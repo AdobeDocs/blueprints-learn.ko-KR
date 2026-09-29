@@ -2,7 +2,10 @@
 title: Marketo 데이터 블루프린트를 사용하는 B2B 여정
 description: Marketo Engage 데이터를 사용하여 Journey Optimizer B2B Edition을 신속하게 배포하기 위한 블루프린트입니다.
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 2%
@@ -202,7 +205,7 @@ Marketo Engage을 사용하는 B2B 여정에 적용되는 가드레일에 대한
 
 * [Adobe Journey Optimizer B2B Edition - 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Journey Optimizer B2B Edition에 대한 특정 보호 및 사용 매개 변수를 포함합니다.
-* [Adobe Experience Platform 배포 가드레일](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* [Adobe Experience Platform 배포 가드레일](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Adobe Experience Platform 솔루션 전반의 일반적인 아키텍처 및 배포 가드레일을 다룹니다.
 * [Adobe Marketo Engage - 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 활성화 및 CRM 동기화 고려 사항을 포함하여 Marketo Engage의 성능 및 사용 가드레일에 대해 자세히 설명합니다.

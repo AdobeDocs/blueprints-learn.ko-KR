@@ -3,7 +3,10 @@ title: 아키텍처 개요
 description: Adobe Experience Cloud 애플리케이션, Adobe Experience Platform 및 해당 SDK의 결합 방법과 보호 기능 및 지연 시간을 보여 주는 최상위 다이어그램입니다.
 solution: Experience Platform
 doc-type: overview-page
-source-git-commit: 7b2542ddb50449d5f41b81d1fe95781aaffa972a
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

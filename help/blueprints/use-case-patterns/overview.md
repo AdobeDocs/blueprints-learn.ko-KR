@@ -4,13 +4,18 @@ description: 주요 비즈니스 목표를 달성하기 위한 Adobe Experience 
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 0%
-
+source-wordcount: '1098'
+ht-degree: 8%
 ---
-
 # 사용 사례 패턴
 
 사용 사례 패턴은 Adobe Experience Platform 및 애플리케이션에 대한 반복 가능한 구현 접근 방식을 정의합니다. 각 패턴은 특정 기능, 이를 제공하는 실행 계획, 관련 애플리케이션 및 지원하는 [주요 비즈니스 목표](/help/blueprints/business-objectives/overview.md)를 설명합니다.
@@ -72,7 +77,7 @@ ht-degree: 0%
 | [B2B 대상 활성화](b2b/account-audience-activation.md) | 웹, 이메일 및 광고 채널에서 계정 기반 B2B 대상 활성화 | [!DNL Real-Time CDP] B2B edition |
 | [그룹 기반 마케팅 및 여정 관리 구매](b2b/buying-group-marketing.md) | 잠재 고객을 구매 그룹으로 분류하여 B2B 마케팅 효과를 향상시키는 계정 수준 여정을 개발합니다. | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
 | [B2B 분석](b2b/account-analytics.md) | 크로스 채널 고객 여정 분석에 B2B 계정 수준 정보 포함 | [!DNL Customer Journey Analytics] B2B edition, [!DNL Real-Time CDP] B2B edition |
-| [Marketo 데이터를 사용하는 B2B 여정](b2b/marketo-data-journeys.md) | 구매 그룹 여정 및 계정 참여를 조정하기 위해 Journey Optimizer B2B edition과 Marketo 데이터를 배포합니다 | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
+| [Marketo 데이터를 사용하는 B2B 여정](b2b/marketo-data-journeys.md) | 구매 그룹 여정 및 계정 참여를 조정하기 위해 Marketo 데이터와 함께 Journey Optimizer B2B Edition 배포 | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
 | [AJO B2B 유료 미디어 컨트롤러](b2b/paid-media-orchestration.md) | waterfall 논리를 사용하여 B2B 유료 미디어 캠페인을 오케스트레이션하여 캠페인에 계정을 할당하고 대상에 활성화합니다 | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
 | [Marketo 및 Workfront Intake 및 만들기](b2b/campaign-intake-and-creation.md) | Workfront Forms 및 Fusion을 사용하여 마케팅 캠페인 요청 접수 및 Marketo Engage 프로그램 생성 자동화 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 | [Marketo 및 Workfront 검토 및 승인](b2b/campaign-review-and-approval.md) | Fusion Automation을 사용하여 Workfront 증명 및 승인 워크플로를 Marketo Engage 이메일 에셋과 통합 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
@@ -94,33 +99,33 @@ ht-degree: 0%
 *만료된 고객이 90일 동안 구매하지 않았습니다. 타깃팅된 오퍼로 다시 참여하려는 경우.*
 
 - **오퍼 선택이 동적입니까(다른 고객은 자격 조건 또는 순위에 따라 다른 오퍼를 받습니까)?**
-   - 예→ [Offer Decisioning](personalization/offer-decisioning.md)을 오퍼 레이어로 사용하고 재참여 순서에 대해 [여러 단계로 조정된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)로 래핑합니다.
-   - [여러 단계로 구성된 오케스트레이션된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)만→ 없음(자격 있는 종료된 모든 고객에게 동일한 오퍼 제공)
+  - 예→ [Offer Decisioning](personalization/offer-decisioning.md)을 오퍼 레이어로 사용하고 재참여 순서에 대해 [여러 단계로 조정된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)로 래핑합니다.
+  - [여러 단계로 구성된 오케스트레이션된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)만→ 없음(자격 있는 종료된 모든 고객에게 동일한 오퍼 제공)
 
 ### 구매 후 후속 작업
 
 *고객이 방금 구매를 완료했습니다. 확인, 크로스셀 권장 사항 및 충성도 보상 알림을 보냅니다.*
 
 - **실시간 이벤트(예: 보상 청구, 제품 검토)에 따라 시퀀스를 적용해야 합니까?**
-   - 예 → [여러 단계로 조정된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)
-   - [일괄 아웃바운드 메시지 활성화](campaign-management-orchestration/batch-outbound-message-activation.md)→ 없음(고정 시퀀스, 분기 없음)
+  - 예 → [여러 단계로 조정된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - [일괄 아웃바운드 메시지 활성화](campaign-management-orchestration/batch-outbound-message-activation.md)→ 없음(고정 시퀀스, 분기 없음)
 - **개인 맞춤화된 제품 추천이 포함되어 있습니까?**
-   - 예→ 콘텐츠 계층에서 [동작 권장 사항](personalization/behavioral-recommendation.md)을(를) 사용하여 확장합니다.
+  - 예→ 콘텐츠 계층에서 [동작 권장 사항](personalization/behavioral-recommendation.md)을(를) 사용하여 확장합니다.
 
 ### 충성도 이정표 개인화
 
 *고객이 새 충성도 계층에 도달합니다. 개인화된 웹 콘텐츠를 표시하고 축하 메시지를 보내려고 합니다.*
 
 - **웹 콘텐츠가 개인화됩니까(계층 또는 세그먼트별로 다른 콘텐츠)?**
-   - 웹 →에 대해 [알려진 방문자 웹/앱 개인화](personalization/known-visitor-web-app-personalization.md)를 사용합니다.
+  - 웹 →에 대해 [알려진 방문자 웹/앱 개인화](personalization/known-visitor-web-app-personalization.md)를 사용합니다.
 - **아웃바운드 메시지가 단일 전송입니까, 아니면 육성 시퀀스입니까?**
-   - 단일 전송 → [이벤트 트리거 메시지](campaign-management-orchestration/event-triggered-messaging.md)
-   - 시퀀스 → [여러 단계로 구성된 오케스트레이션된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - 단일 전송 → [이벤트 트리거 메시지](campaign-management-orchestration/event-triggered-messaging.md)
+  - 시퀀스 → [여러 단계로 구성된 오케스트레이션된 여정](campaign-management-orchestration/multi-step-orchestrated-journey.md)
 
 ### 재참여 캠페인
 
 *비활성 사용자 세그먼트에 멀티터치 재활성화 시퀀스가 필요합니다.*
 
 - **개별 메시지가 여러 개의 오퍼 변형에서 실시간으로 선택되어야 합니까?**
-   - 예→ [의사 결정 포함 크로스 채널 여정](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - → [여러 단계로 구성된 오케스트레이션된 여정 &#x200B;](campaign-management-orchestration/multi-step-orchestrated-journey.md) 없음
+  - 예→ [의사 결정 포함 크로스 채널 여정](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+  - → [여러 단계로 구성된 오케스트레이션된 여정 &#x200B;](campaign-management-orchestration/multi-step-orchestrated-journey.md) 없음

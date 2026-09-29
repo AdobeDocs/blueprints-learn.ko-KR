@@ -4,13 +4,14 @@ description: 스트리밍 통합 모니터링 대시보드를 사용하여 스�
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
-
 ---
-
 
 # 오류 모니터링 및 디버깅
 

@@ -4,13 +4,14 @@ description: 상위 계층 플랜의 고객에 대한 프리미엄 전화 오퍼
 doc-type: article
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 
 # 의사 결정 규칙 만들기
 

@@ -3,13 +3,18 @@ title: 금융 서비스 사용 사례
 description: 금융 서비스 조직이 Adobe Experience Platform을 사용하여 제품 오퍼를 개인화하고, 이탈을 방지하고, 고객 관계를 심화하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 1f22d684-11bd-473d-8b10-5f88cb0cd088
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
-
 ---
-
 # 금융 서비스 사용 사례
 
 금융 서비스 조직은 Adobe Experience Platform을 활용하여 뱅킹, 대출 및 투자 채널 전반에서 고객 데이터를 통합함으로써 관계를 강화하고 성장을 이끄는 개인화된 경험을 제공합니다. 이러한 조직은 계정 활동, 거래 내역 및 행동 신호를 종합하여 고객이 기대하는 신뢰와 규정 준수를 유지하면서 적시에 적절한 오퍼를 제공할 수 있습니다.

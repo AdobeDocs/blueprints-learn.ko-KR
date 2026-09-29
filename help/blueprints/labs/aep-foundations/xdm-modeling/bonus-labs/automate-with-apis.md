@@ -4,7 +4,10 @@ description: 스키마, 필드 그룹, ID 및 관계 설명자, 데이터 세트
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%

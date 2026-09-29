@@ -2,7 +2,10 @@
 title: B2B 대상 및 프로필 활성화
 description: 채널 및 대상 전반에서 활성화를 위해 Real-Time Customer Data Platform B2B edition을 사용하여 계정 기반 및 사용자 기반 대상자를 제공합니다.
 solution: Real-Time Customer Data Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 5%
@@ -10,7 +13,7 @@ ht-degree: 5%
 
 # B2B 대상 및 프로필 활성화
 
-**Real-Time Customer Data Platform B2B edition**&#x200B;을(를) 사용하여 계정, 기회 및 개인 데이터를 통합 B2B 프로필로 모은 다음 LinkedIn, Marketo Engage 및 클라우드 저장소와 같은 대상 전반에서 사용자 대상과 계정 대상을 모두 활성화합니다. 이 블루프린트는 B2B 스키마를 디자인하고, 다중 엔티티 대상을 빌드하고, 여러 채널 및 대상을 활성화하기 위해 내보내고, **Journey Optimizer B2B Edition** 및 **Customer Journey Analytics B2B edition**&#x200B;과 같은 응용 프로그램에서 오케스트레이션 및 분석을 위해 내보내는 방법을 설명합니다.
+**Real-Time Customer Data Platform B2B edition**&#x200B;을(를) 사용하여 계정, 기회 및 개인 데이터를 통합 B2B 프로필로 모은 다음 LinkedIn, Marketo Engage 및 클라우드 저장소와 같은 대상 전반에서 사용자 대상과 계정 대상을 모두 활성화합니다. 이 블루프린트는 B2B 스키마를 디자인하고, 다중 엔티티 대상을 빌드하고, 여러 채널 및 대상을 활성화하기 위해 내보내고, **Journey Optimizer B2B edition** 및 **Customer Journey Analytics B2B edition**&#x200B;과 같은 응용 프로그램에서 오케스트레이션 및 분석을 위해 내보내는 방법을 설명합니다.
 
 ## 사용 사례
 
@@ -22,7 +25,7 @@ ht-degree: 5%
 
 - Real-Time Customer Data Platform B2B edition
 - (선택 사항) **Customer Journey Analytics B2B edition**
-- (선택 사항) **Journey Optimizer B2B Edition**
+- (선택 사항) **Journey Optimizer B2B edition**
 
 ## 통합 패턴
 

@@ -4,7 +4,10 @@ description: Postman의 Profile Entity API 및 Identity Service Cluster API를 �
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%

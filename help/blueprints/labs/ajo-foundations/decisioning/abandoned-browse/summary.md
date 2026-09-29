@@ -4,13 +4,14 @@ description: 오퍼 스키마, 자격 조건, 순위, 선택 전략 및 CBE 테�
 doc-type: article
 solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
-
 ---
-
 
 # 요약
 

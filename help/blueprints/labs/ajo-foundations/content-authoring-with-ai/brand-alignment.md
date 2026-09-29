@@ -4,13 +4,14 @@ description: AJO의 AI 기반 브랜드 정렬 점수를 사용하여 브랜드 
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
-
 ---
-
 
 # 브랜드 정렬
 

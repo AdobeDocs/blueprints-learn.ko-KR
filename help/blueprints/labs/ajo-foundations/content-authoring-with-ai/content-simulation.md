@@ -4,13 +4,14 @@ description: 샘플 프로필 데이터와 함께 Adobe Journey Optimizer의 시
 doc-type: article
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
-
 ---
-
 
 # 콘텐츠 시뮬레이션
 

@@ -2,7 +2,10 @@
 title: Journey Optimizer - 서드파티 메시징 블루프린트
 description: Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하여 개인화된 통신을 전송하는 방법을 보여 줍니다.
 solution: Journey Optimizer
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 58%
@@ -37,7 +40,7 @@ Adobe Journey Optimizer을 서드파티 메시징 시스템과 함께 사용하�
 
 [Journey Optimizer Guarrails 제품 링크](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ko)
 
-[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ko)
+[보호 및 전체 지연 지침](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 

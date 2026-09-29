@@ -3,13 +3,16 @@ title: Brand Concierge 대화 경험
 description: 디지털 속성을 고객 검색을 안내하는 AI 기반의 브랜드 안전 대화 경험으로 변환하는 방법에 대해 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 1%
-
 ---
-
 # Brand Concierge 대화 경험
 
 이 안내서에서는 [!DNL Adobe Experience Platform]&#x200B;(AEP) 및 [!DNL Real-Time Customer Data Platform]&#x200B;([!DNL RT-CDP])과(와) 통합된 [!DNL Adobe Brand Concierge]을(를) 사용하는 AI 기반 대화 경험에 대한 개요를 제공합니다. 디지털 자산 전반에 브랜드 안전 대화 에이전트를 배포해야 하는 솔루션 설계자, 마케팅 엔지니어 및 구현 엔지니어를 위해 설계되었습니다.

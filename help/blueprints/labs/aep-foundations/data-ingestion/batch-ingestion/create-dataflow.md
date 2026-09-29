@@ -4,13 +4,14 @@ description: 새 데이터 세트로 배치 소스 데이터 흐름을 구성하
 doc-type: article
 solution: Experience Platform
 exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
-
 ---
-
 
 # 데이터 흐름 만들기
 

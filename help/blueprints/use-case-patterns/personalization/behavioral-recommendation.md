@@ -3,13 +3,16 @@ title: 행동 추천
 description: 선택 전략 및 순위 모델을 사용하여 항목 및 콘텐츠 권장 사항을 생성하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 5%
-
 ---
-
 # 행동 추천
 
 이 안내서에서는 [!DNL Adobe Journey Optimizer]&#x200B;(AJO) Decisioning, [!DNL Real-Time Customer Data Platform]&#x200B;(RT-CDP) 및 [!DNL Adobe Experience Platform]&#x200B;(AEP)을 사용하여 웹, 모바일 앱 및 이메일 채널 전반에 개인화된 권장 사항 경험을 제공하는 행동 권장 사항 사용 사례 패턴에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.

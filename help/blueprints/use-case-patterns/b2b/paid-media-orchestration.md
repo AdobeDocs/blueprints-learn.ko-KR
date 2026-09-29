@@ -2,7 +2,10 @@
 title: AJO B2B 유료 미디어 컨트롤러
 description: 유료 미디어 대상에 대한 캠페인 및 계정 활성화의 우선 순위
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1499'
 ht-degree: 0%

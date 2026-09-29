@@ -4,13 +4,14 @@ description: ID 결합 없이 병합 정책을 만들고 이메일, 고객 ID �
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
-
 ---
-
 
 # 병합 정책
 

@@ -3,13 +3,16 @@ title: 신규 고객 확보
 description: 타겟팅된 획득 캠페인, 유사 대상 및 유료 미디어 최적화를 통해 고객 기반을 확장하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 5%
-
 ---
-
 # 신규 고객 확보
 
 타겟팅 획득 캠페인, 유사 대상 및 유료 미디어 최적화를 통해 고객 기반을 확장합니다. 이 목표는 기존 고객에 대한 정확한 고객 타겟팅 및 억제를 통해 비용 효율성을 유지하면서 규모에 맞게 새로운 잠재 고객에 도달하는 데 중점을 둡니다.

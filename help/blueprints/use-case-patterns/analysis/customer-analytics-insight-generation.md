@@ -3,13 +3,16 @@ title: Customer Analytics & Insight 세대
 description: 비헤이비어 및 성능 분석을 위한 크로스 채널 분석 작업 공간, 계산된 지표 및 대시보드를 작성하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 3%
-
 ---
-
 # Customer analytics &amp; insight 세대
 
 이 안내서에서는 [!DNL Adobe Experience Platform]개의 데이터 세트를 [!DNL Customer Journey Analytics]에 연결하여 데이터 보기, 자유 형식 분석 작업 공간, 계산된 지표, 대시보드 및 모바일 스코어카드를 작성하고 선택적으로 활성화를 위해 CJA 정의 대상을 [!DNL Adobe Experience Platform]에 다시 게시하는 Customer Analytics 및 insight 생성 사용 사례 패턴에 대해 설명합니다.

@@ -3,7 +3,10 @@ title: 웹 및 모바일 Personalization용 실시간 Edge 프로필 액세스
 description: '[!UICONTROL 실시간 고객 프로필] 실시간 웹 및 모바일 개인화에 대한 컨텍스트를 제공하기 위해 가장자리에서 액세스합니다.'
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 11%

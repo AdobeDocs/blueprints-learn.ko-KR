@@ -4,7 +4,10 @@ description: 연령과 같은 프로필 속성에 따라 오퍼 우선 순위 �
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%

@@ -3,7 +3,14 @@ title: 포기한 장바구니 및 여정 복구
 description: 구매, 애플리케이션 또는 등록 중에 중단한 사용자를 적시에 개인화된 후속 조치와 함께 다시 참여하는 방법을 알아봅니다.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 4e0f84b4-1b2a-4728-a551-ef1b2bde99ba
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 7%

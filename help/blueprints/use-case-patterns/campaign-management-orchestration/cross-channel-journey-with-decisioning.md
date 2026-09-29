@@ -3,13 +3,16 @@ title: Decisioning을 사용한 크로스 채널 여정
 description: 최적의 채널, 컨텐츠 또는 오퍼를 선택하기 위한 실시간 의사 결정을 통합하는 여러 단계 여정을 오케스트레이션하는 방법을 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2070'
 ht-degree: 5%
-
 ---
-
 # 의사 결정을 통한 크로스 채널 여정
 
 이 안내서에서는 [!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Real-Time Customer Data Platform]을(를) 사용하여 하나 이상의 여정 노드에서 실시간 의사 결정을 통합하는 다단계 다중 채널 여정을 오케스트레이션하는 의사 결정 사용 사례 패턴을 사용하는 크로스 채널 여정에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.
@@ -50,9 +53,9 @@ ht-degree: 5%
 콘텐츠, 오퍼 및 메시지를 개별 환경 설정, 동작 및 라이프사이클 단계에 맞게 맞춤화할 수 있습니다.
 **KPI:** 참여, 전환율, 고객 만족도(CSAT)
 
-**[고객 충성도 및 라이프타임 값 증가](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[고객 충성도 및 라이프타임 가치 향상](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 고객 관계를 심화하고 충성도 프로그램, 보상 및 개인화된 참여를 통해 장기적인 가치를 극대화합니다.
-**KPI:** 고객 생애 가치, 유지, 상향 판매/교차 판매 %
+**KPI:** 고객 라이프타임 값, 유지, 상향 판매/교차 판매 %
 
 **[고객 유지 개선](../../business-objectives/customer-experience/improve-customer-retention.md)**
 가치 중심의 경험과 지속적인 관계 관리를 통해 기존 고객의 참여와 갱신을 유지합니다.

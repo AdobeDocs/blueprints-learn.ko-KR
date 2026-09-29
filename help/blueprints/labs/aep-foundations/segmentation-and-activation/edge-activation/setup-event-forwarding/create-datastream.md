@@ -4,13 +4,14 @@ description: 이벤트 전달 및 Adobe Experience Platform 서비스를 사용�
 doc-type: article
 solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
-
 ---
-
 
 # 데이터 스트림 만들기
 
