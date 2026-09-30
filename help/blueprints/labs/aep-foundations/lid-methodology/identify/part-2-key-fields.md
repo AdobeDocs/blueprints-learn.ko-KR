@@ -4,13 +4,14 @@ description: 기본, 개인 및 관계 ID 필드와 레이블이 지정된 ERD �
 doc-type: article
 solution: Experience Platform
 exl-id: 24b6fdbd-0d59-4fe7-828e-c4bc7036db90
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
-
 ---
-
 
 # 2부 - 주요 필드
 

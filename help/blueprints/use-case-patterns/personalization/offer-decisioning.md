@@ -3,13 +3,16 @@ title: Offer Decisioning
 description: 중앙 집중식 의사 결정 논리를 사용하여 여러 채널에서 프로필에 대한 차선책 오퍼 또는 콘텐츠를 선택하는 방법에 대해 알아봅니다.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1707'
 ht-degree: 5%
-
 ---
-
 # Offer Decisioning
 
 이 안내서에서는 [!DNL Adobe Journey Optimizer]&#x200B;(AJO) Decisioning과 [!DNL Adobe Real-Time Customer Data Platform]&#x200B;(RT-CDP)을 사용하여 여러 채널에서 각 고객 프로필에 대한 차선책을 결정하는 중앙 집중식 오퍼 선택 논리를 구현하는 Offer Decisioning 사용 사례 패턴에 대해 설명합니다. 이 솔루션은 이러한 패턴의 기능, 지원하는 비즈니스 목표, 사용 가능한 전술적 사용 사례 및 관련된 Adobe 애플리케이션을 이해해야 하는 솔루션 설계자, 마케팅 기술자 및 구현 엔지니어를 위해 설계되었습니다.
@@ -46,9 +49,9 @@ Offer Decisioning은 AJO의 의사 결정 관리 엔진에서 모든 오퍼 선�
 행동 및 구매 내역을 기반으로 기존 고객에게 보완 및 프리미엄 제품 또는 서비스를 홍보합니다.
 **KPI:** 상향 판매/교차 판매 %, 증분 수익, 고객 생애 가치
 
-**[고객 충성도 및 라이프타임 값 증가](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[고객 충성도 및 라이프타임 가치 향상](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 고객 관계를 심화하고 충성도 프로그램, 보상 및 개인화된 참여를 통해 장기적인 가치를 극대화합니다.
-**KPI:** 고객 생애 가치, 유지, 상향 판매/교차 판매 %
+**KPI:** 고객 라이프타임 값, 유지, 상향 판매/교차 판매 %
 
 ## 예시 전술 사용 사례
 
