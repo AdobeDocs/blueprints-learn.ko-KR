@@ -3,17 +3,15 @@ title: Adobe Experience Platform 데이터 흐름
 description: 이 아키텍처 다이어그램은 데이터가 Adobe Experience Platform에 들어오고 나가는 흐름을 보여 줍니다.
 solution: Data Collection
 kt: 7198
-thumbnail: null
+thumbnail:
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
-TQID: https://experienceleague.adobe.com/eBb-Fl5UILtmCJNG7PfJbNZ4hTeDjb6EuI9XItV--44
+TQID: 'https://experienceleague.adobe.com/eBb-Fl5UILtmCJNG7PfJbNZ4hTeDjb6EuI9XItV--44'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
 feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+source-git-commit: be435d6d8bb87cd327e45910dbb63d9989ea5402
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 43%

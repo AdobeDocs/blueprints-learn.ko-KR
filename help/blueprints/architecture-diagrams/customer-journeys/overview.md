@@ -3,7 +3,7 @@ title: 고객 여정
 description: 화면 전체에서 적시에 조정된 개별 고객 경험을 제공합니다.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-TQID: https://experienceleague.adobe.com/vJUJiLr7je-Pp2daoYoNYipfVBRyaEYNv-XCx9PrjzM
+TQID: 'https://experienceleague.adobe.com/vJUJiLr7je-Pp2daoYoNYipfVBRyaEYNv-XCx9PrjzM'
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
@@ -14,21 +14,12 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-    internal-label: Segmentation
-  - id: c132d929-fa62-4271-803e-b823be07b914
-    internal-label: Profile
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
     internal-label: Journeys
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
     internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
     internal-label: Email
-subfeature_v2:
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -45,7 +36,7 @@ topic_v2:
     internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 821e47822d217e3a925adf10532f4e949c38d3c2
+source-git-commit: be435d6d8bb87cd327e45910dbb63d9989ea5402
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%

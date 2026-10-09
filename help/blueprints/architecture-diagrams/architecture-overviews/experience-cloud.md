@@ -3,9 +3,9 @@ title: Adobe Experience Cloud
 description: Experience Cloud 애플리케이션, 애플리케이션 서비스 및 Experience Platform이 엔터프라이즈 마케팅 아키텍처에 어떻게 적합한지 알아봅니다.
 solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7200
-thumbnail: null
+thumbnail:
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-TQID: https://experienceleague.adobe.com/MsdGurAa8sjRgm8fmputBBTrk7pY89UHRLP2JxxK9gw
+TQID: 'https://experienceleague.adobe.com/MsdGurAa8sjRgm8fmputBBTrk7pY89UHRLP2JxxK9gw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -16,7 +16,7 @@ product_v2:
   - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
     internal-label: Journey Orchestration
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
@@ -77,7 +77,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+source-git-commit: be435d6d8bb87cd327e45910dbb63d9989ea5402
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 67%
