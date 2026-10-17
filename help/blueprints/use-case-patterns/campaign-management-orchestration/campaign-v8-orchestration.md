@@ -49,7 +49,7 @@ Adobe Campaign v8은 이메일 및 DM(Direct Mail)과 같은 기존 마케팅 �
 
 ## 아키텍처 다이어그램
 
-[Campaign v8 배포 모델](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}에 대해 자세히 알아보세요.
+[Campaign v8 배포 모델](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ko#ac-deployment){target="_blank"}에 대해 자세히 알아보세요.
 
 ### Campaign Enterprise(FFDA) 배포
 
