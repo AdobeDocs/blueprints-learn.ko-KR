@@ -3,6 +3,7 @@ cloud: Experience Platform
 solution: Experience Platform
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: "Experience Platform"
 usetq: true
 product: experience platform
 landing-page-name: home-tutorials
@@ -14,11 +15,9 @@ git-repo: https://github.com/AdobeDocs/blueprints-learn.ko-KR
 index: true
 source-git-commit: 8a30f279131fe7e913dd33c54458bde38904c479
 workflow-type: tm+mt
-source-wordcount: 71
-ht-degree: 92%
-
+source-wordcount: '66'
+ht-degree: 100%
 ---
-
 
 # 내부용 메타데이터
 
