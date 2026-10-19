@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -86,7 +86,7 @@ ht-degree: 0%
    >
    >실제로 그리고 더 복잡한 오퍼의 경우, 오퍼 항목이 올바르게 생성되었는지 확인할 수 있는 적절한 승인 프로세스가 있어야 합니다. 이 실습에서 시간을 절약하기 위해 생성하는 모든 오퍼 항목을 승인하면 됩니다.
 
-1. 오퍼 항목 제목 옆에 있는 **왼쪽 화살표**&#x200B;를 클릭하여 &#39;오퍼&#39; 페이지로 돌아오면 iphone:17\:generic 오퍼가 표시됩니다.
+12. 오퍼 항목 제목 옆에 있는 **왼쪽 화살표**&#x200B;를 클릭하여 &#39;오퍼&#39; 페이지로 돌아오면 iphone:17\:generic 오퍼가 표시됩니다.
 
 ## 기본 모델 오퍼 항목 만들기
 
