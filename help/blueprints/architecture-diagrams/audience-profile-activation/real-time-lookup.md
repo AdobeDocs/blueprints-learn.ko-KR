@@ -74,7 +74,7 @@ ht-degree: 8%
 ## 가드레일
 
 * [[!UICONTROL 실시간 고객 프로필] 데이터의 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
-* [Edge Network 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Edge Network 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ko)
 * Edge 프로필에는 14일 TTL(time-to-live)이 있습니다. 사용자가 14일 동안 에지에서 활성화되지 않은 경우 에지 프로필이 만료되어 허브에서 가져와야 하며, 이는 첫 페이지 개인화에 영향을 줄 수 있습니다.
 * Edge 개인화는 에지 세분화 기준을 충족하는 대상에 대해 실시간 대상 멤버십 평가를 지원합니다. 적절한 구성으로 허브에서 대상자 일괄 처리 및 스트리밍을 에지에서 사용할 수도 있습니다.
 
