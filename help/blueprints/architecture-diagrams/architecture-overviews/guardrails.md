@@ -54,7 +54,7 @@ ht-degree: 13%
 **Experience Platform 서비스**
 
 * [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)
-* [[!DNL Edge Network] API 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] API 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ko)
 * [실시간 고객 프로필 및 세그멘테이션 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)
 * [ID 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ko)
 * [쿼리 서비스 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ko)
