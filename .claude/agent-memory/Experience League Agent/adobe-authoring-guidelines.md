@@ -2,20 +2,21 @@
 name: Adobe Experience League Authoring Guidelines
 description: Adobe Experience League Markdown 작성 규칙, 크롤링 2026년 3월 공식 작성 가이드에 대한 완전한 참조.
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Experience League 작성 지침
 
 Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
-크롤링 1203-05
+1203-05
 
-&#x200B;---
+---
 
 ## &#x200B;1. 메타데이터/주요 사항
 
@@ -54,7 +55,7 @@ Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 ### 사용되지 않는 필드
 seo-title, seo-description, audience, difficulty, uuid (from migration era)
 
-&#x200B;---
+---
 
 ## &#x200B;2. MARKDOWN 구문(ADOBE 기반)
 
@@ -120,13 +121,10 @@ seo-title, seo-description, audience, difficulty, uuid (from migration era)
 
   ```
   ```javascript
-
   code here
-
   ```
 
   ```
-
   
   
 - 옵션: `{line-numbers="true"}`, `{start-line="7"}`, `{highlight="11-13, 16"}`
@@ -143,7 +141,7 @@ seo-title, seo-description, audience, difficulty, uuid (from migration era)
 - Markdown 표 레이아웃 옵션: 빈 줄이 있는 표 뒤에 `{style="table-layout:auto"}`을(를) 추가합니다.
 - 가로 스크롤 막대 가시성 문제로 인해 매우 넓은/높은 테이블을 사용하지 마십시오.
 
-&#x200B;---
+---
 
 ## &#x200B;3. 특수 ADOBE 구문 확장
 
@@ -177,8 +175,7 @@ seo-title, seo-description, audience, difficulty, uuid (from migration era)
 >[!ERROR]
 >[!SUCCESS]
 ```
-
-- 중요: `>`에서 `[ !` 사이의 공백 없음 — `> [!NOTE]`이(가) 아닌 `>[!NOTE]` 사용
+- 중요: `>`에서 `[!` 사이의 공백 없음 — `> [!NOTE]`이(가) 아닌 `>[!NOTE]` 사용
 - `>[!NOTE]`과(와) 본문 텍스트 줄 사이에 빈 줄 추가
 
 ### 탭
@@ -202,7 +199,6 @@ Content here
 Content inside
 +++
 ```
-
 참고: 중첩된 축소 가능 섹션은 지원되지 않습니다.
 
 ### 음영 상자
@@ -218,7 +214,6 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
-
 성적 증명서용 `{transcript=true}`을(를) 추가합니다.
 
 ### 다음과 같음
@@ -244,7 +239,6 @@ Content here
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
-
 형식: `Informative`(파란색), `Positive`(녹색), `Negative`(빨간색), `Neutral`(회색), `Caution`(노란색)
 
 ### 텍스트 강조 표시(미리 보기)
@@ -278,7 +272,7 @@ Content here
 - 가로 규칙
 - 중첩된 축소 가능 섹션
 
-&#x200B;---
+---
 
 ## &#x200B;4. 파일 이름 지정 및 폴더 구조
 
@@ -308,7 +302,7 @@ Content here
 - 목차 메타데이터: `user-guide-description`, 선택적 `breadcrumb-title`
 - `mini-toc-levels`: 오른쪽 탐색 제목 표시를 제어합니다(1-6, 기본값 2).
 
-&#x200B;---
+---
 
 ## &#x200B;5. 콘텐츠 품질 및 편집 표준
 
@@ -354,7 +348,7 @@ Content here
 - `title` 메타데이터 필드에 대한 제목 대/소문자만
 - 고유 명사는 항상 대문자로 표기됩니다.
 
-&#x200B;---
+---
 
 ## &#x200B;6. SEO 우수 사례
 
@@ -362,7 +356,7 @@ Content here
 - 순차적 머리글 계층(h1 → h2 → h3, 건너뛰지 않음 수준)
 - H1, 본문 및 메타데이터에 키워드 포함(`keywords` 메타 태그가 아님 - Google에서 무시)
 - 키워드 스터핑 방지(의도 > 빈도)
-- 제목: 최대 50-60자, 시스템 추가 &quot;| Adobe ProductName&quot; 자동
+- 제목: 최대 50-60자, 시스템에서 &quot;| Adobe ProductName&quot;을 자동으로 추가합니다.
 - 설명: 150-160자, call to action이어야 하며 콘텐츠를 반복해서는 안 됩니다
 - 모든 이미지에 설명 대체 텍스트 추가
 - 비디오 트랜스크립트 포함(검색 엔진은 텍스트만 읽을 수 있음)
@@ -371,7 +365,7 @@ Content here
 - AnswerThePublic, Google Trends와 같은 도구를 사용하여 키워드 검색
 - 콘텐츠는 E-E-A-T(경험, 전문 지식, 권한, 신뢰성)를 보여 주어야 합니다.
 
-&#x200B;---
+---
 
 ## &#x200B;7. 현지화
 
@@ -391,7 +385,7 @@ Content here
 - `[!DNL ProductName]` — 제품/브랜드 이름이 번역되지 않도록 합니다.
 - 현지화하지 않음 폴더의 이미지는 현지화에서 제외됩니다
 
-&#x200B;---
+---
 
 ## &#x200B;8. 콘텐츠 유형
 
@@ -402,7 +396,7 @@ Content here
 - **기술 자료 문서**: 간단하고 일시적으로 관련된 문제 해결 콘텐츠
 - **랜딩 페이지/홈 페이지**: 별도 관리(SCCM)
 
-&#x200B;---
+---
 
 ## &#x200B;9. 피해야 할 일반적인 유효성 검사 오류
 
