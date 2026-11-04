@@ -2,18 +2,19 @@
 name: Adobe Experience League Authoring Guidelines
 description: Adobe Experience League Markdown 작성 규칙, 크롤링 2026년 3월 공식 작성 가이드에 대한 완전한 참조.
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Experience League 작성 지침
 
 Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
-크롤링 1203-05
+1203-05
 
 &#x200B;---
 
@@ -178,7 +179,7 @@ seo-title, seo-description, audience, difficulty, uuid (from migration era)
 >[!SUCCESS]
 ```
 
-- 중요: `>`에서 `[ !` 사이의 공백 없음 — `> [!NOTE]`이(가) 아닌 `>[!NOTE]` 사용
+- 중요: `>`에서 `[!` 사이의 공백 없음 — `> [!NOTE]`이(가) 아닌 `>[!NOTE]` 사용
 - `>[!NOTE]`과(와) 본문 텍스트 줄 사이에 빈 줄 추가
 
 ### 탭
@@ -362,7 +363,7 @@ Content here
 - 순차적 머리글 계층(h1 → h2 → h3, 건너뛰지 않음 수준)
 - H1, 본문 및 메타데이터에 키워드 포함(`keywords` 메타 태그가 아님 - Google에서 무시)
 - 키워드 스터핑 방지(의도 > 빈도)
-- 제목: 최대 50-60자, 시스템 추가 &quot;| Adobe ProductName&quot; 자동
+- 제목: 최대 50-60자, 시스템에서 &quot;| Adobe ProductName&quot;을 자동으로 추가합니다.
 - 설명: 150-160자, call to action이어야 하며 콘텐츠를 반복해서는 안 됩니다
 - 모든 이미지에 설명 대체 텍스트 추가
 - 비디오 트랜스크립트 포함(검색 엔진은 텍스트만 읽을 수 있음)

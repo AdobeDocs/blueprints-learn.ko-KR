@@ -1,10 +1,13 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 0%
-
+source-wordcount: '210'
+ht-degree: 2%
 ---
+
 # Experience League 에이전트 메모리
 
 ## 이 저장소의 키 참조 파일
@@ -43,4 +46,4 @@ ht-degree: 0%
 
 ## 자세한 참조
 - 전체 메타데이터 필드 참조: `metadata-fields.md`
-- 저작 크롤링https://experienceleague.adobe.com/en/docs/authoring-guide-exl/using/home (Feb 26)
+- 저작 https://experienceleague.adobe.com/en/docs/authoring-guide-exl/using/home (Feb 26)

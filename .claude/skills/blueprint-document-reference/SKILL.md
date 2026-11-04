@@ -1,13 +1,14 @@
 ---
 name: blueprint-document-reference
 description: Adobe Digital Experience Blueprint 문서 생성 및 편집에 대한 참조입니다. 새 블루프린트를 만들거나 블루프린트 페이지를 추가하거나 사용자가 블루프린트 구조, 섹션, 템플릿에 대해 묻거나 Adobe Experience League를 참조할 때 사용합니다.
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
-
 ---
-
 
 # 블루프린트 문서 참조
 

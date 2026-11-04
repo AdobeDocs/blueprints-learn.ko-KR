@@ -1,9 +1,13 @@
 ---
-source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '3507'
 ht-degree: 6%
 ---
+
 # 블루프린트 감사 및 권장 사항
 
 이 감사는 [평가 규칙](rubric.md)을(를) 아래 모든 문서에 적용합니다.

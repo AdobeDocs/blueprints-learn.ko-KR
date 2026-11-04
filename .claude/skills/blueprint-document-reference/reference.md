@@ -1,9 +1,13 @@
 ---
-source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 4%
 ---
+
 # 블루프린트 문서 참조 — 세부 안내서
 
 ## 문서 유형

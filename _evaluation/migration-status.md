@@ -1,9 +1,13 @@
 ---
-source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
 ---
+
 # 사용 사례 패턴을 보여주는 마이그레이션 상태 &quot; 블루프린트
 
 이 문서는 블루프린트 재구성 작업의 상태를 캡처하므로 세션 간에 깔끔하게 재개할 수 있습니다.
