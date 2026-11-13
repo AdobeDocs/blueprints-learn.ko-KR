@@ -7,9 +7,9 @@ exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: c86067364972ee7f0f50fed308f19e797efd087a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 0%
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 
 
-4. 표시되는 모달에서 **오케스트레이션 - 마케팅**&#x200B;을 선택하고 **확인**&#x200B;을 클릭합니다.
+4. 표시되는 모달에서 **오케스트레이션 마케팅 및 트랜잭션**&#x200B;을(를) 선택한 다음 **확인**&#x200B;을 클릭합니다
 
 ![오케스트레이션 - 마케팅 선택 후 확인 클릭](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
