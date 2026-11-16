@@ -7,9 +7,9 @@ exl-id: 5602b0ba-95e2-455f-affd-081df540c999
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 5ddc029828ce7ecc167555ed900a136690b10677
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '131'
 ht-degree: 4%
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 4%
 
    ![캠페인 만들기 단추를 클릭합니다](assets/create-a-campaign-click-create-campaign.png)
 
-3. **오케스트레이션 - 마케팅**&#x200B;을 선택하고 **확인**&#x200B;을 클릭합니다.
+3. **오케스트레이션 마케팅 및 트랜잭션**&#x200B;을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
 
-   ![오케스트레이션 - 마케팅 선택 후 확인 클릭](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![오케스트레이션 마케팅 및 트랜잭션을 선택한 다음 확인](assets/create-a-campaign-select-orchestration-marketing.png)
 
 4. 아래에 캠페인 세부 정보를 입력한 다음 완료되면 **저장 단추**&#x200B;를 클릭하십시오.
    - **이름:** `OC-MDL-Campaign-Test`
