@@ -4,13 +4,11 @@ description: 대상 작성 활동을 사용하여 관계형 스키마에서 기�
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # 대상자 작성
 
@@ -40,11 +38,11 @@ ht-degree: 0%
 
    ![대상 만들기 창에서 조건 추가를 클릭합니다](assets/build-an-audience-add-condition.png)
 
-6. 아래로 스크롤하여 `dep-rel: Plan Lookup` 옆에 있는 **>**&#x200B;을(를) 클릭하여 확장합니다.
+6. 아래로 스크롤하여 `dep-rel: Plan [Lookup]` 옆에 있는 **>**&#x200B;을(를) 클릭하여 확장합니다.
 
    ![dep-rel 확장: 계획 조회](assets/build-an-audience-expand-plan-lookup.png)
 
-7. `dep-rel: Plan Name`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
+7. `Plan Name`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
 
    ![딥렐 선택: 계획 이름](assets/build-an-audience-select-plan-name.png)
 
@@ -80,4 +78,4 @@ ht-degree: 0%
 
 이제 관계형 스키마에서 올바른 타겟팅 차원을 선택하여 캠페인에서 대상 작성 활동을 사용하는 것이 얼마나 쉬운지 확인했습니다. 그런 다음 대상 작성 기준을 구체화하는 조건을 추가하고 새로 고침 옵션을 사용하여 예상 행 수를 확인했습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)에서 더 읽을 수 있습니다.
