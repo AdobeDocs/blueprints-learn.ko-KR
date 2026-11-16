@@ -33,7 +33,7 @@ https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-inges
 /en/docs/blueprints-learn/architecture/audience-activation/rtcdp-target,/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/rtcdp-target-integration
 /en/docs/blueprints-learn/architecture/audience-activation/segment-match,/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/overview
 /en/docs/blueprints-learn/architecture/b2b/ajo-b2b-paid-media-controller,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
-/en/docs/blueprints-learn/architecture/b2b/b2b-account-activation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-account-activation
+/en/docs/blueprints-learn/architecture/b2b/b2b-account-activation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation
 /en/docs/blueprints-learn/architecture/b2b/b2b-buying-group-journeys,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/b2b/b2b-journeys-with-marketo,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/b2b/b2bactivation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
@@ -43,7 +43,7 @@ https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-inges
 /en/docs/blueprints-learn/architecture/b2b/marketo-engage-and-workfront-integration-blueprint/overview,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/ajo-b2b-paid-media-controller,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/b2b-account-activation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-account-activation
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/b2b-account-activation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/b2b-buying-group-journeys,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/b2b-journeys-with-marketo,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/b2bactivation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
@@ -98,7 +98,8 @@ https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-inges
 /en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/rtcdp-target,/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/rtcdp-target-integration
 /en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/segment-match,/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/overview
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/ajo-b2b-paid-media-controller,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-account-activation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-account-activation
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-account-activation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-account-activation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-buying-group-journeys,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-journeys-with-marketo,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2bactivation,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/overview
