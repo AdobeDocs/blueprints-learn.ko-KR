@@ -4,13 +4,11 @@ description: 오케스트레이션된 캠페인에서 대상 작성 활동을 �
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # 대상자 작성
 
@@ -165,6 +163,6 @@ ht-degree: 0%
 
 ## 요약
 
-첫 번째 대상을 성공적으로 만들었으므로 이제 대상 작성 활동 내에서 카운트를 개발하고 확인하는 것이 얼마나 쉬운지 확인할 수 있습니다.
+대상을 성공적으로 만들었으므로 이제 대상 작성 활동 내에서 카운트를 개발하고 확인하는 것이 얼마나 쉬운지 확인할 수 있습니다.
 
 ![다시 요약 후 대상자 작성 활동을 완료했습니다](assets/build-an-audience-recap-completed-audience.png)

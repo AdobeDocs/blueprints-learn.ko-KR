@@ -7,7 +7,7 @@ exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 9750fa1d2fe4054d4c9efd76f5f58210a4d99adc
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 
 
-6. 프로필 대상 Dimension을 만들려면 **저장** 단추를 클릭하십시오. 그런 다음 레코드가 나타납니다.
+6. 프로필 대상 Dimension을 만들려면 **만들기** 단추를 클릭하십시오. 그런 다음 레코드가 나타납니다.
 
 ![목록에 저장된 프로필 대상 Dimension 레코드](assets/profile-target-dimension-saved-record.png)
 

@@ -4,13 +4,11 @@ description: 대상 작성 활동을 사용하여 관계형 스키마에서 기�
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # 대상자 작성
 
@@ -40,11 +38,11 @@ ht-degree: 0%
 
    ![대상 만들기 창에서 조건 추가를 클릭합니다](assets/build-an-audience-add-condition.png)
 
-6. 아래로 스크롤하여 `dep-rel: Plan Lookup` 옆에 있는 **>**&#x200B;을(를) 클릭하여 확장합니다.
+6. 아래로 스크롤하여 `dep-rel: Plan [Lookup]` 옆에 있는 **>**&#x200B;을(를) 클릭하여 확장합니다.
 
    ![dep-rel 확장: 계획 조회](assets/build-an-audience-expand-plan-lookup.png)
 
-7. `dep-rel: Plan Name`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
+7. `Plan Name`을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
 
    ![딥렐 선택: 계획 이름](assets/build-an-audience-select-plan-name.png)
 

@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 80%
+source-wordcount: '164'
+ht-degree: 82%
 ---
 # B2B 활성화 및 마케팅
 
@@ -33,5 +33,4 @@ ht-degree: 80%
 
 | 다이어그램 | 설명 |
 | --- | --- |
-| [B2B 대상 및 프로필 활성화](b2b-audience-profile-activation.md) | Real-Time Customer Data Platform B2B edition을 사용하여 계정 기반 및 사용자 기반 대상 활성화 |
-| [B2B 계정 활성화](b2b-account-activation.md) | 광고 및 파일 기반 대상을 통해 B2B 계정 타기팅 |
+| [B2B 대상 및 프로필 활성화](b2b-audience-profile-activation.md) | Real-Time Customer Data Platform B2B edition을 사용하여 지원되는 채널에서 사용자 대상을 활성화하고 대상자를 광고 및 파일 대상으로 지정합니다 |
