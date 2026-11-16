@@ -4,9 +4,9 @@ description: 배송된 주문 이벤트에 응답하고, ETA 배송에 대한 �
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: 93fba2a4818790431306801b43a791508451f344
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 여정 만들기
 
-**여정**(으)로 이동하여 **여정 만들기 - 처음부터 만들기**&#x200B;를 클릭합니다.
+**여정**(으)로 이동하여 **여정 만들기**&#x200B;를 클릭합니다.
 
 ![여정 만들기 - Adobe Journey Optimizer에서 처음부터 만들기](assets/build-journey-create-journey-from-scratch.png)
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 다음과 같이 오른쪽 레일의 여정 속성 을 업데이트합니다.
    - **이름**: `Order Shipped Journey`
    - **설명**: `Notify customer that order has shipped. Include shipping details.`
-   - **태그**: `Default`
+   - **태그**: *비워 둠*
    - **여정 지표**: *비워 둠*
 
      >[!NOTE]
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ### 단일 이벤트 추가
 
-**이벤트 메뉴** 아래의 왼쪽 창에서 아래와 같이 **orderShipped** 이벤트를 캔버스로 드래그하여 놓습니다
+더하기 아이콘을 클릭하고 **사용자 지정 이벤트**&#x200B;로 이동한 다음 아래와 같이 **orderShipped** 이벤트를 선택합니다
 
 ![Events 메뉴에서 orderShipped 이벤트를 여정 캔버스로 끌어서 놓습니다](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ### 사용자 지정 작업 추가
 
-1. 왼쪽 창에서 **작업 메뉴**&#x200B;를 확장한 다음 캔버스로 드래그하여 orderShipped 이벤트 다음에 만든 **GetShippingDetails** 작업을 취소하면 됩니다.
+1. 더하기 아이콘을 클릭하고 **사용자 지정 작업**(으)로 이동한 다음 빌드한 작업 **GetShippingDetails**&#x200B;을(를) 선택하여 orderShipped 이벤트 뒤에 나타나도록 합니다.
 
    ![orderShipped 이벤트 뒤에 GetShippingDetails 사용자 지정 작업을 캔버스로 드래그하십시오](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ### 이메일 작업 추가
 
-1. 작업 메뉴에서 GetShippingDetails 작업 다음에 **Action** 작업을 캔버스로 끌어 놓습니다
+1. GetShippingDetails 사용자 지정 이벤트 뒤에 있는 더하기 아이콘을 클릭하고 **작업**&#x200B;을 선택합니다.
 
    ![GetShippingDetails 작업 후 작업 노드를 캔버스로 끌어서 놓습니다](assets/build-journey-drag-email-action-onto-canvas.png)
 
@@ -137,11 +137,11 @@ ht-degree: 0%
 
    ![상단 막대의 스크래치 콘텐츠 블록에서 디자인](assets/build-journey-click-design-from-scratch.png)
 
-3. 구조 컨테이너 아래의 왼쪽 막대에서 **1:1 열**&#x200B;을(를) 캔버스로 끌어서 놓습니다.
+3. 왼쪽 막대에서 구성 요소 탭으로 이동하고 구조 컨테이너 아래에서 &#39;n **1:1 열**&#x200B;을 캔버스로 드래그합니다
 
    ![1:1 열 구조 요소를 전자 메일 캔버스로 끌어서 놓습니다](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-4. 그런 다음 콘텐츠 컨테이너에서 **Text** 구성 요소를 **1:1 열**(으)로 드래그합니다
+4. 그런 다음 콘텐츠 컨테이너 아래에서 **Text** 구성 요소를 **1:1 열**(으)로 드래그합니다
 
    ![Text 구성 요소를 1:1 열로 끌어옵니다](assets/build-journey-drag-text-component-into-column.png)
 
@@ -206,7 +206,8 @@ ht-degree: 0%
 
    ![전자 메일 매개 변수 아래의 매개 변수 재정의 아이콘 사용](assets/build-journey-enable-parameter-override.png)
 
-2. 빈 텍스트 상자를 클릭한 다음 왼쪽 레일에서 **Context** -> **orderShipped** -> **\_dep**(으)로 드릴다운하고 **personalEmail** 필드를 클릭합니다.  그런 다음 **확인 단추**&#x200B;를 클릭합니다
+2. 빈 텍스트 상자를 클릭한 다음 왼쪽 레일에서 **Context** -> **orderShipped** -> **\_dep**(으)로 드릴다운하고 **personalEmail** 필드를 클릭합니다.  그런 다음 **확인 단추를 클릭합니다**
+(밑줄로 시작하는 테넌트 이름은 환경에 따라 다를 수 있습니다. 이 예에서는 _dep입니다.)
 
    ![orderShipped 컨텍스트 _dep에서 personalEmail 필드를 선택합니다](assets/build-journey-select-personalemail-context-field.png)
 
