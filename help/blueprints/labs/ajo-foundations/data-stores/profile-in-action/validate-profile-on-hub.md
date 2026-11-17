@@ -7,9 +7,9 @@ exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: da2fcc7a4afc091c28a4cfdff96055dbf7dbb41a
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 
 ## Hub 프로필 확인
 
-1. 프로필을 열려면 **프로필 ID**&#x200B;를 클릭하십시오.
+1. 프로필의 **보기** 단추를 클릭하여 프로필을 엽니다.
 1. 먼저 **특성** 탭을 클릭하고 **허브** 라디오 단추를 클릭하여 **허브 프로필**&#x200B;을 확인하세요.
 
 ![특성 탭에 표시되는 허브 프로필](assets/validate-profile-on-hub-attributes-tab.png)
@@ -75,7 +75,7 @@ Adobe Experience Platform에서 방금 Edge Network으로 보낸 이벤트에서
 >
 >**segmentMembership을 읽는 방법**
 >
->[https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** AEP에서 지원하는 다양한 종류의 대상을 위한 맵 키입니다.  ups 키에는 규칙 빌더에서 생성된 대상자가 포함되어 있습니다.  다른 대상은 다른 키(예: AAM)에 포함됩니다.
 >

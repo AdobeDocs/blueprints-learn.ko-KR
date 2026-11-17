@@ -7,9 +7,9 @@ exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: bcc54e483dddad7417ee13613323198c8ce12bec
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 5%
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
+>하위 도메인은 환경에 따라 다를 수 있습니다.
 >자습되고 사전 제공된 하위 도메인이 없는 경우 `email.dep-labs.com` 대신 여기에서 Adobe에 위임하는 고유한 하위 도메인을 선택하십시오. 하나를 위임하는 방법은 [설치](../../setup.md)를 참조하세요.
 
 ## IP 풀 세부 정보 구성

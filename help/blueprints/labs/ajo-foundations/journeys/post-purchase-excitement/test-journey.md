@@ -7,9 +7,9 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '429'
 ht-degree: 0%
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 0%
 
 ## 여정 테스트
 
-1. 여정 목록이 표시되지 않으면 왼쪽 레일에서 **여정**&#x200B;을 클릭하고 **찾아보기 탭**&#x200B;을 클릭합니다
+1. 아직 여정에 있지 않은 경우 왼쪽 레일에서 **여정**&#x200B;을 클릭하고 여정 목록이 표시되지 않는 경우 **찾아보기 탭**&#x200B;을 클릭합니다
 2. 열려면 **여정**&#x200B;을 클릭하세요.
-3. **경고**&#x200B;를 클릭하고 오류가 없는지 확인합니다(경고는 괜찮음).
+3. 먼저 오른쪽 상단의 **유효성 검사** 단추를 클릭합니다.
+
+   ![여정의 유효성을 검사하려면 클릭하세요](assets/test-journey-click-validate.png)
+
+5. **경고**&#x200B;를 클릭하고 오류가 없는지 확인합니다(경고는 괜찮음).
 
    ![여정을 연 후 오류를 표시하지 않는 경고 패널](assets/test-journey-alerts-no-errors.png)
 
@@ -33,9 +37,11 @@ ht-degree: 0%
    >
    >이메일 변형에 옵트아웃 링크가 누락되었음을 나타냅니다.
 
-4. **시뮬레이션**&#x200B;을 클릭하고 왼쪽에서 **테스트 모드**&#x200B;를 선택합니다.
+6. **시뮬레이션**&#x200B;을 클릭한 다음 **테스트 모드**&#x200B;를 선택합니다.
 
-   왼쪽의 [시뮬레이션]에서 ![테스트 모드 선택](assets/test-journey-select-test-mode.png)
+   ![시뮬레이트 ](assets/test-journey-select-test-mode.png) 누르기
+
+   ![팝업에서 테스트 모드 선택](assets/test-journey-select-test-mode-in-popup.png)
 
 
 
@@ -45,11 +51,11 @@ ht-degree: 0%
 
 
 
-5. **이벤트 트리거**&#x200B;를 클릭하고 다음 속성을 채우십시오.
+7. 왼쪽의 **이벤트 트리거**&#x200B;를 클릭하고 다음 속성을 채우십시오.
    - **이벤트 유형**: `orders.shipped`
    - **개인 전자 메일**: `henry.creel@emailsim.io`
    - **주문 ID**: `123`
-6. **보내기**&#x200B;를 클릭합니다(보내기 클릭 후 응답하는 데 몇 초 정도 소요됨).
+8. **보내기**&#x200B;를 클릭합니다(보내기 클릭 후 응답하는 데 몇 초 정도 소요됨).
 
    ![이벤트 양식을 작성하고 클릭하여 보내기](assets/test-journey-trigger-event-send.png)
 
@@ -65,7 +71,7 @@ ht-degree: 0%
 
 
 
-7. **결과** -> 왼쪽의 **로그 표시**&#x200B;를 클릭합니다.
+9. **결과** -> 왼쪽의 **로그 표시**&#x200B;를 클릭합니다.
 
 ![테스트 이벤트를 트리거한 후 결과 아래의 로그 옵션 표시](assets/test-journey-show-log-results.png)
 
@@ -106,12 +112,12 @@ ht-degree: 0%
 
 
 
-1. 브라우저 **탭**&#x200B;을 **닫기**
+1. 로그용 브라우저 **탭**&#x200B;을 **닫기**
 1. 오른쪽 상단의 **테스트 모드 닫기**
 
    ![오른쪽 상단의 테스트 모드 닫기 단추](assets/test-journey-close-test-mode.png)
 
-1. 오른쪽 상단의 여정 **게시**&#x200B;를 클릭합니다.
+1. 다시 **유효성 검사**&#x200B;를 클릭한 다음 오른쪽 상단의 여정을 **게시**&#x200B;합니다.
 
    오른쪽 상단의 여정에 대한 ![게시 단추](assets/test-journey-publish-journey.png)
 
