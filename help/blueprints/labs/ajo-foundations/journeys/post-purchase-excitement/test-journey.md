@@ -27,7 +27,7 @@ ht-degree: 0%
 
    ![여정의 유효성을 검사하려면 클릭하세요](assets/test-journey-click-validate.png)
 
-5. **경고**&#x200B;를 클릭하고 오류가 없는지 확인합니다(경고는 괜찮음).
+&#x200B;5. **경고**&#x200B;를 클릭하고 오류가 없는지 확인합니다(경고는 괜찮음).
 
    ![여정을 연 후 오류를 표시하지 않는 경고 패널](assets/test-journey-alerts-no-errors.png)
 
@@ -37,9 +37,9 @@ ht-degree: 0%
    >
    >이메일 변형에 옵트아웃 링크가 누락되었음을 나타냅니다.
 
-6. **시뮬레이션**&#x200B;을 클릭한 다음 **테스트 모드**&#x200B;를 선택합니다.
+&#x200B;6. **시뮬레이션**&#x200B;을 클릭한 다음 **테스트 모드**&#x200B;를 선택합니다.
 
-   ![시뮬레이트 ](assets/test-journey-select-test-mode.png) 누르기
+   ![시뮬레이트 &#x200B;](assets/test-journey-select-test-mode.png) 누르기
 
    ![팝업에서 테스트 모드 선택](assets/test-journey-select-test-mode-in-popup.png)
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 
 
-7. 왼쪽의 **이벤트 트리거**&#x200B;를 클릭하고 다음 속성을 채우십시오.
+&#x200B;7. 왼쪽의 **이벤트 트리거**&#x200B;를 클릭하고 다음 속성을 채우십시오.
    - **이벤트 유형**: `orders.shipped`
    - **개인 전자 메일**: `henry.creel@emailsim.io`
    - **주문 ID**: `123`
-8. **보내기**&#x200B;를 클릭합니다(보내기 클릭 후 응답하는 데 몇 초 정도 소요됨).
+&#x200B;8. **보내기**&#x200B;를 클릭합니다(보내기 클릭 후 응답하는 데 몇 초 정도 소요됨).
 
    ![이벤트 양식을 작성하고 클릭하여 보내기](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 
 
-9. **결과** -> 왼쪽의 **로그 표시**&#x200B;를 클릭합니다.
+&#x200B;9. **결과** -> 왼쪽의 **로그 표시**&#x200B;를 클릭합니다.
 
 ![테스트 이벤트를 트리거한 후 결과 아래의 로그 옵션 표시](assets/test-journey-show-log-results.png)
 
