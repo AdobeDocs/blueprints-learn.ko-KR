@@ -7,9 +7,9 @@ exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 526f170e52c0479362c6a72bfd4cbeadc825d464
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
@@ -69,17 +69,13 @@ ht-degree: 0%
 
    ![왼쪽 화살표를 클릭하여 전자 메일 Designer을 종료합니다](assets/add-email-activities-exit-email-designer.png)
 
-10. 확인 대화 상자가 나타나면 **저장 및 닫기** 단추를 클릭합니다.
-
-![저장 및 닫기 단추가 있는 확인 대화 상자](assets/add-email-activities-save-and-close-dialog.png)
-
-1. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
+10. 이메일 본문에 추가된 텍스트를 포함하여 이메일 속성 및 작업을 검토합니다. 캠페인 캔버스로 다시 이동하려면 **왼쪽 화살표**&#x200B;를 클릭하십시오.
 
 ![Campaign 캔버스로 다시 이동](assets/add-email-activities-back-to-campaign-canvas.png)
 
 ## 하단 분기 이메일 활동 추가
 
-캠페인 캔버스로 돌아가서, 맨 아래 흐름의 **+**&#x200B;을(를) 클릭하고 **채널 활동**&#x200B;에서 **이메일**&#x200B;을(를) 선택합니다. 다음을 제외하고 위와 동일한 단계(2~11단계)를 수행합니다.
+캠페인 캔버스로 돌아가서, 맨 아래 흐름의 **+**&#x200B;을(를) 클릭하고 **채널 활동**&#x200B;에서 **이메일**&#x200B;을(를) 선택합니다. 다음을 제외하고 위와 동일한 단계(2~10단계)를 수행합니다.
 
 - **전자 메일** 활동에 대해 **Target Dimension을 사용하는 전자 메일**(으)로 레이블 이름을 바꾸십시오.
 - 전자 메일 설정에서 **관계형 전자 메일** 전자 메일 채널 구성을 선택합니다
