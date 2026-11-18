@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
+source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '443'
 ht-degree: 0%
 ---
 
@@ -57,9 +57,25 @@ ht-degree: 0%
 
 
 
+## 변경 차원 추가
+
+1. 워크플로우 캔버스에서 추가한 분할 조건 뒤에 있는 **+** 아이콘을 클릭하고 **차원 변경** 활동을 선택합니다
+
+   ![분할 조건 뒤에 차원 변경 활동을 추가합니다](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. 아래에 설명된 대로 변경 차원의 속성을 업데이트하고 **확인**을 클릭합니다.
+레이블: `Convert Line to Account`
+새 대상 차원: `dep-rel: Customer Account`
+
+   ![대상 차원 편집](assets/filter-the-lines-add-edit-target-dimension.png)
+
+   ![대상 차원 편집](assets/filter-the-lines-add-select-target-dimension.png)
+
+
+
 ## SMS 활동 추가
 
-1. 워크플로우 캔버스에서 추가한 분할 조건 뒤에 있는 **+** 아이콘을 클릭하고 **모바일 메시지 활동**&#x200B;을 선택합니다
+1. 추가한 변경 차원 뒤에 있는 **+** 아이콘을 클릭하고 **모바일 메시지 활동**&#x200B;을 선택합니다.
 
    ![분할 조건 뒤에 모바일 메시지 활동 추가](assets/filter-the-lines-add-sms-activity.png)
 
@@ -67,9 +83,9 @@ ht-degree: 0%
 
 
 
-2. 오른쪽 레일에서 모바일 메시지 편집 버튼을 클릭하여 SMS 메시지 구성을 시작합니다
+2. 오른쪽 레일에서 먼저 Target 선택을 **보조 차원당 하나의 메시지**(으)로 변경한 다음 **모바일 메시지 편집** 단추를 클릭하여 SMS 메시지 구성을 시작합니다
 
-   ![오른쪽 레일의 모바일 메시지 단추 편집](assets/filter-the-lines-edit-sms-button.png)
+   ![오른쪽 레일의 Target 및 모바일 메시지 편집 단추](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -82,4 +98,4 @@ ht-degree: 0%
 
 ## 요약
 
-옵트아웃으로 인해 SMS 메시지로 타깃팅할 수 없는 모든 줄을 필터링했으며, 타깃팅할 수 있는 사람에 대한 SMS 활동을 추가했습니다.
+옵트아웃으로 인해 SMS 메시지로 타깃팅할 수 없는 모든 줄을 필터링하고 차원을 줄에서 계정으로 변경했으며 타깃팅이 허용된 사용자에 대한 SMS 활동을 추가했습니다.
