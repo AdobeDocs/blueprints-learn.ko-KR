@@ -7,9 +7,9 @@ exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 027d4d3373dd18fa4711e5c403465c03d374de70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 0%
 ---
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 3. 다음 하위 섹션 **실행 차원** 아래에서 다음을 설정하십시오.
    - **메시지 배달 단위:** `Target + Secondary Dimension`
    - **프로필 대상 Dimension:** `dep-rel: Customer Account - customer_id`
-   - **보조 Dimension:** `Customer Line`
+   - **보조 Dimension:** `dep-rel: Customer Line`
 
    대상 및 보조 차원이 있는 ![실행 차원 설정](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![실행 차원 설정 &quot;보조 Dimension&quot;에서 고객 라인으로 설정된 보조 Dimension](assets/configure-sms-channel-secondary-dimension-detail.png "보조 Dimension")
+   ![보조 Dimension이 dep-rel로 설정됨: 실행 차원 설정 &quot;보조 Dimension&quot;의 고객 줄](assets/configure-sms-channel-secondary-dimension-detail.png "보조 Dimension")
 
    >[!NOTE]
    >
@@ -168,4 +168,4 @@ ht-degree: 0%
 
 이제 SMS 채널을 구성하는 방법을 확인했습니다.  이 구성은 API 기반 SMS이므로 공급자에 따라 다른 인증 방법을 사용할 수 있습니다.
 
-관심 있는 경우 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)에서 더 읽을 수 있습니다.
+관심 있는 경우 [여기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)에서 더 읽을 수 있습니다.
