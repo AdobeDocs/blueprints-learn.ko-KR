@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
+source-git-commit: 8d5a87f094e2fba7abd7f5a9acf8e9e775d9b534
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '748'
 ht-degree: 0%
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![분할 조건 뒤에 차원 변경 활동을 추가합니다](assets/filter-the-lines-add-change-dimension-activity.png)
 
-2. 아래에 설명된 대로 변경 차원의 속성을 업데이트하고 **확인**&#x200B;을 클릭합니다.
+2. 아래에 설명된 대로 변경 차원의 속성을 업데이트하고 **확인**을 클릭합니다.
 레이블: `Convert Line to Account`
 새 대상 차원: `dep-rel: Customer Account`
 
@@ -83,19 +83,63 @@ ht-degree: 0%
 
 
 
-2. 오른쪽 레일에서 먼저 Target 선택을 **보조 차원당 하나의 메시지**(으)로 변경한 다음 **모바일 메시지 편집** 단추를 클릭하여 SMS 메시지 구성을 시작합니다
+2. 오른쪽 레일에서 **모바일 메시지 편집** 단추를 클릭하여 SMS 메시지 구성을 시작합니다
 
-   ![오른쪽 레일의 Target 및 모바일 메시지 편집 단추](assets/filter-the-lines-edit-sms-button.png)
+   ![오른쪽 레일의 모바일 메시지 단추 편집](assets/filter-the-lines-edit-sms-button-only.png)
 
 
 
 3. 위쪽 탐색에서 Actions 메뉴 항목을 클릭하고 Mobile message configuration 드롭다운에서 이전에 만든 채널을 선택합니다.
 
-![SMS 구성에서 선택한 채널을 표시했습니다](assets/filter-the-lines-sms-configuration-selected.png)
+![결과 없음을 표시하는 SMS 구성 드롭다운](assets/filter-the-lines-sms-configuration-no-results.png)
 
+>[!CAUTION]
+>
+>🫨이(가) 없습니다.  왜 결과가 안 나오나요?  이미 SMS 채널을 설정하지 않으셨나요?  제품이 고장났나요?
+>
+>!!!!!!!!!
+
+
+
+## 기겁한 순간
+
+SMS에 대한 채널 구성은 이전에 이미 설정되었으며 현재 다음과 같습니다.
+
+![SMS 채널 랩 구성 중 실행 세부 정보 구성 설정](assets/configure-sms-channel-final-execution-details.png)
+
+**이 글을 읽는 방법은 다음과 같습니다.**
+
+- 보조 차원(예: 고객 라인)에서 찾은 관련 레코드 수에 대해 대상 차원(예: 고객 계정)당 하나의 메시지를 전달합니다
+- 보조 차원(예: 고객 라인)에 있는 휴대폰 번호를 사용하여 각 SMS 게재를 실행합니다
+
+한 프로필에 여러 메시지를 보낼 수 있는 이 고유한 기능은 여정과 다르게 만드는 오케스트레이션된 캠페인의 기본 기능 중 하나입니다. 하지만 모바일 메시지 활동으로 이어지는 전환이 고객 계정으로 설정됩니다. 이렇게 하면 전송 시 실시간 고객 프로필에 다시 가입할 수 있으므로 메시지의 게재 및 추적 정보가 프로필에 연결됩니다.
+
+
+그럼 이걸 어떻게 작동시킬까요? 채널 구성 😀과(와) 일치하도록 메시지 실행 대상을 변경하십시오.
+
+
+
+## Target 변경 및 SMS 메시지 구성 완료
+
+1. SMS 편집 화면에서 뒤로 단추를 클릭합니다.
+
+   ![뒤로 단추를 클릭하여 SMS 편집 화면을 종료합니다](assets/filter-the-lines-exit-sms-editor.png)
+
+
+
+2. 모바일 메시지 활동을 선택한 상태에서 오른쪽 레일에서 먼저 프로필당 하나의 메시지에 대한 기본 옵션에서 **보조 차원당 하나의 메시지** 옵션으로 타겟 선택을 변경한 다음 **모바일 메시지 편집**&#x200B;으로 다시 클릭합니다
+
+   ![대상을 변경한 다음 오른쪽 레일에서 [모바일 메시지 편집] 단추](assets/filter-the-lines-edit-sms-button.png)
+
+
+
+3. 위쪽 탐색에서 **작업** 메뉴 항목을 클릭한 다음 모바일 메시지 구성 드롭다운에서 이전에 만든 채널을 선택합니다.
+
+   ![SMS 구성에서 선택한 채널을 표시했습니다](assets/filter-the-lines-sms-configuration-selected.png)
 
 
 
 ## 요약
 
-옵트아웃으로 인해 SMS 메시지로 타깃팅할 수 없는 모든 줄을 필터링하고 차원을 줄에서 계정으로 변경했으며 타깃팅이 허용된 사용자에 대한 SMS 활동을 추가했습니다.
+옵트아웃으로 인해 SMS 메시지로 타깃팅이 허용되지 않는 모든 줄을 필터링하고 줄에서 계정으로 차원을 변경했으며, 결국 타깃팅이 허용된 사람에 대한 SMS 활동을 성공적으로 구성했습니다.
+매우 중요한 것도 배웠으면 합니다. **타겟이 사용할 채널 구성과 일치해야 합니다**
