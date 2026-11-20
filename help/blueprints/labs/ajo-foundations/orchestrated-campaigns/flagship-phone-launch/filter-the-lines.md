@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![분할 조건 뒤에 차원 변경 활동을 추가합니다](assets/filter-the-lines-add-change-dimension-activity.png)
 
-2. 아래에 설명된 대로 변경 차원의 속성을 업데이트하고 **확인**을 클릭합니다.
+2. 아래에 설명된 대로 변경 차원의 속성을 업데이트하고 **확인**&#x200B;을 클릭합니다.
 레이블: `Convert Line to Account`
 새 대상 차원: `dep-rel: Customer Account`
 
