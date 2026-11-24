@@ -7,9 +7,9 @@ exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 4efa9da0ca6b73b4710a15a007712edcaa3ee867
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '424'
 ht-degree: 0%
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 
 
-3. 왼쪽 레일에서 **대상 특성** 옵션을 사용하여 아래 **phone\_make** 및 **phone\_model**(이)라는 메시지의 두 필드를 업데이트합니다.  완료되면 메시지가 스크린샷과 일치해야 합니다.
+3. 아래 **phone\_make** 및 **phone\_model**&#x200B;이라는 메시지의 두 필드를 왼쪽 레일에서 해당 **Target 특성** 옵션으로 바꿉니다.  완료되면 메시지가 아래 스크린샷과 일치해야 합니다. (변수 이름 지정 경로는 변수를 찾을 수 있는 위치를 알려 줍니다.)
 
    ![휴대폰 제조사 및 모델이 개인화된 최종 SMS 메시지](assets/compose-the-sms-final-message-text.png)
 

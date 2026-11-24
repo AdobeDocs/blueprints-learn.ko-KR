@@ -7,9 +7,9 @@ exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 7c7ee72676fd17a248694548fb59ea87c52a293c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## 목표
 
-다음 단계 세트에서는 테스트 모드에서 캠페인을 실행하여 캠페인을 게시하기 전에 캠페인 기능을 예상대로 확인합니다. 이 경우 테스트 모드는 이메일을 보내지는 않지만 전체 흐름을 확인하고 문제를 조기에 식별하는 데 도움이 됩니다.
+다음 단계 세트에서는 테스트 모드에서 캠페인을 실행하여 캠페인을 게시하기 전에 캠페인 기능이 예상대로 작동하는지 확인합니다. 이 경우 테스트 모드는 이메일을 보내지는 않지만 전체 흐름을 확인하고 문제를 조기에 식별하는 데 도움이 됩니다.
 
 ## 워크플로우 시작
 
-1. 두 개의 이메일 흐름이 구성되면 캠페인은 다음과 같이 표시됩니다. **테스트 모드**&#x200B;에서 캠페인을 실행하려면 **시작** 단추를 클릭하세요.
+1. 두 개의 이메일 흐름이 구성되면 캠페인은 다음과 같이 표시됩니다. 테스트 모드에서 캠페인을 실행하려면 **시작** 단추를 클릭하세요.
 
    ![테스트 모드에서 캠페인을 실행하려면 [시작]을 클릭하세요](assets/test-the-campaign-click-start-test-mode.png)
 
