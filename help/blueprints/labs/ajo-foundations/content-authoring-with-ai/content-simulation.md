@@ -7,9 +7,9 @@ exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: c0adb1eab9b0a1315e2041c1f2cb89a4bfdae4b2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '509'
 ht-degree: 0%
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 소개
 
-이 최종 모듈에서는 Adobe Journey Optimizer의 시뮬레이션 도구를 사용하여 **2개의 조건부 변형**&#x200B;으로 이메일을 테스트합니다.
+이 모듈에서는 Adobe Journey Optimizer의 시뮬레이션 도구를 사용하여 **2개의 조건부 변형**을 사용하여 전자 메일을 테스트합니다.
 이렇게 하면 다양한 고객이 개인화된 메시지를 어떻게 경험할지 미리 볼 수 있으므로 캠페인을 시작하기 전에 정확성을 확보할 수 있습니다.
 
 툴킷에서 샘플 테스트 프로필 파일 **sample.csv**&#x200B;을 사용합니다.
@@ -37,8 +37,7 @@ ht-degree: 0%
 ## 시뮬레이션 도구 열기
 
 1. 완료된 이메일을 엽니다.
-1. **콘텐츠 시뮬레이션**&#x200B;을 클릭합니다.
-1. **콘텐츠 변형 시뮬레이션**&#x200B;을 선택합니다.
+2. 이메일에서 **콘텐츠 시뮬레이션**&#x200B;을 클릭합니다.
 
 ![콘텐츠 시뮬레이션을 클릭하고 콘텐츠 변형 시뮬레이션을 선택합니다](assets/content-simulation-click-simulate-content-variation.png)
 
@@ -46,39 +45,42 @@ ht-degree: 0%
 
 ## 테스트 프로필 데이터 업로드
 
-1. 도구 키트 폴더에서 **sample.csv**&#x200B;을 엽니다.
-   - **Alex** → 40세 이상
-   - **Jason** → 40세 미만
-2. **입력 데이터 업로드**&#x200B;를 클릭합니다.
+1. 하단의 **업로드**&#x200B;를 클릭하여 입력 데이터를 업로드합니다.
 
-   ![시뮬레이션 패널의 입력 데이터 업로드 단추](assets/content-simulation-click-upload-input-data.png)
+   ![시뮬레이션 패널의 입력 데이터에 대한 업로드 단추](assets/content-simulation-click-upload-input-data.png)
 
 3. **sample.csv**&#x200B;을 선택하고 **계속**&#x200B;을 클릭합니다.
 
-![sample.csv 선택 및 계속 클릭](assets/content-simulation-choose-sample-csv-continue.png)
+   ![sample.csv 선택 및 열기 클릭](assets/content-simulation-choose-sample-csv-continue.png)
 
-AJO은 파일을 처리하고 미리 보기를 준비합니다.
+AJO은 파일을 처리하고 적시에 미리 보기를 준비합니다.
+![변형 미리 보기](assets/content-simulation-variation-previews.png)
 
 
 ## 변형 렌더링 검토
 
-AJO은 업로드된 프로필을 기반으로 두 변형을 나란히 표시합니다.
+이메일에서 콘텐츠 시뮬레이트 를 클릭하면 AJO에 업로드된 프로필을 기반으로 하는 변형이 나란히 표시됩니다.
 
 **예상 결과:**
 
 - **Alex** → **Variant 1**(40세 이상) 표시
+**변형 세부 정보를 표시**&#x200B;할 첫 번째 변형 위에 있는 연필 아이콘을 클릭합니다.
 
+![변형 세부 정보를 보려면 연필 아이콘 클릭](assets/content-simulation-click-pencil-icon.png)
+
+카드가 전환되어 개인화의 기반이 되는 세부 정보가 표시됩니다
 ![40세 이상의 Alex 프로필 렌더링 변형 1](assets/content-simulation-variant-1-age-above-40.png)
 
-위로 스크롤하면 아래에서 볼 수 있듯이 지금 이름이 인 개인화된 필드도 표시됩니다.
-
-![변형 1](assets/content-simulation-personalized-name-field-variant-1.png)의 Alex에 대해 표시된 개인 맞춤화된 이름 필드
-
 - **Jason** → **Variant 2**(40세 미만) 표시
+두 번째 변형 위에 있는 연필 아이콘을 클릭하여 **변형 세부 정보 표시**
 
-![40세 미만의 Jason 프로필 렌더링 변형 2](assets/content-simulation-variant-2-age-below-40.png)
+![변형 세부 정보를 보려면 연필 아이콘 클릭](assets/content-simulation-click-pencil-icon-for-second-variant.png)
 
-Jason의 풀네임도 포함해서요. 정말 멋지다!
+보기를 나란히 **세로 스택**(으)로 바꾸면 Jason의 세부 정보와 개인화를 나란히 볼 수 있습니다
+
+![40세 미만의 Jason 프로필 렌더링 변형 2](assets/content-simulation-swap-view-to-vertically-stacked.png)
+
+이메일 콘텐츠를 스크롤할 때 Jason의 전체 이름 및 선택한 조건부 콘텐츠 이미지를 볼 수 있습니다. 정말 멋지다!
 
 ![Variant 2의 Jason에 대한 개인 맞춤화된 전체 이름 필드 표시](assets/content-simulation-personalized-name-field-variant-2.png)
 

@@ -4,13 +4,11 @@ description: HTML을 가져오고 이전에 만든 헤더 조각을 삽입하여
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 0ba4d425f258e4c02e1563cdec2da1f815bfcc65
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '842'
 ht-degree: 0%
-
 ---
-
 
 # 콘텐츠 템플릿 작성 중
 
@@ -104,7 +102,7 @@ ht-degree: 0%
 
 ### 왼쪽 패널
 
-Adobe Journey Optimizer(AJO)의 &quot;**구조**&quot; 및 &quot;**콘텐츠**&quot; 구성 요소는 전자 메일, 랜딩 페이지 및 콘텐츠 조각을 디자인할 때 사용되는 필수 요소입니다. 구조는 레이아웃 프레임워크를 정의하는 반면 콘텐츠는 이러한 레이아웃 내부에 배치된 실제 빌딩 블록을 제공합니다.
+구성 요소 탭에서 Adobe Journey Optimizer(AJO)의 &quot;**구조**&quot; 및 &quot;**콘텐츠**&quot; 구성 요소는 전자 메일, 랜딩 페이지 및 콘텐츠 조각을 디자인할 때 사용되는 필수 요소입니다. 구조는 레이아웃 프레임워크를 정의하는 반면 콘텐츠는 이러한 레이아웃 내부에 배치된 실제 빌딩 블록을 제공합니다.
 
 Adobe Journey Optimizer의 본문 섹션은 이메일 또는 페이지 콘텐츠의 기본 컨테이너입니다. 모든 구조 구성 요소(열, 레이아웃)와 콘텐츠 구성 요소(텍스트, 이미지, 단추 등)가 있는 시각적 디자인 공간의 루트 역할을 합니다 중첩 상태입니다.
 

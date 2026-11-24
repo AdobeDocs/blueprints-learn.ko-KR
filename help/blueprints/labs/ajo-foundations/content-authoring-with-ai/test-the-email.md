@@ -7,9 +7,9 @@ exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: efdf51a410acd377a38ec73a9c71964a78320a0b
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. **콘텐츠 시뮬레이션**&#x200B;을 클릭합니다.
 2. **콘텐츠 변형 시뮬레이션**&#x200B;을 선택합니다.
 
-   ![콘텐츠 시뮬레이션을 클릭하고 콘텐츠 변형 시뮬레이션을 선택합니다](assets/content-simulation-click-simulate-content-variation.png)
+   ![콘텐츠 변형 시뮬레이트 클릭](assets/content-simulation-click-simulate-content-variation.png)
 
    시뮬레이션 패널이 열립니다.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 
 
-5. 두 변형을 모두 선택합니다.
+5. 처음 두 개의 변형을 선택합니다(세 번째는 대체).
 6. 제목 줄 접두사 추가
    1. 변형 1: 40 이상
    2. 변형 2: 40 미만

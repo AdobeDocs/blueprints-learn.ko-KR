@@ -7,9 +7,9 @@ exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: a9a9e6b1a44f5f104e0454ab52da01fb47db425e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1227'
 ht-degree: 0%
 ---
 
@@ -44,12 +44,12 @@ Adobe Journey Optimizer의 Personalization을 사용하면 개별 프로필, 동
 이 연습 부분은 개인화를 단순하게 유지합니다. 프로필을 기반으로 이메일에 이름과 성을 추가합니다. Personalization은 정의한 XDM 개인 프로필 스키마에서 관리하는 프로필 데이터를 기반으로 합니다. XDM 개인 프로필 스키마는 Journey Optimizer에서 콘텐츠를 개인화하는 데 사용할 수 있는 유일한 스키마입니다.
 
 1. 이전 모듈에서 만든 이메일을 엽니다.
-2. 다음 내용이 포함된 히어로 제목 위에 텍스트 블록을 추가합니다. **안녕하세요,**
+2. 제목 카피 바로 위에 영웅 제목 블록에 **&quot;안녕하세요, &quot;**&quot; 텍스트를 추가하십시오.
 3. **개인화** 아이콘을 클릭합니다.
 
    ![전자 메일 텍스트 도구 모음의 개인화 아이콘](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. **이름**&#x200B;**&#x200B;** 검색합니다.
+4. **이름**&#x200B;을 검색합니다.
 
    ![개인화 패널에서 이름 특성을 검색하는 중](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
@@ -116,13 +116,13 @@ Adobe Journey Optimizer의 다이내믹 콘텐츠를 사용하면 대상에 원�
    ![새 변형을 만들고 이름을 40세 미만으로 바꾸기](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
 5. &quot;20세 중반&quot;과 같은 프롬프트를 사용하여 Firefly을 사용하여 이미지를 생성할 수 있습니다. 그러나 시간을 절약하기 위해 툴킷에 &quot;**variant-age-below-40.jpg**&quot;이라는 이미지가 이미 있습니다.
-6. 이미지를 클릭하고 미디어를 가져옵니다.
+6. 이미지를 클릭하고 **자산을 선택**&#x200B;합니다.
 
-   ![40개 이하의 변형에 대한 이미지를 클릭하고 미디어를 가져옵니다](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![이미지를 클릭하고 40개 이하의 변형에 대한 에셋을 선택하세요](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-7. **variant-age-below-40.jpg** 이미지를 선택하십시오. **다음**&#x200B;을 클릭하여 가져온 다음 마지막으로 폴더의 **가져오기**&#x200B;를 누릅니다. 기본적으로 이미 폴더에 있어야 합니다.
+7. Assets 폴더에서 **variant-age-below-40.jpg** 이미지를 선택하고 **선택**&#x200B;을 클릭합니다.
 
-   ![variant-age-below-40.jpg 이미지 선택 및 가져오기](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![variant-age-below-40.jpg 이미지 선택 및 가져오기](assets/personalization-and-content-experimentation-select-below-40-image-from-assets.png)
 
 8. 변형 간을 전환해 보면 다른 이미지가 적용된 것을 볼 수 있습니다.
 

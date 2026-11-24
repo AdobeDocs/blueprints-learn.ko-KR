@@ -4,9 +4,9 @@ description: '이메일 디자인을 Adobe Journey Optimizer의 템플릿 간에
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -96,7 +96,13 @@ ht-degree: 0%
 
    ![이름과 성을 사용하여 새 자산 폴더의 이름 지정](assets/building-content-fragments-name-asset-folder.png)
 
-5. **새 조각 만들기:** 콘텐츠 관리에서 **조각**&#x200B;을 클릭하고 새 조각을 만듭니다.
+5. 새로 만든 폴더를 두 번 클릭하여 **열기**&#x200B;합니다. 그런 다음 **Assets 추가**&#x200B;를 클릭하고 툴킷 폴더에서 모든 .png 및 .jpg 이미지를 찾아보거나 삭제합니다. **업로드**&#x200B;를 클릭합니다.
+
+   ![자산 추가 및 이미지 파일 업로드](assets/building-content-fragments-add-assets-and-upload-image-files.png)
+
+   ![업로드 클릭](assets/building-content-fragments-click-upload.png)
+
+6. **새 조각 만들기:** 콘텐츠 관리에서 **조각**&#x200B;을 클릭하고 새 조각을 만듭니다.
 
    새 조각을 만드는 콘텐츠 관리의 ![조각 옵션](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -110,53 +116,47 @@ ht-degree: 0%
 
    ![헤더 조각 이름, 설명 및 시각적 조각 유형 필드](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. 오른쪽 상단의 **만들기 단추**&#x200B;를 클릭합니다.
+7. 오른쪽 상단의 **만들기 단추**&#x200B;를 클릭합니다.
 
    ![새 조각 대화 상자의 오른쪽 맨 위에 있는 만들기 단추](assets/building-content-fragments-click-create-button-top-right.png)
 
    빈 조각 생성자 화면이 열립니다.
 
-7. 구조 아래의 1:1 열 을 클릭하고 아래와 같이 캔버스를 드래그합니다. (애니메이션 그래픽을 보려면 아래 이미지를 클릭하십시오.)
+8. 왼쪽 열의 **구성 요소** 탭으로 이동합니다. 그런 다음 구조 아래의 **1:1 열**&#x200B;을 클릭하고 아래와 같이 캔버스를 드래그합니다. (애니메이션 그래픽을 보려면 아래 이미지를 클릭하십시오.)
 
-   ![1:1 열 구조를 조각 캔버스로 드래그하는 애니메이션 데모](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![1:1 열 구조를 조각 캔버스로 드래그](assets/building-content-fragments-drag-1-1-columns-structure.png)
 
-8. 그런 다음 방금 추가한 1:1 행에서 &quot;**image**&quot;을(를) 드래그합니다
+9. 그런 다음 방금 추가한 1:1 행에서 &quot;**image**&quot;을(를) 드래그합니다
 
    ![이미지 구성 요소를 1:1 행으로 드래그](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. 제공한 로고 이미지를 업로드합니다. **&quot;미디어 가져오기 단추&quot;**&#x200B;를 클릭합니다
+10. **&quot;찾아보기&quot;**&#x200B;를 클릭하여 제공한 로고 이미지와 이미 Assets에 업로드된 로고 이미지를 선택합니다.
 
-   ![로고 이미지를 업로드하기 위한 미디어 가져오기 단추](assets/building-content-fragments-click-import-media-button.png)
+![로고 이미지를 선택하려면 찾아보기 단추를 클릭하십시오](assets/building-content-fragments-click-browse-button.png)
 
-10. **로고 업로드:** 이미지의 도구 키트 폴더에서 로고(*C5G-Logo.png*)를 업로드하고 다음을 클릭합니다.
+11. 폴더로 이동하고 로고 이미지(*C5G-Logo.png*)를 클릭한 다음 **선택**&#x200B;을 클릭합니다.
 
-![업로드할 도구 키트 폴더에서 C5G-Logo.png 선택](assets/building-content-fragments-upload-logo-select-file.png)
+![Assets 폴더에서 C5G-Logo.png 선택](assets/building-content-fragments-select-logo-from-assets.png)
 
-![로고 업로드를 선택한 후 다음 클릭](assets/building-content-fragments-upload-logo-click-next.png)
+12. 로고는 바르게 배치되었지만, 로고가 너무 커서 크기를 조정해야 합니다. 로고 크기를 조정하려면 속성을 업데이트합니다. 오른쪽 열의 **스타일** 탭을 클릭하고 아래와 같이 슬라이더를 드래그하여 너비를 40%로 설정합니다.
 
-1. 만든 **자산 폴더**&#x200B;를 선택한 다음 **가져오기**&#x200B;를 클릭합니다. 파일이 폴더에 저장됩니다.
-
-   ![만든 자산 폴더를 선택하고 가져오기를 클릭합니다](assets/building-content-fragments-select-asset-folder-import.png)
-
-1. 로고는 바르게 배치되었지만, 로고가 너무 커서 크기를 조정해야 합니다. 로고 크기를 조정하려면 속성을 업데이트합니다. **스타일 탭**&#x200B;을 클릭하고 아래와 같이 슬라이더를 드래그하여 너비를 40%로 설정합니다.
-
-   >[!NOTE]
-   >
-   >전환 단추가 켜져 있으면 40개의 숫자는 픽셀이 아닌 %를 나타냅니다. 절대 픽셀 완전 값을 원하는 경우 버튼을 px로 전환합니다.
+>[!NOTE]
+>
+>전환 단추가 켜져 있으면 40개의 숫자는 픽셀이 아닌 %를 나타냅니다. 절대 픽셀 완전 값을 원하는 경우 버튼을 px로 전환합니다.
 
 
 
-   ![스타일 탭 너비 슬라이더를 40%로 설정하여 로고 크기 조정](assets/building-content-fragments-resize-logo-width-slider.png)
+![스타일 탭 너비 슬라이더를 40%로 설정하여 로고 크기 조정](assets/building-content-fragments-resize-logo-width-slider.png)
 
-1. **&quot;저장&quot;**&#x200B;을 클릭하면 조각이 저장됩니다. 확인 시 녹색 막대 알림이 표시됩니다.
+13. **&quot;저장&quot;**&#x200B;을 클릭하면 조각이 저장됩니다. 확인 시 녹색 막대 알림이 표시됩니다.
 
-   조각을 저장한 후 ![녹색 확인 막대](assets/building-content-fragments-save-fragment-confirmation.png)
+조각을 저장한 후 ![녹색 확인 막대](assets/building-content-fragments-save-fragment-confirmation.png)
 
-1. 저장된 조각이 초안 모드에 있습니다. 사용하기 전에 게시해야 합니다. **뒤로** 단추를 클릭합니다.
+14. 저장된 조각이 초안 모드에 있습니다. 사용하기 전에 게시해야 합니다. **뒤로** 단추를 클릭합니다.
 
-   ![게시하기 전에 초안 조각을 남기기 위한 뒤로 단추](assets/building-content-fragments-click-back-button-draft.png)
+![게시하기 전에 초안 조각을 남기기 위한 뒤로 단추](assets/building-content-fragments-click-back-button-draft.png)
 
-1. &quot;**게시**&quot; 단추를 클릭합니다. &quot;조각 게시 중. 시간이 걸릴 수 있습니다. 완료되면 알려 드리겠습니다.&quot; 확인 시. 조각을 템플릿 만들기에 사용할 준비가 되었습니다.
+15. &quot;**게시**&quot; 단추를 클릭합니다. &quot;조각 게시 중. 시간이 걸릴 수 있습니다. 완료되면 알려 드리겠습니다.&quot; 확인 시. 조각을 템플릿 만들기에 사용할 준비가 되었습니다.
 
 ![게시 단추 및 게시 조각 확인 메시지](assets/building-content-fragments-click-publish-fragment-button.png)
 
