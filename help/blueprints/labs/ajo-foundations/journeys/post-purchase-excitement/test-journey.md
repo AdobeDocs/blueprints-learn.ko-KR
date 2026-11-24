@@ -39,7 +39,7 @@ ht-degree: 0%
 
 5. **시뮬레이션**&#x200B;을 클릭한 다음 **테스트 모드**&#x200B;를 선택합니다.
 
-   ![시뮬레이트 ](assets/test-journey-select-test-mode.png) 누르기
+   ![시뮬레이트 &#x200B;](assets/test-journey-select-test-mode.png) 누르기
 
    ![팝업에서 테스트 모드 선택](assets/test-journey-select-test-mode-in-popup.png)
 
