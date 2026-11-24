@@ -7,9 +7,9 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43a7d8153e8ad7e24162b9bb6c0d5bbcea784330
+source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1311'
 ht-degree: 5%
 ---
 
@@ -91,19 +91,12 @@ AJO의 AI 지원은 보다 스마트한 온브랜드 콘텐츠를 구축하는 �
 
    >*iPhone 17 출시에 대한 대담하고 눈길을 끄는 헤드라인을 작성하십시오. 10단어 미만으로 유지*
 
-6. 텍스트 설정 을 클릭하여 톤 및 통신 전략을 변경합니다. 커뮤니케이션 전략을 **FOMO(누락의 우려)**, 언어를 **영어**, 음색을 **신나는**(으)로 변경하십시오. 다이얼을 축소하여 더 짧은 버전을 사용하십시오.
+6. 텍스트 설정 을 클릭하여 톤 및 통신 전략을 변경합니다. 커뮤니케이션 전략을 **FOMO(누락의 우려)**, 언어를 **영어**, 음색을 **신나는**(으)로 변경하십시오.
 
    ![FOMO 통신 전략과 흥미로운 톤을 선택한 텍스트 설정 패널](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
 7. **생성** 단추 클릭
-8. 최상의 버전을 검토하고 선택하십시오.
-9. 텍스트가 길면 슬라이더를 사용하여 **&quot;짧은 텍스트&quot;**&#x200B;을(를) 만들고 텍스트를 다시 생성합니다.
-
-
-
-   ![더 짧은 헤드라인을 다시 만드는 데 더 짧은 텍스트 슬라이더가 사용됨](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
-
-10. 텍스트가 마음에 들면 **선택**&#x200B;을 클릭하세요.
+8. 최상의 버전을 검토하고 **선택**
 
 ![생성된 영웅 제목 텍스트 선택](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -123,17 +116,17 @@ AJO의 AI 지원은 보다 스마트한 온브랜드 콘텐츠를 구축하는 �
 
    ![평가하기 전에 브랜드 지침을 사용하여 원본 콘텐츠를 자동으로 선택](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
 
-4. 예상대로 브랜드 지침을 위반하는 많은 오류가 표시됩니다. AI를 사용하여 수정할 수 있지만 이 경우 기존 자료를 수정하지 않습니다. 대신 그대로 두고 브랜드 표준에 완전히 부합하는 새로운 콘텐츠를 처음부터 만듭니다.
+4. 예상대로 브랜드 지침을 위반하는 많은 오류가 표시됩니다. AI를 사용하여 수정할 수 있지만 이 경우 이 자리 표시자 텍스트를 수정할 필요가 없습니다. 대신 설명에 대한 모든 새 컨텐츠를 입력할 수 있습니다.
 
    ![브랜드 가이드라인 위반을 보여주는 AI 평가 결과](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
-5. 아래 프롬프트에서 AI를 사용하여 생성된 새 단락을 사용하십시오. 아래 프롬프트를 사용하여 설명 텍스트에 동일한 방법을 사용할 수 있습니다.
+5. 아래 프롬프트를 사용하거나... 시간을 절약하기 위해 자리 표시자 텍스트를 아래에 제공된 준비된 단락으로 바꿀 수도 있습니다.
 
 프롬프트:
 
 >*새로운 iPhone 17에 대한 매력적인 제품 설명을 작성하십시오. 고급 카메라, 배터리 수명 및 성능과 같은 가장 인상적인 기능을 강조하십시오. 음색은 프리미엄, 신나고 이해하기 쉬운 색이어야 광범위한 관객이 사용할 수 있습니다. 3문장 미만으로 유지하세요.*
 
-시간을 절약하기 위해 텍스트가 이미 생성되었습니다. 텍스트를 가져오려면 아래에서 복사하여 붙여넣으십시오.
+준비된 단락:
 
 >iPhone 17™은 멋진 사진을 찍을 수 있는 고급 카메라, 하루 종일 지속되는 배터리 수명, 뛰어난 성능을 제공합니다. 이 혁신적인 경험을 놓치지 마십시오.
 
@@ -171,7 +164,7 @@ AI 이미지 생성으로 이동하기 전에 빌드할 수 있는 경험 유형
 
    ![이미지 참조 스타일에 대해 선택한 연결 5G 브랜드 지침](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
-3. 이미지 업로드 를 클릭합니다
+3. **이미지 업로드**&#x200B;를 클릭합니다.
 
    ![Firefly 참조 스타일 패널의 이미지 업로드 단추](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
@@ -186,43 +179,45 @@ AI 이미지 생성으로 이동하기 전에 빌드할 수 있는 경험 유형
 
 ## 이미지 설정 선택
 
-**이미지 설정** 선택:
+왼쪽 열을 아래로 스크롤하고 **추가 설정**&#x200B;을 클릭합니다.
+
+![더 많은 설정 선택](assets/ai-assistant-and-content-personalization-select-more-settings.png)
 
 1. 다음 설정을 선택합니다.
    - **비율:** 가로(4:3)
    - **콘텐츠 형식:** 사진
    - **색상 및 톤:** 멋진 톤
    - **조명:** 극적인 조명
-1. **생성** 단추 누르기
+
+2. **생성** 단추 누르기
 
 ![비율, 콘텐츠 형식 및 조명 포함 생성 전 Firefly 이미지 설정](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
+&#x200B;3. 오른쪽의 변형을 선택하여 확인하고 나중에 사용할 수 있도록 일부 즐겨찾기를 Assets 폴더에 **저장**&#x200B;합니다. 생성을 몇 번 더 클릭하여 더 많은 변형을 가져올 수도 있습니다.
 
-## 생성된 이미지 선택 및 삽입
+![변형을 살펴보고 몇 가지 저장](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-1. 생성된 모든 이미지를 확인하여 Firefly 결과를 검토합니다.
+![Assets 폴더에 저장](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-   ![Firefly에서 생성한 이미지 결과 검토](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
+&#x200B;4. 지금은 이미지 생성 인터페이스에서 **취소**&#x200B;하기만 하면 됩니다.
 
-2. 선택한 이미지를 보려면 **선택**&#x200B;을 클릭하세요.
 
-   ![원하는 생성된 Firefly 이미지 선택](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
-
-3. 업로드 모달을 입력하라는 메시지가 표시되면 **다음**&#x200B;을 클릭합니다.
-
-   ![다음을 클릭하라는 메시지를 표시하는 양식 업로드](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
-
-4. **가져오기**&#x200B;를 클릭합니다.
-
-![선택한 이미지를 삽입하기 위한 가져오기 단추](assets/ai-assistant-and-content-personalization-click-import-button.png)
 
 ## 블록 디자인 완료
 
-시간이 있는 경우 현대적으로 보이도록 둥근 테두리 반경 10을 적용합니다.
+1. 이메일 디자이너 인터페이스로 돌아가서 이미지 블록의 **찾아보기**&#x200B;를 클릭합니다.
 
-반복 및 변형을 몇 번 수행하면 최종 설계가 완성됩니다. 최종 레이아웃은 예제와 유사합니다.
+![이미지 블록에서 찾아보기 클릭](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+
+&#x200B;2. 변형 중 하나를 선택하고 **선택**&#x200B;을 클릭합니다.
+
+![변형 중 하나를 선택하십시오](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+
+&#x200B;3. 오른쪽 열의 **스타일** 탭을 선택하고 둥근 테두리 반경 10을 이미지에 적용합니다
 
 ![이미지 모서리가 둥근 최종 전자 메일 블록 디자인](assets/ai-assistant-and-content-personalization-final-block-design.png)
+
+반복 및 변형을 몇 번 수행하면 최종 설계가 완성됩니다. 최종 레이아웃은 위의 예제와 유사합니다.
 
 이 시점에서 AI를 사용하여 콘텐츠 생성을 가속화하고 향상할 수 있다는 자신감을 느껴야 합니다.
 

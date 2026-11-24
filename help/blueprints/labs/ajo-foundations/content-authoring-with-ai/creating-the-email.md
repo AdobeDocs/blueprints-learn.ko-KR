@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
+source-git-commit: 8a0e198d205b9003fa61cf555debc6c20585b70a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '656'
 ht-degree: 0%
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    ![여정 관리에서 캠페인 만들기 단추](assets/creating-the-email-click-create-campaign-button.png)
 
-3. &quot;**오케스트레이션 - 마케팅**&quot;을(를) 선택하고 **확인**&#x200B;을 클릭합니다.
+3. &quot;**오케스트레이션 마케팅 및 트랜잭션**&quot;을(를) 선택하고 **확인**&#x200B;을(를) 클릭합니다
 
    ![오케스트레이션 선택 - 마케팅 및 확인 클릭](assets/creating-the-email-select-orchestration-marketing.png)
 
@@ -107,19 +107,15 @@ ht-degree: 0%
 
    ![이미지에서 임시 소스 URL 제거](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. **미디어 가져오기**&#x200B;를 클릭합니다
+3. **자산 선택**&#x200B;을 클릭합니다.
 
-   ![영웅 이미지에 대한 미디어 가져오기 단추](assets/creating-the-email-click-import-media.png)
+   ![영웅 이미지에 대한 자산 단추 선택](assets/creating-the-email-click-import-media.png)
 
-4. 도구 키트에서 `hero.png`을(를) 업로드합니다. (파일을 드래그할 수 있습니다)
+4. 폴더에서 `hero.png`을(를) 선택하고 **선택**&#x200B;을(를) 클릭합니다.
 
-   ![도구 키트 폴더에서 hero.png 업로드](assets/creating-the-email-upload-hero-png-file.png)
+   ![Assets 폴더에서 hero.png 선택](assets/creating-the-email-select-hero-png-file.png)
 
-5. **다음,**&#x200B;**에셋에 대한 폴더 선택** 및 **가져오기** 누르기
-
-   ![자산 폴더를 선택하고 대표 이미지 가져오기를 클릭합니다](assets/creating-the-email-select-folder-import-hero.png)
-
-6. 이메일 템플릿이 정상적으로 준비 중입니다. 다음과 같이 표시됩니다. 작업을 저장하려면 **&quot;저장&quot;**&#x200B;을 클릭합니다.
+5. 이메일 템플릿이 정상적으로 준비 중입니다. 다음과 같이 표시됩니다. 작업을 저장하려면 **&quot;저장&quot;**&#x200B;을 클릭합니다.
 
 ![저장하기 전에 새 영웅 이미지로 전자 메일 템플릿을 업데이트했습니다](assets/creating-the-email-save-updated-email-template.png)
 
@@ -128,7 +124,7 @@ ht-degree: 0%
 
 ### 제품 이미지 바꾸기
 
-계속해서 모든 제품 이미지(toolkit 폴더에 제공된 이미지)를 업데이트하고 둥근 테두리를 원하는 대로 추가합니다. 아래와 같이 끊어진 링크가 없는 이메일이 더 좋아 보입니다. 모든 제품 카드에 대해 이 과정을 반복합니다.
+계속해서 모든 제품 이미지(이미지가 툴킷 폴더에 제공되면 Assets에 업로드됨)를 업데이트하고 둥근 테두리를 원하는 대로 추가합니다. 아래와 같이 끊어진 링크가 없는 이메일이 더 좋아 보입니다. 모든 제품 카드에 대해 이 과정을 반복합니다.
 
 ![모든 제품 이미지를 업데이트하고 끊어진 링크가 없는 전자 메일](assets/creating-the-email-product-images-updated-no-broken-links.png)
 
