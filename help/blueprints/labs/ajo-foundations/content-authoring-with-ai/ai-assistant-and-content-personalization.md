@@ -193,13 +193,13 @@ AI 이미지 생성으로 이동하기 전에 빌드할 수 있는 경험 유형
 
 ![비율, 콘텐츠 형식 및 조명 포함 생성 전 Firefly 이미지 설정](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-3. 오른쪽의 변형을 선택하여 확인하고 나중에 사용할 수 있도록 일부 즐겨찾기를 Assets 폴더에 **저장**&#x200B;합니다. 생성을 몇 번 더 클릭하여 더 많은 변형을 가져올 수도 있습니다.
+&#x200B;3. 오른쪽의 변형을 선택하여 확인하고 나중에 사용할 수 있도록 일부 즐겨찾기를 Assets 폴더에 **저장**&#x200B;합니다. 생성을 몇 번 더 클릭하여 더 많은 변형을 가져올 수도 있습니다.
 
 ![변형을 살펴보고 몇 가지 저장](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
 ![Assets 폴더에 저장](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-4. 지금은 이미지 생성 인터페이스에서 **취소**&#x200B;하기만 하면 됩니다.
+&#x200B;4. 지금은 이미지 생성 인터페이스에서 **취소**&#x200B;하기만 하면 됩니다.
 
 
 
@@ -209,11 +209,11 @@ AI 이미지 생성으로 이동하기 전에 빌드할 수 있는 경험 유형
 
 ![이미지 블록에서 찾아보기 클릭](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-2. 변형 중 하나를 선택하고 **선택**&#x200B;을 클릭합니다.
+&#x200B;2. 변형 중 하나를 선택하고 **선택**&#x200B;을 클릭합니다.
 
 ![변형 중 하나를 선택하십시오](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-3. 오른쪽 열의 **스타일** 탭을 선택하고 둥근 테두리 반경 10을 이미지에 적용합니다
+&#x200B;3. 오른쪽 열의 **스타일** 탭을 선택하고 둥근 테두리 반경 10을 이미지에 적용합니다
 
 ![이미지 모서리가 둥근 최종 전자 메일 블록 디자인](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
