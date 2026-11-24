@@ -7,7 +7,7 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    ![여정의 유효성을 검사하려면 클릭하세요](assets/test-journey-click-validate.png)
 
-&#x200B;5. **경고**&#x200B;를 클릭하고 오류가 없는지 확인합니다(경고는 괜찮음).
+4. **경고**&#x200B;를 클릭하고 오류가 없는지 확인합니다(경고는 괜찮음).
 
    ![여정을 연 후 오류를 표시하지 않는 경고 패널](assets/test-journey-alerts-no-errors.png)
 
@@ -37,9 +37,9 @@ ht-degree: 0%
    >
    >이메일 변형에 옵트아웃 링크가 누락되었음을 나타냅니다.
 
-&#x200B;6. **시뮬레이션**&#x200B;을 클릭한 다음 **테스트 모드**&#x200B;를 선택합니다.
+5. **시뮬레이션**&#x200B;을 클릭한 다음 **테스트 모드**&#x200B;를 선택합니다.
 
-   ![시뮬레이트 &#x200B;](assets/test-journey-select-test-mode.png) 누르기
+   ![시뮬레이트 ](assets/test-journey-select-test-mode.png) 누르기
 
    ![팝업에서 테스트 모드 선택](assets/test-journey-select-test-mode-in-popup.png)
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 
 
-&#x200B;7. 왼쪽의 **이벤트 트리거**&#x200B;를 클릭하고 다음 속성을 채우십시오.
+6. 왼쪽의 **이벤트 트리거**&#x200B;를 클릭하고 다음 속성을 채우십시오.
    - **이벤트 유형**: `orders.shipped`
    - **개인 전자 메일**: `henry.creel@emailsim.io`
    - **주문 ID**: `123`
-&#x200B;8. **보내기**&#x200B;를 클릭합니다(보내기 클릭 후 응답하는 데 몇 초 정도 소요됨).
+7. **보내기**&#x200B;를 클릭합니다(보내기 클릭 후 응답하는 데 몇 초 정도 소요됨).
 
    ![이벤트 양식을 작성하고 클릭하여 보내기](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 
 
-&#x200B;9. **결과** -> 왼쪽의 **로그 표시**&#x200B;를 클릭합니다.
+8. **결과** -> 왼쪽의 **로그 표시**&#x200B;를 클릭합니다.
 
 ![테스트 이벤트를 트리거한 후 결과 아래의 로그 옵션 표시](assets/test-journey-show-log-results.png)
 
