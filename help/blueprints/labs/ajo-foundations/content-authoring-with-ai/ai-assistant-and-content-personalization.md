@@ -7,7 +7,7 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 5%
@@ -191,31 +191,29 @@ AI 이미지 생성으로 이동하기 전에 빌드할 수 있는 경험 유형
 
 2. **생성** 단추 누르기
 
-![비율, 콘텐츠 형식 및 조명 포함 생성 전 Firefly 이미지 설정](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
+   ![비율, 콘텐츠 형식 및 조명 포함 생성 전 Firefly 이미지 설정](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-&#x200B;3. 오른쪽의 변형을 선택하여 확인하고 나중에 사용할 수 있도록 일부 즐겨찾기를 Assets 폴더에 **저장**&#x200B;합니다. 생성을 몇 번 더 클릭하여 더 많은 변형을 가져올 수도 있습니다.
+3. 오른쪽의 변형을 선택하여 확인하고 나중에 사용할 수 있도록 일부 즐겨찾기를 Assets 폴더에 **저장**&#x200B;합니다. 생성을 몇 번 더 클릭하여 더 많은 변형을 가져올 수도 있습니다.
 
-![변형을 살펴보고 몇 가지 저장](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+   ![변형을 살펴보고 몇 가지 저장](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-![Assets 폴더에 저장](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
+   ![Assets 폴더에 저장](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-&#x200B;4. 지금은 이미지 생성 인터페이스에서 **취소**&#x200B;하기만 하면 됩니다.
-
-
+4. 지금은 이미지 생성 인터페이스에서 **취소**&#x200B;하기만 하면 됩니다.
 
 ## 블록 디자인 완료
 
 1. 이메일 디자이너 인터페이스로 돌아가서 이미지 블록의 **찾아보기**&#x200B;를 클릭합니다.
 
-![이미지 블록에서 찾아보기 클릭](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+   ![이미지 블록에서 찾아보기 클릭](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-&#x200B;2. 변형 중 하나를 선택하고 **선택**&#x200B;을 클릭합니다.
+2. 변형 중 하나를 선택하고 **선택**&#x200B;을 클릭합니다.
 
-![변형 중 하나를 선택하십시오](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+   ![변형 중 하나를 선택하십시오](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-&#x200B;3. 오른쪽 열의 **스타일** 탭을 선택하고 둥근 테두리 반경 10을 이미지에 적용합니다
+3. 오른쪽 열의 **스타일** 탭을 선택하고 둥근 테두리 반경 10을 이미지에 적용합니다
 
-![이미지 모서리가 둥근 최종 전자 메일 블록 디자인](assets/ai-assistant-and-content-personalization-final-block-design.png)
+   ![이미지 모서리가 둥근 최종 전자 메일 블록 디자인](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 반복 및 변형을 몇 번 수행하면 최종 설계가 완성됩니다. 최종 레이아웃은 위의 예제와 유사합니다.
 

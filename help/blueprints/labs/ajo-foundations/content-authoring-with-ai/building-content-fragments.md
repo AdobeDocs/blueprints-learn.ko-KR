@@ -4,7 +4,7 @@ description: '이메일 디자인을 Adobe Journey Optimizer의 템플릿 간에
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -132,33 +132,31 @@ ht-degree: 0%
 
 10. **&quot;찾아보기&quot;**&#x200B;를 클릭하여 제공한 로고 이미지와 이미 Assets에 업로드된 로고 이미지를 선택합니다.
 
-![로고 이미지를 선택하려면 찾아보기 단추를 클릭하십시오](assets/building-content-fragments-click-browse-button.png)
+    ![로고 이미지를 선택하려면 찾아보기 단추를 클릭하십시오](assets/building-content-fragments-click-browse-button.png)
 
-&#x200B;11. 폴더로 이동하고 로고 이미지(*C5G-Logo.png*)를 클릭한 다음 **선택**&#x200B;을 클릭합니다.
+11. 폴더로 이동하고 로고 이미지(*C5G-Logo.png*)를 클릭한 다음 **선택**&#x200B;을 클릭합니다.
 
-![Assets 폴더에서 C5G-Logo.png 선택](assets/building-content-fragments-select-logo-from-assets.png)
+    ![Assets 폴더에서 C5G-Logo.png 선택](assets/building-content-fragments-select-logo-from-assets.png)
 
-&#x200B;12. 로고는 바르게 배치되었지만, 로고가 너무 커서 크기를 조정해야 합니다. 로고 크기를 조정하려면 속성을 업데이트합니다. 오른쪽 열의 **스타일** 탭을 클릭하고 아래와 같이 슬라이더를 드래그하여 너비를 40%로 설정합니다.
+12. 로고는 바르게 배치되었지만, 로고가 너무 커서 크기를 조정해야 합니다. 로고 크기를 조정하려면 속성을 업데이트합니다. 오른쪽 열의 **스타일** 탭을 클릭하고 아래와 같이 슬라이더를 드래그하여 너비를 40%로 설정합니다.
 
->[!NOTE]
->
->전환 단추가 켜져 있으면 40개의 숫자는 픽셀이 아닌 %를 나타냅니다. 절대 픽셀 완전 값을 원하는 경우 버튼을 px로 전환합니다.
+    >[!NOTE]
+    >
+    >전환 단추가 켜져 있으면 40개의 숫자는 픽셀이 아닌 %를 나타냅니다. 절대 픽셀 완전 값을 원하는 경우 버튼을 px로 전환합니다.
 
+    ![스타일 탭 너비 슬라이더를 40%로 설정하여 로고 크기 조정](assets/building-content-fragments-resize-logo-width-slider.png)
 
+13. **&quot;저장&quot;**&#x200B;을 클릭하면 조각이 저장됩니다. 확인 시 녹색 막대 알림이 표시됩니다.
 
-![스타일 탭 너비 슬라이더를 40%로 설정하여 로고 크기 조정](assets/building-content-fragments-resize-logo-width-slider.png)
+    조각을 저장한 후 ![녹색 확인 막대](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;13. **&quot;저장&quot;**&#x200B;을 클릭하면 조각이 저장됩니다. 확인 시 녹색 막대 알림이 표시됩니다.
+14. 저장된 조각이 초안 모드에 있습니다. 사용하기 전에 게시해야 합니다. **뒤로** 단추를 클릭합니다.
 
-조각을 저장한 후 ![녹색 확인 막대](assets/building-content-fragments-save-fragment-confirmation.png)
+    ![게시하기 전에 초안 조각을 남기기 위한 뒤로 단추](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;14. 저장된 조각이 초안 모드에 있습니다. 사용하기 전에 게시해야 합니다. **뒤로** 단추를 클릭합니다.
+15. &quot;**게시**&quot; 단추를 클릭합니다. &quot;조각 게시 중. 시간이 걸릴 수 있습니다. 완료되면 알려 드리겠습니다.&quot; 확인 시. 조각을 템플릿 만들기에 사용할 준비가 되었습니다.
 
-![게시하기 전에 초안 조각을 남기기 위한 뒤로 단추](assets/building-content-fragments-click-back-button-draft.png)
-
-&#x200B;15. &quot;**게시**&quot; 단추를 클릭합니다. &quot;조각 게시 중. 시간이 걸릴 수 있습니다. 완료되면 알려 드리겠습니다.&quot; 확인 시. 조각을 템플릿 만들기에 사용할 준비가 되었습니다.
-
-![게시 단추 및 게시 조각 확인 메시지](assets/building-content-fragments-click-publish-fragment-button.png)
+    ![게시 단추 및 게시 조각 확인 메시지](assets/building-content-fragments-click-publish-fragment-button.png)
 
 **&quot;Live&quot;**(으)로 상태가 변경되었습니다. 이 시점에서 다음 단계에서 사용되는 헤더 조각 빌드를 완료했습니다.
 
