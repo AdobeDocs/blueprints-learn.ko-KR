@@ -7,9 +7,9 @@ exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 89f451f2f0a0f078cd46a76bd7775cad1c11b46b
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1409'
 ht-degree: 0%
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 - PDF에서 브랜드 가이드라인 정보를 업로드하고 추출합니다.
 - 브랜드 정보, 작성 스타일 및 시각적 컨텐츠 탭에서 브랜드 세부 사항을 검토하고 세분화합니다.
 - 이메일 버튼 복사가 푸시되지 않도록 제외 규칙을 추가합니다.
-- 템플릿, 조각, AI Assistant 및 브랜드 정렬에 사용할 수 있도록 브랜드를 게시합니다.
+- 템플릿, 조각, AI 및 브랜드 정렬에 사용할 수 있도록 브랜드를 게시합니다.
 
 파일 다운로드 — [toolkit.zip](assets/toolkit.zip)
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizer의 **브랜드** 기능을 사용하면 모든 마케팅
 
 ![브랜드 색조, 구문 및 법적 규칙을 정의하는 작성 스타일 탭](assets/brand-management-writing-style-tab.png)
 
-자연어로 규칙을 추가하고 세분화할 수 있으며, 이메일 또는 SMS와 같은 특정 채널에만 규칙을 적용할 수도 있습니다. 이를 통해 AI Assistant 및 콘텐츠 작성자가 작성하는 방법을 유연하지만 정확하게 제어할 수 있습니다.
+자연어로 규칙을 추가하고 세분화할 수 있으며, 이메일 또는 SMS와 같은 특정 채널에만 규칙을 적용할 수도 있습니다. 이를 통해 AI 및 콘텐츠 작성자가 작성하는 방법을 유연하면서도 정확하게 제어할 수 있습니다.
 
 ### 시각적 콘텐츠
 
@@ -223,9 +223,9 @@ Adobe Journey Optimizer의 **브랜드** 기능을 사용하면 모든 마케팅
 
 7. **저장**&#x200B;을 클릭합니다.
 
-이 규칙은 AI Assistant 또는 작성자가 이메일 버튼 복사 작업을 하는 모든 곳에 적용되며, CTA를 연결 5G 톤과 일치시킵니다.
+이 규칙은 AI 또는 작성자가 이메일 버튼 복사에서 작업할 때마다 적용되며 CTA를 연결 5G 색조와 일치시킵니다.
 
-![AI Assistant 및 작성자에 대해 전자 메일 단추 제외 규칙이 적용됨](assets/brand-management-email-button-exclusion-rule-applied.png)
+AI 및 작성자에 대해 ![전자 메일 단추 제외 규칙이 적용됨](assets/brand-management-email-button-exclusion-rule-applied.png)
 
 >[!NOTE]
 >
@@ -264,6 +264,6 @@ Adobe Journey Optimizer의 **브랜드** 기능을 사용하면 모든 마케팅
 - 브랜드 지침 파일을 업로드하고 AJO에서 주요 정보를 추출할 수 있도록 했습니다.
 - 브랜드, 작성 스타일 및 시각적 컨텐츠 탭에 대한 내용을 검토하고 개선했습니다.
 - 이메일 버튼이 푸시되지 않도록 특정 제외 규칙을 추가했습니다.
-- AI 도우미, 브랜드 정렬, 템플릿 및 조각을 작동할 수 있도록 브랜드를 게시했습니다.
+- AI, 브랜드 정렬, 템플릿 및 조각을 작동할 수 있도록 브랜드를 게시했습니다.
 
 이제 완전히 구성되고 게시된 **Connection 5G** 브랜드 프로필이 있으며, 이 프로필은 나머지 실험실에서 모든 콘텐츠를 브랜드에 유지하는 데 사용됩니다.

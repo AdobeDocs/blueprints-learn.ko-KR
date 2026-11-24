@@ -1,27 +1,27 @@
 ---
-title: AI 지원 및 콘텐츠 개인화
-description: Adobe Journey Optimizer의 AI Assistant를 사용하여 브랜드 내 제목 줄을 생성하고, 이메일 사본과 색조를 세분화하고, 이메일 디자이너 내에서 Firefly에서 생성한 이미지를 생성할 수 있습니다.
+title: AI 지원 콘텐츠 개인화
+description: Adobe Journey Optimizer의 AI를 사용하여 브랜드 내 제목을 생성하고, 이메일 사본과 색조를 세분화하고, 이메일 디자이너 내에서 Firefly에서 생성한 이미지를 만듭니다.
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43a7d8153e8ad7e24162b9bb6c0d5bbcea784330
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1322'
 ht-degree: 5%
 ---
 
-# AI 지원 및 콘텐츠 개인화
+# AI 지원 콘텐츠 개인화
 
-**목적:** Adobe Journey Optimizer의 AI Assistant를 사용하여 제목 줄을 생성하고, 이메일 텍스트를 세분화하고, 색조를 조정하고, 이메일 디자이너 내에서 직접 브랜드에 맞는 Firefly 이미지를 만드는 방법을 알아봅니다.
+**목적:** Adobe Journey Optimizer의 AI를 사용하여 제목 줄을 생성하고, 전자 메일 텍스트를 세분화하고, 색조를 조정하고, 전자 메일 디자이너 내에서 직접 브랜드의 Firefly 이미지를 만드는 방법을 알아봅니다.
 
 ## 학습 목표
 
 이 단원을 마치면 다음과 같은 작업을 수행할 수 있습니다.
 
-1. AI Assistant를 사용하여 제목 줄과 사전 헤더를 생성합니다.
+1. AI를 사용하여 제목 줄과 사전 헤더를 생성합니다.
 1. 영웅 텍스트, 설명, 색조 및 메시지를 세분화합니다.
 1. AI 기반 언어 변경, 요약 및 색조 조정을 적용합니다.
 1. 참조 스타일 및 브랜드 설정으로 Adobe Firefly을 사용하여 이미지를 생성합니다.
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## 소개
 
-AJO의 AI Assistant를 통해 보다 스마트하고 브랜드에 있는 콘텐츠를 빌드할 수 있습니다.
+AJO의 AI 지원은 보다 스마트한 온브랜드 콘텐츠를 구축하는 데 도움이 됩니다.
 다음과 같은 작업을 수행할 수 있습니다.
 
 - 제목 줄 생성
@@ -38,21 +38,21 @@ AJO의 AI Assistant를 통해 보다 스마트하고 브랜드에 있는 콘텐�
 - Firefly을 사용하여 브랜드 이미지 만들기
 - 모든 것이 연결 5G 지침에 부합하는지 확인합니다.
 
-이 연습에서는 AI Assistant를 사용하여 만든 이메일을 개선합니다.
+이 연습에서는 AI를 사용하여 만든 이메일을 개선합니다.
 
 >[!NOTE]
 >
->AI 도우미는 **비결정적**&#x200B;입니다. 즉, 사용할 때마다 약간 다른 콘텐츠를 생성할 수 있습니다. 연습 중에 표시되는 내용은 이 안내서의 스크린샷이나 예와 정확히 일치하지 않을 수 있습니다. 괜찮습니다. 동일한 결과를 기대하기보다는 프로세스와 개념을 학습하는 데 집중하십시오.
+>AI는 **비결정적**&#x200B;입니다. 즉, 사용할 때마다 약간 다른 콘텐츠를 생성할 수 있습니다. 연습 중에 표시되는 내용은 이 안내서의 스크린샷이나 예와 정확히 일치하지 않을 수 있습니다. 괜찮습니다. 동일한 결과를 기대하기보다는 프로세스와 개념을 학습하는 데 집중하십시오.
 
-## AI Assistant를 사용하여 이메일 제목 줄 만들기
+## AI를 사용하여 이메일 제목 줄 만들기
 
 1. [뒤로] 단추를 클릭하여 Campaign으로 돌아가거나 이전 모듈에서 만든 이메일을 편집합니다. 이전 단계에서 오른쪽의 **설정** 탭을 클릭할 수 있습니다.
 2. 이메일 컨테이너 > 이메일 편집 버튼을 클릭합니다.
 3. 콘텐츠 탭을 클릭한 다음 이메일 본문을 클릭합니다.
 4. **제목 줄** 필드를 선택합니다.
-5. **AI Assistant 아이콘**&#x200B;을 클릭합니다. (아래 참조)
+5. **AI 아이콘**&#x200B;을 클릭합니다. (아래 참조)
 
-   제목 줄 필드 도구 모음의 ![AI 길잡이 아이콘](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   제목 줄 필드 도구 모음의 ![AI 아이콘](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. 브랜드 가이드라인이 기본적으로 선택되어 있습니다.
 7. 프롬프트를 입력합니다.
@@ -63,7 +63,7 @@ AJO의 AI Assistant를 통해 보다 스마트하고 브랜드에 있는 콘텐�
 9. 생성된 4개의 변형을 검토합니다.
 10. 맞춤 점수가 가장 좋은 변형을 선택하고 **선택**&#x200B;을 클릭합니다.
 
-![AI Assistant에서 가장 잘 정렬된 제목 줄 변형 선택](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
+![AI에서 가장 잘 정렬된 제목 줄 변형 선택](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
 >[!NOTE]
 >
@@ -79,13 +79,13 @@ AJO의 AI Assistant를 통해 보다 스마트하고 브랜드에 있는 콘텐�
    ![Campaign 편집기의 전자 메일 본문 편집 단추](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
 2. **제품 캐치라인** 제목을 클릭합니다.
-3. **텍스트 생성 및 선택**&#x200B;을 클릭하여 AI Assistant를 엽니다.
+3. **텍스트 생성 및 선택**&#x200B;을 클릭하여 AI 지원을 시작합니다.
 
-   ![AI Assistant를 여는 텍스트 옵션 생성 및 선택](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
+   ![AI를 여는 텍스트 옵션 생성 및 선택](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
 4. 드롭다운에서 **연결 5G 브랜드 지침**&#x200B;을 선택합니다.
 
-   ![AI Assistant 드롭다운에서 선택한 연결 5G 브랜드 지침 옵션](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
+   ![AI 드롭다운에서 선택한 연결 5G 브랜드 지침 옵션](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
 
 5. 프롬프트:
 
@@ -117,7 +117,7 @@ AJO의 AI Assistant를 통해 보다 스마트하고 브랜드에 있는 콘텐�
 
 2. 아래 표시된 대로 평가 버튼을 클릭합니다.
 
-   ![AI Assistant 텍스트 패널의 평가 단추](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+   ![AI 텍스트 패널의 평가 단추](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
 3. 아래 1~2단계에 표시된 대로 원래 콘텐츠가 브랜드와 함께 자동으로 선택됩니다. 계속하려면 **평가** 단추를 클릭하십시오.
 
@@ -125,7 +125,7 @@ AJO의 AI Assistant를 통해 보다 스마트하고 브랜드에 있는 콘텐�
 
 4. 예상대로 브랜드 지침을 위반하는 많은 오류가 표시됩니다. AI를 사용하여 수정할 수 있지만 이 경우 기존 자료를 수정하지 않습니다. 대신 그대로 두고 브랜드 표준에 완전히 부합하는 새로운 콘텐츠를 처음부터 만듭니다.
 
-   ![브랜드 지침 위반을 보여 주는 AI Assistant 평가 결과](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+   ![브랜드 가이드라인 위반을 보여주는 AI 평가 결과](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
 5. 아래 프롬프트에서 AI를 사용하여 생성된 새 단락을 사용하십시오. 아래 프롬프트를 사용하여 설명 텍스트에 동일한 방법을 사용할 수 있습니다.
 
@@ -146,7 +146,7 @@ AJO의 AI Assistant를 통해 보다 스마트하고 브랜드에 있는 콘텐�
 
 ## Firefly 생성 이미지 추가
 
-지금까지 제목 줄 및 텍스트에서 AI Assistant를 테스트했습니다. 이미지는요?
+지금까지 제목 줄 및 텍스트에서 AI를 테스트했습니다. 이미지는요?
 
 AI 이미지 생성으로 이동하기 전에 빌드할 수 있는 경험 유형을 살펴보십시오.
 
@@ -228,7 +228,7 @@ AI 이미지 생성으로 이동하기 전에 빌드할 수 있는 경험 유형
 
 ## 요약
 
-AI Assistant를 사용하여 다음과 같은 작업을 수행했습니다.
+AI를 사용하여 다음을 수행할 수 있습니다.
 
 - 제목 줄 생성
 - 영웅 텍스트 세분화

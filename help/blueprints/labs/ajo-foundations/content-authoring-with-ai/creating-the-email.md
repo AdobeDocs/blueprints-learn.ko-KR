@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 0%
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    ![도구 키트 폴더에서 hero.png 업로드](assets/creating-the-email-upload-hero-png-file.png)
 
-5. **다음,**&#x200B;**에셋에 대한 폴더 선택** 및 **가져오기** 누르기
+5. **다음,****에셋에 대한 폴더 선택** 및 **가져오기** 누르기
 
    ![자산 폴더를 선택하고 대표 이미지 가져오기를 클릭합니다](assets/creating-the-email-select-folder-import-hero.png)
 
@@ -140,4 +140,4 @@ ht-degree: 0%
 - 업데이트된 영웅 및 제품 이미지
 - 향상된 스타일
 
-이제 다음 모듈(**AI 도우미 및 콘텐츠 개인화**)로 이동하여 AI를 사용하여 텍스트를 세분화하고 이미지를 자동으로 생성할 준비가 되었습니다.
+이제 다음 모듈(**AI 지원 콘텐츠 개인화**)로 이동하여 AI를 사용하여 텍스트를 세분화하고 이미지를 자동으로 생성할 준비가 되었습니다.
